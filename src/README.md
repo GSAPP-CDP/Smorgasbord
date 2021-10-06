@@ -37,4 +37,4 @@ The site is created in NUXT.js. If you'd like to develop locally, so that you ca
 
 `npm run dev` or `yarn dev`
 
-
+The site will be hosted at `http://localhost:3000`.
