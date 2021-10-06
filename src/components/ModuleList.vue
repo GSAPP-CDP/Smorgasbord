@@ -1,29 +1,32 @@
 <!-- Please remove this file from your project -->
 <template>
   <div>
-    Smorgasbord
+    Smorgasbord Index
+    <ul v-for="module in modules">
+      <li><a :href="module.path">{{module.title}}</a></li>
+    </ul>
   </div>
 </template>
 
 <style scoped>
-
-.slowpage {
-  width: 800px;
-  height: 600px;
-  border: 2px solid #3476DF;
-  border-radius: 5px;
-}
 
 </style>
 
 <script>
 
 export default {
-
   data() {
     return {
-    }
+      modules: [],
+    };
   },
-
+  async fetch() {
+    var modules = await this.$content('modules', { deep: true })
+      .fetch()
+      .catch((err) => {
+        error({ statusCode: 404, message: 'Page not found' })
+      })
+    this.modules = modules;
+  },
 }
 </script>

@@ -1,5 +1,7 @@
 <template>
-  <img :src="imgSrc()" :alt="alt" />
+  <div>
+    <img :src="imgSrc()" :alt="alt" />
+  </div>
 </template>
 
 <script>
@@ -16,8 +18,8 @@ export default {
     }
   },
   computed: {
-    thisPath() {
-      return this.$route.params.pathMatch;
+    thisDir() {
+      return this.$route.params.pathMatch.split("/")[0];
     }
   },
   methods: {
@@ -29,7 +31,7 @@ export default {
           srchash = "#" + this.src.split("#")[1];
         }
         
-        return require(`~/content/modules/${this.thisPath}${srconly}`) + srchash;
+        return require(`~/content/modules/${this.thisDir}/${srconly}`) + srchash;
       } catch (error) {
         return null
       }
