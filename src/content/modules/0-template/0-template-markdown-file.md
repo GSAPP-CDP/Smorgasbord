@@ -1,7 +1,6 @@
 ---
-title: Grasshopper as Tool-making Medium
-date: 2021-10-06 11:28
 moduleid: 0
+title: Grasshopper as Tool-making Medium
 published: True
 ---
 # Sequence: Grasshopper as Tool-making Medium
