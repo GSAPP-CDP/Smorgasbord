@@ -1,0 +1,16 @@
+[
+  {
+    "name": "post-all",
+    "path": "/post/*",
+    "component": "/Users/provolot/github/smorgasbord/src/pages/post/_.vue",
+    "chunkName": "pages/post/_",
+    "_name": "_d31f49cc"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/provolot/github/smorgasbord/src/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_9aefd350"
+  }
+]
