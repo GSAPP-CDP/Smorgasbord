@@ -42,7 +42,11 @@ export default {
   ],
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
-  content: {},
+  content: {
+   markdown: {
+      rehypePlugins: ['~/plugins/rehype-content-img.js'],
+    },
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {

@@ -10,9 +10,6 @@
     <div class="footer">
       {{ content.date }}
     </div>
-    hllo
-
-    {{ moduleid}}
 
     <NuxtLink to="/archives">Archives</NuxtLink>
     

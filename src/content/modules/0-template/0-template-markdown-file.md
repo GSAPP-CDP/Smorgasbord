@@ -33,23 +33,17 @@ labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitatio
 labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 ## Tutorial
 
-test
-<image src="0-template-gif.gif" alt="template gif"></image>
 
-
-![alt-text about grasshopper gif alt-text](https://miro.medium.com/max/1400/1*CyW0A0YHRYoViuiMtL8Pyg.gif#img-full)
-
+![blahblah](0-template-gif.gif#img-full)
 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-![alt-text about image](https://miro.medium.com/max/600/1*8hSn0hprdDQGvyUIllGcSQ.png#img-left)
-
-
+![alt-text](images_can_be_named_anything.png#img-left)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-![more alt-text about image](https://miro.medium.com/max/956/1*pEHvadUM9KUFO63ZiIcjRQ.png#img-right)
+![more alt-text about image](random_image.png#img-right)
 
 
 
@@ -59,8 +53,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/603252807?h=28246f992b&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Introduction to Rhino 1 of 3: Interface"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 </div>
 
+Code block:
 ```
 console.log("hello world");
 console.log("hello world");
 console.log("hello world");
 ```
+
+The End
