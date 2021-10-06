@@ -1,10 +1,10 @@
 [
   {
-    "name": "post-all",
-    "path": "/post/*",
-    "component": "/Users/provolot/github/smorgasbord/src/pages/post/_.vue",
-    "chunkName": "pages/post/_",
-    "_name": "_d31f49cc"
+    "name": "modules-all",
+    "path": "/modules/*",
+    "component": "/Users/provolot/github/smorgasbord/src/pages/modules/_.vue",
+    "chunkName": "pages/modules/_",
+    "_name": "_90fcb846"
   },
   {
     "name": "index",

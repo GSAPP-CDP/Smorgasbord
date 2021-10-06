@@ -1,5 +1,5 @@
 <template>
-  <Tutorial/>
+  <ModuleList />
 </template>
 
 <script>

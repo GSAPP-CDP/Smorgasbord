@@ -10,6 +10,9 @@
     <div class="footer">
       {{ content.date }}
     </div>
+    hllo
+
+    {{ moduleid}}
 
     <NuxtLink to="/archives">Archives</NuxtLink>
     
@@ -63,18 +66,18 @@ export default {
     };
   },
   async fetch() {
-    console.log(this.postid);
-    var content = await this.$content('posts').where({ postid: { $eq: this.postid } }).fetch();
+    console.log(this.moduleid);
+    var content = await this.$content('modules').where({ moduleid: { $eq: this.moduleid } }).fetch();
     if(content.length > 0 && content[0].published == "Yes") {
       this.content = content[0];
     }
   },
   computed: {
-    postid() {
+    moduleid() {
       return parseInt(this.$route.params.pathMatch.split("/")[0])
     },
     post() {
-      //return this.$content.where({ postid: { $eq: 488 } });
+      //return this.$content.where({ moduleid: { $eq: 488 } });
     }
   }
 }
