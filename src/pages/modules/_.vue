@@ -67,7 +67,7 @@ export default {
   },
   async fetch() {
     console.log(this.moduleid);
-    var content = await this.$content('modules').where({ moduleid: { $eq: this.moduleid } }).fetch();
+    var content = await this.$content('modules', { deep: true }).where({ moduleid: { $eq: this.moduleid } }).fetch();
     if(content.length > 0 && content[0].published == "Yes") {
       this.content = content[0];
     }

@@ -1,7 +1,7 @@
 ---
 title: Grasshopper as Tool-making Medium
 date: 2021-10-06 11:28
-moduleid: 001
+moduleid: 0
 published: Yes
 ---
 # Sequence: Grasshopper as Tool-making Medium
@@ -32,6 +32,10 @@ labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitatio
 
 labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 ## Tutorial
+
+test
+<image src="0-template-gif.gif" alt="template gif"></image>
+
 
 ![alt-text about grasshopper gif alt-text](https://miro.medium.com/max/1400/1*CyW0A0YHRYoViuiMtL8Pyg.gif#img-full)
 
