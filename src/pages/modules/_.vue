@@ -58,14 +58,13 @@ img[src$='#img-right'] {
 export default {
   data() {
     return {
-      articles: null,
       content: [],
     };
   },
   async fetch() {
     console.log(this.moduleid);
     var content = await this.$content('modules', { deep: true }).where({ moduleid: { $eq: this.moduleid } }).fetch();
-    if(content.length > 0 && content[0].published == "Yes") {
+    if(content.length > 0 && content[0].published == true) {
       this.content = content[0];
     }
   },
