@@ -2,16 +2,14 @@
   <div class="post">
 
     <div class="header">
-      <div class="title">{{ content.title }}</div>
     </div>
     <div class="body">
-      <nuxt-content :document="content" />
+      <nuxt-content :document="module" />
     </div>
     <div class="footer">
-      {{ content.date }}
+      {{ module.date }}
     </div>
 
-    <NuxtLink to="/archives">Archives</NuxtLink>
     
     
   </div>
@@ -56,25 +54,16 @@ img[src$='#img-right'] {
 
 <script>
 export default {
-  data() {
-    return {
-      content: [],
-    };
-  },
-  async fetch() {
-    console.log(this.moduleid);
-    var content = await this.$content('modules', { deep: true }).where({ moduleid: { $eq: this.moduleid } }).fetch();
-    if(content.length > 0 && content[0].published == true) {
-      this.content = content[0];
+  async asyncData({ $content, app, params, error }) {
+    const path = `${params.pathMatch || 'index'}`
+    console.log(path)
+    const [module] = await $content({ deep: true }).where({ slug: { $eq: path } }).fetch();
+
+    if (!module) {
+      return error({ statusCode: 404, message: 'Module not found' })
     }
+
+    return { module: module };
   },
-  computed: {
-    moduleid() {
-      return parseInt(this.$route.params.pathMatch.split("/")[0])
-    },
-    post() {
-      //return this.$content.where({ moduleid: { $eq: 488 } });
-    }
-  }
 }
 </script>

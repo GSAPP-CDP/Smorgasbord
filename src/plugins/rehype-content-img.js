@@ -8,7 +8,6 @@ module.exports = function nuxtContentImages() {
     function visitor(node) {
       if (node.tagName === "img") {
         node.tagName = "content-img";
-        // console.log('rehype:', 'img -> content-img', node.properties.src)
       }
     }
   };
