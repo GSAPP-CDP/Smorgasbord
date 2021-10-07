@@ -5,7 +5,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'words.provolot.com',
+    title: 'GSAPP SMORGASBORD',
     htmlAttrs: {
       lang: 'en'
     },
