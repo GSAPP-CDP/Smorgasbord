@@ -6,11 +6,12 @@ slug: grasshopper-documentation-best-practices
 ---
 
 
-# Grasshopper Organizational Best Practices
-## Module Summary
+# Grasshopper Documentation Best Practices
 
 ![description](images/4-4-0_Overview-Image.PNG)
-*This is the parametric tower you have developed so far with best practices applied.*
+*Documentation best practive applied to the parametric tower.*
+
+## Module Summary
 
 Before we develop our parametric tower further, we are going to pause and introduce best practices for developing clean and clear grasshopper definitions through techniques for organizing, grouping, labeling and color coding.
 
