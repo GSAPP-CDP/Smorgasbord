@@ -9,7 +9,7 @@ slug: grasshopper-documentation-best-practices
 # Grasshopper Organizational Best Practices
 ## Module Summary
 
-![description](/images/4-4-0_Overview-Image.PNG)
+![description](images/4-4-0_Overview-Image.PNG)
 *This is the parametric tower you have developed so far with best practices applied.*
 
 Before we develop our parametric tower further, we are going to pause and introduce best practices for developing clean and clear grasshopper definitions through techniques for organizing, grouping, labeling and color coding.
@@ -31,7 +31,7 @@ Take a look at the intro image again for an illustration of straight lines and p
 
 ### 1. Organize Inputs, Add Parameter Holders and Label
 
-![description](/images/4-4-1_Organizing-Inputs_v2.PNG)
+![description](images/4-4-1_Organizing-Inputs_v2.PNG)
 
 First, put all of your inputs in vertical alignment on the left side of the canvas. This includes pulling out any inputs you may have introduced later in the definition. Having all inputs in one place makes editing and combining with other definitions easy.
 
@@ -45,31 +45,31 @@ component. Once you have found the component ctrl + alt + left click will show i
 ```
 ### 2. Group and Label Sequences of Components
 
-![description](/images/4-4-2_Grouping-Labeling.PNG)
+![description](images/4-4-2_Grouping-Labeling.PNG)
 *Before*
 
-![description](/images/4-4-2_Grouping-Labeling_After.PNG)
+![description](images/4-4-2_Grouping-Labeling_After.PNG)
 *After*
 
 Next, group and label any sequences of components that you can concisely describe their operation, ie "Moves and Rotates Tower Floors." Add labeled parameter holders to the outputs of the group.
 
-![description](/images/4-4-3_Grouping-Labeling-p2.PNG)
+![description](images/4-4-3_Grouping-Labeling-p2.PNG)
 *Before*
 
-![description](/images/4-4-3_Grouping-Labeling-p2-after.PNG)
+![description](images/4-4-3_Grouping-Labeling-p2-after.PNG)
 *After*
 
 As you introduce parameter holders, more is better then too few. Having these are key to the modularity of your definition. In the example above "Pt: Floor Subdivisions" occurs twice right next to each other, which why have you scratching your head. This is because the same input goes into two different sequences of operations. Providing each with its own input allows you to move and modify them independently.
 
 ### 3. Organizing Outputs
 
-![description](/images/4-4-4_Outputs.PNG)
+![description](images/4-4-4_Outputs.PNG)
 
 Next, put all of the outputs into labeled parameter holders and pull all of the outputs into vertical alignment on the right. (More on the introducing of colored groupings in the next section.) Doing this for both the inputs and outputs makes it easier to cluster you definitions making them modular and easier to integrate with other definitions in the future.
 
 ### 4. Colors & Notes
 
-![description](/images/4-4-6_Input-Colors-Notes.PNG)
+![description](images/4-4-6_Input-Colors-Notes.PNG)
 
 Finally, develop a set of colors for your groups and panels to indicate different categories of information, such as inputs, outputs, action items, intermediate steps, etc. In the two examples above green = outputs, pink = static inputs, blue = dynamic inputs and white = intermediate steps. Left click on a group or panel to change the color.
 
@@ -83,7 +83,7 @@ color you want to match and select "make color default" or "set default color."
 
 We've been labeling groups and parameters as we go, but also introduce panels with more detailed notes as useful. In the example above we've added a note to explain the dynamic input.
 
-![description](/images/4-4-5_Panel-Colors.PNG)
+![description](images/4-4-5_Panel-Colors.PNG)
 
 Use group or panel colors within the body of the definition to call out specific items that may be important later. For example, we did not pull the Scale input into vertical alignment with the other static inputs to the left of the definition. Why not? In this case it is because we are going to modify in a future tutorial. Because of that we have given if the "static input" color so that it is easy to find in the future.
 
@@ -95,21 +95,9 @@ Develop your own color and naming conventions by applying these best practices t
 
 It was years before the author of this module developed and enforced their own best practices. Below is an example of what can happen if you develop complex definitions without best practices and the result when you take *days* to retroactively add them.
 
-![description](/images/4-4-7_Bonus-Before.jpg)
+![description](images/4-4-7_Bonus-Before.jpg)
 *Before*
 
-![description](/images/4-4-7_Bonus-After.jpg)
+![description](images/4-4-7_Bonus-After.jpg)
 *After*
 
-<div class=”video”>
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/603252807?h=28246f992b&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Introduction to Rhino 1 of 3: Interface"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-</div>
-
-Code block:
-```
-console.log("hello world");
-console.log("hello world");
-console.log("hello world");
-```
-
-The End!!
