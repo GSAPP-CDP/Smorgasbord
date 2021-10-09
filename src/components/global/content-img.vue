@@ -1,6 +1,5 @@
 <template>
   <div>
-    {{ alt }}k
     <img :src="imgSrc()" :alt="alt" />
   </div>
 </template>
@@ -24,6 +23,7 @@ export default {
     imgSrc() {
       
       // this is so gross..... but the only way to do it
+
       const moduledir = this.$parent.$parent.$data.module.dir;
 
       try {

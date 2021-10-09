@@ -2,7 +2,7 @@
   <div>
     Smorgasbord Index
     <ul v-for="module in modules">
-      <li><a :href="'modules/' + module.slug">{{module.title}}</a></li>
+      <li><NuxtLink :to="'modules/' + module.slug">{{module.title}}</NuxtLink></li>
     </ul>
   </div>
 </template>

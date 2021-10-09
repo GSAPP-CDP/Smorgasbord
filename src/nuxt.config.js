@@ -1,7 +1,6 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-  ssr: false,
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -47,6 +46,25 @@ export default {
       rehypePlugins: ['~/plugins/rehype-content-img.js'],
     },
   },
+
+  generate: {
+    async routes () {
+      const { $content } = require('@nuxt/content')
+      const files = await $content({ deep: true }).fetch()
+      console.log(files)
+
+
+      return files.map(function(file) {
+        if(file.path === '/index') { return  '/'; }
+        else { 
+          const filepathdir =  '/' + file.path.split('/')[1]
+          return filepathdir + '/' + file.slug;
+        }
+      });
+
+    }
+  },
+
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {

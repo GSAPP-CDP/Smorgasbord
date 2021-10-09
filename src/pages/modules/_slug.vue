@@ -55,15 +55,13 @@ img[src$='#img-right'] {
 <script>
 export default {
   async asyncData({ $content, app, params, error }) {
-    const path = `${params.pathMatch || 'index'}`
-    console.log(path)
-    const [module] = await $content({ deep: true }).where({ slug: { $eq: path } }).fetch();
+    const [module] = await $content({ deep: true }).where({ slug: params.slug }).fetch();
 
     if (!module) {
       return error({ statusCode: 404, message: 'Module not found' })
     }
-
     return { module: module };
   },
 }
 </script>
+
