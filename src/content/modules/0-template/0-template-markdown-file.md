@@ -1,10 +1,10 @@
 ---
 moduleid: 0
-title: Grasshopper as Tool-making Medium
+title: Template as template
 published: True
-slug: grasshopper-as-tool-making-medium
+slug: template-template-template
 ---
-# Sequence: Grasshopper as Tool-making Medium
+# Sequence: Template as Template
 ## Sequence Summary:
 This sequence of modules introduces Grasshopper as a tool-creating medium, merging concepts in HCI, spatial thinking, affordance theory to use Grasshopper as a medium for general computational design processes
 ## Why?

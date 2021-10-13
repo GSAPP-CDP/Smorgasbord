@@ -27,6 +27,25 @@
   max-width: 700px;
   color: #444;
 }
+p {
+  line-height: 1.4em;
+}
+
+blockquote {
+  font-size: 0.9em;
+  line-height: 1.8em;
+  color: #666;
+
+}
+
+a {
+  color: #529F98
+}
+
+a:visited {
+  color: #6D71BF;
+}
+
 
 .title {
   font-weight: bold;
