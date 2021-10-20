@@ -6,7 +6,7 @@ slug: template-template-template
 ---
 # Sequence: Ambient Computing: Interactivity
 ## Sequence Summary:
-This sequence of modules introduces concepts of interactivity in ambient computing as well as Processing. 
+This sequence of modules introduces concepts of ambient computing including inclding interactivity inside of Processing. You will learn how to use Processing and create an interactive sketch. You will learn how to connect Processing to Microservices using Webhooks; how to work with sound and speech with a microphone and speakers; how to work with Processing Libraries; and how to track the movement of objects and people via a webcam.
 ## Why?
 ambient computing 
 low code prototypeability
@@ -20,7 +20,7 @@ Concepts designers must think through - permissioning (governance of groups), et
 
 
 ## Modules:
-Intro to Processing - Lighting
+Intro to Processing
 Webhooks
 Sounds, Speech and Macros
 Markers and Tracking
@@ -29,13 +29,14 @@ Computer Vision
 Ambient Computing:
 ===========================================
 
-# Interactivity - Intro to Processing - Lighting
+# Interactivity - Intro to Processing 
 ## Module Summary
-Processing is a flexible software sketchbook and a language for learning how to code within the context of the visual arts. Its an especially great environment for ambient computing because it will allow you to prototype projection mapping that responds to interactive inputs like (a web cam, markers, or a multitude of triggers from the web). Many artists choose to work with Processing because of its visual interface and its simplicity.
+In this module you will get an intro to the Processing environment, build a simple sketch and learn how to find, understand, and use Processing Documenation in your own sketches.
 
 ## Conceptual Introduction, or: Why is this interesting / important?
+Processing is a flexible software sketchbook and a language for learning how to code within the context of the visual arts. Its an especially great environment for ambient computing because it will allow you to prototype projection mapping that responds to interactive inputs like (a web cam, markers, or a multitude of triggers from the web). Many artists choose to work with Processing because of its visual interface and its simplicity. Processing can be a great environment to prototype user interfaces, tie together IOT devices, and work with interactive audio.
 
-TK
+Below are some examples of artists using Processing in their own work:
 
 ![processing-ex](images/processing-ex-5.gif#img-left)
 ![processing-ex](images/processing-ex-4.gif#img-left)
@@ -54,9 +55,9 @@ Processing includes
    * a compiler - translates code written in a high-level language into a set of machine-language instructions that can be understood by a digital computer's CPU 
    * a display window - where visuals created by your sketch are displayed
 
-![rhino-template](images/17-160-0-Processing.png#img-left)
+![processing-diagram](images/processing-diagram-2.gif#img-full)
 
-VIOLET INSERT DIAGRAM (IDE :toolbar play/stop, text editor, console/errors, sketch)
+
 
 You will have two basic parts within a Processing "sketch", the **“setup”** and the **“draw”** loop. The setup loop runs once when launching your script, whereas the draw loop runs repeatedly. This allows you to save computing power by sticking parts of the code that only need to run at the start in the setup loop. The draw loop will continually update so it can change over time, or get realtime information such as the location of your mouse or update a camera feed.
 
@@ -85,6 +86,7 @@ If we look around within Processing's documentation, we'll see all kinds of oper
 
 **CHALLENGE**  
 Can you change the background to yellow?
+
 
 Here are some other fun functions to play with in your sketch.
 ```
@@ -116,12 +118,10 @@ Document your lighting effects through videos and gifs. Extra bonus points for t
 
 * Some other useful tips
    * If you are looking for more examples — you can find some great things to try under `File` > `Examples`. This brings up a lot of various examples which you can play around with and learn how different bits of code are functioning.
-   ![examples](images/17-160-0-Processing-Examples.png#img-left)
+   ![examples](images/processing-ex-1.png#img-left)
 
-
-   * Some useful things to know about the code:  
-   
+**TIPS & TRICKS** 
    ```
    //these two slashes create a comment in your code
    ```
-   * `print()` allows you to see the values of a parameter in the console. For example, if you add this `print(second());` in the draw loop, you will see a continual update in the console of your second parameter. Give it a try! 
+  `print()` allows you to see the values of a parameter in the console. For example, if you add this `print(second());` in the draw loop, you will see a continual update in the console of your second parameter. Give it a try! 
