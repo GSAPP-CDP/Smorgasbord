@@ -1,5 +1,5 @@
 ---
-moduleid: 5
+moduleid: 5-0
 title: Computational Design Modeling In Grasshopper
 published: True
 slug: computational-design-modeling-in-grasshopper
@@ -19,7 +19,7 @@ The previous Intro to Grasshopper sequence touched on the power of computational
 
 *But wait, this section is title "Why?" and all you did was give me more of the sequence summary. If you can't explain why this is important, is it really?*
 
-Yes! They "Why" is such a big topic that the entire first module will be devoted to it.
+Yes! The "Why" is such a big topic that the entire first module will be devoted to it.
 
 ## Modules:
 
