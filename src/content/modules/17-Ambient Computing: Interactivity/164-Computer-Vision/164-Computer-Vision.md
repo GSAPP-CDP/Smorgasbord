@@ -62,5 +62,61 @@ Today tactical urbanists AB test spaces deploying lightweight furniture in physi
 
 ## Tutorial
 
-### Computer Vision
-1.
+### Referencing Your Webcam
+1. To get started you will need the computer vision library to capture video feed from your camera: `Sketch` > `Library` > `Import Library` > `Video Library`
+  - *Capture* — captures live feed from a camera source or webcam
+  - *Video* — takes in a video source
+  - *Capture* and *Video* have the same functionality as a *PImage*
+
+2. If you wanted to detect the movement of an object, how would you track it? You need to understand the change in the image. You could loop over every pixel in the frame storing its pixel values from RGB and comparing how much in changed from the last frame.
+ ![cv-6](images/cv-6.jpeg#img-left)
+ ![cv-7](images/cv-7.gif#img-left)
+ 
+### Face Tracking
+1. To get started you will need these libraries: Go to `Sketch`→`Import Library` → `Add Library` →and search for the following libraries: *Video* and *OpenCV for Processing*
+ ![cv-8](images/cv-7.gif#img-left)
+2. Next you will need to download the [jARToolkit](https://drive.google.com/file/d/1gswr4KWUrkbHAcEUYhlIRpBt2_SNxeB_/view) library directly.
+  - Unzip the folder.
+  - Search for your `Processing` folder on your computer, you will have a sub-folder names `libraries`.
+  - Move the unzipped files to your `libraries` folder.
+  - Save, close and restart Processing.
+  
+  Your final code should look like this:
+  
+  ```java
+  import gab.opencv.*;
+import processing.video.*;
+import java.awt.*;
+Capture video;
+OpenCV opencv;
+void setup() {
+  size(1280, 960);
+  video = new Capture(this, 640, 480);
+  opencv = new OpenCV(this, 640, 480);
+  opencv.loadCascade(OpenCV.CASCADE_FRONTALFACE);  
+  video.start();
+}
+void draw() {
+  scale(2);
+  opencv.loadImage(video);
+  background(0);
+ 
+  noFill();
+  stroke(0, 255, 0);
+  strokeWeight(3);
+  Rectangle[] faces = opencv.detect();
+  
+  for (int i = 0; i < faces.length; i++) {
+    rect(faces[i].x, faces[i].y, faces[i].width, faces[i].height);
+    PImage crop = video.get(faces[i].x, faces[i].y, faces[i].width, faces[i].height);
+    image(crop,faces[i].x, faces[i].y, faces[i].width, faces[i].height);
+    //image(crop,50, 50, 200, 200);
+    //println(faces[i].x);
+  }
+}
+void captureEvent(Capture c) {
+  c.read();
+}
+```
+ ![cv-9](images/cv-9.jpeg#img-left)
+ 
