@@ -63,6 +63,6 @@ Markers can be attached to any object: a chair, a desk, a wall, a floor, a perso
    - Hit Open or Accept. 
    - You should see green numbers layered ontop of the fiducial markers.
 
-IMAGE
+![markers-1](images/markers-1.gif#img-full)
 
 - Now open Processing and navigate to your libraries folder where you placed TUIO. Open TuioDemo.pde in Processing and hit play. (You must have reacTIVision still running. You should see black squares with the marker number that follow what is happening in the view. In the gif below I move the whiteboard moving the “5” marker, then sit in the chair obfuscating the “0” and “3” marker.
