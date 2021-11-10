@@ -36,6 +36,15 @@ In this module you will learn how to work with fiducial markers in Processing wh
 ## Conceptual Introduction, or: Why is this interesting / important?
 Markers can be attached to any object: a chair, a desk, a wall, a floor, a person thus allowing for more spatial triggers.
 
+### Power in Furniture
+The simple position of furniture in a room can dictate who is in control in a room, what activities can take place and sets a tone for what can happen. A large portion of our lives takes place through the simple elements of a table and some chairs organized into some arrangement.
+How can we use a **dynamic system** to alter our behavior based on the furniture? We can measure what is occupied. Do something if all chairs are taken, and we’re at capacity. Do something if the chairs are in a certain position or area within the room. Could there be such a thing as a “speakers chair” that is amplified by a light for a certain amount of time to emphasize who is supposed to be talking? Could dynamic signage tell you how to use furniture? Does creating sounds based on what is occupied change an environment.
+
+![markers-3](images/markers-3.jpeg#img-full)
+![markers-4](images/markers-4.jpeg#img-full)
+![markers-6](images/markers-6.jpeg#img-full)
+![markers-5](images/markers-5.gif#img-full)
+
 
 ## Tutorial
 
@@ -66,3 +75,5 @@ Markers can be attached to any object: a chair, a desk, a wall, a floor, a perso
 ![markers-1](images/markers-1.gif#img-full)
 
 - Now open Processing and navigate to your libraries folder where you placed TUIO. Open TuioDemo.pde in Processing and hit play. (You must have reacTIVision still running. You should see black squares with the marker number that follow what is happening in the view. In the gif below I move the whiteboard moving the “5” marker, then sit in the chair obfuscating the “0” and “3” marker.
+
+![markers-2](images/markers-2.gif#img-full)
