@@ -15,7 +15,7 @@ This module covers fundamental concepts related to coordinate reference systems 
 If, as covered in the previous module, our operating definition of spatial data is "information tied to a space" then one fundamental aspect of work with spatial data is developing a system for defining the locations of things in space. This is the work of **coordinate reference systems.**  
 
 Most maps are flat, but represent features of our round planet (or of any round planet, see for example [this beautiful map of the moon](https://commons.wikimedia.org/wiki/File:Lunar_Earthside_Map_-_3rd_Edition_-_1976_-_NASA.jpg)). Projected coordinate reference systems use mathematical transformations to allow us to represent the round surface of the planet on a flat plane. 
-![Earth in the Goode homolosine projection](https://upload.wikimedia.org/wikipedia/commons/0/00/Earth_2017_02_16_%2832802878532%29.jpg#img-right)
+![Earth in the Goode homolosine projection](images/Earth_2017_02_16_(32802878532).jpg#img-full)
 
 
 ## Coordinate reference systems
@@ -47,7 +47,7 @@ Important note to keep in mind: geographic coordinate systems use an angular sys
 
 What does this mean exactly? Consider, at equator the diameter of the parallel of latitude is approximately equal to the diameter of the meridian of longitude. 1° of latitude = 1° of longitude. However as you approach the poles, the diameter of each parallel of latitude gets smaller: so 1° of longitude represents a shorter and shorter distance on the earth's surface as you approach the poles.  
 
-![distance represented by longitude](images/distance-lng.png#img-left)
+![distance represented by longitude](images/distance-lng.png#img-right)
 
 ## Projected coordinate reference systems
 
@@ -65,4 +65,4 @@ Practically, the thoughtful use of spatial data requires that you consider "what
     - If the project covers a small area (a city, a small-ish region) then there is likely a projected coordinate reference system defined for that area (i.e. one whose standard parallel intersects your area of interest). Perform research to find if such a projected coordinate reference system exists and re-project your data to use this coordinate reference system.
     - If the project covers a large area (think national, continental, global) then you need to consider which type of distortion you hope to minimize and should choose a projected coordinate reference system accordingly. In addition you should select a projected coordinate reference system a whose standard parallel is located in the center of the geographic region covered by your project.
 
-![Blue Marble, NASA, 1972](https://www.nasa.gov/sites/default/files/images/135918main_bm1_high.jpg#img-right)
+![Blue Marble, NASA, 1972](images/135918main_bm1_high.jpg#img-full)
