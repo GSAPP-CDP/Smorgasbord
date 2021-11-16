@@ -1,6 +1,7 @@
 
 TK
-![temp](images/17-160-0-Processing-incremental.gif) 
+![temp](images/16-network-architecture.gif) 
+
 
 Concept from cybernetics about measurement and feedback.
 
