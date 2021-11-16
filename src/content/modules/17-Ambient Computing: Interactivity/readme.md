@@ -26,10 +26,14 @@ Designers that can understand the complexity of networked devices as well as und
 ### Social Experiences > User Experiences
 
 ## The Rise of End User Programming and Low Code
-TK
-simplicity of microservice architecture          |  microservice "low code" sentence structure
+Ambient computing often relies on microservices, or small applications and web services that are easily tied together into more complex functionality through the internet. What's so critical about low code environments is that they change the who and how easily someone can control the digital layers of space. Its important to recognize these are the governing and maintenance layers of physical space.
+
+
+
+
+microservice architecture          |  microservice "low code" sentence structure
 :-------------------------:|:-------------------------:
-![](images/17-ambient-6.png)  |  ![](images/17-ambient-5.gif)  
+![](images/17-ambient-6.png)  |  ![](images/17-ambient-5-2.gif.gif)  
 
 ability to understand networks - microserives
 low code prototypeability
