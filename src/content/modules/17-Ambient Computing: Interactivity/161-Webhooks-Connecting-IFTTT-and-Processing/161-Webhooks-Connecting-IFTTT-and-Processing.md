@@ -1,22 +1,9 @@
 ---
-moduleid: 0
-title: Template as template
+moduleid: 161
+title: Webhooks - Connecting IFTTT and Processing
 published: True
-slug: template-template-template
+slug: webhooks-connecting-ifttt-and-processing
 ---
-# Sequence: Ambient Computing: Interactivity
-## Sequence Summary:
-This sequence of modules introduces concepts of ambient computing including inclding interactivity inside of Processing. You will learn how to use Processing and create an interactive sketch. You will learn how to connect Processing to Microservices using Webhooks; how to work with sound and speech with a microphone and speakers; how to work with Processing Libraries; and how to track the movement of objects and people via a webcam.
-## Why?
-TK
-## Modules:
-Intro to Processing  
-Webhooks  
-Sounds, Speech and Macros  
-Markers  
-Tracking Computer Vision
-
-
 
 Ambient Computing:
 ===========================================
