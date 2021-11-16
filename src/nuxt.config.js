@@ -21,6 +21,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    '~/assets/global.css',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -32,6 +33,15 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+
+    ['@nuxtjs/google-fonts', {
+      families: {
+        Lato: true,
+      },
+    }],
+
+
+
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules

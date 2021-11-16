@@ -29,7 +29,7 @@ What does it mean to creatively *constrain ourselves* in a design process, or in
 
 From a programming and data perspective, *restraint* could involve sorting, involve `if` statements, or some limiting process that involves an inventive method of measurement and logic. 
 
-From a design perspective, *restraint* could involve choice, process, decision, that emerges out of some self-imposed, inventive restraint - (a book written without the letter `e`)[https://en.wikipedia.org/wiki/Gadsby_(novel)], for example, or a 48-hour film festival, where the goal is to produce a short film in a duration of time.
+From a design perspective, *restraint* could involve choice, process, decision, that emerges out of some self-imposed, inventive restraint - [a book written without the letter 'e'](https://en.wikipedia.org/wiki/Gadsby_(novel)), for example, or a 48-hour film festival, where the goal is to produce a short film in a duration of time.
 
 In this module, we will use Grasshopper as a medium to explore these **multiple forms of inventive restraint** - measurement and logic, as well as creative constraint. 
 

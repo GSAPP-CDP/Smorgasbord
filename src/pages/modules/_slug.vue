@@ -19,7 +19,6 @@
 <style>
 
 .post {
-  font-family: "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
   font-size: 0.9em;
   font-weight: regular;
   margin: auto;
