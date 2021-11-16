@@ -26,8 +26,12 @@ Designers that can understand the complexity of networked devices as well as und
 ### Social Experiences > User Experiences
 
 ## The Rise of End User Programming and Low Code
-ability to understand networks - microserives
+TK
+simplicity of microservice architecture          |  microservice "low code" sentence structure
+:-------------------------:|:-------------------------:
+![](images/17-ambient-6.png)  |  ![](images/17-ambient-5.gif)  
 
+ability to understand networks - microserives
 low code prototypeability
 interactivity
 
