@@ -7,7 +7,7 @@ This sequence of modules introduces concepts of ambient computing including inte
 
 ![ambient-ex](images/17-ambient-4.png#img-left)
 
-## Why?
+## Ambient Computing - Physical and Digital Worlds Intertwined
 As computers get smaller and less expensive and cloud computing allows functionality between devices, ambient computing will be the most pertinant mode of computing in the near future. They are particularly important to spatial designers, the designs of homes and cities as they are concerned with how our digital interactions relate to physical space and social contexts. 
 
 networked (context, profile-based)           |  embedded (spatially, bodily)
@@ -20,22 +20,18 @@ Todays designers will have to grapple with the ethics of designing for these con
 
 Rather than one-person, one-computer, we can think about whole groups sharing experiences. We can design whole environments (rooms, public plazas) to have the intelligence of our computers, rather than individualized computers having such intelligence.
 
+Designers that can understand the complexity of networked devices as well as understanding the social responsibility of their design systems can have the tremendous impact on a world that preferences:
 
 ### Spatial  Interfaces > User Interfaces
 ### Social Experiences > User Experiences
 
-Learning about interactivity 
+## The Rise of End User Programming and Low Code
+ability to understand networks - microserives
+
 low code prototypeability
 interactivity
 
-How to Do Nothing
 
-ability to not leave your environment means ability to flip the notion of personalized devizes. 
-
-
-
-Whats at stake? Importance of breaking down the unintended consequences of individualized computing, 
-Concepts designers must think through - permissioning (governance of groups), ethics of privacy and tracking, what is consent in group spaces?
 
 
 ## Modules:
