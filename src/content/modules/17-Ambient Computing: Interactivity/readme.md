@@ -1,9 +1,14 @@
 
 # Sequence: Ambient Computing: Interactivity
 ## Sequence Summary:
-This sequence of modules introduces concepts of ambient computing including inclding interactivity inside of Processing. You will learn how to use Processing and create an interactive sketch. You will learn how to connect Processing to Microservices using Webhooks; how to work with sound and speech with a microphone and speakers; how to work with Processing Libraries; and how to track the movement of objects and people via a webcam.
+Ambient computing broadly refers to computing done through ambient or contextual information on the many devices we use(smart home products, wearables, a work computer) to create seamless experiences relevant to the context of the environment.
+
+embedded: many networked devices are integrated into the environment
+context aware: these devices can recognize you and your situational context
+
+This sequence of modules introduces concepts of ambient computing including interactivity in [Processing](https://processing.org/). You will learn how to use Processing to create interactive and user interfaces that are spatial. You will learn how to connect Processing to smart home products and web apps using Webhooks; how to work with sound and speech with a microphone and speakers; how to work with Processing Libraries; and how to track the movement of objects and people via a webcam.
 ## Why?
-ambient computing 
+Ambient computing is an umbrella term for the hardware, software, user experience and human-computer interactions that can occur through ambient through  often distributed devices that don't require the direct interaction  
 low code prototypeability
 interactivity
 
