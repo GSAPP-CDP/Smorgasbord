@@ -20,11 +20,11 @@ Concepts designers must think through - permissioning (governance of groups), et
 
 
 ## Modules:
-Intro to Processing
-Webhooks
-Sounds, Speech and Macros
-Markers and Tracking
-Computer Vision
+Intro to Processing   
+Webhooks   
+Sounds, Speech and Macros   
+Markers and Tracking   
+Computer Vision   
 
 Ambient Computing:
 ===========================================
