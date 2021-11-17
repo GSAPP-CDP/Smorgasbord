@@ -19,7 +19,6 @@ slug: drawing-restraint
 >*Matthew Barney, DRAWING RESTRAINT 10, 2005*
 
 
-
 Matthew Barney's *DRAWING RESTRAINT * series is about self-imposed limitation, constraint, restraint, and a series of creative processes that emerge out of these restraints:
 
 >Barney’s multipart Drawing Restraint project (begun in 1987, and ongoing) began with a straight­forward proposition: his attempt to make a mark—the most basic component of drawing—while impeded by various physical obstacles, ramps, and harnesses. The early Drawing Restraint works (1–6) comprise an action and its residue, including documentary photography or video, often drawings, and occasionally the restraints themselves. [link](https://www.moma.org/collection/works/81055)
@@ -38,6 +37,12 @@ By the end of this module, we will create a spatial design tool that limits the 
 ![wallmaker](images/wallmaker.png)
 
 ---
+
+### Logic 
+
+(ROUGH TEXT)
+
+- Grasshopper, as a flow-based programming language, inherently moves from data to 
 
 Outline:
 - Geometry Pipeline to filter, receive data
