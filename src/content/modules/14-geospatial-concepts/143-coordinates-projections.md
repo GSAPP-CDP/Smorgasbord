@@ -35,19 +35,17 @@ Geographic coordinate reference systems are in turn always based on a **[geodeti
 
 ## Geographic coordinate reference systems
 
-![lat long definitons](images/globes_plane_rotation.png#img-right)
+![lat long definitons](images/globes_plane_rotation-latlng.png#img-full)
 
 Geographic coordinate reference systems use angular units to identify locations on Earth's surface. Latitude and longitude coordinates are the most common system. In units of degrees these measure the angles between the axis of rotation and the equatorial plane formed by an imaginary vector that stretches from the center of the earth to some location on the earth's surface.  
 
-![lat lng angle](images/globes_lat_lng.png#img-left)
+![distance represented by longitude](images/distance-lng.png#img-right)
 
 Parallels of latitude and meridians of longitude form an imaginary grid across the Earth's surface.  
 
 Geographic coordinate systems use an angular system of measurement. **Therefore they do not represent consistent measures of distance on the earth's surface.**  
 
 What does this mean exactly? Consider, at equator the diameter of the parallel of latitude is approximately equal to the diameter of the meridian of longitude. 1° of latitude = 1° of longitude. However as you approach the poles, the diameter of each parallel of latitude gets smaller. So accordingly as you approach the poles, 1° of longitude represents a shorter and shorter distance on the earth's surface. .
-
-![distance represented by longitude](images/distance-lng.png#img-right)
 
 ## Projected coordinate reference systems
 [section not yet completed, needs diagrams & prose description]

@@ -1,8 +1,15 @@
+---
+moduleid: 150
+title: Introduction to GIS with QGIS
+published: True
+slug: geospatial-concepts
+---
+
 # Sequence: Introduction to Geographic Information Systems & Spatial Data
 
-## Sequence Summary:
+## Sequence Summary
 
-This sequence of modules introduces key methods within geographic information systems (GIS) through hands-on work in the open source software platform QGIS. 
+This sequence of modules introduces key methods within geographic information systems (GIS) through hands-on work in the open source software platform QGIS.  
 
 ## Why?
 
@@ -20,9 +27,6 @@ Maps and geographic analysis are key tools for interpreting the built and social
 
 ## Modules overview/sequence
 - Mapping where
-    - vector data, add + view attribute table
-    - raster data, add + view values
-    - tabular join
 - Making Data from Archives
 - Making Data From Observation & Sensing
 - Making Data from Satellites
