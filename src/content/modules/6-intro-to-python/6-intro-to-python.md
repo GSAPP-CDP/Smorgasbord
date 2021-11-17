@@ -6,11 +6,13 @@ slug: intro-to-python
 ---
 # Sequence: Intro to Python
 ## Sequence Summary:
-This sequence is an introduction to the Python programming language, covering how to get setup with the various tools used for writing, editing, and executing Python code on your machine.
+This sequence is an introduction to the Python programming language, covering how to get setup with the tools used for writing, editing, and executing Python code on your machine.
 ## Why?
-One of the most common questions asked by individuals new to writing Python code is: “What can I do with Python?”. The breadth of things you can do in Python is why it consistently appears as one of the [top 5 programming languages](https://insights.stackoverflow.com/survey/2019#most-popular-technologies) to learn. From creating a machine learning model that predicts building energy consumption, creating a stock trading platform, to developing desktop games, Python is a highly versatile, general purpose programming language with a very large online community of users. As such, there are a myriad of ways to interact with Python, some better suited for certain types of tasks or disciplines. This sequence will introduce the three most common tools to write Python: Jupyter Notebooks, IDEs and the command line.
+One of the most common questions asked by individuals new to writing Python code is: “What can I do with Python?”. The breadth of things you can do in Python is why it consistently appears as one of the [top 5 programming languages](https://insights.stackoverflow.com/survey/2019#most-popular-technologies) to learn. From creating a machine learning model that predicts building energy consumption, creating a trading platform, to developing desktop games, Python is a highly versatile, general purpose programming language with a very large online community of users. As such, there are a myriad of ways to interact with Python, some better suited for certain types of tasks or disciplines. This sequence will introduce the three most common tools to write Python: Jupyter Notebooks, IDEs and the command line.
 ## Modules:
 1. Python environment setup: Jupyter, Command Line, or IDEs
+
+<br>
 
 -----
 
@@ -30,11 +32,11 @@ This sequence covers the following solutions for installing and interacting with
 
 ## Installing Python on a Mac
 
-If you are installing Python on a Mac, congratulations! The Mac operating system is based off of [Unix](https://en.wikipedia.org/wiki/Unix), making it the preferred platform for many tech companies and coders, which means it is very convenenient for doing many programming tasks, like installing Python.
+If you are installing Python on a Mac, congratulations! The Mac operating system is based off of [Unix](https://en.wikipedia.org/wiki/Unix), making it the preferred platform for many tech companies and coders, and means it is very convenient for doing programming tasks, like installing Python.
 
 ![missing-image](images/homebrew.png#img-full)
 
-The first step is to install the [Homebrew](https://brew.sh/#install) package manager. Package managers are software tools that automate the process of installing, upgrading, and removing applications on a computer, and Homebrew is the preferred Package Manager for Mac, making it easy to install and manage Python.
+The first step is to install the [Homebrew](https://brew.sh/#install) package manager. Package managers are software tools that automate the process of installing, upgrading, and removing applications on a computer. Homebrew is the preferred Package Manager for Mac, making it easy to install and manage Python.
 
 Open up a Terminal window, then paste and run the below line of code:
 
@@ -42,7 +44,7 @@ Open up a Terminal window, then paste and run the below line of code:
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-Once Homebrew has finished installing, you can now install programs with the simple command `brew install ______`. Paste the following code into the terminal window to install Python:
+Once Homebrew has finished installing, you can now install programs with the command `brew install (insert name of software)`. Paste the following code into the terminal window to install Python:
 
 ```
 brew insall python
@@ -54,7 +56,7 @@ You now should have Python installed on your machine. To check, go to your termi
 
 Type `CTRL` + `Z` to exit
 
-Python comes with its own built-in Package manager called, pip, that is used to install external libraries. As there are so many Python users in the world, there is an extremely rich ecosystem of libraries that do everything from make it easy to download Census data, or allow you to build a machine learning model with one line of code. For our final step we will use pip to install [Jupyter](https://en.wikipedia.org/wiki/Project_Jupyter).
+Python comes with its own built-in Package manager called, `pip`, that is used to install external libraries. As there are so many Python users in the world, there is an extremely rich ecosystem of libraries that do everything from make it easy to download Census data, or allow you to build a machine learning model with one line of code. For our final step we will use pip to install [Jupyter](https://en.wikipedia.org/wiki/Project_Jupyter).
 
 Jupyter is an open-source project that allows you to code interactively with Python. Paste the below code in your terminal window to install Jupyter:
 
@@ -118,7 +120,7 @@ To run the cell – often called executing – you can click the run button in t
 
 ## The command line interface and IDEs
 
-Although throughout the Python sequences we will mostly be working in Jupyter, there are many more ways to interact with Python code. In this section we will briefly touch on two of the other popular methods, namely the command-line-interface (CLI) and IDEs. The [command-line](https://en.wikipedia.org/wiki/Command-line_interface) is a way to submit commands or processes to a computer via an interactive text interface. Similar to Jupyter but way more powerful. CLIs differ between operating systems (Mac vs Windows vs Linux) and have slight variation in syntax for various commands. Interacting with Python however, is the same across systems regarldess whether you are on a Mac or Windows machine. The advantages of using the CLI to run Python is that it requires fewer resources, is powerful, highly customisable / expert-friendly, and easy to automate repetitive tasks. But as it requires advanced knowledge of Python and programming in general, we will not dive into the ins and outs of it in this sequence.
+Although we'll be using Jupyter throughout the Python sequences, there are many more ways to interact with Python code. In this section we will briefly touch on two of the other popular methods, namely the command-line-interface (CLI) and IDEs. The [command-line](https://en.wikipedia.org/wiki/Command-line_interface) is a way to submit commands or processes to a computer via an interactive text interface. Similar to Jupyter but way more powerful. CLIs differ between operating systems (Mac vs Windows vs Linux) and have slight variation in syntax for various commands. Interacting with Python however, is the same across systems regarldess whether you are on a Mac or Windows machine. The advantages of using the CLI to run Python is that it requires fewer resources, is powerful, highly customisable / expert-friendly, and easy to automate repetitive tasks. But as it requires advanced knowledge of Python and programming in general, we will not dive into the ins and outs of it in this sequence.
 
 Open up a terminal or command line window and type `python`. Once you have Python open run the following commands to see what output you get:
 
@@ -135,3 +137,5 @@ and now enter
 Similar to running a cell in Jupyter, the output of the above two operations is shown immediately. You just demonstarted how to use the `print` function to display a peice of text and use the `*` character to multiply two numbers. More on text and math functions in later sequences.
 
 ![missing-image](images/cli.png#img-full)
+
+Integrated development environments (IDE) are applications that provides environments for coders to develop in. There are many types of IDEs, some that are interactive, and others that are just a smarter text editor. One of the most popular IDEs is [Atom](https://atom.io/), it is free to use, opensource, with a rich community of users that have built extensive add-ons to make coding in it easy across languages. Unlike Jupyter or the CLI however, Atom is not interactive, but is very useful for writing large bodies of code quickly.

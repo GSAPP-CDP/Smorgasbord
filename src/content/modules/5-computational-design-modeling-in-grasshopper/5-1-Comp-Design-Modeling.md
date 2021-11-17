@@ -66,6 +66,7 @@ The questions asked often reflected the value of the designer and the client, so
 - Does the question involve metrics that are quantifiable?
 - Who benefits from this question?
 - Does the question revolve around quantities that have a demonstrable correlation?
+- Does it include spatial attributes to test?
 
 **2. Output.**
 

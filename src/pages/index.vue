@@ -1,6 +1,5 @@
 <template>
   <div>
-    Smorgasbord Index!
     <ul v-for="module in modules">
       <li>
         <NuxtLink :to="'modules/' + module.slug">{{module.title}}</NuxtLink>
@@ -28,7 +27,7 @@ export default {
     };
   },
   async fetch() {
-    var modules = await this.$content('modules', { deep: true })
+    var modules = await this.$content('modules', { deep: true }).sortBy('moduleid')
       .fetch()
       .catch((err) => {
         error({ statusCode: 404, message: 'Page not found' })
