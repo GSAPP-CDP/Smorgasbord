@@ -5,23 +5,6 @@ published: True
 slug: using-python-in-grasshopper
 ---
 
-# Sequence: Intro to Python Scripting in Rhino
-
-## Sequence Summary:
-
-This sequence introduces the programming language Python, and the various ways in which you can use it both on it's own and to control other design software like Rhino.
-
-## Why?
-
-Python has become one of the most popular programming languages in the world, mostly for it's relatively straight forward syntax and shallow learning curve. Due to this popularity, it has become the language of choice for many displines outside of computer programming, including natural sciences, data science, and even fine art. In recent years many design tools have also begun to support Python as their native scripting language, meaning you can use Python to control and customize the software to your needs.
-
-## Modules:
-
-Using Python in Grasshopper
-Working with the Rhino API in Python
-
-# Template for Modules:
-
 # Using Python in Grasshopper
 
 ## Module Summary
@@ -74,17 +57,19 @@ Double clicking on the center of the node brings up the script editing window wh
 
 ![renaming outputs](images/hello_world.png#img-full)
 
+> GHPython ‘hello world’
+
 Change the name of one of the Python component's inputs to ‘input’ and the name of one of the outputs to ‘output’. Plug a `Panel Component` into the input and type whatever you want into the `Panel`. Attach another `Panel Component` to the output so we can see the results.
 
 Now type this line of code into the script window:
 
-```
+```python
 output = "hello " + input
 ```
 
 and click the `Test` button at the bottom of the window. This button will execute the script and you should see the results above. Clicking `OK` will save changes to your script and close the editor window. Clicking `Close` will close the window without saving changes. This simple example brings in text from the Grasshopper canvas through its input port, joins this text to another piece of text, and then assigns the result to the output port, which can then be used on the Grasshopper canvas.
 
-Integrating code into Grasshopper like this is a very powerful way to extend the basic functionalities of Grasshopper and will allow us to create interesting and complex models using the full tools of computation. At this point you should be ready to start learning Python. Try going through the Fundamentals of Python tutorials and practice writing the code into the code window within a GHPython component. You can also go to the next module in this sequence where we will learn how to import the Rhino library which will give us access to all of Rhino's native Classes, including it's geometry types, so we can start working with them in our Python scripts.
+Integrating code into Grasshopper like this is a very powerful way to extend the basic functionalities of Grasshopper and will allow us to create interesting and complex models using the full tools of computation. At this point you should be ready to start learning Python. Try going through the [Fundamentals of Python]() tutorials and practice writing the code into the code window within a GHPython component. You can also go to the next module in this sequence where we will learn how to import the Rhino library which will give us access to all of Rhino's native Classes, including it's geometry types, so we can start working with them in our Python scripts.
 
 ## Learning more
 
@@ -100,3 +85,6 @@ For more specific information on working with Python in Rhino and Grasshopper yo
 - https://developer.rhino3d.com/api/RhinoCommon/html/R_Project_RhinoCommon.htm — documentation of the Rhino API. This includes documentation of all of Rhino's native Classes as well as code samples in Python as well as C# and VB.
 - http://developer.rhino3d.com/api/RhinoScriptSyntax/win/ — documentation of the rhinoscriptsyntax library. This is a helper library that makes some functionalities easier to write in code. It was developed to replicate some of the functionalities of the old RhinoScript syntax making it easier to transition from RhinoScript to Python.
 - http://developer.rhino3d.com/guides/rhinopython/python-rhinoscriptsyntax-introduction/ — support for the rhinoscriptsyntax Python library.
+
+# Challenge - read the Rhino Python developer docs
+
