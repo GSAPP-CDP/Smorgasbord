@@ -11,6 +11,7 @@ Maps and geographic analysis are key tools for interpreting the built and social
 ## Modules:
 
 - Mapping where
+- Print layouts and cartographic design
 - Making Data from Archives
 - Making Data From Observation & Sensing
 - Making Data from Satellites

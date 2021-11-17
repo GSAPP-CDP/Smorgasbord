@@ -6,8 +6,6 @@ slug: mapping-where
 ---
 # Mapping Where: Seeing the Forest and the Trees
 
-## Module Summary
-
 This module covers the basics of working with raster and vector spatial data within QGIS. After completing this module you will learn how to load datasets into a new QGIS project; modify coordinate reference systems; manipulate layer symbology based on attribute information; carry out spatial selections; and perform basic (but powerful!) spatial joins.
 
 These concepts will be introduced through a series of studies of the trees of New York City.  
@@ -18,21 +16,20 @@ These concepts will be introduced through a series of studies of the trees of Ne
 
 All datasets within your QGIS project are not embedded but rather are stored as links to wherever the dataset is stored. Because of this file and data management is an important component of work in QGIS.  
 
-Create a new folder for your work on this series of modules. Inside it create a `data` folder and then and `original` and a `processed` folder. All downloaded datasets should be saved in the `data`>`original` folder. Any new datasets you create in the process of completing the modules should be saved within the `data`.`processed` folder. 
+Create a new folder for your work on this series of modules. Inside it create a `data` folder and then and `original` and a `processed` folder. All downloaded datasets should be saved in the `data`>`original` folder. Any new datasets you create in the process of completing the modules should be saved within the `data`.`processed` folder.  
 
 ### Data downloads
 
 In this module you will be making a series of maps about the urban forest in New York City. Download the following datasets: 
 
 - [New York City Landcover 2010 (3ft version)](). A raster dataset created to describe major land use categories for New York City derived from satellite imagery. Full metadata and other downloads available via NYC Open Data [here](https://data.cityofnewyork.us/Environment/Landcover-Raster-Data-2010-3ft-Resolution/9auy-76zt). Download this dataset and unzip its contents. You should have a folder titled `Land_Cover_2010` with six files in it. 
-- [New York City 2015 Street Tree Census]() This dataset was collected by more than 2000 volunteers visiting each street tree within the five boroughs of NYC. For more background on this amazing effort (the third such census over the past 30 years) see the NYC Parks department website [here](https://www.nycgovparks.org/trees/treescount). The data is available for download directly via NYC Open Data [here](https://data.cityofnewyork.us/Environment/2015-Street-Tree-Census-Tree-Data/pi5s-9p35)
-- [New York City Census Blocks 2010]()
-
+- [New York City 2015 Street Tree Census]() This dataset was collected by more than 2000 volunteers visiting each street tree within the five boroughs of NYC. For more background on this amazing effort (the third such census over the past 30 years) see the NYC Parks department website [here](https://www.nycgovparks.org/trees/treescount). The link above provides a subset of the data for an area in Harlem to make for easier processing. For those interested the full dataset is available for download directly via NYC Open Data [here](https://data.cityofnewyork.us/Environment/2015-Street-Tree-Census-Tree-Data/pi5s-9p35)
+- [New York City Census Blocks 2010](). As with the stree trees above, this is a subset of the full NYC Census Blocks file for an area of Harlem. The smaller file makes for easier processing in this tutorial however if you wish to conduct the analysis below for all of NYC the original dataset is available [here.](https://data.cityofnewyork.us/City-Government/2010-Census-Blocks/v2h8-6mxf)
 
 
 ### QGIS interface
 
-Open QGIS and create a new project. 
+Open QGIS and create a new project.  
 
 ![qgis interface](images/01-qgis-interface.png#img-full)
 
@@ -53,17 +50,17 @@ The **Map canvas** provides a view of the datasets you have added to your projec
 
 The first layer we will add to our project is a raster dataset of landcover for New York City from 2010. This dataset was developed by researchers using satellite imagery to identify major categories of materials (cement, buildings, open ground, water, vegetation, tree cover) for all of New York City.
 
-We will use this layer to visualize the canopy of New York City's trees. 
+We will use this layer to visualize the canopy of New York City's trees.  
 
-Before completing the steps below review the introduction to raster and vector datasets in [this module.]()
+Before completing the steps below review the introduction to raster and vector datasets in [this module.]()  
 
 From the top menu bar select `Layer` and then `Add Layer` > `Add Raster Layer`.  
 
 ![add raster dataset data source manager](images/03-land-cover.png#img-right)
 
-When the `Data Soursce Manager` menu appears select the Source Type as `File` then click on the `...` and navigate to the `Land_cover_2010` folder within data folder you created for this series of modules. Select the file named `landcover_2010_nyc_3ft.img`. Take care to select the file with the **.img** file extension. The five files with the same name except for their file extension together comprise this particular raster dataset (for more on the specific file format that this dataset uses see [here](https://www.loc.gov/preservation/digital/formats/fdd/fdd000420.shtml)). QGIS will do the work of interpreting each of the five files together. Click `Add`. Then click `Close`. 
+When the `Data Soursce Manager` menu appears select the Source Type as `File` then click on the `...` and navigate to the `Land_cover_2010` folder within data folder you created for this series of modules. Select the file named `landcover_2010_nyc_3ft.img`. Take care to select the file with the **.img** file extension. The five files with the same name except for their file extension together comprise this particular raster dataset (for more on the specific file format that this dataset uses see [here](https://www.loc.gov/preservation/digital/formats/fdd/fdd000420.shtml)). QGIS will do the work of interpreting each of the five files together. Click `Add`. Then click `Close`.  
 
-The land cover dataset's name should now appear in the layers panel and the dataset should be visible in the map canvas. 
+The land cover dataset's name should now appear in the layers panel and the dataset should be visible in the map canvas.  
 
 ![land cover dataset rendered](images/05-land-cover.png)
 
