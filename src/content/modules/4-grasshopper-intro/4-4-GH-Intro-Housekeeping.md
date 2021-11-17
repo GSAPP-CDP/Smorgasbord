@@ -9,7 +9,7 @@ slug: grasshopper-documentation-best-practices
 # Grasshopper Documentation Best Practices
 
 ![description](images/4-4-0_Overview-Image.PNG)
-*Documentation best practive applied to the parametric tower.*
+*Documentation best practices applied to the parametric tower.*
 
 ## Module Summary
 

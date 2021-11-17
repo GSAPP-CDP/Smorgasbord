@@ -1,13 +1,21 @@
 <template>
   <div>
-    Smorgasbord Index
+    Smorgasbord Index!
     <ul v-for="module in modules">
-      <li><NuxtLink :to="'modules/' + module.slug">{{module.title}}</NuxtLink></li>
+      <li>
+        <NuxtLink :to="'modules/' + module.slug">{{module.title}}</NuxtLink>
+        Moduleid: {{ module.moduleid }}
+      </li>
     </ul>
   </div>
 </template>
 
 <style scoped>
+
+div {
+  font-family: Lato;
+  color: black;
+}
 
 </style>
 
