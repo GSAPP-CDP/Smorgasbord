@@ -21,3 +21,9 @@ The increasingly widespread availability of up-to-date (or even real-time) spati
 - Spatial Data - Information Tied to a Space
 - Coordinate Reference Systems & Projections
 - Finding Spatial Data
+
+## What's next
+
+After completing the Introduction to Geographic Information Systems and Spatial Data module sequence you may choose to continue learning spatial concepts in multiple processing/software environments.  
+
+{{links to module sequences for spatial analysis in QGIS, Python & Grasshopper}}

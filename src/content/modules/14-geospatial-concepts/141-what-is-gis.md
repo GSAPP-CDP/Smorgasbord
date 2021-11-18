@@ -1,5 +1,5 @@
 ---
-moduleid: 143
+moduleid: 141
 title: What is GIS?
 published: True
 slug: what-is-gis
@@ -17,14 +17,18 @@ This module will introduce geographic information systems (GIS) and their applic
 
 In an article published in 1999 geographer Nicholas Chrisman discusses the many available definitions of the collection of methods, approaches, tools, and activities know as GIS. This article was written at the end of a decade (the 1990s) that saw tremendous development of desktop Geographic Information Systems software and the expansion of access to and the use of spatial analytical methods across the social sciences, environmental sciences, and (to a slightly lesser degree) design disciplines. That there is an article length discussion of the (many) definitions of GIS (including debates over what GIS stands for) should indicate that there are multiple perspectives on this definition and a large degree of nuance to understanding GIS. Within this context Chrisman put forward a definition of GIS that he developed for a late 1990s GIS textbook together with colleagues:  
 
+```
+"Geographic Information System (GIS) – The organized activity by which people
+- measure aspects of geographic phenomena and processes;  
+- represent these measurements, usually in the form of a computer database, to emphasize spatial 
+themes, entities, and relationships;  
+- operate upon these representations to produce more measurements and to discover new 
+relationships by integrating disparate sources; and  
+- transform these representations to conform to other frameworks of entities and relationships.    
 
-        "Geographic Information System (GIS) – The organized activity by which people
-            - measure aspects of geographic phenomena and processes;
-            - represent these measurements, usually in the form of a computer database, to emphasize spatial themes, entities, and relationships;
-            - operate upon these representations to produce more measurements and to discover new relationships by integrating disparate sources; and
-            - transform these representations to conform to other frameworks of entities and relationships.  
-
-        These activities reflect the larger context (institutions and cultures) in which these people carry out their work. In turn, the GIS may influence these structures."  (Chrisman 1999)
+These activities reflect the larger context (institutions and cultures) in which these people 
+carry out their work. In turn, the GIS may influence these structures."  (Chrisman 1999)
+```
 
 This definition, though wordy, is a strong starting point for developing a collective understanding of what GIS is and what it does.  
 
@@ -76,11 +80,11 @@ TBD
 
 ## References & further reading
 
-Nicholas R. Chrisman “What Does ‘GIS’ Mean?” Transactions in GIS 3, no. 2 (1999): 175–86.
-
 [many sources to be added here will likely use the below categories]
 
-#### Histories of GIS  
+#### Histories & definitions of GIS  
+
+Nicholas R. Chrisman “What Does ‘GIS’ Mean?” Transactions in GIS 3, no. 2 (1999): 175–86.
 
 Wilmott, Clancy. *Mobile Mapping: Space, Cartography and the Digital.* Amsterdam University Press, 2020. https://doi.org/10.2307/j.ctvx8b7zc.7.
 

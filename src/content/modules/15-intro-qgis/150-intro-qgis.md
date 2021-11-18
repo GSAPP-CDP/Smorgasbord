@@ -2,7 +2,7 @@
 moduleid: 150
 title: Introduction to GIS with QGIS
 published: True
-slug: geospatial-concepts
+slug: qgis
 ---
 
 # Sequence: Introduction to Geographic Information Systems & Spatial Data
