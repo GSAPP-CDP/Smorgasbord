@@ -21,5 +21,5 @@ These tutorials use only the core functionalities included within Python, and ca
 
 Variables and Operators
 Lists and Dictionaries
-Flow control with Loops and Conditionals
-Encapsulation with Functions and Classes
+Conditionals and Loops
+Functions and Classes
