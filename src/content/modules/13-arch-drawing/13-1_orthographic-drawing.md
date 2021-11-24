@@ -135,7 +135,7 @@ Lastly, we'll mark some dimensions on this drawing and add a title. Make a new "
 
 ![oversized dimension](images/13-1/dimension-big.png#img-left)
 
-This is clearly too big for our page, so we have to set up a new annotation style. Back in options, go to "Annotation Styles," click "New," and choose the built-in style "Template Model Units Decimal."
+This is clearly way too big for our page, so we have to set up a new annotation style. Back in options, go to "Annotation Styles," click "New," and choose the built-in style "Template Model Units Decimal."
 
 ![annotation styles](images/13-1/annotation-styles.png#img-left)
 
@@ -161,15 +161,17 @@ When you're done, hit "Print" to export your final drawing.
 
 An orthographic section drawing is conceptually very similar to a plan, with the difference that the plane which cuts through the building is oriented vertically instead of horizontally.
 
-Back in your perspective viewport, disable the Clipping Plane you created for your plan, and `hide` it. Then create a new one, choosing "Vertical" in the command prompt. Unlike a plan, which by convention is usually cut at the same height above the floor, we have a lot of discretion in choosing where to cut our section If a building is laid out with right angles, like this one is, we expect the section to be cut along either the X or Y axis, but otherwise the question is what parts of the building we most want to reveal.
+Back in your perspective viewport, disable the Clipping Plane you created for your plan, and `hide` it. Then create a new one, choosing "Vertical" in the command prompt. Unlike a plan, which by convention is usually cut at the same height above the floor, we have a lot of discretion in choosing where to cut our section. If a building is laid out with right angles, like this one is, we expect the section to be cut along either the X or Y axis, but otherwise the question is what parts of the building we most want to reveal.
 
-I've chosen a section cut which crosses through both the dining and upper-level spaces of the house, showing the staircase which connects them, and which also includes the guest house volume in front of the clipping plane. This seems to me the best way to capture all the major elements of the building in a single drawing.
+I've chosen a section cut which crosses through both the dining and upper-level spaces of the house, showing the staircase which connects them, and which also includes the guest house volume in front of the clipping plane. This seems to me like the best way to capture all the major elements of the building in a single drawing.
 
 ![Section Plane](images/13-1/section-plane.png#img-left)
 
-From here, we can follow all the same steps as before to create our section drawing.
+From here, we can follow all the same steps as before to create our section drawing. This time around, experiment more with hatches and lineweights.
 
-//Completed Section drawing here. Differences to introduce--hidden lines? More line weights? Different hatching?
+![Section Plane](images/13-1/cba-section-final.jpg#img-left)
+
+If you want more practice after completing these two drawings, try a second-floor plan and a section cut in the other direction.
 
 ## Conclusion
 In this tutorial, we learned how to create an orthographic drawing. In the next one, we'll look at how the different ways of projecting 3-dimensional space onto a 2D page.
