@@ -106,9 +106,77 @@ Like Functions, Classes are structures that define certain functionality, but do
 
 Let’s think about this in everyday terms. For an animal, an example of a Method might be 'running'. Lots of things can run, so the definition of running as a Function would be general, and would not necessarily relate to who is doing the running. On the other hand, an example of a Class might be 'dog', which would have an instance of the 'running' Method, as well as other Methods related to being a dog such as 'eating' and 'barking'. It would also have a set of Properties for storing information about a given dog, such as its age, breed, or weight. Another class might be 'human', which would store different Properties, and would have its own particular version of Methods such as 'running' and 'eating' (but hopefully not 'barking').
 
+You may not realize it, but we've already used Classes and Methods throughout this sequence. With the exception of a few basic data types such as `int`, `float`, and `bool`, all data types we've worked with including `str (string)`, `list`, and `dict (dictionary)` are actually implemented as Classes that come built into Python. When we created `strings` or `lists` we've actually been creating Instances of those Classes, and when we've run operations on them (for example calling `.append` to add an item to a list), we've actually been using the Methods implemented for those Classes.
+
 For the rest of this module we will look at how we can define custom Classes in Python and use them within our scripts to create Instances of the Class. 
 
-We have already used classes and methods...
-
-
 ### Defining a custom Class
+
+Let's define a very basic class to see how it works. We will use an example of a counter, which will store a value, and increment that value based on user requests:
+
+```python
+class Counter:
+
+    count = 0
+
+    def add_to_counter(self, input_value):
+        self.count += input_value
+            
+    def get_count(self):
+        return self.count
+```
+
+Notice we are again using the `+=` shorthand to increment the value of the Instance's `count` Property by the input value. To use this Class, we first need to create an Instance of it, which we will store in a variable just like any other piece of data:
+
+```python
+my_counter = Counter()
+```
+
+Once we create an instance of a Class, we can run that Instance's Methods, and query it's internal Properties. Note that the general class definition is only a construct. All Properties defined within the Class only apply to a particular Instance, and the Methods can only be run as they relate to that Instance. For example:
+
+```python
+my_counter.add_to_counter(2)
+print(my_counter.get_count())
+```
+
+Right away, you will notice a few differences between how we define Functions and Classes. First of all, no variables are passed on the first line of the definition since the `Class` keyword only defines the overall structure of the class. After the first line you will find a list of Variables which define the local Parameters of that Class, and keep track of data for individual Instances. After this you will have a collection of local Methods (remember 'Methods' are simply Functions that belong to a particular Class) that define the Class functionality. These Methods are defined just like Functions, except you see that the first input is always the keyword 'self'. This is a reference to the Instance that is calling the Method, and is always passed as the first input into each Method within a Class. This allows you to query the local Parameters of the Instance, as you can see us doing with the 'count' variable.
+
+To call a Method within a Class, you use the name of the variable that is storing the Instance, and use the dot (`.`) notation to call the Method. The dot is basically your way into the Instance and all of its data and functionality. It is also possible to use the dot syntax to query the local Parameters of the Class instance. For example, if we want to find the value of my_counter’s `count` variable, we can just ask it by typing:
+
+```python
+my_counter.count
+```
+
+However, this is discouraged because it reveals the true name of the local Parameters to the end user of the Class. In a production environment this would pose severe security risks, but it is considered bad practice even in private uses. Instead, you are encouraged to create special 'accessor' methods to pull Parameter values from the Instance, as we have done with the `get_count()` method in the example above. Another advantage of this practice (which is called [encapsulation](http://beginnersbook.com/2013/05/encapsulation-in-java/)) is that the code is easier to maintain. You are free to make any changes within the Class definition, including changing the names of the local Parameters and what they do. As long as you maintain the accessor functions and they return the expected result, you do not have to update anything in the main code that uses the Class.
+
+As far as naming Classes goes, you can follow the same rule as naming variables or functions, however the standard practice is to capitalize every word, including the first one.
+
+Finally, in the example above every Instance we make of the Counter will start the counter at 0. However, what if we want to specify what this count should be when we make an Instance of the Class? For this we can implement the `__init__()` method (those are two underscores on each side of `init`):
+
+```python
+class Counter:
+
+    def __init__(self, initial_value):
+        self.count = initial_value
+
+    def add_to_counter(self, input_value):
+        self.count += input_value
+            
+    def get_count(self):
+        return self.count
+```
+
+Now when we can create a new Instance of the counter we can pass in a starting value for the count:
+
+```python
+my_counter = Counter(10)
+my_counter.add_to_counter(2)
+
+#this should now return 12
+print(my_counter.get_count())
+```
+
+When the Class Instance is initialized, it will automatically run the `__init__()` Method, which will utilize any variable passed into it during initialization. `__init__()` is one of a series of special methods that Classes can implement to achieve different functionality. The rest of these are beyond the scope of this module, but you can find a more thorough description of these, as well as other aspects of Classes, in the [Python documentation](https://docs.python.org/2/tutorial/classes.html).
+
+# Challenge
+

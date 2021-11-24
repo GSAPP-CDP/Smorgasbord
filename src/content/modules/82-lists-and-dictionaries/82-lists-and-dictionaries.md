@@ -147,4 +147,4 @@ JSON, one of the most implemented and easiest to work with data formats, is actu
 
 # Challenge
 
-Create a database of objects
+Create a database of objects represented by lists and dictionaries
