@@ -258,14 +258,26 @@ Your map should look something like this:
 
 ![graduated trees map](images/26-tree-size.png)
 
-## Assignment
-Design a map, or a series of maps showing your four ***Views of NYC Trees***.  
+## Assignment: 
+Design a map, or a series of maps showing your four ***Views of NYC Trees***. This is an opportunity to experiment with the nuance Complete the [next short module]() on the print layout functions of QGIS cartographic design before embarking on this.
 
 Consider:  
+How can your design convey similarities and differences across each of the four ways of understanding trees of New York City?  
 
-- how can your design convey similarities and differences across each of the four ways of understanding trees of New York City?  
-- will you privilege one view over the others? or give equal voice to all four?  
-- what are the limitations of each view? how can you communicate these limitations through your graphic presentation of data?  
+Will you privilege one view over the others? or give equal voice to all four?  
+
+What are the limitations of each view? strengths of each view? how can you communicate these limitations/strengths through your graphic presentation of data?  
+
+Format:  
+Your designed map compositions must thoughtfully include:
+
+- title
+- legend
+- scale bar
+- north arrow (your map doesn't need to have north be pointing vertically...)
+- citations for all data sources
+- projection used
+- your name
 
 
 

@@ -2,7 +2,7 @@
 moduleid: 152
 title: Print Layout
 published: True
-slug: mapping-where
+slug: print-layout
 ---
 
 # Print Layouts in QGIS
