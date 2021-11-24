@@ -19,7 +19,7 @@
 <style>
 
 .post {
-  font-size: 0.9em;
+  font-size: 0.95em;
   font-weight: regular;
   margin: auto;
   width: 50vw;
@@ -27,7 +27,7 @@
   color: #444;
 }
 p {
-  line-height: 1.4em;
+  line-height: 1.6em;
 }
 
 blockquote {
