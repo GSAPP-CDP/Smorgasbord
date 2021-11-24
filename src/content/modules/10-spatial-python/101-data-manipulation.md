@@ -215,8 +215,10 @@ new_column.mean()
 
 It is also handy when doing matrix–matrix and vector–matrix multiplication.
 
+---
 
 - data cleaning (missing, dropping, changing dtypes)
+- groupby and apply functions
 
 
 <br>
