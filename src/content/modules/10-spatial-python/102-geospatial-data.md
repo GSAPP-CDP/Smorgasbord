@@ -119,6 +119,10 @@ Where these operations really shine are when we use them for analysing spatial r
 
 ---
 
+### Discrete vs Continous Data
+
+Add content...
+
 <br/>
 <br/>
 
