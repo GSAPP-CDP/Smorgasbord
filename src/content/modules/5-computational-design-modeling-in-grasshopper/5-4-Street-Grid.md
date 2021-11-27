@@ -30,9 +30,9 @@ Great point! Lets do that now.
 Lets start by refreshing ourselves on the list of questions for helping to frame a hypothesis from the `What is a Computational Design Model?` module:
 
 - Does the question involve metrics that are quantifiable?
-- Who benefits from this question?
 - Does the question revolve around quantities that have a demonstrable correlation?
 - Does it include spatial attributes to vary and test?
+- Who benefits from this question?
 
 What are some questions we could use an urban scale model to explore?
 
@@ -44,9 +44,12 @@ But we also want a question that includes spatial attributes to test, which this
 
  "What street grid and distribution of density result in energy efficient buildings while creating comfortable outdoor spaces?"
 
- Metrics that are quantifiable? Two types of direct daylight metrics, check. Spatial Attributes to test? Street grids and density distribution, check. Demonstrable correlation? Comfortable spaces relative to heat gain, check.
+- Does the question involve metrics that are quantifiable? *Two types of direct daylight metrics, check.*
+- Does the question revolve around quantities that have a demonstrable correlation? *Comfortable spaces relative to heat gain, check.*
+- Does it include spatial attributes to vary and test? *Street grids and density distribution, check.*
 
- Now, who benefits from this question? Certainly the people occupying the buildings and open spaces. Who are some other stakeholders? How about developers (who are necessary to get the buildings built) and the city government (who would approve the project)? Would a developer benefit from our question? Not really. They don't pay for heating and cooling so unless they have a sustainability agenda may not be motivated to create energy efficient buildings. What increases the value of a development? Views! Great, we've already got a tool for that. You don't necessarily need to formulate a question that covers all stakeholders and metrics so lets add view analysis as an output but keep our question as it is. What does a city government benefit from? Most have energy reduction goals so reducing heating and cooling loads would serve to help achieve that goal.
+
+Now, who benefits from this question? Certainly the people occupying the buildings and open spaces. Who are some other stakeholders? How about developers (who are necessary to get the buildings built) and the city government (who would approve the project)? Would a developer benefit from our question? Not really. They don't pay for heating and cooling so unless they have a sustainability agenda may not be motivated to create energy efficient buildings. What increases the value of a development? Views! Great, we've already got a tool for that. You don't necessarily need to formulate a question that covers all stakeholders and metrics so lets add view analysis as an output but keep our question as it is. What does a city government benefit from? Most have energy reduction goals so reducing heating and cooling loads would serve to help achieve that goal.
 
  We've now got a question that meets our criteria for a critical hypothesis that is suited to explore with a computational design model.
 
