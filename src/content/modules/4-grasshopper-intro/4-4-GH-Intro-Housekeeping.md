@@ -84,7 +84,7 @@ To make applying a specific color faster, right click on the group or panel with
 color you want to match and select "make color default" or "set default color."
 ```
 
-We've been labeling groups and parameters as we go, but also introduce panels with more detailed notes as useful. In the example above we've added a note to explain the dynamic input.
+We've been labeling groups and parameters as we go, but also introducing panels with more detailed notes can be useful. In the example above we've added a note to explain the dynamic input.
 
 ![description](images/4-4-5_Panel-Colors.PNG)
 
