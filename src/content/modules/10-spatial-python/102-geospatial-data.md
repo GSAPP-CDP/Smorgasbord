@@ -39,14 +39,14 @@ Similar to DataFrames in Pandas that we covered in previous modules, GeoDataFram
 
 To demonstrate the functionality of GeoDataFrames we will use the [New York City parks](https://data.cityofnewyork.us/Recreation/Open-Space-Parks-/g84h-jbjm) dataset from the open data portal and load this as a GeoDataFrame object in Python. Click on the `Export` button at the top right of the map and select `GeoJSON`. Once this is located in the convenient place on your laptop, you can load this into GeoPandas with the `.read_file()` method:
 
-```
+```python
 path = '/Users/cbailey/Downloads/Open Space (Parks).geojson'
 gdf = gpd.read_file(path)
 ```
 
 The `read_file` method supports many different file formats, including: DXF, CSV, ESRIJSON, ESRI Shapefile, etc. To have a glance at what is contained in this dataset, we will select a subset of the columns and display the first five rows using the `head()` method:
 
-```
+```python
 columns_of_interest = ['park_name', 'landuse', 'shape_area', 'geometry']
 gdf[columns_of_interest].head()
 ```
@@ -62,7 +62,7 @@ Brooklyn Heights Promenade|	Triangle/Plaza|	14465.699799| MULTIPOLYGON (((-73.99
 Every row in this dataset is a park, with associated features like name, type of park, area, geometry, etc. In most cases, the geometry column in the geometry column is represented in either one of two formats: Well Known Text (often written WKT) or GeoJSON. These are two markup languages for representing vector based objects. GeoDataFrame objects, similar to Pandas DataFrame objects, make it very easy to visualize the underlying geographies. Using the `.plot()` method alongside a conditional filter, we are able to quickly visualize all parks within Manhattan:
 
 
-```
+```python
 mask = gdf['parknum'].str.contains('M', na=False)
 gdf[mask].plot()
 ```
@@ -79,7 +79,7 @@ Polygons within the context of spatial data are 2-dimensional shapes that repres
 
 To demonstrate how polygons are represented and manipulated in Shapely we will extract a single park from the NYC parks dataset. We will again use conditional indexing to get the geometry for Prospect park in Brooklyn.
 
-```
+```python
 # Create a condition that looks for rows with the source ID of Prospect park
 mask = gdf['source_id'] == '19498000554'
 
@@ -94,7 +94,7 @@ polygon
 
 Now that we have extracted the polygon we can use Shapely to extract measurements or manipulate the shape. The polygon class has a number of built-in methods for tasks like these. For example, getting the shapes area is as simple as:
 
-```
+```python
 polygon.area
 
 # which will should print 0.00020482609342158714
@@ -102,7 +102,7 @@ polygon.area
 
 Similarly, there are a number of other manipulations we can do to get things like the center of an area, the bounding geometry (or convex hull), a surrounding buffer zone, or even simplify the complexity of shape using dot notation.
 
-```
+```python
 polygon.centroid
 
 polygon.buffer(.005)
@@ -132,7 +132,7 @@ Graphs are a mathematical structure representing a set of objects that generally
 
 To demonstrate we will use the OSMNX to query OpenStreetMap and download a road network.
 
-```
+```python
 gov_island = osmnx.graph_from_place("Governors Island, New York, United States")
 osmnx.plot_graph(gov_island)
 ```

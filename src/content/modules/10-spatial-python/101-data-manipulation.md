@@ -35,7 +35,7 @@ Pandas relies on two data structures that pretty much power nearly all other ope
 
 There are many ways to construct a DataFrame – one of the most common is to provide a dictionary with lists of equal length, inside the `DataFrame()` function. The keys of the dictionary are the column names, that have the same size lists of values, where each item of the list is a row. Open up a new Jupyter (or Colab) notebook and paste:
 
-```
+```python
 data = {
   'column-1': [1, 2, 3, 4, 5]
   'column-2': ['a', 'b', 'c', 'd', 'e']
@@ -61,7 +61,7 @@ Often times while using Pandas you read in external datasets rather than create 
 
 Once you have the file located in a convenient location on your laptop, reading the file as a Pandas DataFrame object is as simple as using the `.read_csv()` function in Pandas. The function takes as it's main argument, a file path of the CSV you are trying to read.
 
-```
+```python
 path_to_file = '/Users/cbailey/Downloads/2015_Street_Tree_Census_-_Tree_Data.csv'
 df = pd.read_csv(path_to_file)
 ```
@@ -75,7 +75,7 @@ Viewing data, having a look at individual rows and values, is very important whe
 
 The `head` and `tail` functions return the first or last *n* rows of a DataFrame, and is useful for quickly looking at the values in your object. The functions are a [method](https://www.askpython.com/python/built-in-methods/dot-notation) of the DataFrame object, as such can be used with dot notation when calling the DataFrame of interest:
 
-```
+```python
 df.head()
 ```
 
@@ -86,13 +86,13 @@ Running the above cell in your notebook should display a table similar to the on
 
 The `info` function returns information about a particular DataFrame such as the number of missing values by column, the data type and memory usage, which can be useful when working with extremely large datasets.
 
-```
+```python
 df.info()
 ```
 
 The `describe` function returns summary statistics for a given DataFrame or Series, displaying things like the mean, median, standard deviation, max values, etc for each column. It also returns information for non-numeric data like categories that would include things like counts, number of unique values, etc. It also uses dot notation like all the above methods to use it.
 
-```
+```python
 df['stump_diam'].describe()
 ```
 
@@ -114,13 +114,13 @@ Name: stump_diam, dtype: float64
 
 **Series** can be thought of as column objects or a much smarter and faster version of lists. There are many ways to create a Series objects, but one of the simplest is to provide a list of values around the `Series()` object constructor:
 
-```
+```python
 pd.Series([1, 2, 4, 8])
 ```
 
 Series consist of an array / list of values, alongside an associated list of labels, called an index. You can provide a column name and index values when creating a Series:
 
-```
+```python
 data = pd.Series([1, 2, 3, 8], name='column-1', index=['a', 'b', 'c', 'd'])
 ```
 
@@ -138,7 +138,7 @@ Often times in Pandas we do not want to work with every data point at a time, ra
 
 In Pandas we use square brackets `[]` to select a subset of a DataFrame or Series object. For example, we can select only data from the health column in the Tree Census DataFrame by name. There are two ways to do this:
 
-```
+```python
 # Option 1: select the column using the column name
 df['health']
 
@@ -148,7 +148,7 @@ df.health
 
 We can similarly use square brackets `[]` to select a set of rows from the DataFrame, like we do with Python lists:
 
-```
+```python
 # To select rows 5 to 10
 df[5:10]
 
@@ -158,20 +158,20 @@ df[:100]
 
 We can also more explicitly select rows based on their index label or position using the `loc` and `iloc` methods. `loc` is primarily used when the DataFrame axis is labeled, while `iloc` is used to select rows by their numbered position. For example, to select only the first row in a DataFrame:
 
-```
+```python
 df.iloc[0]
 ```
 
 One of the most powerful concepts in Pandas is selecting data on some condition. Taking our Tree Census DataFrame as an example, if we wanted to select only the rows that contained trees in good health we could do:
 
-```
+```python
 mask = df['health'] == 'Good'
 df[mask]
 ```
 
 Here, the mask variable contains the condition we are interested in satisfying: "which trees are in good health", and then we use square brackets again to select all the rows in the dataframe where this condition is met. We can do a similar thing for numeric data types like selecting all rows where the tree diameter is above 20:
 
-```
+```python
 mask = df['tree_dbh'] > 20
 df[mask]
 ```
@@ -185,7 +185,7 @@ df[mask]
 
 An important concept in Pandas operations is vectorization – which is a programming paradigm that allows operations to be applied to an entire list of values without doing loops in Python. For example, if you wanted to multiply a list of values by a single number in Python you would have to loop through every value and either replace the original number or store the results in a new list:
 
-```
+```python
 values = [1, 2, 4, 8]
 new_values = []
 n = 2
@@ -197,7 +197,7 @@ for i in values:
 
 The above code creates a new list of values `[2, 4, 8, 16]` and would be quick to run on a small amount of data, but when dealing with thousands or even millions of values, would start to be fairly cumbersome. With vectorization, Pandas allows us to do the above operation much quicker and in one line of code:
 
-```
+```python
 column = pd.Series([1, 2, 4, 8])
 n = 2
 new_column = column * n
@@ -205,7 +205,7 @@ new_column = column * n
 
 Above every value within the `column` variable is multiplied by 2. Vectorization also allows us to do other aggregate computations quickly, like finding the max, min or average value of a column:
 
-```
+```python
 new_column.max()
 
 # or

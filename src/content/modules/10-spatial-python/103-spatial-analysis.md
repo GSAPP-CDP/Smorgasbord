@@ -34,14 +34,14 @@ Points in the context of spatial data usually take one of two forms. 1) Points c
 
 We will introduce concepts of point pattern analysis sticking with the 2015 NYC tree census data. To get started let's load the data into a Pandas DataFrame:
 
-```
+```python
 path = 'data/2015_Street_Tree_Census_-_Tree_Data.csv'
 df = pd.read_csv(path)
 ```
 
 As we loaded the data from a `.csv` we will next need to convert this to a GeoDataFrame so that we can easily visualize and manipulate the data spatially. To do that we will create a function to convert the `'latitude'` + `'longitude'` columns (float values) to a Shapely `Point` object (a geometry class in Python). The function will take an input called `data` and return a Shapely object. We will make use of `.apply` functions in Pandas to conveniently iterate over the entire DataFrame:
 
-```
+```python
 def lat_lng_to_point(data):
     return Point([data['longitude'], data['latitude']])
 
@@ -50,7 +50,7 @@ df['geom'] = df.apply(lat_lng_to_point, axis=1)
 
 You should now see an extra column in the DataFrame called `'geom'` that consists of Point objects:
 
-```
+```python
 df['geom'].head()
 ```
 
@@ -65,14 +65,14 @@ Name: geom, dtype: object
 
 Now we are ready to convert the DataFrame to a GeoDataFrame with geographies. To do this we need to tell GeoPandas what column contains geometries and the CRS we want to use for projection (we will first use [a common CRS](https://geopandas.org/en/stable/docs/user_guide/projections.html) projection):
 
-```
+```python
 gdf = gpd.GeoDataFrame(df, geometry='geom')
 gdf.crs = 'EPSG:4326'
 ```
 
 Now let's visualize the data! To do so we will first filter the GeoDataFrame to only show trees in Manhattan. We can use the `'zip_city'` column and add a condition that only includes rows that are in 'New York' (AKA the Manhattan borough). Notice that we specify the marker and figure size (with the `figsize` + `markersize` arguments) in order to increase the resolution of the plot:
 
-```
+```python
 gdf.loc[gdf['zip_city']=='New York'].plot(figsize=(12,14), markersize=0.25)
 ```
 
@@ -80,7 +80,7 @@ gdf.loc[gdf['zip_city']=='New York'].plot(figsize=(12,14), markersize=0.25)
 
 Although we can make out the shape of Manhattan, the tree locations by themselves appear as dots in arbitrary whitespace, lacking geographical context. Luckily, adding context in GeoPandas is fairly easy with the `contextily` Python library. Contextily works by loading Web map tiles into the GeoPandas plot. Web map tiles are usually provided in a certain CRS projection, `EPSG 3857`, so we will have to update the CRS of our GeoDataFrame to match:
 
-```
+```python
 # change the CRS
 gdf = gdf.to_crs(epsg=3857)
 
@@ -95,7 +95,7 @@ The above plots do not tell us much about the structure of points across the cit
 
 To create the grid in GeoPandas we will use the x + y bounds of the tree dataset to define our overall region, and subdivide this region into grid cells (giving each cell a unique identifier to help with analysis):
 
-```
+```python
 # filter the tree dataset to only those within Manhattan
 manhattan_trees = gdf.loc[gdf['zip_city']=='New York']
 
@@ -124,7 +124,7 @@ grid.crs = 'EPSG:4326'
 
 Then we will merge the grid cells with our trees, count the number of trees within each cell and visualize the results:
 
-```
+```python
 # merge the two datasets
 grid_trees = gpd.sjoin(grid, manhattan_trees)
 
