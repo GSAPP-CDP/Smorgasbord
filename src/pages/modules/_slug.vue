@@ -77,6 +77,14 @@ img[src$='#img-right'] {
   margin-bottom: 0px;
 }
 
+/* image caption */
+div.img + em {
+  color: #888;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+
 
 </style>
 
