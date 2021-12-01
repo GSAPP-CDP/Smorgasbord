@@ -67,6 +67,8 @@ Our Drawing Restraint tool will have one of each element; an input, a process, a
 
 ## Input:
 
+<div class="instruction">
+
 Create the `Geometry Pipeline` to filter, receive data. This component automates the geometry reference process; where beforehand you had to .. 
 
 [TK explanation and images]
@@ -78,13 +80,15 @@ Create the `Geometry Pipeline` to filter, receive data. This component automates
 [TK explanation and images]
 
 [TK explanation and images]
-
+</div>
 
 *Affordances Exercise:*
 
+<div class="instruction">
 - Try creating a `Geometry Pipeline` that picks up points, then plug its output into a `Sphere` component. Plug in a slider so that the sphere have a nice proportional size to your viewport.
 
 - Now, minimize Grasshopper and play with adding, moving, and deleting points in Rhino. See how points in Rhino 'automatically' have spheres surrounding them. Spheres will 'automatically' move based off of the location of the point.
+- </div>
 
 *How does this feel?* Remember, this was created out of two components, and has a simple logic: "Any point becomes turned into a sphere of radius X". However, creating and deleting points with it seems to be seamless with Rhino's interface. After using it for a minute, you could almost imagine that 'creating a point' = 'creating a sphere.
 
@@ -92,6 +96,7 @@ Congrats - we have now altered, slightly but surely, the perceived interface of 
 
 ## Process
 
+<div class="instruction">
 [TK add in detail]
 
 [TK explanation and images]
@@ -103,9 +108,11 @@ Congrats - we have now altered, slightly but surely, the perceived interface of 
 - Change the settings on `Geometry Pipeline` to input lines`
 
 - Line Length, Math inequality, to create boolean logic
+</div>
 
 ## Output
 
+<div class="instruction">
 [TK add in detail]
 
 [TK explanation and images]
@@ -117,7 +124,7 @@ Congrats - we have now altered, slightly but surely, the perceived interface of 
 
 - Dispatch / Sift Pattern with boolean logic 
 - Custom Preview
-
+</div>
 
 
 ## Tool Testing
@@ -128,7 +135,9 @@ By now, you should have a tool that lets you draw polylines to create 'walls'; w
 
 [TK explanation and images]
 
+<div class="instruction">
 Try testing this out, again minimizing Grasshopper to only work in Rhino to get a feel for its *affordances* - how it *feels*, how it alters the perception-action loop between what you do and what you see.
+</div>
 
 As an experiment, try drawing a maze, or a simple folly, or a layout of a simple apartment unit. What does it feel like for walls to turn red? How do you find yourself responding to this, as a designer?
 
