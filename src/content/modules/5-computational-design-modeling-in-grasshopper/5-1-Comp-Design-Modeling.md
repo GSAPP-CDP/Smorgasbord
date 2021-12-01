@@ -2,7 +2,7 @@
 moduleid: 5-1
 title: What is a Computational Design Model?
 published: True
-slug: what-is-a-computational-design-model?
+slug: what-is-a-computational-design-model
 ---
 
 
