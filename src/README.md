@@ -38,3 +38,26 @@ The site is created in NUXT.js. If you'd like to develop locally, so that you ca
 `npm run dev` or `yarn dev`
 
 The site will be hosted at `http://localhost:3000`.
+
+
+## Styling, etc
+
+
+Images can be tagged with `#img-full`, `#img-left`, `#img-right` to position images in the document.
+
+(These are defined in 
+
+`![blahblah](0-template-gif.gif#img-full)`
+
+`![alt-text](images_can_be_named_anything.png#img-left)`
+
+`![more alt-text about image](images/images_work_in_subfolders.png#img-right)`
+
+Code instruction blocks can be tagged using the `instruction` class in a markdown file. Eg.:
+
+```
+<div class='instruction'>
+DO XYZ in Rhino
+</div>
+```
+

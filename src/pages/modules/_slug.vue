@@ -67,6 +67,16 @@ img[src$='#img-right'] {
   padding: 10px;
 }
 
+.instruction {
+  background-color: #CCC;
+  border-radius: 10px;
+  padding: 20px 10px;
+}
+
+.instruction p:last-child {
+  margin-bottom: 0px;
+}
+
 
 </style>
 
