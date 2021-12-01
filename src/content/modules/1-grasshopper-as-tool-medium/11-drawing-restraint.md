@@ -52,7 +52,9 @@ Let's assume that you know some of the fundamentals of Grasshopper; how to make 
 What are some of the fundamental processes of Grasshopper? 
 
 [TK explanation and images]
+
 [TK explanation and images]
+
 [TK explanation and images]
 
 - Grasshopper, as a flow-based programming language, inherently moves data from left to right. (Grasshopper could be said to be a kind of [functional programming language](https://en.wikipedia.org/wiki/Functional_programming)). 
@@ -70,10 +72,15 @@ Our Drawing Restraint tool will have one of each element; an input, a process, a
 Create the `Geometry Pipeline` to filter, receive data. This component automates the geometry reference process; where beforehand you had to .. 
 
 [TK explanation and images]
+
 [TK explanation and images]
+
 [TK explanation and images]
+
 [TK explanation and images]
+
 [TK explanation and images]
+
 
 *Affordances Exercise:*
 
@@ -88,8 +95,11 @@ Congrats - we have now altered, slightly but surely, the perceived interface of 
 ## Process
 
 [TK add in detail]
+
 [TK explanation and images]
+
 [TK explanation and images]
+
 [TK explanation and images]
 
 - Change the settings on `Geometry Pipeline` to input lines`
@@ -99,8 +109,11 @@ Congrats - we have now altered, slightly but surely, the perceived interface of 
 ## Output
 
 [TK add in detail]
+
 [TK explanation and images]
+
 [TK explanation and images]
+
 [TK explanation and images]
 
 
@@ -114,6 +127,7 @@ Congrats - we have now altered, slightly but surely, the perceived interface of 
 By now, you should have a tool that lets you draw polylines to create 'walls'; when the total sum of walls is longer than a set length, all walls turn red, indicating that it should be removed.
 
 [TK explanation and images]
+
 [TK explanation and images]
 
 Try testing this out, again minimizing Grasshopper to only work in Rhino to get a feel for its *affordances* - how it *feels*, how it alters the perception-action loop between what you do and what you see.
@@ -125,10 +139,12 @@ Some other examples you might want to try is:
 - Having walls turn red when they are too close to an average length of all of the walls (you could use the `Average` component)
 
 [TK explanation and images]
+
 [TK explanation and images]
 
 Conceptually, this tool is simple; it tells you, "please do not draw walls longer than X length". In theory, this is something that you could do without using Grasshopper. But how does your *felt experience* of using the tool differ? Where it feel limiting, or playful?
 
 This feeling of tool-making become the basis of other tools (or mediums) that we create in Grasshopper. Hopefully you can see that Grasshopper is not just a computational medium; it is also a design environment that the designer interacts with. Grasshopper enables the shaping of this design environment.
 
+We will be continuing to develop this idea of a tool, the shaping of the design environment, and the shaping of the design system in the rest of this sequence.
 
