@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="img">
     <img :src="imgSrc()" :alt="alt" />
   </div>
 </template>

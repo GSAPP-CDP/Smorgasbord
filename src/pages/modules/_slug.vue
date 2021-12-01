@@ -67,6 +67,24 @@ img[src$='#img-right'] {
   padding: 10px;
 }
 
+.instruction {
+  background-color: #CCC;
+  border-radius: 10px;
+  padding: 20px 10px;
+}
+
+.instruction p:last-child {
+  margin-bottom: 0px;
+}
+
+/* image caption */
+img + em, div.img + em {
+  color: #888;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+
 
 </style>
 

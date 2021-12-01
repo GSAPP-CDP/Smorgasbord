@@ -1,6 +1,6 @@
 ---
 moduleid: 13
-title: Perception in Action: Custom Preview, Human UI
+title: "Perception in Action: Custom Preview, Human UI"
 published: True
 slug: perception-in-action
 ---

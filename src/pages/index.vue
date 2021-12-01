@@ -2,6 +2,7 @@
   <div>
     <ul v-for="module in modules">
       <li>
+        {{module.dir}}
         <NuxtLink :to="'modules/' + module.slug">{{module.title}}</NuxtLink>
         Moduleid: {{ module.moduleid }}
       </li>

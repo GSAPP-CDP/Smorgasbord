@@ -1,8 +1,7 @@
 ---
 moduleid: 15
-title: Final Project: Spatial Tradeoffs
+title: "Final Project: Spatial Tradeoffs"
 published: True
-slug: spatial-tradeoffs
 ---
 
 Summary:

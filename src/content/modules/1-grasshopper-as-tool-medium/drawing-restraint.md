@@ -2,7 +2,6 @@
 moduleid: 11
 title: Drawing Restraint
 published: True
-slug: drawing-restraint
 ---
 
 # Drawing Restraint: Grasshopper, Simple Logic and Affordances
@@ -17,16 +16,13 @@ What does it mean to creatively *constrain ourselves* in a design process, or in
 ## Drawing Restraint, Matthew Barney
 
 ![drawing_restraint.jpg](images/drawing_restraint.jpg)
-
->*Matthew Barney, DRAWING RESTRAINT 5, 1989*
+*Matthew Barney, DRAWING RESTRAINT 5, 1989*
 
 ![drawing_restraint.jpg](images/drawing_restraint_2.jpg)
-
->*Matthew Barney, DRAWING RESTRAINT 6, 1989*
+*Matthew Barney, DRAWING RESTRAINT 6, 1989*
 
 ![drawing_restraint.jpg](images/drawing_restraint_10.jpg)
-
->*Matthew Barney, DRAWING RESTRAINT 10, 2005*
+*Matthew Barney, DRAWING RESTRAINT 10, 2005*
 
 
 Matthew Barney's *DRAWING RESTRAINT * series is about self-imposed limitation, constraint, restraint, and a series of creative processes that emerge out of these restraints:
@@ -51,11 +47,13 @@ Let's assume that you know some of the fundamentals of Grasshopper; how to make 
 
 What are some of the fundamental processes of Grasshopper? 
 
+<div class="instruction">
 [TK explanation and images]
 
 [TK explanation and images]
 
 [TK explanation and images]
+</div>
 
 - Grasshopper, as a flow-based programming language, inherently moves data from left to right. (Grasshopper could be said to be a kind of [functional programming language](https://en.wikipedia.org/wiki/Functional_programming)). 
 
