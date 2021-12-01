@@ -24,9 +24,10 @@ export default {
       
       // this is so gross..... but the only way to do it
 
-      const moduledir = this.$parent.$parent.$data.module.dir;
 
       try {
+        const moduledir = this.$parent.$parent.$data.module.dir;
+
         var srconly = this.src.split('#')[0]
         var srchash = "";
         if(this.src.split('#')[1]) {
