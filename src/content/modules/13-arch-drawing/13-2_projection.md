@@ -149,13 +149,13 @@ To use parallel projection in your Rhino viewport, select it in the properties p
 
 You can orbit around in this view as you would in perspective, but you'll find that a vector drawing from this view preserves parallel edges.
 
-// parallel make2d **Trimetric** include dimetric?
+![parallel projection extension lines](images/13-2/parallel-extensions.jpg#img-left)
 
 ### Isometric Projection
 
 "Isometric" refers to parallel drawings which give equal treatment to three faces of a box-like object. A cube drawn isometrically becomes three identical rhombuses, with interior angles of 120 degrees.
 
-// Isometric box diagram
+![isometric cube](images/13-2/iso-cube.jpg#img-left)
 
 Each visible edge of the cube will have the same length, just like in 3D space: in an isometric projection, relative dimensions along the X, Y, and Z axes are preserved. Diagonal lines, however, will be stretched or shortened.
 
@@ -173,11 +173,15 @@ Try out each of these to make isometric drawings of the Casa Bahia Azul.
 
 ### Oblique Projection
 
-Isometric drawing preserves dimensions along the main axes, and distorts all three visible faces equally. The goal of an oblique drawing is to depict either a plan or elevation with no distortion at all, while still conveying a sense of three-dimensional space. In this drawing, for instance, all angles and dimensions in the XY plane are depicted accurately, giving a clear description of the building's plan:
+Isometric drawing preserves dimensions along the main axes, and distorts all three visible faces equally. The goal of an oblique drawing is to depict either a plan or elevation with no distortion at all, while still conveying a sense of three-dimensional space. In this drawing, for instance, all angles and dimensions in the XY plane are depicted accurately, giving a clear description of the building's plan. Here's a plan oblique drawing by Frank Lloyd Wright:
 
-// plan oblique example
+![FLW Plan Oblique](images/13-2/flw-plan-oblique.jpg#img-left)
 
-Drawings like this are commonly referred to as **Axonometric**, although the technical definition of this term includes all parallel projections.
+And here's one by Madelon Vriesendorp & Rem Koolhaas which uses the same basic projection, but with a different rotation and no plan cut:
+
+![FLW Plan Oblique](images/13-2/delirious-ny.jpg#img-left)
+
+(Drawings like this are commonly referred to as **Axonometric**, although the technical definition of this term includes all parallel projections.)
 
 ### Plan Oblique
 
@@ -189,11 +193,15 @@ Select the new geometry you just copied, switch to the Right view, and then `She
 
 Look at this distorted model from the top, and use `Make2D` on it. Because we sheared the model in the horizontal plane, the plan is unchanged. And because we used a shear angle of 45 degrees, the front face of the building is also represented accurately.
 
+![plan-elevation-axonometric](images/13-2/plan-elevation-oblique.jpg#img-left)
+
 This drawing preserves both plan and elevation, but becuase it only represents two faces, it doesn't give a great three-dimensional impression of the building. Now `Show` your original model and create three more copies of it. But this time, rotate the copies 30, 45, and 60 degrees in top view. Select all of them, and just like before, `Shear` them 45 degrees when looking at them from the side. Then switch back to top view, and use `Make2D` again.
 
-//results
+![plan-elevation-axonometric](images/13-2/plan-oblique-angles.jpg#img-left)
 
-You now have three **Plan Oblique** drawings. Each of them has an accurate plan. The dimensions of vertical and horizontal lines are also preserved, but just like in the isometric drawing, diagonal lines in vertical planes are either stretched or compressed. The middle drawing gives equal treatment to the two elevations of the building, while those on either side privelege one face over another. 
+You now have three **Plan Oblique** drawings. Each of them has an accurate plan. The dimensions of vertical and horizontal lines are also preserved, but just like in the isometric drawing, diagonal lines in vertical planes are either stretched or compressed. The middle drawing gives equal treatment to the two elevations of the building, while those on either side privelege one face over another.
+
+As an extra challenge, try making a plan oblique drawing that includes a plan cut, as in the Frank Lloyd Wright drawing above.
 
 ### Elevation Oblique
 
