@@ -1,6 +1,6 @@
 ---
 moduleid: 12
-title: Effects Chain: Abstraction, Clusters and Plugins
+title: "Effects Chain: Abstraction, Clusters and Plugins"
 published: True
 slug: effects-chain
 ---

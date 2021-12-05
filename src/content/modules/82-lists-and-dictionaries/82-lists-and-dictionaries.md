@@ -113,7 +113,7 @@ myDictionary['b'] = 2
 print myDictionary
 ```
 
-Like Lists, Dictionaries implement many useful methods for working with the data contained inside. One very useful method is `.keys()`, which returns a List of all of the dictionary’s keys, which you can then use to iterate over all the entries in the Dictionary:
+Like Lists, Dictionaries implement many useful methods for working with the data contained inside. One very useful method is `.keys()`, which returns a List of all of the dictionary’s keys, which you can then use to [iterate over all the entries in the Dictionary]():
 
 ```python
 python
@@ -145,4 +145,6 @@ print(myDictionary['fruits'][-1]['berries'][1])
 
 JSON, one of the most implemented and easiest to work with data formats, is actually based on this concept of nested lists and key-value pairs, and has great support within almost every programming language, including Python and JavaScript. We will work with the JSON format later in this sequence, but for now you can check out its documentation here: [http://json.org/](http://json.org/).
 
-# Challenge: Create a database of objects
+# Challenge
+
+Create a database of objects represented by lists and dictionaries

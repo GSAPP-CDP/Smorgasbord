@@ -1,6 +1,6 @@
 ---
 moduleid: 14
-title: Other Inputs: OSC, APIs, Data
+title: "Other Inputs: OSC, APIs, Data"
 published: True
 slug: other-inputs
 ---
