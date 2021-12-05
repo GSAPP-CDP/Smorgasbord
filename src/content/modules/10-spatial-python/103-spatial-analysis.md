@@ -91,7 +91,7 @@ ax.set_axis_off()
 
 ![missing-image](images/stamen-tree-dots.png)
 
-The above plots do not tell us much about the structure of points across the city however, sheer the amount of points on the map hide the underlying distribution not revealing whether some areas have a higher concentration than others. One way to get around this is to use polygons, or an underlying grid, to bucket the points into regular intervals / areas and then count the number of points within each area. This is similar to the use of [histograms](https://en.wikipedia.org/wiki/Histogram) to visualize the distribution of numerical data.
+The above plots do not tell us much about the structure of points across the city however, the amount of points on the map hide the underlying distribution not revealing whether some areas have a higher concentration than others. One way to get around this is to use polygons or an underlying grid to bucket the points into regular regions and then count the number of points within each region. This is similar to the use of [histograms](https://en.wikipedia.org/wiki/Histogram) to visualize the distribution of numerical data.
 
 To create the grid in GeoPandas we will use the x + y bounds of the tree dataset to define our overall region, and subdivide this region into grid cells (giving each cell a unique identifier to help with analysis):
 
@@ -143,18 +143,78 @@ ax.set_axis_off()
 
 ![missing-image](images/grid_tree-count.png)
 
-Discretizing points into grids is a fast and efficient way of describing density across regions. But it suffers from the loss of information that comes with binning the data. Another approach is that of Kernel Density Estimation (KDE). KDE is a common tool in statistics and machine learning, often used to describe the continuous distribution of data using "kernels". In our case, it gives us a method for visualizing the density of points across the city, without having to buckets the data into grids.
+Discretizing points into grids is a fast and efficient way of describing density across regions. But it suffers from the loss of information that comes with binning the data. Another approach is that of Kernel Density Estimation (KDE). KDE is a common tool in statistics and machine learning, often used to describe the continuous distribution of data using "kernels". In the context of our tree data, KDE visualizes the density of trees using contours to indicate higher concentrations, giving us a method for visualizing the density of points across the city without having to buckets the data into grids.
+
+We will implement Kernel Density Estimation using [Seaborn](https://seaborn.pydata.org/index.html), a Python library for data visualization. Seaborn has a `.kdeplot()` function that takes as input the `x` + `y` coordinates of our point data and a color map (specifying the underlying color of the visualization):
+
+```python
+# create the base layer on which will go the KDE and mapping context
+_, ax = plt.subplots(1, figsize=(12, 14))
+
+# use Seaborn to plot KDE
+sns.kdeplot(
+    manhattan_trees['longitude'],
+    manhattan_trees['latitude'],
+    cmap='viridis',
+    shade=True
+)
+
+# add context
+cx.add_basemap(ax, source=cx.providers.Stamen.TonerLite, crs='EPSG:4326')
+```
 
 ![missing-image](images/kde_tree-count.png)
 
+Compared to the use of grids and binning our data, KDE provides a smoother gradient (via contours) to indicate higher and lower concentrations of trees – here the yellow areas have higher concentration.
 
-- ways of describing: point density --> visualize through KDE
-- central tendency and dispersion -->
-- discretizing into different units -->
 
 ---
 
 ### Correlation
+
+![missing-image](images/spatial_correlation.png#img-full)
+According to Waldo Tobler's First Law of Geography: "everything is related to everything else, but near things are more related than distant things." This simple but profound statement assumes that geographic distance can explain the processes behind why things are located where they are. Spatial (auto)correlation helps us quantify the relationship between objects in geographic space and their numeric values, based on proximity. A real world example of this is house prices. If you picked a random house in New York City from a listing website like Zillow and found that the prices of the house was $1.6M, there is a very high likelihood that the house next door (if similar in size and amenities) would be selling for a similar prices, versus a house 10 miles away would be selling for a lot more or less. Spatial correlation helps us understand:
+
+- If things are clustered or dispersed over a geographic region.
+- Measure spatial inequality be it in terms of income, access to social services, demographics, etc.
+- Describing ecological and environmental conditions.
+
+For this demonstration we will look at the relationship between Brooklyn houses prices in relation to their distance to Manhattan. We will be studying the clustering of higher price houses around the island of Manhattan, the hypothesis being that the closer a house is to Manhattan the higher the sales price. We will two datasets provided by NYC Open Data:
+
+- [Annual sales of properties sold in NYC](https://data.cityofnewyork.us/City-Government/NYC-Citywide-Annualized-Calendar-Sales-Update/w2pb-icbu)
+- [NYC borough boundaries](https://data.cityofnewyork.us/City-Government/Borough-Boundaries/tqmj-j8zm)
+
+The first step will be to load the sales data as a Pandas DataFrame:
+
+```python
+path = '/Users/cbailey/Downloads/NYC_Citywide_Annualized_Calendar_Sales_Update.csv'
+houses = pd.read_csv(path)
+```
+
+Next we will create a function to convert the lat long columns in a Shapely Point object, allowing us to convert the DataFrame into a geographic GeoDataFrame:
+
+```python
+def lat_lng_to_point(data):
+    return Point([data['Longitude'], data['Latitude']])
+
+houses['geom'] = houses.apply(lat_lng_to_point, axis=1)
+gdf = gpd.GeoDataFrame(houses, geometry='geom', crs='EPSG:4326')
+```
+
+Next we will load the NYC borough boundaries GeoJSON file as a GeoDataFrame:
+
+```python
+path = '/Users/cbailey/Downloads/Borough Boundaries.geojson'
+nyc_geo = gpd.read_file(path)
+```
+
+We will use the the boundary of Brooklyn to filter the sales:
+
+```python
+bk = nyc_geo.loc[nyc_geo['boro_name']=='Brooklyn']
+bk_houses = gpd.sjoin(gdf, bk)
+```
+
 
 - overview and ways of describing --> how much information can one variable tell us about another?
 - described with simple stats
@@ -178,7 +238,7 @@ Discretizing points into grids is a fast and efficient way of describing density
 
 # Module on distance and similarities
 
-According to Waldo Tobler, the First Law of Geography is "everything is related to everything else, but near things are more related than distant things." This simple but profound statement assumes that geographic distance can explain the processes behind why things are located where they are. But what does the word near or distance mean in this context? Distance in most geographic or urban theory literature refers to the distance between 2 points in euclidean space. But if we borrow from maths or machine learning, distance could be extended to mean cosine (the angle between two vectors) or jaccard distance, the overlap of two sets of objects.
+
 
 <br>
 
