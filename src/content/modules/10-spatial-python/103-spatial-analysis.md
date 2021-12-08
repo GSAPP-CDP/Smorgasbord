@@ -208,15 +208,59 @@ path = '/Users/cbailey/Downloads/Borough Boundaries.geojson'
 nyc_geo = gpd.read_file(path)
 ```
 
-We will use the the boundary of Brooklyn to filter the sales:
+We will use the the boundary of Brooklyn to filter the sales data, using the GeoPandas `.sjoin()` function:
 
 ```python
 bk = nyc_geo.loc[nyc_geo['boro_name']=='Brooklyn']
 bk_houses = gpd.sjoin(gdf, bk)
 ```
 
+Next we need to measure the distance between every house in Brooklyn to the Manhattan shoreline. To do this we need to find the [closest point](https://en.wikipedia.org/wiki/Closest_pair_of_points_problem) on the Manhattan boundary/shoreline to a given house. Shapely has a `.nearest_points()` function that makes this process easier. Below we create a function call `nearest` that takes a point and a collection of geometries as input and returns the distance between the first point and the closest point on the geometries. We will use the `unary_union` method in Geopandas on the Manhattan geometry to get the union of it's boundaries:
 
-- overview and ways of describing --> how much information can one variable tell us about another?
+```python
+# get just the geometry of Manhattan
+mn = nyc_geo.loc[nyc_geo['boro_name']=='Manhattan']
+
+# nearest function to return the closest distance
+def nearest(point, pts):
+    return nearest_points(
+        point, pts)[1].distance(
+        point)
+
+# unionize the Manhattan geometry
+mn_pt = mn.geometry.unary_union
+
+# create a new column with the distances for every house in Brooklyn
+bk_houses['dist_manhattan'] = bk_houses['geom'].apply(lambda x: nearest(x, mn_pt))
+```
+
+With every data analytics project, spatial or otherwise, there is always a process of data cleaning required to ensure your data is of relevance. The sales data includes sales of every property type the City of New York tracks, so the first step in cleaning will be to only observe sales of single family dwellings. And If we look at the distribution of sales prices, we can see that there are outliers in the dataset:
+
+```python
+# filter the data to only have single family homes
+mask = bk_houses['BUILDING CLASS CATEGORY']=='01 ONE FAMILY DWELLINGS'
+bk_houses = bk_houses.loc[mask]
+
+bk_houses.hist(bins=20);
+```
+
+![missing-image](images/sales_price_dist.png#img-right)
+We can see from the histogram that the sales data is highly left skewed with lots of homes being sold for a very low price (even zero), with just a handful of homes sold for $10M+. Now it is possible to sell a house for zero dollars, but it is likely that the transaction was a gift to a family member, a way to avoid the IRS, or some other reason that is irrelevant to our analysis. Therefore, we should remove rows below a certain threshold, say $10,000 (this is NYC after all). And on the other end, we may want to remove values over a certain threshold.
+
+```python
+mask1 = (bk_houses['SALE PRICE'] > 10000)
+bk_houses = bk_houses.loc[mask]
+```
+
+To measure the correlation between to variables in Python, we can use the [Scipy](https://en.wikipedia.org/wiki/SciPy) (scientific computing) library that comes built in with many instances of Python. The library has a statistical computing module called `stats` containing a `pearsonr` class that we will use to analyze the relationship between house prices and their distances to Manhattan. The pearsonr function returns the P value and correlation coefficient (values between -1 to +1), which tell us the strength of the relationship, 1 being a perfect positive correlation and -1 perfect negative correlation. However, correlation is usually visualized on a scatter plot to get an immediate visual understanding. We can also utilize the matplotlib library to do the scatter plot:
+
+
+```python
+
+```
+
+
+
 - described with simple stats
 - tree and income example
 - same question at different resolutions
