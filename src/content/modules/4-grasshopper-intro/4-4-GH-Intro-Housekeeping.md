@@ -90,6 +90,9 @@ We've been labeling groups and parameters as we go, but also introducing panels 
 
 Use group or panel colors within the body of the definition to call out specific items that may be important later. For example, we did not pull the Scale input into vertical alignment with the other static inputs to the left of the definition. Why not? In this case it is because we are going to modify it in a future tutorial. Because of that we have given it the "static input" color so that it is easy to find in the future.
 
+If your completed definition isn't working as it should, here is a [completed grasshopper definition](https://github.com/GSAPP-CDP/Smorgasbord/raw/main/src/content/modules/4-grasshopper-intro/Definitions/4-4_Complete.gh) of this tutorial. 
+
+
 ## Assignment
 
 Develop your own color and naming conventions by applying these best practices to the parametric tower you have developed so far. There is no standard best practices in grasshopper. Use these as a guide to develop what works best for you.
