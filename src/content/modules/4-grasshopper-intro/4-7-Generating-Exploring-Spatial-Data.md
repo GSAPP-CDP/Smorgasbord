@@ -126,6 +126,8 @@ Next, determine the range of each metric. Is there a meaningful change? In this 
 
  <br>
 
+If your completed definition isn't working as it should, here is a [completed grasshopper definition](https://github.com/GSAPP-CDP/Smorgasbord/raw/main/src/content/modules/4-grasshopper-intro/Definitions/4-7_Complete.gh) of this tutorial. 
+
 ## Conclusion
 
 Exploring the relationships between form and performance and developing hypothesis (like the ones above,) to iteratively test using this methodology is very powerful. (The assignment will ask you to do just that.) This allows you to describe spatial characteristics that result in a desired (and quantifiable) outcome. Imagine describing to another designer, or city planner, or developer a set of spatial rules that if they follow, will always result on the desired outcome, such as walkable neighborhoods or thermal comfortable spaces or net zero buildings. Pretty fantastic.
