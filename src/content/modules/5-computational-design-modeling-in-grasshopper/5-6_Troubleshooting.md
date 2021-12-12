@@ -170,7 +170,7 @@ with open views, which we will use to illustrate and discuss trade-offs when we 
 1. Copy the cluster and  unique inputs of the Daylight Analysis tool. Don't copy inputs that they both will share: EPW file and obstructing geometry. Everything would still work if you did copy those, however, it is best practices (and saves on computation time) to reduce redundancy.
 2. Before inputting the subdivided buildings and obstructing geometry, lets adjust the inputs for goal. We want to analyze direct sun for months were it will increase cooling loads (6 - 9.) To keep the analysis running quickly while we get this set up, lets go with just one month for now -- June (6). No need to change the rest of the inputs right now.
 
-![description](images/5-6-2_Daylight2_Inputs1.PNG)
+![description](images/5-6-2_Daylight2_Inputs1.png)
 
 3. `Save` and `Lock the solver`!
 4. Our tool needs analysis surfaces and points so copy the `Evaluate Surface` generating the points for the streets and input the subdivided building surfaces.
@@ -317,12 +317,12 @@ Visual check! *At least one has to run correctly right from the start, right??* 
 
 ![description](images/5-6-2_View_Trouble6.PNG)
 
-<a name="move"></a>
-
 Visual Check! Still not correct? (Yours might actually be correct as this issue doesn't consistently occur.) Take a look at the image below. Can you tell what is wrong? Looks mostly correct but there are some faces of buildings that should have wide open views that are being visualized as completely obstructed.
 
 ![description](images/5-6-2_View_Trouble7.PNG)
-
+  
+<a name="move"></a>
+  
 21. This is occurring because the meshing of the buildings (which is being used as the obstructing geometry) varies slightly from the original Brep so that the analysis point is actually just inside of the building. To fix this jump inside the cluster and use a `Move` and `Amplitude` component to move the analysis point just lightly off of the building using the normal vector. If this issue didn't occur in the Daylight to Buildings analysis tool, consider adding it to make it more robust
 
 ![description](images/5-6-2_View_Trouble8.PNG)
@@ -337,7 +337,7 @@ Visual Check! The results should now look correct, but if you were using the vie
 ![description](images/5-6-2_View_Viz2.PNG)
 
 
-Finally, if you have gotten to this point and are still having issues, refer to this [completed definition](definitions/5-5_Buildings_Density.gh) to help trouble shoot.
+Finally, if you have gotten to this point and are still having issues, refer to this [completed definition](https://github.com/GSAPP-CDP/Smorgasbord/raw/main/src/content/modules/5-computational-design-modeling-in-grasshopper/definitions/5-6_Troubleshooting.gh) to help trouble shoot.
 
 ## Conclusion
 
