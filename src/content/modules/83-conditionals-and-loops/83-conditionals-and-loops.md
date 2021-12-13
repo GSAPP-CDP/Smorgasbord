@@ -1,8 +1,8 @@
 ---
 moduleid: 83
-title: Flow control with Conditionals and Loops
+title: Conditionals and Loops
 published: True
-slug: flow-control-with-conditionals-and-loops
+slug: conditionals-and-loops
 ---
 
 # Conditionals and Loops
@@ -256,3 +256,5 @@ This concludes our basic coverage of the two main types of 'flow control' struct
 
 # Challenge
 
+Complete a story with preset data and buildling the right conditionals and loops.
+Give data and expected result.

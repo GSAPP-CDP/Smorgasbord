@@ -17,6 +17,6 @@ Python has become one of the most popular programming languages in the world, mo
 
 ## Modules:
 
-Using Python in Grasshopper
-Accessing the Rhino API in Python
-Working with geometry in Python
+- Using Python in Grasshopper
+- Accessing the Rhino API in Python
+- Working with geometry in Python

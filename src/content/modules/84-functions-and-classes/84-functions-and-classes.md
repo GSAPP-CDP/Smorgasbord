@@ -180,3 +180,4 @@ When the Class Instance is initialized, it will automatically run the `__init__(
 
 # Challenge
 
+Story generator - custom Class that stores information and generates a story with title and body.

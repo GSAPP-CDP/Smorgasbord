@@ -19,7 +19,6 @@ These tutorials use only the core functionalities included within Python, and ca
 
 ## Modules:
 
-Variables and Operators
-Lists and Dictionaries
-Conditionals and Loops
-Functions and Classes
+- Variables, Lists, and Dictionaries
+- Conditionals and Loops
+- Functions and Classes
