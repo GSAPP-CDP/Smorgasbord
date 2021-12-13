@@ -137,6 +137,8 @@ Finally, add two `Scale` components and plug the (A) outputs for the Surfaces an
 
 We've replicated the goal of the previous procedural rule -- good views get smaller windows and poor views get larger windows -- but with just two window types instead of dozens.
 
+If your completed definition isn't working as it should, here is a [completed grasshopper definition](https://github.com/GSAPP-CDP/Smorgasbord/raw/main/src/content/modules/4-grasshopper-intro/Definitions/4-6_Complete.gh) of this tutorial. 
+
 ## Conclusion
 
 There was a lot of talk at the start of this module about the power of procedural modeling to realize complex systems, so creating dynamically sized windows might feel underwhelming. (We thought it was pretty cool.) Don't worry, through both of the second Grasshopper Intro sequences you will continue to *design* procedural rules and develop complex models.
