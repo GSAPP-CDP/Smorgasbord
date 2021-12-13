@@ -1,5 +1,5 @@
 ---
-moduleid: 72
+moduleid: 81
 title: Accessing with the Rhino API in Python
 published: True
 slug: accessing-with-the-rhino-api-in-python
@@ -25,7 +25,7 @@ The three main libraries provided by Rhino/Grasshopper which allow Python to acc
 
 Let's see how each one of these work through an example. We will create a simple Python script that takes a point as an input and creates a circle with that point as the center and a radius of '2'. The Grasshopper definition consists of a `Python` component with one input and one output, a `Pt` component connected to the input, and a `Panel` component connected to the output so we can see the results.
 
-![grasshopper setup](images/01.png#img-full)
+![grasshopper setup](images/1-01.png#img-full)
 
 > Initial setup of basic example in Grasshopper
 
@@ -50,7 +50,7 @@ By default any geometry input into a Python node is not brought in as the geomet
 
 We can fix this by telling Python exactly what kind of data we are inputting using 'Type hints'. To set the input's type, right click on the 'x' input of the Python node, go to 'Type hint', and select Point3d. The 'Type hint' menu shows all the geometry types supported by Grasshopper. When we specify that the input is of the type 'Point3d', Python will automatically convert the 'Guid' reference to the actual point geometry so that we can use it with geometric functions in our script.
 
-![setting the type hint](images/02.png#img-full)
+![setting the type hint](images/1-02.png#img-full)
 
 > Setting the 'Type hint' for a Python input
 
@@ -74,7 +74,7 @@ a = ghcomp.Circle(x, 2)
 
 As expected this creates a circle with a radius of 2, centered on the input point.
 
-![generating a circle](images/03.png#img-full)
+![generating a circle](images/1-03.png#img-full)
 
 > Creating a circle with Python
 
@@ -132,13 +132,13 @@ a = rh.Circle(x, 2)
 
 again character by character to see how this works. Remember that `rh` is a keyword representing the *Rhino.Geometry* library, and the `.` symbol is Python's way of accessing a class from a library or a method or property from a class. Once you type in the `.` symbol, a window will pop up with a list of all the classes in that library. This would also work if you had an instance of an class and were trying to access it's methods and properties. As you continue typing, the pop-up list will automatically scroll down to the portion you are typing and highlight the best matching class name. Once you see the class you want highlighted you can press 'Enter' or double-click on the name to enter the class name into the script.
 
-![browsing classes within a library](images/04.png#img-full)
+![browsing classes within a library](images/1-04.png#img-full)
 
 > Browsing classes within a library
 
 Following the class or method name you typically place a set of parenthesis where you pass in the method or class constructor’s inputs. Once you type the first `(` the Python window will automatically load the documentation of that method into the results windows which tells you what inputs the method expects and what outputs it generates.
 
-![reading documentation for a method](images/05.png#img-full)
+![reading documentation for a method](images/1-05.png#img-full)
 
 > Reading documentation for a method
 

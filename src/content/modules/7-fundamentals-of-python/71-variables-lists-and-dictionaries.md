@@ -1,5 +1,5 @@
 ---
-moduleid: 81
+moduleid: 71
 title: Variables, Lists, and Dictionaries
 published: True
 slug: variables-lists-and-dictionaries
@@ -24,7 +24,7 @@ The first bit of Python syntax we will cover is the all-important 'comment'. You
 print('this is code') # this is also a comment
 ```
 
-If you run this code you will see that it prints out 'this is code' because it executes the line `print('this is code')`. This uses the `print()` Function which takes in any text you put inside the parenthesis and prints it to our code editor's console text box. `print()` is one of many Functions built-in to Python. We will see other useful functions in this and the [following module](), and will see how we can create our own Functions in a [later module]().
+If you run this code you will see that it prints out 'this is code' because it executes the line `print('this is code')`. This uses the `print()` Function which takes in any text (or piece of data) you put inside the parenthesis and prints it to our code editor's console text box. `print()` is one of many Functions built-in to Python. We will see other useful functions in this and the [following module](), and will see how we can create our own Functions in a [later module]().
 
 Meanwhile, it ignores both comments occurring after the '#' symbol. Although every language specifies them differently, comments are an important part of every programming language, as they allow the developer to add extra information and description to their code which is not strictly related to its execution. 
 
@@ -48,7 +48,7 @@ b = 3
 print(a + b)
 ```
 
-This should print out the number 5, since `a` is storing the number '2', and `b` is storing the number '3'. You can use many other common arithmetic operators in the same way. Some of the most common are:
+This should print out the number 5, since `a` is storing the number '2', and `b` is storing the number '3'. You can use many other common arithmetic [operators](https://www.w3schools.com/python/python_operators.asp) in the same way. Some of the most common are:
 
 - `+` (addition)
 - `-` (subtraction)
@@ -261,6 +261,10 @@ print(myDictionary['fruits'][-1]['berries'][1])
 ```
 
 JSON, one of the most implemented and easiest to work with data formats, is actually based on this concept of nested lists and key-value pairs, and has great support within almost every programming language, including Python and JavaScript. We will work with the JSON format later in this sequence, but for now you can check out its documentation here: [http://json.org/](http://json.org/).
+
+## Additional resources:
+- [Variables](https://realpython.com/python-variables/)
+- [Operators](https://realpython.com/python-operators-expressions/)
 
 # Challenge
 
