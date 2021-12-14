@@ -5,7 +5,7 @@ published: True
 slug: qgis
 ---
 
-# Sequence: Introduction to Geographic Information Systems & Spatial Data
+# Sequence: Introduction to Geographic Information Systems in QGIS
 
 ## Sequence Summary
 
