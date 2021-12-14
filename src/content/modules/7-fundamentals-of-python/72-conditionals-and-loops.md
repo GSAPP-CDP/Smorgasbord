@@ -1,8 +1,8 @@
 ---
-moduleid: 83
-title: Flow control with Conditionals and Loops
+moduleid: 72
+title: Conditionals and Loops
 published: True
-slug: flow-control-with-conditionals-and-loops
+slug: conditionals-and-loops
 ---
 
 # Conditionals and Loops
@@ -254,5 +254,11 @@ because by definition it has no way to ever terminate. Surprisingly, this kind o
 
 This concludes our basic coverage of the two main types of 'flow control' structures — Conditionals and Loops. With these structures you can start to write much more complex scripts, which are not restricted to executing one command per line, and can exhibit different behavior based on changing conditions in the script. In the [next module](), we will introduce even more flexibility by packaging pieces of code into custom Functions and Classes so they can be easily reused in multiple places throughout the script.
 
+## Additional resources:
+- [Lists](https://www.w3schools.com/python/python_lists.asp)
+- [Dictionaries](https://www.w3schools.com/python/python_dictionaries.asp)
+
 # Challenge
 
+Complete a story with preset data and buildling the right conditionals and loops.
+Give data and expected result.

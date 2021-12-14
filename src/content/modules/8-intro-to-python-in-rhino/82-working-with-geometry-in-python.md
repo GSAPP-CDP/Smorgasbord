@@ -1,5 +1,5 @@
 ---
-moduleid: 73
+moduleid: 82
 title: Working with geometry in Python
 published: True
 slug: working-with-geometry-in-python
@@ -19,7 +19,7 @@ In the last tutorial, we saw how we can define geometry in Python based on a sin
 
 Instead of a single point we will now create a grid of points by using two `Series` components to create two lists of 5 values each, and plug in those lists as the x and y components of the `Pt` component. To get a grid we need to graft one of the number lists, which we can do with a shortcut by right-clicking on the output of the second `Series` component and selecting 'Graft'. We will also flatten the resulting set of points by right-clicking on the output of the `Pt` component and selecting 'Flatten'. Let’s also reduce the circle radius to 0.4 so we can see the circles easier.
 
-![grasshopper setup](images/01.png#img-full)
+![grasshopper setup](images/2-01.png#img-full)
 
 > Creating a grid of circles
 
@@ -33,7 +33,7 @@ for pt in x:
 	a.append(rh.Circle(pt, 0.4))
 ```
 
-![grasshopper setup](images/02.png#img-full)
+![grasshopper setup](images/2-02.png#img-full)
 
 > Inputting all the points as a list into Python
 
@@ -49,7 +49,7 @@ Working with Grasshopper's Data Tree structure in Python adds extra complexity a
 
 However, if you absolutely must deal with the Data Tree structure directly in Python, you can do so by changing the input type to 'Tree Access' and bringing the Data Tree structure directly into Python. Let’s see how we can work with this data by making some modifications to our circle script. Let’s take off the 'Flatten' shortcut in the `Pt` component's output and change the 'x' input of the Python component to 'Tree Access' mode.
 
-![grasshopper setup](images/03.png#img-full)
+![grasshopper setup](images/2-03.png#img-full)
 
 > Working with Data Trees in Grasshopper
 
@@ -86,7 +86,7 @@ from Grasshopper.Kernel.Data import GH_Path
 
 The *DataTree* class allows us to create new Data Tree objects while the *GH_Path* class allows us to create path variables which tell the Data Trees where to store data. Both of these classes are found within the main Grasshopper Python library and can be imported using the `from ... import ...` syntax to import only the specific classes we need.
 
-![grasshopper setup](images/04.png#img-full)
+![grasshopper setup](images/2-04.png#img-full)
 
 > Creating Data Trees in Python
 
@@ -118,7 +118,7 @@ Let's finish this section by looking at how we can use the `Rhino.Geometry` libr
 
 Now we will change our circle definition to compute the radius of each circle dynamically based on the distance from its center to our referenced point.
 
-![grasshopper setup](images/05.png#img-full)
+![grasshopper setup](images/2-05.png#img-full)
 
 > Controlling circle radius with an attractor point
 
@@ -136,7 +136,7 @@ We use the `.DistanceTo()` method of the circle's center point stored in the `pt
 
 This gives our circles a dynamic relationship to the referenced point, allowing us to create different patterns by moving the point in the Rhino document.
 
-![grasshopper setup](images/06.png#img-full)
+![grasshopper setup](images/2-06.png#img-full)
 
 > Moving the point to change the circle radii
 

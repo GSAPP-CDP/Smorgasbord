@@ -1,5 +1,5 @@
 ---
-moduleid: 80
+moduleid: 70
 title: Fundamentals of Python
 published: True
 slug: fundamentals-of-python
@@ -19,7 +19,6 @@ These tutorials use only the core functionalities included within Python, and ca
 
 ## Modules:
 
-Variables and Operators
-Lists and Dictionaries
-Conditionals and Loops
-Functions and Classes
+- Variables, Lists, and Dictionaries
+- Conditionals and Loops
+- Functions and Classes

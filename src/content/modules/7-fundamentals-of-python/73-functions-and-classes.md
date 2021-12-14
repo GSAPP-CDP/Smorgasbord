@@ -1,5 +1,5 @@
 ---
-moduleid: 84
+moduleid: 73
 title: Functions and Classes
 published: True
 slug: functions-and-classes
@@ -180,3 +180,4 @@ When the Class Instance is initialized, it will automatically run the `__init__(
 
 # Challenge
 
+Story generator - custom Class that stores information and generates a story with title and body.
