@@ -1,26 +1,11 @@
 ---
 moduleid: 61
-title: Intro to Python
+title: Getting started with Python
 published: True
-slug: intro-to-python
+slug: getting-started-with-Python
 ---
-# Sequence: Intro to Python
-## Sequence Summary:
-This sequence is an introduction to the Python programming language, covering how to get setup with the tools used for writing, editing, and executing Python code on your machine.
-## Why?
-One of the most common questions asked by individuals new to writing Python code is: “What can I do with Python?”. The breadth of things you can do in Python is why it consistently appears as one of the [top 5 programming languages](https://insights.stackoverflow.com/survey/2019#most-popular-technologies) to learn. From creating a machine learning model that predicts building energy consumption, creating a trading platform, to developing desktop games, Python is a highly versatile, general purpose programming language with a very large online community of users. As such, there are a myriad of ways to interact with Python, some better suited for certain types of tasks or disciplines. This sequence will introduce the three most common tools to write Python: Jupyter Notebooks, IDEs and the command line.
-## Modules:
-1. Python environment setup: Jupyter, Command Line, or IDEs
 
-<br>
-
------
-
-<br>
-<br>
-
-
-# Installing Python
+# Getting started with Python
 
 ## The Many Options for Python Installation?
 

@@ -9,14 +9,13 @@ slug: intro-to-python-scripting-in-rhino
 
 ## Sequence Summary:
 
-This sequence introduces the programming language Python, and the various ways in which you can use it both on it's own and to control other design software like Rhino.
+This sequence introduces you to various things you can do using Python scripting in Rhino Grasshopper.
 
 ## Why?
 
-Python has become one of the most popular programming languages in the world, mostly for it's relatively straight forward syntax and shallow learning curve. Due to this popularity, it has become the language of choice for many displines outside of computer programming, including natural sciences, data science, and even fine art. In recent years many design tools have also begun to support Python as their native scripting language, meaning you can use Python to control and customize the software to your needs.
+Rhino is an extremely popular CAD software used in many industries including architecture. It is popular for its versitile modeling engine and support for different types of geometry including curves, surfaces, solids, and meshes. Grasshopper exposes Rhino's functionalities at a lower level and allows users to put together "definitions" that automate certain processes within the software. By using Python, we can get even deeper access to Rhino and accomplish things we could not with Grasshopper alone. In this sequence, you will get an introduction to the various Rhino and Grasshopper API's (Application Programming Interfaces) you can access with Python, and will learn how to work with Rhino's geometry types and different types of data.
 
 ## Modules:
 
-- Using Python in Grasshopper
-- Accessing the Rhino API in Python
+- Accessing the Rhino APIs in Python
 - Working with geometry in Python
