@@ -1,6 +1,7 @@
 <template>
   <div class="nav">
     <a href="/">GSAPP SMORGASBORD</a> 
+    <div class="title">Smorgasbord list of modules</div>
   </div>
 </template>
 
@@ -17,14 +18,16 @@ export default {
 
 <style scoped>
   .nav {
-    background-color: #333;
-    color: white;
+    color: #4A4A4A;
     padding: 10px;
     font-weight: bold;
   }
   
   a {
     text-decoration: none;
-    color: white !important;
+  }
+
+  .title {
+    font-size: 2em;
   }
 </style>

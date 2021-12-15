@@ -6,6 +6,7 @@
         <NuxtLink :to="'modules/' + module.slug">{{module.title}}</NuxtLink>
         Moduleid: {{ module.moduleid }}
       </li>
+      hmm
     </ul>
   </div>
 </template>
