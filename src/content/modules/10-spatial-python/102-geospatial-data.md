@@ -32,6 +32,16 @@ So why work with spatial data in Python when there are other tools like ArcGIS? 
 <br/>
 <br/>
 
+For this module we will be using the Pandas](https://pandas.pydata.org/), [GeoPandas](https://geopandas.org/en/stable/) and [OSMNX](https://osmnx.readthedocs.io/en/stable/) Python libraries. Ensure to `pip install` them on your machine, if you don't already have them, and import like so:
+
+```python
+import pandas as pd
+import geopandas as gpd
+import osmnx
+```
+
+<br/>
+
 ### GeoDataFrames
 
 Similar to DataFrames in Pandas that we covered in previous modules, GeoDataFrames are a way to represent geographies in tabular format. GeoDataFrames however can be thought of as smarter tables than the ones we covered in Pandas. Here columns represent an attribute of the the data (e.g. the name of the record, it's latitude, description, etc), while rows usually represent a single geography (e.g. a country, city, point of interest, etc). What makes GeoDataFrames distinct from Pandas DataFrames is the required inclusion of a geometry column and it's Cordinate Reference System (CRS). Geometry columns contain the types of geographies that the table represent, be it points, lines, or (multiple) polygons, and allow us to easily visualize data in 2 or 3 dimensions. However, the geometries are meaningless without the CRS, which tells Python how those coordinates relate to places on the Earth. Or specifically how we want to project some arbitrary point to a 2D representation of Earth.  
@@ -144,4 +154,5 @@ osmnx.plot_graph(gov_island)
 
 ## Additional Resources
 
-- [Python for Data Analysis](https://www.oreilly.com/library/view/python-for-data/9781449323592/) Is a great nuts and bolts overview of the Pandas library written by it's original author, Wes McKinney.
+- Introduction and getting started with [GeoPandas](https://geopandas.org/en/stable/getting_started/introduction.html)
+- For more information about the Shapely Python library or how to work with geometry in Python see the [Shapely User Manual](https://shapely.readthedocs.io/en/stable/manual.html)

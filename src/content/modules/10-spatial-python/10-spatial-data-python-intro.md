@@ -21,6 +21,7 @@ The objective of this sequence will be to analyze neighborhoods in NYC using ope
 ## Modules:
 1. Data manipulation
 2. Geospatial data
-3. Spatial analysis
-4. Interactive Mapping
-5. Spatial joins and external datasets
+3. Spatial analysis – point patterns
+4. Spatial analysis – correlation
+5. Spatial analysis – clustering
+6. Interactive Mapping

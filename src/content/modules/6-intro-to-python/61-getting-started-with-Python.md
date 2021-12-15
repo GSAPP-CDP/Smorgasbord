@@ -13,11 +13,11 @@ This sequence covers the following solutions for installing and interacting with
 - [Installing Python on a Mac and setting up Jupyter](#installing-python-on-a-mac)
 - [Google Colab (Jupyter Alternative)](#google-colab)
 - [The Jupyter Interface](#the-jupyter-interface)
-- [The command line interface and IDEs](#the-command-line-interface-and-ides)
+- [The Command Line Interface and IDEs](#the-command-line-interface-and-ides)
 
 ## Installing Python on a Mac
 
-If you are installing Python on a Mac, congratulations! The Mac operating system is based off of [Unix](https://en.wikipedia.org/wiki/Unix), making it the preferred platform for many tech companies and coders, and means it is very convenient for doing programming tasks, like installing Python.
+If you are installing Python on a Mac, congratulations! The Mac operating system is based off of [Unix](https://en.wikipedia.org/wiki/Unix), making it the preferred platform for many technology companies and programmers, and means it is very convenient for doing programming tasks, like installing Python.
 
 ![missing-image](images/homebrew.png#img-full)
 
@@ -43,7 +43,7 @@ Type `CTRL` + `Z` to exit
 
 Python comes with its own built-in Package manager called, `pip`, that is used to install external libraries. As there are so many Python users in the world, there is an extremely rich ecosystem of libraries that do everything from make it easy to download Census data, or allow you to build a machine learning model with one line of code. For our final step we will use pip to install [Jupyter](https://en.wikipedia.org/wiki/Project_Jupyter).
 
-Jupyter is an open-source project that allows you to code interactively with Python. Paste the below code in your terminal window to install Jupyter:
+Jupyter is an open-source project that allows you to write code interactively with Python. Rather than creating scripts (or files) to run individual pieces of code, Jupyter (formerly referred to as [Ipython](https://ipython.readthedocs.io/en/stable/overview.html)) allows developers to create programs in an exploratory environment and test ideas quickly with rich text output. To begin using Jupyter on your machine, paste the below code in your terminal window to install Jupyter:
 
 ```
 pip install jupyterlab
@@ -60,7 +60,7 @@ You should see a tab open up in your default internet browser that looks similar
 
 ## Google Colab
 
-Google Colaboratory, or "Colab" for short, allows you to write and execute Python code in a browser, similar to running Jupyter in the previous example. The advantage of using Google Colab is that it requires zero installation, gives free compute power, and is easily sharable. Think of it as the Google Docs of Python coding. Just head to the [Colab](https://colab.research.google.com/) website and start a new notebook to begin coding in Python.
+Google Colaboratory, or "Colab" for short, allows you to write and execute Python code interactively in a browser, similar to running Jupyter. The advantage of using Google Colab is that it requires zero installation, gives free compute power, and is easily sharable. Think of it as the Google Docs of Python coding. Just head to the [Colab](https://colab.research.google.com/) website and start a new notebook to begin coding in Python.
 
 ![missing-image](images/google-colab.png#img-full)
 
@@ -124,3 +124,17 @@ Similar to running a cell in Jupyter, the output of the above two operations is 
 ![missing-image](images/cli.png#img-full)
 
 Integrated development environments (IDE) are applications that provides environments for coders to develop in. There are many types of IDEs, some that are interactive, and others that are just a smarter text editor. One of the most popular IDEs is [Atom](https://atom.io/), it is free to use, opensource, with a rich community of users that have built extensive add-ons to make coding in it easy across languages. Unlike Jupyter or the CLI however, Atom is not interactive, but is very useful for writing large bodies of code quickly.
+
+
+
+## Additional Resources
+
+-----
+
+<br>
+<br>
+
+- Introduction to [Interactive Computing in Python](https://ipython.readthedocs.io/en/stable/interactive/index.html)
+- [Think Python](https://greenteapress.com/thinkpython/html/index.html)
+- Python [Compared to Other Languages](https://www.python.org/doc/essays/comparisons/)
+- [How to think like a computer scientist](http://openbookproject.net/thinkcs/python/english3e/)

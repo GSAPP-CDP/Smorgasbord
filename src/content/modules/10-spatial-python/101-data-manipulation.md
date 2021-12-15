@@ -15,25 +15,33 @@ slug: data-manipulation
 ## Module Summary
 
 
-Python is instrumental in the fields of artificial intelligence, machine learning, and data analytics. One of the main reasons for this is the wide array of open sources libraries Python has that make data manipulation and processing super fast. In this module we will cover the basics of the Pandas and Numpy libraries, how to read, write, and manipulate large datasets.
+Python is instrumental in the fields of artificial intelligence, machine learning, and geospatial data analytics. One of the main reasons for this is the wide array of open source libraries Python has that make data manipulation and processing super fast. Data manipulation is the process of organizing, modifying, merging, and transforming data in order to make it more readable or easier to analyze. It underpins a lot of the subsequent geospatial techniques in this sequence, and is crucial to understand in order to use Python for working with Big Data. In this module we will cover the basics of the Pandas and Numpy libraries, how to read, write, and manipulate large datasets.
 
 Spoiler alert! This is perhaps the most boring module in the sequence, its all downhill after this.
 
 ## Why is this important?
 
-[According to many](https://qz.com/1126615/the-story-of-the-most-important-tool-in-data-science/), Pandas is one of the driving forces that made Python one of the most popular programming languages in recent years. Pandas offers powerful, expressive and flexible data structures that make data manipulation and analysis easy, among many other things. Whereas in the past it might've taken 50 lines of code to read a CSV and iterate over it, with Pandas, you can do the same operation in 2 lines of code. Initially built for use within the financial sector, it is now widely used throughout the AI and data science community. Enabling individuals with non computer science backgrounds to do big data analysis.
+[According to many](https://qz.com/1126615/the-story-of-the-most-important-tool-in-data-science/), Pandas is one of the driving forces that made Python the most popular programming languages in recent years. Pandas offers powerful, expressive and flexible data structures that make data manipulation and analysis easy, among many other things. Whereas in the past it might've taken 50 lines of code to read a CSV and iterate over it, with Pandas, you can do the same operation in 2 lines of code. Initially built for use within the financial sector, it is now widely used throughout the AI and data science community. Enabling individuals with non computer science backgrounds to do big data analysis.
 
 ---
 <br/>
 <br/>
 
+For this module we will be using the Pandas Python libraries. Ensure to `pip install` on your machine, if you don't already have it, and import like so:
+
+```python
+import pandas as pd
+```
+
+<br/>
+
 ### Pandas Basics: DataFrames + Series
 
-Pandas relies on two data structures that pretty much power nearly all other operations – Series and DataFrames. Understanding these are crucial to getting comfortable with the rest of the library’s functionality. DataFrames can be thought of as spreadsheets or tables that contain (horizontal) rows and (vertical) columns of data. They are highly flexible, enabling the storage of almost any data types – text, numbers, polygons, etc. Rows in a DataFrame represent a single record and the columns represent an attribute of that record.
+Pandas relies on two data structures that pretty much power nearly all other operations – Series and DataFrames. Understanding these are crucial to getting comfortable with the rest of the library’s functionality. DataFrames can be thought of as spreadsheets or tables that contain (horizontal) rows and (vertical) columns of data. They are highly flexible, enabling the storage of almost any data types – text, numbers, polygons, etc. Rows in a DataFrame represent a single record, while the columns represent an attribute of that record.
 
 ![missing-image](images/dataframe.png#img-full)
 
-There are many ways to construct a DataFrame – one of the most common is to provide a dictionary with lists of equal length, inside the `DataFrame()` function. The keys of the dictionary are the column names, that have the same size lists of values, where each item of the list is a row. Open up a new Jupyter (or Colab) notebook and paste:
+There are many ways to construct a DataFrame – one of the most common is to provide a dictionary with lists of equal length, inside the `DataFrame()` function. The keys of the dictionary are the column names, that should have equal sized lists as values, where each item of the list is a row. Open up a new Jupyter (or Colab) notebook and paste:
 
 ```python
 data = {
@@ -66,7 +74,7 @@ path_to_file = '/Users/cbailey/Downloads/2015_Street_Tree_Census_-_Tree_Data.csv
 df = pd.read_csv(path_to_file)
 ```
 
-Viewing data, having a look at individual rows and values, is very important when working with large or external datasets. It's useful to understanding what is contained within a dataset, and in catching errors in data, particularly the most egregious ones – like knowing that a column that is supposed to be numeric actually contains text – and is vital to do before any modeling or analysis. Pandas provides numerous functions to make this process easy:
+Having a look at the individual rows and values of your data, is very important when working with large or external datasets. It's useful to understanding what is contained within a dataset. It's also good practice for catching errors, particularly the most egregious ones – like knowing that a column that is supposed to be numeric actually contains text – and is vital to do before any modeling or analysis. Pandas provides numerous functions to make this process easy:
 
 - [`.head()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.head.html)
 - [`.tail()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.tail.html#pandas.DataFrame.tail)
@@ -217,12 +225,13 @@ It is also handy when doing matrix–matrix and vector–matrix multiplication.
 
 ---
 
-- data cleaning (missing, dropping, changing dtypes)
-- groupby and apply functions
-
 
 <br>
 
 ## Additional Resources
 
 - [Python for Data Analysis](https://www.oreilly.com/library/view/python-for-data/9781449323592/) Is a great nuts and bolts overview of the Pandas library written by it's original author, Wes McKinney.
+
+## Challenge
+
+Using the 2015 Tree Census dataset, count the number of trees throughout the city by health classification (e.g. how many trees in good, or poor health). Hint: use a condition to select the subset of trees in each condition, and then note the size or shape of the dataframe returned.
