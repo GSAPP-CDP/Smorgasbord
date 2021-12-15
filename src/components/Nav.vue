@@ -2,6 +2,7 @@
   <div class="nav">
     <a href="/">GSAPP SMORGASBORD</a> 
     <div class="title">Smorgasbord list of modules</div>
+    <ModuleIndex />
   </div>
 </template>
 

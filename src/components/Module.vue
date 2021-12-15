@@ -1,5 +1,6 @@
 <template>
   <div class="post">
+    mod
 
     <div class="header">
     </div>
@@ -95,16 +96,21 @@ export default {
       module: {},
     };
   },
-  props: ['slug'],
+  props: ['path'],
   async fetch() {
     let self = this;
-    const [module] = await this.$content('modules', { deep: true }).where({ slug: self.slug })
-      .fetch()
-      .catch((err) => {
-        error({ statusCode: 404, message: 'Page not found' })
-      })
+    console.log(this.path);
 
-    this.module = module;
+    const [document] = await this.$content('modules', { deep: true }).where({ path: self.path }).fetch()
+
+
+//    const [module] = await this.$content('modules', { deep: true }).where({ slug: self.slug })
+//      .fetch()
+/*      .catch((err) => {
+        error({ statusCode: 404, message: 'Page not found' })
+      }) */
+
+    this.module = document;
   },
   computed: {
     moduleDate() {
