@@ -1,11 +1,11 @@
 ---
 moduleid: 81
-title: Accessing with the Rhino API in Python
+title: Accessing with the Rhino APIs in Python
 published: True
-slug: accessing-with-the-rhino-api-in-python
+slug: accessing-with-the-rhino-apis-in-python
 ---
 
-# Accessing the Rhino API in Python
+# Accessing the Rhino APIs in Python
 
 ## Module Summary
 
@@ -54,17 +54,17 @@ We can fix this by telling Python exactly what kind of data we are inputting usi
 
 > Setting the 'Type hint' for a Python input
 
-### The *ghpythonlib.components* library
+### The _ghpythonlib.components_ library
 
-Now that we have correctly specified the type of the geometry we are inputting, we can start to build our simple script. We will start by importing the *ghpythonlib.components* library. Delete the previous two lines and type on the first line:
+Now that we have correctly specified the type of the geometry we are inputting, we can start to build our simple script. We will start by importing the _ghpythonlib.components_ library. Delete the previous two lines and type on the first line:
 
 ```python
 import ghpythonlib.components as ghcomp
 ```
 
-This will import the components portion of the main *ghpythonlib* library into our script so we can use it’s methods to work with geometry. We use the `import ... as ...` syntax to give the library a shorter keyword that will save us typing and make the script cleaner. Now when we want to use the library we can reference it with `ghcomp` rather than typing the full `ghpythonlib.components` each time.
+This will import the components portion of the main _ghpythonlib_ library into our script so we can use it’s methods to work with geometry. We use the `import ... as ...` syntax to give the library a shorter keyword that will save us typing and make the script cleaner. Now when we want to use the library we can reference it with `ghcomp` rather than typing the full `ghpythonlib.components` each time.
 
-The *ghpythonlib.components* library contains methods that replicate the behavior of each component in Grasshopper. Each method expects the same number and type of inputs as its Grasshopper component equivalent, and returns the same outputs. If the component has more than one output the return will be a list whose length is the number of outputs.
+The _ghpythonlib.components_ library contains methods that replicate the behavior of each component in Grasshopper. Each method expects the same number and type of inputs as its Grasshopper component equivalent, and returns the same outputs. If the component has more than one output the return will be a list whose length is the number of outputs.
 
 Let’s use the library’s `Circle` method to create a circle based on a center point and radius, just like the `Circle` component in Grasshopper. On the next line type:
 
@@ -78,7 +78,7 @@ As expected this creates a circle with a radius of 2, centered on the input poin
 
 > Creating a circle with Python
 
-### The *Rhino.Geometry* library
+### The _Rhino.Geometry_ library
 
 Now let’s do the same thing with the Rhino.Geometry library. Below the first import line, type:
 
@@ -86,7 +86,7 @@ Now let’s do the same thing with the Rhino.Geometry library. Below the first i
 import Rhino.Geometry as rh
 ```
 
-This line imports the *Geometry* portion of the main *Rhino* library and assigns it the keyword `rh`. Now we can change the line of code that creates the circle to:
+This line imports the _Geometry_ portion of the main _Rhino_ library and assigns it the keyword `rh`. Now we can change the line of code that creates the circle to:
 
 ```python
 a = rh.Circle(x, 2)
@@ -94,9 +94,9 @@ a = rh.Circle(x, 2)
 
 If you run the script you will see that the result is exactly the same — a circle centered on our input point with a radius of 2.
 
-### The *rhinoscriptsyntax* library
+### The _rhinoscriptsyntax_ library
 
-Finally, let’s look at the same example using the *rhinoscriptsyntax* library. We can import the library by typing:
+Finally, let’s look at the same example using the _rhinoscriptsyntax_ library. We can import the library by typing:
 
 ```python
 import rhinoscriptsyntax as rs
@@ -111,16 +111,16 @@ a = rs.AddCircle(x, 2)
 We have now seen three different libraries that allow you to work with geometry in Python, so which one should you use? Ultimately all three do basically the same thing and create the same exact geometry, but they each come with certain benefits and limitations:
 
 - The **ghpythonlib.components** library makes it easier to get started because you can directly use the same components you are used to using in Grasshopper. However you are restricted to what is available in Grasshopper, and some of the methods can be clunky compared to those in RhinoCommon.
-- The **rhinoscriptsyntax** library was created to make it easier for those already used to using RhinoScript to transition to using Python. The methods in the *rhinoscriptsyntax* library replicate those in RhinoScript, but do so by ‘wrapping up’ methods from RhinoCommon. Thus they may make some geometric operations easier and cleaner, but also limit the scope of possibilities compared to using the full RhinoCommon.
+- The **rhinoscriptsyntax** library was created to make it easier for those already used to using RhinoScript to transition to using Python. The methods in the _rhinoscriptsyntax_ library replicate those in RhinoScript, but do so by ‘wrapping up’ methods from RhinoCommon. Thus they may make some geometric operations easier and cleaner, but also limit the scope of possibilities compared to using the full RhinoCommon.
 - The **Rhino.Geometry** library is the most comprehensive and robust way to work with geometry in Python because it exposes all of the methods in the full [RhinoCommon](http://developer.rhino3d.com/guides/rhinocommon/what-is-rhinocommon/) library. RhinoCommon is a universal cross-platform library developed by McNeel for the release of Rhino 5 which allows all versions of Rhino and Grasshopper to access the same geometric data types and methods. By tapping into this library we gain access to everything capability of Rhino, which allows us to do things we could not do with either Grasshopper or RhinoScript.
 
-One major difficulty when starting to work with libraries such as *rhinoscriptsyntax* or *Rhino.Geometry* is knowing the exact syntax of each geometric method available, what to pass in for inputs, and what returns to expect from each one. In Grasshopper you can easily see what components are available to you by looking through the options in the toolbar. You can also see each component's expected inputs and outputs by looking at the ports of the component. With code it is a bit more difficult because there is no graphic interface for any of the methods. So how do we know what methods available and how to use them?
+One major difficulty when starting to work with libraries such as _rhinoscriptsyntax_ or _Rhino.Geometry_ is knowing the exact syntax of each geometric method available, what to pass in for inputs, and what returns to expect from each one. In Grasshopper you can easily see what components are available to you by looking through the options in the toolbar. You can also see each component's expected inputs and outputs by looking at the ports of the component. With code it is a bit more difficult because there is no graphic interface for any of the methods. So how do we know what methods available and how to use them?
 
 The best way is to search through the documentation of each library, which contains a full description of each class implemented by the library and its methods. You can find the documentation of the two libraries here:
 
-- http://developer.rhino3d.com/api/RhinoScriptSyntax — documentation for the *rhinoscriptsyntax* library with a description of each method and data type supported
-- https://github.com/mcneel/rhinoscriptsyntax — source code of the *rhinoscriptsyntax* library which shows how each method is implemented using RhinoCommon
-- http://4.rhino3d.com/5/rhinocommon/ — documentation of the full *RhinoCommon* library including all data types and methods with Python examples for each one.
+- http://developer.rhino3d.com/api/RhinoScriptSyntax — documentation for the _rhinoscriptsyntax_ library with a description of each method and data type supported
+- https://github.com/mcneel/rhinoscriptsyntax — source code of the _rhinoscriptsyntax_ library which shows how each method is implemented using RhinoCommon
+- http://4.rhino3d.com/5/rhinocommon/ — documentation of the full _RhinoCommon_ library including all data types and methods with Python examples for each one.
 
 In practice, searching through full documentation sets can be difficult and confusing for someone just getting started, so the Python script editor provides two tools that make it easier to find out what methods are available in a library and how to use them.
 
@@ -130,7 +130,7 @@ The first is the autocomplete feature, which gives you hints on what methods are
 a = rh.Circle(x, 2)
 ```
 
-again character by character to see how this works. Remember that `rh` is a keyword representing the *Rhino.Geometry* library, and the `.` symbol is Python's way of accessing a class from a library or a method or property from a class. Once you type in the `.` symbol, a window will pop up with a list of all the classes in that library. This would also work if you had an instance of an class and were trying to access it's methods and properties. As you continue typing, the pop-up list will automatically scroll down to the portion you are typing and highlight the best matching class name. Once you see the class you want highlighted you can press 'Enter' or double-click on the name to enter the class name into the script.
+again character by character to see how this works. Remember that `rh` is a keyword representing the _Rhino.Geometry_ library, and the `.` symbol is Python's way of accessing a class from a library or a method or property from a class. Once you type in the `.` symbol, a window will pop up with a list of all the classes in that library. This would also work if you had an instance of an class and were trying to access it's methods and properties. As you continue typing, the pop-up list will automatically scroll down to the portion you are typing and highlight the best matching class name. Once you see the class you want highlighted you can press 'Enter' or double-click on the name to enter the class name into the script.
 
 ![browsing classes within a library](images/1-04.png#img-full)
 
@@ -142,8 +142,8 @@ Following the class or method name you typically place a set of parenthesis wher
 
 > Reading documentation for a method
 
-In the case of the `.Circle()` class constructor method you can see that it actually supports many different combinations of inputs. In Python this is called 'overloading' a method, and allows a single method to do different things based on different combinations of inputs. 
+In the case of the `.Circle()` class constructor method you can see that it actually supports many different combinations of inputs. In Python this is called 'overloading' a method, and allows a single method to do different things based on different combinations of inputs.
 
-In this case it allows us to create Circles in several different ways such as based on a center and radius or based on 3 Points. Overloading is another advantage of using the *Rhino.Geometry* library over the *ghpythonlib.components* library. Instead of remembering the 7 different components for creating Circles in Grasshopper, we have a single `.Circle()` class which can make circles in different ways based on the inputs we give its constructor.
+In this case it allows us to create Circles in several different ways such as based on a center and radius or based on 3 Points. Overloading is another advantage of using the _Rhino.Geometry_ library over the _ghpythonlib.components_ library. Instead of remembering the 7 different components for creating Circles in Grasshopper, we have a single `.Circle()` class which can make circles in different ways based on the inputs we give its constructor.
 
 # Challenge - set radius with slider
