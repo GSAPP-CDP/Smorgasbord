@@ -1,14 +1,14 @@
 <template>
   <div class="post">
-    <div class="header">
-      <div class="title"><span class="val">{{ module.title }}</span></div>
-      <div class="author">by <span class="val">{{ module.authors }}</span></div>
-      <div class="lastupdated">last updated: <span class="val">{{ moduleDate }} </span></div>
+    <div class="postheader">
+      <div class="posttitle"><span class="val">{{ module.title }}</span></div>
+      <div class="postauthor">by <span class="val">{{ module.authors }}</span></div>
+      <div class="postlastupdated">last updated: <span class="val">{{ moduleDate }} </span></div>
     </div>
-    <div class="body">
+    <div class="postbody">
       <nuxt-content :document="module" />
     </div>
-    <div class="footer">
+    <div class="postfooter">
     </div>
 
     
@@ -21,14 +21,15 @@
 
 .post {
   padding: 110px 30px 100px 10px;
-  font-size: 1.1em;
+  font-size: 1.0em;
   font-weight: regular;
   color: #444;
   word-wrap: break-word;
   
 }
+
 p {
-  line-height: 1.6em;
+  line-height: 1.7em;
 }
 
 blockquote {
@@ -38,13 +39,13 @@ blockquote {
 
 }
 
-.header {
+.postheader {
   padding-bottom: 10px;
   border-bottom: 1px solid #4CBF8F;
   margin-bottom: 10px;
 }
 
-.title {
+.posttitle {
   font-weight: bold;
   font-size: 3em;
   color: #4CBF8F;
@@ -63,6 +64,40 @@ blockquote {
 .instruction p:last-child {
   margin-bottom: 0px;
 }
+
+/* https://vue-loader.vuejs.org/guide/scoped-css.html#child-component-root-elements */
+
+* >>> img {
+  max-width: 100%;
+  height: auto; 
+}
+* >>> img[src$='#img-left'] { 
+  max-width: 50%;
+  max-height: 400px;
+  padding: 10px 15px 10px 0px;
+  float: left;
+  clear: both;
+}
+
+* >>> img[src$='#img-right'] { 
+  float: right;
+  max-width: 50%;
+  max-height: 400px;
+  padding: 10px 0px 10px 15px;
+  clear: both;
+}
+
+* >>> h1, * >>> h2, * >>> h3, * >>> h4, * >>> h4  {
+  clear: both;
+}
+
+* >>> h3, * >>> h4, * >>> h4  {
+  padding-top: 2em;
+}
+
+* >>> p {
+}
+
 
 /* image caption */
 img + em, div.img + em {

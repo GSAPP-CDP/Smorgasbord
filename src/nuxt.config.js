@@ -85,5 +85,22 @@ export default {
         loader: 'ignore-loader'
       })
     }
-  }
+  },
+
+  hooks: {
+    'content:file:beforeInsert': (document) => {
+      if (document.extension === '.md') {
+        const { time } = require('reading-time')(document.text);
+
+        const uniqueLinks = [...new Set(document.text.match(/\[\[(.*?)\]]/g))];
+
+        document.readingTime = time;
+        document.uniqueLinks = uniqueLinks;
+      }
+    }
+  },
+
+
+
+
 }

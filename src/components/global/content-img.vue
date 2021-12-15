@@ -1,6 +1,5 @@
 <template>
   <div class="img">
-    {{ src }} 
     <img :src="imgSrc()" :alt="alt" />
   </div>
 </template>
@@ -61,19 +60,6 @@ export default {
 <style scoped>
 
 
-img {
-  max-width: 100%;
-  height: auto; 
-}
-img[src$='#img-left'] { 
-  width: 50%;
-  padding: 10px;
-}
-
-img[src$='#img-right'] { 
-  width: 50%;
-  padding: 10px;
-}
 
 
 </style>

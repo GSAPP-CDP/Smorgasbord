@@ -22,6 +22,7 @@ export default {
     color: #4A4A4A;
     padding: 20px 30px;
     font-weight: bold;
+    font-size: 0.85em;
   }
   
   a {

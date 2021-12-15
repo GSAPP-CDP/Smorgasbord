@@ -58,7 +58,6 @@ export default {
         sequencedModules[m.dir] = {};
         sequencedModules[m.dir].dir = m.dir;
         sequencedModules[m.dir].modules = [];
-
       } 
       sequencedModules[m.dir].modules.push(m);
     });
