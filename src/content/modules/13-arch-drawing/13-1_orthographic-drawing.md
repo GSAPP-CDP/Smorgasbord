@@ -11,7 +11,13 @@ In this module we'll introduce the two most essential types of architectural dra
 
 ## What is Orthographic Drawing?
 
-//overview TK
+TK
+
+- What is a plan
+- What is a section
+- historical examples
+- conventions
+- scales
 
 ## Tutorial
 

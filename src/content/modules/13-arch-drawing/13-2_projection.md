@@ -11,7 +11,10 @@ This module will introduce the different types of projection, with a little bit 
 
 ## What is Projection?
 
-//Overview TK
+Overview TK
+
+- what problem is projection solving?
+- need some fun images up here
 
 ## Tutorial
 
@@ -19,7 +22,7 @@ Perspective
 
 ### Perspectival Projection
 
-So far, unless you changed the settings, all our 3D modeling has been done in perspective. This is a familiar way of representing space which creates an illusion of depth by depicting objects as smaller the further they are from the viewer or camera. In a perspective drawing, straight lines which are parallel in space appear to converge at "vanishing points." If the lines are parallel to the horizon, the vanishing point will also be on the horizon.
+So far, unless you changed the settings of your viewport, all our 3D modeling has been done in perspective. This is a familiar way of representing space which creates an illusion of depth by depicting objects as smaller the further they are from the viewer or camera. In a perspective drawing, straight lines which are parallel in space appear to converge at "vanishing points." If the lines are parallel to the horizon, the vanishing point will also be on the horizon.
 
 ![albertian perspective](images/13-2/alberti-perspective.png#img-left)
 
@@ -61,7 +64,7 @@ Then use `Make2D` again to make another three-point perspective.
 
 In a two-point perspective, lines parellel to the ground plane converge but vertical lines remain parallel. In order to construct a drawing like this, we need our line of sight to be parallel to the ground plane, intersecting with vertical lines at a right angle. To do this, simply move your camera vertically so that it is at the same elevation as its target.
 
-Typically, a perspective like this is drawn at eye-level, or roughly 5'-6" (168 cm) above the ground. Move the camera and target to this height, then adjust to center the model in the frame.
+Typically, a perspective like this is drawn at eye-level, or roughly 5'-6" (168 cm) above the ground. `Move` the camera and target to this height, then adjust to center the model in the frame.
 
 ![two-point perspective setup](images/13-2/two-point-setup.png#img-left)
 
@@ -71,7 +74,7 @@ Save this view as well, then `Make2D`. You can check that, while you still have 
 
 Since we set our camera at a 45-degree angle to the building, our two vanishing points will be symmetrically spaced to the left and right of the center of our image. But anywhere we place our camera in the XY plane will result in a two-point perspective, as long as we keep it at the same height as the target.
 
-![3pt diagonal](images/13-2/2pt-asymmetric.jpg#img-left)
+![asymmetric 2-point perspective](images/13-2/2pt-asymmetric.jpg#img-left)
 
 ### Forced Two-Point Perspective
 
@@ -89,7 +92,7 @@ This works well if the view is already close to being a true two-point perspecti
 
 ### One-Point Perspective
 
-In a one-point perspective drawing, the camera is aimed perpendicularly to one of the faces of the building, with the result that only lines moving away from the camera appear to converge. This creates the kind of classical, balanced image that was popular among Renaissanice painters who were first experimenting with perspective.
+In a one-point perspective drawing, the camera is aimed perpendicularly to one of the faces of the building, with the result that only lines moving away from the camera appear to converge. This creates the kind of classical, balanced image that was often used by Renaissanice painters who were first experimenting with perspective.
 
 ![school of athens](images/13-2/school-of-athens.jpg#img-left)
 
@@ -195,7 +198,7 @@ Look at this distorted model from the top, and use `Make2D` on it. Because we sh
 
 ![plan-elevation-axonometric](images/13-2/plan-elevation-oblique.jpg#img-left)
 
-This drawing preserves both plan and elevation, but becuase it only represents two faces, it doesn't give a great three-dimensional impression of the building. Now `Show` your original model and create three more copies of it. But this time, rotate the copies 30, 45, and 60 degrees in top view. Select all of them, and just like before, `Shear` them 45 degrees when looking at them from the side. Then switch back to top view, and use `Make2D` again.
+This drawing preserves both plan and elevation, but becuase it only represents two faces, it doesn't give a great three-dimensional impression of the building. Now `Show` your original model and create three more copies of it. But this time, `rotate` the copies 30, 45, and 60 degrees in top view. Select all of them, and just like before, `Shear` them 45 degrees when looking at them from the side. Then switch back to top view, and use `Make2D` again.
 
 ![plan-elevation-axonometric](images/13-2/plan-oblique-angles.jpg#img-left)
 
@@ -207,14 +210,12 @@ As an extra challenge, try making a plan oblique drawing that includes a plan cu
 
 There are other types of oblique projection that depict elevation accurately, rather than plan. These are less common in architectural representation, but see if you can recreate them using the tools introduced above.
 
-**Cavalier Projection**: Similar to a 45 plan oblique, but an elevation is preserved rather than the plan.
+**Cavalier Projection**: Similar to a 45 plan oblique, but an elevation is preserved rather than the plan. Lines "receding" from the viewer are the correct length, but angles and diagonal distances are distorted.
 
-//example
+**Cabinet Projection**: Cavalier projection can appear "stretched" because we expect planes receding from our view to be foreshortened. Cabinet projection corrects for this by compressing those planes: lines along the Y-axis will be half as long in the drawing as the are in reality.
 
-**Cabinet Projection**: Cavalier projection can appear "stretched" because we expect the planes receding from our view to be foreshortened. Cabinet projection corrects for this by compressing those planes: lines along the Y-axis will be half as long in the drawing as the are in reality. (Hint: this means using a different shear angle).
-
-//example
+![elevation oblique](images/13-2/elevation-oblique.jpg#img-left)
 
 ## Conclusion
 
-In this tutorial we learned about different ways of projecting three-dimensional geometry onto a two-dimensional picture plane. 
+In this tutorial we learned about different ways of projecting three-dimensional geometry onto a two-dimensional picture plane, but we did so using only line geometry. Next time we'll cover simple materials, lighting and rendering.

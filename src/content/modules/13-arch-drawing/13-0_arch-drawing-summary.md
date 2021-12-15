@@ -9,8 +9,13 @@ slug: introduction-to-architectural-drawing
 
 ## Why?
 
+TK
+
+Introduction to architectural drawing
+Drawing an Argument
+
 ## Modules:
 Orthographic Drawing: Plans & Sections
-Parallel Projection / Vector
-Perspectival Projection / Raster
+Projection
+Rendering
 Compositing
