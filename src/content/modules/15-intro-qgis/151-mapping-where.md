@@ -259,7 +259,7 @@ Your map should look something like this:
 ![graduated trees map](images/151/26-tree-size.png)
 
 ## Assignment
-Design a map, or a series of maps showing your four ***Views of NYC Trees***. This is an opportunity to experiment with the nuance Complete the [next short module]() on the print layout functions of QGIS cartographic design before embarking on this.
+Design a map, or a series of maps showing your four ***Views of NYC Trees***. This is an opportunity to experiment with the nuances between these different ways of representing (and indeed understanding) trees in New York City.  Complete the [next short module]() on the print layout functions of QGIS cartographic design before embarking on this.
 
 Consider:  
 How can your design convey similarities and differences across each of the four ways of understanding trees of New York City?  

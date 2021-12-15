@@ -17,12 +17,13 @@ Maps and geographic analysis are key tools for interpreting the built and social
 
 ## Modules:
 
-- Mapping where
-- Print layouts and cartographic design
+- Mapping Where
+- Print Layouts and Cartographic Design
 - Making Data from Archives
-- Making Data From Observation & Sensing
-- Making Data from Satellites
-- Final Project: Urban Atlas
+- Making Data From Field Observations 
+- Making Data from Satellites: Multispectral 
+- Making Data from Satellites: True Color
+- Final Project: A Subjective Atlas
 
 
 ## Modules overview/sequence

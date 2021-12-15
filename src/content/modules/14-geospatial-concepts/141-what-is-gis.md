@@ -112,3 +112,6 @@ McHarg, Ian L. *Design with Nature.* New York: J. Wiley, c1992.
 #### Textbooks
 Maantay, Juliana, and John Ziegler. GIS for the Urban Environment. Redlands, Calif: Independent Publishers Group (IPG) [distributor], 2006.
 
+
+-------
+tutorial credit information, to be added in standard format

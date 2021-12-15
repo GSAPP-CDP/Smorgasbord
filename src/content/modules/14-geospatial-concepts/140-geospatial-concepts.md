@@ -13,7 +13,7 @@ This sequence of modules introduces foundational concepts in geographic informat
 
 ## Why?
 
-The increasingly widespread availability of up-to-date (or even real-time) spatial data is changing the landscape of possibility for design workflows and methods of urban analysis. Having a robust understanding of concepts central to spatial analysis makes it possible to develop fluency in methods of spatial computation across a range of platforms and software environments. Geographic information systems is not a software, but rather a set of related methods which can be implemented in a range of softwares and programming languages. 
+The increasingly widespread availability of up-to-date (or even real-time) spatial data is changing the landscape of possibility for design workflows and methods of urban analysis. Having a robust understanding of concepts central to spatial analysis makes it possible to develop fluency in methods of spatial computation across a range of platforms and software environments. Geographic information systems is not a software, but rather a set of related methods which can be implemented in a range of softwares and programming languages.  
 
 ## Modules:
 

@@ -151,9 +151,22 @@ Beyond false color composites researchers use the spectral signatures for differ
 
 You can create your specific land use classifications using something called supervised classification. This is beyond the required scope of this assignment but if you are interested in going further please follow the instructions for using the SCP for creating your own land use classification contained in this external tutorial produced by the Applied Remote Sensing Training Program at NASA[here](https://appliedsciences.nasa.gov/join-mission/training/english/arset-land-cover-classification-satellite-imagery)
 
-## Tutorial Deliverable
+## Assignment  
 
-Upload a screenshot of your false color composite to Canvas.
+Create a map using Landsat Satellite imagery that shows land use change over time. Download two (or more!) images captured by the Landsat 8 satellite of the same location on different dates, import them into QGIS and symbolize with a false color composite that helps to highlight a change in the landscape that is visible in your chosen location.
+
+#### Requirements 
+
+- Your final work must be a designed map composition (gifs are okay here too) 
+- Your designed map composition must include:
+  - title
+  - legend
+  - scale bar
+  - north arrow (your map doesn't need to have north pointing vertically...)
+  - citations for all data sources (please use Chicago style or an equivalent)
+  - projection used
+
+
 ---
 Tutorial by Dare Brawley, Spring 2021
 
