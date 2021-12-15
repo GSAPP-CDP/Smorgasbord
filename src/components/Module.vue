@@ -1,13 +1,14 @@
 <template>
   <div class="post">
-
-    <div class="header">
+    <div class="postheader">
+      <div class="posttitle"><span class="val">{{ module.title }}</span></div>
+      <div class="postauthor">by <span class="val">{{ module.authors }}</span></div>
+      <div class="postlastupdated">last updated: <span class="val">{{ moduleDate }} </span></div>
     </div>
-    <div class="body">
+    <div class="postbody">
       <nuxt-content :document="module" />
     </div>
-    <div class="footer">
-      {{ moduleDate }} 
+    <div class="postfooter">
     </div>
 
     
@@ -16,18 +17,19 @@
 
 </template>
 
-<style>
+<style scoped>
 
 .post {
-  font-size: 0.95em;
+  padding: 110px 30px 100px 10px;
+  font-size: 1.0em;
   font-weight: regular;
-  margin: auto;
-  width: 50vw;
-  max-width: 700px;
   color: #444;
+  word-wrap: break-word;
+  
 }
+
 p {
-  line-height: 1.6em;
+  line-height: 1.7em;
 }
 
 blockquote {
@@ -37,35 +39,21 @@ blockquote {
 
 }
 
-a {
-  color: #529F98
+.postheader {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #4CBF8F;
+  margin-bottom: 10px;
 }
 
-a:visited {
-  color: #6D71BF;
-}
-
-
-.title {
+.posttitle {
   font-weight: bold;
+  font-size: 3em;
+  color: #4CBF8F;
+  margin-bottom: 15px;
+  word-break: break-word;
 }
+ 
 
-
-img {
-  width: 100%;
-}
-
-img[src$='#img-left'] { 
-  float:left;
-  width: 50%;
-  padding: 10px;
-}
-
-img[src$='#img-right'] { 
-  float:right;
-  width: 50%;
-  padding: 10px;
-}
 
 .instruction {
   background-color: #CCC;
@@ -77,6 +65,40 @@ img[src$='#img-right'] {
   margin-bottom: 0px;
 }
 
+/* https://vue-loader.vuejs.org/guide/scoped-css.html#child-component-root-elements */
+
+* >>> img {
+  max-width: 100%;
+  height: auto; 
+}
+* >>> img[src$='#img-left'] { 
+  max-width: 50%;
+  max-height: 400px;
+  padding: 10px 15px 10px 0px;
+  float: left;
+  clear: both;
+}
+
+* >>> img[src$='#img-right'] { 
+  float: right;
+  max-width: 50%;
+  max-height: 400px;
+  padding: 10px 0px 10px 15px;
+  clear: both;
+}
+
+* >>> h1, * >>> h2, * >>> h3, * >>> h4, * >>> h4  {
+  clear: both;
+}
+
+* >>> h3, * >>> h4, * >>> h4  {
+  padding-top: 2em;
+}
+
+* >>> p {
+}
+
+
 /* image caption */
 img + em, div.img + em {
   color: #888;
@@ -84,7 +106,9 @@ img + em, div.img + em {
   display: inline-block;
 }
 
-
+.val {
+  font-weight: bold;
+}
 
 </style>
 
@@ -95,16 +119,21 @@ export default {
       module: {},
     };
   },
-  props: ['slug'],
+  props: ['path'],
   async fetch() {
     let self = this;
-    const [module] = await this.$content('modules', { deep: true }).where({ slug: self.slug })
-      .fetch()
-      .catch((err) => {
-        error({ statusCode: 404, message: 'Page not found' })
-      })
+    console.log(this.path);
 
-    this.module = module;
+    const [document] = await this.$content('modules', { deep: true }).where({ path: self.path }).fetch()
+
+
+//    const [module] = await this.$content('modules', { deep: true }).where({ slug: self.slug })
+//      .fetch()
+/*      .catch((err) => {
+        error({ statusCode: 404, message: 'Page not found' })
+      }) */
+
+    this.module = document;
   },
   computed: {
     moduleDate() {
