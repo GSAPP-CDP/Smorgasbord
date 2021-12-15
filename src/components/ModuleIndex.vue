@@ -4,7 +4,7 @@
       {{ sequence.dir }}
       <ul v-for="module in sequence.modules">
         <li :class="[ module.path === $nuxt.$route.path ? 'active' : '']" >
-          - <NuxtLink :to="module.path">{{module.title}}</NuxtLink>
+          <NuxtLink :to="module.path">- {{ moduleTitle(module) }}</NuxtLink>
         </li>
       </ul>
     </ul>
@@ -47,6 +47,15 @@ export default {
       modules: [],
       sequencedModules: {},
     };
+  }, 
+  methods: {
+    moduleTitle(module) {
+      if(module.title !== "") { 
+        return module.title;
+      } else {
+        return "index";
+      }
+    },
   },
   async fetch() {
     var modules = await this.$content('modules', { deep: true }).sortBy('moduleid') //TODO sort by other metric
@@ -58,12 +67,14 @@ export default {
 
     var sequencedModules = {};
     modules.forEach(m => {
-    	if (!sequencedModules.hasOwnProperty(m.dir)) {
-        sequencedModules[m.dir] = {};
-        sequencedModules[m.dir].dir = m.dir;
-        sequencedModules[m.dir].modules = [];
+      let seqsplit = m.dir.split('/')
+      let seqname = seqsplit[seqsplit.length - 1]
+    	if (!sequencedModules.hasOwnProperty(seqname)) {
+        sequencedModules[seqname] = {};
+        sequencedModules[seqname].dir = seqname;
+        sequencedModules[seqname].modules = [];
       } 
-      sequencedModules[m.dir].modules.push(m);
+      sequencedModules[seqname].modules.push(m);
     });
 
 
