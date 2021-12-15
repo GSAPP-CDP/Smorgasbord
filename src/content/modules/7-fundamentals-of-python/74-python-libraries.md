@@ -5,7 +5,7 @@ published: True
 slug: python-libraries
 ---
 
-# Working with libraries in Python
+# Working with Libraries in Python
 
 ## Module Summary
 
