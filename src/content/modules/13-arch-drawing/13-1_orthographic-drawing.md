@@ -1,8 +1,11 @@
 ---
 moduleid: 131
-title: Orthographic Drawing
+title: "Orthographic Drawing"
 published: True
 slug: orthographic-drawing
+authors: "Zachary White", "Zach White"
+date: 2021-12-14 11:26
+
 ---
 # Orthographic Drawing: Plans & Sections
 ## Module Summary

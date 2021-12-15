@@ -25,13 +25,13 @@ a, a:visited {
 
 #nav {
   overflow-y: auto;
-  width: 33vw;
-  min-width: 300px;
+  flex-basis: 350px;
+  flex-grow: 0;
+  flex-shrink: 0;
 }
 
 #content {
-  flex-grow: 1;
-  overflow: auto;
+  overflow-y: auto;
 }
 
 #graph {
