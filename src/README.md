@@ -2,6 +2,15 @@
 
 This is the repository for the GSAPP Smorgasbord!
 
+
+
+## Architecture
+
+
+
+
+
+
 ## Module Content 
 
 _See [content/modules/0-template](content/modules/0-template) as an example; you can duplicate that folder and work from there._
