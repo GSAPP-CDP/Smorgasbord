@@ -173,7 +173,7 @@ If everything worked right, we should end up with one Polysurface for each level
 
 In this exercise, we rationalized the tower geometry by generating a set of flat panel surfaces to approximate the curved shape of the tower. We also added an opening to each panel whose size can be controlled by a parameter. Spend some time experimenting with the model to see what kinds of variations and panel geometries you can create. In the next exercise, we will develop the tower further by creating a data-driven system for controlling the size of openings independently for each panel.
 
-# CHALLENGE!
+# CHALLENGE:
 
 If you figured out the [last challenge](https://medium.com/p/bdbad26bc6ca#b260) by using a `Rectangle` component to replace the elliptical floors with rectangular ones, you may see an issue applying the paneling in this exercise. Since each rectangle is a single Curve, depending on how they get divided you could see that some of the corners get cut or chamfered. Can you think of a way to solve this problem and force the facade panels to always end at the corners?
 

@@ -93,7 +93,7 @@ Notice that when we pass one point to the `Circle CNR` component we get one circ
 In this exercise, we created a simple definition from five components that creates a set of related circles. Although it’s only a small example, it does illustrate the basic concepts of how we develop models in Grasshopper. Every Grasshopper model needs a starting point, and from there you build up complexity by passing data through more and more components.
 As you get more experience with Grasshopper, you will see that learning the components is only the first step of becoming a great computational designer. The true skill of computational design is learning how to approach design problems computationally, and break down complex problems into a set of simpler problems that can be represented through the right set of components.
 
-## CHALLENGE!
+# CHALLENGE:
 
 Can you modify the definition to control the number of division points (and thus the number of circles generated) dynamically? Can you set it up so that the number of circles as well as their size is controlled through a single `Number Slider`?
 
