@@ -9,7 +9,7 @@ slug: intro-to-python-scripting-in-rhino
 
 ## Sequence Summary:
 
-This sequence introduces you to various things you can do using Python scripting in Rhino Grasshopper.
+This sequence introduces various techniques using Python scripting in Rhino Grasshopper.
 
 ## Why?
 
@@ -17,5 +17,5 @@ Rhino is an extremely popular CAD software used in many industries including arc
 
 ## Modules:
 
-- Accessing the Rhino APIs in Python
+- Accessing the Rhino Libraries in Python
 - Working with geometry in Python

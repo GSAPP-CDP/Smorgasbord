@@ -11,19 +11,11 @@ slug: 4-1-getting-started-with-grasshopper
 
 ![description](images/4-1-1.png)
 
-## Module Summary
-
-Before we develop our parametric tower further, we are going to pause and introduce best practices for developing clean and clear grasshopper definitions through techniques for organizing, grouping, labeling and color coding.
-
-## Why is this important?
-
-You might be thinking, why am I taking a break from developing an awesome parametric tower just to organize and label my definition? That sounds _super boring_ and a waste of time. Much like in computer programming, maintaining best practices for clean and clear definitions is critical for building and maintaining complex parametric models, creating re-usable and modular definitions, and allowing for collaboration with others. Taking the time to implement best practices while your develop you definitions will also save you time and frustration later.
-
-> What is Grasshopper?
+## What is Grasshopper?
 
 Grasshopper is a computational design tool that works with the [CAD](https://en.wikipedia.org/wiki/Computer-aided_design) program [Rhino](https://www.rhino3d.com/). It allows you to create designs not by modeling the geometry directly, but by defining relationships between smaller processes that come together to create the final design. Using computational design in Grasshopper allows you to think of designs as systems rather than static objects.
 
-> Ok, then what is computational design, and how is it different from just using a computer for design?
+## Ok, then what is computational design, and how is it different from just using a computer for design?
 
 Computers have been impacting the way designers work since the arrival of the personal computer in the early 1980s. These days, computers are heavily integrated into the day-to-day work of almost every design professional. However, most designers still rely on out-of-the-box software solutions that come with standard user interfaces that support typical workflows for accomplishing specific design tasks.
 
@@ -35,7 +27,7 @@ When we talk about computational design, we’re usually referring to using a co
 
 Computational design tools give users access to these core functionalities, allowing them to control the software directly through custom programs and algorithms. To build these algorithms, computational designers must be familiar with some level of computer programming, which is the practice of writing algorithms to describe specific tasks to a computer. Although computer programming is not traditionally thought of as a core design skill, as design workflows become more and more digital and complex, the ability to program design tools to do custom things is becoming increasingly important.
 
-> What is computational design for?
+## What is computational design for?
 
 Computational design is still an emerging field, with many new uses emerging every day. Some of the more common uses are:
 
@@ -65,7 +57,7 @@ Because of it’s focus on breaking down and describing design processes, comput
 
 Now that we know what computational design is and how it can be useful to us, let’s dive in and learn how to do it ourselves. One of the most popular tools for computational design is Grasshopper.
 
-> Ok ok, but then what is Grasshopper?
+## Ok ok, but then what is Grasshopper?
 
 Grasshopper is a visual programming environment built on top of Rhino. It allows you to create _visual scripts_ or definitions that describe a design through a series of relationships between operations, geometries, and other data.
 
@@ -89,7 +81,7 @@ Pretty straight forward, huh? It’s amazing that all Grasshopper definitions ar
 
 Since Grasshopper is a design tool, it cannot be limited to simple mathematical operations. Luckily, since Grasshopper is built on the 3d modeling software Rhino, it has access to all of the geometric functions contained within Rhino, and allows us to access these functions within our definitions. The combination of its intuitive visual programming interface with Rhino’s best-in-class geometry library makes Grasshopper a powerful tool for computational design and by far the most popular computational design tool used today.
 
-> How does Grasshopper connect to Rhino?
+## How does Grasshopper connect to Rhino?
 
 Like most computer software, Rhino has two components — the front-end graphical user interface (UI) with which users interact, and a backend system that contains all the logic for what the program can do. In a CAD program like Rhino, the front-end contains the visual display of the geometry and a command-input system that allows users to run commands to generate geometry while providing inputs and getting visual feedback from the display. On the backend, there is a library that defines the functionality behind all of the geometric commands, along with other functionality needed by Rhino such as saving and loading a file.
 
