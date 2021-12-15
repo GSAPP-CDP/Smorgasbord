@@ -111,7 +111,7 @@ At this point, you should see a stack of ribbons defining the shape of the tower
 
 In this exercise, we defined the basic twisting form of the parametric tower. The five `Number Slider` components we created while building the model can now be used to control the various parameters of the tower. Spend some time experimenting with the parameters and see what kind of different tower shapes you can create. In case you got lost along the way, you can download a finished version of the demo [here](https://www.dropbox.com/s/44ohfz1qxjzrymx/intro-to-gh_tower_1.gh?dl=1).
 
-# CHALLENGE!
+# CHALLENGE:
 
 We built our simple parametric tower definition based on elliptical floors. What if we wanted rectangular floors instead? The beauty of Grasshopper is that once you define your model’s logic once, it should be relatively easy to make changes by replacing certain aspects of the model while keeping the rest of the logic intact. Try replacing the Ellipse component with one or more other components to change the shape of the floors while keeping the rest of the tower definition the same. What kind of interesting towers can you create by combining the twist operation with floors of different shapes?
 

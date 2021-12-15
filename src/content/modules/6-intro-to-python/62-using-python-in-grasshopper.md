@@ -85,6 +85,3 @@ For more specific information on working with Python in Rhino and Grasshopper yo
 - https://developer.rhino3d.com/api/RhinoCommon/html/R_Project_RhinoCommon.htm — documentation of the Rhino API. This includes documentation of all of Rhino's native Classes as well as code samples in Python as well as C# and VB.
 - http://developer.rhino3d.com/api/RhinoScriptSyntax/win/ — documentation of the rhinoscriptsyntax library. This is a helper library that makes some functionalities easier to write in code. It was developed to replicate some of the functionalities of the old RhinoScript syntax making it easier to transition from RhinoScript to Python.
 - http://developer.rhino3d.com/guides/rhinopython/python-rhinoscriptsyntax-introduction/ — support for the rhinoscriptsyntax Python library.
-
-# Challenge - read the Rhino Python developer docs
-
