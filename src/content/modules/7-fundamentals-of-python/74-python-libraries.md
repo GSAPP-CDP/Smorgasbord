@@ -5,7 +5,7 @@ published: True
 slug: python-libraries
 ---
 
-# Functions and Classes
+# Working with Libraries in Python
 
 ## Module Summary
 
@@ -15,7 +15,6 @@ This module covers the fundamentals of working with Python libraries (often call
 
 As we've discussed in previous modules, Python is an object-oriented-programming (OOP) language, and a key component of OOP is the idea of reusability and modularity. Modularity in code or [modular programming](https://en.wikipedia.org/wiki/Modular_programming) is the idea of separating large pieces of software into self contained packages based on functionality. It is a very popular way of writing code as it allows developers to simplify complex tasks and maintain large scripts easier. Functions and classes, that we went over in the previous module, are constructs that help promote modularity. Python libraries are another. Python libraries are scripts (often a collection scripts) that package certain functionality into self contained pieces of code.
 
-
 ## Libraries Overview
 
 There are three types of Python libraries:
@@ -24,7 +23,7 @@ There are three types of Python libraries:
 - **A pure Python module**: these are usually written by open source contributors or by Python enthusiasts who create custom python code for doing a specific task, and then make that code available online. There are tens of thousands of pure Python modules out there – libraries to develop video games, to libraries that making working with images easier.
 - **Modules written in C**: similar to pure Python libraries but written in the C programming language and loaded during runtime. As they are written in C, this usually means they run a lot faster than pure Python modules.
 
-Accessing modules within Python is the same regardless of the type – using the `import` statement. The import statement tells python that we want to access all the content within a particular library by *importing* it into our code.
+Accessing modules within Python is the same regardless of the type – using the `import` statement. The import statement tells python that we want to access all the content within a particular library by _importing_ it into our code.
 
 For example, if we want to utilize the `math` built-in Python module we would write:
 
@@ -48,7 +47,7 @@ from math import sqrt
 
 Here we just imported the `sqrt` function by using the `from` + `import` statements. This tells python to select a particular element **from** a certain library and import it. Another important statement for accessing Python modules is the `as` keyword.
 
-`as` is used to import modules with an alias or alternative name – which is important for avoiding namespace conflicts. For example, lets say we imported the `floor` function from the `math` library, but then later in our code wanted to create a variable called *floor* to hold information about some floor, there would be a conflict. As there are two objects in the code with the same name, referring to completely different things. As a workaround, we could use the `as` statement to give the `math.floor()` an alias:
+`as` is used to import modules with an alias or alternative name – which is important for avoiding namespace conflicts. For example, lets say we imported the `floor` function from the `math` library, but then later in our code wanted to create a variable called _floor_ to hold information about some floor, there would be a conflict. As there are two objects in the code with the same name, referring to completely different things. As a workaround, we could use the `as` statement to give the `math.floor()` an alias:
 
 ```python
 from math import floor as flr
@@ -87,5 +86,6 @@ pip uninstall Package_Name
 ```
 
 ## Additional Resources
+
 - A full list of [Python's built-in libraries](https://docs.python.org/3/py-modindex.html)
-- List of useful [open source libraries](https://wiki.python.org/moin/UsefulModules) 
+- List of useful [open source libraries](https://wiki.python.org/moin/UsefulModules)

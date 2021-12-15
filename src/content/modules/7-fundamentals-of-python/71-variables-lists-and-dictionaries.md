@@ -9,7 +9,7 @@ slug: variables-lists-and-dictionaries
 
 ## Module Summary
 
-In this module we will learn about the basic data types in Python and how we can work with them using variables and a variety of built-in operators. We will also see how we can store entire sets of data within a variable using two key structures: Lists and Dictionaries.
+In this module we will learn about the basic data types in Python and how we can work with them using variables and a variety of built-in operators. We will also see how we can store entire sets of data within a variable using two important structures: Lists and Dictionaries.
 
 ## Introduction
 
@@ -26,7 +26,7 @@ print('this is code') # this is also a comment
 
 If you run this code you will see that it prints out 'this is code' because it executes the line `print('this is code')`. This uses the `print()` Function which takes in any text (or piece of data) you put inside the parenthesis and prints it to our code editor's console text box. `print()` is one of many Functions built-in to Python. We will see other useful functions in this and the [following module](), and will see how we can create our own Functions in a [later module]().
 
-Meanwhile, it ignores both comments occurring after the '#' symbol. Although every language specifies them differently, comments are an important part of every programming language, as they allow the developer to add extra information and description to their code which is not strictly related to its execution. 
+Meanwhile, it ignores both comments occurring after the '#' symbol. Although every language specifies them differently, comments are an important part of every programming language, as they allow the developer to add extra information and description to their code which is not strictly related to its execution.
 
 Most Python editors also have a shortcut for commenting whole lines of code. Pressing `CTRL + /` should 'comment out' the current line of code by placing a '#' in front of it. You can also use the shortcut with multiple lines selected to comment out entire sections of code. This is useful during troubleshooting if you want to disable certain parts of your script without deleting the actual code.
 
@@ -63,7 +63,7 @@ In Python, you can name your variables anything, as long as the name starts with
 withCamelCaseTheFirstWordIsLowerCaseWhileAllSubsequentWordsAreUpperCase
 ```
 
-It is also common to substitute underscores ('_') for spaces in variable names. In general, variable names should not be too long, but should err on the side of description rather than brevity to facilitate the code's readability. For instance, if you are keeping track of the number of blueberries, it is better to call the variable 'numBlueberries' than simply 'n' or 'b'.
+It is also common to substitute underscores ('\_') for spaces in variable names. In general, variable names should not be too long, but should err on the side of description rather than brevity to facilitate the code's readability. For instance, if you are keeping track of the number of blueberries, it is better to call the variable 'numBlueberries' than simply 'n' or 'b'.
 
 Variables can hold data of different types. Although Python does not make you explicitly declare the type of data you will be using, it is important to know the types because they will each behave differently in your code. Although there are many different types of data supported by Python, the most common are:
 
@@ -144,7 +144,7 @@ numbers = [1, 2, 3, 4, 5]
 fruits = ['apples', 'oranges', 'bananas']
 ```
 
-To retrieve an object from such a List, you once again use square brackets, but this time appended to the end of the variable name. Inside the brackets you place the *index* or position of the item you want in the List. For example:
+To retrieve an object from such a List, you once again use square brackets, but this time appended to the end of the variable name. Inside the brackets you place the _index_ or position of the item you want in the List. For example:
 
 ```python
 numbers = [1, 2, 3, 4, 5]
@@ -263,6 +263,7 @@ print(myDictionary['fruits'][-1]['berries'][1])
 JSON, one of the most implemented and easiest to work with data formats, is actually based on this concept of nested lists and key-value pairs, and has great support within almost every programming language, including Python and JavaScript. We will work with the JSON format later in this sequence, but for now you can check out its documentation here: [http://json.org/](http://json.org/).
 
 ## Additional resources:
+
 - [Variables](https://realpython.com/python-variables/)
 - [Operators](https://realpython.com/python-operators-expressions/)
 
