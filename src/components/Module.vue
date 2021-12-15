@@ -15,15 +15,15 @@
 
 </template>
 
-<style>
+<style scoped>
 
 .post {
+  padding: 100px 30px 100px 10px;
   font-size: 0.95em;
   font-weight: regular;
-  margin: auto;
-  width: 50vw;
-  max-width: 700px;
   color: #444;
+  word-wrap: break-word;
+  
 }
 p {
   line-height: 1.6em;
@@ -36,35 +36,12 @@ blockquote {
 
 }
 
-a {
-  color: #529F98
-}
-
-a:visited {
-  color: #6D71BF;
-}
-
 
 .title {
   font-weight: bold;
 }
 
 
-img {
-  width: 100%;
-}
-
-img[src$='#img-left'] { 
-  float:left;
-  width: 50%;
-  padding: 10px;
-}
-
-img[src$='#img-right'] { 
-  float:right;
-  width: 50%;
-  padding: 10px;
-}
 
 .instruction {
   background-color: #CCC;

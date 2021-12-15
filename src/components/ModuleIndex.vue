@@ -1,10 +1,10 @@
 <template>
-  <div>
+  <div class="moduleindex">
     <ul v-for="sequence in sequencedModules">
       {{ sequence.dir }}
       <ul v-for="module in sequence.modules">
         <li>
-          <NuxtLink :to="module.path">{{module.title}}</NuxtLink>
+          - <NuxtLink :to="module.path">{{module.title}}</NuxtLink>
         </li>
       </ul>
     </ul>
@@ -14,9 +14,23 @@
 
 <style scoped>
 
-div {
+.moduleindex {
+  color: 555;
   font-family: Lato;
   color: black;
+  line-height: 1.5em;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+ul {
+  padding: 0px 0px 0px 10px;
+  list-style-type: none;
 }
 
 </style>

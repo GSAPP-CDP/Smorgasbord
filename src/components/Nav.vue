@@ -1,7 +1,7 @@
 <template>
   <div class="nav">
-    <a href="/">GSAPP SMORGASBORD</a> 
-    <div class="title">Smorgasbord list of modules</div>
+    <Logo />
+    <div class="title">List of Modules</div>
     <ModuleIndex />
   </div>
 </template>
@@ -20,10 +20,9 @@ export default {
 <style scoped>
   .nav {
     color: #4A4A4A;
-    padding: 10px;
+    padding: 20px 30px;
     font-weight: bold;
     overflow: auto;
-    max-width: 33vw;
   }
   
   a {
@@ -32,5 +31,7 @@ export default {
 
   .title {
     font-size: 2em;
+    font-weight: bold;
   }
+
 </style>

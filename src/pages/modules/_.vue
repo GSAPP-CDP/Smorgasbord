@@ -1,9 +1,5 @@
 <template>
-  <div class="post">
-
-    <Module :path="path" />
-    
-  </div>
+  <Module :path="path" />
 
 </template>
 
