@@ -15,8 +15,13 @@
 #default > * {
 }
 
+#nav {
+  overflow: auto;
+}
+
 #content {
   flex-grow: 1;
+  overflow: auto;
 }
 </style>
 

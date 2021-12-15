@@ -22,6 +22,8 @@ export default {
     color: #4A4A4A;
     padding: 10px;
     font-weight: bold;
+    overflow: auto;
+    max-width: 33vw;
   }
   
   a {

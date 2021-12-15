@@ -1,7 +1,5 @@
 <template>
   <div class="post">
-    mod
-
     <div class="header">
     </div>
     <div class="body">
