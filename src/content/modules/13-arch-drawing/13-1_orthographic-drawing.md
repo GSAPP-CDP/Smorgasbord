@@ -1,13 +1,14 @@
 ---
 moduleid: 131
-title: "Orthographic Drawing"
+title: "Orthographic Drawing: Plans & Sections"
 published: True
 slug: orthographic-drawing
-authors: "Zachary White", "Zach White"
+authors: "Zachary White"
 date: 2021-12-14 11:26
 
 ---
 # Orthographic Drawing: Plans & Sections
+
 ## Module Summary
 
 In this module we'll introduce the two most essential types of architectural drawing: the plan in the section. We'll give a brief overview of what these drawings are and how they work, and then see how to create them using a Rhino model of a building.

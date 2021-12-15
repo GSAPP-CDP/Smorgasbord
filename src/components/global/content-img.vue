@@ -24,7 +24,6 @@ export default {
       
       // this is so gross..... but the only way to do it
 
-
       try {
         const moduledir = this.$parent.$parent.$data.module.dir;
 

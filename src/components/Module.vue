@@ -1,12 +1,14 @@
 <template>
   <div class="post">
     <div class="header">
+      <div class="title"><span class="val">{{ module.title }}</span></div>
+      <div class="author">by <span class="val">{{ module.authors }}</span></div>
+      <div class="lastupdated">last updated: <span class="val">{{ moduleDate }} </span></div>
     </div>
     <div class="body">
       <nuxt-content :document="module" />
     </div>
     <div class="footer">
-      {{ moduleDate }} 
     </div>
 
     
@@ -18,8 +20,8 @@
 <style scoped>
 
 .post {
-  padding: 100px 30px 100px 10px;
-  font-size: 0.95em;
+  padding: 110px 30px 100px 10px;
+  font-size: 1.1em;
   font-weight: regular;
   color: #444;
   word-wrap: break-word;
@@ -36,11 +38,20 @@ blockquote {
 
 }
 
+.header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #4CBF8F;
+  margin-bottom: 10px;
+}
 
 .title {
   font-weight: bold;
+  font-size: 3em;
+  color: #4CBF8F;
+  margin-bottom: 15px;
+  word-break: break-word;
 }
-
+ 
 
 
 .instruction {
@@ -60,7 +71,9 @@ img + em, div.img + em {
   display: inline-block;
 }
 
-
+.val {
+  font-weight: bold;
+}
 
 </style>
 
