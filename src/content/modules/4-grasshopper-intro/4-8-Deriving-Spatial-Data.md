@@ -181,7 +181,7 @@ Again, they are directly correlated so why do we care about the difference? Beca
 
 As you can see, depending on your goal and "who" this is for you may pick one over the other or use both. Do you want to maximize value overall or ensure a minimum quality for all? Either is going to come with limitations, the important part is understand those limitation and articulate them relative to your goal and the indented "who."
 
-If your completed definition isn't working as it should, here is a [completed grasshopper definition](https://github.com/GSAPP-CDP/Smorgasbord/raw/main/src/content/modules/4-grasshopper-intro/Definitions/4-5_Complete.gh) of this tutorial.
+If your completed definition isn't working as it should, here is a [completed grasshopper definition](https://github.com/GSAPP-CDP/Smorgasbord/raw/main/src/content/modules/4-grasshopper-intro/Definitions/4-8_Complete.gh) of this tutorial.
 
 ## Conclusion
 

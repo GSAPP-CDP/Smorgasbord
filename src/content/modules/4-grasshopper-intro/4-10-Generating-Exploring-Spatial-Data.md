@@ -126,7 +126,7 @@ Next, determine the range of each metric. Is there a meaningful change? In this 
 
  <br>
 
-If your completed definition isn't working as it should, here is a [completed grasshopper definition](https://github.com/GSAPP-CDP/Smorgasbord/raw/main/src/content/modules/4-grasshopper-intro/Definitions/4-7_Complete.gh) of this tutorial.
+If your completed definition isn't working as it should, here is a [completed grasshopper definition](https://github.com/GSAPP-CDP/Smorgasbord/raw/main/src/content/modules/4-grasshopper-intro/Definitions/4-10_Complete.gh) of this tutorial.
 
 ## Conclusion
 
