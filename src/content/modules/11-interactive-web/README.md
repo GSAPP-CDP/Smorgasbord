@@ -8,4 +8,5 @@
 * Layout & Responsive Web
 * Intro to JavaScript
 * Motion: Animation with CSS and JavaScript
-* Functions: Little Programs
+* Data and APIs
+* JavaScript in the Browser
