@@ -73,14 +73,7 @@ GIS is based on a layered model of the world. In this abstracted world each laye
 
 This layered model of the world is the underlying premise on which all GIS work and spatial data is based. The [next module]() discusses spatial data in detail.  
 
-## Challenge
-
-TBD
-
-
 ## References & further reading
-
-[many sources to be added here will likely use the below categories]
 
 #### Histories & definitions of GIS  
 
