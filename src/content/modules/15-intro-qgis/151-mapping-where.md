@@ -12,7 +12,7 @@ These concepts will be introduced through a series of studies of the trees of Ne
 
 ## Setup
 
-### File management 
+### File management
 
 All datasets within your QGIS project are not embedded but rather are stored as links to wherever the dataset is stored. Because of this file and data management is an important component of work in QGIS.  
 
@@ -280,6 +280,6 @@ Your designed map compositions must thoughtfully include:
 - your name
 
 
-
--------
+---
+Module by Dare Brawley, fall 2021.  
 tutorial credit information, to be added in standard format

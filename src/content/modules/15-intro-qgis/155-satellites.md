@@ -9,7 +9,7 @@ slug: satellites
 
 ## Multispectral satellite imagery 
 
-This portion of the tutorial will introduce you to multispectral satellite imagery, and to the process of visualizing phenomena through 'false color composites'. As an introduction we will create false color composites using Landsat satellite imagery of Puerto Rico captured just before and after [Hurricane Maria](https://en.wikipedia.org/wiki/Hurricane_Maria) (on September 17 2017 and October 3 2017).
+This module will introduce you to multispectral satellite imagery, and to the process of visualizing phenomena through 'false color composites'. As an introduction we will create false color composites using Landsat satellite imagery of Puerto Rico captured just before and after [Hurricane Maria](https://en.wikipedia.org/wiki/Hurricane_Maria) (on September 17 2017 and October 3 2017).
 
 After completing this exercise you will:
 * have familiarity with basic characteristics of multispectral satellite imagery
@@ -168,8 +168,8 @@ Create a map using Landsat Satellite imagery that shows land use change over tim
 
 
 ---
-Tutorial by Dare Brawley, Spring 2021
-
+Module by Dare Brawley, fall 2021.  
+tutorial credit information, to be added in standard format
 
 [satellite12a]: images/155/satellite12.png
 [spectrum]: images/155/Landsat8_SpectralBands.jpg

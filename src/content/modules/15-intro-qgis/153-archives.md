@@ -154,5 +154,6 @@ Present your hidden ecologies map as a designed map composition that includes:
 You do not need to map all of Manhattan but rather should find a location that interests you and make an argument about that location through your map design.  
 
 
--------
+---
+Module by Dare Brawley, fall 2021.  
 tutorial credit information, to be added in standard format

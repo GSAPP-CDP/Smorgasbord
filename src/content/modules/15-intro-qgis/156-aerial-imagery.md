@@ -6,7 +6,7 @@ slug: aerial
 ---
 # Satellite Grids & Google Static Maps API
 
-This is a brief guide to using the Google Static Maps API (Application Programming Interface). In it we provide an example python script that allows you to download satellite/aerial imagery through the [Google Static Maps API](https://developers.google.com/maps/documentation/maps-static/dev-guide). 
+This is a brief guide to using the Google Static Maps API (Application Programming Interface). In it we provide an example python script that allows you to download satellite/aerial imagery through the [Google Static Maps API](https://developers.google.com/maps/documentation/maps-static/dev-guide).  
 
 The (very simple) script in this tutorial was initially developed as part of the Center for Spatial Research's work on *[In Plain Sight](https://c4sr.columbia.edu/projects/plain-sight)*, an installation for the 16th International Architecture Exhibition of La Biennale di Venezia in 2018.
 
@@ -217,8 +217,11 @@ Upload to Canvas:
 - the csv file you used and 
 - a screenshot of the directory on your computer where you have saved your downloaded images 
 
-_________________________________________________________________________________
-Guide written by Dare Brawley based on tools used in producing *[In Plain Sight](https://c4sr.columbia.edu/projects/plain-sight)*, an installation for the 16th International Architecture Exhibition of La Biennale di Venezia in 2018.
+---
+Module by Dare Brawley, fall 2021.  
+tutorial credit information, to be added in standard format
+
+
 
 
 [grid of satellite images]:images/156/satellite_grids_01.png

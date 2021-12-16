@@ -114,4 +114,5 @@ Maantay, Juliana, and John Ziegler. GIS for the Urban Environment. Redlands, Cal
 
 
 -------
+Module by Dare Brawley, fall 2021.  
 tutorial credit information, to be added in standard format

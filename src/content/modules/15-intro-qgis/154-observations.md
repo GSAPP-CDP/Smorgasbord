@@ -121,5 +121,6 @@ Use Field Papers to generate a paper atlas for the area where you are collecting
 
 Create two maps that speak to the different kinds of information that each approach allows you to gather.  
 
--------
+---
+Module by Dare Brawley, fall 2021.  
 tutorial credit information, to be added in standard format

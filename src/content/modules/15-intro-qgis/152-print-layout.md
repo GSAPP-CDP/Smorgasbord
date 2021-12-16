@@ -134,5 +134,6 @@ Map design more generally:
 
 2. In conjunction with the assignment for the [mapping where]() module: choose 2-3 individual elements from within your reference atlas and apply them in the design of your *Four Views of Trees in New York City*.  
 
---------
+---
+Module by Dare Brawley, fall 2021.  
 tutorial credit information, to be added in standard format

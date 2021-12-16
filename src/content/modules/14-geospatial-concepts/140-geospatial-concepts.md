@@ -15,15 +15,18 @@ This sequence of modules introduces foundational concepts in geographic informat
 
 The increasingly widespread availability of up-to-date (or even real-time) spatial data is changing the landscape of possibility for design workflows and methods of urban analysis. Having a robust understanding of concepts central to spatial analysis makes it possible to develop fluency in methods of spatial computation across a range of platforms and software environments. Geographic information systems is not a software, but rather a set of related methods which can be implemented in a range of softwares and programming languages.  
 
-## Modules:
+## Modules
 
-- What is GIS?
-- Spatial Data - Information Tied to a Space
-- Coordinate Reference Systems & Projections
-- Finding Spatial Data
+- **What is GIS?**  
+    This module will introduce geographic information systems (GIS) and their application for research and design of the built environment.  
+- **Spatial Data**  
+    This module introduces vector and raster spatial data types and discusses the different forms of representation and abstraction required by each. It asks readers to think critically about the affordances and limitations offered by each type of spatial data.  
+- **Coordinate Reference Systems & Projections**  
+    This module covers fundamental concepts related to coordinate reference systems and map projections -- in other words it provides answers to the questions: how do we define location? and how do we represent the round earth on a flat plane?
 
 ## What's next
 
 After completing the Introduction to Geographic Information Systems and Spatial Data module sequence you may choose to continue learning spatial concepts in multiple processing/software environments.  
 
+- {{Introduction to GIS with QGIS}}
 {{links to module sequences for spatial analysis in QGIS, Python & Grasshopper}}

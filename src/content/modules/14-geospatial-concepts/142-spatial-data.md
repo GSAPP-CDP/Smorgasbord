@@ -5,7 +5,10 @@ published: True
 slug: spatial-data
 ---
 
-# What is Spatial Data?
+# Spatial Data Types
+
+*"the technical question of the most appropriate data structure for the representation of geographic phenomena begs the philosophical question of the most appropriate conceptualization of the geographic world."*  
+Helen Couclelis. 1992. "People Manipulate Objects (but Cultivate Fields): Beyond the Raster-Vector Debate in GIS." 
 
 ## Module Summary
 
@@ -80,35 +83,77 @@ Each geometry type is defined computationally by the following features:
 
 The things that each type of geometry is used to represent is subjective and depends on the scale of the dataset. For example points could represent fire hydrants on a map of a city block. Or, on a map of the whole world points could represent the location of the largest cities. Likewise the Hudson River could be represented as a single curving line on a map of the U.S. or could be represented as a polygon showing the river's varying width on a map of New York State.  
 
+***NEED TO FINISH UPDATING TEXT FROM HERE DOWN***
 ### Raster data
-![raster](images/142/05-raster.png)
-![raster as grid](images/142/06-raster-grid.png)
+
+Raster datasets are composed of a grid of cells where each cell contains exactly one numeric value, as illustrated schematically in the diagram below. Each cell has a dimension and therefore corresponds with some square area of the Earth's surface. Raster datasets must always be rectangular.
+
+![raster](images/142/06-raster-grid.png)
+![raster as grid](images/142/05-raster-.png#img-right)
+
+In contrast to vector dataset's discrete entities (features), rasters represent information as a continuous surface. Each cell does not necessarily represent a different entity but instead represents some observed numeric value associated with a specific square area of the earth's surface. This is a fundamentally different way of abstracting phenomena in the world.  
+
+For example, imagine a vector dataset of building footprints. This dataset divides up an area into defined, discrete zones that fall within or outside of specific bounded building footprint.  
+
+In contrast, a 'true-color' satellite image of a city (a raster dataset like the one on the right) might also depict or capture buildings, but it represents them in an entirely different way. The dataset is comprised of a grid of cells each corresponding to an area on the earth's surface (say 1 square meter). Each grid cell has a specific numeric value that represents the color of the reflected light within that grid cell. Buildings are visible, as a collection of similarly grey-ish grid cells not as a bounded entity. The viewer brings meaning and interpretation to patterns visible in the collection of cells.  
+
+This makes raster ideal for representing continuous phenomena like elevation, temperature, electromagetic radiation (i.e. remotely sensed imagery).  
+
+The conceptual and theoretical differences between vector and raster data are described at length in Helen Couclelis' 1992 conference paper ["People Manipulate Objects (but Cultivate Fields): Beyond the Raster-Vector Debate in GIS"](https://www.researchgate.net/publication/221589734_People_Manipulate_Objects_but_Cultivate_Fields_Beyond_the_Raster-Vector_Debate_in_GIS). Couclelis is masterful in how she manages to describe the philosophical differences between these two data types in terms that are directly relevant to the use of spatial data in practice.  
+
+## Storage Types  
+
+Vector and raster datasets are distributed and stored in a number of different file types. The lists below provide a (non-exhaustive) overview of some of the most common data storage types you might encounter.  
+
+### Vector Data
+
+- [Shapefile](https://www.loc.gov/preservation/digital/formats/fdd/fdd000280.shtml)
+  - old file format, developed in 1990s by [ESRI](https://www.esri.com/en-us/home) (the maker of ArcGIS software). Still largely the industry standard even though it is quite old.  
+  - up to seven different files, all with the same name
+    - **.shp – the geometry
+    - **.dbf – the table containing the variables
+    - **.shx – a positional index connecting the shp & dbf
+    - **.prj – contains the projection information
+    - **.shp.xml – contains the metadata
+    - **.sbn, **.sbx – spatial index files to help draw faster
+- [GeoJSON](https://www.loc.gov/preservation/digital/formats/fdd/fdd000382.shtml)
+  - open source file format
+  - one file, uses a `*.geojson` file extension
+  - standard format for mapping on the internet
+- [KML/KMZ](https://www.loc.gov/preservation/digital/formats/fdd/fdd000340.shtml)
+  - stands for "Keyhole Markup Language", often distributed in a compressed format through a `*.kmz` file.
+  - uses an XML format designed for storage of geographic data  
+  - developed specifically for the software that would become Google Earth
+- [ArcGIS geodatabase](https://www.loc.gov/preservation/digital/formats/fdd/fdd000293.shtml)
+  - format developed by ESRI, essentially a spatial database in disguise as a file. Can be opened with QGIS or ESRI softwares. Also possible to open using Python (osgeo library needed) 
+- Spatial databases 
+  - large scale projects are often best executed using spatial databases such as [PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL) with [PostGIS](https://en.wikipedia.org/wiki/PostGIS)
 
 
-## Storage types: Vector Data
+## Storage Types: Raster Data
 
-### Shapefile
+- [GeoTIFF](https://www.loc.gov/preservation/digital/formats/fdd/fdd000279.shtml)
+  - most common & most well supported file type
+  - extension of the TIFF data standard that allows for embeded geospatial metadata
+  - can also still be opened by non-spatial enabled software (i.e. photoshop)
+  - when a georeferenced raster dataset does not include 'inline' geographic metadata it may be accompanied by a [`*.tfw` world file](https://en.wikipedia.org/wiki/World_file) with the same file name which contains the spatial reference information for the raster dataset that is stored in the TIFF file. 
+    - When a raster dataset inlcudes a `*tfw` file, you need to make sure to place the `*.tiff` and `*.tfw` file in the same folder and maintain their matching names (just like with shapefiles).  
+- [JPEG 2000](https://www.loc.gov/preservation/digital/formats/fdd/fdd000303.shtml)
+  - similar to GeoTIFF, it is an extension of the JPEG file standard
+- [ERDAS IMAGINE (IMG) Format](https://www.loc.gov/preservation/digital/formats/fdd/fdd000420.shtml)
+  - often used for multilayer remote sensing data
+  - can hold classification information (such as for land use land cover maps)
 
-Old file format, developed in 1990s by ESRI. Still industry standard even though it is proprietary.  
 
-Up to seven different files, all with the same name
-**.shp – the geometry
-**.dbf – the table containing the variables
-**.shx – a positional index connecting the shp & dbf
-**.prj – contains the projection information
-**.shp.xml – contains the metadata
-**.sbn, **.sbx – spatial index files to help draw faster
+## Assignment
 
-### geojson
-open source
-one file
-standard format for mapping on the internet
-### KML/KMZ
-developed specifically for Google Earth
+Please read:  
 
-### Geodatabase
-ESRI proprietary developed format, essentially a database in disguise as a file. Can be opened with QGIS or ESRI softwares. Also possible to open using Python (osgeo library needed)
+Helen Couclelis. 1992. ["People Manipulate Objects (but Cultivate Fields): Beyond the Raster-Vector Debate in GIS."](https://www.researchgate.net/publication/221589734_People_Manipulate_Objects_but_Cultivate_Fields_Beyond_the_Raster-Vector_Debate_in_GIS)
+In: Frank A.U., Campari I., Formentini U. (eds) *Theories and Methods of Spatio-Temporal Reasoning in Geographic Space. Lecture Notes in Computer Science*, vol 639. Springer, Berlin, Heidelberg. 1992. 
+
 
 
 -------
+Module by Dare Brawley, fall 2021.  
 tutorial credit information, to be added in standard format
