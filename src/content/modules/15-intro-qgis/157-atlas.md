@@ -159,3 +159,7 @@ Some places to start:
 
   - [Plumer, Brad, Nadja Popovich, and Brian Palmer. 2020. “How Decades of Racist Housing Policy Left Neighborhoods Sweltering.” The New York Times, August 31, 2020, sec. Climate.](https://www.nytimes.com/interactive/2020/08/24/climate/racism-redlining-cities-global-warming.html)
 
+
+-------
+Module by Dare Brawley, fall 2021.  
+tutorial credit information, to be added in standard format
