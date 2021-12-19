@@ -35,7 +35,7 @@ HyperText is text that contains links to other texts. Markup describes a system 
 
 ## Structural Markup
 
-![figure-01](images/111/111.01.png)
+![figure-01](./images/111/111-01.png)
 
 The fundamental building block of HTML is the element. Elements consist of an opening tag, closing tag and content (text, image, video) sandwiched in between. The content is what the user sees on the webpage. The tags tell the browser the type of content and how to present it.
 
