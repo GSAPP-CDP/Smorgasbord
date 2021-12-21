@@ -169,3 +169,44 @@ The result should look something like the following:
 Before taking a look at the JavaScript, let’s take a step back and find out how we can access the weather data for New York City using the Open Weather Map API. To access this information, we’ll need a URL where we can find the JSON data for a city that matches the zipcode.
 
 Let’s take a look at the different components of a URL that could be used for an API call:
+
+#### Step 4 – Constructing the URL
+We can use string concatenation or string templating to add the right zipcode to the URL, and then locate weather information about that city:
+
+```js
+// using concatenation
+"https://api.openweathermap.org/data/2.5/weather?zip=" + zipcode
+
+// using string templating
+`https://api.openweathermap.org/data/2.5/weather?zip=${zipcode}`
+```
+
+Paste the below URL into your web browser and take a look at the JSON object that is returned. Remember to swap out your own zipcode and API key.
+
+```
+http://api.openweathermap.org/data/2.5/weather?zip={zipcode}&appid={API key}
+```
+
+You can see that we have an object with several properties – weather, wind, name and main:
+
+![html-image](images/111/111-04.png)
+
+Within each of those objects, there is an object that contains information we want to access about the zipcode: city name, humidity, temperature, and description to name a few.
+
+To access the temperature in this dataset, we can use the following syntax:
+
+```js
+main.temp
+```
+
+### Getting Data from an API with JavaScript Fetch
+Now that we know more about the URL, we’ll use that information to make the API call and receive data. Let’s dig into the JavaScript using a basic fetch request:
+
+```js
+fetch(`http://api.openweathermap.org/data/2.5/weather?zip=${ZIPCODE}&appid={$API_KEY}`)
+  .then(response => response.json())
+  .then(data => console.log(data));
+```
+
+Here we are fetching a JSON file across the network and printing it to the console. The simplest use of `fetch()` takes one argument — the path to the resource you want to fetch — and returns a promise containing the response. This is just an HTTP response, not the actual JSON. To extract the JSON body content from the response, we use the `json()` method.
+
