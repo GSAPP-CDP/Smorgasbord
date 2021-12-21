@@ -7,27 +7,47 @@ slug: data-and-apis
 
 ===========================================
 
-# Sequence: Interactive Web
-## Sequence Summary:
-## Why?
-## Modules:
-* History of the Internet and Web
-* Introduction to HTML and CSS
-* Navigation
-* Layout & Responsive Web
-* Intro to JavaScript
-* Motion: Animation with CSS and JavaScript
-* Functions: Little Programs
+# Data and APIs
 
-# Interactive Web: Data and APIs
+## What are we building?
 
-## Module Summary
+[add GIF iamge here]
 
-## Why is this important?
+Using [Open Weather Map API](https://openweathermap.org/api), we will build a weather application that allows you to enter your zipcode and render the current weather forcast to the web browser.
 
-## Data formats
+### What is an API?
+First things first, API stands for “Application Programming Interface”. It is a way for you to get raw public data that organizations (Google, NASA, City of New York) make available for you to use in your own website. This raw data is accessed using a web URL:
 
-## Structure of data
+```js
+http://api.openweathermap.org/data/2.5/forecast?id=524901&appid={API key}
+```
+
+Sometimes the easiest way to understand the function of an API is to think about a metaphor. A common metaphor used is that of the customer, a waiter, and a restaurant kitchen: Imagine you’re sitting at a table in a restaurant with a menu of choices to order from. The kitchen is the part of the “system” that will prepare your food order. What is missing is the critical link to communicate your food order to the kitchen and deliver your actual food (raw data) back to your table. That’s where the waiter or API comes in. The waiter is the messenger — or API — that takes your request or food order and tells the kitchen — the system — what to do. Then the waiter delivers the response (raw data) back to you; in this case, it is the food.
+
+[add image here]
+
+### Where Do We Find APIs?
+APIs are published everywhere. Chances are good that most major content sources you follow online publish their data in some type of serialized format. Here are a few examples:
+
+* [Open Weather Map](https://openweathermap.org/api)
+* [NYC Open Data](https://opendata.cityofnewyork.us/)
+* [The New York Public Library Digital Collections API](http://api.repo.nypl.org/)
+* [Cooper Hewitt, Smithsonian Design Museum Collections](https://collection.cooperhewitt.org/api/)
+
+### The API in action
+One common example of an API that we come into contact with on a daily basis is weather data. These rich weather snippets are found on many platforms like Google Search or smart home devices (Echo Dot, Google Nest, Facebook Portal). For example, if you search “weather + [your city’s name]” on Google, you will see an interactive widget at the top of the search results with the current weather conditions and forecast. 
+
+[add image of rich weather snippet]
+
+Here, Google sources this weather data from a third party which sends back the latest weather details in a way that is easy to format. In this case, they are using the [Weather Channel](https://weather.com/weather/today/l/40.7500,-73.9967) API.
+
+### Why Just Data?
+Sometimes thats’s all we need. The amount of data we produce daily is mind blowing. In 2020, 2.5 quintillion bytes of data was created daily. There are 18 zeros in a quintillion. For those times, we want a concise format. All this raw data, from all these browsers and servers, has to travel through the internet. This can be the slowest part of the request-response cycle. Using our previous metaphor, imagine the waiter having to navigate through Grand Central Station at rush hour to place our order with the kitchen. We want to minimize the amount of food (raw data) he needs to bring back to the table. For those times, we want a concise format.
+
+### What is Serialized Data?
+All data sent via [HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview "An overview of HTTP, MDN Documentation") are strings. Unfortunately, what we really want to pass between web applications is structured data (i.e. arrays and objects). So, native data structures can be serialized into a string representation of the data.
+
+One of these serialized data formats is JSON.
 
 ### JSON
 JSON stands for “JavaScript Object Notation” and has become a universal standard for serializing native data structures for transmission. It is light-weight, easy to read and quick to parse.
@@ -45,110 +65,107 @@ JSON stands for “JavaScript Object Notation” and has become a universal stan
 
 Note: JSON is a serialized format. While it may look like an object, it needs to be parsed so we can interact with it as a true Javascript object.
 
-#### Parsing JSON
-JSON is the standard format to orgranise data for servers to send and receive data. It’s so popular that JS has two methods to package it for sending and receiving:
+## The Set Up
 
-* JSON.stringify()
-* JSON.parse()
+#### Step 0 – Create Directory
+Create a directory to organize your program files. Here, I am creating a folder called `weather-app`. Inside that directory, is a recommended project structure:
 
-### CSV
+```md
+weather-app
+├── index.html
+├── styles
+│   └── style.css
+└── javascript
+    └── main.js
+```
 
-### XML
+#### Step 1 – Create an account
+If you don’t already have an Open Weather Map account, [sign up for a free one here](https://home.openweathermap.org/users/sign_up).
 
-## How to use JSON data
+#### Step 2 – API Key
+Once you've signed up, you're given an [API key](https://home.openweathermap.org/api_keys). Copy the API key and create a variable in your `main.js` file to store the key.
 
-### Internal
-
-### External
-
-## APIs
-
-### What is an API?
-API stands for “Application Program Interface” and is a service that provides raw data for public use. The term now commonly refers to web URLs that can be accessed for raw data.
-
-APIs publish data for public use. This lesson walks through how to obtain data on the client side and then render it to the web browser.
-
-### How is an API Used?
-
-### Where Do We Find APIs?
-APIs are published everywhere. Chances are good that most major content sources you follow online publish their data in some type of serialized format. Here are a few examples:
-
-* Weather
-* NYC Open Data
-* City of Chicago
-* The New York Public Library Digital Collections API
-* Cooper Hewitt, Smithsonian Design Museum Collections
-
-### Why Just Data?
-Sometimes thats’s all we need. For those times, we want a concise format.
+```js
+ const API_KEY = “”;
+```
+Go to [Open Weather Map](https://openweathermap.org/api) and scroll down, you'll see a section called "API Documentation."
 
 ## Making an API Call
 
-### URLs
+#### The UI (User Interface)
 
-### Constructing the URL
-We can use string concatenation or string templating to add the right ISBN to the URL, and then locate information about that book:
+The user interface is the part of a computer and its software that people can see, hear, understand or direct. The user interface has two components: input and output. The input is how a user communicates their needs to the computer. Some common input components are keyboard, mouse or voice. The output is how th ecomputer conveys the results back to the user; this is usually done through the display screen. 
 
-Paste the below URL into your web browser and take a look at the JSON object that is returned:
+Before we embark on building our application, let's consider how do we want people to interact with our weather application. The wireframe is a great tool to illustrate how the user interfaces with our application. Most wireframes are free of any color or visual design elements, and simply show boxes and lines with notations to outline user interactions.
 
-You can see that we have an array named “items.” This array contains a JSON object:
+Wireframes will look different depending on who creates them, but they should always include details about the functionality. If building a website or application was like building a house, wireframes would be considered the blueprint. They're an important element of communication between design and web development.
 
-Within that object, there is an object named "volumeInfo" that contains information we want to access about the book: a title, description, thumbnail, and preview link.
+[add wireframe here]
 
-To access the title in this array, we can use the following syntax:
+Let’s start with a simple HTML input field where a user can type in their zipcode – give it a class called `zip-code` and a search button that the user clicks to render the results to the web browser. Finally, create an output element where the information that the computer returns to you will be displayed – in this case we create an h2 element to render the city name and a paragraph element to render the weather forecast.
 
-### Getting Data from an API with JavaScript Fetch
-Now that we know more about the URL, we’ll use that information to make the API call and receive data. Let’s dig into the JavaScript using a basic fetch request:
+##### HTML
 
-```js
-fetch('http://example.com/movies.json')
-  .then(response => response.json())
-  .then(data => console.log(data));
+```html
+<div class="container">
+  <div class="input_component">
+    <form>
+      <input class="zipcode" type="text" placeholder="zipcode">
+    </form>
+  </div>
+  <div class="output_component">
+    <h2 class="city_name"></h2>
+    <p class="temperature"></p>
+  </div>
+</div>
 ```
 
-Here we are fetching a JSON file across the network and printing it to the console. The simplest use of `fetch()` takes one argument — the path to the resource you want to fetch — and returns a promise containing the response. This is just an HTTP response, not the actual JSON. To extract the JSON body content from the response, we use the `json()` method.
+Next, we style the web page for ease of use.
 
-## Tutorial — Making an API Call
-Let’s take a look at an API that has very clear documentation — [OpenWeatherMap]() — and then practice looking through that documentation and making API calls. In order to use it, please follow these steps:
+##### CSS
 
-### Instructions
-1. Sign up for a free Open Weather Map account.
-2. Once you’ve signed up, you’re given an API key. Copy that API key and keep track of it somewhere. Create a variable in your JavaScript file to store the key. e.g. let API_KEY = “”;
-4. Go to OpenWeatherMap and scroll down, you’ll see a section that says “API Documentation.”
-5. Construct the URL endpoint that could be used for an API call.
-6. Make sure you’re getting back the URL you need by placing a console.log statement to log the response received from the server.
-7. Finally, write the fetch request to get the full response from the URL endpoint and wrap it in a function called getWeatherData.
-
-```js
-const getWeatherData = () => {
-  // fetch request goes in here :-)
+```css
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-getWeatherData()
+
+html,
+body {
+  height: 100%;
+  background: #e0d4bb;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type="text"] {
+  width: 100%;
+  height: 60px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+input[type="text"]:focus {
+  background: #c6bca6;
+  outline: none;
+  color: #f2f2f2;
+}
 ```
 
-## Looking at Documentation
-There are no rules governing how to write documentation for an API, so its content is presented differently each time. Knowing how to quickly find key pieces of information is the most important part of reading API documentation.
+The result should look something like the following:
 
-[add image here]
+![html-image](images/111/111-03.png)
 
-### API Keys
-While the majority of APIs are free to use, many of them require an API “key” that identifies the developer requesting data access. This is done to regulate usage and prevent abuse. Some APIs also rate-limit developers, meaning they have caps on the free data allowed during a given time period.
+### URLs
+Before taking a look at the JavaScript, let’s take a step back and find out how we can access the weather data for New York City using the Open Weather Map API. To access this information, we’ll need a URL where we can find the JSON data for a city that matches the zipcode.
 
-When we click on the “How to Start” link, we are taken to a page that provides us with information on how to get an API key. For security reasons, many APIs require the use of keys.
-
-An API key is like a signature that uniquely identifies a user. This helps APIs keep track of their traffic and monitor any suspicious activity, such as an individual user sending too many requests.
-
-For example, malicious users might try using multiple usernames until they find one that works. Keys can help prevent these kinds of attacks by limiting how many requests one user can make.
-
-OpenWeatherMap’s documentation makes it easy for us to obtain an API key. We simply click the “Sign Up” button and create an account, and then you can get an API key.
-
-To make an API call, we’ll need to add our key to the URL:
-
-```js
-http://api.openweathermap.org/data/2.5/forecast/city?id=524901&APPID={APIKEY}
-```
-
-Now that we have our key, let’s look back at some of the other information the API documentation can provide. Spend a few minutes exploring the documentation. See what different types of data you can get from the API.
-
-## Tutorial
-Add a feature to your website that changes the background based on the weather e.g. background color, gradient, image, shapes etc.
+Let’s take a look at the different components of a URL that could be used for an API call:
