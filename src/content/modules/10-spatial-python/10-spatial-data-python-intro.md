@@ -3,6 +3,8 @@ moduleid: 100
 title: Working with Spatial Data in Python
 published: True
 slug: spatial-data-python
+authors:
+ - "Carlo Bailey"
 ---
 # Sequence: Working with Spatial Data in Python
 
