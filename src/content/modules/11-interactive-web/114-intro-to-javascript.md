@@ -3,6 +3,8 @@ moduleid: 114
 title: Intro to JavaScript
 published: True
 slug: intro-to-javascript
+authors:
+ - "Celeste Layne"
 ---
 
 ===========================================

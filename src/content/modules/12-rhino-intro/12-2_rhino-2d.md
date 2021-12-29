@@ -3,6 +3,8 @@ moduleid: 122
 title: Rhino 2D
 published: True
 slug: rhino-2d
+authors:
+ - "Zachary White"
 ---
 # Rhino 2D
 ## Module Summary:

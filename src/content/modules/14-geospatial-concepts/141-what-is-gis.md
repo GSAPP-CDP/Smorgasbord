@@ -3,6 +3,8 @@ moduleid: 141
 title: What is GIS?
 published: True
 slug: what-is-gis
+authors:
+ - "Dare Brawley"
 ---
 
 # What is Geographic Information Systems?

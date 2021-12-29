@@ -3,6 +3,8 @@ moduleid: 115
 title: Motion // Movement: Animation with CSS and JavaScript
 published: True
 slug: intro-to-animation
+authors:
+ - "Celeste Layne"
 ---
 
 ===========================================

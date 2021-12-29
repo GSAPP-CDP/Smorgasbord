@@ -3,6 +3,8 @@ moduleid: 4-8
 title: Deriving Spatial Data
 published: True
 slug: Deriving-Spatial-Data
+authors:
+ - "Danil Nagy"
 ---
 
 # Deriving Spatial Data

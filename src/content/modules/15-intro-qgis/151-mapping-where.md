@@ -3,6 +3,8 @@ moduleid: 151
 title: Mapping Where
 published: True
 slug: mapping-where
+authors:
+ - "Dare Brawley"
 ---
 # Mapping Where: Seeing the Forest and the Trees
 

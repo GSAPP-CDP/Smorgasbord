@@ -3,6 +3,8 @@ moduleid: 163
 title: Markers and Tracking
 published: True
 slug: markers-and-tracking
+authors:
+ - "Violet Whitney"
 ---
 
 Ambient Computing:

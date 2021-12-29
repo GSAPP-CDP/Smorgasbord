@@ -3,6 +3,8 @@ moduleid: 155
 title: Making Data from Satellites
 published: True
 slug: satellites
+authors:
+ - "Dare Brawley"
 ---
 
 # Making Data from Satellites

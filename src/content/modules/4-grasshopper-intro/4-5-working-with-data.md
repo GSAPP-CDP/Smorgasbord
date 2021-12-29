@@ -3,6 +3,8 @@ moduleid: 4-5
 title: Working with data
 published: True
 slug: 4-5-working-with-data
+authors:
+ - "Danil Nagy"
 ---
 
 # Working with Lists

@@ -3,6 +3,8 @@ moduleid: 103
 title: Spatial Analysis – Point Patterns
 published: True
 slug: spatial-analysis-point-patterns
+authors:
+ - "Carlo Bailey"
 ---
 
 

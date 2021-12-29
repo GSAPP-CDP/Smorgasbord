@@ -3,6 +3,8 @@ moduleid: 70
 title: Fundamentals of Python
 published: True
 slug: fundamentals-of-python
+authors:
+ - "Danil Nagy"
 ---
 
 # Sequence: Fundamentals of Python

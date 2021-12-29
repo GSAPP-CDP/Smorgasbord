@@ -3,6 +3,8 @@ moduleid: 164
 title: Computer Vision
 published: True
 slug: computer-vision
+authors:
+ - "Violet Whitney"
 ---
 Ambient Computing:
 ===========================================

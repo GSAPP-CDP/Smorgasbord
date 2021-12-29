@@ -3,6 +3,8 @@ moduleid: 161
 title: Webhooks - Connecting IFTTT and Processing
 published: True
 slug: webhooks-connecting-ifttt-and-processing
+authors:
+ - "Violet Whitney"
 ---
 
 Ambient Computing:

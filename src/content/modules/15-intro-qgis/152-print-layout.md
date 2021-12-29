@@ -3,6 +3,8 @@ moduleid: 152
 title: Print Layout
 published: True
 slug: print-layout
+authors:
+ - "Dare Brawley"
 ---
 
 # Print Layouts in QGIS

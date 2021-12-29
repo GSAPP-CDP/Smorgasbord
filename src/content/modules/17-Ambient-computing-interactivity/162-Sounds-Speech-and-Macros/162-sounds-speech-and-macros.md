@@ -3,6 +3,8 @@ moduleid: 162
 title: Sounds, Speech, and Marcros
 published: True
 slug: sounds-speech-and-macros
+authors:
+ - "Violet Whitney"
 ---
 
 Ambient Computing:

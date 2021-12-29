@@ -3,6 +3,8 @@ moduleid: 102
 title: Geospatial Data
 published: True
 slug: geospatial-data
+authors:
+ - "Carlo Bailey"
 ---
 
 

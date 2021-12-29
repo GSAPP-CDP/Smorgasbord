@@ -3,6 +3,8 @@ moduleid: 61
 title: Getting started with Python
 published: True
 slug: getting-started-with-Python
+authors:
+ - "Carlo Bailey"
 ---
 
 # Getting started with Python

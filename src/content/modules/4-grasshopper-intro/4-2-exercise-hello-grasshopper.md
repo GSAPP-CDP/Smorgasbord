@@ -3,6 +3,8 @@ moduleid: 4-2
 title: Exercise - Hello Grasshopper!
 published: True
 slug: 4-2-exercise-hello-grasshopper
+authors:
+ - "Danil Nagy"
 ---
 
 # Exercise - Hello Grasshopper!

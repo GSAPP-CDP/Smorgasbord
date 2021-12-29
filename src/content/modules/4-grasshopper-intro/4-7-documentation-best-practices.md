@@ -3,6 +3,8 @@ moduleid: 4-7
 title: Grasshopper Documentation Best Practices
 published: True
 slug: grasshopper-documentation-best-practices
+authors:
+ - "Danil Nagy"
 ---
 
 # Grasshopper Documentation Best Practices

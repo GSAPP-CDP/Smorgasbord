@@ -3,6 +3,8 @@ moduleid: 160
 title: Intro to Processing - Lighting
 published: True
 slug: intro-to-processing-lighting
+authors:
+ - "Violet Whitney"
 ---
 
 Ambient Computing:

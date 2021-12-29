@@ -3,6 +3,8 @@ moduleid: 5-7
 title: Creating a Design Space and Exploring results
 published: True
 slug: creating-a-design-space-and-exploring-results
+authors:
+ - "Luc Wilson"
 ---
 
 

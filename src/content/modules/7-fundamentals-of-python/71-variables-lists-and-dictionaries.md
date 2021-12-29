@@ -3,6 +3,8 @@ moduleid: 71
 title: Variables, Lists, and Dictionaries
 published: True
 slug: variables-lists-and-dictionaries
+authors:
+ - "Danil Nagy"
 ---
 
 # Variables, Lists, and Dictionaries

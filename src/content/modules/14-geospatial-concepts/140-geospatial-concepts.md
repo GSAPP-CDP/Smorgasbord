@@ -3,6 +3,8 @@ moduleid: 140
 title: Introduction to Geographic Information Systems Concepts
 published: True
 slug: geospatial-concepts
+authors:
+ - "Dare Brawley"
 ---
 
 # Sequence: Introduction to Geographic Information Systems & Spatial Data

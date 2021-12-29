@@ -3,6 +3,8 @@ moduleid: 132
 title: Projection
 published: True
 slug: projection
+authors:
+ - "Zachary White"
 ---
 # Introduction to Projection
 ## Module Summary

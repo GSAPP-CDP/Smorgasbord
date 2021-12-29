@@ -3,6 +3,8 @@ moduleid: 5-2
 title: Subdividing Geometry for Analysis
 published: True
 slug: subdividing-geometry-for-analysis
+authors:
+ - "Luc Wilson"
 ---
 
 

@@ -3,6 +3,8 @@ moduleid: 4-9
 title: Parametric to Procedural
 published: True
 slug: parametric-to-procedural
+authors:
+ - "Danil Nagy"
 ---
 
 # Parametric to Procedural
