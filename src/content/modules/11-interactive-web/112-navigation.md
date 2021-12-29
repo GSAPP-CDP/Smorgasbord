@@ -3,6 +3,8 @@ moduleid: 112
 title: Navigation
 published: True
 slug: navigating-the-web
+authors:
+ - "Celeste Layne"
 ---
 
 ===========================================

@@ -3,6 +3,8 @@ moduleid: 72
 title: Conditionals and Loops
 published: True
 slug: conditionals-and-loops
+authors:
+ - "Danil Nagy"
 ---
 
 # Conditionals and Loops

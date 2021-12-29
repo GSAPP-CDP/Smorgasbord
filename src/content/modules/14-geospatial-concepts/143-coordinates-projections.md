@@ -3,6 +3,8 @@ moduleid: 143
 title: Coordinate Reference Systems & Projections
 published: True
 slug: coordinates-projections
+authors:
+ - "Dare Brawley"
 ---
 # Coordinate Reference Systems & Projections
 

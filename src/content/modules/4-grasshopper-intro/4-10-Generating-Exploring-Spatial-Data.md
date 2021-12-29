@@ -3,6 +3,8 @@ moduleid: 4-10
 title: Generating and Exploring Spatial Data
 published: True
 slug: generating-and-exploring-spatial-data
+authors:
+ - "Danil Nagy"
 ---
 
 # Generating and Exploring Spatial Data

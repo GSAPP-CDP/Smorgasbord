@@ -3,6 +3,8 @@ moduleid: 82
 title: Working with geometry in Python
 published: True
 slug: working-with-geometry-in-python
+authors:
+ - "Danil Nagy"
 ---
 
 # Working with geometry in Python

@@ -3,6 +3,8 @@ moduleid: 5-3
 title: Building Custom Analysis Tools
 published: True
 slug: building-custom-analysis-tools
+authors:
+ - "Luc Wilson"
 ---
 
 

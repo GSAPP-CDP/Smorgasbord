@@ -3,6 +3,8 @@ moduleid: 134
 title: Compositing
 published: True
 slug: compositing
+authors:
+ - "Zachary White"
 ---
 # Assembling a Composite Drawing
 ## Module Summary

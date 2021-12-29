@@ -3,6 +3,8 @@ moduleid: 60
 title: Intro to Python
 published: True
 slug: intro-to-python
+authors:
+ - "Carlo Bailey"
 ---
 
 # Sequence: Intro to Python

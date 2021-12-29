@@ -4,6 +4,8 @@ moduleid: 110
 title: History of the Internet and Web
 published: True
 slug: history-internet-web
+authors:
+ - "Celeste Layne"
 
 ---
 

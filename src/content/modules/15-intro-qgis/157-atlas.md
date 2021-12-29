@@ -3,6 +3,8 @@ moduleid: 157
 title: A Subjective Atlas 
 published: True
 slug: atlas
+authors:
+ - "Dare Brawley"
 ---
 
 # Final Assignment: A Subjective Atlas

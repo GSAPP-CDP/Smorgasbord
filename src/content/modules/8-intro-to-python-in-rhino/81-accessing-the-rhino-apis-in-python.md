@@ -3,6 +3,8 @@ moduleid: 81
 title: Accessing with the Rhino Libraries in Python
 published: True
 slug: accessing-with-the-rhino-libraries-in-python
+authors:
+ - "Danil Nagy"
 ---
 
 # Accessing the Rhino Libraies in Python

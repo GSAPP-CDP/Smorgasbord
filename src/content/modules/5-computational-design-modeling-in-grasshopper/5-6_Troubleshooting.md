@@ -3,6 +3,8 @@ moduleid: 5-6
 title: Putting Everything Together
 published: True
 slug: putting-everything-together
+authors:
+ - "Luc Wilson"
 ---
 
 

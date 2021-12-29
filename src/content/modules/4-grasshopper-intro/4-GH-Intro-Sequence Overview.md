@@ -3,6 +3,8 @@ moduleid: 4
 title: Intro To Grasshopper
 published: True
 slug: into-to-grasshopper
+authors:
+ - "Danil Nagy"
 ---
 
 # Sequence: Intro to Grasshopper

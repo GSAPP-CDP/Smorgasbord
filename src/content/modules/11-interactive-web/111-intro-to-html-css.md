@@ -3,6 +3,8 @@ moduleid: 111
 title: Introduction to HTML and CSS
 published: True
 slug: intro-to-html-css
+authors:
+ - "Celeste Layne"
 ---
 
 ===========================================

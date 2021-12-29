@@ -3,6 +3,8 @@ moduleid: 154
 title: Making Data from Field Observations
 published: True
 slug: observations
+authors:
+ - "Dare Brawley"
 ---
 
 # Making and Collecting Data from Observation 

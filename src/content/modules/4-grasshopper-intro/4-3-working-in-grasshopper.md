@@ -3,6 +3,8 @@ moduleid: 4-3
 title: Working in Grasshopper
 published: True
 slug: 4-3-working-in-grasshopper
+authors:
+ - "Danil Nagy"
 ---
 
 # Anatomy of a definition

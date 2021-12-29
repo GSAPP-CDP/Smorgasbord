@@ -3,6 +3,8 @@ moduleid: 153
 title: Making data from Archives
 published: True
 slug: archives
+authors:
+ - "Dare Brawley"
 ---
 
 # Making Data from Archives

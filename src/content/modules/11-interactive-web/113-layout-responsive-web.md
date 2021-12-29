@@ -3,6 +3,8 @@ moduleid: 113
 title: Layout and Responsive Web
 published: True
 slug: layout-responsive-web
+authors:
+ - "Celeste Layne"
 ---
 
 ===========================================

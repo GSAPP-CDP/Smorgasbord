@@ -3,6 +3,8 @@ moduleid: 123
 title: Rhino 3D
 published: True
 slug: rhino-3d
+authors:
+ - "Zachary White"
 ---
 # Rhino 3D
 ## Module Summary:

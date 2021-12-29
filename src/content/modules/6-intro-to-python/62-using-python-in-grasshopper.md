@@ -3,6 +3,8 @@ moduleid: 62
 title: Using Python in Grasshopper
 published: True
 slug: using-python-in-grasshopper
+authors:
+ - "Carlo Bailey"
 ---
 
 # Using Python in Grasshopper

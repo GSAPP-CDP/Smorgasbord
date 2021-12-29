@@ -3,6 +3,8 @@ moduleid: 156
 title: Making Data from 
 published: True
 slug: aerial
+authors:
+ - "Dare Brawley"
 ---
 # Satellite Grids & Google Static Maps API
 

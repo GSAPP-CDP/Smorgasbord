@@ -3,6 +3,8 @@ moduleid: 4-6
 title: Exercise - Parametric tower (part 2)
 published: True
 slug: 4-6-exercise-parametric-tower-part-2
+authors:
+ - "Danil Nagy"
 ---
 
 # Exercise - Parametric tower (part 2)

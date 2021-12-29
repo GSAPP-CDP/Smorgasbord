@@ -3,6 +3,8 @@ moduleid: 121
 title: The Rhino Interface
 published: True
 slug: rhino-interface
+authors:
+ - "Zachary White"
 ---
 # The Rhino Interface
 ## Module Summary

@@ -3,6 +3,8 @@ moduleid: 150
 title: Introduction to GIS with QGIS
 published: True
 slug: qgis
+authors:
+ - "Dare Brawley"
 ---
 
 # Sequence: Introduction to Geographic Information Systems in QGIS

@@ -3,6 +3,8 @@ moduleid: 124
 title: Modeling with NURBS
 published: True
 slug: modeling-with-nurbs
+authors:
+ - "Zachary White"
 ---
 # Modeling with NURBS
 ## Module Summary:

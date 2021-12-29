@@ -3,6 +3,8 @@ moduleid: 5-0
 title: Computational Design Modeling In Grasshopper
 published: True
 slug: computational-design-modeling-in-grasshopper
+authors:
+ - "Luc Wilson"
 ---
 # Sequence: Computational Design Modeling In Grasshopper
 ## Sequence Summary:

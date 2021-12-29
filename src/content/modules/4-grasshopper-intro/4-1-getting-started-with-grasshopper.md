@@ -3,6 +3,8 @@ moduleid: 4-1
 title: Getting started with Grasshopper
 published: True
 slug: 4-1-getting-started-with-grasshopper
+authors:
+ - "Danil Nagy"
 ---
 
 # Getting started with Grasshopper

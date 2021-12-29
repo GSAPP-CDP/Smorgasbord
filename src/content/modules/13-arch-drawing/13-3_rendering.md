@@ -3,6 +3,8 @@ moduleid: 133
 title: Lighting, Materials & Rendering
 published: True
 slug: lighting-materials-and-rendering
+authors:
+ - "Zachary White"
 ---
 # Lighting, Materials & Rendering
 ## Module Summary
