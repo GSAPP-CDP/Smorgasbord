@@ -2,11 +2,24 @@
 ## Sequence Summary:
 ## Why?
 ## Modules:
-* History of the Internet and Web
-* Introduction to HTML and CSS
-* Navigation
-* Layout & Responsive Web
-* Intro to JavaScript
-* Motion: Animation with CSS and JavaScript
 * Data and APIs
-* JavaScript in the Browser
+
+## HTML Basics
+
+## CSS Basics
+
+## Layout Basics
+
+## Animation Basics
+[A Pocket Guide CSS Animations]() by Val Head
+
+## JavaScript Basics
+[What is JavaScript](), MDN Documentation
+[JavaScript Data Types and Data Structures](), MDN Documentation
+
+## DOM Manipulation Basics
+JavaScript and the Browser by Marijn Haverbeke. Chapter 13. Eloquent JavaScript (2018)
+The Document Object Model by Marijn Haverbeke. Chapter 14. Eloquent JavaScript (2018)
+Introduction to the DOM, MDN Documentation
+Locating DOM Elements Using Selectors, MDN Documentation
+Events and the DOM, MDN Documentation

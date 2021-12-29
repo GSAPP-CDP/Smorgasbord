@@ -37,16 +37,22 @@ HyperText is text that contains links to other texts. Markup describes a system 
 
 ![figure-01](./images/111/111-01.png)
 
-The fundamental building block of HTML is the element. Elements consist of an opening tag, closing tag and content (text, image, video) sandwiched in between. The content is what the user sees on the webpage. The tags tell the browser the type of content and how to present it.
+The fundamental building block of HTML is the element. Elements consist of an opening tag, closing tag and content (text, image, video) sandwiched in between. The content is what the user sees on the webpage. The tags tell the browser the type of content and how to present it. 
+
+For example:
+
+```html
+<p>This is an example of a paragraph tag.</p>
+```
 
 ## Tutorial 01
 
 Using a pen and paper, let's draw an HTML element.
 
 ## Semantic Markup
-Semantic elements tell web browsers something about the contents of the element. They designed to communicate the meaning of the content to the browser, developer, reader, and any other technologies interpreting the document (e.g. voice assistants, search engine web crawler, browser translation tools, or assistive technologies such as screen readers).
+Semantic elements tell web browsers something about the contents of the element. They are designed to communicate the meaning of the content to the browser, developer, reader, and any other technologies interpreting the document (e.g. voice assistants, search engine web crawlers, browser translation tools, or assistive technologies such as screen readers).
 
-[add image here]
+![figure-02](./images/111/111-02.png)
 
 There are approximately 100 semantic elements available. The following is a list of commonly used ones:
 
