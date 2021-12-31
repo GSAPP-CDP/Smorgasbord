@@ -26,9 +26,6 @@ Sometimes the easiest way to understand the function of an API is to think about
 
 ![customer waiter kitchen metaphor](./images/111/111-10.png)
 
-##### Resource
-* [What is an API?](article link goes here)
-
 ### Where Do We Find APIs?
 APIs are published everywhere. Chances are good that most major content sources you follow online publish their data in some type of serialized format. Here are a few examples:
 
@@ -110,10 +107,22 @@ Most modern web browsers provide you with access to a Developer Console where yo
 
 At the top of the pane that appears, choose the Console tab. Any messages that you send from your `main.js` file will appear here.
 
-![console log in browser](./images/111/111-13.gif)
+![console log in browser](./images/111/111-12.png)
+
+The JavaScript Console is a text-only interface. When we type into the console, we’re writing expressions in real-time. These expressions must be written using JavaScript syntax. Let’s start with an alert that prints out the string Hello, World:
+
+```js
+alert(“Hello, World!”);
+```
+
+Once you press the ENTER key following your line of JavaScript, you should see the alert pop up in your browser. Press OK to close the window. To have the same result printed to the console, replace the `alert()` with `console.log()`:
+
+```js
+console.log("Hello, World!");
+```
 
 ##### Resource:
-[Get Started With Running JavaScript In The Console]() by Kayce Basques, Technical Writer, Chrome DevTools & Lighthouse
+[Get Started With Running JavaScript In The Console](https://developer.chrome.com/docs/devtools/console/javascript/) by Kayce Basques, Technical Writer, Chrome DevTools & Lighthouse
 
 ## Set Up the API
 
@@ -135,7 +144,7 @@ Once you've signed up, you're given an [API key](https://home.openweathermap.org
 #### API Keys
 While the majority of APIs are free to use, many of them require an API “key” that identifies the developer requesting data access. This is done to regulate usage and prevent abuse. Some APIs also rate-limit developers, meaning they have caps on the free data allowed during a given time period.
 
-When we click on the “How to Start” link, we are taken to a page that provides us with information on how to get an API key. For security reasons, many APIs require the use of keys.
+When we click on the “How to Start” link, we are taken to a page that provides us with information on how to get an API key.
 
 An API key is like a signature that uniquely identifies a user. This helps APIs keep track of their traffic and monitor any suspicious activity, such as an individual user sending too many requests.
 
@@ -153,9 +162,9 @@ Now that we have our key, let’s look back at some of the other information the
 
 ### Step 3 - Current Weather Data by Zipcode
 
-Recall, we are building a weather application that allows you to enter your zipcode and render the current weather forcast to the web browser. For documentation on how to set that up, navigate to [Open Weather Map](https://openweathermap.org/api) and scroll down, you'll see a section called "API Documentation." Click on the [By Zip Code](https://openweathermap.org/current#zip) link.
+Recall, we are building a weather widget that allows a user to enter a zipcode and render the current weather forcast to the web browser. For documentation on how to set that up, navigate to [Open Weather Map](https://openweathermap.org/api) and scroll down, you'll see a section called "API Documentation." Click on the [By Zip Code](https://openweathermap.org/current#zip) link.
 
-[add screen shot from documentation]
+![open weather by zip code documentation](images/111/111-14.png)
 
 #### URLs
 Before taking a look at the JavaScript, let’s take a step back and find out how we can access the weather data for New York City using the Open Weather Map API. To access this information, we’ll need a URL where we can find the JSON data for a city that matches the zipcode.
@@ -164,11 +173,10 @@ Let’s take a look at the different components of a URL that could be used for 
 
 * __The Protocol:__ HTTP — or Hypertext Transfer Protocol — is a system of rules (“protocol”) that determines how web pages (“hypertext”) are sent (“transfer”) from one place to another.
 * __The Host:__ This is the domain name for the site. This request will be sent to a Domain Name Server (DNS), which will look up the IP address and find out where the files for that resource are stored. An IP address is a unique string of numbers that helps us locate the correct server.
-* __The Port:__ Internet hosts have a certain number of ports that offer different services. One port could offer HTTP, another could offer mail routing, and so on. HTTP usually runs on port 80 and HTTPS runs on port 443, but this is not always the case. If the protocol is running on the default port (80 or 443), you don’t need to specify a port number. If it is running on a different port, a colon (:) followed by the port number (in this case, 1234) is required to point to that port.
 * __The Resource Path:__ Where the resource (HTML, JSON, PDF, images, etc.) is located.
 * __The Query:__ We can use queries to “filter” the data we find and retrieve certain results.
 
-[add image of weather url here]
+![open weather by zip code documentation](images/111/111-15.png)
 
 ### Step 4 – Constructing the URL
 We can use string concatenation or string templating to add the right zipcode to the URL, and then locate weather information about that city:
@@ -183,13 +191,13 @@ We can use string concatenation or string templating to add the right zipcode to
 
 For now, we're going to hard code our own zipcode and API key into the URL. Paste the below URL into your web browser and take a look at the JSON object that is returned. _Remember to swap out your own zipcode and API key_.
 
-```
+```js
 https://api.openweathermap.org/data/2.5/weather?zip=10128&APPID=[PUT YOUR API KEY HERE]
 ```
 
 You can see that we have an object with several properties – weather, wind, name and main:
 
-![html-image](images/111/111-04.png)
+![weather API data example](images/111/111-04.png)
 
 __Note:__ If you don't see the data, check that your API key matches the one in your account.
 
