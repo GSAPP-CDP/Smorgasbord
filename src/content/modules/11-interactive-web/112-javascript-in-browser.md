@@ -165,7 +165,7 @@ Add styles to the `h2` and `p` tags of the `output-container`. This is where the
 
 ### Weather Icons
 
-The weather service we will be using in this module is called Open Weather Map and it comes with its own icon set. However, you can create your own set of weather icons informed by your design choices for this widget. Maybe your designs don't require icons at all. Alternatively, you can use one of the following UI kits:
+The weather service we will be using in this module is called Open Weather Map and it comes with its own [icon set](https://openweathermap.org/weather-conditions). However, you can create your own set of weather icons informed by your design choices for this widget. Maybe your designs don't require icons at all. Alternatively, you can use one of the following UI kits:
 
 * [Font Awesome](https://fontawesome.com/v5.15/icons?d=gallery&p=2&c=weather)
 * [The Noun Project](https://thenounproject.com/search/icons/?iconspage=1&q=weather)
