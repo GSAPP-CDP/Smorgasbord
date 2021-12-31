@@ -1,15 +1,16 @@
 ---
 
 moduleid: 112
-title: Javascript in the Browser I
+title: Javascript in the Browser I - Weather UI Design
 published: True
 slug: javascript-in-browser
-
+authors:
+ - "Celeste Layne"
 ---
 
 ===========================================
 
-# Interactive Web: Weather UI Design
+# Javascript in the Browser I - Weather UI Design
 
 Digital technologies increasingly form the backdrop for our everyday work and play. Something as simple as a weather widget mediates awareness of the world in ways that matter to the person using it. Design a display of current weather conditions for a single city which will be determined by the user of your site. The premice of this experiment is to guide you through the steps of using client-side JavaScript in the browser to request JSON data directly from a weather service and render that JSON data to the web browser.
 

@@ -67,6 +67,18 @@ JSON stands for “JavaScript Object Notation” and has become a universal stan
 
 __Note:__ JSON is a serialized format. While it may look like an object, it needs to be parsed so we can interact with it as a true Javascript object.
 
+#### Accessing the data in the JSON object
+
+Within each of those objects, there is an object that contains information we want to access about the `users`: name and id. To access the name in this dataset, we can use the following syntax:
+
+```js
+// dot notation
+users.name
+
+// bracket notation
+users["name"]
+```
+
 ## Let's See That Data, Shall We?
 
 If you haven't done so already, create a new project.
@@ -210,7 +222,7 @@ __Note:__ If you don't see the data, check that your API key matches the one in 
 Now that we know more about the URL, we’ll use that information to make the API call and log that data to the developer console. Let’s dig into the core functionality of the weather widget using a basic JavaScript fetch request:
 
 ```js
-fetch(`http://api.openweathermap.org/data/2.5/weather?zip=${ZIPCODE}&appid=${API_KEY}`)
+fetch(`http://api.openweathermap.org/data/2.5/weather?zip=10128&APPID=${API_KEY}`)
   .then(response => response.json())
   .then(data => console.log(data));
 ```

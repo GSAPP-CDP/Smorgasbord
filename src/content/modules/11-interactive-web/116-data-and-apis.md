@@ -208,12 +208,12 @@ const API_ENDPOINT = `http://api.openweathermap.org/data/2.5/weather?zip=${ZIP_C
 What does our `main.js` file look like at this point?
 
 ```js
-let input = document.querySelector(".zip-code");
+let input = document.querySelector(".zipcode");
 let btn = document.querySelector(".search-button");
 
 getWeatherData = (zip) => {
-  let API_KEY = "";
-  let API_ENDPOINT = `https://api.openweathermap.org/data/2.5/weather?zip=${zip}&appid=${API_KEY}`;
+  let API_KEY = "[YOUR API KEY HERE]";
+  let API_ENDPOINT = `https://api.openweathermap.org/data/2.5/weather?zip=${zip}&APPID=${API_KEY}`;
 
   fetch(API_ENDPOINT)
     .then((response) => response.json())
