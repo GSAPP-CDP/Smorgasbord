@@ -3,6 +3,8 @@ moduleid: 110
 title: Data and APIs
 published: True
 slug: data-and-apis
+authors:
+ - "Celeste Layne"
 ---
 
 ===========================================
@@ -195,7 +197,7 @@ For now, we're going to hard code our own zipcode and API key into the URL. Past
 https://api.openweathermap.org/data/2.5/weather?zip=10128&APPID=[PUT YOUR API KEY HERE]
 ```
 
-You can see that we have an object with several properties – weather, wind, name and main:
+You can see that we have an object with several properties including coordinates, weather, wind, clouds, timezone, name and main:
 
 ![weather API data example](images/111/111-04.png)
 
@@ -204,10 +206,11 @@ __Note:__ If you don't see the data, check that your API key matches the one in 
 ## Making an API Call
 
 ### Getting Data from an API with JavaScript Fetch
-Now that we know more about the URL, we’ll use that information to make the API call and log that data to the developer console. Let’s dig into the JavaScript using a basic JavaScript fetch request:
+
+Now that we know more about the URL, we’ll use that information to make the API call and log that data to the developer console. Let’s dig into the core functionality of the weather widget using a basic JavaScript fetch request:
 
 ```js
-fetch(`http://api.openweathermap.org/data/2.5/weather?zip=${ZIPCODE}&appid={$API_KEY}`)
+fetch(`http://api.openweathermap.org/data/2.5/weather?zip=${ZIPCODE}&appid=${API_KEY}`)
   .then(response => response.json())
   .then(data => console.log(data));
 ```
@@ -222,7 +225,13 @@ Here we are fetching a JSON file across the network and printing it to the conso
 
 ### Wrap it in a `getWeatherData()` function
 
-Functions encapsulate a set of commands pertaining to one set of functionality. In this case, we are getting weather data. To make it clear, that's what we'll name the function. _Don't forget to invoke the function_.
+Function is a term that comes out of mathematics. You may remember hearing it in your high school algebra class. The basic idea of a function is simple — it’s a relationship between a set of inputs and a set of outputs.
+
+#### What is a Function?
+
+A function is a block of code that returns a result. Think of a function like a box that isn’t aware of the outside world. It only knows what you tell it and when you ask it something (run or call), it will reply with an answer.
+
+Functions encapsulate a set of commands pertaining to one set of functionality. In this case, the input is the zipcode and the output is the weather data. The purpose of this function is to get the weather data. To make it clear, that's what we'll name the function. _Don't forget to invoke the function_.
 
 ```js
 const getWeatherData = () => {
@@ -231,16 +240,12 @@ const getWeatherData = () => {
 
 getWeatherData()
 ```
+#### Why Use Functions?
 
-#### Accessing the data in the JSON object
+1. Group Steps – Functions allow you to break up your code into smaller organized chunks.
+2. Reusability – You can repeat functions throughout your code by calling the function. This saves you time from writing more code.
+3. Store Steps – Provides us with a way to ‘store’ the steps needed to achieve a task.
 
-Within each of those objects, there is an object that contains information we want to access about the zipcode: city name, humidity, temperature, and description to name a few. To access the temperature in this dataset, we can use the following syntax:
+#### Anatomy of a Function
 
-```js
-// dot notation
-data.main.temp
-
-// bracket notation
-data["main"]["temp"]
-```
-Replace the data in the `console.log` with one of the above code snippets to see the temperature in Kelvin displayed in the developer console.
+![javascript functions visualized](images/111/111-17.png)
