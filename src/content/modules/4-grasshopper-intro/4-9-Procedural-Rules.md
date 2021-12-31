@@ -4,7 +4,7 @@ title: Parametric to Procedural
 published: True
 slug: parametric-to-procedural
 authors:
- - "Danil Nagy"
+ - "Luc Wilson"
 ---
 
 # Parametric to Procedural
