@@ -11,9 +11,9 @@ slug: data-and-apis
 
 ## What are we building?
 
-[add GIF iamge here]
+![html-image](./images/111/111-08.png)
 
-Using [Open Weather Map API](https://openweathermap.org/api), we will build a weather application that allows you to enter your zipcode and render the current weather forcast to the web browser.
+Using [Open Weather Map API](https://openweathermap.org/api), we will build a weather application that allows a user to type their zipcode and render the current weather forcast to the browser window.
 
 ### What is an API?
 First things first, API stands for “Application Programming Interface”. It is a way for you to get raw public data that organizations (Google, NASA, City of New York) make available for you to use in your own website. This raw data is accessed using a web URL:
@@ -38,7 +38,7 @@ APIs are published everywhere. Chances are good that most major content sources 
 * [Cooper Hewitt, Smithsonian Design Museum Collections](https://collection.cooperhewitt.org/api/)
 
 ### The API in action
-One common example of an API that we come into contact with on a daily basis is weather data. These rich weather snippets are found on many platforms like Google Search or smart home devices (Echo Dot, Google Nest, Facebook Portal). For example, if you search “weather + [your city’s name]” on Google, you will see an interactive widget at the top of the search results with the current weather conditions and forecast. 
+One common example of an API that we come into contact with on a daily basis is _weather data_. These rich weather snippets are found on many platforms like Google Search or smart home devices (Echo Dot, Google Nest, Facebook Portal). For example, if you search “weather + [your city’s name]” on Google, you will see an interactive widget at the top of the search results with the current weather conditions and forecast. 
 
 [add image of rich weather snippet]
 
@@ -66,15 +66,17 @@ JSON stands for “JavaScript Object Notation” and has become a universal stan
 }
 ```
 
-Note: JSON is a serialized format. While it may look like an object, it needs to be parsed so we can interact with it as a true Javascript object.
+__Note:__ JSON is a serialized format. While it may look like an object, it needs to be parsed so we can interact with it as a true Javascript object.
 
 ## Let's See That Data, Shall We?
 
+If you haven't done so already, create a new project.
+
 ### Step 0 – Create Directory
-Create a directory to organize your program files. Here, I am creating a folder called `weather-app`. Inside that directory, is a recommended project structure:
+Create a directory to organize your program files. Here, I am creating a folder called `weather-widget`. Inside that directory, is a recommended project structure:
 
 ```md
-weather-app
+weather-widget
 ├── index.html
 ├── styles
 │   └── style.css
@@ -84,10 +86,10 @@ weather-app
 
 ### Step 1 – Execute JavaScript in a web page
 
-1. Open the `weather-app` in your text editor and add the following log to the top of the `main.js` file:
+1. Open the `weather-widget` in your text editor and add the following log to the top of the `main.js` file:
 
 ```js
-console.log("this works")
+console.log("this works");
 ```
 2. Link the JavaScript file to the HTML file with a script tag. When implementing JavaScript on your webpages, insert it right before the closing `</body>` tag. The browser renders HTML onto a page in the order you’ve written it. We load `<script>` tags just before the end of the document to ensure that the rest of our content has loaded first.
 
@@ -192,6 +194,7 @@ You can see that we have an object with several properties – weather, wind, na
 __Note:__ If you don't see the data, check that your API key matches the one in your account.
 
 ## Making an API Call
+
 ### Getting Data from an API with JavaScript Fetch
 Now that we know more about the URL, we’ll use that information to make the API call and log that data to the developer console. Let’s dig into the JavaScript using a basic JavaScript fetch request:
 
