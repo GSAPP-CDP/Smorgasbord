@@ -11,17 +11,19 @@ slug: javascript-in-browser
 
 # Interactive Web: Weather UI Design
 
+Digital technologies increasingly form the backdrop for our everyday work and play. Something as simple as a weather widget mediates awareness of the world in ways that matter to the person using it. Design a display of current weather conditions for a single city which will be determined by the user of your site. The premice of this experiment is to guide you through the steps of using client-side JavaScript in the browser to request JSON data directly from a weather service and render that JSON data to the web browser.
+
+__Note:__ This experiment is meant to be used as a technical guide. Consider _all_ the data that is returned from the weather service, not just the temperature and let that inform your design choices. What kind of experience could you create to accomodate all possible weather conditions? Consider how your agency as a designer can enter into the design of this interface – as a system, what is the weather?
+
 ### Set Up Your HTML Project
 
-1. Set up a new project using a text editor, like [Visual Studio Code]() a free code editor available for Mac, Windows, or Linux.
-2. Open up a new project folder and name it `weather-app`. To create a new project folder in Visual Studio Code, navigate to the “File” menu item in the top menu and select “Add Folder to Workspace.” In the new window, click the “New Folder” button and create a new folder called `weather-app` as illustrated in the gif below:
-
-[add gif here]
+1. Set up a new project using a text editor, like [Visual Studio Code](https://code.visualstudio.com/) a free, open source code editor available for Mac, Windows, or Linux.
+2. Open up a new project folder and name it `weather-widget`. To create a new project folder in Visual Studio Code, navigate to the “File” menu item in the top menu and select “Add Folder to Workspace.” In the new window, click the “New Folder” button and create a new folder called `weather-widget`.
 
 Inside that folder, create this recommended project structure:
 
 ```md
-weather-app
+weather-widget
 ├── index.html
 ├── styles
 │   └── style.css
@@ -51,17 +53,21 @@ This is what we're going to be building:
 
 ![html-image](images/111/111-08.png)
 
-The following elements go in between the body tags.
+1. Define two sections with the following class names: `input-container` and `output-container`.
+2. The `input-container` will include a form with a search field where the user will type in their zipcode and a submit button that makes the request for the current weather to the weather service.
+3. The `output-container` will include the name of the city and current temperature. By default, the `output-container` won't contain any content. However, once the user makes the request for the weather of a specific zipcode, if weather data is available, the relevant data will be returned and rendered to the web browser.
+
+The following is the initial page layout and goes in between the body tags:
 
 ```html
 <div class="container">
-  <div class="input_component">
+  <div class="input-container">
     <form>
       <input type="text" class="zipcode" placeholder="type zipcode here">
       <button type="button" class="search-button">Search</button>
     </form>
   </div>
-  <div class="output_component">
+  <div class="output-container">
     <h2 class="city_name"></h2>
     <p class="temperature"></p>
   </div>
@@ -80,7 +86,7 @@ First, let's use the universal selector property to strip all the elements of th
 }
 ```
 
-Next, we'll set the height of the html element to 100% as well. Body looks to its parent (HTML) for how to scale the dynamic property, so the HTML element needs to have its height set as well. This will give our layout a nice snug fit with the browser window.
+Next, we'll set the height of the HTML element to 100% as well. Body looks to its parent (HTML) for how to scale the dynamic property, so the HTML element needs to have its height set as well. This will give our layout a nice snug fit within the browser window.
 
 ```css
 html,
@@ -105,11 +111,15 @@ form {
 }
 ```
 
-Note: we've added the `display: flex` property to the form element because we want the button to sit snugly next to the input field.
+__Note:__ we've added the `display: flex` property to the form element which defines it as a flex container because we want the button to sit snugly next to the input field and the default `flex-direction`, the firection flex items are placed insode the flex container is row.
 
-### Style the elements
+Resource: 
+[A Complete Guide to Flexbox]() by Chris Coyier. CSS Tricks.
+[Basic concepts of flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox) MDN Documentation
 
-Finally, we style the input field and the search button.
+### Style the input and output containers
+
+Add styles to the input field and the search button of the `input-container`.
 
 ```css
 input[type="text"] {
@@ -134,7 +144,9 @@ input::placeholder{
 }
 ```
 
-### Style the data appended to  the DOM
+### Style the data appended to the DOM
+
+Add styles to the `h2` and `p` tags of the `output-container`. This is where the current temperature about the requested city will be rendered.
 
 ```css
 .output_component{
