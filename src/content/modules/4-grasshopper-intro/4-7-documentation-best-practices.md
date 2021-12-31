@@ -4,7 +4,7 @@ title: Grasshopper Documentation Best Practices
 published: True
 slug: grasshopper-documentation-best-practices
 authors:
- - "Danil Nagy"
+ - "Luc Wilson"
 ---
 
 # Grasshopper Documentation Best Practices

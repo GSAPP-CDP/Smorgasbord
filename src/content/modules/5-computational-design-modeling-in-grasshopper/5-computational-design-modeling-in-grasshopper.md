@@ -13,7 +13,7 @@ This sequence of modules introduces computational design modeling in Grasshopper
 
 You get to generate hundreds of urban design schemes + performance metrics. *Who wouldn't want to do that??*
 
-This sequence assumes that you have done the Intro to Grasshopper sequence.
+This sequence assumes that you have done the [Intro to Grasshopper sequence](https://github.com/GSAPP-CDP/Smorgasbord/blob/main/src/content/modules/4-grasshopper-intro/4-GH-Intro-Sequence%20Overview.md).
 
 ## Why?
 
@@ -25,10 +25,10 @@ Yes! The "Why" is such a big topic that the entire first module will be devoted 
 
 ## Modules:
 
-1. What is Computational Design Modeling?
-2. Subdividing Geometry for Analysis.
-2. Developing spatial analysis tools and metrics.
-3. Creating a parametric street grid.
-4. Urban scale procedural generation.
-5. Creating a design spaces.
-6. Exploring results.
+1. [What is Computational Design Modeling?](https://github.com/GSAPP-CDP/Smorgasbord/blob/main/src/content/modules/5-computational-design-modeling-in-grasshopper/5-1-Comp-Design-Modeling.md)
+2. [Subdividing Geometry for Analysis.](https://github.com/GSAPP-CDP/Smorgasbord/blob/main/src/content/modules/5-computational-design-modeling-in-grasshopper/5-2-Subdivide-Geometry.md)
+3. [Developing spatial analysis tools and metrics.](https://github.com/GSAPP-CDP/Smorgasbord/blob/main/src/content/modules/5-computational-design-modeling-in-grasshopper/5-3-Analysis-Tools.md)
+4. [Creating a parametric street grid.](https://github.com/GSAPP-CDP/Smorgasbord/blob/main/src/content/modules/5-computational-design-modeling-in-grasshopper/5-4-Street-Grid.md)
+5. [Urban scale procedural generation.](https://github.com/GSAPP-CDP/Smorgasbord/blob/main/src/content/modules/5-computational-design-modeling-in-grasshopper/5-5_Buildings-Density.md)
+6. [Putting Everything Together.](https://github.com/GSAPP-CDP/Smorgasbord/blob/main/src/content/modules/5-computational-design-modeling-in-grasshopper/5-6_Troubleshooting.md)
+7. [Creating a design spaces & exploring results.](https://github.com/GSAPP-CDP/Smorgasbord/blob/main/src/content/modules/5-computational-design-modeling-in-grasshopper/5-7_Design-Space.md)
