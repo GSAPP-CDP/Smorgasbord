@@ -11,7 +11,7 @@ slug: data-and-apis
 
 ## What are we building?
 
-![html-image](./images/111/111-08.png)
+![weather widget](./images/111/111-09.gif)
 
 Using [Open Weather Map API](https://openweathermap.org/api), we will build a weather application that allows a user to type their zipcode and render the current weather forcast to the browser window.
 
@@ -24,7 +24,7 @@ http://api.openweathermap.org/data/2.5/forecast?id=524901&appid={API key}
 
 Sometimes the easiest way to understand the function of an API is to think about a metaphor. A common metaphor used is that of the customer, a waiter, and a restaurant kitchen: Imagine you’re sitting at a table in a restaurant with a menu of choices to order from. The kitchen is the part of the “system” that will prepare your food order. What is missing is the critical link to communicate your food order to the kitchen and deliver your actual food (raw data) back to your table. That’s where the waiter or API comes in. The waiter is the messenger — or API — that takes your request or food order and tells the kitchen — the system — what to do. Then the waiter delivers the response (raw data) back to you; in this case, it is the food.
 
-[add image here]
+![customer waiter kitchen metaphor](./images/111/111-10.png)
 
 ##### Resource
 * [What is an API?](article link goes here)
@@ -40,12 +40,12 @@ APIs are published everywhere. Chances are good that most major content sources 
 ### The API in action
 One common example of an API that we come into contact with on a daily basis is _weather data_. These rich weather snippets are found on many platforms like Google Search or smart home devices (Echo Dot, Google Nest, Facebook Portal). For example, if you search “weather + [your city’s name]” on Google, you will see an interactive widget at the top of the search results with the current weather conditions and forecast. 
 
-[add image of rich weather snippet]
+![rich weather snippet](./images/111/111-11.png)
 
 Here, Google sources this weather data from a third party which sends back the latest weather details in a way that is easy to format. In this case, they are using the [Weather Channel](https://weather.com/weather/today/l/40.7500,-73.9967) API.
 
 ### Why Just Data?
-Sometimes thats’s all we need. The amount of data we produce daily is mind blowing. In 2020, 2.5 quintillion bytes of data was created daily. There are 18 zeros in a quintillion. For those times, we want a concise format. All this raw data, from all these browsers and servers, has to travel through the internet. This can be the slowest part of the request-response cycle. Using our previous metaphor, imagine the waiter having to navigate through Grand Central Station at rush hour to place our order with the kitchen. We want to minimize the amount of food (raw data) he needs to bring back to the table. For those times, we want a concise format.
+Sometimes thats’s all we need. The amount of data we produce daily is mind blowing. In 2020, 2.5 quintillion bytes of data was created daily. _There are 18 zeros in a quintillion_. For those times, we want a concise format. All this raw data, from all these browsers and servers, has to travel through the internet. This can be the slowest part of the request-response cycle. Using our previous metaphor, imagine the waiter having to navigate through Grand Central Station at rush hour to place our order with the kitchen. We want to minimize the amount of food (raw data) he needs to bring back to the table. For those times, we want a concise format.
 
 ### What is Serialized Data?
 All data sent via [HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview "An overview of HTTP, MDN Documentation") are strings. Unfortunately, what we really want to pass between web applications is structured data (i.e. arrays and objects). So, native data structures can be serialized into a string representation of the data.
@@ -91,7 +91,7 @@ weather-widget
 ```js
 console.log("this works");
 ```
-2. Link the JavaScript file to the HTML file with a script tag. When implementing JavaScript on your webpages, insert it right before the closing `</body>` tag. The browser renders HTML onto a page in the order you’ve written it. We load `<script>` tags just before the end of the document to ensure that the rest of our content has loaded first.
+2. Link the JavaScript file to the HTML file with a script tag. When implementing JavaScript on your webpages, insert the script just above the closing `</body>` tag. The browser renders HTML onto a page in the order you’ve written it. We load `<script>` tags just before the end of the document to ensure that the rest of our content has loaded first.
 
 ```js
 <body>
@@ -110,7 +110,7 @@ Most modern web browsers provide you with access to a Developer Console where yo
 
 At the top of the pane that appears, choose the Console tab. Any messages that you send from your `main.js` file will appear here.
 
-[add image of console log in the browser console]
+![console log in browser](./images/111/111-13.gif)
 
 ##### Resource:
 [Get Started With Running JavaScript In The Console]() by Kayce Basques, Technical Writer, Chrome DevTools & Lighthouse
@@ -123,7 +123,7 @@ If you don’t already have an Open Weather Map account, [sign up for a free one
 #### Look at the Documentation
 Now, let's familiarize ourselves with the API documentation. There are no rules governing how to write documentation for an API, so its content is presented differently each time. Knowing how to quickly find key pieces of information is the most important part of reading API documentation.
 
-![html-image](./images/111/111-06.png)
+![open weather map documentation ](./images/111/111-06.png)
 
 ### Step 2 – API Key
 Once you've signed up, you're given an [API key](https://home.openweathermap.org/api_keys). Copy the API key and create a variable in your `main.js` file to store the key. You can place it just below the `console.log()`.
