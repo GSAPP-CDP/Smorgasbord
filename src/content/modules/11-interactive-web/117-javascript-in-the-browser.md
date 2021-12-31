@@ -168,6 +168,8 @@ Make sure to place the resets inside the `getWeatherData()` function but outside
 
 ### Bonus - Weather Icon
 
+![open weather map icon](images/111/111-20.png)
+
 Let's construct the icon URL and display it in the `output-container` using an `img` tag:
 
 1. In the `index.html` file add a basic image tag
@@ -211,3 +213,4 @@ const getWeatherData = (zip) => {
   }
 }
 ```
+
