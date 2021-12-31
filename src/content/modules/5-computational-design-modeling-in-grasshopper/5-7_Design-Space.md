@@ -16,11 +16,11 @@ authors:
 
 ## Module Summary
 
-In the final model in this sequence we will create a design space, run it out to derive a spatial data set, and explore results. Steps 2 through 4 of the tutorial are very similar to the final module of the Intro to Grasshopper sequence, so if you have not done that sequence yet, make sure to complete it first.
+In the final module in this sequence we will create a design space, run it out to derive a spatial data set, and explore results. Sections 2 and 3 of the tutorial are very similar to the final module of the Intro to Grasshopper sequence, so if you have not done that sequence yet, make sure to complete it first.
 
 ## Why is this important?
 
-We are going to finally generate massing options with performance metrics to answer the question we established in module 4:
+We are going to *finally* generate massing options with performance metrics to answer the question we established in module 4:
 
  "What street grid and distribution of density result in energy efficient buildings while creating comfortable outdoor spaces?"
 
@@ -245,21 +245,112 @@ With the panel set to stream contents it will continue to write (or delete) data
 
 ![description](images/5-7-3_Data-CSV.PNG)
 
+Finally, if you have gotten to this point and are still having issues, refer to this [completed definition](https://github.com/GSAPP-CDP/Smorgasbord/raw/main/src/content/modules/5-computational-design-modeling-in-grasshopper/definitions/5-7_Design-Space.gh) to help trouble shoot.
 
 ### 4. Exploring the results and deriving insights
 
-*OUTLINE*
-1. Sort by output
-2. Delete options below key thresholds
-3. Sort by most important output
-4. Look for patterns in inputs and describe sub set of form that gets good performance
-5. Generate options representative trends and use the visualization to describe the relationship between form and performance
-6. Summary diagrams and option comparison
+Finally, we are going to use the data.csv to explore the spatial data set we have just generated to understand the relationship between performance (outputs) and form (inputs.) Next, we will review specific options in Rhino to further articulate the relationship between form and performance.
+
+You might be thinking, "We just need to find the best or optimal option, right?" But how do we determine what is best? Or optimal for who? This is another area were we need to recognize our own bias. We will start to address bias by examining the trends of each metric individually with no preference on one over the other, then establish scenarios for different stake holders, and identify options work well for each. By establishing scenarios we take a step of checking our own unconscious bias on what is "optimal."
+
+1. Open the data.csv in a spreadsheet software such as Microsoft Excel or Google Sheets. (We are going to use Google Sheets.) Color code the inputs and outputs by their numeric ranges. This will make it easier to spot patterns and identify trends. Use different color gradients for inputs and outputs.
+
+![description](images/5-7-4_coloring.gif)
+
+Before we do any scenario specific exploration we want to get an understanding of the range of each of our metric outputs. Is there a lot or a little variation? Or put another way, how much does the design space we've created impact each metric? 
+
+2. Sort each metric from high to low and make a table with the ranges for each.
+3. As you sort each metric, also examine the inputs for the top performing options. What are the common values for each input? We'll use these to describe what forms drives performance for each metric.
+
+![description](images/5-7-4_sorting.gif)
+
+| Metric      | Range |
+| ----------- | ----------- |
+| Building Daylight      | 82.9% to 92.7%      |
+| Street Average Daylight   | 2.4  to  4.0 hours     |
+| Street Minimum Daylight   | 27.4% to 71.5%         |
+| Building Views  | 54.4% to 82.0%          |
+
+There is the most variation in street minimum daylight and building views implying that our design space has the most impact on those metrics. Are your ranges similar? 
+
+**Building Daylight**: High performers are mostly street grids 0 and 1, density location 0 and 2, and any density distribution values.
+
+![description](images/5-7-4_BD_data.PNG)
+>*Sorted by Building Daylight.*
+
+**Street Average Daylight**: High performers are mostly street grids 1 and 2, any density location values, and density distribution 2, 3, 4.
+
+![description](images/5-7-4_SAD_data.PNG)
+>*Sorted by Street Average Daylight.*
+
+**Street Minimum Daylight**: High performers are mostly street grids 1 and 2, density location 1 and 2, and density distribution 2, 3, 4.
+
+![description](images/5-7-4_SMD_data.PNG)
+>*Sorted by Street Minimum Daylight.*
+
+**Building Views**: High performers are any street grid, mostly density location 0 and 1, and mostly density distribution 2, 3, 4.
+
+![description](images/5-7-4_BV_data.PNG)
+>*Sorted by Building Views.*
+
+
+Notice that we used the word *mostly* to describe the trends. In almost ever instance there was at least one option that had an input value that we excluded in our description of the trends. Why? Articulating trends establishes a framework or guidelines to design within that would result in designs that generally performing well. However, if for goals that are not captured by our metrics we want an input value that is not within the range (but is included as a high performing option) you would need to use that specific option. Trends = design flexibility while a specific option = specific design scheme.
+
+Lets take a look at Street Minimum Daylight again. Street option 0 doesn't not show up in the top performers enough to include in the description of the trend, but it does show up twice. So if for design reasons this is the preferred street grid you would want to start with one of these options. It also is paired with the highest density distribution option, suggesting that if you want to use this street grid you need to also have that density distribution.
+
+Now that we have an overall understanding of the data set we will establish three scenarios to guide our exploration and help address potential bias: public benefit (comfortable spaces + low energy demand,) value (views + low energy demand,) and overall balance. "Wouldn't we want to balance performance across all three?" Not necessarily. There will be trade-offs in performance that may mean the most balanced option is not the best depending on who you are designing for.
+
+**Public benefit**: Look back at the trends for comfortable spaces (Street Minimum Daylight) and low energy demand (Building Daylight). What are the overlaps? Street Grid 1, Density Location 2, and density distribution 2, 3, 4.
+
+4. Lets re-generate the shared high performing options: 43, 34.
+
+Only two?! This suggests that there is an indirect correlation between Street Minimum Daylight and Building Daylight. This makes sense because as you reduce direct sun to the buildings you are also likely reducing direct sun to the streets. However, this is exactly what a computational design model is useful for -- finding designs that balance otherwise competing goals that would likely not be possible if designing discrete options.
+
+![description](images/5-7-4_Option-43.PNG)
+>*Option 43*
+
+![description](images/5-7-4_Option-34.PNG)
+>*Option 34*
+
+Based on the visual output can we describe why these particular inputs work well? First, of the street grid options this is the one that has the most buildings angled off of south, which works well for reducing direct sun during the summer months. Next, the density is located at two opposite corners, which allows for direct sun to reach the middle of the site during the months where it benefits comfort. Finally, they have the two most extreme distributions of density, which helps to block direct sun to the towers and creates areas of low density allowing sun light to streets.
+
+We could now deviate from these specific inputs since we have a better understand of the relationship between form and performance, either by revising the inputs and rerunning the design space or by manually designing following these insights. For example, we might want to test options with rotated street grids or density location options in different corners or that are more distributed (ie more location points.)
+
+This last step of evaluating specific high performing design options and articulating design trends is critical and requires your experience and judgement as a designer.
+
+**Building Value**: Look back at the trends for building views and low energy demand (Building Daylight). What are the overlaps? Street grids 0 and 1, density location 0, and density distribution 2, 3, 4,
+
+5. Lets re-generate some of the shared high performing options: 26, 37.
+
+![description](images/5-7-4_Option-27.PNG)
+>*Option 27*
+
+![description](images/5-7-4_Option-37.PNG)
+>*Option 37*
+
+Similarly we can describe the relationship between form and performance for this scenario: lots of towers that have good views high up, while being clustered to reduce direct sun during the summer. These two metrics are indirectly correlated so finding a balance is also a challenge.
+
+One important item to note is that both of the options have a very low direct sun to streets: 33%. There will be trade-offs in any scenario so it is important to articulate who you are designing for and why.
+
+*You'll do the overall balance scenario as part of the assignment for this module.*
+
+6. Create a summary graphic comparing 4 options. Once each for the two scenarios we developed and two that represent other options with high performance in at least one metric. Include the range for each metric and a graphic indication of high performing metrics to help quick comparison.
+
+
+![description](images/5-7-4_Design-Comparison.jpg)
+
+
 
 ## Conclusion
+
+We've created a computation design model, generated a spatial data set, and explored results. Through this process we have used data to make informed decisions and articulate the relationship between form and performance. All of this not possible without computational tools and design thinking, however, remember:
+1. **Bias:** almost every step in creating the model has the potential for bias, from setting goals, to measuring outcomes, to the inputs to test. Make sure to articulate who and why you are designing for and document assumptions that you make along the way.
+2. **Limitations:** for everything that our computational design model is doing, there is a lot it is not doing. For example, our street grids a limited by Box Morph and we are using direct sun to buildings as a proxy for heat gain. Articulate and document limitations.
 
 
 
 ## Assignment
 
-Based on insights from the initial design space run and exploration, revise the inputs and re-run.
+1. Repeat the exploration of results for the last scenario: overall balance.
+2. Create simple diagrams for each scenario that illustrate design guidelines. Make them such that another designer could understand and follow them.
+3. Based on insights from this initial exploration, revise the inputs for your model and re-run. In addition to the dynamic inputs, consider re-designing the building types.
