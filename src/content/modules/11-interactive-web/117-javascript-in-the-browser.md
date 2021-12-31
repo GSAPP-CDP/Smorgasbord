@@ -154,3 +154,60 @@ const getZipcode = e => {
 
 btn.addEventListener('click', getZipcode);
 ```
+
+### The Reset
+
+After the request to the weather service, clear the value of the input field, give focus to the input field:
+
+```js
+  form.reset();
+  input.focus();
+```
+
+Make sure to place the resets inside the `getWeatherData()` function but outside the fetch logic.
+
+### Bonus - Weather Icon
+
+Let's construct the icon URL and display it in the `output-container` using an `img` tag:
+
+1. In the `index.html` file add a basic image tag
+
+```html
+<img src="" alt="">
+```
+
+2. In the `main.js` file, target the image tag:
+
+```js
+let image = document.querySelector("img");
+```
+
+3. Inside the `getWeatherData` function, store the icon in a variable:
+
+```js
+const getWeatherData = (zip) => {
+  fetch(API_ENDPOINT)
+    .then(response => response.json())
+    .then(data => {
+    
+      let WEATHER_ICON = new_york_weather_data.weather[0].icon
+
+  }
+}
+```
+
+4. The `img` tag has an `src` attribute. Set data using the `setAttribute` method:
+
+```js
+let image = document.querySelector("img");
+
+const getWeatherData = (zip) => {
+  fetch(API_ENDPOINT)
+    .then(response => response.json())
+    .then(data => {
+      let WEATHER_ICON = new_york_weather_data.weather[0].icon
+      
+      image.setAttribute('src', `https://openweathermap.org/img/wn/${WEATHER_ICON}@2x.png`)
+  }
+}
+```
