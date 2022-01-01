@@ -16,6 +16,12 @@ Digital technologies increasingly form the backdrop for our everyday work and pl
 
 __Note:__ This experiment is meant to be used as a technical guide. Consider _all_ the data that is returned from the weather service, not just the temperature and let that inform your design choices. What kind of experience could you create to accomodate all possible weather conditions? Consider how your agency as a designer can enter into the design of this interface – as a system, what is the weather?
 
+#### References
+
+* [Weather Gradient](https://weathergradient.com/)
+* [Do I Need a Jacket](https://doineedajacket.com/)
+
+
 ### Set Up Your HTML Project
 
 1. Set up a new project using a text editor, like [Visual Studio Code](https://code.visualstudio.com/) a free, open source code editor available for Mac, Windows, or Linux.
