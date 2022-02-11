@@ -1,0 +1,19 @@
+---
+label: Text
+hide_body: false
+fields:
+- type: number
+  name: moduleid
+  label: moduleid
+- type: text
+  name: title
+  label: title
+- type: boolean
+  name: published
+  label: published
+- type: text
+  name: slug
+  label: slug
+- type: list
+  name: authors
+  label: authors
