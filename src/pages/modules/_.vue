@@ -1,6 +1,7 @@
 <template>
-  <Module :path="path" />
-
+  <div>
+    <Module :path="path" />
+  </div>
 </template>
 
 <style>

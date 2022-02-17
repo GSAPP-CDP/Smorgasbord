@@ -2,8 +2,8 @@
   <div class="post">
     <div class="postheader">
       <div class="posttitle"><span class="val">{{ module.title }}</span></div>
-      <div class="postauthor">by <span class="val">{{ module.authors }}</span></div>
-      <div class="postlastupdated">last updated: <span class="val">{{ moduleDate }} </span></div>
+      <div class="postauthor">by <span class="val">{{ moduleAuthors }}</span></div>
+      <div class="postlastupdated" v-if="moduleDate">last updated: <span class="val">{{ moduleDate }} </span></div>
     </div>
     <div class="postbody">
       <nuxt-content :document="module" />
@@ -143,6 +143,13 @@ export default {
         return "";
       }
     },
+    moduleAuthors() {
+      try {
+        return this.module.authors.join(", ");
+      } catch {
+        return "";
+      }
+    }
   },
 }
 

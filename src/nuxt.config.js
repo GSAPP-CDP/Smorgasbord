@@ -49,6 +49,7 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    '~/modules/process_content.js',
   ],
 
   // Content module configuration: https://go.nuxtjs.dev/config-content

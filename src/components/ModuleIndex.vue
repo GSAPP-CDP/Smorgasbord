@@ -67,8 +67,10 @@ export default {
 
     var sequencedModules = {};
     modules.forEach(m => {
-      let seqsplit = m.dir.split('/')
-      let seqname = seqsplit[seqsplit.length - 1]
+
+      let seqname = m.dir.split('/').at(-1)
+      console.log(m.path.split('/'))
+
     	if (!sequencedModules.hasOwnProperty(seqname)) {
         sequencedModules[seqname] = {};
         sequencedModules[seqname].dir = seqname;
@@ -76,6 +78,8 @@ export default {
       } 
       sequencedModules[seqname].modules.push(m);
     });
+
+    console.log(modules)
 
 
     this.sequencedModules = sequencedModules;
