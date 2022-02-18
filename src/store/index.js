@@ -1,13 +1,6 @@
 var content = require('/data/content.json')
 
 export const state = () => ({
-  counter: 0,
-  path: "",
-  content:  content,
+  contentdata:  content,
 })
 
-export const mutations = {
-  increment(state) {
-    state.counter++
-  }
-}

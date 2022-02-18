@@ -9,6 +9,20 @@ const MODULES_DIR = "content/modules"
 // TODO MAKE ASYNC/AWAIT
 
 
+function modulecontentlookup(modulecontent, filepath) {
+  let filtered = modulecontent.filter(m => {
+    return filepath === m.path.replace("/modules/", "") + m.extension 
+  });
+
+  console.log(filtered);
+
+  if(filtered.length > 0) {
+    return filtered[0];
+  } else {
+    return null;
+  }
+}
+
 
 function generate_module_data(files, callback) {
 
@@ -47,7 +61,7 @@ function generate_module_data(files, callback) {
  2. parse index.md YAML to generate sequence structure, if exists [TODO/OPTIONAL]
  3. parse filename prefixes to generate sequence structure
  */
-function generate_sequence_data(files, callback) {
+function generate_sequence_data(modulecontent, files, callback) {
 
   const regordinal = /(\d+)-.*/;
 
@@ -60,12 +74,17 @@ function generate_sequence_data(files, callback) {
       var seqdata = {};
       var seqpath = s.replace(MODULES_DIR + '/', '')
 
+
+      seqdata.contentdata =  modulecontentlookup(modulecontent, seqpath + "/index.md")
+
+
       if(seqpath.match(regordinal)) {
         seqdata.ordinal = parseInt(seqpath.match(regordinal)[1]);
       } else {
         seqdata.ordinal = 9999; // autogenerate ordinals, later TODO
       }
 
+      seqdata.path= seqpath
       seqdata.slug = seqpath.split(/\d+-/).pop(0)
 
       var subfiles = files.filter(f => {
@@ -88,6 +107,8 @@ function generate_sequence_data(files, callback) {
         } else {
           subfiledata.ordinal = 9999; // autogenerate ordinals, later TODO
         }
+
+        subfiledata.contentdata =  modulecontentlookup(modulecontent, seqpath + "/" + subfile)
 
         seqdata.modules.push(subfiledata)
 
@@ -126,7 +147,7 @@ function generate_sequence_data(files, callback) {
 
 
 
-function process_content(callback) { 
+function process_content(modulecontent, callback) { 
 
   var data = {};
 
@@ -136,7 +157,7 @@ function process_content(callback) {
 
       data.modules = module_data;
 
-      generate_sequence_data(files, sequence_data => {
+      generate_sequence_data(modulecontent, files, sequence_data => {
 
         data.sequences = sequence_data;
 
@@ -150,14 +171,17 @@ function process_content(callback) {
 
 }
 
-export default function (moduleOptions) {
+export default async function (moduleOptions) {
+
+  const { $content } = require('@nuxt/content')
+  const modulecontent = await $content('modules', { deep: true }).without(['body']).fetch()
 
   const { nuxt } = this
 
   nuxt.hook('ready', async nuxt => {
     console.log('Nuxt is ready - PROCESS_CONTENT')
 
-    process_content(data => {
+    process_content(modulecontent, data => {
         fs.writeFile('data/content.json', JSON.stringify(data, null, 2), 'utf-8', (err) => {
           if (err) return console.log('An error happened', err)
         });

@@ -1,14 +1,17 @@
 <template>
   <div class="moduleindex">
-    <ul v-for="sequence in sequencedModules">
-      {{ sequence.dir }}
+    <ul v-for="sequence in contentdata.sequences">
+      {{ sequence.slug}}
       <ul v-for="module in sequence.modules">
-        <li :class="[ module.path === $nuxt.$route.path ? 'active' : '']" >
-          <NuxtLink :to="module.path">- {{ moduleTitle(module) }}</NuxtLink>
+        <!--<li :class="[ module.path === $nuxt.$route.path ? 'active' : '']" >-->
+        <NuxtLink :to="sequence.path + '/' + module.file">- {{module.file }} {{ moduleTitle(module.file) }}</NuxtLink>
         </li>
       </ul>
     </ul>
 
+      <ul v-for="module in modules">
+        {{ module }}
+      </ul>
   </div>
 </template>
 
@@ -48,6 +51,11 @@ export default {
       sequencedModules: {},
     };
   }, 
+  computed: {
+    contentdata () {
+      return this.$store.state.contentdata
+    }
+  },
   methods: {
     moduleTitle(module) {
       if(module.title !== "") { 
@@ -64,8 +72,7 @@ export default {
         error({ statusCode: 404, message: 'Page not found' })
       })
 
-
-    var sequencedModules = {};
+    /*
     modules.forEach(m => {
 
       let seqname = m.dir.split('/').at(-1)
@@ -82,7 +89,7 @@ export default {
     console.log(modules)
 
 
-    this.sequencedModules = sequencedModules;
+    this.sequencedModules = sequencedModules;*/
     this.modules = modules;
   },
 }

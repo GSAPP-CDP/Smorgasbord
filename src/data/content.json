@@ -1,9 +1,22 @@
 {
   "modules": {
-    "10-test-spatial-python/index": {
+    "10-test-spatial-python/102-geospatial-data": {
+      "double_links": []
+    },
+    "10-test-spatial-python/103-spatial-analysis-point-pattern": {
       "double_links": []
     },
     "10-test-spatial-python/105-spatial-analysis-clustering": {
+      "double_links": []
+    },
+    "10-test-spatial-python/101-data-manipulation": {
+      "double_links": [
+        "geospatial-data",
+        "test-2",
+        "13-spatial-analysis-point-pattern"
+      ]
+    },
+    "10-test-spatial-python/index": {
       "double_links": []
     },
     "8-test-intro-to-python-in-rhino/81-accessing-the-rhino-apis-in-python": {
@@ -14,72 +27,507 @@
         "data-manipulation"
       ]
     },
-    "10-test-spatial-python/104-spatial-analysis-correlation": {
-      "double_links": []
-    },
     "8-test-intro-to-python-in-rhino/82-working-with-geometry-in-python": {
       "double_links": []
     },
-    "10-test-spatial-python/102-geospatial-data": {
-      "double_links": []
-    },
-    "10-test-spatial-python/101-data-manipulation": {
-      "double_links": [
-        "geospatial-data",
-        "test-2",
-        "13-spatial-analysis-point-pattern"
-      ]
-    },
-    "10-test-spatial-python/103-spatial-analysis-point-pattern": {
+    "10-test-spatial-python/104-spatial-analysis-correlation": {
       "double_links": []
     }
   },
   "sequences": {
     "content/modules/10-test-spatial-python": {
+      "contentdata": {
+        "slug": "spatial-data-python",
+        "moduleid": 100,
+        "title": "Working with Spatial Data in Python",
+        "published": true,
+        "authors": [
+          "Carlo Bailey"
+        ],
+        "toc": [
+          {
+            "id": "sequence-summary",
+            "depth": 2,
+            "text": "Sequence Summary:"
+          },
+          {
+            "id": "why",
+            "depth": 2,
+            "text": "Why?"
+          },
+          {
+            "id": "modules",
+            "depth": 2,
+            "text": "Modules:"
+          }
+        ],
+        "dir": "/modules/10-test-spatial-python",
+        "path": "/modules/10-test-spatial-python/index",
+        "extension": ".md",
+        "createdAt": "2021-12-29T14:31:49.513Z",
+        "updatedAt": "2021-12-29T14:31:49.515Z",
+        "readingTime": 100500,
+        "uniqueLinks": []
+      },
       "ordinal": 10,
+      "path": "10-test-spatial-python",
       "slug": "test-spatial-python",
       "modules": [
         {
           "file": "101-data-manipulation.md",
-          "ordinal": 101
+          "ordinal": 101,
+          "contentdata": {
+            "slug": "101-data-manipulation",
+            "moduleid": 101,
+            "title": "Data Manipulation!",
+            "published": true,
+            "authors": [
+              "Carlo Bailey"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "why-is-this-important",
+                "depth": 2,
+                "text": "Why is this important?"
+              },
+              {
+                "id": "pandas-basics-dataframes--series",
+                "depth": 3,
+                "text": "Pandas Basics: DataFrames + Series"
+              },
+              {
+                "id": "indexing-and-selecting-data",
+                "depth": 3,
+                "text": "Indexing and Selecting Data"
+              },
+              {
+                "id": "vectorization",
+                "depth": 3,
+                "text": "Vectorization"
+              },
+              {
+                "id": "additional-resources",
+                "depth": 2,
+                "text": "Additional Resources"
+              },
+              {
+                "id": "challenge",
+                "depth": 2,
+                "text": "Challenge"
+              }
+            ],
+            "dir": "/modules/10-test-spatial-python",
+            "path": "/modules/10-test-spatial-python/101-data-manipulation",
+            "extension": ".md",
+            "createdAt": "2022-02-18T02:43:03.786Z",
+            "updatedAt": "2022-02-18T02:43:03.787Z",
+            "readingTime": 521700,
+            "uniqueLinks": [
+              "[[ geospatial-data ]]",
+              "[[ test-2 ]]",
+              "[[ 13-spatial-analysis-point-pattern ]]"
+            ]
+          }
         },
         {
           "file": "102-geospatial-data.md",
-          "ordinal": 102
+          "ordinal": 102,
+          "contentdata": {
+            "slug": "102-geospatial-data",
+            "moduleid": 102,
+            "title": "Geospatial Data",
+            "published": true,
+            "authors": [
+              "Carlo Bailey"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "why-is-this-important",
+                "depth": 2,
+                "text": "Why is this important?"
+              },
+              {
+                "id": "geodataframes",
+                "depth": 3,
+                "text": "GeoDataFrames"
+              },
+              {
+                "id": "polygons",
+                "depth": 3,
+                "text": "Polygons"
+              },
+              {
+                "id": "discrete-vs-continous-data",
+                "depth": 3,
+                "text": "Discrete vs Continous Data"
+              },
+              {
+                "id": "graphs",
+                "depth": 3,
+                "text": "Graphs"
+              },
+              {
+                "id": "additional-resources",
+                "depth": 2,
+                "text": "Additional Resources"
+              }
+            ],
+            "dir": "/modules/10-test-spatial-python",
+            "path": "/modules/10-test-spatial-python/102-geospatial-data",
+            "extension": ".md",
+            "createdAt": "2022-02-11T13:28:20.574Z",
+            "updatedAt": "2022-02-11T13:28:20.575Z",
+            "readingTime": 479400,
+            "uniqueLinks": []
+          }
         },
         {
           "file": "103-spatial-analysis-point-pattern.md",
-          "ordinal": 103
+          "ordinal": 103,
+          "contentdata": {
+            "slug": "103-spatial-analysis-point-pattern",
+            "moduleid": 103,
+            "title": "Spatial Analysis – Point Patterns",
+            "published": true,
+            "authors": [
+              "Carlo Bailey"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "point-pattern-analysis",
+                "depth": 3,
+                "text": "Point Pattern Analysis"
+              },
+              {
+                "id": "challenge",
+                "depth": 2,
+                "text": "Challenge"
+              }
+            ],
+            "dir": "/modules/10-test-spatial-python",
+            "path": "/modules/10-test-spatial-python/103-spatial-analysis-point-pattern",
+            "extension": ".md",
+            "createdAt": "2022-02-11T13:28:26.471Z",
+            "updatedAt": "2022-02-11T13:28:26.474Z",
+            "readingTime": 407700,
+            "uniqueLinks": []
+          }
         },
         {
           "file": "104-spatial-analysis-correlation.md",
-          "ordinal": 104
+          "ordinal": 104,
+          "contentdata": {
+            "slug": "104-spatial-analysis-correlation",
+            "moduleid": 104,
+            "title": "Spatial Analysis – Correlation",
+            "published": true,
+            "authors": [
+              "Carlo Bailey"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "correlation",
+                "depth": 3,
+                "text": "Correlation"
+              },
+              {
+                "id": "challenge",
+                "depth": 2,
+                "text": "Challenge"
+              }
+            ],
+            "dir": "/modules/10-test-spatial-python",
+            "path": "/modules/10-test-spatial-python/104-spatial-analysis-correlation",
+            "extension": ".md",
+            "createdAt": "2022-02-11T13:28:32.175Z",
+            "updatedAt": "2022-02-11T13:28:32.177Z",
+            "readingTime": 552000,
+            "uniqueLinks": []
+          }
         },
         {
           "file": "105-spatial-analysis-clustering.md",
-          "ordinal": 105
+          "ordinal": 105,
+          "contentdata": {
+            "slug": "105-spatial-analysis-clustering",
+            "moduleid": 105,
+            "title": "Spatial Analysis – Clustering",
+            "published": true,
+            "authors": [
+              "Carlo Bailey"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "clustering",
+                "depth": 3,
+                "text": "Clustering"
+              },
+              {
+                "id": "challenges",
+                "depth": 2,
+                "text": "Challenges"
+              }
+            ],
+            "dir": "/modules/10-test-spatial-python",
+            "path": "/modules/10-test-spatial-python/105-spatial-analysis-clustering",
+            "extension": ".md",
+            "createdAt": "2022-02-11T14:50:47.749Z",
+            "updatedAt": "2022-02-11T14:50:47.749Z",
+            "readingTime": 78900,
+            "uniqueLinks": []
+          }
         },
         {
           "file": "index.md",
-          "ordinal": 0
+          "ordinal": 0,
+          "contentdata": {
+            "slug": "spatial-data-python",
+            "moduleid": 100,
+            "title": "Working with Spatial Data in Python",
+            "published": true,
+            "authors": [
+              "Carlo Bailey"
+            ],
+            "toc": [
+              {
+                "id": "sequence-summary",
+                "depth": 2,
+                "text": "Sequence Summary:"
+              },
+              {
+                "id": "why",
+                "depth": 2,
+                "text": "Why?"
+              },
+              {
+                "id": "modules",
+                "depth": 2,
+                "text": "Modules:"
+              }
+            ],
+            "dir": "/modules/10-test-spatial-python",
+            "path": "/modules/10-test-spatial-python/index",
+            "extension": ".md",
+            "createdAt": "2021-12-29T14:31:49.513Z",
+            "updatedAt": "2021-12-29T14:31:49.515Z",
+            "readingTime": 100500,
+            "uniqueLinks": []
+          }
         }
       ]
     },
     "content/modules/8-test-intro-to-python-in-rhino": {
+      "contentdata": {
+        "slug": "intro-to-python-scripting-in-rhino",
+        "moduleid": 80,
+        "title": "Intro to Python Scripting in Rhino",
+        "published": true,
+        "authors": [
+          "Danil Nagy"
+        ],
+        "toc": [
+          {
+            "id": "sequence-summary",
+            "depth": 2,
+            "text": "Sequence Summary:"
+          },
+          {
+            "id": "why",
+            "depth": 2,
+            "text": "Why?"
+          },
+          {
+            "id": "modules",
+            "depth": 2,
+            "text": "Modules:"
+          }
+        ],
+        "dir": "/modules/8-test-intro-to-python-in-rhino",
+        "path": "/modules/8-test-intro-to-python-in-rhino/index",
+        "extension": ".md",
+        "createdAt": "2022-02-11T13:32:00.088Z",
+        "updatedAt": "2022-02-11T13:32:00.089Z",
+        "readingTime": 47100,
+        "uniqueLinks": [
+          "[[data-manipulation]]"
+        ]
+      },
       "ordinal": 8,
+      "path": "8-test-intro-to-python-in-rhino",
       "slug": "test-intro-to-python-in-rhino",
       "modules": [
         {
           "file": "81-accessing-the-rhino-apis-in-python.md",
-          "ordinal": 81
+          "ordinal": 81,
+          "contentdata": {
+            "slug": "81-accessing-the-rhino-apis-in-python",
+            "moduleid": 81,
+            "title": "Accessing with the Rhino Libraries in Python",
+            "published": true,
+            "authors": [
+              "Danil Nagy"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "introduction",
+                "depth": 2,
+                "text": "Introduction"
+              },
+              {
+                "id": "working-with-the-rhino-and-grasshopper-libraries",
+                "depth": 2,
+                "text": "Working with the Rhino and Grasshopper Libraries"
+              },
+              {
+                "id": "inputting-geometry",
+                "depth": 3,
+                "text": "Inputting geometry"
+              },
+              {
+                "id": "the-ghpythonlibcomponents-library",
+                "depth": 3,
+                "text": "The ghpythonlib.components library"
+              },
+              {
+                "id": "the-rhinogeometry-library",
+                "depth": 3,
+                "text": "The Rhino.Geometry library"
+              },
+              {
+                "id": "the-rhinoscriptsyntax-library",
+                "depth": 3,
+                "text": "The rhinoscriptsyntax library"
+              }
+            ],
+            "dir": "/modules/8-test-intro-to-python-in-rhino",
+            "path": "/modules/8-test-intro-to-python-in-rhino/81-accessing-the-rhino-apis-in-python",
+            "extension": ".md",
+            "createdAt": "2022-02-11T13:26:46.406Z",
+            "updatedAt": "2022-02-11T13:26:46.408Z",
+            "readingTime": 581400,
+            "uniqueLinks": []
+          }
         },
         {
           "file": "82-working-with-geometry-in-python.md",
-          "ordinal": 82
+          "ordinal": 82,
+          "contentdata": {
+            "slug": "82-working-with-geometry-in-python",
+            "moduleid": 82,
+            "title": "Working with geometry in Python",
+            "published": true,
+            "authors": [
+              "Danil Nagy"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "introduction",
+                "depth": 2,
+                "text": "Introduction"
+              },
+              {
+                "id": "working-with-sets-of-data",
+                "depth": 2,
+                "text": "Working with sets of data"
+              },
+              {
+                "id": "working-with-datatrees-in-python",
+                "depth": 2,
+                "text": "Working with DataTrees in Python"
+              },
+              {
+                "id": "computing-geometry-in-python",
+                "depth": 2,
+                "text": "Computing geometry in Python"
+              },
+              {
+                "id": "conclusion",
+                "depth": 2,
+                "text": "Conclusion"
+              }
+            ],
+            "dir": "/modules/8-test-intro-to-python-in-rhino",
+            "path": "/modules/8-test-intro-to-python-in-rhino/82-working-with-geometry-in-python",
+            "extension": ".md",
+            "createdAt": "2022-02-11T13:28:01.478Z",
+            "updatedAt": "2022-02-11T13:28:01.478Z",
+            "readingTime": 508800,
+            "uniqueLinks": []
+          }
         },
         {
           "file": "index.md",
-          "ordinal": 0
+          "ordinal": 0,
+          "contentdata": {
+            "slug": "intro-to-python-scripting-in-rhino",
+            "moduleid": 80,
+            "title": "Intro to Python Scripting in Rhino",
+            "published": true,
+            "authors": [
+              "Danil Nagy"
+            ],
+            "toc": [
+              {
+                "id": "sequence-summary",
+                "depth": 2,
+                "text": "Sequence Summary:"
+              },
+              {
+                "id": "why",
+                "depth": 2,
+                "text": "Why?"
+              },
+              {
+                "id": "modules",
+                "depth": 2,
+                "text": "Modules:"
+              }
+            ],
+            "dir": "/modules/8-test-intro-to-python-in-rhino",
+            "path": "/modules/8-test-intro-to-python-in-rhino/index",
+            "extension": ".md",
+            "createdAt": "2022-02-11T13:32:00.088Z",
+            "updatedAt": "2022-02-11T13:32:00.089Z",
+            "readingTime": 47100,
+            "uniqueLinks": [
+              "[[data-manipulation]]"
+            ]
+          }
         }
       ]
     }
