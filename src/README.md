@@ -4,8 +4,14 @@ This is the repository for the GSAPP Smorgasbord!
 
 
 
-## Architecture
 
+## Architecture/build process
+
+1. On site build, a script/Nuxt module (`modules/process_content.js`) parses Markdown content in the `/content` folder and generates linkages between them.
+2. This data is generated in `data/content.json`.
+3. This data is loaded into Vuex via `store/index.js`
+4. Content that is structural (Menu generation & double linking) uses this generated data. 
+5. Display and retrieval of content is done via Nuxt Content.
 
 
 
