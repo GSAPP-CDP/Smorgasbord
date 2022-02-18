@@ -114,6 +114,11 @@ function generate_sequence_data(modulecontent, files, callback) {
 
       })
 
+      seqdata.modules.sort(function(a, b) {
+        return a.ordinal - b.ordinal;
+      });
+
+
       //var seqpath = s.replace(MODULES_DIR + '/', '')
       //
       //

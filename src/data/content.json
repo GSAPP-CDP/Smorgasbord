@@ -1,26 +1,20 @@
 {
   "modules": {
-    "10-test-spatial-python/102-geospatial-data": {
-      "double_links": []
-    },
-    "10-test-spatial-python/105-spatial-analysis-clustering": {
-      "double_links": []
-    },
-    "10-test-spatial-python/104-spatial-analysis-correlation": {
-      "double_links": []
-    },
-    "8-test-intro-to-python-in-rhino/81-accessing-the-rhino-apis-in-python": {
-      "double_links": []
-    },
-    "10-test-spatial-python/index": {
-      "double_links": []
-    },
     "10-test-spatial-python/101-data-manipulation": {
       "double_links": [
         "geospatial-data",
         "test-2",
         "13-spatial-analysis-point-pattern"
       ]
+    },
+    "10-test-spatial-python/index": {
+      "double_links": []
+    },
+    "8-test-intro-to-python-in-rhino/81-accessing-the-rhino-apis-in-python": {
+      "double_links": []
+    },
+    "10-test-spatial-python/105-spatial-analysis-clustering": {
+      "double_links": []
     },
     "8-test-intro-to-python-in-rhino/index": {
       "double_links": [
@@ -31,6 +25,12 @@
       "double_links": []
     },
     "8-test-intro-to-python-in-rhino/82-working-with-geometry-in-python": {
+      "double_links": []
+    },
+    "10-test-spatial-python/104-spatial-analysis-correlation": {
+      "double_links": []
+    },
+    "10-test-spatial-python/102-geospatial-data": {
       "double_links": []
     }
   },
@@ -75,6 +75,45 @@
       "path": "8-test-intro-to-python-in-rhino",
       "slug": "test-intro-to-python-in-rhino",
       "modules": [
+        {
+          "file": "index.md",
+          "ordinal": 0,
+          "contentdata": {
+            "slug": "intro-to-python-scripting-in-rhino",
+            "moduleid": 80,
+            "title": "Intro to Python Scripting in Rhino",
+            "published": true,
+            "authors": [
+              "Danil Nagy"
+            ],
+            "toc": [
+              {
+                "id": "sequence-summary",
+                "depth": 2,
+                "text": "Sequence Summary:"
+              },
+              {
+                "id": "why",
+                "depth": 2,
+                "text": "Why?"
+              },
+              {
+                "id": "modules",
+                "depth": 2,
+                "text": "Modules:"
+              }
+            ],
+            "dir": "/modules/8-test-intro-to-python-in-rhino",
+            "path": "/modules/8-test-intro-to-python-in-rhino/index",
+            "extension": ".md",
+            "createdAt": "2022-02-11T13:32:00.088Z",
+            "updatedAt": "2022-02-11T13:32:00.089Z",
+            "readingTime": 47100,
+            "uniqueLinks": [
+              "[[data-manipulation]]"
+            ]
+          }
+        },
         {
           "file": "81-accessing-the-rhino-apis-in-python.md",
           "ordinal": 81,
@@ -183,45 +222,6 @@
             "readingTime": 508800,
             "uniqueLinks": []
           }
-        },
-        {
-          "file": "index.md",
-          "ordinal": 0,
-          "contentdata": {
-            "slug": "intro-to-python-scripting-in-rhino",
-            "moduleid": 80,
-            "title": "Intro to Python Scripting in Rhino",
-            "published": true,
-            "authors": [
-              "Danil Nagy"
-            ],
-            "toc": [
-              {
-                "id": "sequence-summary",
-                "depth": 2,
-                "text": "Sequence Summary:"
-              },
-              {
-                "id": "why",
-                "depth": 2,
-                "text": "Why?"
-              },
-              {
-                "id": "modules",
-                "depth": 2,
-                "text": "Modules:"
-              }
-            ],
-            "dir": "/modules/8-test-intro-to-python-in-rhino",
-            "path": "/modules/8-test-intro-to-python-in-rhino/index",
-            "extension": ".md",
-            "createdAt": "2022-02-11T13:32:00.088Z",
-            "updatedAt": "2022-02-11T13:32:00.089Z",
-            "readingTime": 47100,
-            "uniqueLinks": [
-              "[[data-manipulation]]"
-            ]
-          }
         }
       ]
     },
@@ -263,6 +263,43 @@
       "path": "10-test-spatial-python",
       "slug": "test-spatial-python",
       "modules": [
+        {
+          "file": "index.md",
+          "ordinal": 0,
+          "contentdata": {
+            "slug": "spatial-data-python",
+            "moduleid": 100,
+            "title": "Working with Spatial Data in Python",
+            "published": true,
+            "authors": [
+              "Carlo Bailey"
+            ],
+            "toc": [
+              {
+                "id": "sequence-summary",
+                "depth": 2,
+                "text": "Sequence Summary:"
+              },
+              {
+                "id": "why",
+                "depth": 2,
+                "text": "Why?"
+              },
+              {
+                "id": "modules",
+                "depth": 2,
+                "text": "Modules:"
+              }
+            ],
+            "dir": "/modules/10-test-spatial-python",
+            "path": "/modules/10-test-spatial-python/index",
+            "extension": ".md",
+            "createdAt": "2021-12-29T14:31:49.513Z",
+            "updatedAt": "2021-12-29T14:31:49.515Z",
+            "readingTime": 100500,
+            "uniqueLinks": []
+          }
+        },
         {
           "file": "101-data-manipulation.md",
           "ordinal": 101,
@@ -489,43 +526,6 @@
             "createdAt": "2022-02-11T14:50:47.749Z",
             "updatedAt": "2022-02-11T14:50:47.749Z",
             "readingTime": 78900,
-            "uniqueLinks": []
-          }
-        },
-        {
-          "file": "index.md",
-          "ordinal": 0,
-          "contentdata": {
-            "slug": "spatial-data-python",
-            "moduleid": 100,
-            "title": "Working with Spatial Data in Python",
-            "published": true,
-            "authors": [
-              "Carlo Bailey"
-            ],
-            "toc": [
-              {
-                "id": "sequence-summary",
-                "depth": 2,
-                "text": "Sequence Summary:"
-              },
-              {
-                "id": "why",
-                "depth": 2,
-                "text": "Why?"
-              },
-              {
-                "id": "modules",
-                "depth": 2,
-                "text": "Modules:"
-              }
-            ],
-            "dir": "/modules/10-test-spatial-python",
-            "path": "/modules/10-test-spatial-python/index",
-            "extension": ".md",
-            "createdAt": "2021-12-29T14:31:49.513Z",
-            "updatedAt": "2021-12-29T14:31:49.515Z",
-            "readingTime": 100500,
             "uniqueLinks": []
           }
         }

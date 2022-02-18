@@ -4,7 +4,7 @@
       {{ sequence.contentdata.title }}
       <ul v-for="module in sequence.modules">
         <!--<li :class="[ module.path === $nuxt.$route.path ? 'active' : '']" >-->
-        <NuxtLink :to="sequence.path + '/' + module.file">- {{ module.contentdata.title }}</NuxtLink>
+        <NuxtLink :to="module.contentdata.path">- {{ module.contentdata.title }}</NuxtLink>
         </li>
       </ul>
     </ul>
@@ -44,8 +44,6 @@ ul {
 export default {
   data() {
     return {
-      modules: [],
-      sequencedModules: {},
     };
   }, 
   computed: {
@@ -54,40 +52,6 @@ export default {
     }
   },
   methods: {
-    moduleTitle(module) {
-      if(module.title !== "") { 
-        return module.title;
-      } else {
-        return "index";
-      }
-    },
-  },
-  async fetch() {
-    var modules = await this.$content('modules', { deep: true }).sortBy('moduleid') //TODO sort by other metric
-      .fetch()
-      .catch((err) => {
-        error({ statusCode: 404, message: 'Page not found' })
-      })
-
-    /*
-    modules.forEach(m => {
-
-      let seqname = m.dir.split('/').at(-1)
-      console.log(m.path.split('/'))
-
-    	if (!sequencedModules.hasOwnProperty(seqname)) {
-        sequencedModules[seqname] = {};
-        sequencedModules[seqname].dir = seqname;
-        sequencedModules[seqname].modules = [];
-      } 
-      sequencedModules[seqname].modules.push(m);
-    });
-
-    console.log(modules)
-
-
-    this.sequencedModules = sequencedModules;*/
-    this.modules = modules;
   },
 }
 </script>
