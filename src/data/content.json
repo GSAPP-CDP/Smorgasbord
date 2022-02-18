@@ -7,10 +7,13 @@
         "13-spatial-analysis-point-pattern"
       ]
     },
-    "10-test-spatial-python/index": {
+    "10-test-spatial-python/102-geospatial-data": {
       "double_links": []
     },
-    "8-test-intro-to-python-in-rhino/81-accessing-the-rhino-apis-in-python": {
+    "10-test-spatial-python/103-spatial-analysis-point-pattern": {
+      "double_links": []
+    },
+    "10-test-spatial-python/104-spatial-analysis-correlation": {
       "double_links": []
     },
     "10-test-spatial-python/105-spatial-analysis-clustering": {
@@ -21,16 +24,13 @@
         "data-manipulation"
       ]
     },
-    "10-test-spatial-python/103-spatial-analysis-point-pattern": {
+    "10-test-spatial-python/index": {
       "double_links": []
     },
     "8-test-intro-to-python-in-rhino/82-working-with-geometry-in-python": {
       "double_links": []
     },
-    "10-test-spatial-python/104-spatial-analysis-correlation": {
-      "double_links": []
-    },
-    "10-test-spatial-python/102-geospatial-data": {
+    "8-test-intro-to-python-in-rhino/81-accessing-the-rhino-apis-in-python": {
       "double_links": []
     }
   },

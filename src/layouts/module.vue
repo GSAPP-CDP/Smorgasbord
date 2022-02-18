@@ -1,12 +1,13 @@
 <template>
-  <div id="default">
-    <div id="nav"><Nav index='true'/></div>
+  <div id="layout-module">
+    <div id="nav"><Nav /></div>
+    <div id="content"><Nuxt /></div>
     <div id="graph"><Graph /></div>
   </div>
 </template>
 
-<style >
-#default {
+<style scoped>
+#layout-module {
   display: flex;
   width: 100%;
   height: 100vh;
@@ -24,7 +25,7 @@ a, a:visited {
 
 #nav {
   overflow-y: auto;
-  flex-basis: 80vw;
+  flex-basis: 350px;
   flex-grow: 0;
   flex-shrink: 0;
 }
@@ -37,4 +38,5 @@ a, a:visited {
   display: none;
 }
 </style>
+
 

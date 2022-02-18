@@ -20,5 +20,6 @@ export default {
       modules: [],
     };
   },
+  layout: 'default',
 }
 </script>

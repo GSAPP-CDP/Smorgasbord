@@ -2,15 +2,14 @@
   <div class="nav">
     <Logo />
     <div class="title">List of Modules</div>
-    <ModuleIndex />
+    <ModuleIndex :index="index" />
   </div>
 </template>
 
 <script>
 export default {
   name: 'Nav',
-  props: {
-  },
+  props: ['index'],
   computed: {
   },
 }
