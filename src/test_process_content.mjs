@@ -72,9 +72,21 @@ function generate_sequence_data(files, callback) {
         return f.split('/').pop(0);
       });
 
-      // SUBFILES TO ORDINAL
+      /* SUBFILES TO ORDINAL
+      //
+      // subfiles contains all the nested subfiles inside each folder (s)
+      // take each file, extract the ordinal (if it exists, add to ordinal, split, etc)k
+      // make into format:
+      //     sequences: [
+        "intro-to-gh": {
+            modules: [ ... ],
+        },
+        "advanced-gis": {
+            modules: [ ... ],
+        },
+    ],
 
-
+*/
       console.log("x", s, subfiles)
 
       console.log(seqdata)
