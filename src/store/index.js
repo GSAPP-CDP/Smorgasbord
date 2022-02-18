@@ -1,6 +1,9 @@
+var content = require('/data/content.json')
+
 export const state = () => ({
   counter: 0,
-  path: ""
+  path: "",
+  content:  content,
 })
 
 export const mutations = {
