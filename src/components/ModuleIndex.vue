@@ -1,17 +1,14 @@
 <template>
   <div class="moduleindex">
     <ul v-for="sequence in contentdata.sequences">
-      {{ sequence.slug}}
+      {{ sequence.contentdata.title }}
       <ul v-for="module in sequence.modules">
         <!--<li :class="[ module.path === $nuxt.$route.path ? 'active' : '']" >-->
-        <NuxtLink :to="sequence.path + '/' + module.file">- {{module.file }} {{ moduleTitle(module.file) }}</NuxtLink>
+        <NuxtLink :to="sequence.path + '/' + module.file">- {{ module.contentdata.title }}</NuxtLink>
         </li>
       </ul>
     </ul>
 
-      <ul v-for="module in modules">
-        {{ module }}
-      </ul>
   </div>
 </template>
 

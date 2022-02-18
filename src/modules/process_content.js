@@ -67,7 +67,7 @@ function generate_sequence_data(modulecontent, files, callback) {
 
   glob(MODULES_DIR + '/*', function(err, sequences) {
 
-    var sequences_data = {};
+    var sequences_data = [];
 
     sequences.forEach(s => {
 
@@ -117,8 +117,8 @@ function generate_sequence_data(modulecontent, files, callback) {
       //var seqpath = s.replace(MODULES_DIR + '/', '')
       //
       //
-      sequences_data[s] = seqdata;
-
+      sequences_data.push(seqdata)
+    
  
       /* SUBFILES TO ORDINAL
       //
@@ -137,6 +137,10 @@ function generate_sequence_data(modulecontent, files, callback) {
 */
 
 
+    });
+
+    sequences_data.sort(function(a, b) {
+      return a.ordinal - b.ordinal;
     });
 
     callback(sequences_data)
