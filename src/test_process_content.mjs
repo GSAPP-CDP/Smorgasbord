@@ -53,6 +53,8 @@ function generate_sequence_data(files, callback) {
 
   glob(MODULES_DIR + '/*', function(err, sequences) {
 
+    var sequences_data = {};
+
     sequences.forEach(s => {
 
       var seqdata = {};
@@ -72,6 +74,31 @@ function generate_sequence_data(files, callback) {
         return f.split('/').pop(0);
       });
 
+
+      seqdata.modules = []
+
+      subfiles.forEach(subfile => {
+
+        let subfiledata = { file: subfile }
+        
+        if(subfile.match(regordinal)) {
+          subfiledata.ordinal = parseInt(subfile.match(regordinal)[1]);
+        } else if(subfile === 'index.md') {
+          subfiledata.ordinal = 0;
+        } else {
+          subfiledata.ordinal = 9999; // autogenerate ordinals, later TODO
+        }
+
+        seqdata.modules.push(subfiledata)
+
+      })
+
+      //var seqpath = s.replace(MODULES_DIR + '/', '')
+      //
+      //
+      sequences_data[s] = seqdata;
+
+ 
       /* SUBFILES TO ORDINAL
       //
       // subfiles contains all the nested subfiles inside each folder (s)
@@ -87,14 +114,13 @@ function generate_sequence_data(files, callback) {
     ],
 
 */
-      console.log("x", s, subfiles)
 
-      console.log(seqdata)
 
     });
+
+    callback(sequences_data)
   })
 
-  callback("");
 
 }
 
@@ -114,7 +140,9 @@ glob(MODULES_DIR + '/**/*.md', function(err, files) {
 
       data.sequences = sequence_data;
 
-      console.log(data);
+      fs.writeFile('data/content.json', JSON.stringify(data, null, 2), 'utf-8', (err) => {
+        if (err) return console.log('An error happened', err)
+      });
 
     })
 

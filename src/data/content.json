@@ -1,6 +1,87 @@
 {
-  "userId": 1,
-  "id": 1,
-  "title": "delectus aut autem",
-  "completed": false
+  "modules": {
+    "10-test-spatial-python/index": {
+      "double_links": []
+    },
+    "10-test-spatial-python/105-spatial-analysis-clustering": {
+      "double_links": []
+    },
+    "8-test-intro-to-python-in-rhino/81-accessing-the-rhino-apis-in-python": {
+      "double_links": []
+    },
+    "8-test-intro-to-python-in-rhino/index": {
+      "double_links": [
+        "data-manipulation"
+      ]
+    },
+    "10-test-spatial-python/104-spatial-analysis-correlation": {
+      "double_links": []
+    },
+    "8-test-intro-to-python-in-rhino/82-working-with-geometry-in-python": {
+      "double_links": []
+    },
+    "10-test-spatial-python/102-geospatial-data": {
+      "double_links": []
+    },
+    "10-test-spatial-python/101-data-manipulation": {
+      "double_links": [
+        "geospatial-data",
+        "test-2",
+        "13-spatial-analysis-point-pattern"
+      ]
+    },
+    "10-test-spatial-python/103-spatial-analysis-point-pattern": {
+      "double_links": []
+    }
+  },
+  "sequences": {
+    "content/modules/10-test-spatial-python": {
+      "ordinal": 10,
+      "slug": "test-spatial-python",
+      "modules": [
+        {
+          "file": "101-data-manipulation.md",
+          "ordinal": 101
+        },
+        {
+          "file": "102-geospatial-data.md",
+          "ordinal": 102
+        },
+        {
+          "file": "103-spatial-analysis-point-pattern.md",
+          "ordinal": 103
+        },
+        {
+          "file": "104-spatial-analysis-correlation.md",
+          "ordinal": 104
+        },
+        {
+          "file": "105-spatial-analysis-clustering.md",
+          "ordinal": 105
+        },
+        {
+          "file": "index.md",
+          "ordinal": 0
+        }
+      ]
+    },
+    "content/modules/8-test-intro-to-python-in-rhino": {
+      "ordinal": 8,
+      "slug": "test-intro-to-python-in-rhino",
+      "modules": [
+        {
+          "file": "81-accessing-the-rhino-apis-in-python.md",
+          "ordinal": 81
+        },
+        {
+          "file": "82-working-with-geometry-in-python.md",
+          "ordinal": 82
+        },
+        {
+          "file": "index.md",
+          "ordinal": 0
+        }
+      ]
+    }
+  }
 }
