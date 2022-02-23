@@ -20,7 +20,8 @@
 <style scoped>
 
 .post {
-  padding: 110px 30px 100px 10px;
+  padding: 110px 30px 100px 30px;
+  max-width: 800px;
   font-size: 1.0em;
   font-weight: regular;
   color: #444;

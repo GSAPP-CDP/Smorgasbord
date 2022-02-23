@@ -34,6 +34,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #0096EA !important;
+}
+
 
 
 ul {
@@ -45,12 +49,17 @@ ul {
   content: "•";
 }
 
+.sequencetitle {
+  font-weight: bold;
+  font-size: 1.15em;
+}
+
 .indexview .bullet {
 }
 
 
 .indexview.moduleindex {
-  font-size: 1.3em;
+  font-size: 1.25em;
 }
 
 .indexview .sequence {
@@ -58,6 +67,7 @@ ul {
   flex-direction: row;
   border-top: 2px solid #555;
   padding-top: 5px;
+  margin-bottom: 5px;
 }
 
 .indexview .sequence.hover {
@@ -71,6 +81,10 @@ ul {
 .indexview .sequencemodules {
   width: 50%;
   font-style: italics;
+}
+
+.indexview .ul {
+  padding-left: 0px;
 }
 
 </style>

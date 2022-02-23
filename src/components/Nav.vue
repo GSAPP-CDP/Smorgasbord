@@ -1,7 +1,6 @@
 <template>
   <div class="nav">
-    <Logo />
-    <div class="title">List of Modules</div>
+    <!--<div class="title">List of Modules</div>-->
     <ModuleIndex :index="index" />
   </div>
 </template>
@@ -19,7 +18,6 @@ export default {
 <style scoped>
   .nav {
     color: #4A4A4A;
-    padding: 20px 30px;
     font-weight: bold;
     font-size: 0.85em;
   }

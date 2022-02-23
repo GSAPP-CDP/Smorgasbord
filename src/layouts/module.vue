@@ -1,8 +1,11 @@
 <template>
   <div id="layout-module">
-    <div id="nav"><Nav /></div>
-    <div id="content"><Nuxt /></div>
-    <div id="graph"><Graph /></div>
+    <div id="nav-column">
+      <div id="logo"><Logo width="220px"/></div>
+      <div id="nav"><Nav /></div>
+    </div>
+    <div id="content-column"><Nuxt /></div>
+    <div id="graph-column"><Graph /></div>
   </div>
 </template>
 
@@ -23,18 +26,24 @@ a, a:visited {
 #default > * {
 }
 
-#nav {
+#nav-column {
   overflow-y: auto;
   flex-basis: 350px;
   flex-grow: 0;
   flex-shrink: 0;
+  padding: 20px 30px;
 }
 
-#content {
+#logo {
+  height: 100px;
+}
+
+#content-column {
   overflow-y: auto;
+  width: 100%;
 }
 
-#graph {
+#graph-column {
   display: none;
 }
 </style>

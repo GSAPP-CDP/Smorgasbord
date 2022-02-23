@@ -14,7 +14,6 @@ function modulecontentlookup(modulecontent, filepath) {
     return filepath === m.path.replace("/modules/", "") + m.extension 
   });
 
-  console.log(filtered);
 
   if(filtered.length > 0) {
     return filtered[0];
