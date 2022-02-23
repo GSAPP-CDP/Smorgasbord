@@ -9,8 +9,6 @@
 
 
 p {
-  font-size: 3em;
-  color: #4CBF8F;
   margin-bottom: 15px;
   word-break: break-word;
 }
