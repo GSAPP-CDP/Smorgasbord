@@ -7,27 +7,45 @@ authors:
  - "Violet Whitney"
 ---
 
-Ambient Computing:
-===========================================
-
 # Sounds, Speech and Macros
-## Module Summary
 In this module you will learn how to work with sound in processing: 
 - playing an audio file
 - using the microphone
 - using speech
 
-## Conceptual Introduction, or: Why is this interesting / important?
+## Sound is fundamental to ambient environments
 Audio and speech are critical aspects to ambient environments. Because sound does not require our visual attention it has been the go-to interaction mechanism for smart home devices. 
 
+### Companies investing in speech and audio
+Today's major technologies from Amazon, Apple, to Google have invested heavily in audio and speech based commands because it extends as the primary mode for triggers and actions in an ambient environment: take for example Amazon Echos, Apple's Siri, and the Google Home. Each of these relies on a microphone and software to understand the spoken command, then responds to the command with a speaker. Consider the almost eerie level of this human-esk conversation between a person and their smart home system depicted in Amazon's patent for the Echo.
+
+![](images/sound_14.png#img-left)
+
+### Why sound is a great communication mechanism for ambient environments 
+Sound lends itself to ambient environments. It does not require the same visual attention that a screen or display does. You can hear something in the background to pick up the information that is shared by that sound. It is also easy to move about a space and still hear a sound. Additionally, speech also lends itself well to many people. Take for example the training required to show someone how to enter a command on a computer, vs training someone to speak to their smart home device. Most people already know how to speak. This makes speech based systems well suited to a broader base of people. 
+Consider the amount of attention required for a visually based system:
+
+![](images/sound_15.gif#img-left)
+
+### Ethical considerations for smart home systems
+
+privacy           |  assumptions of race and gender in service |  reliance on technology
+:-------------------------:|:-------------------------:|:-------------------------:
+![](images/sound-13.png)  |  ![](images/sound-12.png)  |  ![](images/sound-11.png)
+
+### Inspirational projects
+
 Below are some examples of artists using sound in Processing in their own work:
+[Sound Translator](https://vimeo.com/groups/processing/videos/3102434)
+[The Computer Orchestra](https://vimeo.com/74922458?embedded=true&source=vimeo_logo&owner=20728835)
+[Visual Sound Design](https://vimeo.com/12472962?embedded=true&source=vimeo_logo&owner=398601)
+[Fine Collection of Curious Objects](https://vimeo.com/10173262?embedded=true&source=vimeo_logo&owner=2777324)
+[Quad Soundscape Generator](https://vimeo.com/24359772?embedded=true&source=vimeo_logo&owner=1242706)
 [Sound Translator](https://vimeo.com/groups/processing/videos/3102434)
 
 
 
-## Tutorial
-
-### Playing Sounds 
+## Playing Sounds 
 1. From Processing go to `Sketch` → `Import Library`→ `Add Library` → search for **“sound”** and select `Sound` | Provides a simple way to work with audio → and click ↓ Install.
 
 2. Now in your Processing sketch copy in the following code from the codeblock below. If you get stuck, you can also [download the full sketch from here](https://drive.google.com/file/d/11ST40zIHw7ZzOZd78WWhkX1thc2AmTmv/view).
@@ -68,8 +86,11 @@ Drag and drop the sound files you’ve just downloaded into your sketch folder a
 
 5. You can find more free sounds by creating an account at [https://freesound.org/](https://freesound.org/) and downloading your own files that you would like to play.
 
+### Challenge
+- Level beginner - can you change this script to use another sound from [https://freesound.org/](https://freesound.org/)?
+- Level intermediate - can you have the sound change between multiple sound files based on the position of your mousee? 
 
-### Listening to Your Mic
+## Listening to Your Mic
 To listen to the mic on your computer copy and paste the text from below. You can also download this Processing file directly from here.
 ```java
 import processing.sound.*;
@@ -98,11 +119,12 @@ void draw() {
 }
 ```
 
-
 [![Listening to Your Mic](https://res.cloudinary.com/marcomontalbano/image/upload/v1636403273/video_to_markdown/images/youtube--5f6nnXDe4Aw-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/5f6nnXDe4Aw "Listening to Your Mic")
 
+### Challenge
+- Level beginner - can you change this script to change the color of the ellipse based on the volume of the sound?
 
-### Text to Speech
+## Text to Speech
 **Getting A Mac Laptop to Speak**  
 Processing can execute commands outside of Processing. On macs we can make our computers do speech to text:
 
@@ -123,7 +145,7 @@ void setup(){
 ![sound-4](images/sounds_4.jpeg#img-left)
 
 **Speaking to the Amazon Echo**
-You can also make your Mac speak to an Amazon Echo:
+You can also make a Mac speak to an Amazon Echo:
 
 ```java
 void setup(){
