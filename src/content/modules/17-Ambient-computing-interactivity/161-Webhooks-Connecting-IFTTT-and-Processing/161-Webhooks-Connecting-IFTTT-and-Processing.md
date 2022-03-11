@@ -7,25 +7,31 @@ authors:
  - "Violet Whitney"
 ---
 
-Ambient Computing:
-===========================================
-
 # Webhooks: Connecting IFTTT and Processing
-## Module Summary
+In this module you will learn about webhooks and how to connect Processing to IFTTT recipes.
 
-[Webhooks](https://ifttt.com/maker_webhooks) allows you to make or receive a web request with IFTTT. This means that we can get applications not already supported by IFTTT to talk to IFTTT. We will use Processing to create an HTTP request that will alert our webhook triggering an action in IFTTT. There will be three basic parts to linking IFTTT and Processing:
+[Webhooks](https://ifttt.com/maker_webhooks) allows you to make or receive a **web request** with IFTTT. A **web request** aka an **http request** allows software developers to request information from a website, such as data from an IFTTT sensor, or a street view image from Google. This means that we can get applications not yet supported by IFTTT, such as Processing, to talk to IFTTT. We will use Processing to create an HTTP request that will alert our webhook triggering an action in IFTTT. There will be three basic parts to linking IFTTT and Processing:
 
 ![processing-diagram](images/Webhooks-Connecting-IFTTT-and-Processing-diagram1.png#img-full)
 
-- **Processing (HTTP request)** — here we can program our own unique triggers such as a button, light level, sound, number of faces in a camera can trigger our webhook. The important part is that we have all the necessary information in Processing (the API key for webhooks, and the right “event name” from webhooks.
-- **Webhook (Trigger)**— when Processing triggers an HTTP request with our event name, webhooks will relay this trigger to the appropriate action based on the recipe we have created
+- **Processing (HTTP request)** — here we can program our own unique triggers such as: a button, light level, sound, number of faces in a camera; to trigger our webhook. The important part is that we have all the necessary information in Processing (the **API key** for webhooks, and the right **“event name”** from webhooks. We'll talk about these terms in the tutorial.
+- **Webhook (Trigger)**— when Processing triggers an HTTP request with our event name, webhooks will relay this trigger to the appropriate action based on the recipe we've created
 - **IFTTT (Action)** — This can be any action from IFTTT as it normally works in IFTTT recipes.
 
 
-## Conceptual Introduction
-TK
-APIs, ability to talk to things on the web
-expanding the spatial UX toolkit - connecting software UI/programmability of Processing to IOT and microservice world 
+## Why should I care about webhooks? 
+**On a technical level**, what is particularly important about learning how to work with webhooks is that it teaches us how to talk to all kinds of websites. By learning the basic structure of a webhook, we will learn what is typically required when talking with a website.
+
+![processing-diagram](images/webhooks-11.gif#img-full)
+
+**On a design level**, we're learning how to connect various "worlds" that don't usually talk to each other: Processing, IOT sensors, microservices. Designers that have a knack for connecting different "worlds" such as this will have much greater fluidity when prototyping ideas and a greater ability to innovate because they won't be bound by one "world's" capabilities. For example to prototype a Grasshopper plugin can only get you so far, but if you now learn how to connect Grasshopper with you phone, the two worlds have much greater cabalities together. 
+
+**On a societal level**, this has cascading consequences for what designers can build, and thus will impact the spaces and technology they create. A designer who can connect the world of the web, with sensor technologies, with physical spaces, will have the ability to connect worlds that have never been united. Thus, these designers, will change the type of real world that we live in. One where interactions on the web don't require you spending your day in front of a computer screen, or clicking buttons on a tiny phone. One where web based interactions can be more contextually aware of where and when information is most relevant: i.e. getting pinged by a work email may not be relevant if you are at home with your family for Thanksgiving dinner.
+
+**Ultimately** webhooks allow us to expand a spatial UX toolkit. We can think about user experiences in physical spaces and connect the world of the web with the physical world.
+
+![processing-diagram](images/webhook1-12.gif#img-full)
+
 
 ## Tutorial
 ### Creating A IFTTT Recipe with Webhooks
@@ -153,3 +159,7 @@ void keyPressed() {
 ### Can you create your own Processing<>IFTTT Recipe?
 1. Try changing the trigger in Processing to something other than `keyPressed`. Could it be when the mouse is in an area of the canvas, or maybe at a certain time?
 2. Try changing the webhook action in IFTTT. It doesn't need to connect to Kasa, it could connect to a camera, an email, a sound, or something else.
+
+
+## Resources
+[What are web requests?](https://www.codecademy.com/articles/http-requests)

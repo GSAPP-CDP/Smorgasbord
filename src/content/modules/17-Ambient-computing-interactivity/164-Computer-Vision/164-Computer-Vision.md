@@ -34,7 +34,6 @@ In the 1950s Frank and Lilian Gilbreth pioneered scientific management looking a
 In the same way online environments are AB Tested. Physical spaces have also been tested to be optimized. The film “The Founder” documents have furniture and layout of a restaurant was optimized to improve efficiency in a McDonalds.
 
 ![cv-3](images/cv-3.jpeg#img-left)
-VIDEO
 
 Today tactical urbanists AB test spaces deploying lightweight furniture in physical spaces:
 ![cv-4](images/cv-4.jpeg#img-left)
@@ -49,12 +48,14 @@ Today tactical urbanists AB test spaces deploying lightweight furniture in physi
   - *Capture* and *Video* have the same functionality as a *PImage*
 
 2. If you wanted to detect the movement of an object, how would you track it? You need to understand the change in the image. You could loop over every pixel in the frame storing its pixel values from RGB and comparing how much in changed from the last frame.
- ![cv-6](images/cv-6.jpeg#img-left)
+ ![cv-6](images/cv-6.png#img-left)
  ![cv-7](images/cv-7.gif#img-left)
  
 ### Face Tracking
-1. To get started you will need these libraries: Go to `Sketch`→`Import Library` → `Add Library` →and search for the following libraries: *Video* and *OpenCV for Processing*
- ![cv-8](images/cv-7.gif#img-left)
+1. To get started you will need these libraries: 
+  - Go to `Sketch`→`Import Library` → `Add Library` →and search for the following libraries: *Video* and *OpenCV for Processing*
+ ![cv-8](images/cv-8.png#img-left)
+ 
 2. Next you will need to download the [jARToolkit](https://drive.google.com/file/d/1gswr4KWUrkbHAcEUYhlIRpBt2_SNxeB_/view) library directly.
   - Unzip the folder.
   - Search for your `Processing` folder on your computer, you will have a sub-folder names `libraries`.
@@ -98,5 +99,24 @@ void captureEvent(Capture c) {
   c.read();
 }
 ```
- ![cv-9](images/cv-9.jpeg#img-left)
+## Challenge
+How might you create a system of your own?
+Example: Consider an icebreaker system for strangers at a party
+- Check whether faces are in view
+  - place a camera where you want to detect whether there are stranger faces in the location where you want strangers to meet
+
+- Create a message
+  - use [sound](https://medium.com/measuring-the-great-indoors/sounds-speech-in-processing-df1e908940c) in Processing to play a message
+  - use an `if` statement to play your message anytime you detect more than one face that will cue your strangers to meet with a fun icebreaker
+
+Example: Student project changing a light based on their location in a room.  
+
+ ![cv-10](images/cv-10.png#img-left)
+
+ ![cv-7](images/cv-11.gif#img-left)
  
+ marker tracking layer          |  Processing Canvas      |  Processing IDE  
+:-------------------------:|:-------------------------:|:-------------------------:
+!![cv-7](images/cv-12.gif#img-left)  | ![](images/cv-14.gif#img-left)   | ![](images/cv-13.gif#img-left)
+ 
+

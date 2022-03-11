@@ -23,7 +23,7 @@ Below are some examples of artists using Processing in their own work:
 ![processing-ex](images/processing-ex-4.gif#img-left)
 ![processing-ex](images/processing-ex2.gif#img-left)
 ![processing-ex](images/processing-ex1.gif#img-left)
-![processing-ex](images/low-code.jpeg#img-left)
+
 
 ## Tutorial
 
@@ -53,7 +53,7 @@ void draw() {
 }
 ```
 
-VIOLET EXAMPLE INSERT HERE - draw and setup in action
+![light-image](images/processinig-setup-vs-draw.png#img-left)
 
 3. **Documentation Intro**  
 The basis of learning to code is really about learning how to find and use information (usually online). Rarely does anyone know off hand the exact syntax and operations to write all of their code from scratch. Rather, creative technologists and even seasoned software engineers regularly use the documentation pages for a programming language or a development environment to understand how a particular programming language functions, its operations, and so they can borrow from what's already written.
