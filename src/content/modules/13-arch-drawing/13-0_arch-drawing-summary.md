@@ -9,12 +9,15 @@ authors:
 # Sequence: Introduction to Architectural Drawing
 ## Sequence Summary:
 
-## Why?
+This sequence covers workflows for creating architectural drawings. It first covers the production of plans and sections, then perspective and axonometric drawings, and finally basic rendering and compositing in Photoshop and Illustrator.
+## 
 
-TK
 
-Introduction to architectural drawing
-Drawing an Argument
+## Drawing an Argument
+
+Drawings and images are the tools designers have to communicate their ideas to 
+
+
 
 ## Modules:
 Orthographic Drawing: Plans & Sections
