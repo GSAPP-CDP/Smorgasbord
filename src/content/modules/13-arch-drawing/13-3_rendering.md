@@ -13,27 +13,61 @@ This module will introduce how to create a simple rendered perspective from Rhin
 
 ## Introduction to Rendering
 
+![zaha stadium](images/13-3/zaha-stadium.jpg#img-left)
+*Zaha Hadid Architects, Xi'An International Football Centre, 2020.*
+
 A **rendering** is an image of an intended to communicate the experience or visual impression of an architectural design. They're typically in perspective, and emphasize materiality, lighting, narrative, and atmosphere.
 
-In the past, of course, rendering was done by hand, using traditional techniques of drawing and painting. But before the 20th century, images we would today recognize as architectural renderings were quite rare. Architects produced plans and sections, even when they were concerned with color, material and light.
+In the past, of course, rendering was done by hand, using traditional techniques of drawing and painting. But before the twentieth century, images we would today recognize as architectural renderings were quite rare. Architects usually produced plans and sections, even when they were concerned with color, material and light.
 
 ![labroustre section](images/13-3/labrouste-section.jpg#img-left)
 *Henri Labrouste, Bibliothèque Sainte-Geneviève, 1838.*
 
-Life-like renderings were more often used to reconstruct ancient ruins than to describe proposed designs. A notable exception is John Soane's painti, which depicts
+An architect was more likely to paint a life-like scene attempting to reconstruct a great scructure from the ruins of Greece or Rome than on original design, though occasionally this romantic sensibility can be found projected onto proposed structures as well.
 
-During the 20th Century, rendering was as likely 
+![john soane bank of england](images/13-3/soane-bank.jpg#img-left)
+*John Soane, Bank of England, 1830.*
 
-But developments in digital modeling and simulation have obviously changed the landscape completely. In the space of a couple decades, rendering has become, overwhelmingly, the dominant tool for communicating architectural ideas to clients and the public.
+![schinkel orianda](images/13-3/schinkel-orianda.jpg#img-left)
+*Karl Friederich Schinkel, Schloss Orianda, 1873.*
 
+Hand-drawn renderings become more common in the twentieth century (a side-effect, maybe, of the proliferation of photography and mass visual media), but are still secondary to orthographic and axonometric drawings.
 
-Commercial rendering engines like VRay and Enscape, and even open-source software like Blender, have made it possible for  (though this arguably says as much about architectural photography as it does about the avaiable technology).
+![mies](images/13-3/mies.jpg#img-left)
+*Ludwig Mies van der Rohe, Friedrichstrasse Skyscraper Project, Berlin-Mitte, Germany, 1921. Museum of Modern Art, New York.*
 
-Not all architects are satisfied with this state of affairs. Some, considering "realistic" rendering excessively authoritative, definitve, and non-participatory, have rejected it altogether, in favor of more impressionistic methods like collage.
+![flw](images/13-3/flw.jpg#img-left)
+*Frank Lloyd Wright, Fallingwater, 1935. Museum of Modern Art, New York.*
 
-While others appropriate digital tools to imagine counter-narratives to the contemporary capitalist, post-colonial world:
+Often the most compellingly rendered images are of speculative and conceptual proposals that will never exist in the real world, meaning the images themselves carry the entire burden of the project.
 
+![SITE](images/13-3/james-wines.jpg#img-left)
+*James Wines / SITE, Highrise of Homes, 1981. MuseuM of Modern Art, New York.*
 
+![lebbeus woods](images/13-3/woods.jpg#img-left)
+*Lebbeus Woods, Zagreb Free-Zone, 1991.*
+
+But the use of digital modeling and simulation has completely transformed the landscape of architectural representation. In the space of a couple decades, rendering has become, overwhelmingly, the dominant mainstream tool for communicating architectural ideas to clients and the public.
+
+![gehry](images/13-3/gehry.jpeg#img-left)
+*Gehry Partners, The Grand, Los Angeles, 2019.*
+
+Commercial rendering engines like VRay and Enscape, and even open-source software like Blender, make it easier every year to produce images nearly indistinguishable from photographs (though this arguably says as much about architectural photography as it does about technology).
+
+![wework](images/13-3/wework.jpg#img-left)
+*WeWork, 2019.*
+
+Not all architects appreciate this state of affairs. Some consider "photorealistic" rendering deceptive, making unrealistic or unresolved designs appear plausible. Others find rendering excessively authoritative, impersonal, and non-participatory, rejecting it altogether in favor of more impressionistic methods like collage:
+
+![wework](images/13-3/tatiana-bilbao.jpg#img-left)
+*Tatiana Bilbao Estudio, Botániqo, 2021.*
+
+while others appropriate digital tools to imagine counter-narratives to the contemporary economic and political order:
+
+![jeyifous](images/13-3/Azure_Olalekan-Jeyifous_3.jpg#img-left)
+*Olalekan Jeyifous, The Frozen Neighborhoods, 2021.*
+
+However you plan to use it, the ability to create compelling rendered images is a useful one to have at your disposal. Let's look at the basics of how it's done.
 
 ## Tutorial
 
