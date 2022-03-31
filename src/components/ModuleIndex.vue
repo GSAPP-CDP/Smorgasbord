@@ -36,8 +36,8 @@
 
       <SequenceLinks path="11-interactive-web" />
       <SequenceLinks path="16-ambient-computing-network-architecture" />
-      <SequenceLinks path="17-Ambient-computing-interactivity" />
-      <SequenceLinks path="18-Behavioral-Modeling-Intro" />
+      <SequenceLinks path="17-ambient-computing-interactivity" />
+      <SequenceLinks path="18-behavioral-modeling-intro" />
     </div> 
 
   </div>

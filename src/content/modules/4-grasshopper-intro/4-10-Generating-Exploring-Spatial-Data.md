@@ -4,7 +4,7 @@ title: Generating and Exploring Spatial Data
 published: True
 slug: generating-and-exploring-spatial-data
 authors:
- - "Danil Nagy"
+ - "Luc Wilson"
 ---
 
 # Generating and Exploring Spatial Data

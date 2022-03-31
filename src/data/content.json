@@ -3,25 +3,40 @@
     "10-spatial-python/101-data-manipulation": {
       "double_links": []
     },
-    "10-spatial-python/102-geospatial-data": {
-      "double_links": []
-    },
-    "10-spatial-python/105-spatial-analysis-clustering": {
-      "double_links": []
-    },
     "10-spatial-python/104-spatial-analysis-correlation": {
+      "double_links": []
+    },
+    "10-spatial-python/102-geospatial-data": {
       "double_links": []
     },
     "10-spatial-python/103-spatial-analysis-point-pattern": {
       "double_links": []
     },
+    "10-spatial-python/index": {
+      "double_links": []
+    },
+    "11-interactive-web/110-javascript-in-browser": {
+      "double_links": []
+    },
+    "11-interactive-web/111-data-and-apis": {
+      "double_links": []
+    },
+    "11-interactive-web/112-javascript-in-the-browser": {
+      "double_links": []
+    },
+    "11-interactive-web/113-javascript-in-the-browser": {
+      "double_links": []
+    },
+    "11-interactive-web/index": {
+      "double_links": []
+    },
     "12-rhino-intro/12-1_rhino-interface": {
       "double_links": []
     },
-    "12-rhino-intro/12-3_rhino-3d": {
+    "12-rhino-intro/12-2_rhino-2d": {
       "double_links": []
     },
-    "12-rhino-intro/12-2_rhino-2d": {
+    "12-rhino-intro/12-3_rhino-3d": {
       "double_links": []
     },
     "12-rhino-intro/12-4_rhino-nurbs": {
@@ -33,13 +48,16 @@
     "13-arch-drawing/13-1_orthographic-drawing": {
       "double_links": []
     },
+    "10-spatial-python/105-spatial-analysis-clustering": {
+      "double_links": []
+    },
+    "13-arch-drawing/13-2_projection": {
+      "double_links": []
+    },
     "13-arch-drawing/13-3_rendering": {
       "double_links": []
     },
     "13-arch-drawing/13-4_compositing": {
-      "double_links": []
-    },
-    "13-arch-drawing/13-2_projection": {
       "double_links": []
     },
     "13-arch-drawing/index": {
@@ -52,9 +70,6 @@
       "double_links": []
     },
     "14-geospatial-concepts/143-coordinates-projections": {
-      "double_links": []
-    },
-    "10-spatial-python/index": {
       "double_links": []
     },
     "14-geospatial-concepts/index": {
@@ -82,6 +97,51 @@
       "double_links": []
     },
     "15-intro-qgis/index": {
+      "double_links": []
+    },
+    "16-ambient-computing-network-architecture/161-dynamic-environments": {
+      "double_links": []
+    },
+    "16-ambient-computing-network-architecture/162-network-architecture": {
+      "double_links": []
+    },
+    "16-ambient-computing-network-architecture/163-low-and-high-programming": {
+      "double_links": []
+    },
+    "16-ambient-computing-network-architecture/index": {
+      "double_links": []
+    },
+    "17-ambient-computing-interactivity/171-Intro-to-Processing-Lighting": {
+      "double_links": []
+    },
+    "17-ambient-computing-interactivity/172-Webhooks-Connecting-IFTTT-and-Processing": {
+      "double_links": []
+    },
+    "17-ambient-computing-interactivity/173-sounds-speech-and-macros": {
+      "double_links": []
+    },
+    "17-ambient-computing-interactivity/174-Markers-and-Tracking": {
+      "double_links": []
+    },
+    "17-ambient-computing-interactivity/175-Computer-Vision": {
+      "double_links": []
+    },
+    "17-ambient-computing-interactivity/index": {
+      "double_links": []
+    },
+    "18-behavioral-modeling-intro/181-Unity-and-Agent-Based-Models": {
+      "double_links": []
+    },
+    "18-behavioral-modeling-intro/182-Intro-To-Unity": {
+      "double_links": []
+    },
+    "18-behavioral-modeling-intro/183-Agent-Based-Populations-and-Behavior-Bricks": {
+      "double_links": []
+    },
+    "18-behavioral-modeling-intro/184-Mapbox-SDK-and-Routing": {
+      "double_links": []
+    },
+    "18-behavioral-modeling-intro/index": {
       "double_links": []
     },
     "4-grasshopper-intro/4-1-getting-started-with-grasshopper": {
@@ -183,7 +243,7 @@
         "title": "Intro To Grasshopper",
         "published": true,
         "authors": [
-          "Danil Nagy"
+          "Danil Nagy & Luc Wilson"
         ],
         "toc": [
           {
@@ -200,8 +260,8 @@
         "dir": "/modules/4-grasshopper-intro",
         "path": "/modules/4-grasshopper-intro/index",
         "extension": ".md",
-        "createdAt": "2022-03-31T06:49:37.738Z",
-        "updatedAt": "2022-03-31T06:49:37.738Z",
+        "createdAt": "2022-03-31T06:51:54.777Z",
+        "updatedAt": "2022-03-31T06:51:54.778Z",
         "readingTime": 39000,
         "uniqueLinks": []
       },
@@ -218,7 +278,7 @@
             "title": "Intro To Grasshopper",
             "published": true,
             "authors": [
-              "Danil Nagy"
+              "Danil Nagy & Luc Wilson"
             ],
             "toc": [
               {
@@ -235,8 +295,8 @@
             "dir": "/modules/4-grasshopper-intro",
             "path": "/modules/4-grasshopper-intro/index",
             "extension": ".md",
-            "createdAt": "2022-03-31T06:49:37.738Z",
-            "updatedAt": "2022-03-31T06:49:37.738Z",
+            "createdAt": "2022-03-31T06:51:54.777Z",
+            "updatedAt": "2022-03-31T06:51:54.778Z",
             "readingTime": 39000,
             "uniqueLinks": []
           }
@@ -332,8 +392,8 @@
             "dir": "/modules/4-grasshopper-intro",
             "path": "/modules/4-grasshopper-intro/4-1-getting-started-with-grasshopper",
             "extension": ".md",
-            "createdAt": "2021-12-29T14:37:04.410Z",
-            "updatedAt": "2021-12-29T14:37:04.410Z",
+            "createdAt": "2022-03-31T06:51:54.775Z",
+            "updatedAt": "2022-03-31T06:51:54.775Z",
             "readingTime": 837900,
             "uniqueLinks": []
           }
@@ -347,7 +407,7 @@
             "title": "Generating and Exploring Spatial Data",
             "published": true,
             "authors": [
-              "Danil Nagy"
+              "Luc Wilson"
             ],
             "toc": [
               {
@@ -409,8 +469,8 @@
             "dir": "/modules/4-grasshopper-intro",
             "path": "/modules/4-grasshopper-intro/4-10-Generating-Exploring-Spatial-Data",
             "extension": ".md",
-            "createdAt": "2022-03-31T06:49:37.737Z",
-            "updatedAt": "2022-03-31T06:49:37.738Z",
+            "createdAt": "2022-03-31T06:51:54.775Z",
+            "updatedAt": "2022-03-31T06:51:54.776Z",
             "readingTime": 659700,
             "uniqueLinks": []
           }
@@ -456,8 +516,8 @@
             "dir": "/modules/4-grasshopper-intro",
             "path": "/modules/4-grasshopper-intro/4-2-exercise-hello-grasshopper",
             "extension": ".md",
-            "createdAt": "2021-12-29T14:37:11.642Z",
-            "updatedAt": "2021-12-29T14:37:11.643Z",
+            "createdAt": "2022-03-31T06:51:54.776Z",
+            "updatedAt": "2022-03-31T06:51:54.776Z",
             "readingTime": 519900,
             "uniqueLinks": []
           }
@@ -578,8 +638,8 @@
             "dir": "/modules/4-grasshopper-intro",
             "path": "/modules/4-grasshopper-intro/4-3-working-in-grasshopper",
             "extension": ".md",
-            "createdAt": "2021-12-29T14:37:14.319Z",
-            "updatedAt": "2021-12-29T14:37:14.319Z",
+            "createdAt": "2022-03-31T06:51:54.776Z",
+            "updatedAt": "2022-03-31T06:51:54.776Z",
             "readingTime": 918000,
             "uniqueLinks": []
           }
@@ -630,8 +690,8 @@
             "dir": "/modules/4-grasshopper-intro",
             "path": "/modules/4-grasshopper-intro/4-4-exercise-parametric-tower-part-1",
             "extension": ".md",
-            "createdAt": "2021-12-29T14:37:16.475Z",
-            "updatedAt": "2021-12-29T14:37:16.475Z",
+            "createdAt": "2022-03-31T06:51:54.776Z",
+            "updatedAt": "2022-03-31T06:51:54.776Z",
             "readingTime": 673800,
             "uniqueLinks": []
           }
@@ -692,8 +752,8 @@
             "dir": "/modules/4-grasshopper-intro",
             "path": "/modules/4-grasshopper-intro/4-5-working-with-data",
             "extension": ".md",
-            "createdAt": "2021-12-29T14:38:30.427Z",
-            "updatedAt": "2021-12-29T14:38:30.427Z",
+            "createdAt": "2022-03-31T06:51:54.776Z",
+            "updatedAt": "2022-03-31T06:51:54.777Z",
             "readingTime": 1057800,
             "uniqueLinks": []
           }
@@ -749,8 +809,8 @@
             "dir": "/modules/4-grasshopper-intro",
             "path": "/modules/4-grasshopper-intro/4-6-exercise-parametric-tower-part-2",
             "extension": ".md",
-            "createdAt": "2021-12-29T14:38:29.478Z",
-            "updatedAt": "2021-12-29T14:38:29.478Z",
+            "createdAt": "2022-03-31T06:51:54.777Z",
+            "updatedAt": "2022-03-31T06:51:54.777Z",
             "readingTime": 1058400,
             "uniqueLinks": []
           }
@@ -764,7 +824,7 @@
             "title": "Grasshopper Documentation Best Practices",
             "published": true,
             "authors": [
-              "Danil Nagy"
+              "Luc Wilson"
             ],
             "toc": [
               {
@@ -816,8 +876,8 @@
             "dir": "/modules/4-grasshopper-intro",
             "path": "/modules/4-grasshopper-intro/4-7-documentation-best-practices",
             "extension": ".md",
-            "createdAt": "2022-03-31T06:49:37.738Z",
-            "updatedAt": "2022-03-31T06:49:37.738Z",
+            "createdAt": "2022-03-31T06:51:54.777Z",
+            "updatedAt": "2022-03-31T06:51:54.777Z",
             "readingTime": 297000,
             "uniqueLinks": []
           }
@@ -831,7 +891,7 @@
             "title": "Deriving Spatial Data",
             "published": true,
             "authors": [
-              "Danil Nagy"
+              "Luc Wilson"
             ],
             "toc": [
               {
@@ -898,8 +958,8 @@
             "dir": "/modules/4-grasshopper-intro",
             "path": "/modules/4-grasshopper-intro/4-8-Deriving-Spatial-Data",
             "extension": ".md",
-            "createdAt": "2022-03-31T06:49:37.738Z",
-            "updatedAt": "2022-03-31T06:49:37.738Z",
+            "createdAt": "2022-03-31T06:51:54.777Z",
+            "updatedAt": "2022-03-31T06:51:54.777Z",
             "readingTime": 920700,
             "uniqueLinks": []
           }
@@ -913,7 +973,7 @@
             "title": "Parametric to Procedural",
             "published": true,
             "authors": [
-              "Danil Nagy"
+              "Luc Wilson"
             ],
             "toc": [
               {
@@ -975,8 +1035,8 @@
             "dir": "/modules/4-grasshopper-intro",
             "path": "/modules/4-grasshopper-intro/4-9-Procedural-Rules",
             "extension": ".md",
-            "createdAt": "2022-03-31T06:49:37.738Z",
-            "updatedAt": "2022-03-31T06:49:37.738Z",
+            "createdAt": "2022-03-31T06:51:54.777Z",
+            "updatedAt": "2022-03-31T06:51:54.777Z",
             "readingTime": 586500,
             "uniqueLinks": []
           }
@@ -1067,7 +1127,7 @@
             "title": "What is a Computational Design Model?",
             "published": true,
             "authors": [
-              "Luc Wilson"
+              "Luc Wilson & Snoweria Zhang"
             ],
             "toc": [
               {
@@ -1104,8 +1164,8 @@
             "dir": "/modules/5-computational-design-modeling-in-grasshopper",
             "path": "/modules/5-computational-design-modeling-in-grasshopper/5-1-Comp-Design-Modeling",
             "extension": ".md",
-            "createdAt": "2022-03-31T06:49:37.738Z",
-            "updatedAt": "2022-03-31T06:49:37.739Z",
+            "createdAt": "2022-03-31T06:51:55.589Z",
+            "updatedAt": "2022-03-31T06:51:55.590Z",
             "readingTime": 600600,
             "uniqueLinks": []
           }
@@ -1156,8 +1216,8 @@
             "dir": "/modules/5-computational-design-modeling-in-grasshopper",
             "path": "/modules/5-computational-design-modeling-in-grasshopper/5-2-Subdivide-Geometry",
             "extension": ".md",
-            "createdAt": "2021-12-29T14:38:33.477Z",
-            "updatedAt": "2021-12-29T14:38:33.477Z",
+            "createdAt": "2022-03-31T06:51:55.590Z",
+            "updatedAt": "2022-03-31T06:51:55.590Z",
             "readingTime": 508800,
             "uniqueLinks": []
           }
@@ -1228,8 +1288,8 @@
             "dir": "/modules/5-computational-design-modeling-in-grasshopper",
             "path": "/modules/5-computational-design-modeling-in-grasshopper/5-3-Analysis-Tools",
             "extension": ".md",
-            "createdAt": "2021-12-29T14:38:37.710Z",
-            "updatedAt": "2021-12-29T14:38:37.710Z",
+            "createdAt": "2022-03-31T06:51:55.590Z",
+            "updatedAt": "2022-03-31T06:51:55.590Z",
             "readingTime": 937200,
             "uniqueLinks": []
           }
@@ -1300,8 +1360,8 @@
             "dir": "/modules/5-computational-design-modeling-in-grasshopper",
             "path": "/modules/5-computational-design-modeling-in-grasshopper/5-4-Street-Grid",
             "extension": ".md",
-            "createdAt": "2021-12-29T14:38:40.471Z",
-            "updatedAt": "2021-12-29T14:38:40.471Z",
+            "createdAt": "2022-03-31T06:51:55.590Z",
+            "updatedAt": "2022-03-31T06:51:55.590Z",
             "readingTime": 959100,
             "uniqueLinks": []
           }
@@ -1372,8 +1432,8 @@
             "dir": "/modules/5-computational-design-modeling-in-grasshopper",
             "path": "/modules/5-computational-design-modeling-in-grasshopper/5-5_Buildings-Density",
             "extension": ".md",
-            "createdAt": "2021-12-29T14:38:43.377Z",
-            "updatedAt": "2021-12-29T14:38:43.378Z",
+            "createdAt": "2022-03-31T06:51:55.590Z",
+            "updatedAt": "2022-03-31T06:51:55.591Z",
             "readingTime": 873900,
             "uniqueLinks": []
           }
@@ -1449,8 +1509,8 @@
             "dir": "/modules/5-computational-design-modeling-in-grasshopper",
             "path": "/modules/5-computational-design-modeling-in-grasshopper/5-6_Troubleshooting",
             "extension": ".md",
-            "createdAt": "2021-12-29T14:38:45.828Z",
-            "updatedAt": "2021-12-29T14:38:45.829Z",
+            "createdAt": "2022-03-31T06:51:55.591Z",
+            "updatedAt": "2022-03-31T06:51:55.591Z",
             "readingTime": 1416900,
             "uniqueLinks": []
           }
@@ -1516,9 +1576,9 @@
             "dir": "/modules/5-computational-design-modeling-in-grasshopper",
             "path": "/modules/5-computational-design-modeling-in-grasshopper/5-7_Design-Space",
             "extension": ".md",
-            "createdAt": "2022-03-31T06:49:37.739Z",
-            "updatedAt": "2022-03-31T06:49:37.739Z",
-            "readingTime": 807900,
+            "createdAt": "2022-03-31T06:51:55.591Z",
+            "updatedAt": "2022-03-31T06:51:55.591Z",
+            "readingTime": 1227300,
             "uniqueLinks": []
           }
         }
@@ -1645,8 +1705,8 @@
             "dir": "/modules/6-intro-to-python",
             "path": "/modules/6-intro-to-python/61-getting-started-with-Python",
             "extension": ".md",
-            "createdAt": "2021-12-29T14:39:13.067Z",
-            "updatedAt": "2021-12-29T14:39:13.067Z",
+            "createdAt": "2022-03-31T06:51:56.713Z",
+            "updatedAt": "2022-03-31T06:51:56.713Z",
             "readingTime": 353400,
             "uniqueLinks": []
           }
@@ -1697,8 +1757,8 @@
             "dir": "/modules/6-intro-to-python",
             "path": "/modules/6-intro-to-python/62-using-python-in-grasshopper",
             "extension": ".md",
-            "createdAt": "2021-12-29T14:39:15.249Z",
-            "updatedAt": "2021-12-29T14:39:15.249Z",
+            "createdAt": "2022-03-31T06:51:56.713Z",
+            "updatedAt": "2022-03-31T06:51:56.713Z",
             "readingTime": 417300,
             "uniqueLinks": []
           }
@@ -1841,8 +1901,8 @@
             "dir": "/modules/7-fundamentals-of-python",
             "path": "/modules/7-fundamentals-of-python/71-variables-lists-and-dictionaries",
             "extension": ".md",
-            "createdAt": "2021-12-29T14:39:47.236Z",
-            "updatedAt": "2021-12-29T14:39:47.237Z",
+            "createdAt": "2022-03-31T06:51:56.728Z",
+            "updatedAt": "2022-03-31T06:51:56.728Z",
             "readingTime": 655500,
             "uniqueLinks": []
           }
@@ -1943,8 +2003,8 @@
             "dir": "/modules/7-fundamentals-of-python",
             "path": "/modules/7-fundamentals-of-python/72-conditionals-and-loops",
             "extension": ".md",
-            "createdAt": "2021-12-29T14:39:55.171Z",
-            "updatedAt": "2021-12-29T14:39:55.171Z",
+            "createdAt": "2022-03-31T06:51:56.728Z",
+            "updatedAt": "2022-03-31T06:51:56.728Z",
             "readingTime": 654900,
             "uniqueLinks": []
           }
@@ -1990,8 +2050,8 @@
             "dir": "/modules/7-fundamentals-of-python",
             "path": "/modules/7-fundamentals-of-python/73-functions-and-classes",
             "extension": ".md",
-            "createdAt": "2021-12-29T14:39:57.963Z",
-            "updatedAt": "2021-12-29T14:39:57.963Z",
+            "createdAt": "2022-03-31T06:51:56.728Z",
+            "updatedAt": "2022-03-31T06:51:56.729Z",
             "readingTime": 777900,
             "uniqueLinks": []
           }
@@ -2037,8 +2097,8 @@
             "dir": "/modules/7-fundamentals-of-python",
             "path": "/modules/7-fundamentals-of-python/74-python-libraries",
             "extension": ".md",
-            "createdAt": "2021-12-29T14:40:03.029Z",
-            "updatedAt": "2021-12-29T14:40:03.029Z",
+            "createdAt": "2022-03-31T06:51:56.729Z",
+            "updatedAt": "2022-03-31T06:51:56.729Z",
             "readingTime": 251700,
             "uniqueLinks": []
           }
@@ -2171,8 +2231,8 @@
             "dir": "/modules/8-intro-to-python-in-rhino",
             "path": "/modules/8-intro-to-python-in-rhino/81-accessing-the-rhino-apis-in-python",
             "extension": ".md",
-            "createdAt": "2021-12-29T14:40:17.572Z",
-            "updatedAt": "2021-12-29T14:40:17.572Z",
+            "createdAt": "2022-03-31T06:51:56.729Z",
+            "updatedAt": "2022-03-31T06:51:56.729Z",
             "readingTime": 581400,
             "uniqueLinks": []
           }
@@ -2223,8 +2283,8 @@
             "dir": "/modules/8-intro-to-python-in-rhino",
             "path": "/modules/8-intro-to-python-in-rhino/82-working-with-geometry-in-python",
             "extension": ".md",
-            "createdAt": "2021-12-29T14:40:19.591Z",
-            "updatedAt": "2021-12-29T14:40:19.591Z",
+            "createdAt": "2022-03-31T06:51:56.729Z",
+            "updatedAt": "2022-03-31T06:51:56.729Z",
             "readingTime": 508800,
             "uniqueLinks": []
           }
@@ -2357,8 +2417,8 @@
             "dir": "/modules/10-spatial-python",
             "path": "/modules/10-spatial-python/101-data-manipulation",
             "extension": ".md",
-            "createdAt": "2021-12-29T14:31:54.131Z",
-            "updatedAt": "2021-12-29T14:31:54.131Z",
+            "createdAt": "2022-03-31T06:51:48.504Z",
+            "updatedAt": "2022-03-31T06:51:48.504Z",
             "readingTime": 519000,
             "uniqueLinks": []
           }
@@ -2414,8 +2474,8 @@
             "dir": "/modules/10-spatial-python",
             "path": "/modules/10-spatial-python/102-geospatial-data",
             "extension": ".md",
-            "createdAt": "2021-12-29T14:31:57.412Z",
-            "updatedAt": "2021-12-29T14:31:57.412Z",
+            "createdAt": "2022-03-31T06:51:48.504Z",
+            "updatedAt": "2022-03-31T06:51:48.504Z",
             "readingTime": 479400,
             "uniqueLinks": []
           }
@@ -2451,8 +2511,8 @@
             "dir": "/modules/10-spatial-python",
             "path": "/modules/10-spatial-python/103-spatial-analysis-point-pattern",
             "extension": ".md",
-            "createdAt": "2021-12-29T14:31:59.719Z",
-            "updatedAt": "2021-12-29T14:31:59.719Z",
+            "createdAt": "2022-03-31T06:51:48.504Z",
+            "updatedAt": "2022-03-31T06:51:48.504Z",
             "readingTime": 407700,
             "uniqueLinks": []
           }
@@ -2488,8 +2548,8 @@
             "dir": "/modules/10-spatial-python",
             "path": "/modules/10-spatial-python/104-spatial-analysis-correlation",
             "extension": ".md",
-            "createdAt": "2021-12-29T14:32:02.545Z",
-            "updatedAt": "2021-12-29T14:32:02.545Z",
+            "createdAt": "2022-03-31T06:51:48.504Z",
+            "updatedAt": "2022-03-31T06:51:48.504Z",
             "readingTime": 552000,
             "uniqueLinks": []
           }
@@ -2525,9 +2585,459 @@
             "dir": "/modules/10-spatial-python",
             "path": "/modules/10-spatial-python/105-spatial-analysis-clustering",
             "extension": ".md",
-            "createdAt": "2021-12-29T14:32:05.760Z",
-            "updatedAt": "2021-12-29T14:32:05.760Z",
+            "createdAt": "2022-03-31T06:51:48.504Z",
+            "updatedAt": "2022-03-31T06:51:48.504Z",
             "readingTime": 78900,
+            "uniqueLinks": []
+          }
+        }
+      ]
+    },
+    {
+      "contentdata": {
+        "slug": "interactive-web",
+        "moduleid": 110,
+        "title": "Interactive Web",
+        "published": true,
+        "authors": [
+          "Celeste Layne"
+        ],
+        "toc": [
+          {
+            "id": "sequence-summary",
+            "depth": 2,
+            "text": "Sequence Summary:"
+          },
+          {
+            "id": "why",
+            "depth": 2,
+            "text": "Why?"
+          },
+          {
+            "id": "modules",
+            "depth": 2,
+            "text": "Modules:"
+          },
+          {
+            "id": "guides",
+            "depth": 2,
+            "text": "Guides"
+          },
+          {
+            "id": "github",
+            "depth": 2,
+            "text": "Github"
+          },
+          {
+            "id": "html-basics",
+            "depth": 2,
+            "text": "HTML Basics"
+          },
+          {
+            "id": "css-basics",
+            "depth": 2,
+            "text": "CSS Basics"
+          },
+          {
+            "id": "web-typography",
+            "depth": 2,
+            "text": "Web Typography"
+          },
+          {
+            "id": "layout-basics",
+            "depth": 2,
+            "text": "Layout Basics"
+          },
+          {
+            "id": "animation-basics",
+            "depth": 2,
+            "text": "Animation Basics"
+          },
+          {
+            "id": "javascript-basics",
+            "depth": 2,
+            "text": "JavaScript Basics"
+          },
+          {
+            "id": "dom-manipulation-basics",
+            "depth": 2,
+            "text": "DOM Manipulation Basics"
+          },
+          {
+            "id": "search-filter-and-sort",
+            "depth": 2,
+            "text": "Search, Filter and Sort"
+          },
+          {
+            "id": "user-interface-design",
+            "depth": 2,
+            "text": "User Interface Design"
+          }
+        ],
+        "dir": "/modules/11-interactive-web",
+        "path": "/modules/11-interactive-web/index",
+        "extension": ".md",
+        "createdAt": "2022-03-31T07:22:12.547Z",
+        "updatedAt": "2022-03-31T07:22:12.547Z",
+        "readingTime": 209400,
+        "uniqueLinks": []
+      },
+      "ordinal": 11,
+      "path": "11-interactive-web",
+      "slug": "interactive-web",
+      "modules": [
+        {
+          "file": "index.md",
+          "ordinal": 0,
+          "contentdata": {
+            "slug": "interactive-web",
+            "moduleid": 110,
+            "title": "Interactive Web",
+            "published": true,
+            "authors": [
+              "Celeste Layne"
+            ],
+            "toc": [
+              {
+                "id": "sequence-summary",
+                "depth": 2,
+                "text": "Sequence Summary:"
+              },
+              {
+                "id": "why",
+                "depth": 2,
+                "text": "Why?"
+              },
+              {
+                "id": "modules",
+                "depth": 2,
+                "text": "Modules:"
+              },
+              {
+                "id": "guides",
+                "depth": 2,
+                "text": "Guides"
+              },
+              {
+                "id": "github",
+                "depth": 2,
+                "text": "Github"
+              },
+              {
+                "id": "html-basics",
+                "depth": 2,
+                "text": "HTML Basics"
+              },
+              {
+                "id": "css-basics",
+                "depth": 2,
+                "text": "CSS Basics"
+              },
+              {
+                "id": "web-typography",
+                "depth": 2,
+                "text": "Web Typography"
+              },
+              {
+                "id": "layout-basics",
+                "depth": 2,
+                "text": "Layout Basics"
+              },
+              {
+                "id": "animation-basics",
+                "depth": 2,
+                "text": "Animation Basics"
+              },
+              {
+                "id": "javascript-basics",
+                "depth": 2,
+                "text": "JavaScript Basics"
+              },
+              {
+                "id": "dom-manipulation-basics",
+                "depth": 2,
+                "text": "DOM Manipulation Basics"
+              },
+              {
+                "id": "search-filter-and-sort",
+                "depth": 2,
+                "text": "Search, Filter and Sort"
+              },
+              {
+                "id": "user-interface-design",
+                "depth": 2,
+                "text": "User Interface Design"
+              }
+            ],
+            "dir": "/modules/11-interactive-web",
+            "path": "/modules/11-interactive-web/index",
+            "extension": ".md",
+            "createdAt": "2022-03-31T07:22:12.547Z",
+            "updatedAt": "2022-03-31T07:22:12.547Z",
+            "readingTime": 209400,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "110-javascript-in-browser.md",
+          "ordinal": 110,
+          "contentdata": {
+            "slug": "javascript-in-browser",
+            "moduleid": 110,
+            "title": "Javascript in the Browser I - Weather UI Design",
+            "published": true,
+            "authors": [
+              "Celeste Layne"
+            ],
+            "toc": [
+              {
+                "id": "set-up-your-html-project",
+                "depth": 3,
+                "text": "Set Up Your HTML Project"
+              },
+              {
+                "id": "start-with-the-basic-layout-of-the-page",
+                "depth": 3,
+                "text": "Start with the basic layout of the page"
+              },
+              {
+                "id": "style-the-layout",
+                "depth": 3,
+                "text": "Style the layout"
+              },
+              {
+                "id": "style-the-input-and-output-containers",
+                "depth": 3,
+                "text": "Style the input and output containers"
+              },
+              {
+                "id": "style-the-data-appended-to-the-dom",
+                "depth": 3,
+                "text": "Style the data appended to the DOM"
+              },
+              {
+                "id": "weather-icons",
+                "depth": 3,
+                "text": "Weather Icons"
+              }
+            ],
+            "dir": "/modules/11-interactive-web",
+            "path": "/modules/11-interactive-web/110-javascript-in-browser",
+            "extension": ".md",
+            "createdAt": "2022-03-31T06:51:48.560Z",
+            "updatedAt": "2022-03-31T06:51:48.560Z",
+            "readingTime": 270000,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "111-data-and-apis.md",
+          "ordinal": 111,
+          "contentdata": {
+            "slug": "data-and-apis",
+            "moduleid": 111,
+            "title": "Data and APIs",
+            "published": true,
+            "authors": [
+              "Celeste Layne"
+            ],
+            "toc": [
+              {
+                "id": "what-are-we-building",
+                "depth": 2,
+                "text": "What are we building?"
+              },
+              {
+                "id": "what-is-an-api",
+                "depth": 3,
+                "text": "What is an API?"
+              },
+              {
+                "id": "where-do-we-find-apis",
+                "depth": 3,
+                "text": "Where Do We Find APIs?"
+              },
+              {
+                "id": "the-api-in-action",
+                "depth": 3,
+                "text": "The API in action"
+              },
+              {
+                "id": "why-just-data",
+                "depth": 3,
+                "text": "Why Just Data?"
+              },
+              {
+                "id": "what-is-serialized-data",
+                "depth": 3,
+                "text": "What is Serialized Data?"
+              },
+              {
+                "id": "json",
+                "depth": 3,
+                "text": "JSON"
+              },
+              {
+                "id": "lets-see-that-data-shall-we",
+                "depth": 2,
+                "text": "Let's See That Data, Shall We?"
+              },
+              {
+                "id": "step-0--create-directory",
+                "depth": 3,
+                "text": "Step 0 – Create Directory"
+              },
+              {
+                "id": "step-1--execute-javascript-in-a-web-page",
+                "depth": 3,
+                "text": "Step 1 – Execute JavaScript in a web page"
+              },
+              {
+                "id": "step-2--view-logged-message-in-the-browser",
+                "depth": 3,
+                "text": "Step 2 – View logged message in the browser"
+              },
+              {
+                "id": "set-up-the-api",
+                "depth": 2,
+                "text": "Set Up the API"
+              },
+              {
+                "id": "step-1--create-an-account",
+                "depth": 3,
+                "text": "Step 1 – Create an account"
+              },
+              {
+                "id": "step-2--api-key",
+                "depth": 3,
+                "text": "Step 2 – API Key"
+              },
+              {
+                "id": "step-3---current-weather-data-by-zipcode",
+                "depth": 3,
+                "text": "Step 3 - Current Weather Data by Zipcode"
+              },
+              {
+                "id": "step-4--constructing-the-url",
+                "depth": 3,
+                "text": "Step 4 – Constructing the URL"
+              },
+              {
+                "id": "making-an-api-call",
+                "depth": 2,
+                "text": "Making an API Call"
+              },
+              {
+                "id": "getting-data-from-an-api-with-javascript-fetch",
+                "depth": 3,
+                "text": "Getting Data from an API with JavaScript Fetch"
+              },
+              {
+                "id": "wrap-it-in-a-getweatherdata-function",
+                "depth": 3,
+                "text": "Wrap it in a getWeatherData() function"
+              }
+            ],
+            "dir": "/modules/11-interactive-web",
+            "path": "/modules/11-interactive-web/111-data-and-apis",
+            "extension": ".md",
+            "createdAt": "2022-03-31T06:51:48.560Z",
+            "updatedAt": "2022-03-31T06:51:48.560Z",
+            "readingTime": 685800,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "112-javascript-in-the-browser.md",
+          "ordinal": 112,
+          "contentdata": {
+            "slug": "events-and-uis",
+            "moduleid": 112,
+            "title": "JavaScript in the Browser II - Events and UIs",
+            "published": true,
+            "authors": [
+              "Celeste Layne"
+            ],
+            "toc": [
+              {
+                "id": "what-are-we-building",
+                "depth": 2,
+                "text": "What are we building?"
+              },
+              {
+                "id": "events",
+                "depth": 3,
+                "text": "Events"
+              },
+              {
+                "id": "step-1--store-the-json-data-in-a-variable",
+                "depth": 3,
+                "text": "Step 1 – Store the JSON data in a variable"
+              },
+              {
+                "id": "step-2--set-up-an-event-listener",
+                "depth": 3,
+                "text": "Step 2 – Set Up An Event Listener"
+              },
+              {
+                "id": "step-3--set-up-an-event-handler",
+                "depth": 3,
+                "text": "Step 3 – Set Up An Event Handler"
+              },
+              {
+                "id": "step-4--putting-it-all-togehter",
+                "depth": 3,
+                "text": "Step 4 – Putting it all togehter"
+              }
+            ],
+            "dir": "/modules/11-interactive-web",
+            "path": "/modules/11-interactive-web/112-javascript-in-the-browser",
+            "extension": ".md",
+            "createdAt": "2022-03-31T06:51:48.560Z",
+            "updatedAt": "2022-03-31T06:51:48.560Z",
+            "readingTime": 398700,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "113-javascript-in-the-browser.md",
+          "ordinal": 113,
+          "contentdata": {
+            "slug": "events-and-uis",
+            "moduleid": 113,
+            "title": "JavaScript in the Browser III - Events and UIs",
+            "published": true,
+            "authors": [
+              "Celeste Layne"
+            ],
+            "toc": [
+              {
+                "id": "the-document-object-model-dom",
+                "depth": 3,
+                "text": "The Document Object Model (DOM)"
+              },
+              {
+                "id": "putting-it-all-togehter",
+                "depth": 3,
+                "text": "Putting it all togehter"
+              },
+              {
+                "id": "the-reset",
+                "depth": 3,
+                "text": "The Reset"
+              },
+              {
+                "id": "bonus---weather-icon",
+                "depth": 3,
+                "text": "Bonus - Weather Icon"
+              }
+            ],
+            "dir": "/modules/11-interactive-web",
+            "path": "/modules/11-interactive-web/113-javascript-in-the-browser",
+            "extension": ".md",
+            "createdAt": "2022-03-31T06:51:48.560Z",
+            "updatedAt": "2022-03-31T06:51:48.560Z",
+            "readingTime": 321600,
             "uniqueLinks": []
           }
         }
@@ -2549,6 +3059,11 @@
             "text": "Sequence Summary:"
           },
           {
+            "id": "modeling",
+            "depth": 2,
+            "text": "Modeling"
+          },
+          {
             "id": "why-rhino",
             "depth": 2,
             "text": "Why Rhino?"
@@ -2562,9 +3077,9 @@
         "dir": "/modules/12-rhino-intro",
         "path": "/modules/12-rhino-intro/index",
         "extension": ".md",
-        "createdAt": "2022-03-31T06:49:37.736Z",
-        "updatedAt": "2022-03-31T06:49:37.736Z",
-        "readingTime": 54300,
+        "createdAt": "2022-03-31T06:51:48.572Z",
+        "updatedAt": "2022-03-31T06:51:48.572Z",
+        "readingTime": 83100,
         "uniqueLinks": []
       },
       "ordinal": 12,
@@ -2589,6 +3104,11 @@
                 "text": "Sequence Summary:"
               },
               {
+                "id": "modeling",
+                "depth": 2,
+                "text": "Modeling"
+              },
+              {
                 "id": "why-rhino",
                 "depth": 2,
                 "text": "Why Rhino?"
@@ -2602,9 +3122,9 @@
             "dir": "/modules/12-rhino-intro",
             "path": "/modules/12-rhino-intro/index",
             "extension": ".md",
-            "createdAt": "2022-03-31T06:49:37.736Z",
-            "updatedAt": "2022-03-31T06:49:37.736Z",
-            "readingTime": 54300,
+            "createdAt": "2022-03-31T06:51:48.572Z",
+            "updatedAt": "2022-03-31T06:51:48.572Z",
+            "readingTime": 83100,
             "uniqueLinks": []
           }
         },
@@ -2664,9 +3184,9 @@
             "dir": "/modules/12-rhino-intro",
             "path": "/modules/12-rhino-intro/12-1_rhino-interface",
             "extension": ".md",
-            "createdAt": "2022-03-31T06:49:37.735Z",
-            "updatedAt": "2022-03-31T06:49:37.735Z",
-            "readingTime": 521700,
+            "createdAt": "2022-03-31T06:51:48.572Z",
+            "updatedAt": "2022-03-31T06:51:48.573Z",
+            "readingTime": 521100,
             "uniqueLinks": []
           }
         },
@@ -2726,9 +3246,9 @@
             "dir": "/modules/12-rhino-intro",
             "path": "/modules/12-rhino-intro/12-2_rhino-2d",
             "extension": ".md",
-            "createdAt": "2022-03-31T06:49:37.735Z",
-            "updatedAt": "2022-03-31T06:49:37.736Z",
-            "readingTime": 723900,
+            "createdAt": "2022-03-31T06:51:48.573Z",
+            "updatedAt": "2022-03-31T06:51:48.573Z",
+            "readingTime": 749700,
             "uniqueLinks": []
           }
         },
@@ -2748,6 +3268,16 @@
                 "id": "module-summary",
                 "depth": 2,
                 "text": "Module Summary:"
+              },
+              {
+                "id": "tutorial",
+                "depth": 2,
+                "text": "Tutorial"
+              },
+              {
+                "id": "getting-started",
+                "depth": 3,
+                "text": "Getting Started"
               },
               {
                 "id": "modeling-the-outer-walls",
@@ -2776,16 +3306,16 @@
               },
               {
                 "id": "conclusion",
-                "depth": 3,
+                "depth": 2,
                 "text": "Conclusion"
               }
             ],
             "dir": "/modules/12-rhino-intro",
             "path": "/modules/12-rhino-intro/12-3_rhino-3d",
             "extension": ".md",
-            "createdAt": "2022-03-31T06:49:37.736Z",
-            "updatedAt": "2022-03-31T06:49:37.736Z",
-            "readingTime": 683700,
+            "createdAt": "2022-03-31T06:51:48.573Z",
+            "updatedAt": "2022-03-31T06:51:48.573Z",
+            "readingTime": 709800,
             "uniqueLinks": []
           }
         },
@@ -2805,6 +3335,16 @@
                 "id": "module-summary",
                 "depth": 2,
                 "text": "Module Summary:"
+              },
+              {
+                "id": "introduction-to-nurbs-geometry",
+                "depth": 2,
+                "text": "Introduction to NURBS Geometry"
+              },
+              {
+                "id": "a-very-brief-history-of-architectural-geometry",
+                "depth": 3,
+                "text": "A Very Brief History of Architectural Geometry"
               },
               {
                 "id": "what-are-nurbs",
@@ -2850,9 +3390,9 @@
             "dir": "/modules/12-rhino-intro",
             "path": "/modules/12-rhino-intro/12-4_rhino-nurbs",
             "extension": ".md",
-            "createdAt": "2022-03-31T06:49:37.736Z",
-            "updatedAt": "2022-03-31T06:49:37.736Z",
-            "readingTime": 707100,
+            "createdAt": "2022-03-31T06:51:48.573Z",
+            "updatedAt": "2022-03-31T06:51:48.573Z",
+            "readingTime": 789000,
             "uniqueLinks": []
           }
         }
@@ -2874,9 +3414,14 @@
             "text": "Sequence Summary:"
           },
           {
-            "id": "why",
+            "id": "",
             "depth": 2,
-            "text": "Why?"
+            "text": ""
+          },
+          {
+            "id": "drawing-an-argument",
+            "depth": 2,
+            "text": "Drawing an Argument"
           },
           {
             "id": "modules",
@@ -2887,9 +3432,9 @@
         "dir": "/modules/13-arch-drawing",
         "path": "/modules/13-arch-drawing/index",
         "extension": ".md",
-        "createdAt": "2022-03-31T06:49:37.737Z",
-        "updatedAt": "2022-03-31T06:49:37.737Z",
-        "readingTime": 8700,
+        "createdAt": "2022-03-31T06:51:49.091Z",
+        "updatedAt": "2022-03-31T06:51:49.091Z",
+        "readingTime": 20700,
         "uniqueLinks": []
       },
       "ordinal": 13,
@@ -2914,9 +3459,14 @@
                 "text": "Sequence Summary:"
               },
               {
-                "id": "why",
+                "id": "",
                 "depth": 2,
-                "text": "Why?"
+                "text": ""
+              },
+              {
+                "id": "drawing-an-argument",
+                "depth": 2,
+                "text": "Drawing an Argument"
               },
               {
                 "id": "modules",
@@ -2927,9 +3477,9 @@
             "dir": "/modules/13-arch-drawing",
             "path": "/modules/13-arch-drawing/index",
             "extension": ".md",
-            "createdAt": "2022-03-31T06:49:37.737Z",
-            "updatedAt": "2022-03-31T06:49:37.737Z",
-            "readingTime": 8700,
+            "createdAt": "2022-03-31T06:51:49.091Z",
+            "updatedAt": "2022-03-31T06:51:49.091Z",
+            "readingTime": 20700,
             "uniqueLinks": []
           }
         },
@@ -2955,6 +3505,21 @@
                 "id": "what-is-orthographic-drawing",
                 "depth": 2,
                 "text": "What is Orthographic Drawing?"
+              },
+              {
+                "id": "plans",
+                "depth": 3,
+                "text": "Plans"
+              },
+              {
+                "id": "sections",
+                "depth": 3,
+                "text": "Sections"
+              },
+              {
+                "id": "orthographic-drawing",
+                "depth": 3,
+                "text": "Orthographic Drawing"
               },
               {
                 "id": "tutorial",
@@ -2992,9 +3557,9 @@
                 "text": "Dimensions & Annotations"
               },
               {
-                "id": "sectioning",
+                "id": "drawing-a-section",
                 "depth": 3,
-                "text": "Sectioning"
+                "text": "Drawing a Section"
               },
               {
                 "id": "conclusion",
@@ -3005,9 +3570,9 @@
             "dir": "/modules/13-arch-drawing",
             "path": "/modules/13-arch-drawing/13-1_orthographic-drawing",
             "extension": ".md",
-            "createdAt": "2022-03-31T06:49:37.736Z",
-            "updatedAt": "2022-03-31T06:49:37.736Z",
-            "readingTime": 783300,
+            "createdAt": "2022-03-31T06:51:49.091Z",
+            "updatedAt": "2022-03-31T06:51:49.091Z",
+            "readingTime": 959700,
             "uniqueLinks": []
           }
         },
@@ -3034,14 +3599,24 @@
                 "text": "What is Projection?"
               },
               {
-                "id": "tutorial",
+                "id": "perspectival-projection",
                 "depth": 2,
-                "text": "Tutorial"
+                "text": "Perspectival Projection"
               },
               {
-                "id": "perspectival-projection",
+                "id": "one-two-and-three-point-perspective",
                 "depth": 3,
-                "text": "Perspectival Projection"
+                "text": "One, Two, and Three-Point Perspective"
+              },
+              {
+                "id": "one-point-perspective",
+                "depth": 3,
+                "text": "One-Point Perspective"
+              },
+              {
+                "id": "two-point-perspective",
+                "depth": 3,
+                "text": "Two-Point Perspective"
               },
               {
                 "id": "three-point-perspective",
@@ -3049,7 +3624,32 @@
                 "text": "Three-Point Perspective"
               },
               {
-                "id": "two-point-perspective",
+                "id": "parallel-projection",
+                "depth": 2,
+                "text": "Parallel Projection"
+              },
+              {
+                "id": "isometric-projection",
+                "depth": 3,
+                "text": "Isometric Projection"
+              },
+              {
+                "id": "oblique-axonometric-projection",
+                "depth": 3,
+                "text": "Oblique (Axonometric) Projection"
+              },
+              {
+                "id": "tutorial",
+                "depth": 2,
+                "text": "Tutorial"
+              },
+              {
+                "id": "three-point-perspective-1",
+                "depth": 3,
+                "text": "Three-Point Perspective"
+              },
+              {
+                "id": "two-point-perspective-1",
                 "depth": 3,
                 "text": "Two-Point Perspective"
               },
@@ -3059,7 +3659,7 @@
                 "text": "Forced Two-Point Perspective"
               },
               {
-                "id": "one-point-perspective",
+                "id": "one-point-perspective-1",
                 "depth": 3,
                 "text": "One-Point Perspective"
               },
@@ -3069,19 +3669,9 @@
                 "text": "View Angle"
               },
               {
-                "id": "parallel-projection",
-                "depth": 3,
-                "text": "Parallel Projection"
-              },
-              {
-                "id": "isometric-projection",
+                "id": "isometric-projection-1",
                 "depth": 3,
                 "text": "Isometric Projection"
-              },
-              {
-                "id": "oblique-projection",
-                "depth": 3,
-                "text": "Oblique Projection"
               },
               {
                 "id": "plan-oblique",
@@ -3102,9 +3692,9 @@
             "dir": "/modules/13-arch-drawing",
             "path": "/modules/13-arch-drawing/13-2_projection",
             "extension": ".md",
-            "createdAt": "2022-03-31T06:49:37.736Z",
-            "updatedAt": "2022-03-31T06:49:37.736Z",
-            "readingTime": 632400,
+            "createdAt": "2022-03-31T06:51:49.091Z",
+            "updatedAt": "2022-03-31T06:51:49.091Z",
+            "readingTime": 864600,
             "uniqueLinks": []
           }
         },
@@ -3174,9 +3764,9 @@
             "dir": "/modules/13-arch-drawing",
             "path": "/modules/13-arch-drawing/13-3_rendering",
             "extension": ".md",
-            "createdAt": "2022-03-31T06:49:37.736Z",
-            "updatedAt": "2022-03-31T06:49:37.736Z",
-            "readingTime": 612900,
+            "createdAt": "2022-03-31T06:51:49.091Z",
+            "updatedAt": "2022-03-31T06:51:49.092Z",
+            "readingTime": 766200,
             "uniqueLinks": []
           }
         },
@@ -3228,17 +3818,17 @@
                 "text": "Combining Vector & Raster Images"
               },
               {
-                "id": "post-sequence-challenge",
+                "id": "post-sequence-challenge-drawing-an-argument",
                 "depth": 2,
-                "text": "Post-Sequence Challenge"
+                "text": "Post-Sequence Challenge: Drawing an Argument"
               }
             ],
             "dir": "/modules/13-arch-drawing",
             "path": "/modules/13-arch-drawing/13-4_compositing",
             "extension": ".md",
-            "createdAt": "2022-03-31T06:49:37.737Z",
-            "updatedAt": "2022-03-31T06:49:37.737Z",
-            "readingTime": 94800,
+            "createdAt": "2022-03-31T06:51:49.092Z",
+            "updatedAt": "2022-03-31T06:51:49.092Z",
+            "readingTime": 393300,
             "uniqueLinks": []
           }
         }
@@ -3370,8 +3960,8 @@
             "dir": "/modules/14-geospatial-concepts",
             "path": "/modules/14-geospatial-concepts/141-what-is-gis",
             "extension": ".md",
-            "createdAt": "2021-12-29T14:34:09.193Z",
-            "updatedAt": "2021-12-29T14:34:09.193Z",
+            "createdAt": "2022-03-31T06:51:50.844Z",
+            "updatedAt": "2022-03-31T06:51:50.844Z",
             "readingTime": 308100,
             "uniqueLinks": []
           }
@@ -3437,8 +4027,8 @@
             "dir": "/modules/14-geospatial-concepts",
             "path": "/modules/14-geospatial-concepts/142-spatial-data",
             "extension": ".md",
-            "createdAt": "2021-12-29T14:34:11.385Z",
-            "updatedAt": "2021-12-29T14:34:11.385Z",
+            "createdAt": "2022-03-31T06:51:50.844Z",
+            "updatedAt": "2022-03-31T06:51:50.844Z",
             "readingTime": 507300,
             "uniqueLinks": []
           }
@@ -3509,8 +4099,8 @@
             "dir": "/modules/14-geospatial-concepts",
             "path": "/modules/14-geospatial-concepts/143-coordinates-projections",
             "extension": ".md",
-            "createdAt": "2021-12-29T14:34:53.308Z",
-            "updatedAt": "2021-12-29T14:34:53.308Z",
+            "createdAt": "2022-03-31T06:51:50.844Z",
+            "updatedAt": "2022-03-31T06:51:50.844Z",
             "readingTime": 487800,
             "uniqueLinks": []
           }
@@ -3688,8 +4278,8 @@
             "dir": "/modules/15-intro-qgis",
             "path": "/modules/15-intro-qgis/151-mapping-where",
             "extension": ".md",
-            "createdAt": "2021-12-29T14:35:16.799Z",
-            "updatedAt": "2021-12-29T14:35:16.800Z",
+            "createdAt": "2022-03-31T06:51:51.099Z",
+            "updatedAt": "2022-03-31T06:51:51.100Z",
             "readingTime": 1246800,
             "uniqueLinks": []
           }
@@ -3775,8 +4365,8 @@
             "dir": "/modules/15-intro-qgis",
             "path": "/modules/15-intro-qgis/152-print-layout",
             "extension": ".md",
-            "createdAt": "2021-12-29T14:35:18.826Z",
-            "updatedAt": "2021-12-29T14:35:18.826Z",
+            "createdAt": "2022-03-31T06:51:51.100Z",
+            "updatedAt": "2022-03-31T06:51:51.100Z",
             "readingTime": 486600,
             "uniqueLinks": []
           }
@@ -3832,8 +4422,8 @@
             "dir": "/modules/15-intro-qgis",
             "path": "/modules/15-intro-qgis/153-archives",
             "extension": ".md",
-            "createdAt": "2021-12-29T14:35:20.814Z",
-            "updatedAt": "2021-12-29T14:35:20.814Z",
+            "createdAt": "2022-03-31T06:51:51.100Z",
+            "updatedAt": "2022-03-31T06:51:51.100Z",
             "readingTime": 648900,
             "uniqueLinks": []
           }
@@ -3889,8 +4479,8 @@
             "dir": "/modules/15-intro-qgis",
             "path": "/modules/15-intro-qgis/154-observations",
             "extension": ".md",
-            "createdAt": "2021-12-29T14:35:22.839Z",
-            "updatedAt": "2021-12-29T14:35:22.840Z",
+            "createdAt": "2022-03-31T06:51:51.100Z",
+            "updatedAt": "2022-03-31T06:51:51.100Z",
             "readingTime": 585300,
             "uniqueLinks": []
           }
@@ -3956,8 +4546,8 @@
             "dir": "/modules/15-intro-qgis",
             "path": "/modules/15-intro-qgis/155-satellites",
             "extension": ".md",
-            "createdAt": "2021-12-29T14:35:24.898Z",
-            "updatedAt": "2021-12-29T14:35:24.898Z",
+            "createdAt": "2022-03-31T06:51:51.100Z",
+            "updatedAt": "2022-03-31T06:51:51.100Z",
             "readingTime": 657300,
             "uniqueLinks": []
           }
@@ -4003,8 +4593,8 @@
             "dir": "/modules/15-intro-qgis",
             "path": "/modules/15-intro-qgis/156-aerial-imagery",
             "extension": ".md",
-            "createdAt": "2021-12-29T14:35:27.162Z",
-            "updatedAt": "2021-12-29T14:35:27.162Z",
+            "createdAt": "2022-03-31T06:51:51.100Z",
+            "updatedAt": "2022-03-31T06:51:51.100Z",
             "readingTime": 506400,
             "uniqueLinks": []
           }
@@ -4060,8 +4650,8 @@
             "dir": "/modules/15-intro-qgis",
             "path": "/modules/15-intro-qgis/157-atlas",
             "extension": ".md",
-            "createdAt": "2021-12-29T14:35:29.628Z",
-            "updatedAt": "2021-12-29T14:35:29.629Z",
+            "createdAt": "2022-03-31T06:51:51.100Z",
+            "updatedAt": "2022-03-31T06:51:51.100Z",
             "readingTime": 377100,
             "uniqueLinks": []
           }
@@ -4069,25 +4659,919 @@
       ]
     },
     {
-      "contentdata": null,
+      "contentdata": {
+        "slug": "ambient-computing-network-architecture",
+        "moduleid": 160,
+        "title": "Ambient Computing - Network Architecture",
+        "published": true,
+        "authors": [
+          "Violet Whitney"
+        ],
+        "toc": [
+          {
+            "id": "sequence-summary",
+            "depth": 2,
+            "text": "Sequence Summary"
+          },
+          {
+            "id": "why",
+            "depth": 2,
+            "text": "Why?"
+          },
+          {
+            "id": "modules",
+            "depth": 2,
+            "text": "Modules"
+          },
+          {
+            "id": "modules-overviewsequence",
+            "depth": 2,
+            "text": "Modules overview/sequence"
+          }
+        ],
+        "dir": "/modules/16-ambient-computing-network-architecture",
+        "path": "/modules/16-ambient-computing-network-architecture/index",
+        "extension": ".md",
+        "createdAt": "2022-03-31T07:33:27.610Z",
+        "updatedAt": "2022-03-31T07:33:27.612Z",
+        "readingTime": 5100,
+        "uniqueLinks": []
+      },
       "ordinal": 16,
       "path": "16-ambient-computing-network-architecture",
       "slug": "ambient-computing-network-architecture",
-      "modules": []
+      "modules": [
+        {
+          "file": "index.md",
+          "ordinal": 0,
+          "contentdata": {
+            "slug": "ambient-computing-network-architecture",
+            "moduleid": 160,
+            "title": "Ambient Computing - Network Architecture",
+            "published": true,
+            "authors": [
+              "Violet Whitney"
+            ],
+            "toc": [
+              {
+                "id": "sequence-summary",
+                "depth": 2,
+                "text": "Sequence Summary"
+              },
+              {
+                "id": "why",
+                "depth": 2,
+                "text": "Why?"
+              },
+              {
+                "id": "modules",
+                "depth": 2,
+                "text": "Modules"
+              },
+              {
+                "id": "modules-overviewsequence",
+                "depth": 2,
+                "text": "Modules overview/sequence"
+              }
+            ],
+            "dir": "/modules/16-ambient-computing-network-architecture",
+            "path": "/modules/16-ambient-computing-network-architecture/index",
+            "extension": ".md",
+            "createdAt": "2022-03-31T07:33:27.610Z",
+            "updatedAt": "2022-03-31T07:33:27.612Z",
+            "readingTime": 5100,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "161-dynamic-environments.md",
+          "ordinal": 161,
+          "contentdata": {
+            "slug": "ambient-environments",
+            "moduleid": 161,
+            "title": "Ambient Environments",
+            "published": true,
+            "authors": [
+              "Violet Whitney"
+            ],
+            "toc": [
+              {
+                "id": "diagramming-for-ambient-environments",
+                "depth": 2,
+                "text": "Diagramming for Ambient Environments"
+              },
+              {
+                "id": "challenge",
+                "depth": 3,
+                "text": "Challenge"
+              },
+              {
+                "id": "the-new-affordance-of-physical-places-ambient-environments",
+                "depth": 2,
+                "text": "The New Affordance of Physical Places: Ambient Environments"
+              },
+              {
+                "id": "affordances-in-physical-space",
+                "depth": 3,
+                "text": "Affordances In Physical Space"
+              },
+              {
+                "id": "physical--digital--new-affordance",
+                "depth": 3,
+                "text": "Physical + Digital = New Affordance"
+              },
+              {
+                "id": "walls-are-a-nice-invention-but-if-there-were-no-holes-in-them-there-would-be-no-way-to-get-in-or-out-they-would-be-mausoleums-or-tombs-the-problem-is-that-if-you-make-holes-in-the-walls-anything-and-anyone-can-get-in-and-out-bears-visitors-dust-rats-noise-so-architects-invented-this-hybrid-a-hole-wall-often-called-a-door-which-although-common-enough-has-always-struck-me-as-a-miracle-technology",
+                "depth": 3,
+                "text": "\"Walls are a nice invention, but if there were no holes in them, there would be no way to get in or out; they would be mausoleums or tombs. The problem is that if you make holes in the walls, anything and anyone can get in and out (bears, visitors, dust, rats, noise). So architects invented this hybrid: a hole-wall, often called a door, which, although common enough, has always struck me as a miracle technology.\""
+              },
+              {
+                "id": "challenge-1",
+                "depth": 3,
+                "text": "Challenge"
+              }
+            ],
+            "dir": "/modules/16-ambient-computing-network-architecture",
+            "path": "/modules/16-ambient-computing-network-architecture/161-dynamic-environments",
+            "extension": ".md",
+            "createdAt": "2022-03-31T07:33:52.000Z",
+            "updatedAt": "2022-03-31T07:33:52.000Z",
+            "readingTime": 431400,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "162-network-architecture.md",
+          "ordinal": 162,
+          "contentdata": {
+            "slug": "network-architecture",
+            "moduleid": 162,
+            "title": "Network Architecture",
+            "published": true,
+            "authors": [
+              "Violet Whitney"
+            ],
+            "toc": [
+              {
+                "id": "0-system-architecture",
+                "depth": 3,
+                "text": "0. System Architecture"
+              },
+              {
+                "id": "1-cybernetic-system",
+                "depth": 3,
+                "text": "1. Cybernetic System"
+              },
+              {
+                "id": "2-how-ifttt-works",
+                "depth": 3,
+                "text": "2. How IFTTT Works"
+              },
+              {
+                "id": "3-how-ifttt-maps-to-a-cybernetic-feedback-loop",
+                "depth": 3,
+                "text": "3. How IFTTT Maps to a Cybernetic Feedback Loop"
+              },
+              {
+                "id": "4-create-your-own-ifttt-recipe",
+                "depth": 3,
+                "text": "4. Create Your Own IFTTT Recipe"
+              }
+            ],
+            "dir": "/modules/16-ambient-computing-network-architecture",
+            "path": "/modules/16-ambient-computing-network-architecture/162-network-architecture",
+            "extension": ".md",
+            "createdAt": "2022-03-31T07:34:01.343Z",
+            "updatedAt": "2022-03-31T07:34:01.343Z",
+            "readingTime": 521400,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "163-low-and-high-programming.md",
+          "ordinal": 163,
+          "contentdata": {
+            "slug": "low-and-high-programming",
+            "moduleid": 163,
+            "title": "Low and High Programming",
+            "published": true,
+            "authors": [
+              "Violet Whitney"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "how-the-cloud-and-microservices-allow-for-high-level-programming",
+                "depth": 3,
+                "text": "How the Cloud and Microservices Allow for High Level Programming"
+              }
+            ],
+            "dir": "/modules/16-ambient-computing-network-architecture",
+            "path": "/modules/16-ambient-computing-network-architecture/163-low-and-high-programming",
+            "extension": ".md",
+            "createdAt": "2022-03-31T07:34:09.495Z",
+            "updatedAt": "2022-03-31T07:34:09.495Z",
+            "readingTime": 241500,
+            "uniqueLinks": []
+          }
+        }
+      ]
     },
     {
-      "contentdata": null,
+      "contentdata": {
+        "slug": "ambient-computing-interactivity",
+        "moduleid": 170,
+        "title": "Ambient Computing - Interactivity",
+        "published": true,
+        "authors": [
+          "Violet Whitney"
+        ],
+        "toc": [
+          {
+            "id": "sequence-summary",
+            "depth": 2,
+            "text": "Sequence Summary:"
+          },
+          {
+            "id": "ambient-computing---physical-and-digital-worlds-intertwined",
+            "depth": 2,
+            "text": "Ambient Computing - Physical and Digital Worlds Intertwined"
+          },
+          {
+            "id": "spatial--interfaces--user-interfaces",
+            "depth": 3,
+            "text": "Spatial  Interfaces > User Interfaces"
+          },
+          {
+            "id": "social-experiences--user-experiences",
+            "depth": 3,
+            "text": "Social Experiences > User Experiences"
+          },
+          {
+            "id": "the-rise-of-end-user-programming-and-low-code",
+            "depth": 2,
+            "text": "The Rise of End User Programming and Low Code"
+          },
+          {
+            "id": "modules",
+            "depth": 2,
+            "text": "Modules:"
+          }
+        ],
+        "dir": "/modules/17-ambient-computing-interactivity",
+        "path": "/modules/17-ambient-computing-interactivity/index",
+        "extension": ".md",
+        "createdAt": "2022-03-31T08:03:08.450Z",
+        "updatedAt": "2022-03-31T08:03:08.450Z",
+        "readingTime": 165900,
+        "uniqueLinks": []
+      },
       "ordinal": 17,
-      "path": "17-Ambient-computing-interactivity",
-      "slug": "Ambient-computing-interactivity",
-      "modules": []
+      "path": "17-ambient-computing-interactivity",
+      "slug": "ambient-computing-interactivity",
+      "modules": [
+        {
+          "file": "index.md",
+          "ordinal": 0,
+          "contentdata": {
+            "slug": "ambient-computing-interactivity",
+            "moduleid": 170,
+            "title": "Ambient Computing - Interactivity",
+            "published": true,
+            "authors": [
+              "Violet Whitney"
+            ],
+            "toc": [
+              {
+                "id": "sequence-summary",
+                "depth": 2,
+                "text": "Sequence Summary:"
+              },
+              {
+                "id": "ambient-computing---physical-and-digital-worlds-intertwined",
+                "depth": 2,
+                "text": "Ambient Computing - Physical and Digital Worlds Intertwined"
+              },
+              {
+                "id": "spatial--interfaces--user-interfaces",
+                "depth": 3,
+                "text": "Spatial  Interfaces > User Interfaces"
+              },
+              {
+                "id": "social-experiences--user-experiences",
+                "depth": 3,
+                "text": "Social Experiences > User Experiences"
+              },
+              {
+                "id": "the-rise-of-end-user-programming-and-low-code",
+                "depth": 2,
+                "text": "The Rise of End User Programming and Low Code"
+              },
+              {
+                "id": "modules",
+                "depth": 2,
+                "text": "Modules:"
+              }
+            ],
+            "dir": "/modules/17-ambient-computing-interactivity",
+            "path": "/modules/17-ambient-computing-interactivity/index",
+            "extension": ".md",
+            "createdAt": "2022-03-31T08:03:08.450Z",
+            "updatedAt": "2022-03-31T08:03:08.450Z",
+            "readingTime": 165900,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "171-Intro-to-Processing-Lighting.md",
+          "ordinal": 171,
+          "contentdata": {
+            "slug": "intro-to-processing-lighting",
+            "moduleid": 171,
+            "title": "Intro to Processing - Lighting",
+            "published": true,
+            "authors": [
+              "Violet Whitney"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "conceptual-introduction-or-why-is-this-interesting--important",
+                "depth": 2,
+                "text": "Conceptual Introduction, or: Why is this interesting / important?"
+              },
+              {
+                "id": "tutorial",
+                "depth": 2,
+                "text": "Tutorial"
+              }
+            ],
+            "dir": "/modules/17-ambient-computing-interactivity",
+            "path": "/modules/17-ambient-computing-interactivity/171-Intro-to-Processing-Lighting",
+            "extension": ".md",
+            "createdAt": "2022-03-31T08:11:14.238Z",
+            "updatedAt": "2022-03-31T08:11:14.238Z",
+            "readingTime": 277800,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "172-Webhooks-Connecting-IFTTT-and-Processing.md",
+          "ordinal": 172,
+          "contentdata": {
+            "slug": "webhooks-connecting-ifttt-and-processing",
+            "moduleid": 172,
+            "title": "Webhooks - Connecting IFTTT and Processing",
+            "published": true,
+            "authors": [
+              "Violet Whitney"
+            ],
+            "toc": [
+              {
+                "id": "why-should-i-care-about-webhooks",
+                "depth": 2,
+                "text": "Why should I care about webhooks?"
+              },
+              {
+                "id": "tutorial",
+                "depth": 2,
+                "text": "Tutorial"
+              },
+              {
+                "id": "creating-a-ifttt-recipe-with-webhooks",
+                "depth": 3,
+                "text": "Creating A IFTTT Recipe with Webhooks"
+              },
+              {
+                "id": "creating-an-api-key",
+                "depth": 3,
+                "text": "Creating An API Key"
+              },
+              {
+                "id": "connecting-processing-to-your-webhook-api",
+                "depth": 3,
+                "text": "Connecting Processing to your Webhook API"
+              },
+              {
+                "id": "challenge",
+                "depth": 2,
+                "text": "Challenge"
+              },
+              {
+                "id": "can-you-create-your-own-processingifttt-recipe",
+                "depth": 3,
+                "text": "Can you create your own Processing<>IFTTT Recipe?"
+              },
+              {
+                "id": "resources",
+                "depth": 2,
+                "text": "Resources"
+              }
+            ],
+            "dir": "/modules/17-ambient-computing-interactivity",
+            "path": "/modules/17-ambient-computing-interactivity/172-Webhooks-Connecting-IFTTT-and-Processing",
+            "extension": ".md",
+            "createdAt": "2022-03-31T08:03:48.895Z",
+            "updatedAt": "2022-03-31T08:03:48.895Z",
+            "readingTime": 409200,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "173-sounds-speech-and-macros.md",
+          "ordinal": 173,
+          "contentdata": {
+            "slug": "sounds-speech-and-macros",
+            "moduleid": 173,
+            "title": "Sounds, Speech, and Marcros",
+            "published": true,
+            "authors": [
+              "Violet Whitney"
+            ],
+            "toc": [
+              {
+                "id": "sound-is-fundamental-to-ambient-environments",
+                "depth": 2,
+                "text": "Sound is fundamental to ambient environments"
+              },
+              {
+                "id": "companies-investing-in-speech-and-audio",
+                "depth": 3,
+                "text": "Companies investing in speech and audio"
+              },
+              {
+                "id": "why-sound-is-a-great-communication-mechanism-for-ambient-environments",
+                "depth": 3,
+                "text": "Why sound is a great communication mechanism for ambient environments"
+              },
+              {
+                "id": "ethical-considerations-for-smart-home-systems",
+                "depth": 3,
+                "text": "Ethical considerations for smart home systems"
+              },
+              {
+                "id": "inspirational-projects",
+                "depth": 3,
+                "text": "Inspirational projects"
+              },
+              {
+                "id": "playing-sounds",
+                "depth": 2,
+                "text": "Playing Sounds"
+              },
+              {
+                "id": "challenge",
+                "depth": 3,
+                "text": "Challenge"
+              },
+              {
+                "id": "listening-to-your-mic",
+                "depth": 2,
+                "text": "Listening to Your Mic"
+              },
+              {
+                "id": "challenge-1",
+                "depth": 3,
+                "text": "Challenge"
+              },
+              {
+                "id": "text-to-speech",
+                "depth": 2,
+                "text": "Text to Speech"
+              },
+              {
+                "id": "automated-language",
+                "depth": 3,
+                "text": "Automated Language"
+              },
+              {
+                "id": "projects-that-use-bots",
+                "depth": 3,
+                "text": "Projects that Use Bots"
+              },
+              {
+                "id": "projects-that-use-sound",
+                "depth": 3,
+                "text": "Projects that Use Sound"
+              }
+            ],
+            "dir": "/modules/17-ambient-computing-interactivity",
+            "path": "/modules/17-ambient-computing-interactivity/173-sounds-speech-and-macros",
+            "extension": ".md",
+            "createdAt": "2022-03-31T08:04:08.803Z",
+            "updatedAt": "2022-03-31T08:04:08.803Z",
+            "readingTime": 358500,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "174-Markers-and-Tracking.md",
+          "ordinal": 174,
+          "contentdata": {
+            "slug": "markers-and-tracking",
+            "moduleid": 174,
+            "title": "Markers and Tracking",
+            "published": true,
+            "authors": [
+              "Violet Whitney"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "conceptual-introduction-or-why-is-this-interesting--important",
+                "depth": 2,
+                "text": "Conceptual Introduction, or: Why is this interesting / important?"
+              },
+              {
+                "id": "power-in-furniture",
+                "depth": 3,
+                "text": "Power in Furniture"
+              },
+              {
+                "id": "tutorial",
+                "depth": 2,
+                "text": "Tutorial"
+              },
+              {
+                "id": "setup",
+                "depth": 3,
+                "text": "Setup"
+              },
+              {
+                "id": "challenge",
+                "depth": 2,
+                "text": "Challenge"
+              }
+            ],
+            "dir": "/modules/17-ambient-computing-interactivity",
+            "path": "/modules/17-ambient-computing-interactivity/174-Markers-and-Tracking",
+            "extension": ".md",
+            "createdAt": "2022-03-31T08:04:14.133Z",
+            "updatedAt": "2022-03-31T08:04:14.133Z",
+            "readingTime": 355800,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "175-Computer-Vision.md",
+          "ordinal": 175,
+          "contentdata": {
+            "slug": "computer-vision",
+            "moduleid": 175,
+            "title": "Computer Vision",
+            "published": true,
+            "authors": [
+              "Violet Whitney"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "conceptual-introduction-or-why-is-this-interesting--important",
+                "depth": 2,
+                "text": "Conceptual Introduction, or: Why is this interesting / important?"
+              },
+              {
+                "id": "computer-vision-1",
+                "depth": 3,
+                "text": "Computer Vision"
+              },
+              {
+                "id": "ab-testing-in-physical-space",
+                "depth": 3,
+                "text": "AB Testing in Physical Space"
+              },
+              {
+                "id": "tutorial",
+                "depth": 2,
+                "text": "Tutorial"
+              },
+              {
+                "id": "referencing-your-webcam",
+                "depth": 3,
+                "text": "Referencing Your Webcam"
+              },
+              {
+                "id": "face-tracking",
+                "depth": 3,
+                "text": "Face Tracking"
+              },
+              {
+                "id": "challenge",
+                "depth": 2,
+                "text": "Challenge"
+              }
+            ],
+            "dir": "/modules/17-ambient-computing-interactivity",
+            "path": "/modules/17-ambient-computing-interactivity/175-Computer-Vision",
+            "extension": ".md",
+            "createdAt": "2022-03-31T08:04:22.815Z",
+            "updatedAt": "2022-03-31T08:04:22.816Z",
+            "readingTime": 208500,
+            "uniqueLinks": []
+          }
+        }
+      ]
     },
     {
-      "contentdata": null,
+      "contentdata": {
+        "slug": "behavioral-modeling-intro",
+        "moduleid": 180,
+        "title": "Behavioral Modeling - Intro",
+        "published": true,
+        "authors": [
+          "Violet Whitney"
+        ],
+        "toc": [
+          {
+            "id": "sequence-summary",
+            "depth": 2,
+            "text": "Sequence Summary:"
+          }
+        ],
+        "dir": "/modules/18-behavioral-modeling-intro",
+        "path": "/modules/18-behavioral-modeling-intro/index",
+        "extension": ".md",
+        "createdAt": "2022-03-31T08:30:56.221Z",
+        "updatedAt": "2022-03-31T08:30:56.222Z",
+        "readingTime": 2700,
+        "uniqueLinks": []
+      },
       "ordinal": 18,
-      "path": "18-Behavioral-Modeling-Intro",
-      "slug": "Behavioral-Modeling-Intro",
-      "modules": []
+      "path": "18-behavioral-modeling-intro",
+      "slug": "behavioral-modeling-intro",
+      "modules": [
+        {
+          "file": "index.md",
+          "ordinal": 0,
+          "contentdata": {
+            "slug": "behavioral-modeling-intro",
+            "moduleid": 180,
+            "title": "Behavioral Modeling - Intro",
+            "published": true,
+            "authors": [
+              "Violet Whitney"
+            ],
+            "toc": [
+              {
+                "id": "sequence-summary",
+                "depth": 2,
+                "text": "Sequence Summary:"
+              }
+            ],
+            "dir": "/modules/18-behavioral-modeling-intro",
+            "path": "/modules/18-behavioral-modeling-intro/index",
+            "extension": ".md",
+            "createdAt": "2022-03-31T08:30:56.221Z",
+            "updatedAt": "2022-03-31T08:30:56.222Z",
+            "readingTime": 2700,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "181-Unity-and-Agent-Based-Models.md",
+          "ordinal": 181,
+          "contentdata": {
+            "slug": "agent-based-modeling",
+            "moduleid": 181,
+            "title": "Agent Based Modeling",
+            "published": true,
+            "authors": [
+              "Violet Whitney"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "conceptual-introduction",
+                "depth": 2,
+                "text": "Conceptual Introduction"
+              },
+              {
+                "id": "agent-based-models",
+                "depth": 3,
+                "text": "Agent Based Models"
+              },
+              {
+                "id": "game-theory",
+                "depth": 3,
+                "text": "Game Theory"
+              },
+              {
+                "id": "tutorial",
+                "depth": 2,
+                "text": "Tutorial"
+              },
+              {
+                "id": "components-of-an-agent-based-model",
+                "depth": 3,
+                "text": "Components of an Agent Based Model"
+              }
+            ],
+            "dir": "/modules/18-behavioral-modeling-intro",
+            "path": "/modules/18-behavioral-modeling-intro/181-Unity-and-Agent-Based-Models",
+            "extension": ".md",
+            "createdAt": "2022-03-31T08:31:14.486Z",
+            "updatedAt": "2022-03-31T08:31:14.487Z",
+            "readingTime": 252600,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "182-Intro-To-Unity.md",
+          "ordinal": 182,
+          "contentdata": {
+            "slug": "intro-to-unity",
+            "moduleid": 182,
+            "title": "Intro to Unity",
+            "published": true,
+            "authors": [
+              "Violet Whitney"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "what-is-unity",
+                "depth": 2,
+                "text": "What is Unity?"
+              },
+              {
+                "id": "tutorial",
+                "depth": 2,
+                "text": "Tutorial"
+              },
+              {
+                "id": "1-download-unity",
+                "depth": 3,
+                "text": "1. Download Unity"
+              },
+              {
+                "id": "2-create-a-unity-account",
+                "depth": 3,
+                "text": "2. Create a Unity Account"
+              },
+              {
+                "id": "3-create-your-first-unity-project",
+                "depth": 3,
+                "text": "3. Create your first Unity Project"
+              },
+              {
+                "id": "4-the-unity-interface",
+                "depth": 3,
+                "text": "4. The Unity Interface"
+              },
+              {
+                "id": "creating-your-first-project",
+                "depth": 2,
+                "text": "Creating Your First Project"
+              }
+            ],
+            "dir": "/modules/18-behavioral-modeling-intro",
+            "path": "/modules/18-behavioral-modeling-intro/182-Intro-To-Unity",
+            "extension": ".md",
+            "createdAt": "2022-03-31T08:31:32.924Z",
+            "updatedAt": "2022-03-31T08:31:32.924Z",
+            "readingTime": 302100,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "183-Agent-Based-Populations-and-Behavior-Bricks.md",
+          "ordinal": 183,
+          "contentdata": {
+            "slug": "agent-based-modeling-and-behavior-bricks",
+            "moduleid": 183,
+            "title": "Agent Based Modeling and Behavior Bricks",
+            "published": true,
+            "authors": [
+              "Violet Whitney"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "conceptual-introduction",
+                "depth": 2,
+                "text": "Conceptual Introduction"
+              },
+              {
+                "id": "tutorial",
+                "depth": 2,
+                "text": "Tutorial"
+              },
+              {
+                "id": "1--setting-up-behavior-bricks",
+                "depth": 3,
+                "text": "1 — Setting Up Behavior Bricks"
+              },
+              {
+                "id": "2--creating-a-behavior",
+                "depth": 3,
+                "text": "2 — Creating A Behavior"
+              },
+              {
+                "id": "3--editing-behavior-parameters",
+                "depth": 3,
+                "text": "3 — Editing Behavior Parameters"
+              },
+              {
+                "id": "4--composing-behaviors",
+                "depth": 3,
+                "text": "4 — Composing Behaviors"
+              },
+              {
+                "id": "making-a-repeat-behavior",
+                "depth": 3,
+                "text": "Making A Repeat Behavior"
+              },
+              {
+                "id": "5--conditions--perceptions",
+                "depth": 3,
+                "text": "5 — Conditions & Perceptions"
+              }
+            ],
+            "dir": "/modules/18-behavioral-modeling-intro",
+            "path": "/modules/18-behavioral-modeling-intro/183-Agent-Based-Populations-and-Behavior-Bricks",
+            "extension": ".md",
+            "createdAt": "2022-03-31T08:31:55.611Z",
+            "updatedAt": "2022-03-31T08:31:55.612Z",
+            "readingTime": 530700,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "184-Mapbox-SDK-and-Routing.md",
+          "ordinal": 184,
+          "contentdata": {
+            "slug": "mapbox-sdk",
+            "moduleid": 184,
+            "title": "Mapbox SDK",
+            "published": true,
+            "authors": [
+              "Violet Whitney"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "conceptual-introduction",
+                "depth": 2,
+                "text": "Conceptual Introduction"
+              },
+              {
+                "id": "tutorial",
+                "depth": 2,
+                "text": "Tutorial"
+              },
+              {
+                "id": "challenge",
+                "depth": 3,
+                "text": "Challenge"
+              },
+              {
+                "id": "not-required-but-useful",
+                "depth": 3,
+                "text": "Not required but useful:"
+              }
+            ],
+            "dir": "/modules/18-behavioral-modeling-intro",
+            "path": "/modules/18-behavioral-modeling-intro/184-Mapbox-SDK-and-Routing",
+            "extension": ".md",
+            "createdAt": "2022-03-31T08:32:19.825Z",
+            "updatedAt": "2022-03-31T08:32:19.826Z",
+            "readingTime": 138000,
+            "uniqueLinks": []
+          }
+        }
+      ]
     }
   ]
 }

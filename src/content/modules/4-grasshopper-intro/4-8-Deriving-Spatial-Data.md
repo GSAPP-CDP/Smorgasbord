@@ -4,7 +4,7 @@ title: Deriving Spatial Data
 published: True
 slug: Deriving-Spatial-Data
 authors:
- - "Danil Nagy"
+ - "Luc Wilson"
 ---
 
 # Deriving Spatial Data

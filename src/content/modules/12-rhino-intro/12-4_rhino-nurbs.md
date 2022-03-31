@@ -8,27 +8,45 @@ authors:
 ---
 # Modeling with NURBS
 ## Module Summary:
-We were able model the Casa Bahia Azul using simple extrusions made of polylines with straight segments. This module introduces the use of freeform curves and surfaces in Rhino. It will first give a brief overview of what NURBS geometry is and how it works. It will then use NURBS modeling to create the terrain surrounding the building.
+We were able model the Casa Bahia Azul using simple extrusions made of straight segments, but Rhino is capable of much more than that. This module introduces the use of freeform curves and surfaces in Rhino. It starts with a quick overview of how geometry was described in the past and how it's donw in Rhino, followed by a freeform modeling exercise, and finally explores creating the terrain surrounding the Casa Bahia Azul.
 
-## What are NURBS?
+## Introduction to NURBS Geometry
+### A Very Brief History of Architectural Geometry
 
-Overview TK
+The primary system Rhino uses to describe geometric objects is called NURBS, which is short for "Non-Uniform Rational Basis-Splines". To understand what that means, let's quickly look at the ways architects used geometry in the past.
 
-The main way that Rhino stores and describes geometric objects is called NURBS, which is short for "Non-Uniform Rational Basis-Splines". 
-
-Classical geometry, the kind done in ancient Greece, was constructed out of straight lines and circles. These two forms corresponded to two tools that were used to draw them, the straightedge and the compass. Problems in geometry were solved by drawing, and specifically by drawing using machines.
+Classical geometry, the kind done in ancient Greece, was built up from straight lines and circles. These two forms corresponded to two tools that were used to draw them, the straightedge and the compass. Problems in geometry were solved by drawing, specifically by drawing using machines. --drawing as logic --beauty, aesthetics, order
 
 The many things you could construct, or relationships that you could prove, with a straightedge and compass were written down by Euclid in a book called the Elements.
 
-- Descartes
+This geometric system is easy to see in the architecture of classical Greece and Rome. Small-scale ornament that could be completed by individual masons is organic and expressive, but the overall forms 
+
+
+
+For a long time, these tools and forms were the basis of Western geometry, and by extension, architecture.
+
+--pantheon
+
+Even in the middle ages, gothic cathedrals were
+
+During the enlightenment, Renee Descartes developed a system for representing functions and shapes, uniting algebraic analysis and geometry
+
+But there was no good way of drawing, so architecture didn't change
+
+But cubes and spheres are no use for designing airplanes, and in the mid 20th century we suddenly needed a lot of airplanes.
+
+To design them we borrowed a tool from boatbuilding, the Spline.
+
 - wwii, airplanes, splines
 - cars, bezier, casteljau
-- explain the acronym
-- basic math
+
+
+## What are NURBS?
+
 
 ### Working with NURBS Curves
 
-To start experimenting with NURBS geometry, use the `Curve` command, changing "Degree" to 1 in the command prompt. Then click a few times arbitrarily to create a curve, like so:
+To start experimenting with NURBS geometry, use the `Curve` command. Change "Degree" to 1 in the command prompt, then click a few times arbitrarily to create a curve, like so:
 
 ![Degree-1 curve](images/12-4/degree-1.PNG#img-left)
 
@@ -36,17 +54,17 @@ The resulting curve is made up of straight line segments with sharp corners. It 
 
 ![Degree-2 curve](images/12-4/degree-2.PNG#img-left)
 
-This time you get a smooth curve. If you select it, you'll see that its control points which determine the shape of the curve are placed where you clicked (press `Escape` to hide the control points). Draw two more curves this way, with degree 3 and degree 4.
+This time you get a **smooth curve**. If you select it, you'll see that the control points which determine the shape are in the places you clicked, not on the curve itself. Press `Escape` to hide the control points, and draw two more curves this way, with degree 3 and degree 4.
 
 ![higher degree curves](images/12-4/degree-3-4.PNG#img-left)
 
-Each curve has the same control points, but the result is smoother the higher the degree. Now try moving one of the control points in the middle of the degree-2 curve. You'll see that the control point only influences a particular segment of the curve, outside of which nothing you do to your control point has any effect. Now try this with the degree-3 curve, and you'll see that the area of influence extends further.
+Each curve has the same control points, but **the result is smoother the higher the degree**. Now `Move` one of the control points in the middle of the degree-2 curve. You'll see that the control point only influences a piece of the curve, outside of which nothing you do has any effect. Now try this with the degree-3 curve, and you'll see that the area of influence extends further along the curve.
 
 ![influence of control points](images/12-4/degree-influence.gif#img-left)
 
-You can imagine the influence of control points being more "spread out" the higher the degree of the curve, which is why a curve with given control points get smoother as degree increases.
+You can imagine **the influence of control points being more "spread out" the higher the degree of the curve**, which is why a curve with given control points get smoother as degree increases.
 
-Currently the control points in these curves are all weighted equally. To give a point more or less influence, select it and use the `Weight` command. Play with the slider to see how higher or lower weight affects the curve.
+Currently the control points in these curves are all **weighted** equally. To give a point more or less influence, select it and use the `Weight` command. Play with the slider to see how higher or lower weight affects the curve.
 
 ![influence of control points](images/12-4/weight.gif#img-left)
 
@@ -56,31 +74,31 @@ Finally, when drawing a smooth line like this, very often what's important is wh
 
 ### Working with NURBS Surfaces
 
-Next we'll look at working with surfaces. A NURBS surface is made from a network of curves which cross each other in two (roughly) perpendicular directions. To avoid confusion with the X and Y axes of the space containing the geometry, these two directions are called U and V.
+Next we'll look at working with surfaces. A NURBS surface is made from a network of curves which cross each other in two (roughly) perpendicular directions. To avoid confusion with the X and Y axes of the space containing the geometry, **these two directions are called U and V**.
 
 // UV image
 
-In perspective view, create a `Plane`. Turning `PointsOn` (F10) will allout you to select and move the control points, which in this case are only at the corners. Try moving two opposite corners upwards in the Z direction, and you'll end up with a saddle shape (technically, a "hyperbolic parabaloid").
+In perspective view, create a `Plane`. Turning `PointsOn` (`F10`) will allout you to select and move the control points, which in this case are only at the corners. Try moving two opposite corners upwards in the Z direction, and you'll end up with a **saddle shape** (technically, a "hyperbolic parabaloid").
 
 ![hyperbolic paraboloid](images/12-4/paraboloid.gif#img-left)
 
-This is a doubly-curved surface, meaning that making it in the real world from a flat plane would require a material that can stretch and contract. You can check the curvature of a surface using `CurvatureAnalysis` and clicking "AutoRange." Areas where curves in the U and V directions bend in opposite directions, like most of this saddle surface, have "negative" curvature, while if they curve in the same direction (like on a sphere), they have "positive" curvature. Surfaces that don't need to stretch have zero curvature even if they aren't flat, like a cylinder.
+This is a **doubly-curved surface**, meaning to make it in the real world from a flat plane the material would have to stretch. You can check the curvature of a surface using `CurvatureAnalysis` and clicking "AutoRange." Areas where curves in the U and V directions bend in opposite directions, like most of this saddle surface, have "negative" curvature, while if they curve in the same direction (like on a sphere), they have "positive" curvature. Surfaces that don't need to stretch have zero curvature, even if they aren't flat. So a cylinders and cones have zero curvature, because you can make them by rolling a non-stretchy piece of paper.
 
-But! This is actually a degree-1 surface. The NURBS curves which define it in the U and V directions are just the straight lines at the edges. You can check this by clicking the "Details" button in the Properties panel.
+But! This is actually only a degree-1 surface. The NURBS curves which define it in the U and V directions are just the straight lines at the edges. You can check this by clicking the "Details" button in the Properties panel.
 
 ![curvature and details](images/12-4/curvature.PNG#img-left)
 
-Since the U and V curves are degree-1--straight lines--all the intermediate sections have to be degree-1 too. And if you `Countour` the surface in either the X or Y direction, you'll find that the results are all indeed straight lines.
+Since the U and V curves are degree-1 (straight lines) all the intermediate sections have to be degree-1 too. And if you `Countour` the surface in either the X or Y direction, you'll find that the results are all, indeed, straight lines.
 
 ![contours](images/12-4/contour.PNG#img-left)
 
-If we want a `Plane` with more flexibility, we can select "Deformable" in the command prompt. This lets us choose both the number or curves in the U and V directions and their degree. Accept the default settings to create a surface with 10 degree-3 curves in both the U and V directions.
+For a `Plane` with more flexibility, we can select "Deformable" in the command prompt when making it. This lets us choose both the number or curves in the U and V directions and their degree. Accept the default settings to create a surface with 10 degree-3 curves in both the U and V directions.
 
 You can see the surface's additional isocurves, and if you turn `PointsOn` again, you'll see a control point at each intersection. Try moving these around to create a smooth, complex surface.
 
 ![contours](images/12-4/deformable.PNG#img-left)
 
-`Weight` can be adjusted on these control points just like before, when we were only working with curves. You can also adjust larger areas smoothly using `SoftEditSrf`:
+`Weight` can be adjusted on these control points just like when we were working with curves. You can also adjust larger areas smoothly using `SoftEditSrf`:
 
 ![contours](images/12-4/surface-edits.gif#img-left)
 
@@ -97,7 +115,7 @@ Since every NURBS surface is made up of a grid of curves, mathematically speakin
 
 ### Creating Surfaces from Curves
 
-Most of the time, we don't want to build complex geometry starting from flat sheets. One common alternative is to start with the contours in either the U or V directions, and fit a surface through them using `Loft` (the term comes from boatbuilding, and describes fitting the planks of the hull around the ribs). Lets take a break from the Casa Bahia Azul to create a model of this chair designed by Vemer Panton for Vitra in the 1960s:
+Most of the time, we don't want to build complex geometry starting from flat sheets. One common alternative is to start with the contours in either the U or V directions, and fit a surface through them using `Loft` (the term comes from boatbuilding, where it describes fitting the planks of the hull around the ribs). Lets take a break from the Casa Bahia Azul to create a model of this chair designed by Vemer Panton for Vitra in the 1960s:
 
 ![Panton Chair](images/12-4/Panton_Stuhl.jpg#img-left)
 
@@ -118,7 +136,7 @@ After you've drawn each curve, you can fine-tune them by adjusting the control p
 
 ![Panton profile curves](images/12-4/panton-curves-side.PNG#img-left)
 
-Switch to perspective view and drag your lines out in the X direction, just enough that they're in the correct order. (Since the chair is symmetrical, we're only going to worry about one side.) Then switch to Front view. Now you can once again adjust your curves using their control points so that they match the underlay drawing. As long as you only drag them left and right, their appearance from the side should be largely unaffected. But you may need to switch between views a few times, adjusting as you go, before you're satisfied with the results.
+Switch to Perspective view and drag your lines out in the X direction, just enough so that they're in the correct order. (Since the chair is symmetrical, we're only going to worry about one side.) Then switch to Front view. Now you can once again adjust your curves using their control points so that they match the underlay drawing. As long as you only drag them left and right, their appearance from the side should be largely unaffected. But you may need to switch between views a few times, adjusting as you go, before you're satisfied with the results.
 
 ![Panton profile curves](images/12-4/panton-curves-complete.PNG#img-left)
 
@@ -150,25 +168,25 @@ The isolines which describe the terrain are on the site plan we originally used 
 
 ![Casa Bahia Azul site plan](images/12-4/cba-site-plan.png#img-left)
 
-If you aren't familiar with topographical drawings, these lines mark regularly spaced contours of the landscape, meaning every point on a given line is at the same elevation. Based on where they intersect the building, there seems to be a contour line every 25 centimeters.
+If you aren't familiar with topographical drawings, these lines mark regularly spaced contours of the landscape, meaning every point on a given line is at the same elevation. Based on where they intersect with the building, there seems to be a contour line every 25 centimeters.
 
-Trace the contours. There are a lot of them, so you don't need to be too precious about it. As the cliff gets steeper the resolution of the image isn't high enough to distinguish them, so fake it as best you can. `TweenCurves` can help you create denser areas by adding multiple curves at once, but make sure the results never cross each other (which would imply a single point at two different elevations).
+Trace the contours. There are a lot of them, so you don't need to be too precious about it. As the cliff gets steeper the resolution of the image isn't high enough to distinguish them, so fake it as best you can. `TweenCurves` can help you create denser areas by adding multiple curves at once, but make sure the resulting lines never cross each other (which would imply a single point at two different elevations).
 
-Where the topography lines are interrupted by the building, continue them from one side to the other as if it wasn't there. You'll trim out this part of the surface at the end.
+Where the topography lines are interrupted by the building, continue them across it as if it isn't there. You'll trim out this part of the surface at the end.
 
 ![Casa Bahia Azul topography lines](images/12-4/cba-topo-drawn.PNG#img-left)
 
-You can see in the image above that I've ignored not only the house but also the flat area between the house and retaining wall. The hard break in the landscape on either side of the wall, combined with the continuous slope just west of the wall, makes this a tricky shape to model with NURBS. (Natural forms like this are often better approached with mesh modeling, but that's outside the present scope of these tutorials.) So my approach is going to be creating the whole hillside in something like its original state, and then replacing the re-graded portions afterwards.
+You can see in the image above that I've ignored not only the house but also the flat area between the house and retaining wall. The hard break in the landscape on either side of the wall, combined with the continuous slope just west of the wall, makes this a tricky shape to model with NURBS. (Natural forms like this are often better approached with mesh modeling, but that's outside the scope of this tutorial sequence.) So my approach is going to be creating the whole hillside in something like its original state, and then replacing the re-graded portions afterwards.
 
 Space out the topography lines in the Z direction using `Distribute`, then `Loft` them. Move the resulting surface to the currect height, and `Trim` out the areas for the house and landscaping. You may find it helpful to `ExtractIsocurves` from the surface to create your cutting geometry.
 
 ![Casa Bahia Azul topography lines](images/12-4/trimmed-terrain.PNG#img-left)
 
-Then draw the actual topography lines for the slope up to the retaining wall, and move them to the correct height. I've also added an extra curve to smooth out the transition to the flat area. To create this surface I'm opting to use `NetwrkSrf`, which works a bit like `Loft` but takes input curves in both the U and V directions.
+Then draw the regraded topography lines for the slope up to the retaining wall, and move them to the correct height. I've also added an extra curve to smooth out the transition to the flat area. To create this surface I'm opting to use `NetwrkSrf`, which works a bit like `Loft` but takes input curves in both the U and V directions.
 
 ![Casa Bahia Azul topography lines](images/12-4/netwrksrf.PNG#img-left)
 
-Then I create outline curves for the remaining areas, including a couple that overlap with the slope to smooth out the transitions between surfaces. I fit a surface through these using `Patch` a flexible (but somewhat crude) way of fitting a surface through curves and other geometry.
+Then I create outline curves for the remaining areas, including a couple that overlap with the slope to smooth out the transitions between surfaces. I fit a surface through these using `Patch` a flexible (but crude) way of fitting a surface through curves and other geometry.
 
 ![Patch](images/12-4/patch.PNG#img-left)
 
@@ -178,16 +196,12 @@ Then I create outline curves for the remaining areas, including a couple that ov
 
 ## Conclusion
 
-TX
-
-Working with NURBS gives you the ability 
+Working with NURBS gives you the flexibility to create a huge range of forms, but it can take some time to get a feel for how they work, and knowing a little bit about the underlying mathematics makes their behavior easier to understand. Now that you've been introduced Rhino, and have a model of a building to work with, the next sequence will cover using that model to produce architectural drawings and images.
 
 ## Post-Sequence Challenge
 
-TK
+For more practice before moving on to the next sequence, try modeling another building on your own, following the same steps we used in this sequence. Some suggestions of projects that are more challenging than the Casa Bahia Azul, but still manageable, are below.
 
-- challenge to model another building
-- provide suggestionsions from the list:
 - Barcelona Pavilion, Ludwig Mies van der Rohe
 - Casa de Vidro, Lina bo Bardi
 - Bait Ur Rouf Mosque, Marina Tabassum
