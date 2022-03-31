@@ -52,7 +52,7 @@ But the use of digital modeling and simulation has completely transformed the la
 ![gehry](images/13-3/gehry.jpeg#img-left)
 *Gehry Partners, The Grand, Los Angeles, 2019.*
 
-Commercial rendering engines like VRay and Enscape, and even open-source software like Blender, make it easier every year to produce images nearly indistinguishable from photographs (though this arguably says as much about architectural photography as it does about technology).
+Commercial rendering engines like VRay and Enscape, and even open-source software like Blender, make it easier every year to produce images nearly indistinguishable from photographs (though this might say as much about architectural photography as it does about software).
 
 ![wework](images/13-3/wework.jpg#img-left)
 *WeWork, 2019.*

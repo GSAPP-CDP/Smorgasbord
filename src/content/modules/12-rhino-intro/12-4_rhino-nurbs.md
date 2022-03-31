@@ -10,41 +10,92 @@ authors:
 ## Module Summary:
 We were able model the Casa Bahia Azul using simple extrusions made of straight segments, but Rhino is capable of much more than that. This module introduces the use of freeform curves and surfaces in Rhino. It starts with a quick overview of how geometry was described in the past and how it's donw in Rhino, followed by a freeform modeling exercise, and finally explores creating the terrain surrounding the Casa Bahia Azul.
 
-## Introduction to NURBS Geometry
-### A Very Brief History of Architectural Geometry
+## A Brief History of Architectural Geometry
 
-The primary system Rhino uses to describe geometric objects is called NURBS, which is short for "Non-Uniform Rational Basis-Splines". To understand what that means, let's quickly look at the ways architects used geometry in the past.
+The primary system Rhino uses to describe geometric objects is called **NURBS**, which is short for **Non-Uniform Rational Basis-Splines**. To understand what that means, let's look briefly at how architects have used geometry in the past.
 
-Classical geometry, the kind done in ancient Greece, was built up from straight lines and circles. These two forms corresponded to two tools that were used to draw them, the straightedge and the compass. Problems in geometry were solved by drawing, specifically by drawing using machines. --drawing as logic --beauty, aesthetics, order
+### I. Euclidean Geometry
 
-The many things you could construct, or relationships that you could prove, with a straightedge and compass were written down by Euclid in a book called the Elements.
+![archimedes](images/12-4/courtois_archimedes.jpg#img-left)
+*"Do not disturb my circles."*
 
-This geometric system is easy to see in the architecture of classical Greece and Rome. Small-scale ornament that could be completed by individual masons is organic and expressive, but the overall forms 
+Classical geometry, the kind done in ancient Greece, was built up from straight lines and circles. These two elementary shapes corresponded to two tools that were used to draw them, the **straightedge** and the **compass**. The tools were physical correlates of logical propositions, and could be used not only to procedurally construct a variety of forms in both two and three dimensions, but also to solve mathematical problems (in the ancient world, mathematics and geometry were basically synonymous). Euclid's *Elements*, a book which lays out these methods and gives Euclidean geometry its name, was the core mathematical textbook of Europe and the Middle East for two millenia.
 
-
-
-For a long time, these tools and forms were the basis of Western geometry, and by extension, architecture.
-
---pantheon
-
-Even in the middle ages, gothic cathedrals were
-
-During the enlightenment, Renee Descartes developed a system for representing functions and shapes, uniting algebraic analysis and geometry
-
-But there was no good way of drawing, so architecture didn't change
-
-But cubes and spheres are no use for designing airplanes, and in the mid 20th century we suddenly needed a lot of airplanes.
-
-To design them we borrowed a tool from boatbuilding, the Spline.
-
-- wwii, airplanes, splines
-- cars, bezier, casteljau
+![Byrne's Euclid](images/12-4/byrne_euclid.jpg#img-left)
+*An page from an 1847 edition of the Elements, illustrated by Oliver Byrne. The original text was a work of pure logic, without images or diagrams.*
 
 
-## What are NURBS?
+One of the things that makes classical geometry so useful in architecture is its indifference to scale. It's concerned with *ratio*. Euclidean construction works just as well in a field, with stakes and ropes, as it does on paper with a ruler and compass, meaning an architectural plan constructed with with a ruler and compass can easily be reproduced at full scale. This geometric system is easy to read in the architecture of classical Greece and Rome. Small-scale ornament that could be completed by individual masons is often organic and expressive, but the overall forms are almost always governed by squares, rectangles and circles.
+
+![Pantheon](images/12-4/pantheon.jpg#img-left)
+*Pantheon, Rome. c. 126 CE.*
+
+Even the ambitious and intricate forms of gothic cathedrals were ultimately described and constructed using straight lines and arcs, in a collection of techniques known as **stereotomy**.
+
+![Stereotomy](images/12-4/stereotomy.jpg#img-left)
+*Medieval Stonecutting Techniques. Rocío Maira Vidal, "Evolution of construction techniques in the Early Gothic," 2017.*
+
+### II. The Modern Era
+
+In 1637, René Descartes first published a description of his **coordinate system** for describing geometry numerically, which is not only still in use, but deeply embedded in the modern conception of space itself. It synthesized geometry with algebra and arithmetic, allowing numerical analysis of form and the visualization of mathematical functions. What it did *not* do was provide any efficient way of **drawing** algebraic curves. They had to be plotted one point at a time, and interpolated by hand. Combined with a renewed enthusiasm for classical civilization, this meant that that the revolutionary mathematics of the Enlightenment had basically no effect on the geometry used in the design and construction of buildings.
+
+![Stereotomy](images/12-4/ledoux-barrieres.jpg#img-left)
+*Claude Nicolas Ledoux, Barrières de Paris, 1785.*
+
+The Industrial Revolution altered this state of affairs only by pushing it to new extremes. After all, straight lines and circles aren't just the basic actions of mechanical drawing, but of mechanics in general. Translating linear to circular motion, and vice versa, is essentially the only thing machines do.
+
+![Crystal Palace](images/12-4/crystal-palace.jpg#img-left)
+*Joseph Paxton, Crystal Palace, 1851.*
+
+The artisan-crafted details and ornamentation that were once exempt from the demands of mathematical description seemed, to the most prominent architects of the modernist period, irrelevant, backwards, a waste of valuable labor. Euclidean purity was not only a practical imperative, but a moral one.
+
+![Villa Savoye](images/12-4/corbusier.jpg#img-left)
+*Le Corbusier, Villa Savoye, 1931.*
+
+### III. Splines
+
+But there's one area of industrial design where arcs and straight lines will only get you so far, which toward the end of the 1930s suddenly became extremely important.
+
+![Boeing B-17 G](images\12-4\GAN-2-B-17G-Production-on-Ramp.jpg#img-left)
+*“At the peak of production in 1944, 16 B-17G aircraft were completed during each one-day 20-hour work shift. This photograph shows the completed aircraft, the results of one work day, being routed along Boeing’s Seattle plant concourse.” Caption and photo from 1985 Boeing media kit.*
+
+To design and produce aircraft at the speed and scale required for WWII, engineers borrowed a drafting device from boatbuilding, called a **spline**.
+
+![Drafting Spline](images/12-4/drafting-spline.jpg#img-left)
+*Drafting Spline*
+
+A spline is a flexible strip of wood, held in place with weights at specified control points. The wood, natuarally adjusting to minimize its curvature, creates a smooth interpolation of the points. And, like drawing with a compass and straightedge, this process scales up: a plank of wood applied to the ribs of a hull will minimize its curvature in the same way as a spline pinned to the locations of the ribs on a drawing, resulting in the same shape.
+
+In the years after the war sinuous, aeronautic, non-circular curves seemed to evoke all that was new and exciting in the world: speed, modernity, the future, the space age.
+
+![Gateway Arch](images/12-4/gateway-arch.jpg#img-left)
+*Eero Saarinen, Gateway Arch, St. Louis, Missourui. Designed 1947, completed 1965.*
+
+![LAX Theme Building](images/12-4/LAX.jpg#img-left)
+*Paul Williams and Welton Becket, Pereira & Luckman Architects, LAX Theme Building. 1957.*
+
+![McDonalds](images/12-4/mcdonalds.jpg#img-left)
+*McDonald's, Downey, California, 1953.*
+
+But when it came to industrial mass production, there was a problem. The exact opposite problem, in fact, to the one of drawing algebraic curves in the time of Descartes: smooth, freeform curves were easy enough to draw, using a spline, but there was no mathematical way to describe them. (Even the examples above use parabolas or catenaries, rather than freeform curves.)
+
+A method for describing freeform curves and surfaces for use in industrial and computational production was devised by two engineers working for car manufacturers in France, Pierre Bezier (Renault) and Paul de Casteljau (Citroën). Within a few years, cars went from looking like this:
+
+![Citroen CV2](images/12-4/citroen-cv2.jpg#img-left)
+*Citroën CV2*
+
+to this:
+
+![Citroen DS](images/12-4/citroen-ds.jpg#img-left)
+*Citroën DS*
+
+Let's look at how this system works.
+
+## NURBS
 
 
-### Working with NURBS Curves
+
+## Tutorial: Working with NURBS
 
 To start experimenting with NURBS geometry, use the `Curve` command. Change "Degree" to 1 in the command prompt, then click a few times arbitrarily to create a curve, like so:
 
