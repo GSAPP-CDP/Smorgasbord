@@ -1,7 +1,7 @@
 <template>
-  <div class="sequence" v-if="sequencedata !== null">
+  <div class="sequence" v-if="sequencedata != null">
 
-      <div class="sequencetitle">{{ sequencedata.contentdata.title }}</div>
+      <div class="sequencetitle">{{ sequenceTitle }}</div>
       <div class="sequencemodules">
         <div v-for="module in sequencedata.modules" :class="[ module.contentdata.path === $nuxt.$route.path ? 'active' : '']" >
           <NuxtLink :to="module.contentdata.path"><span class="bullet" /> {{ module.contentdata.title }}</NuxtLink>
@@ -109,6 +109,13 @@ export default {
       })
       if(f.length > 0) { return f[0]; }
       else { return null; }
+    },
+    sequenceTitle() {
+      try {
+        return this.sequencedata.contentdata.title;
+      } catch {
+        return this.sequencedata.path;
+      }
     },
   },
   methods: {
