@@ -1,15 +1,15 @@
 {
   "modules": {
-    "10-spatial-python/101-data-manipulation": {
-      "double_links": []
-    },
-    "10-spatial-python/104-spatial-analysis-correlation": {
-      "double_links": []
-    },
     "10-spatial-python/102-geospatial-data": {
       "double_links": []
     },
     "10-spatial-python/103-spatial-analysis-point-pattern": {
+      "double_links": []
+    },
+    "10-spatial-python/101-data-manipulation": {
+      "double_links": []
+    },
+    "10-spatial-python/105-spatial-analysis-clustering": {
       "double_links": []
     },
     "10-spatial-python/index": {
@@ -30,6 +30,15 @@
     "11-interactive-web/index": {
       "double_links": []
     },
+    "10-spatial-python/104-spatial-analysis-correlation": {
+      "double_links": []
+    },
+    "11-interactive-web/README": {
+      "double_links": []
+    },
+    "12-rhino-intro/12-0_sequence-summary": {
+      "double_links": []
+    },
     "12-rhino-intro/12-1_rhino-interface": {
       "double_links": []
     },
@@ -45,10 +54,10 @@
     "12-rhino-intro/index": {
       "double_links": []
     },
-    "13-arch-drawing/13-1_orthographic-drawing": {
+    "13-arch-drawing/13-0_arch-drawing-summary": {
       "double_links": []
     },
-    "10-spatial-python/105-spatial-analysis-clustering": {
+    "13-arch-drawing/13-1_orthographic-drawing": {
       "double_links": []
     },
     "13-arch-drawing/13-2_projection": {
@@ -66,10 +75,10 @@
     "14-geospatial-concepts/141-what-is-gis": {
       "double_links": []
     },
-    "14-geospatial-concepts/142-spatial-data": {
+    "14-geospatial-concepts/143-coordinates-projections": {
       "double_links": []
     },
-    "14-geospatial-concepts/143-coordinates-projections": {
+    "14-geospatial-concepts/142-spatial-data": {
       "double_links": []
     },
     "14-geospatial-concepts/index": {
@@ -84,19 +93,28 @@
     "15-intro-qgis/153-archives": {
       "double_links": []
     },
-    "15-intro-qgis/154-observations": {
-      "double_links": []
-    },
     "15-intro-qgis/155-satellites": {
       "double_links": []
     },
     "15-intro-qgis/156-aerial-imagery": {
       "double_links": []
     },
-    "15-intro-qgis/157-atlas": {
+    "15-intro-qgis/index": {
       "double_links": []
     },
-    "15-intro-qgis/index": {
+    "16-ambient-computing-network-architecture/156-dynamic-environments/156-dynamic-environments": {
+      "double_links": []
+    },
+    "15-intro-qgis/154-observations": {
+      "double_links": []
+    },
+    "16-ambient-computing-network-architecture/156-dynamic-environments/images/keep": {
+      "double_links": []
+    },
+    "16-ambient-computing-network-architecture/158-low-and-high-programming/158-low-and-high-programming": {
+      "double_links": []
+    },
+    "16-ambient-computing-network-architecture/158-low-and-high-programming/images/keep": {
       "double_links": []
     },
     "16-ambient-computing-network-architecture/161-dynamic-environments": {
@@ -105,10 +123,13 @@
     "16-ambient-computing-network-architecture/162-network-architecture": {
       "double_links": []
     },
-    "16-ambient-computing-network-architecture/163-low-and-high-programming": {
+    "15-intro-qgis/157-atlas": {
       "double_links": []
     },
-    "16-ambient-computing-network-architecture/index": {
+    "16-ambient-computing-network-architecture/157-network-architecture/157-network-architecture": {
+      "double_links": []
+    },
+    "16-ambient-computing-network-architecture/163-low-and-high-programming": {
       "double_links": []
     },
     "17-ambient-computing-interactivity/171-Intro-to-Processing-Lighting": {
@@ -117,37 +138,70 @@
     "17-ambient-computing-interactivity/172-Webhooks-Connecting-IFTTT-and-Processing": {
       "double_links": []
     },
-    "17-ambient-computing-interactivity/173-sounds-speech-and-macros": {
+    "16-ambient-computing-network-architecture/index": {
       "double_links": []
     },
-    "17-ambient-computing-interactivity/174-Markers-and-Tracking": {
+    "17-ambient-computing-interactivity/173-sounds-speech-and-macros": {
       "double_links": []
     },
     "17-ambient-computing-interactivity/175-Computer-Vision": {
       "double_links": []
     },
+    "17-ambient-computing-interactivity/174-Markers-and-Tracking": {
+      "double_links": []
+    },
+    "17-ambient-computing-interactivity/163-Markers-and-Tracking/163-Markers-and-Tracking": {
+      "double_links": []
+    },
+    "18-behavioral-modeling-intro/165-Unity-and-Agent-Based-Modeling-Intro/165-Unity-and-Agent-Based-Models": {
+      "double_links": []
+    },
+    "18-behavioral-modeling-intro/165-Unity-and-Agent-Based-Modeling-Intro/images/readme": {
+      "double_links": []
+    },
     "17-ambient-computing-interactivity/index": {
       "double_links": []
     },
-    "18-behavioral-modeling-intro/181-Unity-and-Agent-Based-Models": {
+    "18-behavioral-modeling-intro/166-Intro-To-Unity/images/temp": {
       "double_links": []
     },
-    "18-behavioral-modeling-intro/182-Intro-To-Unity": {
+    "18-behavioral-modeling-intro/166-Intro-To-Unity/166-Intro-To-Unity": {
+      "double_links": []
+    },
+    "18-behavioral-modeling-intro/167-Agent-Based-Populations-and-Behavior-Bricks/images/temp": {
+      "double_links": []
+    },
+    "18-behavioral-modeling-intro/167-Agent-Based-Populations-and-Behavior-Bricks/167-Agent-Based-Populations-and-Behavior-Bricks": {
+      "double_links": []
+    },
+    "18-behavioral-modeling-intro/168-Mapbox-SDK-and-Routing/images/readme": {
+      "double_links": []
+    },
+    "18-behavioral-modeling-intro/168-Mapbox-SDK-and-Routing/168-Mapbox-SDK-and-Routing": {
       "double_links": []
     },
     "18-behavioral-modeling-intro/183-Agent-Based-Populations-and-Behavior-Bricks": {
       "double_links": []
     },
-    "18-behavioral-modeling-intro/184-Mapbox-SDK-and-Routing": {
+    "18-behavioral-modeling-intro/182-Intro-To-Unity": {
       "double_links": []
     },
-    "18-behavioral-modeling-intro/index": {
+    "18-behavioral-modeling-intro/184-Mapbox-SDK-and-Routing": {
       "double_links": []
     },
     "4-grasshopper-intro/4-1-getting-started-with-grasshopper": {
       "double_links": []
     },
+    "18-behavioral-modeling-intro/index": {
+      "double_links": []
+    },
     "4-grasshopper-intro/4-10-Generating-Exploring-Spatial-Data": {
+      "double_links": []
+    },
+    "18-behavioral-modeling-intro/181-Unity-and-Agent-Based-Models": {
+      "double_links": []
+    },
+    "4-grasshopper-intro/4-4-exercise-parametric-tower-part-1": {
       "double_links": []
     },
     "4-grasshopper-intro/4-2-exercise-hello-grasshopper": {
@@ -156,22 +210,16 @@
     "4-grasshopper-intro/4-3-working-in-grasshopper": {
       "double_links": []
     },
-    "4-grasshopper-intro/4-4-exercise-parametric-tower-part-1": {
-      "double_links": []
-    },
     "4-grasshopper-intro/4-5-working-with-data": {
       "double_links": []
     },
     "4-grasshopper-intro/4-6-exercise-parametric-tower-part-2": {
       "double_links": []
     },
-    "4-grasshopper-intro/4-7-documentation-best-practices": {
-      "double_links": []
-    },
-    "4-grasshopper-intro/4-8-Deriving-Spatial-Data": {
-      "double_links": []
-    },
     "4-grasshopper-intro/4-9-Procedural-Rules": {
+      "double_links": []
+    },
+    "4-grasshopper-intro/4-GH-Intro-Sequence Overview": {
       "double_links": []
     },
     "4-grasshopper-intro/index": {
@@ -186,22 +234,19 @@
     "5-computational-design-modeling-in-grasshopper/5-3-Analysis-Tools": {
       "double_links": []
     },
-    "5-computational-design-modeling-in-grasshopper/5-4-Street-Grid": {
+    "4-grasshopper-intro/4-7-documentation-best-practices": {
       "double_links": []
     },
-    "5-computational-design-modeling-in-grasshopper/5-5_Buildings-Density": {
+    "5-computational-design-modeling-in-grasshopper/5-4-Street-Grid": {
       "double_links": []
     },
     "5-computational-design-modeling-in-grasshopper/5-6_Troubleshooting": {
       "double_links": []
     },
-    "5-computational-design-modeling-in-grasshopper/5-7_Design-Space": {
-      "double_links": []
-    },
-    "5-computational-design-modeling-in-grasshopper/index": {
-      "double_links": []
-    },
     "6-intro-to-python/61-getting-started-with-Python": {
+      "double_links": []
+    },
+    "5-computational-design-modeling-in-grasshopper/5-7_Design-Space": {
       "double_links": []
     },
     "6-intro-to-python/62-using-python-in-grasshopper": {
@@ -213,16 +258,25 @@
     "7-fundamentals-of-python/71-variables-lists-and-dictionaries": {
       "double_links": []
     },
-    "7-fundamentals-of-python/72-conditionals-and-loops": {
+    "7-fundamentals-of-python/74-python-libraries": {
+      "double_links": []
+    },
+    "5-computational-design-modeling-in-grasshopper/5-5_Buildings-Density": {
+      "double_links": []
+    },
+    "4-grasshopper-intro/4-8-Deriving-Spatial-Data": {
       "double_links": []
     },
     "7-fundamentals-of-python/73-functions-and-classes": {
       "double_links": []
     },
-    "7-fundamentals-of-python/74-python-libraries": {
+    "7-fundamentals-of-python/index": {
       "double_links": []
     },
-    "7-fundamentals-of-python/index": {
+    "7-fundamentals-of-python/72-conditionals-and-loops": {
+      "double_links": []
+    },
+    "5-computational-design-modeling-in-grasshopper/index": {
       "double_links": []
     },
     "8-intro-to-python-in-rhino/81-accessing-the-rhino-apis-in-python": {
@@ -260,8 +314,8 @@
         "dir": "/modules/4-grasshopper-intro",
         "path": "/modules/4-grasshopper-intro/index",
         "extension": ".md",
-        "createdAt": "2022-03-31T06:51:54.777Z",
-        "updatedAt": "2022-03-31T06:51:54.778Z",
+        "createdAt": "2022-03-31T08:37:22.998Z",
+        "updatedAt": "2022-03-31T08:37:22.998Z",
         "readingTime": 39000,
         "uniqueLinks": []
       },
@@ -295,8 +349,8 @@
             "dir": "/modules/4-grasshopper-intro",
             "path": "/modules/4-grasshopper-intro/index",
             "extension": ".md",
-            "createdAt": "2022-03-31T06:51:54.777Z",
-            "updatedAt": "2022-03-31T06:51:54.778Z",
+            "createdAt": "2022-03-31T08:37:22.998Z",
+            "updatedAt": "2022-03-31T08:37:22.998Z",
             "readingTime": 39000,
             "uniqueLinks": []
           }
@@ -1040,6 +1094,38 @@
             "readingTime": 586500,
             "uniqueLinks": []
           }
+        },
+        {
+          "file": "4-GH-Intro-Sequence Overview.md",
+          "ordinal": 4,
+          "contentdata": {
+            "slug": "into-to-grasshopper",
+            "moduleid": 4,
+            "title": "Intro To Grasshopper",
+            "published": true,
+            "authors": [
+              "Danil Nagy & Luc Wilson"
+            ],
+            "toc": [
+              {
+                "id": "sequence-summary",
+                "depth": 2,
+                "text": "Sequence Summary:"
+              },
+              {
+                "id": "modules",
+                "depth": 2,
+                "text": "Modules:"
+              }
+            ],
+            "dir": "/modules/4-grasshopper-intro",
+            "path": "/modules/4-grasshopper-intro/4-GH-Intro-Sequence Overview",
+            "extension": ".md",
+            "createdAt": "2022-03-31T08:37:44.707Z",
+            "updatedAt": "2022-03-31T08:37:44.707Z",
+            "readingTime": 39000,
+            "uniqueLinks": []
+          }
         }
       ]
     },
@@ -1072,9 +1158,9 @@
         "dir": "/modules/5-computational-design-modeling-in-grasshopper",
         "path": "/modules/5-computational-design-modeling-in-grasshopper/index",
         "extension": ".md",
-        "createdAt": "2022-03-31T06:49:37.739Z",
-        "updatedAt": "2022-03-31T06:49:37.739Z",
-        "readingTime": 79500,
+        "createdAt": "2022-03-31T08:37:44.707Z",
+        "updatedAt": "2022-03-31T08:37:44.707Z",
+        "readingTime": 80700,
         "uniqueLinks": []
       },
       "ordinal": 5,
@@ -1112,9 +1198,9 @@
             "dir": "/modules/5-computational-design-modeling-in-grasshopper",
             "path": "/modules/5-computational-design-modeling-in-grasshopper/index",
             "extension": ".md",
-            "createdAt": "2022-03-31T06:49:37.739Z",
-            "updatedAt": "2022-03-31T06:49:37.739Z",
-            "readingTime": 79500,
+            "createdAt": "2022-03-31T08:37:44.707Z",
+            "updatedAt": "2022-03-31T08:37:44.707Z",
+            "readingTime": 80700,
             "uniqueLinks": []
           }
         },
@@ -1613,8 +1699,8 @@
         "dir": "/modules/6-intro-to-python",
         "path": "/modules/6-intro-to-python/index",
         "extension": ".md",
-        "createdAt": "2022-03-31T06:49:37.739Z",
-        "updatedAt": "2022-03-31T06:49:37.739Z",
+        "createdAt": "2022-03-31T08:37:22.998Z",
+        "updatedAt": "2022-03-31T08:37:22.998Z",
         "readingTime": 74400,
         "uniqueLinks": []
       },
@@ -1653,8 +1739,8 @@
             "dir": "/modules/6-intro-to-python",
             "path": "/modules/6-intro-to-python/index",
             "extension": ".md",
-            "createdAt": "2022-03-31T06:49:37.739Z",
-            "updatedAt": "2022-03-31T06:49:37.739Z",
+            "createdAt": "2022-03-31T08:37:22.998Z",
+            "updatedAt": "2022-03-31T08:37:22.998Z",
             "readingTime": 74400,
             "uniqueLinks": []
           }
@@ -1794,8 +1880,8 @@
         "dir": "/modules/7-fundamentals-of-python",
         "path": "/modules/7-fundamentals-of-python/index",
         "extension": ".md",
-        "createdAt": "2022-03-31T06:49:37.739Z",
-        "updatedAt": "2022-03-31T06:49:37.740Z",
+        "createdAt": "2022-03-31T08:37:22.998Z",
+        "updatedAt": "2022-03-31T08:37:22.998Z",
         "readingTime": 54300,
         "uniqueLinks": []
       },
@@ -1834,8 +1920,8 @@
             "dir": "/modules/7-fundamentals-of-python",
             "path": "/modules/7-fundamentals-of-python/index",
             "extension": ".md",
-            "createdAt": "2022-03-31T06:49:37.739Z",
-            "updatedAt": "2022-03-31T06:49:37.740Z",
+            "createdAt": "2022-03-31T08:37:22.998Z",
+            "updatedAt": "2022-03-31T08:37:22.998Z",
             "readingTime": 54300,
             "uniqueLinks": []
           }
@@ -2134,8 +2220,8 @@
         "dir": "/modules/8-intro-to-python-in-rhino",
         "path": "/modules/8-intro-to-python-in-rhino/index",
         "extension": ".md",
-        "createdAt": "2022-03-31T06:49:37.740Z",
-        "updatedAt": "2022-03-31T06:49:37.740Z",
+        "createdAt": "2022-03-31T08:37:22.998Z",
+        "updatedAt": "2022-03-31T08:37:22.999Z",
         "readingTime": 45900,
         "uniqueLinks": []
       },
@@ -2174,8 +2260,8 @@
             "dir": "/modules/8-intro-to-python-in-rhino",
             "path": "/modules/8-intro-to-python-in-rhino/index",
             "extension": ".md",
-            "createdAt": "2022-03-31T06:49:37.740Z",
-            "updatedAt": "2022-03-31T06:49:37.740Z",
+            "createdAt": "2022-03-31T08:37:22.998Z",
+            "updatedAt": "2022-03-31T08:37:22.999Z",
             "readingTime": 45900,
             "uniqueLinks": []
           }
@@ -2320,8 +2406,8 @@
         "dir": "/modules/10-spatial-python",
         "path": "/modules/10-spatial-python/index",
         "extension": ".md",
-        "createdAt": "2022-03-31T06:49:37.735Z",
-        "updatedAt": "2022-03-31T06:49:37.735Z",
+        "createdAt": "2022-03-31T08:37:19.509Z",
+        "updatedAt": "2022-03-31T08:37:19.510Z",
         "readingTime": 100500,
         "uniqueLinks": []
       },
@@ -2360,8 +2446,8 @@
             "dir": "/modules/10-spatial-python",
             "path": "/modules/10-spatial-python/index",
             "extension": ".md",
-            "createdAt": "2022-03-31T06:49:37.735Z",
-            "updatedAt": "2022-03-31T06:49:37.735Z",
+            "createdAt": "2022-03-31T08:37:19.509Z",
+            "updatedAt": "2022-03-31T08:37:19.510Z",
             "readingTime": 100500,
             "uniqueLinks": []
           }
@@ -2677,8 +2763,8 @@
         "dir": "/modules/11-interactive-web",
         "path": "/modules/11-interactive-web/index",
         "extension": ".md",
-        "createdAt": "2022-03-31T07:22:12.547Z",
-        "updatedAt": "2022-03-31T07:22:12.547Z",
+        "createdAt": "2022-03-31T08:37:19.510Z",
+        "updatedAt": "2022-03-31T08:37:19.510Z",
         "readingTime": 209400,
         "uniqueLinks": []
       },
@@ -2772,8 +2858,8 @@
             "dir": "/modules/11-interactive-web",
             "path": "/modules/11-interactive-web/index",
             "extension": ".md",
-            "createdAt": "2022-03-31T07:22:12.547Z",
-            "updatedAt": "2022-03-31T07:22:12.547Z",
+            "createdAt": "2022-03-31T08:37:19.510Z",
+            "updatedAt": "2022-03-31T08:37:19.510Z",
             "readingTime": 209400,
             "uniqueLinks": []
           }
@@ -3040,6 +3126,92 @@
             "readingTime": 321600,
             "uniqueLinks": []
           }
+        },
+        {
+          "file": "README.md",
+          "ordinal": 9999,
+          "contentdata": {
+            "slug": "README",
+            "toc": [
+              {
+                "id": "sequence-summary",
+                "depth": 2,
+                "text": "Sequence Summary:"
+              },
+              {
+                "id": "why",
+                "depth": 2,
+                "text": "Why?"
+              },
+              {
+                "id": "modules",
+                "depth": 2,
+                "text": "Modules:"
+              },
+              {
+                "id": "guides",
+                "depth": 2,
+                "text": "Guides"
+              },
+              {
+                "id": "github",
+                "depth": 2,
+                "text": "Github"
+              },
+              {
+                "id": "html-basics",
+                "depth": 2,
+                "text": "HTML Basics"
+              },
+              {
+                "id": "css-basics",
+                "depth": 2,
+                "text": "CSS Basics"
+              },
+              {
+                "id": "web-typography",
+                "depth": 2,
+                "text": "Web Typography"
+              },
+              {
+                "id": "layout-basics",
+                "depth": 2,
+                "text": "Layout Basics"
+              },
+              {
+                "id": "animation-basics",
+                "depth": 2,
+                "text": "Animation Basics"
+              },
+              {
+                "id": "javascript-basics",
+                "depth": 2,
+                "text": "JavaScript Basics"
+              },
+              {
+                "id": "dom-manipulation-basics",
+                "depth": 2,
+                "text": "DOM Manipulation Basics"
+              },
+              {
+                "id": "search-filter-and-sort",
+                "depth": 2,
+                "text": "Search, Filter and Sort"
+              },
+              {
+                "id": "user-interface-design",
+                "depth": 2,
+                "text": "User Interface Design"
+              }
+            ],
+            "dir": "/modules/11-interactive-web",
+            "path": "/modules/11-interactive-web/README",
+            "extension": ".md",
+            "createdAt": "2022-03-31T08:37:45.398Z",
+            "updatedAt": "2022-03-31T08:37:45.398Z",
+            "readingTime": 209400,
+            "uniqueLinks": []
+          }
         }
       ]
     },
@@ -3077,8 +3249,8 @@
         "dir": "/modules/12-rhino-intro",
         "path": "/modules/12-rhino-intro/index",
         "extension": ".md",
-        "createdAt": "2022-03-31T06:51:48.572Z",
-        "updatedAt": "2022-03-31T06:51:48.572Z",
+        "createdAt": "2022-03-31T08:37:19.510Z",
+        "updatedAt": "2022-03-31T08:37:19.510Z",
         "readingTime": 83100,
         "uniqueLinks": []
       },
@@ -3122,8 +3294,50 @@
             "dir": "/modules/12-rhino-intro",
             "path": "/modules/12-rhino-intro/index",
             "extension": ".md",
-            "createdAt": "2022-03-31T06:51:48.572Z",
-            "updatedAt": "2022-03-31T06:51:48.572Z",
+            "createdAt": "2022-03-31T08:37:19.510Z",
+            "updatedAt": "2022-03-31T08:37:19.510Z",
+            "readingTime": 83100,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "12-0_sequence-summary.md",
+          "ordinal": 12,
+          "contentdata": {
+            "slug": "introduction-to-rhino",
+            "moduleid": 120,
+            "title": "Introduction to Rhino",
+            "published": true,
+            "authors": [
+              "Zachary White"
+            ],
+            "toc": [
+              {
+                "id": "sequence-summary",
+                "depth": 2,
+                "text": "Sequence Summary:"
+              },
+              {
+                "id": "modeling",
+                "depth": 2,
+                "text": "Modeling"
+              },
+              {
+                "id": "why-rhino",
+                "depth": 2,
+                "text": "Why Rhino?"
+              },
+              {
+                "id": "modules",
+                "depth": 2,
+                "text": "Modules:"
+              }
+            ],
+            "dir": "/modules/12-rhino-intro",
+            "path": "/modules/12-rhino-intro/12-0_sequence-summary",
+            "extension": ".md",
+            "createdAt": "2022-03-31T08:37:45.398Z",
+            "updatedAt": "2022-03-31T08:37:45.398Z",
             "readingTime": 83100,
             "uniqueLinks": []
           }
@@ -3432,8 +3646,8 @@
         "dir": "/modules/13-arch-drawing",
         "path": "/modules/13-arch-drawing/index",
         "extension": ".md",
-        "createdAt": "2022-03-31T06:51:49.091Z",
-        "updatedAt": "2022-03-31T06:51:49.091Z",
+        "createdAt": "2022-03-31T08:37:19.510Z",
+        "updatedAt": "2022-03-31T08:37:19.510Z",
         "readingTime": 20700,
         "uniqueLinks": []
       },
@@ -3477,8 +3691,50 @@
             "dir": "/modules/13-arch-drawing",
             "path": "/modules/13-arch-drawing/index",
             "extension": ".md",
-            "createdAt": "2022-03-31T06:51:49.091Z",
-            "updatedAt": "2022-03-31T06:51:49.091Z",
+            "createdAt": "2022-03-31T08:37:19.510Z",
+            "updatedAt": "2022-03-31T08:37:19.510Z",
+            "readingTime": 20700,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "13-0_arch-drawing-summary.md",
+          "ordinal": 13,
+          "contentdata": {
+            "slug": "introduction-to-architectural-drawing",
+            "moduleid": 131,
+            "title": "Introduction to Architectural Drawing",
+            "published": true,
+            "authors": [
+              "Zachary White"
+            ],
+            "toc": [
+              {
+                "id": "sequence-summary",
+                "depth": 2,
+                "text": "Sequence Summary:"
+              },
+              {
+                "id": "",
+                "depth": 2,
+                "text": ""
+              },
+              {
+                "id": "drawing-an-argument",
+                "depth": 2,
+                "text": "Drawing an Argument"
+              },
+              {
+                "id": "modules",
+                "depth": 2,
+                "text": "Modules:"
+              }
+            ],
+            "dir": "/modules/13-arch-drawing",
+            "path": "/modules/13-arch-drawing/13-0_arch-drawing-summary",
+            "extension": ".md",
+            "createdAt": "2022-03-31T08:37:45.398Z",
+            "updatedAt": "2022-03-31T08:37:45.398Z",
             "readingTime": 20700,
             "uniqueLinks": []
           }
@@ -3868,8 +4124,8 @@
         "dir": "/modules/14-geospatial-concepts",
         "path": "/modules/14-geospatial-concepts/index",
         "extension": ".md",
-        "createdAt": "2022-03-31T06:49:37.737Z",
-        "updatedAt": "2022-03-31T06:49:37.737Z",
+        "createdAt": "2022-03-31T08:37:19.510Z",
+        "updatedAt": "2022-03-31T08:37:19.510Z",
         "readingTime": 90600,
         "uniqueLinks": []
       },
@@ -3913,8 +4169,8 @@
             "dir": "/modules/14-geospatial-concepts",
             "path": "/modules/14-geospatial-concepts/index",
             "extension": ".md",
-            "createdAt": "2022-03-31T06:49:37.737Z",
-            "updatedAt": "2022-03-31T06:49:37.737Z",
+            "createdAt": "2022-03-31T08:37:19.510Z",
+            "updatedAt": "2022-03-31T08:37:19.510Z",
             "readingTime": 90600,
             "uniqueLinks": []
           }
@@ -4141,8 +4397,8 @@
         "dir": "/modules/15-intro-qgis",
         "path": "/modules/15-intro-qgis/index",
         "extension": ".md",
-        "createdAt": "2022-03-31T06:49:37.737Z",
-        "updatedAt": "2022-03-31T06:49:37.737Z",
+        "createdAt": "2022-03-31T08:37:19.510Z",
+        "updatedAt": "2022-03-31T08:37:19.511Z",
         "readingTime": 127500,
         "uniqueLinks": []
       },
@@ -4186,8 +4442,8 @@
             "dir": "/modules/15-intro-qgis",
             "path": "/modules/15-intro-qgis/index",
             "extension": ".md",
-            "createdAt": "2022-03-31T06:49:37.737Z",
-            "updatedAt": "2022-03-31T06:49:37.737Z",
+            "createdAt": "2022-03-31T08:37:19.510Z",
+            "updatedAt": "2022-03-31T08:37:19.511Z",
             "readingTime": 127500,
             "uniqueLinks": []
           }
@@ -4692,8 +4948,8 @@
         "dir": "/modules/16-ambient-computing-network-architecture",
         "path": "/modules/16-ambient-computing-network-architecture/index",
         "extension": ".md",
-        "createdAt": "2022-03-31T07:33:27.610Z",
-        "updatedAt": "2022-03-31T07:33:27.612Z",
+        "createdAt": "2022-03-31T08:37:19.787Z",
+        "updatedAt": "2022-03-31T08:37:19.787Z",
         "readingTime": 5100,
         "uniqueLinks": []
       },
@@ -4737,11 +4993,26 @@
             "dir": "/modules/16-ambient-computing-network-architecture",
             "path": "/modules/16-ambient-computing-network-architecture/index",
             "extension": ".md",
-            "createdAt": "2022-03-31T07:33:27.610Z",
-            "updatedAt": "2022-03-31T07:33:27.612Z",
+            "createdAt": "2022-03-31T08:37:19.787Z",
+            "updatedAt": "2022-03-31T08:37:19.787Z",
             "readingTime": 5100,
             "uniqueLinks": []
           }
+        },
+        {
+          "file": "156-dynamic-environments.md",
+          "ordinal": 156,
+          "contentdata": null
+        },
+        {
+          "file": "157-network-architecture.md",
+          "ordinal": 157,
+          "contentdata": null
+        },
+        {
+          "file": "158-low-and-high-programming.md",
+          "ordinal": 158,
+          "contentdata": null
         },
         {
           "file": "161-dynamic-environments.md",
@@ -4794,8 +5065,8 @@
             "dir": "/modules/16-ambient-computing-network-architecture",
             "path": "/modules/16-ambient-computing-network-architecture/161-dynamic-environments",
             "extension": ".md",
-            "createdAt": "2022-03-31T07:33:52.000Z",
-            "updatedAt": "2022-03-31T07:33:52.000Z",
+            "createdAt": "2022-03-31T08:37:19.511Z",
+            "updatedAt": "2022-03-31T08:37:19.511Z",
             "readingTime": 431400,
             "uniqueLinks": []
           }
@@ -4841,8 +5112,8 @@
             "dir": "/modules/16-ambient-computing-network-architecture",
             "path": "/modules/16-ambient-computing-network-architecture/162-network-architecture",
             "extension": ".md",
-            "createdAt": "2022-03-31T07:34:01.343Z",
-            "updatedAt": "2022-03-31T07:34:01.343Z",
+            "createdAt": "2022-03-31T08:37:19.511Z",
+            "updatedAt": "2022-03-31T08:37:19.511Z",
             "readingTime": 521400,
             "uniqueLinks": []
           }
@@ -4873,11 +5144,21 @@
             "dir": "/modules/16-ambient-computing-network-architecture",
             "path": "/modules/16-ambient-computing-network-architecture/163-low-and-high-programming",
             "extension": ".md",
-            "createdAt": "2022-03-31T07:34:09.495Z",
-            "updatedAt": "2022-03-31T07:34:09.495Z",
+            "createdAt": "2022-03-31T08:37:19.511Z",
+            "updatedAt": "2022-03-31T08:37:19.511Z",
             "readingTime": 241500,
             "uniqueLinks": []
           }
+        },
+        {
+          "file": "keep.md",
+          "ordinal": 9999,
+          "contentdata": null
+        },
+        {
+          "file": "keep.md",
+          "ordinal": 9999,
+          "contentdata": null
         }
       ]
     },
@@ -4925,8 +5206,8 @@
         "dir": "/modules/17-ambient-computing-interactivity",
         "path": "/modules/17-ambient-computing-interactivity/index",
         "extension": ".md",
-        "createdAt": "2022-03-31T08:03:08.450Z",
-        "updatedAt": "2022-03-31T08:03:08.450Z",
+        "createdAt": "2022-03-31T08:37:21.219Z",
+        "updatedAt": "2022-03-31T08:37:21.219Z",
         "readingTime": 165900,
         "uniqueLinks": []
       },
@@ -4980,11 +5261,16 @@
             "dir": "/modules/17-ambient-computing-interactivity",
             "path": "/modules/17-ambient-computing-interactivity/index",
             "extension": ".md",
-            "createdAt": "2022-03-31T08:03:08.450Z",
-            "updatedAt": "2022-03-31T08:03:08.450Z",
+            "createdAt": "2022-03-31T08:37:21.219Z",
+            "updatedAt": "2022-03-31T08:37:21.219Z",
             "readingTime": 165900,
             "uniqueLinks": []
           }
+        },
+        {
+          "file": "163-Markers-and-Tracking.md",
+          "ordinal": 163,
+          "contentdata": null
         },
         {
           "file": "171-Intro-to-Processing-Lighting.md",
@@ -5017,8 +5303,8 @@
             "dir": "/modules/17-ambient-computing-interactivity",
             "path": "/modules/17-ambient-computing-interactivity/171-Intro-to-Processing-Lighting",
             "extension": ".md",
-            "createdAt": "2022-03-31T08:11:14.238Z",
-            "updatedAt": "2022-03-31T08:11:14.238Z",
+            "createdAt": "2022-03-31T08:37:19.787Z",
+            "updatedAt": "2022-03-31T08:37:19.788Z",
             "readingTime": 277800,
             "uniqueLinks": []
           }
@@ -5079,8 +5365,8 @@
             "dir": "/modules/17-ambient-computing-interactivity",
             "path": "/modules/17-ambient-computing-interactivity/172-Webhooks-Connecting-IFTTT-and-Processing",
             "extension": ".md",
-            "createdAt": "2022-03-31T08:03:48.895Z",
-            "updatedAt": "2022-03-31T08:03:48.895Z",
+            "createdAt": "2022-03-31T08:37:19.788Z",
+            "updatedAt": "2022-03-31T08:37:19.788Z",
             "readingTime": 409200,
             "uniqueLinks": []
           }
@@ -5166,8 +5452,8 @@
             "dir": "/modules/17-ambient-computing-interactivity",
             "path": "/modules/17-ambient-computing-interactivity/173-sounds-speech-and-macros",
             "extension": ".md",
-            "createdAt": "2022-03-31T08:04:08.803Z",
-            "updatedAt": "2022-03-31T08:04:08.803Z",
+            "createdAt": "2022-03-31T08:37:19.788Z",
+            "updatedAt": "2022-03-31T08:37:19.788Z",
             "readingTime": 358500,
             "uniqueLinks": []
           }
@@ -5218,8 +5504,8 @@
             "dir": "/modules/17-ambient-computing-interactivity",
             "path": "/modules/17-ambient-computing-interactivity/174-Markers-and-Tracking",
             "extension": ".md",
-            "createdAt": "2022-03-31T08:04:14.133Z",
-            "updatedAt": "2022-03-31T08:04:14.133Z",
+            "createdAt": "2022-03-31T08:37:19.788Z",
+            "updatedAt": "2022-03-31T08:37:19.788Z",
             "readingTime": 355800,
             "uniqueLinks": []
           }
@@ -5280,8 +5566,8 @@
             "dir": "/modules/17-ambient-computing-interactivity",
             "path": "/modules/17-ambient-computing-interactivity/175-Computer-Vision",
             "extension": ".md",
-            "createdAt": "2022-03-31T08:04:22.815Z",
-            "updatedAt": "2022-03-31T08:04:22.816Z",
+            "createdAt": "2022-03-31T08:37:19.788Z",
+            "updatedAt": "2022-03-31T08:37:19.788Z",
             "readingTime": 208500,
             "uniqueLinks": []
           }
@@ -5307,8 +5593,8 @@
         "dir": "/modules/18-behavioral-modeling-intro",
         "path": "/modules/18-behavioral-modeling-intro/index",
         "extension": ".md",
-        "createdAt": "2022-03-31T08:30:56.221Z",
-        "updatedAt": "2022-03-31T08:30:56.222Z",
+        "createdAt": "2022-03-31T08:37:22.997Z",
+        "updatedAt": "2022-03-31T08:37:22.998Z",
         "readingTime": 2700,
         "uniqueLinks": []
       },
@@ -5337,11 +5623,31 @@
             "dir": "/modules/18-behavioral-modeling-intro",
             "path": "/modules/18-behavioral-modeling-intro/index",
             "extension": ".md",
-            "createdAt": "2022-03-31T08:30:56.221Z",
-            "updatedAt": "2022-03-31T08:30:56.222Z",
+            "createdAt": "2022-03-31T08:37:22.997Z",
+            "updatedAt": "2022-03-31T08:37:22.998Z",
             "readingTime": 2700,
             "uniqueLinks": []
           }
+        },
+        {
+          "file": "165-Unity-and-Agent-Based-Models.md",
+          "ordinal": 165,
+          "contentdata": null
+        },
+        {
+          "file": "166-Intro-To-Unity.md",
+          "ordinal": 166,
+          "contentdata": null
+        },
+        {
+          "file": "167-Agent-Based-Populations-and-Behavior-Bricks.md",
+          "ordinal": 167,
+          "contentdata": null
+        },
+        {
+          "file": "168-Mapbox-SDK-and-Routing.md",
+          "ordinal": 168,
+          "contentdata": null
         },
         {
           "file": "181-Unity-and-Agent-Based-Models.md",
@@ -5389,8 +5695,8 @@
             "dir": "/modules/18-behavioral-modeling-intro",
             "path": "/modules/18-behavioral-modeling-intro/181-Unity-and-Agent-Based-Models",
             "extension": ".md",
-            "createdAt": "2022-03-31T08:31:14.486Z",
-            "updatedAt": "2022-03-31T08:31:14.487Z",
+            "createdAt": "2022-03-31T08:37:21.220Z",
+            "updatedAt": "2022-03-31T08:37:21.220Z",
             "readingTime": 252600,
             "uniqueLinks": []
           }
@@ -5451,8 +5757,8 @@
             "dir": "/modules/18-behavioral-modeling-intro",
             "path": "/modules/18-behavioral-modeling-intro/182-Intro-To-Unity",
             "extension": ".md",
-            "createdAt": "2022-03-31T08:31:32.924Z",
-            "updatedAt": "2022-03-31T08:31:32.924Z",
+            "createdAt": "2022-03-31T08:37:21.220Z",
+            "updatedAt": "2022-03-31T08:37:21.220Z",
             "readingTime": 302100,
             "uniqueLinks": []
           }
@@ -5518,8 +5824,8 @@
             "dir": "/modules/18-behavioral-modeling-intro",
             "path": "/modules/18-behavioral-modeling-intro/183-Agent-Based-Populations-and-Behavior-Bricks",
             "extension": ".md",
-            "createdAt": "2022-03-31T08:31:55.611Z",
-            "updatedAt": "2022-03-31T08:31:55.612Z",
+            "createdAt": "2022-03-31T08:37:21.220Z",
+            "updatedAt": "2022-03-31T08:37:21.221Z",
             "readingTime": 530700,
             "uniqueLinks": []
           }
@@ -5565,11 +5871,31 @@
             "dir": "/modules/18-behavioral-modeling-intro",
             "path": "/modules/18-behavioral-modeling-intro/184-Mapbox-SDK-and-Routing",
             "extension": ".md",
-            "createdAt": "2022-03-31T08:32:19.825Z",
-            "updatedAt": "2022-03-31T08:32:19.826Z",
+            "createdAt": "2022-03-31T08:37:21.221Z",
+            "updatedAt": "2022-03-31T08:37:21.221Z",
             "readingTime": 138000,
             "uniqueLinks": []
           }
+        },
+        {
+          "file": "readme.md",
+          "ordinal": 9999,
+          "contentdata": null
+        },
+        {
+          "file": "temp.md",
+          "ordinal": 9999,
+          "contentdata": null
+        },
+        {
+          "file": "temp.md",
+          "ordinal": 9999,
+          "contentdata": null
+        },
+        {
+          "file": "readme.md",
+          "ordinal": 9999,
+          "contentdata": null
         }
       ]
     }
