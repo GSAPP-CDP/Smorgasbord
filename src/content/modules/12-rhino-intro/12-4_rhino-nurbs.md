@@ -79,7 +79,7 @@ In the years after the war sinuous, aeronautic, non-circular curves seemed to ev
 
 But when it came to industrial mass production, there was a problem. The exact opposite problem, in fact, to the one of drawing algebraic curves in the time of Descartes: smooth, freeform curves were easy enough to draw, using a spline, but there was no mathematical way to describe them. (Even the examples above use parabolas or catenaries, rather than freeform curves.)
 
-A method for describing freeform curves and surfaces for use in industrial and computational production was devised by two engineers working for car manufacturers in France, Pierre Bezier (Renault) and Paul de Casteljau (Citroën). Within a few years, cars went from looking like this:
+A method for describing freeform curves and surfaces for use in industrial and computational production was devised by two engineers working for car manufacturers in France, Pierre Bézier (Renault) and Paul de Casteljau (Citroën). Within a few years, cars went from looking like this:
 
 ![Citroen CV2](images/12-4/citroen-cv2.jpg#img-left)
 *Citroën CV2*
@@ -89,11 +89,61 @@ to this:
 ![Citroen DS](images/12-4/citroen-ds.jpg#img-left)
 *Citroën DS*
 
-Let's look at how this system works.
+It took some time for sophisticated digital modeling to become widespread in architecture, but the formal novelty characteristic of many projects since the turn of the 21st century wouldn't be possible without it. Today NURBS are one of two main paradigms for computational geometry (the other, *meshes*, may eventually be covered in a separate sequence).
+
+![Zaha Heydar](images/12-4/zaha-heydar.jpg#img-left)
+*Zaha Hadid, Heydar Aliyev Centre. Baku, Azerbaijan, 2007.*
+
+Let's take a look at how this system works.
 
 ## NURBS
 
+The concept at the core of NURBS geometry is the **parametric curve**. Say the start end end points of a curve are *parameter* 0 and 1, respectively. Since the curve is continuous, every point along it now has a value between 0 to 1 (so parameter 0.5 would be halfway along the curve, for instance).
 
+![parametric curve](images/12-4/Bezier_1_big.gif#img-left)
+*A parametric curve. This and following diagrams from Wikipedia.*
+
+We can then use an algebraic equation to describe the *x* and *y* (and *z*) values the curve should have at each parameter. For the simplest **Bézier curves** this is a quadratic equation, the kind that describes a parabola.
+
+![bezier curve](images/12-4/Bezier_2_big.gif#img-left)
+*Quadratic Bézier curve.*
+
+We define this curve by adding a third **control point**. Say we want to know the location of the curve at parameter 0.5: we find the point halfway between P<sub>0</sub> and P<sub>1</sub>, and the point halfway between P<sub>1</sub> and P<sub>2</sub>. Then we find the point halfway between *those* two points. If you were to write this out algebraically, using the coordinates of the points, you would get a quadratic equation (one whose highest exponent is a square). We can extend this same process by adding a fourth point, resulting a cubic equation, and so on up to higher degrees.
+
+![bezier curve](images/12-4/Bezier_3_big.gif#img-left)
+*Cubic Bézier curve.*
+
+![bezier curve](images/12-4/Bezier_4_big.gif#img-left)
+*Quartic Bézier curve.*
+
+But these curves quickly become impractical to deal with and computationally demanding. An alternative is to join multiple lower-order Bézier curves end-to-end, aligning the control points when we want smooth transitions from one piece to the next:
+
+![bezier spline](images/12-4/beziergon.png#img-left)
+*Composite Bézier curve.*
+
+If you've used the pen tool to create smooth curves in Adobe Illustrator, then you've used these **Bézier Splines**. But Rhino uses a different alternative, called **Basis Splines**, or **B-Splines**. In a B-Spline, the influence of control points transitions smoothly from one section of the curve to the next. The higher the degree of a curve, the farther the influence of each control point extends.
+
+![b-spline](images/12-4/b-spline.png#img-left)
+*B-Spline.*
+
+The boundaries between zones of influence are called **knots**. If these knots are spaced irregularly, then we call the B-Spline **Non-Uniform**.
+
+Unfortunately, these quadratic and higher equations don't give us the ability to draw circles! (Or ellipses, for that matter.) This is a pretty serious shortcoming, which is solved by giving control points different **weight**. Points with higher weight "attract" the curve more. A spline that's weighted like this is called **rational** (referring to the *ratio* between different weights).
+
+![weight](images/12-4/nurbs-weight.png#img-left)
+*Effect of control point weight.*
+
+And there you have it: **N**on-**U**niform **R**ational **B**-**S**plines. To create a surface, we use a quadrilateral grid of control points, defining splines in the *x* and *y* directions. But to avoid confusion with the global coordinate system we call these directions **U** and **V**.
+
+![UV Grid](images/12-4/w_uvsrf.png#img-left)
+*NURBS Surface with UV Grid. Diagram from McNeel.*
+
+This grid structure means that all NURBS surfaces are actually deformed rectangular sheets, although we can **trim** them so parts we don't need are "hidden." The concepts of degree and weight apply to surfaces just as they do to curves.
+
+![UV Grid of NURBS Curves](images/12-4/NURBS_3-D_surface.gif#img-left)
+*NURBS Surface.*
+
+At this point, it's time to start working with NURBS in Rhino to get a feel for them.
 
 ## Tutorial: Working with NURBS
 
@@ -101,7 +151,7 @@ To start experimenting with NURBS geometry, use the `Curve` command. Change "Deg
 
 ![Degree-1 curve](images/12-4/degree-1.PNG#img-left)
 
-The resulting curve is made up of straight line segments with sharp corners. It isn't a polyline, sctrictly speaking, but behaves very much like one. Now use  `Curve` again, but set degree to 2, and click the corners of your last object in the same order.
+The resulting curve is made up of straight line segments with sharp corners. It isn't a polyline, sctrictly speaking, but behaves a lot like one. Now use  `Curve` again, but set degree to 2, and click the corners of your last object in the same order.
 
 ![Degree-2 curve](images/12-4/degree-2.PNG#img-left)
 
@@ -125,9 +175,7 @@ Finally, when drawing a smooth line like this, very often what's important is wh
 
 ### Working with NURBS Surfaces
 
-Next we'll look at working with surfaces. A NURBS surface is made from a network of curves which cross each other in two (roughly) perpendicular directions. To avoid confusion with the X and Y axes of the space containing the geometry, **these two directions are called U and V**.
-
-// UV image
+Next we'll look at working with surfaces. As outlined earlier, a NURBS surface is made from a network of curves which cross each other in two (roughly) perpendicular directions. To avoid confusion with the X and Y axes of the space containing the geometry, **these two directions are called U and V**.
 
 In perspective view, create a `Plane`. Turning `PointsOn` (`F10`) will allout you to select and move the control points, which in this case are only at the corners. Try moving two opposite corners upwards in the Z direction, and you'll end up with a **saddle shape** (technically, a "hyperbolic parabaloid").
 
@@ -159,10 +207,9 @@ If you find that you need to make finer adjustments to an existing surface, or s
 
 ### Trimmed Surfaces
 
-Since every NURBS surface is made up of a grid of curves, mathematically speaking they're all deformations of a rectangular sheet. For geometry with a different outline, we can trim the surface; but the rest of the sheet is still "there" defining the surface, just hidden. For an illustration of this, draw a `Circle`. (While you have it in front of you, check the weight of the corners vs the points on the circle. The corners are weighted with [??], which is the only way to make a circle from splines like this.) Use `PlanarSrf` on it, and you'll create what looks like a disc. But use `Untrim` on its edge, and the rest of the rectangular sheet will be revealed.
+Since every NURBS surface is made up of a grid of curves, mathematically speaking they're all deformations of a rectangular sheet. For geometry with a different outline, we can trim the surface, but the rest of the sheet is still "there," just hidden. For an illustration of this, draw a `Circle`. (While you have it in front of you, check the weight of the corners vs the points on the circle. The corners have a weight of sin(φ/2).) Use `PlanarSrf` on it, and you'll create what looks like a disc. But use `Untrim` on its edge, and the rest of the rectangular sheet will be revealed.
 
 ![contours](images/12-4/untrim.gif#img-left)
-
 
 ### Creating Surfaces from Curves
 
