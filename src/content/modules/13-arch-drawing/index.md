@@ -13,8 +13,10 @@ This sequence covers workflows for creating architectural drawings. It first cov
 
 ## Drawing an Argument
 
+[Detailed Intro TK]
+
 ## Modules:
-Orthographic Drawing: Plans & Sections
-Projection
-Rendering
-Compositing
+- Orthographic Drawing: Plans & Sections
+- Projection
+- Rendering
+- Compositing
