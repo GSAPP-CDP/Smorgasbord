@@ -17,9 +17,9 @@ Getting started in Rhino is pretty easy, especially if you already have experien
 
 ### Creating a New Project
 
-If you don't have Rhino installed, you can **download** it [here]("https://www.rhino3d.com/download/"), and either buy a license or start a free 90-day trial. These tutorials will all use **Rhino 7 for Windows**. Earlier and Mac versions are mostly very similar, but you may encounter some differences if you aren't using the same release.
+If you don't have Rhino installed, you can **download** it [here]("https://www.rhino3d.com/download/"), and either buy a license or start a free 90-day trial. These tutorials will all use **Rhino 7 for Windows**. Earlier and Mac versions are very similar, but you may encounter some differences if you aren't using the same release.
 
-Once you have Rhino downloaded and installed, go ahead and **open** it. You’ll have the option of either reopening a recent file or starting a new one. To create a new model, choose a **template**. This sets your units and unit tolerances, both of which can be changed later if needed.
+Once you have it downloaded and installed, go ahead and **open Rhino**. You’ll have the option of either reopening a recent file or starting a new one. To create a new model, **choose a template**. This sets your units and unit tolerances, both of which can be changed later if needed.
 
 ![rhino templates](images/12-1/rhino-new-doc.png#img-full)
 *Choosing a Rhino Template*
@@ -50,7 +50,7 @@ To draw the line, left-click twice in one of your viewports (top view, let's say
 
 Toolbars and dropdown menus can be useful when you're first learning Rhino, to help you discover and remember what's available, but as you get comfortable you'll execute pretty much all your commands by typing them directly into the command prompt.
 
-Type the word "box," followed by either `enter` or  `spacebar` to input the command. Then follow the prompts, clicking to choose two corners for the base of your box, and once more for the height. Use the perspective viewport this time, since the box is a 3D object.
+Type the word "box," followed by either `ENTER` or  `SPACEBAR` to input the command. Then follow the prompts, clicking to choose two corners for the base of your box, and once more for the height. **Use the perspective viewport** this time, since the box is a 3D object.
 
 ![modeling a box](images/12-1/drawing-a-box.gif#img-full)
 *Modeling a Box*
@@ -62,14 +62,14 @@ To make it easier to see what we're doing, since we don't need to see all of the
 
 To return to the 4-viewport view you can double-click the name in the top left corner again, or you can move directly from one view to another using the labeled viewport tabs on the bottom left.
 
-The names of Rhino commands are often refreshingly obvious. A "Sphere," "Cylinder," "Pyramid" or "Plane" can be created just by typing in those words. Go ahead and **add some new objects**, either by typing or by exploring the toolbars.
+The names of Rhino commands are often refreshingly obvious. A `Sphere`, `Cylinder`, `Pyramid` or `Plane` can be created just by typing in those words. Go ahead and **add some new objects**, either by typing or by exploring the toolbars.
 
-If you don't have anything typed in the command prompt, "enter" and spacebar can be used to **repeat the last command you used**, which saves a lot of time when you're doing one operation repeatedly. Try this out too, and populate your scene a bit.
+If you don't have anything typed in the command prompt, `ENTER` and `SPACEBAR` can be used to **repeat the last command you used**, which saves a lot of time when you're doing one operation repeatedly. Try this out too, and populate your scene a bit.
 
 ![various geometry](images/12-1/geo-populated.png#img-full)
 *Assorted Geometry*
 
-Typing out entire commands can take a while. To speed things up, Rhino will **auto-complete** as you type: the command it predicts is most likely will appear after what you've typed so far, and can be executed as usual with enter or spacebar. Other commands beginning with or just containing what you've typed will be listed below, and these can be selected either with the mouse or with the up and down arrows on your keyboard.
+Typing out entire commands can take a while. To speed things up, Rhino will **auto-complete** as you type: the command it predicts will appear after what you've typed so far, and can be executed as usual with `ENTER` or `SPACEBAR`. Other commands beginning with or just containing what you've typed will be listed below, and these can be selected either with the mouse or with the up and down arrows on your keyboard.
 
 ![auto-complete](images/12-1/predictive-text.gif#img-full)
 *Command Prompt auto-completion*
@@ -81,16 +81,16 @@ Even faster, though, is using **custom shortcuts** called **aliases**. Access th
 
 ### Basic Modifications
 
-Now that you have some objects in your scene, we can look at how to modify them. To **select an object**, simply left-click on it. **Select additional objects** one at a time by holding `shift` while you click, or remove an object from the selection by holding `Ctrl`.
+Now that you have some objects in your scene, we can look at how to modify them. To **select an object**, left-click on it. **Select additional objects** one at a time by holding `SHIFT` while you click, or remove an object from the selection by holding `CTRL`.
 
-**Select a group of objects** by dragging a window around them. If you drag the window left-to-right, only objects completely within the window will be selected. If you drag right-to-left, objects intersected by the window will be selected as well. You can select irregularly arranged collections with the "lasso" command. `CTRL + A` selects all the active objects in the scene, and `ESC` clears your selection.
+**Select a group of objects** by dragging a window around them. If you drag the window left-to-right, only objects completely within the window will be selected. If you drag right-to-left, objects intersected by the window will be selected as well. You can select irregularly arranged collections with the `Lasso` command. `CTRL + A` selects all the active objects in the scene, and `ESC` clears your selection.
 
 ![selecting objects](images/12-1/selection.gif#img-full)
 *Object Selection*
 
 There are also commands to **select objects by category**, all of which start with "Sel-". `SelCrv` selects all curves (lines, polylines, etc.), while `SelPolysurf` selects all polysurfaces (objects made of planes and other surfaces joined together, e.g. boxes). There are a lot of these, which you can see by typing "Sel" in the command prompt.
 
-Commands to **alter objects** in the scene are also entered into the command prompt, and often have straightforward names. Try using the `Move`, `Scale`, and `Rotate` commands on your objects.
+Commands to **modify objects** already in the scene are also entered into the command prompt, and often have common-sense names. Try using  `Move`, `Scale`, and `Rotate` on your objects.
 
 ![basic geometry edits](images/12-1/basic-edits.gif#img-full)
 *Move, Scale, Rotate*
@@ -100,23 +100,23 @@ These three alterations can also be made using a tool called the **Gumball**. To
 ![rhino gumball](images/12-1/gumball.gif#img-full)
 *Using the Gumball*
 
-To **delete an object**, use the `delete` or `backspace` keys (or create an alias for the `Delete` command).
+To **delete an object**, use the `DELETE` or `BACKSPACE` keys (or create an alias for the `Delete` command).
 
 ### Drafting Constraints
 
-So far, whenever you've clicked in the viewport to complete a command, Rhino has taken as input precisely the place where you clicked: choose two points to create a line, and that's exacly where the line appears. But very often, when we're drafting or modeling, we want what we make to be **constrained** in various ways, to make our work more precise. We want lines to follow right angles, elements to line up with each other, edges to meet exactly without gaps or overlap. To acheive this Rhino has constraints which we can turn on or off as needed. These are at the bottom of the screen, near where the Gumball button was.
+So far, whenever you've clicked in the viewport to complete a command, Rhino has taken as its input precisely the place where you clicked: choose two points to create a line, and that's exacly where the line appears. But very often, when we're drafting or modeling, we want what we make to be **constrained** in various ways, to make our work more precise. We want lines to follow right angles, elements to line up with each other, edges to meet exactly without gaps or overlap. To acheive this Rhino has constraints which we can turn on or off as needed. These are at the bottom of the screen, near where the Gumball button was.
 
 To make new geometry **align to the X and Y axes**, hold `SHIFT` (for instance, between choosing the first and second points of a line). Or if you want to work this way most of the time, click the `Ortho` (for orthogonal) button, and use `SHIFT` to toggle the constraint off as needed.
 
 ![orthogonal drawing](images/12-1/ortho.gif#img-full)
 *Orthogonal Drawing*
 
-`OSnap` (Object Snap) makes your mouse "stick" to different features of geometry, like endpoints, midpoints, and edges. It's often best to work with most of these turned on.
+**OSnap (Object Snap)** makes your mouse "stick" to different features of geometry, like endpoints, midpoints, and edges. It's often best to work with most of these turned on.
 
 ![object snaps](images/12-1/osnap.gif#img-full)
 *Object Snaps*
 
-`SmartTrack` creates temporary guides for you as you're working: hover over a point in your scene to easily align with it, for example.
+**SmartTrack** creates temporary guides for you as you're working: hover over a point in your scene to easily align with it, for example.
 
 ![SmartTrack](images/12-1/smarttrack.gif#img-full)
 *SmartTrack*
