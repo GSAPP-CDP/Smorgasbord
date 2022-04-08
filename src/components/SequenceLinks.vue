@@ -1,9 +1,9 @@
 <template>
   <div class="sequence" v-if="sequencedata != null">
 
-      <div class="sequencetitle">{{ sequenceTitle }}</div>
+    <div class="sequencetitle"><NuxtLink :to="'/modules/' + sequencedata.path + '/index'">{{ sequenceTitle }}</NuxtLink></div>
       <ol class="sequencemodules">
-        <li v-for="module in sequencedata.modules" :class="[ module.contentdata.path === $nuxt.$route.path ? 'active' : '']" v-if="module.contentdata != null">
+        <li v-for="module in sequencedata.modules" :class="[ module.contentdata.path === $nuxt.$route.path ? 'active' : '']" v-if="module.contentdata != null && module.file != 'index.md'">
           <NuxtLink :to="module.contentdata.path"> {{ module.contentdata.title }}</NuxtLink>
         </li>
       </ol>
@@ -15,7 +15,7 @@
 
 <style scoped>
 
-.active, .active > *  {
+.nuxt-link-active, .active, .active > *  {
   color: #4CBF8F !important; 
   font-weight: bold;
 }
@@ -24,6 +24,9 @@
   font-family: Lato;
   color: black;
   line-height: 1.5em;
+}
+.sequence {
+  font-weight: 400;
 }
 
 .hover.sequence  {
@@ -36,6 +39,8 @@ a {
 
 a:hover {
   color: #0096EA !important;
+  font-weight: bold;
+
 }
 
 

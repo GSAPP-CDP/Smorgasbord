@@ -1,24 +1,21 @@
 {
   "modules": {
-    "10-spatial-python/101-data-manipulation": {
+    "10-spatial-python/103-spatial-analysis-point-pattern": {
       "double_links": []
     },
-    "10-spatial-python/104-spatial-analysis-correlation": {
+    "10-spatial-python/101-data-manipulation": {
       "double_links": []
     },
     "10-spatial-python/102-geospatial-data": {
       "double_links": []
     },
-    "10-spatial-python/103-spatial-analysis-point-pattern": {
-      "double_links": []
-    },
     "10-spatial-python/105-spatial-analysis-clustering": {
       "double_links": []
     },
-    "10-spatial-python/index": {
+    "11-interactive-web/110-javascript-in-browser": {
       "double_links": []
     },
-    "11-interactive-web/110-javascript-in-browser": {
+    "10-spatial-python/index": {
       "double_links": []
     },
     "11-interactive-web/111-data-and-apis": {
@@ -36,49 +33,52 @@
     "12-rhino-intro/12-1_rhino-interface": {
       "double_links": []
     },
-    "12-rhino-intro/12-2_rhino-2d": {
-      "double_links": []
-    },
     "12-rhino-intro/12-3_rhino-3d": {
       "double_links": []
     },
-    "12-rhino-intro/12-4_rhino-nurbs": {
+    "12-rhino-intro/12-2_rhino-2d": {
       "double_links": []
     },
     "12-rhino-intro/index": {
       "double_links": []
     },
+    "12-rhino-intro/12-4_rhino-nurbs": {
+      "double_links": []
+    },
     "13-arch-drawing/13-1_orthographic-drawing": {
+      "double_links": []
+    },
+    "10-spatial-python/104-spatial-analysis-correlation": {
       "double_links": []
     },
     "13-arch-drawing/13-2_projection": {
       "double_links": []
     },
-    "13-arch-drawing/13-3_rendering": {
+    "13-arch-drawing/13-4_compositing": {
       "double_links": []
     },
-    "13-arch-drawing/13-4_compositing": {
+    "13-arch-drawing/13-3_rendering": {
       "double_links": []
     },
     "13-arch-drawing/index": {
       "double_links": []
     },
-    "14-geospatial-concepts/141-what-is-gis": {
-      "double_links": []
-    },
     "14-geospatial-concepts/142-spatial-data": {
       "double_links": []
     },
-    "14-geospatial-concepts/143-coordinates-projections": {
+    "14-geospatial-concepts/index": {
       "double_links": []
     },
-    "14-geospatial-concepts/index": {
+    "14-geospatial-concepts/143-coordinates-projections": {
       "double_links": []
     },
     "15-intro-qgis/151-mapping-where": {
       "double_links": []
     },
     "15-intro-qgis/152-print-layout": {
+      "double_links": []
+    },
+    "14-geospatial-concepts/141-what-is-gis": {
       "double_links": []
     },
     "15-intro-qgis/153-archives": {
@@ -93,10 +93,10 @@
     "15-intro-qgis/156-aerial-imagery": {
       "double_links": []
     },
-    "15-intro-qgis/index": {
+    "15-intro-qgis/157-atlas": {
       "double_links": []
     },
-    "15-intro-qgis/157-atlas": {
+    "15-intro-qgis/index": {
       "double_links": []
     },
     "16-ambient-computing-network-architecture/161-dynamic-environments": {
