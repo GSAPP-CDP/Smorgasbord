@@ -2,11 +2,11 @@
   <div class="sequence" v-if="sequencedata != null">
 
       <div class="sequencetitle">{{ sequenceTitle }}</div>
-      <div class="sequencemodules">
-        <div v-for="module in sequencedata.modules" :class="[ module.contentdata.path === $nuxt.$route.path ? 'active' : '']" v-if="module.contentdata != null">
-          <NuxtLink :to="module.contentdata.path"><span class="bullet" /> {{ module.contentdata.title }}</NuxtLink>
-        </div>
-      </div>
+      <ol class="sequencemodules">
+        <li v-for="module in sequencedata.modules" :class="[ module.contentdata.path === $nuxt.$route.path ? 'active' : '']" v-if="module.contentdata != null">
+          <NuxtLink :to="module.contentdata.path"> {{ module.contentdata.title }}</NuxtLink>
+        </li>
+      </ol>
 
 
 
@@ -43,6 +43,10 @@ a:hover {
 ul {
   padding: 0px 0px 0px 10px;
   list-style-type: none;
+}
+
+li {
+  color: grey;
 }
 
 .bullet::before {
