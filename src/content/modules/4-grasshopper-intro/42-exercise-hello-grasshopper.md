@@ -1,5 +1,5 @@
 ---
-moduleid: 4-2
+moduleid: 42
 title: Exercise - Hello Grasshopper!
 published: True
 slug: 4-2-exercise-hello-grasshopper
