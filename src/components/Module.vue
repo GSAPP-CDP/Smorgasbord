@@ -115,6 +115,7 @@ img + em, div.img + em {
 
 <script>
 export default {
+  scrollToTop: true,
   data () {
     return {
       module: {},
