@@ -64,7 +64,7 @@ In the physical world an environment can also be thought to have states. In Jim 
 
 ### "Walls are a nice invention, but if there were no holes in them, there would be no way to get in or out; they would be mausoleums or tombs. The problem is that if you make holes in the walls, anything and anyone can get in and out (bears, visitors, dust, rats, noise). So architects invented this hybrid: a hole-wall, often called a door, which, although common enough, has always struck me as a miracle technology."
 
-Beyond a doornob, now consider how a coin operated turn-style tracks whether a coin has been recieved or not to allow or prevent passage. This simple devise gives an indication of the more layered affordances and states of our web connected environments.
+Beyond a doornob, now consider how a coin operated turn-style tracks whether a coin has been recieved or not to allow or prevent passage. This simple device gives an indication of the more layered affordances and states of our web connected environments.
 
 ![temp](images/dynamic-environments-16.png) 
 
@@ -92,5 +92,5 @@ In Robin Evan’s “Figures, Doors, Passages” the invention of the hallway ch
 Today phone calls, video calls allow us to jump not just between rooms but across the globe.
 
 ### Challenge
-Consider a system in a room in your home: perhaps the passageways, or people you are able to talk to. What are that system's "affordances" and "states"? What does its network look like? Take 5 minutes to jot them down. 
+Consider a system in a room in your home: perhaps the passageways, or people you are able to talk to. What are that system's "affordances" and "states"? What does its network look like? Take 5 minutes to jot them down. Is there a system you represented in the first challenge when diagramming a room? What "affordances" and "states" exist there?
 
