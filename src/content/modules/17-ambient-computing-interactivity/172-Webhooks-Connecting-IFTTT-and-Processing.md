@@ -34,6 +34,17 @@ In this module you will learn about webhooks and how to connect Processing to IF
 
 
 ## Tutorial
+### (Disclaimer) Before Getting Started You Will Need 
+To fully illustrate the functionality of IFTTT and ambient computing this tutorial will walk through setting up a webhook between Processing (desktop software), IFTTT (cloud service), and a smart home plug called Kasa (physical hardware). This means to follow this tutorial directly you will want to purchase a Kasa plug. They are relatively inexpensive and great for many ambient computing projects because you can hook up pretty much any electronic to a smart plug to have it turn "on" or "off" based on a trigger from IFTTT or Processing. You can purchase a [KASA smart plug here](https://www.amazon.com/TP-LINK-HS103P2-Required-Google-Assistant/dp/B07B8W2KHZ/ref=sr_1_2?dchild=1&keywords=kasa%2Bsmart%2Bplug&qid=1599151864&sr=8-2&th=1) for around $20 USD for 2.
+
+If you don't have these plugs you can also follow along and connect IFTTT to another service that is not a physical device, such as a Google Drive, email service, or SMS texting service. I find these less physically present and thus thrilling than seeing something like a fan or a light turn on but it should give you an idea of how these networked connections work.
+
+**Additional Ambient Device Resources Just For Fun**  
+If you are interested in other ambient devices here some I've had some luck with (these are not covered in the tutorial and not required):
+- [Phillips Hue](https://www.amazon.com/Philips-Hue-Bluetooth-compatible-Assistant/dp/B07QWB3J8W/ref=sr_1_2?dchild=1&keywords=philips+hue+smart+light&qid=1599153824&sr=8-2) or other smart light ($50)
+- [Wireless Tags](https://store.wirelesstag.net/collections/all) many various sensors that are relatively ineexpensive: door sensors, motion sensors, light sensors, light quality sensors, etc. All sensors will additionally require the Ethernet Tag Manager ($65+)
+- [Amazon Echo](https://www.amazon.com/Echo-Dot/dp/B07FZ8S74R/ref=sr_1_2?crid=TXV06GNTUN3X&keywords=echo+dot&qid=1649647455&s=amazon-devices&sprefix=echo+dot%2Camazon-devices%2C75&sr=1-2) or other smart speaker ($30)
+
 ### Creating A IFTTT Recipe with Webhooks
 1. sign in to [IFTTT](https://ifttt.com/home)
 2. Go to `Create` → to create a new application
@@ -46,7 +57,7 @@ In this module you will learn about webhooks and how to connect Processing to IF
 
 ![blahblah](images/webhooks-2.gif#img-full)
 
-6. Now we need to create our **“that”** event, click on the `that` button. Select any notification as you normally would. In our instance I will turn on an outlet from `Kasa TP-Link`.
+6. Now we need to create our **“that”** event, click on the `that` button. Select any notification as you normally would. In our instance I will turn on an outlet from `Kasa TP-Link`.  
 7.Now select the Kasa TP-Link device that you plan to turn on.
 
 ![blahblah](images/webhooks-3.7.gif#img-full)
@@ -96,7 +107,8 @@ Close and restart Processing.
   ```
 ![blahblah](images/webhooks-9.gif#img-full)
 
-4. Next copy and paste the code below at the top of your code(before `void setup`). This lets us use the http request library and creates new variables for our **webhooks API** and our webhook **event names**. Our API Key will give webhooks the authentication for our specific profile. Without this key there is no way to know which webhooks profile we are trying to use. In our case we are using our class’s profile name. We will also use our event name so webhooks knows which event is being triggered. Once you’ve pasted in the code below, please update it with your API key and event names.
+4. Next copy and paste the code below at the top of your code(before `void setup`). This lets us use the http request library and creates new variables for our **webhooks API** and our webhook **event names**. Our API Key will give webhooks the authentication for our specific profile. Without this key there is no way to know which webhooks profile we are trying to use. In our case we are using our class’s profile name. We will also use our event name so webhooks knows which event is being triggered. 
+5. Once you’ve pasted in the code below, please **update it with your API key and event names**.
 
   ```java
   import http.requests.*;
@@ -107,9 +119,9 @@ Close and restart Processing.
   String eventName2 = "turn_off";
   ```
   
-![blahblah](images/webhooks-9.gif#img-full)
+![blahblah](images/webhooks-10.gif#img-full)
  
- 5. Next we will use `GetRequest` from the HTTP request library to make an HTTP request to webhooks. Inside of your `if` statement, and before you change the background color, copy the following:
+ 6. Next we will use `GetRequest` from the HTTP request library to make an HTTP request to webhooks. Inside of your `if` statement, and before you change the background color, copy the following:
   ```java
   GetRequest get = new GetRequest("https://maker.ifttt.com/trigger/" + eventName1 + "/with/key/" + apiKey);
         get.send();
@@ -117,7 +129,7 @@ Close and restart Processing.
   You’ll notice this is a “string” that is concatenated to create a URL.
   
   
- 6. Next we will create a second `GetRequest` to in our `else if` statement to create a second event:
+ 7. Next we will create a second `GetRequest` to in our `else if` statement to create a second event:
 
   ```java
   GetRequest get = new GetRequest("https://maker.ifttt.com/trigger/" + eventName2 + "/with/key/" + apiKey);
