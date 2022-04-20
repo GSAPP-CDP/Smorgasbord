@@ -4,7 +4,7 @@
       <div id="logo"><Logo width="220px"/></div>
       <div id="nav"><Nav /></div>
     </div>
-    <div id="content-column"><Nuxt /></div>
+    <div id="content-column"><Nuxt /><Copyright /></div>
     <div id="graph-column"><Graph /></div>
   </div>
 </template>
