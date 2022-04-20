@@ -1,18 +1,18 @@
 {
   "modules": {
+    "10-spatial-python/101-data-manipulation": {
+      "double_links": []
+    },
     "10-spatial-python/103-spatial-analysis-point-pattern": {
       "double_links": []
     },
     "10-spatial-python/102-geospatial-data": {
       "double_links": []
     },
-    "10-spatial-python/101-data-manipulation": {
-      "double_links": []
-    },
-    "11-interactive-web/111-data-and-apis": {
-      "double_links": []
-    },
     "10-spatial-python/105-spatial-analysis-clustering": {
+      "double_links": []
+    },
+    "10-spatial-python/104-spatial-analysis-correlation": {
       "double_links": []
     },
     "10-spatial-python/index": {
@@ -21,28 +21,31 @@
     "11-interactive-web/110-javascript-in-browser": {
       "double_links": []
     },
-    "11-interactive-web/112-javascript-in-the-browser": {
+    "11-interactive-web/111-data-and-apis": {
       "double_links": []
     },
-    "11-interactive-web/index": {
+    "11-interactive-web/112-javascript-in-the-browser": {
       "double_links": []
     },
     "11-interactive-web/113-javascript-in-the-browser": {
       "double_links": []
     },
-    "12-rhino-intro/12-1_rhino-interface": {
+    "11-interactive-web/index": {
       "double_links": []
     },
-    "12-rhino-intro/12-2_rhino-2d": {
+    "12-rhino-intro/12-1_rhino-interface": {
       "double_links": []
     },
     "12-rhino-intro/12-3_rhino-3d": {
       "double_links": []
     },
-    "12-rhino-intro/12-4_rhino-nurbs": {
+    "12-rhino-intro/12-2_rhino-2d": {
       "double_links": []
     },
     "12-rhino-intro/index": {
+      "double_links": []
+    },
+    "12-rhino-intro/12-4_rhino-nurbs": {
       "double_links": []
     },
     "13-arch-drawing/13-1_orthographic-drawing": {
@@ -51,22 +54,22 @@
     "13-arch-drawing/13-2_projection": {
       "double_links": []
     },
-    "13-arch-drawing/13-3_rendering": {
-      "double_links": []
-    },
     "13-arch-drawing/13-4_compositing": {
       "double_links": []
     },
-    "13-arch-drawing/index": {
+    "13-arch-drawing/13-3_rendering": {
       "double_links": []
     },
     "14-geospatial-concepts/141-what-is-gis": {
       "double_links": []
     },
+    "13-arch-drawing/index": {
+      "double_links": []
+    },
     "14-geospatial-concepts/142-spatial-data": {
       "double_links": []
     },
-    "10-spatial-python/104-spatial-analysis-correlation": {
+    "14-geospatial-concepts/143-coordinates-projections": {
       "double_links": []
     },
     "14-geospatial-concepts/index": {
@@ -75,19 +78,16 @@
     "15-intro-qgis/151-mapping-where": {
       "double_links": []
     },
-    "14-geospatial-concepts/143-coordinates-projections": {
-      "double_links": []
-    },
-    "15-intro-qgis/154-observations": {
+    "15-intro-qgis/152-print-layout": {
       "double_links": []
     },
     "15-intro-qgis/153-archives": {
       "double_links": []
     },
-    "15-intro-qgis/155-satellites": {
+    "15-intro-qgis/154-observations": {
       "double_links": []
     },
-    "15-intro-qgis/152-print-layout": {
+    "15-intro-qgis/155-satellites": {
       "double_links": []
     },
     "15-intro-qgis/156-aerial-imagery": {
@@ -99,6 +99,24 @@
     "15-intro-qgis/index": {
       "double_links": []
     },
+    "16-ambient-computing-network-architecture/164-Intro-to-Processing-Lighting": {
+      "double_links": []
+    },
+    "16-ambient-computing-network-architecture/165-Webhooks-Connecting-IFTTT-and-Processing": {
+      "double_links": []
+    },
+    "16-ambient-computing-network-architecture/167-Markers-and-Tracking": {
+      "double_links": []
+    },
+    "16-ambient-computing-network-architecture/166-sounds-speech-and-macros": {
+      "double_links": []
+    },
+    "16-ambient-computing-network-architecture/168-Computer-Vision": {
+      "double_links": []
+    },
+    "16-ambient-computing-network-architecture/161-dynamic-environments": {
+      "double_links": []
+    },
     "16-ambient-computing-network-architecture/162-network-architecture": {
       "double_links": []
     },
@@ -108,37 +126,16 @@
     "16-ambient-computing-network-architecture/index": {
       "double_links": []
     },
-    "17-ambient-computing-interactivity/172-Webhooks-Connecting-IFTTT-and-Processing": {
-      "double_links": []
-    },
-    "17-ambient-computing-interactivity/173-sounds-speech-and-macros": {
-      "double_links": []
-    },
-    "17-ambient-computing-interactivity/171-Intro-to-Processing-Lighting": {
-      "double_links": []
-    },
-    "17-ambient-computing-interactivity/175-Computer-Vision": {
-      "double_links": []
-    },
-    "17-ambient-computing-interactivity/174-Markers-and-Tracking": {
-      "double_links": []
-    },
-    "17-ambient-computing-interactivity/index": {
-      "double_links": []
-    },
     "18-behavioral-modeling-intro/182-Intro-To-Unity": {
       "double_links": []
     },
     "18-behavioral-modeling-intro/181-Unity-and-Agent-Based-Models": {
       "double_links": []
     },
-    "16-ambient-computing-network-architecture/161-dynamic-environments": {
+    "17-ambient-computing-interactivity/index": {
       "double_links": []
     },
     "18-behavioral-modeling-intro/183-Agent-Based-Populations-and-Behavior-Bricks": {
-      "double_links": []
-    },
-    "18-behavioral-modeling-intro/index": {
       "double_links": []
     },
     "18-behavioral-modeling-intro/184-Mapbox-SDK-and-Routing": {
@@ -147,91 +144,94 @@
     "4-grasshopper-intro/410-Generating-Exploring-Spatial-Data": {
       "double_links": []
     },
+    "18-behavioral-modeling-intro/index": {
+      "double_links": []
+    },
     "4-grasshopper-intro/42-exercise-hello-grasshopper": {
-      "double_links": []
-    },
-    "4-grasshopper-intro/43-working-in-grasshopper": {
-      "double_links": []
-    },
-    "4-grasshopper-intro/44-exercise-parametric-tower-part-1": {
-      "double_links": []
-    },
-    "4-grasshopper-intro/45-working-with-data": {
       "double_links": []
     },
     "4-grasshopper-intro/41-getting-started-with-grasshopper": {
       "double_links": []
     },
+    "4-grasshopper-intro/44-exercise-parametric-tower-part-1": {
+      "double_links": []
+    },
     "4-grasshopper-intro/47-documentation-best-practices": {
       "double_links": []
     },
-    "4-grasshopper-intro/46-exercise-parametric-tower-part-2": {
+    "4-grasshopper-intro/43-working-in-grasshopper": {
       "double_links": []
     },
-    "4-grasshopper-intro/49-Procedural-Rules": {
-      "double_links": []
-    },
-    "4-grasshopper-intro/index": {
-      "double_links": []
-    },
-    "5-computational-design-modeling-in-grasshopper/5-1-Comp-Design-Modeling": {
-      "double_links": []
-    },
-    "5-computational-design-modeling-in-grasshopper/5-2-Subdivide-Geometry": {
-      "double_links": []
-    },
-    "5-computational-design-modeling-in-grasshopper/5-4-Street-Grid": {
-      "double_links": []
-    },
-    "5-computational-design-modeling-in-grasshopper/5-3-Analysis-Tools": {
-      "double_links": []
-    },
-    "5-computational-design-modeling-in-grasshopper/5-5_Buildings-Density": {
+    "4-grasshopper-intro/45-working-with-data": {
       "double_links": []
     },
     "4-grasshopper-intro/48-Deriving-Spatial-Data": {
       "double_links": []
     },
-    "5-computational-design-modeling-in-grasshopper/5-6_Troubleshooting": {
+    "4-grasshopper-intro/49-Procedural-Rules": {
       "double_links": []
     },
-    "5-computational-design-modeling-in-grasshopper/index": {
+    "4-grasshopper-intro/46-exercise-parametric-tower-part-2": {
+      "double_links": []
+    },
+    "4-grasshopper-intro/index": {
+      "double_links": []
+    },
+    "5-computational-design-modeling-in-grasshopper/5-2-Subdivide-Geometry": {
+      "double_links": []
+    },
+    "5-computational-design-modeling-in-grasshopper/5-1-Comp-Design-Modeling": {
+      "double_links": []
+    },
+    "5-computational-design-modeling-in-grasshopper/5-3-Analysis-Tools": {
+      "double_links": []
+    },
+    "5-computational-design-modeling-in-grasshopper/5-4-Street-Grid": {
+      "double_links": []
+    },
+    "5-computational-design-modeling-in-grasshopper/5-5_Buildings-Density": {
+      "double_links": []
+    },
+    "5-computational-design-modeling-in-grasshopper/5-6_Troubleshooting": {
       "double_links": []
     },
     "5-computational-design-modeling-in-grasshopper/5-7_Design-Space": {
       "double_links": []
     },
-    "6-intro-to-python/62-using-python-in-grasshopper": {
+    "6-intro-to-python/61-getting-started-with-Python": {
+      "double_links": []
+    },
+    "5-computational-design-modeling-in-grasshopper/index": {
       "double_links": []
     },
     "6-intro-to-python/index": {
       "double_links": []
     },
-    "7-fundamentals-of-python/71-variables-lists-and-dictionaries": {
-      "double_links": []
-    },
-    "7-fundamentals-of-python/72-conditionals-and-loops": {
-      "double_links": []
-    },
-    "7-fundamentals-of-python/73-functions-and-classes": {
-      "double_links": []
-    },
-    "7-fundamentals-of-python/index": {
+    "6-intro-to-python/62-using-python-in-grasshopper": {
       "double_links": []
     },
     "7-fundamentals-of-python/74-python-libraries": {
       "double_links": []
     },
-    "6-intro-to-python/61-getting-started-with-Python": {
+    "7-fundamentals-of-python/72-conditionals-and-loops": {
       "double_links": []
     },
-    "8-intro-to-python-in-rhino/index": {
+    "7-fundamentals-of-python/71-variables-lists-and-dictionaries": {
+      "double_links": []
+    },
+    "7-fundamentals-of-python/73-functions-and-classes": {
+      "double_links": []
+    },
+    "8-intro-to-python-in-rhino/81-accessing-the-rhino-apis-in-python": {
+      "double_links": []
+    },
+    "7-fundamentals-of-python/index": {
       "double_links": []
     },
     "8-intro-to-python-in-rhino/82-working-with-geometry-in-python": {
       "double_links": []
     },
-    "8-intro-to-python-in-rhino/81-accessing-the-rhino-apis-in-python": {
+    "8-intro-to-python-in-rhino/index": {
       "double_links": []
     }
   },
@@ -4883,6 +4883,311 @@
             "readingTime": 241500,
             "uniqueLinks": []
           }
+        },
+        {
+          "file": "164-Intro-to-Processing-Lighting.md",
+          "ordinal": 164,
+          "contentdata": {
+            "slug": "intro-to-processing",
+            "moduleid": 171,
+            "title": "Intro to Processing",
+            "published": true,
+            "authors": [
+              "Violet Whitney"
+            ],
+            "toc": [
+              {
+                "id": "what-is-processing-and-why-use-it",
+                "depth": 2,
+                "text": "What is Processing and why use it?"
+              },
+              {
+                "id": "tutorial",
+                "depth": 2,
+                "text": "Tutorial"
+              },
+              {
+                "id": "example-student-projects",
+                "depth": 2,
+                "text": "Example Student Projects"
+              }
+            ],
+            "dir": "/modules/16-ambient-computing-network-architecture",
+            "path": "/modules/16-ambient-computing-network-architecture/164-Intro-to-Processing-Lighting",
+            "extension": ".md",
+            "createdAt": "2022-04-11T14:47:49.529Z",
+            "updatedAt": "2022-04-11T14:47:49.530Z",
+            "readingTime": 336300,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "165-Webhooks-Connecting-IFTTT-and-Processing.md",
+          "ordinal": 165,
+          "contentdata": {
+            "slug": "webhooks-connecting-ifttt-and-processing",
+            "moduleid": 172,
+            "title": "Webhooks - Connecting IFTTT and Processing",
+            "published": true,
+            "authors": [
+              "Violet Whitney"
+            ],
+            "toc": [
+              {
+                "id": "why-should-i-care-about-webhooks",
+                "depth": 2,
+                "text": "Why should I care about webhooks?"
+              },
+              {
+                "id": "tutorial",
+                "depth": 2,
+                "text": "Tutorial"
+              },
+              {
+                "id": "disclaimer-before-getting-started-you-will-need",
+                "depth": 3,
+                "text": "(Disclaimer) Before Getting Started You Will Need"
+              },
+              {
+                "id": "creating-a-ifttt-recipe-with-webhooks",
+                "depth": 3,
+                "text": "Creating A IFTTT Recipe with Webhooks"
+              },
+              {
+                "id": "creating-an-api-key",
+                "depth": 3,
+                "text": "Creating An API Key"
+              },
+              {
+                "id": "connecting-processing-to-your-webhook-api",
+                "depth": 3,
+                "text": "Connecting Processing to your Webhook API"
+              },
+              {
+                "id": "challenge",
+                "depth": 2,
+                "text": "Challenge"
+              },
+              {
+                "id": "can-you-create-your-own-processingifttt-recipe",
+                "depth": 3,
+                "text": "Can you create your own Processing<>IFTTT Recipe?"
+              },
+              {
+                "id": "resources",
+                "depth": 2,
+                "text": "Resources"
+              }
+            ],
+            "dir": "/modules/16-ambient-computing-network-architecture",
+            "path": "/modules/16-ambient-computing-network-architecture/165-Webhooks-Connecting-IFTTT-and-Processing",
+            "extension": ".md",
+            "createdAt": "2022-04-11T14:47:49.530Z",
+            "updatedAt": "2022-04-11T14:47:49.530Z",
+            "readingTime": 486300,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "166-sounds-speech-and-macros.md",
+          "ordinal": 166,
+          "contentdata": {
+            "slug": "sounds-speech-and-macros",
+            "moduleid": 173,
+            "title": "Sounds, Speech, and Marcros",
+            "published": true,
+            "authors": [
+              "Violet Whitney"
+            ],
+            "toc": [
+              {
+                "id": "sound-is-fundamental-to-ambient-environments",
+                "depth": 2,
+                "text": "Sound is fundamental to ambient environments"
+              },
+              {
+                "id": "companies-investing-in-speech-and-audio",
+                "depth": 3,
+                "text": "Companies investing in speech and audio"
+              },
+              {
+                "id": "why-sound-is-a-great-communication-mechanism-for-ambient-environments",
+                "depth": 3,
+                "text": "Why sound is a great communication mechanism for ambient environments"
+              },
+              {
+                "id": "ethical-considerations-for-smart-home-systems",
+                "depth": 3,
+                "text": "Ethical considerations for smart home systems"
+              },
+              {
+                "id": "inspirational-projects",
+                "depth": 3,
+                "text": "Inspirational projects"
+              },
+              {
+                "id": "playing-sounds",
+                "depth": 2,
+                "text": "Playing Sounds"
+              },
+              {
+                "id": "challenge",
+                "depth": 3,
+                "text": "Challenge"
+              },
+              {
+                "id": "listening-to-your-mic",
+                "depth": 2,
+                "text": "Listening to Your Mic"
+              },
+              {
+                "id": "challenge-1",
+                "depth": 3,
+                "text": "Challenge"
+              },
+              {
+                "id": "text-to-speech",
+                "depth": 2,
+                "text": "Text to Speech"
+              },
+              {
+                "id": "automated-language",
+                "depth": 3,
+                "text": "Automated Language"
+              },
+              {
+                "id": "projects-that-use-bots",
+                "depth": 3,
+                "text": "Projects that Use Bots"
+              },
+              {
+                "id": "projects-that-use-sound",
+                "depth": 3,
+                "text": "Projects that Use Sound"
+              }
+            ],
+            "dir": "/modules/16-ambient-computing-network-architecture",
+            "path": "/modules/16-ambient-computing-network-architecture/166-sounds-speech-and-macros",
+            "extension": ".md",
+            "createdAt": "2022-03-31T08:43:04.842Z",
+            "updatedAt": "2022-03-31T08:43:04.843Z",
+            "readingTime": 358500,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "167-Markers-and-Tracking.md",
+          "ordinal": 167,
+          "contentdata": {
+            "slug": "markers-and-tracking",
+            "moduleid": 174,
+            "title": "Markers and Tracking",
+            "published": true,
+            "authors": [
+              "Violet Whitney"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "conceptual-introduction-or-why-is-this-interesting--important",
+                "depth": 2,
+                "text": "Conceptual Introduction, or: Why is this interesting / important?"
+              },
+              {
+                "id": "power-in-furniture",
+                "depth": 3,
+                "text": "Power in Furniture"
+              },
+              {
+                "id": "tutorial",
+                "depth": 2,
+                "text": "Tutorial"
+              },
+              {
+                "id": "setup",
+                "depth": 3,
+                "text": "Setup"
+              },
+              {
+                "id": "challenge",
+                "depth": 2,
+                "text": "Challenge"
+              }
+            ],
+            "dir": "/modules/16-ambient-computing-network-architecture",
+            "path": "/modules/16-ambient-computing-network-architecture/167-Markers-and-Tracking",
+            "extension": ".md",
+            "createdAt": "2022-03-31T08:43:04.843Z",
+            "updatedAt": "2022-03-31T08:43:04.843Z",
+            "readingTime": 355800,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "168-Computer-Vision.md",
+          "ordinal": 168,
+          "contentdata": {
+            "slug": "computer-vision",
+            "moduleid": 175,
+            "title": "Computer Vision",
+            "published": true,
+            "authors": [
+              "Violet Whitney"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "conceptual-introduction-or-why-is-this-interesting--important",
+                "depth": 2,
+                "text": "Conceptual Introduction, or: Why is this interesting / important?"
+              },
+              {
+                "id": "computer-vision-1",
+                "depth": 3,
+                "text": "Computer Vision"
+              },
+              {
+                "id": "ab-testing-in-physical-space",
+                "depth": 3,
+                "text": "AB Testing in Physical Space"
+              },
+              {
+                "id": "tutorial",
+                "depth": 2,
+                "text": "Tutorial"
+              },
+              {
+                "id": "referencing-your-webcam",
+                "depth": 3,
+                "text": "Referencing Your Webcam"
+              },
+              {
+                "id": "face-tracking",
+                "depth": 3,
+                "text": "Face Tracking"
+              },
+              {
+                "id": "challenge",
+                "depth": 2,
+                "text": "Challenge"
+              }
+            ],
+            "dir": "/modules/16-ambient-computing-network-architecture",
+            "path": "/modules/16-ambient-computing-network-architecture/168-Computer-Vision",
+            "extension": ".md",
+            "createdAt": "2022-03-31T08:43:04.843Z",
+            "updatedAt": "2022-03-31T08:43:04.843Z",
+            "readingTime": 208500,
+            "uniqueLinks": []
+          }
         }
       ]
     },
@@ -5018,311 +5323,6 @@
             "createdAt": "2022-04-11T14:47:49.654Z",
             "updatedAt": "2022-04-11T14:47:49.655Z",
             "readingTime": 323700,
-            "uniqueLinks": []
-          }
-        },
-        {
-          "file": "171-Intro-to-Processing-Lighting.md",
-          "ordinal": 171,
-          "contentdata": {
-            "slug": "intro-to-processing",
-            "moduleid": 171,
-            "title": "Intro to Processing",
-            "published": true,
-            "authors": [
-              "Violet Whitney"
-            ],
-            "toc": [
-              {
-                "id": "what-is-processing-and-why-use-it",
-                "depth": 2,
-                "text": "What is Processing and why use it?"
-              },
-              {
-                "id": "tutorial",
-                "depth": 2,
-                "text": "Tutorial"
-              },
-              {
-                "id": "example-student-projects",
-                "depth": 2,
-                "text": "Example Student Projects"
-              }
-            ],
-            "dir": "/modules/17-ambient-computing-interactivity",
-            "path": "/modules/17-ambient-computing-interactivity/171-Intro-to-Processing-Lighting",
-            "extension": ".md",
-            "createdAt": "2022-04-11T14:47:49.529Z",
-            "updatedAt": "2022-04-11T14:47:49.530Z",
-            "readingTime": 336300,
-            "uniqueLinks": []
-          }
-        },
-        {
-          "file": "172-Webhooks-Connecting-IFTTT-and-Processing.md",
-          "ordinal": 172,
-          "contentdata": {
-            "slug": "webhooks-connecting-ifttt-and-processing",
-            "moduleid": 172,
-            "title": "Webhooks - Connecting IFTTT and Processing",
-            "published": true,
-            "authors": [
-              "Violet Whitney"
-            ],
-            "toc": [
-              {
-                "id": "why-should-i-care-about-webhooks",
-                "depth": 2,
-                "text": "Why should I care about webhooks?"
-              },
-              {
-                "id": "tutorial",
-                "depth": 2,
-                "text": "Tutorial"
-              },
-              {
-                "id": "disclaimer-before-getting-started-you-will-need",
-                "depth": 3,
-                "text": "(Disclaimer) Before Getting Started You Will Need"
-              },
-              {
-                "id": "creating-a-ifttt-recipe-with-webhooks",
-                "depth": 3,
-                "text": "Creating A IFTTT Recipe with Webhooks"
-              },
-              {
-                "id": "creating-an-api-key",
-                "depth": 3,
-                "text": "Creating An API Key"
-              },
-              {
-                "id": "connecting-processing-to-your-webhook-api",
-                "depth": 3,
-                "text": "Connecting Processing to your Webhook API"
-              },
-              {
-                "id": "challenge",
-                "depth": 2,
-                "text": "Challenge"
-              },
-              {
-                "id": "can-you-create-your-own-processingifttt-recipe",
-                "depth": 3,
-                "text": "Can you create your own Processing<>IFTTT Recipe?"
-              },
-              {
-                "id": "resources",
-                "depth": 2,
-                "text": "Resources"
-              }
-            ],
-            "dir": "/modules/17-ambient-computing-interactivity",
-            "path": "/modules/17-ambient-computing-interactivity/172-Webhooks-Connecting-IFTTT-and-Processing",
-            "extension": ".md",
-            "createdAt": "2022-04-11T14:47:49.530Z",
-            "updatedAt": "2022-04-11T14:47:49.530Z",
-            "readingTime": 486300,
-            "uniqueLinks": []
-          }
-        },
-        {
-          "file": "173-sounds-speech-and-macros.md",
-          "ordinal": 173,
-          "contentdata": {
-            "slug": "sounds-speech-and-macros",
-            "moduleid": 173,
-            "title": "Sounds, Speech, and Marcros",
-            "published": true,
-            "authors": [
-              "Violet Whitney"
-            ],
-            "toc": [
-              {
-                "id": "sound-is-fundamental-to-ambient-environments",
-                "depth": 2,
-                "text": "Sound is fundamental to ambient environments"
-              },
-              {
-                "id": "companies-investing-in-speech-and-audio",
-                "depth": 3,
-                "text": "Companies investing in speech and audio"
-              },
-              {
-                "id": "why-sound-is-a-great-communication-mechanism-for-ambient-environments",
-                "depth": 3,
-                "text": "Why sound is a great communication mechanism for ambient environments"
-              },
-              {
-                "id": "ethical-considerations-for-smart-home-systems",
-                "depth": 3,
-                "text": "Ethical considerations for smart home systems"
-              },
-              {
-                "id": "inspirational-projects",
-                "depth": 3,
-                "text": "Inspirational projects"
-              },
-              {
-                "id": "playing-sounds",
-                "depth": 2,
-                "text": "Playing Sounds"
-              },
-              {
-                "id": "challenge",
-                "depth": 3,
-                "text": "Challenge"
-              },
-              {
-                "id": "listening-to-your-mic",
-                "depth": 2,
-                "text": "Listening to Your Mic"
-              },
-              {
-                "id": "challenge-1",
-                "depth": 3,
-                "text": "Challenge"
-              },
-              {
-                "id": "text-to-speech",
-                "depth": 2,
-                "text": "Text to Speech"
-              },
-              {
-                "id": "automated-language",
-                "depth": 3,
-                "text": "Automated Language"
-              },
-              {
-                "id": "projects-that-use-bots",
-                "depth": 3,
-                "text": "Projects that Use Bots"
-              },
-              {
-                "id": "projects-that-use-sound",
-                "depth": 3,
-                "text": "Projects that Use Sound"
-              }
-            ],
-            "dir": "/modules/17-ambient-computing-interactivity",
-            "path": "/modules/17-ambient-computing-interactivity/173-sounds-speech-and-macros",
-            "extension": ".md",
-            "createdAt": "2022-03-31T08:43:04.842Z",
-            "updatedAt": "2022-03-31T08:43:04.843Z",
-            "readingTime": 358500,
-            "uniqueLinks": []
-          }
-        },
-        {
-          "file": "174-Markers-and-Tracking.md",
-          "ordinal": 174,
-          "contentdata": {
-            "slug": "markers-and-tracking",
-            "moduleid": 174,
-            "title": "Markers and Tracking",
-            "published": true,
-            "authors": [
-              "Violet Whitney"
-            ],
-            "toc": [
-              {
-                "id": "module-summary",
-                "depth": 2,
-                "text": "Module Summary"
-              },
-              {
-                "id": "conceptual-introduction-or-why-is-this-interesting--important",
-                "depth": 2,
-                "text": "Conceptual Introduction, or: Why is this interesting / important?"
-              },
-              {
-                "id": "power-in-furniture",
-                "depth": 3,
-                "text": "Power in Furniture"
-              },
-              {
-                "id": "tutorial",
-                "depth": 2,
-                "text": "Tutorial"
-              },
-              {
-                "id": "setup",
-                "depth": 3,
-                "text": "Setup"
-              },
-              {
-                "id": "challenge",
-                "depth": 2,
-                "text": "Challenge"
-              }
-            ],
-            "dir": "/modules/17-ambient-computing-interactivity",
-            "path": "/modules/17-ambient-computing-interactivity/174-Markers-and-Tracking",
-            "extension": ".md",
-            "createdAt": "2022-03-31T08:43:04.843Z",
-            "updatedAt": "2022-03-31T08:43:04.843Z",
-            "readingTime": 355800,
-            "uniqueLinks": []
-          }
-        },
-        {
-          "file": "175-Computer-Vision.md",
-          "ordinal": 175,
-          "contentdata": {
-            "slug": "computer-vision",
-            "moduleid": 175,
-            "title": "Computer Vision",
-            "published": true,
-            "authors": [
-              "Violet Whitney"
-            ],
-            "toc": [
-              {
-                "id": "module-summary",
-                "depth": 2,
-                "text": "Module Summary"
-              },
-              {
-                "id": "conceptual-introduction-or-why-is-this-interesting--important",
-                "depth": 2,
-                "text": "Conceptual Introduction, or: Why is this interesting / important?"
-              },
-              {
-                "id": "computer-vision-1",
-                "depth": 3,
-                "text": "Computer Vision"
-              },
-              {
-                "id": "ab-testing-in-physical-space",
-                "depth": 3,
-                "text": "AB Testing in Physical Space"
-              },
-              {
-                "id": "tutorial",
-                "depth": 2,
-                "text": "Tutorial"
-              },
-              {
-                "id": "referencing-your-webcam",
-                "depth": 3,
-                "text": "Referencing Your Webcam"
-              },
-              {
-                "id": "face-tracking",
-                "depth": 3,
-                "text": "Face Tracking"
-              },
-              {
-                "id": "challenge",
-                "depth": 2,
-                "text": "Challenge"
-              }
-            ],
-            "dir": "/modules/17-ambient-computing-interactivity",
-            "path": "/modules/17-ambient-computing-interactivity/175-Computer-Vision",
-            "extension": ".md",
-            "createdAt": "2022-03-31T08:43:04.843Z",
-            "updatedAt": "2022-03-31T08:43:04.843Z",
-            "readingTime": 208500,
             "uniqueLinks": []
           }
         }

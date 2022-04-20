@@ -1,6 +1,6 @@
 ---
 moduleid: 173
-title: Sounds, Speech, and Marcros
+title: Sounds, Speech, and Macros
 published: True
 slug: sounds-speech-and-macros
 authors:
