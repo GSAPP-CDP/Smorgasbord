@@ -9,7 +9,7 @@
     </div>
 
     <div class="course">
-      <div class="coursetitle">Architectural Drawing</div>
+      <div class="coursetitle">Computational Drawing</div>
 
       <SequenceLinks path="12-rhino-intro" />
       <SequenceLinks path="13-arch-drawing" />
