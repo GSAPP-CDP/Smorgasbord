@@ -1,33 +1,33 @@
 {
   "modules": {
-    "10-spatial-python/103-spatial-analysis-point-pattern": {
+    "10-spatial-python/104-spatial-analysis-correlation": {
       "double_links": []
     },
     "10-spatial-python/101-data-manipulation": {
       "double_links": []
     },
-    "10-spatial-python/102-geospatial-data": {
+    "10-spatial-python/103-spatial-analysis-point-pattern": {
       "double_links": []
     },
     "10-spatial-python/105-spatial-analysis-clustering": {
       "double_links": []
     },
-    "11-interactive-web/110-javascript-in-browser": {
+    "10-spatial-python/102-geospatial-data": {
       "double_links": []
     },
     "10-spatial-python/index": {
       "double_links": []
     },
-    "11-interactive-web/111-data-and-apis": {
+    "11-interactive-web/110-javascript-in-browser": {
       "double_links": []
     },
-    "11-interactive-web/112-javascript-in-the-browser": {
+    "11-interactive-web/111-data-and-apis": {
       "double_links": []
     },
     "11-interactive-web/113-javascript-in-the-browser": {
       "double_links": []
     },
-    "11-interactive-web/index": {
+    "11-interactive-web/112-javascript-in-the-browser": {
       "double_links": []
     },
     "12-rhino-intro/12-1_rhino-interface": {
@@ -36,7 +36,7 @@
     "12-rhino-intro/12-3_rhino-3d": {
       "double_links": []
     },
-    "12-rhino-intro/12-2_rhino-2d": {
+    "11-interactive-web/index": {
       "double_links": []
     },
     "12-rhino-intro/index": {
@@ -45,16 +45,16 @@
     "12-rhino-intro/12-4_rhino-nurbs": {
       "double_links": []
     },
+    "12-rhino-intro/12-2_rhino-2d": {
+      "double_links": []
+    },
     "13-arch-drawing/13-1_orthographic-drawing": {
       "double_links": []
     },
-    "10-spatial-python/104-spatial-analysis-correlation": {
+    "13-arch-drawing/13-4_compositing": {
       "double_links": []
     },
     "13-arch-drawing/13-2_projection": {
-      "double_links": []
-    },
-    "13-arch-drawing/13-4_compositing": {
       "double_links": []
     },
     "13-arch-drawing/13-3_rendering": {
@@ -63,10 +63,10 @@
     "13-arch-drawing/index": {
       "double_links": []
     },
-    "14-geospatial-concepts/142-spatial-data": {
+    "14-geospatial-concepts/index": {
       "double_links": []
     },
-    "14-geospatial-concepts/index": {
+    "14-geospatial-concepts/142-spatial-data": {
       "double_links": []
     },
     "14-geospatial-concepts/143-coordinates-projections": {
@@ -78,9 +78,6 @@
     "15-intro-qgis/152-print-layout": {
       "double_links": []
     },
-    "14-geospatial-concepts/141-what-is-gis": {
-      "double_links": []
-    },
     "15-intro-qgis/153-archives": {
       "double_links": []
     },
@@ -90,16 +87,10 @@
     "15-intro-qgis/155-satellites": {
       "double_links": []
     },
-    "15-intro-qgis/156-aerial-imagery": {
-      "double_links": []
-    },
-    "15-intro-qgis/157-atlas": {
-      "double_links": []
-    },
     "15-intro-qgis/index": {
       "double_links": []
     },
-    "16-ambient-computing-network-architecture/161-dynamic-environments": {
+    "15-intro-qgis/156-aerial-imagery": {
       "double_links": []
     },
     "16-ambient-computing-network-architecture/162-network-architecture": {
@@ -108,7 +99,13 @@
     "16-ambient-computing-network-architecture/163-low-and-high-programming": {
       "double_links": []
     },
+    "15-intro-qgis/157-atlas": {
+      "double_links": []
+    },
     "16-ambient-computing-network-architecture/index": {
+      "double_links": []
+    },
+    "16-ambient-computing-network-architecture/161-dynamic-environments": {
       "double_links": []
     },
     "17-ambient-computing-interactivity/171-Intro-to-Processing-Lighting": {
@@ -117,31 +114,31 @@
     "17-ambient-computing-interactivity/172-Webhooks-Connecting-IFTTT-and-Processing": {
       "double_links": []
     },
-    "17-ambient-computing-interactivity/173-sounds-speech-and-macros": {
-      "double_links": []
-    },
-    "17-ambient-computing-interactivity/174-Markers-and-Tracking": {
-      "double_links": []
-    },
     "17-ambient-computing-interactivity/175-Computer-Vision": {
       "double_links": []
     },
     "17-ambient-computing-interactivity/index": {
       "double_links": []
     },
-    "18-behavioral-modeling-intro/181-Unity-and-Agent-Based-Models": {
+    "17-ambient-computing-interactivity/174-Markers-and-Tracking": {
       "double_links": []
     },
-    "18-behavioral-modeling-intro/182-Intro-To-Unity": {
+    "18-behavioral-modeling-intro/181-Unity-and-Agent-Based-Models": {
       "double_links": []
     },
     "18-behavioral-modeling-intro/183-Agent-Based-Populations-and-Behavior-Bricks": {
       "double_links": []
     },
+    "18-behavioral-modeling-intro/index": {
+      "double_links": []
+    },
+    "18-behavioral-modeling-intro/182-Intro-To-Unity": {
+      "double_links": []
+    },
     "18-behavioral-modeling-intro/184-Mapbox-SDK-and-Routing": {
       "double_links": []
     },
-    "18-behavioral-modeling-intro/index": {
+    "17-ambient-computing-interactivity/173-sounds-speech-and-macros": {
       "double_links": []
     },
     "4-grasshopper-intro/41-getting-started-with-grasshopper": {
@@ -150,22 +147,16 @@
     "4-grasshopper-intro/410-Generating-Exploring-Spatial-Data": {
       "double_links": []
     },
-    "4-grasshopper-intro/42-exercise-hello-grasshopper": {
-      "double_links": []
-    },
     "4-grasshopper-intro/43-working-in-grasshopper": {
       "double_links": []
     },
-    "4-grasshopper-intro/44-exercise-parametric-tower-part-1": {
-      "double_links": []
-    },
-    "4-grasshopper-intro/45-working-with-data": {
-      "double_links": []
-    },
-    "4-grasshopper-intro/46-exercise-parametric-tower-part-2": {
+    "4-grasshopper-intro/42-exercise-hello-grasshopper": {
       "double_links": []
     },
     "4-grasshopper-intro/47-documentation-best-practices": {
+      "double_links": []
+    },
+    "4-grasshopper-intro/46-exercise-parametric-tower-part-2": {
       "double_links": []
     },
     "4-grasshopper-intro/48-Deriving-Spatial-Data": {
@@ -174,37 +165,37 @@
     "4-grasshopper-intro/49-Procedural-Rules": {
       "double_links": []
     },
-    "4-grasshopper-intro/index": {
+    "14-geospatial-concepts/141-what-is-gis": {
       "double_links": []
     },
-    "5-computational-design-modeling-in-grasshopper/5-1-Comp-Design-Modeling": {
-      "double_links": []
-    },
-    "5-computational-design-modeling-in-grasshopper/5-2-Subdivide-Geometry": {
-      "double_links": []
-    },
-    "5-computational-design-modeling-in-grasshopper/5-3-Analysis-Tools": {
+    "4-grasshopper-intro/45-working-with-data": {
       "double_links": []
     },
     "5-computational-design-modeling-in-grasshopper/5-4-Street-Grid": {
       "double_links": []
     },
+    "5-computational-design-modeling-in-grasshopper/5-1-Comp-Design-Modeling": {
+      "double_links": []
+    },
+    "5-computational-design-modeling-in-grasshopper/5-3-Analysis-Tools": {
+      "double_links": []
+    },
+    "5-computational-design-modeling-in-grasshopper/5-2-Subdivide-Geometry": {
+      "double_links": []
+    },
     "5-computational-design-modeling-in-grasshopper/5-5_Buildings-Density": {
       "double_links": []
     },
-    "5-computational-design-modeling-in-grasshopper/5-6_Troubleshooting": {
-      "double_links": []
-    },
     "5-computational-design-modeling-in-grasshopper/5-7_Design-Space": {
-      "double_links": []
-    },
-    "5-computational-design-modeling-in-grasshopper/index": {
       "double_links": []
     },
     "6-intro-to-python/61-getting-started-with-Python": {
       "double_links": []
     },
     "6-intro-to-python/62-using-python-in-grasshopper": {
+      "double_links": []
+    },
+    "5-computational-design-modeling-in-grasshopper/index": {
       "double_links": []
     },
     "6-intro-to-python/index": {
@@ -222,13 +213,22 @@
     "7-fundamentals-of-python/74-python-libraries": {
       "double_links": []
     },
-    "7-fundamentals-of-python/index": {
-      "double_links": []
-    },
     "8-intro-to-python-in-rhino/81-accessing-the-rhino-apis-in-python": {
       "double_links": []
     },
+    "7-fundamentals-of-python/index": {
+      "double_links": []
+    },
+    "5-computational-design-modeling-in-grasshopper/5-6_Troubleshooting": {
+      "double_links": []
+    },
+    "4-grasshopper-intro/44-exercise-parametric-tower-part-1": {
+      "double_links": []
+    },
     "8-intro-to-python-in-rhino/82-working-with-geometry-in-python": {
+      "double_links": []
+    },
+    "4-grasshopper-intro/index": {
       "double_links": []
     },
     "8-intro-to-python-in-rhino/index": {
@@ -392,8 +392,8 @@
             "dir": "/modules/4-grasshopper-intro",
             "path": "/modules/4-grasshopper-intro/41-getting-started-with-grasshopper",
             "extension": ".md",
-            "createdAt": "2022-04-08T21:47:31.519Z",
-            "updatedAt": "2022-04-08T21:47:31.519Z",
+            "createdAt": "2022-04-08T22:08:13.052Z",
+            "updatedAt": "2022-04-08T22:08:13.053Z",
             "readingTime": 837900,
             "uniqueLinks": []
           }
@@ -439,8 +439,8 @@
             "dir": "/modules/4-grasshopper-intro",
             "path": "/modules/4-grasshopper-intro/42-exercise-hello-grasshopper",
             "extension": ".md",
-            "createdAt": "2022-04-08T21:47:36.266Z",
-            "updatedAt": "2022-04-08T21:47:36.266Z",
+            "createdAt": "2022-04-08T22:08:13.053Z",
+            "updatedAt": "2022-04-08T22:08:13.054Z",
             "readingTime": 519900,
             "uniqueLinks": []
           }
@@ -561,8 +561,8 @@
             "dir": "/modules/4-grasshopper-intro",
             "path": "/modules/4-grasshopper-intro/43-working-in-grasshopper",
             "extension": ".md",
-            "createdAt": "2022-04-08T21:47:27.049Z",
-            "updatedAt": "2022-04-08T21:47:27.049Z",
+            "createdAt": "2022-04-08T22:08:13.054Z",
+            "updatedAt": "2022-04-08T22:08:13.054Z",
             "readingTime": 918000,
             "uniqueLinks": []
           }
@@ -613,8 +613,8 @@
             "dir": "/modules/4-grasshopper-intro",
             "path": "/modules/4-grasshopper-intro/44-exercise-parametric-tower-part-1",
             "extension": ".md",
-            "createdAt": "2022-04-08T21:47:39.840Z",
-            "updatedAt": "2022-04-08T21:47:39.840Z",
+            "createdAt": "2022-04-08T22:08:13.054Z",
+            "updatedAt": "2022-04-08T22:08:13.055Z",
             "readingTime": 673800,
             "uniqueLinks": []
           }
@@ -675,8 +675,8 @@
             "dir": "/modules/4-grasshopper-intro",
             "path": "/modules/4-grasshopper-intro/45-working-with-data",
             "extension": ".md",
-            "createdAt": "2022-04-08T21:47:42.179Z",
-            "updatedAt": "2022-04-08T21:47:42.180Z",
+            "createdAt": "2022-04-08T22:08:13.055Z",
+            "updatedAt": "2022-04-08T22:08:13.055Z",
             "readingTime": 1057800,
             "uniqueLinks": []
           }
@@ -732,8 +732,8 @@
             "dir": "/modules/4-grasshopper-intro",
             "path": "/modules/4-grasshopper-intro/46-exercise-parametric-tower-part-2",
             "extension": ".md",
-            "createdAt": "2022-04-08T21:47:44.248Z",
-            "updatedAt": "2022-04-08T21:47:44.248Z",
+            "createdAt": "2022-04-08T22:08:13.055Z",
+            "updatedAt": "2022-04-08T22:08:13.056Z",
             "readingTime": 1058400,
             "uniqueLinks": []
           }
@@ -799,8 +799,8 @@
             "dir": "/modules/4-grasshopper-intro",
             "path": "/modules/4-grasshopper-intro/47-documentation-best-practices",
             "extension": ".md",
-            "createdAt": "2022-04-08T21:47:46.215Z",
-            "updatedAt": "2022-04-08T21:47:46.215Z",
+            "createdAt": "2022-04-08T22:08:13.056Z",
+            "updatedAt": "2022-04-08T22:08:13.057Z",
             "readingTime": 297000,
             "uniqueLinks": []
           }
@@ -881,8 +881,8 @@
             "dir": "/modules/4-grasshopper-intro",
             "path": "/modules/4-grasshopper-intro/48-Deriving-Spatial-Data",
             "extension": ".md",
-            "createdAt": "2022-04-08T21:47:48.145Z",
-            "updatedAt": "2022-04-08T21:47:48.145Z",
+            "createdAt": "2022-04-08T22:08:13.057Z",
+            "updatedAt": "2022-04-08T22:08:13.058Z",
             "readingTime": 920700,
             "uniqueLinks": []
           }
@@ -958,8 +958,8 @@
             "dir": "/modules/4-grasshopper-intro",
             "path": "/modules/4-grasshopper-intro/49-Procedural-Rules",
             "extension": ".md",
-            "createdAt": "2022-04-08T21:47:49.876Z",
-            "updatedAt": "2022-04-08T21:47:49.876Z",
+            "createdAt": "2022-04-08T22:08:13.058Z",
+            "updatedAt": "2022-04-08T22:08:13.087Z",
             "readingTime": 586500,
             "uniqueLinks": []
           }
@@ -1035,8 +1035,8 @@
             "dir": "/modules/4-grasshopper-intro",
             "path": "/modules/4-grasshopper-intro/410-Generating-Exploring-Spatial-Data",
             "extension": ".md",
-            "createdAt": "2022-04-08T21:47:52.966Z",
-            "updatedAt": "2022-04-08T21:47:52.966Z",
+            "createdAt": "2022-04-08T22:08:13.053Z",
+            "updatedAt": "2022-04-08T22:08:13.053Z",
             "readingTime": 659700,
             "uniqueLinks": []
           }
@@ -4799,9 +4799,9 @@
             "dir": "/modules/16-ambient-computing-network-architecture",
             "path": "/modules/16-ambient-computing-network-architecture/161-dynamic-environments",
             "extension": ".md",
-            "createdAt": "2022-03-31T08:43:04.618Z",
-            "updatedAt": "2022-03-31T08:43:04.618Z",
-            "readingTime": 431400,
+            "createdAt": "2022-04-11T14:47:49.528Z",
+            "updatedAt": "2022-04-11T14:47:49.529Z",
+            "readingTime": 437400,
             "uniqueLinks": []
           }
         },
@@ -4888,9 +4888,9 @@
     },
     {
       "contentdata": {
-        "slug": "ambient-computing-interactivity",
+        "slug": "ambient-computing",
         "moduleid": 170,
-        "title": "Ambient Computing - Interactivity",
+        "title": "Ambient Computing",
         "published": true,
         "authors": [
           "Violet Whitney"
@@ -4907,19 +4907,34 @@
             "text": "Ambient Computing - Physical and Digital Worlds Intertwined"
           },
           {
-            "id": "spatial--interfaces--user-interfaces",
+            "id": "networked-context-profile-based",
             "depth": 3,
-            "text": "Spatial  Interfaces > User Interfaces"
+            "text": "Networked (context, profile-based)"
           },
           {
-            "id": "social-experiences--user-experiences",
+            "id": "embedded-spatially-bodily",
             "depth": 3,
-            "text": "Social Experiences > User Experiences"
+            "text": "Embedded (spatially, bodily)"
+          },
+          {
+            "id": "ethical-questions-for-todays-designers",
+            "depth": 3,
+            "text": "Ethical Questions for Today's Designers"
           },
           {
             "id": "the-rise-of-end-user-programming-and-low-code",
             "depth": 2,
             "text": "The Rise of End User Programming and Low Code"
+          },
+          {
+            "id": "microservice-architecture",
+            "depth": 3,
+            "text": "Microservice Architecture"
+          },
+          {
+            "id": "microservice-low-code-sentence-structure",
+            "depth": 3,
+            "text": "microservice \"low code\" sentence structure"
           },
           {
             "id": "modules",
@@ -4930,9 +4945,9 @@
         "dir": "/modules/17-ambient-computing-interactivity",
         "path": "/modules/17-ambient-computing-interactivity/index",
         "extension": ".md",
-        "createdAt": "2022-03-31T08:43:05.689Z",
-        "updatedAt": "2022-03-31T08:43:05.690Z",
-        "readingTime": 165900,
+        "createdAt": "2022-04-11T14:47:49.654Z",
+        "updatedAt": "2022-04-11T14:47:49.655Z",
+        "readingTime": 323700,
         "uniqueLinks": []
       },
       "ordinal": 17,
@@ -4943,9 +4958,9 @@
           "file": "index.md",
           "ordinal": 0,
           "contentdata": {
-            "slug": "ambient-computing-interactivity",
+            "slug": "ambient-computing",
             "moduleid": 170,
-            "title": "Ambient Computing - Interactivity",
+            "title": "Ambient Computing",
             "published": true,
             "authors": [
               "Violet Whitney"
@@ -4962,19 +4977,34 @@
                 "text": "Ambient Computing - Physical and Digital Worlds Intertwined"
               },
               {
-                "id": "spatial--interfaces--user-interfaces",
+                "id": "networked-context-profile-based",
                 "depth": 3,
-                "text": "Spatial  Interfaces > User Interfaces"
+                "text": "Networked (context, profile-based)"
               },
               {
-                "id": "social-experiences--user-experiences",
+                "id": "embedded-spatially-bodily",
                 "depth": 3,
-                "text": "Social Experiences > User Experiences"
+                "text": "Embedded (spatially, bodily)"
+              },
+              {
+                "id": "ethical-questions-for-todays-designers",
+                "depth": 3,
+                "text": "Ethical Questions for Today's Designers"
               },
               {
                 "id": "the-rise-of-end-user-programming-and-low-code",
                 "depth": 2,
                 "text": "The Rise of End User Programming and Low Code"
+              },
+              {
+                "id": "microservice-architecture",
+                "depth": 3,
+                "text": "Microservice Architecture"
+              },
+              {
+                "id": "microservice-low-code-sentence-structure",
+                "depth": 3,
+                "text": "microservice \"low code\" sentence structure"
               },
               {
                 "id": "modules",
@@ -4985,9 +5015,9 @@
             "dir": "/modules/17-ambient-computing-interactivity",
             "path": "/modules/17-ambient-computing-interactivity/index",
             "extension": ".md",
-            "createdAt": "2022-03-31T08:43:05.689Z",
-            "updatedAt": "2022-03-31T08:43:05.690Z",
-            "readingTime": 165900,
+            "createdAt": "2022-04-11T14:47:49.654Z",
+            "updatedAt": "2022-04-11T14:47:49.655Z",
+            "readingTime": 323700,
             "uniqueLinks": []
           }
         },
@@ -4995,36 +5025,36 @@
           "file": "171-Intro-to-Processing-Lighting.md",
           "ordinal": 171,
           "contentdata": {
-            "slug": "intro-to-processing-lighting",
+            "slug": "intro-to-processing",
             "moduleid": 171,
-            "title": "Intro to Processing - Lighting",
+            "title": "Intro to Processing",
             "published": true,
             "authors": [
               "Violet Whitney"
             ],
             "toc": [
               {
-                "id": "module-summary",
+                "id": "what-is-processing-and-why-use-it",
                 "depth": 2,
-                "text": "Module Summary"
-              },
-              {
-                "id": "conceptual-introduction-or-why-is-this-interesting--important",
-                "depth": 2,
-                "text": "Conceptual Introduction, or: Why is this interesting / important?"
+                "text": "What is Processing and why use it?"
               },
               {
                 "id": "tutorial",
                 "depth": 2,
                 "text": "Tutorial"
+              },
+              {
+                "id": "example-student-projects",
+                "depth": 2,
+                "text": "Example Student Projects"
               }
             ],
             "dir": "/modules/17-ambient-computing-interactivity",
             "path": "/modules/17-ambient-computing-interactivity/171-Intro-to-Processing-Lighting",
             "extension": ".md",
-            "createdAt": "2022-03-31T08:43:04.842Z",
-            "updatedAt": "2022-03-31T08:43:04.842Z",
-            "readingTime": 277800,
+            "createdAt": "2022-04-11T14:47:49.529Z",
+            "updatedAt": "2022-04-11T14:47:49.530Z",
+            "readingTime": 336300,
             "uniqueLinks": []
           }
         },
@@ -5049,6 +5079,11 @@
                 "id": "tutorial",
                 "depth": 2,
                 "text": "Tutorial"
+              },
+              {
+                "id": "disclaimer-before-getting-started-you-will-need",
+                "depth": 3,
+                "text": "(Disclaimer) Before Getting Started You Will Need"
               },
               {
                 "id": "creating-a-ifttt-recipe-with-webhooks",
@@ -5084,9 +5119,9 @@
             "dir": "/modules/17-ambient-computing-interactivity",
             "path": "/modules/17-ambient-computing-interactivity/172-Webhooks-Connecting-IFTTT-and-Processing",
             "extension": ".md",
-            "createdAt": "2022-03-31T08:43:04.842Z",
-            "updatedAt": "2022-03-31T08:43:04.842Z",
-            "readingTime": 409200,
+            "createdAt": "2022-04-11T14:47:49.530Z",
+            "updatedAt": "2022-04-11T14:47:49.530Z",
+            "readingTime": 486300,
             "uniqueLinks": []
           }
         },
@@ -5307,14 +5342,29 @@
             "id": "sequence-summary",
             "depth": 2,
             "text": "Sequence Summary:"
+          },
+          {
+            "id": "a-world-influenced-by-seemingly-invisible-forces-why-designers-should-model-behavior",
+            "depth": 3,
+            "text": "A World Influenced By Seemingly Invisible Forces: Why Designers Should Model Behavior"
+          },
+          {
+            "id": "example-student-projects",
+            "depth": 3,
+            "text": "Example Student Projects"
+          },
+          {
+            "id": "modules",
+            "depth": 2,
+            "text": "Modules:"
           }
         ],
         "dir": "/modules/18-behavioral-modeling-intro",
         "path": "/modules/18-behavioral-modeling-intro/index",
         "extension": ".md",
-        "createdAt": "2022-03-31T08:43:06.937Z",
-        "updatedAt": "2022-03-31T08:43:06.938Z",
-        "readingTime": 2700,
+        "createdAt": "2022-04-11T14:47:49.655Z",
+        "updatedAt": "2022-04-11T14:47:49.655Z",
+        "readingTime": 140400,
         "uniqueLinks": []
       },
       "ordinal": 18,
@@ -5337,14 +5387,29 @@
                 "id": "sequence-summary",
                 "depth": 2,
                 "text": "Sequence Summary:"
+              },
+              {
+                "id": "a-world-influenced-by-seemingly-invisible-forces-why-designers-should-model-behavior",
+                "depth": 3,
+                "text": "A World Influenced By Seemingly Invisible Forces: Why Designers Should Model Behavior"
+              },
+              {
+                "id": "example-student-projects",
+                "depth": 3,
+                "text": "Example Student Projects"
+              },
+              {
+                "id": "modules",
+                "depth": 2,
+                "text": "Modules:"
               }
             ],
             "dir": "/modules/18-behavioral-modeling-intro",
             "path": "/modules/18-behavioral-modeling-intro/index",
             "extension": ".md",
-            "createdAt": "2022-03-31T08:43:06.937Z",
-            "updatedAt": "2022-03-31T08:43:06.938Z",
-            "readingTime": 2700,
+            "createdAt": "2022-04-11T14:47:49.655Z",
+            "updatedAt": "2022-04-11T14:47:49.655Z",
+            "readingTime": 140400,
             "uniqueLinks": []
           }
         },
