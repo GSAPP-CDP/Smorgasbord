@@ -8,9 +8,8 @@ slug: spatial-analysis-point-patterns
 
 # Spatial Analysis - Point Patterns
 
-![missing-image](images/Patricio-Gonzalez-Vivo-3D-Data-Map-NYC.gif)
-*Random City, Patricio Gonzalez*
-
+![missing-image](images/diana_lange.jpg)
+*Diana Lange, Generative portraits (made with Processing), Laurie Anderson*
 
 ## Module Summary
 

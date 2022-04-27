@@ -8,8 +8,8 @@ slug: spatial-analysis-correlation
 
 # Spatial Analysis – Correlation
 
-![missing-image](images/Patricio-Gonzalez-Vivo-3D-Data-Map-NYC.gif)
-*Random City, Patricio Gonzalez*
+![missing-image](images/michael_najjar.jpg)
+*Michael Najjar, high altitude (2008-2010), dow jones_80-09*
 
 
 ## Module Summary
@@ -39,11 +39,32 @@ from shapely.geometry import Point, Polygon
 ### Correlation
 
 ![missing-image](images/spatial_correlation.png#img-full)
-According to Waldo Tobler's First Law of Geography: "everything is related to everything else, but near things are more related than distant things." This simple but profound statement assumes that geographic distance can explain the processes behind why things are located where they are. Spatial (auto)correlation helps us quantify the relationship between objects in geographic space and their numeric values, based on proximity. A real world example of this is house prices. If you picked a random house in New York City from a listing website like Zillow and found that the prices of the house was $1.6M, there is a very high likelihood that the house next door (if similar in size and amenities) would be selling for a similar prices, versus a house 10 miles away would be selling for a lot more or less. Spatial correlation helps us understand:
+
+<br/>
+
+According to Waldo Tobler's First Law of Geography: "everything is related to everything else, but near things are more related than distant things." This simple but profound statement assumes that geographic distance can explain the processes behind why things are located where they are. Correlation is a widely used statistic that helps us understand the relationship between two variables. Spatial correlation helps us quantify the relationship between objects in geographic space and their numeric values, based on proximity. A real world example of this is house prices. If you picked a random house in New York City from a listing website like Zillow and found that the price of the house was $1.6M, there is a very high likelihood that the house next door (if similar in size and amenities) would be selling for a similar price, versus a house 100 miles away would be selling for a lot more or less. Distance and proximity can help explain phenomena in geographic space from house prices, to the location of services and businesses, to topography and climate – near things are more closely related than further things. Spatial correlation helps us understand:
 
 - If things are clustered or dispersed over a geographic region.
 - Measure spatial inequality be it in terms of income, access to social services, demographics, etc.
 - Describing ecological and environmental conditions.
+
+In it's simplest sense, correlation is the linear relationship between a pair of variables. If the value of one variable goes up as the other also increases, then the relationship is said to be positively correlated. Whereas, if the value of one variable goes the other variable increases, then the relationship is said to be negatively correlated. The strength of the relationship (correlation) is usually represented through the (Pearson) correlation coefficient *r*. Although an intuitive understanding is more than enough to complete this demonstration and explore correlations independently, it can be written formally as:
+
+<table><tr><td>
+ <td> <div style="float:left">
+    <div style="border-bottom:1px solid;font-size:small;text-align:center;">cov(X, Y)</div>
+    <div style="font-size:small;text-align:center;">&sigma;<sub>X</sub> &sigma;<sub>Y</sub></div>
+  </div></td>
+</tr>
+</table>
+
+Where:
+- X is the first variable
+- Y is the second variable
+- *cov* is the [covariance](https://www.mathsisfun.com/data/covariance.html)
+- &sigma;<sub>X</sub> and &sigma;<sub>Y</sub> are the standard deviations of the two variables
+
+<br/>
 
 For this demonstration we will look at the relationship between Brooklyn houses prices in relation to their distance to Manhattan. We will be studying the clustering of higher price houses around the island of Manhattan, the hypothesis being that the closer a house is to Manhattan the higher the sales price. We will utilize multiple datasets provided by NYC Open Data:
 
@@ -100,6 +121,7 @@ We can see from the histogram that the sales data is highly left skewed with lot
 mask1 = (bk_houses['SALE PRICE'] > 1e6) & (bk_houses['SALE PRICE'] < 3e6)
 bk_houses = bk_houses.loc[mask]
 ```
+<br/>
 
 Now we are ready to plot the data on a map to explore any inherent relationships:
 
