@@ -3,6 +3,8 @@ moduleid: 5-5
 title: Procedural Density and Building Types
 published: True
 slug: procedural-density-and-building-types
+authors:
+ - "Luc Wilson"
 ---
 
 

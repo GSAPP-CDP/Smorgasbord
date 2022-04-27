@@ -3,6 +3,8 @@ moduleid: 143
 title: Coordinate Reference Systems & Projections
 published: True
 slug: coordinates-projections
+authors:
+ - "Dare Brawley"
 ---
 # Coordinate Reference Systems & Projections
 
@@ -122,7 +124,6 @@ Practically, the thoughtful use of spatial data requires that you consider "what
 ![Blue Marble, NASA, 1972](images/135918main_bm1_high.jpg#img-full)
 
 ## Assignment
-[might rework this.....]
 
 Locate 3-4 different archival maps that depict an area of your choosing at a few spatial scales. All of the maps should show an area that is smaller than the whole globe, but larger than a city (think: regional or above).  
 
@@ -132,5 +133,6 @@ Make sure that your example maps do not all use the exact same coordinate refere
 
 Design a series of slides that highlight differences across these depictions which are created by differences in the coordinate reference systems used.  
 
-------------
-Credit info in standard format  
+-------
+Module by Dare Brawley, fall 2021.  
+tutorial credit information, to be added in standard format

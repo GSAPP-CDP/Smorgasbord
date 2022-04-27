@@ -36,7 +36,7 @@ export default {
 
     ['@nuxtjs/google-fonts', {
       families: {
-        Lato: true,
+        'Lato': [300, 400, 700],
         'IBM Plex Sans': [300, 400, 700],
       },
     }],
@@ -49,6 +49,7 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    '~/modules/process_content.js',
   ],
 
   // Content module configuration: https://go.nuxtjs.dev/config-content

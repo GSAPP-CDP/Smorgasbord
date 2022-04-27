@@ -3,6 +3,8 @@ moduleid: 104
 title: Spatial Analysis – Correlation
 published: True
 slug: spatial-analysis-correlation
+authors:
+ - "Carlo Bailey"
 ---
 
 

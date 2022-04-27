@@ -3,6 +3,8 @@ moduleid: 105
 title: Spatial Analysis – Clustering
 published: True
 slug: spatial-analysis-clustering
+authors:
+ - "Carlo Bailey"
 ---
 
 

@@ -3,6 +3,8 @@ moduleid: 5-4
 title: Parametric Streets, Blocks, and Parcels
 published: True
 slug: parametric-streets-blocks-and-parcels
+authors:
+ - "Luc Wilson"
 ---
 
 

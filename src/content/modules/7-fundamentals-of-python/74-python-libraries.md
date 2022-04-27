@@ -3,6 +3,8 @@ moduleid: 74
 title: Python Libraries
 published: True
 slug: python-libraries
+authors:
+ - "Danil Nagy"
 ---
 
 # Working with Libraries in Python

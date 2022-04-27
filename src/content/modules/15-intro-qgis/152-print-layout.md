@@ -3,11 +3,13 @@ moduleid: 152
 title: Print Layout
 published: True
 slug: print-layout
+authors:
+ - "Dare Brawley"
 ---
 
 # Print Layouts in QGIS
 
-![map element examples](images/36-print-layout-examples-02.png#img-full) From left: International Map of the World, Hudson River, 1927, US Geological Survey; Maps by Studio Joost Grootens from [*Atlas of the New Dutch Water Defense Line* by Clemens Steenbergen et al](https://www.google.com/books/edition/Atlas_of_the_New_Dutch_Water_Defence_Lin/v51sTO-RpHwC?hl=en&gbpv=0), 2009; Passonneau & Wurman, ["Cleveland"](https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~307890~90077767:Cleveland--Residential-Population-D?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&qvq=q:wurman%20cleveland;sort:Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No;lc:RUMSEY~8~1&mi=2&trs=9) in [*Urban Atlas: 20 American Cities*](https://www.davidrumsey.com/luna/servlet/view/search?q=pub_list_no%3d%2210195.000%22&qvq=sort:Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No;lc:RUMSEY~8~1&mi=0), 1966.
+![map element examples](images/152/36-print-layout-examples-02.png#img-full) From left: International Map of the World, Hudson River, 1927, US Geological Survey; Maps by Studio Joost Grootens from [*Atlas of the New Dutch Water Defense Line* by Clemens Steenbergen et al](https://www.google.com/books/edition/Atlas_of_the_New_Dutch_Water_Defence_Lin/v51sTO-RpHwC?hl=en&gbpv=0), 2009; Passonneau & Wurman, ["Cleveland"](https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~307890~90077767:Cleveland--Residential-Population-D?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&qvq=q:wurman%20cleveland;sort:Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No;lc:RUMSEY~8~1&mi=2&trs=9) in [*Urban Atlas: 20 American Cities*](https://www.davidrumsey.com/luna/servlet/view/search?q=pub_list_no%3d%2210195.000%22&qvq=sort:Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No;lc:RUMSEY~8~1&mi=0), 1966.
 
 This short module covers the basics of creating a print layout in QGIS and some considerations for cartographic design in general. The technical material covered allows you to move your QGIS projects from map space to paper space and to export your work either in a final presentation format or in a form that allows you to continue design work in another software environment.  
 
@@ -38,22 +40,22 @@ Open a QGIS project (your work for the [Mapping Where]() module is a good option
 
 In the main toolbar select the `New Print Layout` tool, or select `Project`>`New Print Layout` from the top menu. You will be prompted to specify a name for your new layout. Each QGIS project can have multiple associated print layouts so choose a descriptive name for the layout you are hoping to create so that you can distinguish it if you ever add an additional layout view.  
 
-![print layout button](images/27-print-layout.png)
+![print layout button](images/152/27-print-layout.png)
 
 Once you have specified the name of your first layout the print layout tool will open.  
 
-![print layout view](images/28-print-layout.png)
+![print layout view](images/152/28-print-layout.png)
 
 ## Set page size
 
-![tabloid](images/30-print-layout.png#img-right)
+![tabloid](images/152/30-print-layout.png#img-right)
 To set the page size right click anywhere on the blank page and select `Page Properties`. The `Item Properties` menu should appear. Use this to specify the dimensions of the page. There are preset paper sizes and you may also specify your own size using the `Custom` option and choosing specific dimensions and units.  
 
 ## Add a map
 
 Use the `Add Map` button and then click to draw a rectangle over the area on your page that you want the map to cover.  
 
-![add map](images/31-print-layout.png)
+![add map](images/152/31-print-layout.png)
 
 
 ## Edit item properties
@@ -68,7 +70,7 @@ Set your preferred map scale & experiment with the map rotation. Setting the map
 
 Select the `Add Legend` button and again draw a rectangle over the area where you want your legend to be placed.  
 
-![legend](images/32-print-layout.png)
+![legend](images/152/32-print-layout.png)
 
 By default all layers from your QGIS project will be included in the legend. If, within the Item Properties for your legend, you select `Only show items inside linked map` then only the currently visible map layers will be included in the legend. If you would like to manually select which elements to include in the legend then deselect `Auto Update`. You can then use the `+` and `-` buttons to add and remove legend elements.  
 
@@ -85,14 +87,14 @@ Select the map and view its item properties. Scroll to and expand the `Grids` se
 Select modify the grid. And make the following selections: for CRS `EPSG: 2263`; interval `map unit`; x `5280` y `5280` (aka 1 mile). Scroll down to Draw coordinates. Select the check box. For format select `decimal`. You can also adjust the size, placement, and font of these coordinates within this item properties menu. Once you are pleased with their appearance, leave the grid item properties menu with the blue arrow at the top of the item properties menu. 
 
 The map now displays a grid showing the coordinate reference system.
-![grid](images/34-print-layout.png)
+![grid](images/152/34-print-layout.png)
 
 Next create a graticule to overlay on the map. Create a new grid as before. Name it WGS84 (this is a geographic coordinate reference system). Select modify grid make the following selections: CRS `EPSG: 4326`; interval `map unit`; x & y as `0.03`/
 
 So that you can distinguish with the other grid change the color or stroke style by selecting the `Line` dropdown menu. Scroll to enable Draw Coordinates. Format as `degree, minute`. Change the font color to match the color you chose for the lines
 
 Note: `Grid enabled` at the top of the grid properties menu toggles visibility for the grid.
-![graticule](images/35-print-layout.png)
+![graticule](images/152/35-print-layout.png)
 
 Notice difference between the grid and the graticule. Based on the [projections and coordinate reference systems module]() can you interpret these differences?
 
@@ -106,7 +108,7 @@ It is possible to export a print layout in multiple formats including as a PDF, 
 
 Export options can be accessed via `Layout` in the top menu bar or the export buttons in the Layout toolbar (circled below).
 
-![layout toolbar](images/33-print-layout.png)
+![layout toolbar](images/152/33-print-layout.png)
 
 ### Notes on workflow
 
@@ -130,9 +132,10 @@ Map design more generally:
 
 ## Assignment: build and use an atlas of references
 
-1. Locate at least five to ten examples (the more the better!) of maps you find visually compelling, especially clear in their narrative, or otherwise enjoy looking at. Design a method for keeping track of these examples and their sources (think: [are.na](https://www.are.na/) channel, a well organized folder structure, a [Zotero](https://www.zotero.org/) library).  
+1. Locate at least five to ten examples (the more the better!) of maps you find visually compelling, especially clear in their narrative, or otherwise enjoy looking at. Design a method for keeping track of these examples and their sources (for example: [are.na](https://www.are.na/) channel, a well organized folder structure, or a [Zotero](https://www.zotero.org/) library).  
 
 2. In conjunction with the assignment for the [mapping where]() module: choose 2-3 individual elements from within your reference atlas and apply them in the design of your *Four Views of Trees in New York City*.  
 
---------
+---
+Module by Dare Brawley, fall 2021.  
 tutorial credit information, to be added in standard format

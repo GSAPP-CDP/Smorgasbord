@@ -3,6 +3,8 @@ moduleid: 73
 title: Functions and Classes
 published: True
 slug: functions-and-classes
+authors:
+ - "Danil Nagy"
 ---
 
 # Functions and Classes

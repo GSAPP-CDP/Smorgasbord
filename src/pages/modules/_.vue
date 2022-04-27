@@ -1,6 +1,7 @@
 <template>
-  <Module :path="path" />
-
+  <div>
+    <Module :path="path" />
+  </div>
 </template>
 
 <style>
@@ -14,6 +15,7 @@ export default {
       path: "",
     };
   },
+  layout: 'module',
   async asyncData({ $content, app, params }) {
     const slug = params.slug;
 

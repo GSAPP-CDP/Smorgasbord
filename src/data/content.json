@@ -1,0 +1,5647 @@
+{
+  "modules": {
+    "10-spatial-python/101-data-manipulation": {
+      "double_links": []
+    },
+    "10-spatial-python/103-spatial-analysis-point-pattern": {
+      "double_links": []
+    },
+    "10-spatial-python/102-geospatial-data": {
+      "double_links": []
+    },
+    "10-spatial-python/105-spatial-analysis-clustering": {
+      "double_links": []
+    },
+    "10-spatial-python/104-spatial-analysis-correlation": {
+      "double_links": []
+    },
+    "10-spatial-python/index": {
+      "double_links": []
+    },
+    "11-interactive-web/110-javascript-in-browser": {
+      "double_links": []
+    },
+    "11-interactive-web/111-data-and-apis": {
+      "double_links": []
+    },
+    "11-interactive-web/112-javascript-in-the-browser": {
+      "double_links": []
+    },
+    "11-interactive-web/113-javascript-in-the-browser": {
+      "double_links": []
+    },
+    "11-interactive-web/index": {
+      "double_links": []
+    },
+    "12-rhino-intro/12-1_rhino-interface": {
+      "double_links": []
+    },
+    "12-rhino-intro/12-3_rhino-3d": {
+      "double_links": []
+    },
+    "12-rhino-intro/12-2_rhino-2d": {
+      "double_links": []
+    },
+    "12-rhino-intro/index": {
+      "double_links": []
+    },
+    "12-rhino-intro/12-4_rhino-nurbs": {
+      "double_links": []
+    },
+    "13-arch-drawing/13-1_orthographic-drawing": {
+      "double_links": []
+    },
+    "13-arch-drawing/13-2_projection": {
+      "double_links": []
+    },
+    "13-arch-drawing/13-4_compositing": {
+      "double_links": []
+    },
+    "13-arch-drawing/13-3_rendering": {
+      "double_links": []
+    },
+    "14-geospatial-concepts/141-what-is-gis": {
+      "double_links": []
+    },
+    "13-arch-drawing/index": {
+      "double_links": []
+    },
+    "14-geospatial-concepts/142-spatial-data": {
+      "double_links": []
+    },
+    "14-geospatial-concepts/143-coordinates-projections": {
+      "double_links": []
+    },
+    "14-geospatial-concepts/index": {
+      "double_links": []
+    },
+    "15-intro-qgis/151-mapping-where": {
+      "double_links": []
+    },
+    "15-intro-qgis/152-print-layout": {
+      "double_links": []
+    },
+    "15-intro-qgis/153-archives": {
+      "double_links": []
+    },
+    "15-intro-qgis/154-observations": {
+      "double_links": []
+    },
+    "15-intro-qgis/155-satellites": {
+      "double_links": []
+    },
+    "15-intro-qgis/156-aerial-imagery": {
+      "double_links": []
+    },
+    "15-intro-qgis/157-atlas": {
+      "double_links": []
+    },
+    "15-intro-qgis/index": {
+      "double_links": []
+    },
+    "16-ambient-computing-network-architecture/164-Intro-to-Processing-Lighting": {
+      "double_links": []
+    },
+    "16-ambient-computing-network-architecture/165-Webhooks-Connecting-IFTTT-and-Processing": {
+      "double_links": []
+    },
+    "16-ambient-computing-network-architecture/167-Markers-and-Tracking": {
+      "double_links": []
+    },
+    "16-ambient-computing-network-architecture/166-sounds-speech-and-macros": {
+      "double_links": []
+    },
+    "16-ambient-computing-network-architecture/168-Computer-Vision": {
+      "double_links": []
+    },
+    "16-ambient-computing-network-architecture/161-dynamic-environments": {
+      "double_links": []
+    },
+    "16-ambient-computing-network-architecture/162-network-architecture": {
+      "double_links": []
+    },
+    "16-ambient-computing-network-architecture/163-low-and-high-programming": {
+      "double_links": []
+    },
+    "16-ambient-computing-network-architecture/index": {
+      "double_links": []
+    },
+    "18-behavioral-modeling-intro/182-Intro-To-Unity": {
+      "double_links": []
+    },
+    "18-behavioral-modeling-intro/181-Unity-and-Agent-Based-Models": {
+      "double_links": []
+    },
+    "17-ambient-computing-interactivity/index": {
+      "double_links": []
+    },
+    "18-behavioral-modeling-intro/183-Agent-Based-Populations-and-Behavior-Bricks": {
+      "double_links": []
+    },
+    "18-behavioral-modeling-intro/184-Mapbox-SDK-and-Routing": {
+      "double_links": []
+    },
+    "4-grasshopper-intro/410-Generating-Exploring-Spatial-Data": {
+      "double_links": []
+    },
+    "18-behavioral-modeling-intro/index": {
+      "double_links": []
+    },
+    "4-grasshopper-intro/42-exercise-hello-grasshopper": {
+      "double_links": []
+    },
+    "4-grasshopper-intro/41-getting-started-with-grasshopper": {
+      "double_links": []
+    },
+    "4-grasshopper-intro/44-exercise-parametric-tower-part-1": {
+      "double_links": []
+    },
+    "4-grasshopper-intro/47-documentation-best-practices": {
+      "double_links": []
+    },
+    "4-grasshopper-intro/43-working-in-grasshopper": {
+      "double_links": []
+    },
+    "4-grasshopper-intro/45-working-with-data": {
+      "double_links": []
+    },
+    "4-grasshopper-intro/48-Deriving-Spatial-Data": {
+      "double_links": []
+    },
+    "4-grasshopper-intro/49-Procedural-Rules": {
+      "double_links": []
+    },
+    "4-grasshopper-intro/46-exercise-parametric-tower-part-2": {
+      "double_links": []
+    },
+    "4-grasshopper-intro/index": {
+      "double_links": []
+    },
+    "5-computational-design-modeling-in-grasshopper/5-2-Subdivide-Geometry": {
+      "double_links": []
+    },
+    "5-computational-design-modeling-in-grasshopper/5-1-Comp-Design-Modeling": {
+      "double_links": []
+    },
+    "5-computational-design-modeling-in-grasshopper/5-3-Analysis-Tools": {
+      "double_links": []
+    },
+    "5-computational-design-modeling-in-grasshopper/5-4-Street-Grid": {
+      "double_links": []
+    },
+    "5-computational-design-modeling-in-grasshopper/5-5_Buildings-Density": {
+      "double_links": []
+    },
+    "5-computational-design-modeling-in-grasshopper/5-6_Troubleshooting": {
+      "double_links": []
+    },
+    "5-computational-design-modeling-in-grasshopper/5-7_Design-Space": {
+      "double_links": []
+    },
+    "6-intro-to-python/61-getting-started-with-Python": {
+      "double_links": []
+    },
+    "5-computational-design-modeling-in-grasshopper/index": {
+      "double_links": []
+    },
+    "6-intro-to-python/index": {
+      "double_links": []
+    },
+    "6-intro-to-python/62-using-python-in-grasshopper": {
+      "double_links": []
+    },
+    "7-fundamentals-of-python/74-python-libraries": {
+      "double_links": []
+    },
+    "7-fundamentals-of-python/72-conditionals-and-loops": {
+      "double_links": []
+    },
+    "7-fundamentals-of-python/71-variables-lists-and-dictionaries": {
+      "double_links": []
+    },
+    "7-fundamentals-of-python/73-functions-and-classes": {
+      "double_links": []
+    },
+    "8-intro-to-python-in-rhino/81-accessing-the-rhino-apis-in-python": {
+      "double_links": []
+    },
+    "7-fundamentals-of-python/index": {
+      "double_links": []
+    },
+    "8-intro-to-python-in-rhino/82-working-with-geometry-in-python": {
+      "double_links": []
+    },
+    "8-intro-to-python-in-rhino/index": {
+      "double_links": []
+    }
+  },
+  "sequences": [
+    {
+      "contentdata": {
+        "slug": "into-to-grasshopper",
+        "moduleid": 4,
+        "title": "Intro To Grasshopper",
+        "published": true,
+        "authors": [
+          "Danil Nagy & Luc Wilson"
+        ],
+        "toc": [
+          {
+            "id": "sequence-summary",
+            "depth": 2,
+            "text": "Sequence Summary:"
+          },
+          {
+            "id": "modules",
+            "depth": 2,
+            "text": "Modules:"
+          }
+        ],
+        "dir": "/modules/4-grasshopper-intro",
+        "path": "/modules/4-grasshopper-intro/index",
+        "extension": ".md",
+        "createdAt": "2022-03-31T08:43:06.938Z",
+        "updatedAt": "2022-03-31T08:43:06.938Z",
+        "readingTime": 39000,
+        "uniqueLinks": []
+      },
+      "ordinal": 4,
+      "path": "4-grasshopper-intro",
+      "slug": "grasshopper-intro",
+      "modules": [
+        {
+          "file": "index.md",
+          "ordinal": 0,
+          "contentdata": {
+            "slug": "into-to-grasshopper",
+            "moduleid": 4,
+            "title": "Intro To Grasshopper",
+            "published": true,
+            "authors": [
+              "Danil Nagy & Luc Wilson"
+            ],
+            "toc": [
+              {
+                "id": "sequence-summary",
+                "depth": 2,
+                "text": "Sequence Summary:"
+              },
+              {
+                "id": "modules",
+                "depth": 2,
+                "text": "Modules:"
+              }
+            ],
+            "dir": "/modules/4-grasshopper-intro",
+            "path": "/modules/4-grasshopper-intro/index",
+            "extension": ".md",
+            "createdAt": "2022-03-31T08:43:06.938Z",
+            "updatedAt": "2022-03-31T08:43:06.938Z",
+            "readingTime": 39000,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "41-getting-started-with-grasshopper.md",
+          "ordinal": 41,
+          "contentdata": {
+            "slug": "4-1-getting-started-with-grasshopper",
+            "moduleid": 41,
+            "title": "Getting started with Grasshopper",
+            "published": true,
+            "authors": [
+              "Danil Nagy"
+            ],
+            "toc": [
+              {
+                "id": "what-is-grasshopper",
+                "depth": 2,
+                "text": "What is Grasshopper?"
+              },
+              {
+                "id": "ok-then-what-is-computational-design-and-how-is-it-different-from-just-using-a-computer-for-design",
+                "depth": 2,
+                "text": "Ok, then what is computational design, and how is it different from just using a computer for design?"
+              },
+              {
+                "id": "what-is-computational-design-for",
+                "depth": 2,
+                "text": "What is computational design for?"
+              },
+              {
+                "id": "parametric-design",
+                "depth": 3,
+                "text": "Parametric design"
+              },
+              {
+                "id": "formal-complexity",
+                "depth": 3,
+                "text": "Formal complexity"
+              },
+              {
+                "id": "performance-driven-design",
+                "depth": 3,
+                "text": "Performance-driven design"
+              },
+              {
+                "id": "design-automation",
+                "depth": 3,
+                "text": "Design automation"
+              },
+              {
+                "id": "ok-ok-but-then-what-is-grasshopper",
+                "depth": 2,
+                "text": "Ok ok, but then what is Grasshopper?"
+              },
+              {
+                "id": "how-does-grasshopper-connect-to-rhino",
+                "depth": 2,
+                "text": "How does Grasshopper connect to Rhino?"
+              },
+              {
+                "id": "designing-with-algorithms",
+                "depth": 2,
+                "text": "Designing with algorithms"
+              },
+              {
+                "id": "computational-design-thinking",
+                "depth": 2,
+                "text": "Computational Design Thinking"
+              },
+              {
+                "id": "the-grasshopper-community",
+                "depth": 2,
+                "text": "The Grasshopper community"
+              },
+              {
+                "id": "getting-started-with-grasshopper-1",
+                "depth": 2,
+                "text": "Getting started with Grasshopper"
+              },
+              {
+                "id": "the-components",
+                "depth": 3,
+                "text": "The components"
+              },
+              {
+                "id": "the-canvas",
+                "depth": 3,
+                "text": "The canvas"
+              }
+            ],
+            "dir": "/modules/4-grasshopper-intro",
+            "path": "/modules/4-grasshopper-intro/41-getting-started-with-grasshopper",
+            "extension": ".md",
+            "createdAt": "2022-04-08T22:08:13.052Z",
+            "updatedAt": "2022-04-08T22:08:13.053Z",
+            "readingTime": 837900,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "42-exercise-hello-grasshopper.md",
+          "ordinal": 42,
+          "contentdata": {
+            "slug": "4-2-exercise-hello-grasshopper",
+            "moduleid": 42,
+            "title": "Exercise - Hello Grasshopper!",
+            "published": true,
+            "authors": [
+              "Danil Nagy"
+            ],
+            "toc": [
+              {
+                "id": "step-1-define-the-base-point",
+                "depth": 3,
+                "text": "Step 1: Define the base point."
+              },
+              {
+                "id": "step-2-create-a-circle",
+                "depth": 3,
+                "text": "Step 2: Create a circle"
+              },
+              {
+                "id": "step-3-divide-the-circle",
+                "depth": 3,
+                "text": "Step 3: Divide the circle"
+              },
+              {
+                "id": "step-4-create-more-circles",
+                "depth": 3,
+                "text": "Step 4: Create more circles"
+              },
+              {
+                "id": "conclusion",
+                "depth": 2,
+                "text": "Conclusion"
+              }
+            ],
+            "dir": "/modules/4-grasshopper-intro",
+            "path": "/modules/4-grasshopper-intro/42-exercise-hello-grasshopper",
+            "extension": ".md",
+            "createdAt": "2022-04-08T22:08:13.053Z",
+            "updatedAt": "2022-04-08T22:08:13.054Z",
+            "readingTime": 519900,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "43-working-in-grasshopper.md",
+          "ordinal": 43,
+          "contentdata": {
+            "slug": "4-3-working-in-grasshopper",
+            "moduleid": 43,
+            "title": "Working in Grasshopper",
+            "published": true,
+            "authors": [
+              "Danil Nagy"
+            ],
+            "toc": [
+              {
+                "id": "components",
+                "depth": 2,
+                "text": "Components"
+              },
+              {
+                "id": "component-types",
+                "depth": 3,
+                "text": "Component types"
+              },
+              {
+                "id": "general-components",
+                "depth": 3,
+                "text": "General components"
+              },
+              {
+                "id": "inputs",
+                "depth": 3,
+                "text": "Inputs"
+              },
+              {
+                "id": "containers",
+                "depth": 3,
+                "text": "Containers"
+              },
+              {
+                "id": "component-display",
+                "depth": 2,
+                "text": "Component display"
+              },
+              {
+                "id": "tooltips-hover",
+                "depth": 3,
+                "text": "Tooltips (hover)"
+              },
+              {
+                "id": "context-menus-right-click",
+                "depth": 3,
+                "text": "Context menus (right-click)"
+              },
+              {
+                "id": "zoomable-ui",
+                "depth": 3,
+                "text": "Zoomable UI"
+              },
+              {
+                "id": "component-states",
+                "depth": 2,
+                "text": "Component States"
+              },
+              {
+                "id": "normal",
+                "depth": 3,
+                "text": "Normal"
+              },
+              {
+                "id": "selected",
+                "depth": 3,
+                "text": "Selected"
+              },
+              {
+                "id": "hidden",
+                "depth": 3,
+                "text": "Hidden"
+              },
+              {
+                "id": "disabled",
+                "depth": 3,
+                "text": "Disabled"
+              },
+              {
+                "id": "warning",
+                "depth": 3,
+                "text": "Warning"
+              },
+              {
+                "id": "error",
+                "depth": 3,
+                "text": "Error"
+              },
+              {
+                "id": "context-menus",
+                "depth": 2,
+                "text": "Context menus"
+              },
+              {
+                "id": "grouping-and-clustering",
+                "depth": 2,
+                "text": "Grouping and Clustering"
+              },
+              {
+                "id": "widgets",
+                "depth": 2,
+                "text": "Widgets"
+              },
+              {
+                "id": "canvas-toolbar",
+                "depth": 2,
+                "text": "Canvas Toolbar"
+              }
+            ],
+            "dir": "/modules/4-grasshopper-intro",
+            "path": "/modules/4-grasshopper-intro/43-working-in-grasshopper",
+            "extension": ".md",
+            "createdAt": "2022-04-08T22:08:13.054Z",
+            "updatedAt": "2022-04-08T22:08:13.054Z",
+            "readingTime": 918000,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "44-exercise-parametric-tower-part-1.md",
+          "ordinal": 44,
+          "contentdata": {
+            "slug": "4-4-exercise-parametric-tower-part-1",
+            "moduleid": 44,
+            "title": "Exercise - Parametric tower (part 1)",
+            "published": true,
+            "authors": [
+              "Danil Nagy"
+            ],
+            "toc": [
+              {
+                "id": "step-1-design-concept-and-strategy",
+                "depth": 3,
+                "text": "Step 1: Design concept and strategy"
+              },
+              {
+                "id": "step-2-define-the-base-point",
+                "depth": 3,
+                "text": "Step 2: Define the base point"
+              },
+              {
+                "id": "step-3-model-the-first-floor",
+                "depth": 3,
+                "text": "Step 3: Model the first floor"
+              },
+              {
+                "id": "step-4-create-more-floors",
+                "depth": 3,
+                "text": "Step 4: Create more floors"
+              },
+              {
+                "id": "step-5-lets-twist",
+                "depth": 3,
+                "text": "Step 5: Let’s twist"
+              },
+              {
+                "id": "step-6-give-it-solid-form",
+                "depth": 3,
+                "text": "Step 6: Give it (solid) form"
+              }
+            ],
+            "dir": "/modules/4-grasshopper-intro",
+            "path": "/modules/4-grasshopper-intro/44-exercise-parametric-tower-part-1",
+            "extension": ".md",
+            "createdAt": "2022-04-08T22:08:13.054Z",
+            "updatedAt": "2022-04-08T22:08:13.055Z",
+            "readingTime": 673800,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "45-working-with-data.md",
+          "ordinal": 45,
+          "contentdata": {
+            "slug": "4-5-working-with-data",
+            "moduleid": 45,
+            "title": "Working with data",
+            "published": true,
+            "authors": [
+              "Danil Nagy"
+            ],
+            "toc": [
+              {
+                "id": "creating-lists",
+                "depth": 2,
+                "text": "Creating lists"
+              },
+              {
+                "id": "seeing-the-data",
+                "depth": 2,
+                "text": "Seeing the data"
+              },
+              {
+                "id": "working-with-lists-1",
+                "depth": 2,
+                "text": "Working with Lists"
+              },
+              {
+                "id": "working-with-domains",
+                "depth": 2,
+                "text": "Working with Domains"
+              },
+              {
+                "id": "how-lists-affect-the-data-flow",
+                "depth": 2,
+                "text": "How Lists affect the data flow"
+              },
+              {
+                "id": "visualizing-datatrees",
+                "depth": 2,
+                "text": "Visualizing DataTrees"
+              },
+              {
+                "id": "working-with-datatrees-1",
+                "depth": 2,
+                "text": "Working with DataTrees"
+              },
+              {
+                "id": "how-datatrees-affect-the-data-flow",
+                "depth": 2,
+                "text": "How DataTrees affect the data flow"
+              }
+            ],
+            "dir": "/modules/4-grasshopper-intro",
+            "path": "/modules/4-grasshopper-intro/45-working-with-data",
+            "extension": ".md",
+            "createdAt": "2022-04-08T22:08:13.055Z",
+            "updatedAt": "2022-04-08T22:08:13.055Z",
+            "readingTime": 1057800,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "46-exercise-parametric-tower-part-2.md",
+          "ordinal": 46,
+          "contentdata": {
+            "slug": "4-6-exercise-parametric-tower-part-2",
+            "moduleid": 46,
+            "title": "Exercise - Parametric tower (part 2)",
+            "published": true,
+            "authors": [
+              "Danil Nagy"
+            ],
+            "toc": [
+              {
+                "id": "step-1-design-concept-and-strategy",
+                "depth": 3,
+                "text": "Step 1: Design concept and strategy"
+              },
+              {
+                "id": "step-2-make-some-points",
+                "depth": 2,
+                "text": "Step 2: Make some points"
+              },
+              {
+                "id": "step-3-create-the-panels",
+                "depth": 3,
+                "text": "Step 3: Create the panels"
+              },
+              {
+                "id": "step-4-create-openings",
+                "depth": 3,
+                "text": "Step 4: Create openings"
+              },
+              {
+                "id": "step-5-rebuilding-the-panels",
+                "depth": 3,
+                "text": "Step 5: Rebuilding the panels"
+              },
+              {
+                "id": "step-6-create-floors",
+                "depth": 3,
+                "text": "Step 6: Create floors"
+              },
+              {
+                "id": "step-7-join-it-all-together",
+                "depth": 3,
+                "text": "Step 7: Join it all together"
+              }
+            ],
+            "dir": "/modules/4-grasshopper-intro",
+            "path": "/modules/4-grasshopper-intro/46-exercise-parametric-tower-part-2",
+            "extension": ".md",
+            "createdAt": "2022-04-08T22:08:13.055Z",
+            "updatedAt": "2022-04-08T22:08:13.056Z",
+            "readingTime": 1058400,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "47-documentation-best-practices.md",
+          "ordinal": 47,
+          "contentdata": {
+            "slug": "grasshopper-documentation-best-practices",
+            "moduleid": 47,
+            "title": "Grasshopper Documentation Best Practices",
+            "published": true,
+            "authors": [
+              "Luc Wilson"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "why-is-this-important",
+                "depth": 2,
+                "text": "Why is this important?"
+              },
+              {
+                "id": "tutorial",
+                "depth": 2,
+                "text": "Tutorial"
+              },
+              {
+                "id": "1-organize-inputs-add-parameter-holders-and-label",
+                "depth": 3,
+                "text": "1. Organize Inputs, Add Parameter Holders and Label"
+              },
+              {
+                "id": "2-group-and-label-sequences-of-components",
+                "depth": 3,
+                "text": "2. Group and Label Sequences of Components"
+              },
+              {
+                "id": "3-organizing-outputs",
+                "depth": 3,
+                "text": "3. Organizing Outputs"
+              },
+              {
+                "id": "4-colors--notes",
+                "depth": 3,
+                "text": "4. Colors & Notes"
+              },
+              {
+                "id": "assignment",
+                "depth": 2,
+                "text": "Assignment"
+              },
+              {
+                "id": "bonus",
+                "depth": 2,
+                "text": "Bonus"
+              }
+            ],
+            "dir": "/modules/4-grasshopper-intro",
+            "path": "/modules/4-grasshopper-intro/47-documentation-best-practices",
+            "extension": ".md",
+            "createdAt": "2022-04-08T22:08:13.056Z",
+            "updatedAt": "2022-04-08T22:08:13.057Z",
+            "readingTime": 297000,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "48-Deriving-Spatial-Data.md",
+          "ordinal": 48,
+          "contentdata": {
+            "slug": "Deriving-Spatial-Data",
+            "moduleid": 48,
+            "title": "Deriving Spatial Data",
+            "published": true,
+            "authors": [
+              "Luc Wilson"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "why-is-this-important",
+                "depth": 2,
+                "text": "Why is this important?"
+              },
+              {
+                "id": "what-are-you-goals-how-would-you-measure-them",
+                "depth": 2,
+                "text": "What are you goals? How would you measure them?"
+              },
+              {
+                "id": "ray-casting",
+                "depth": 2,
+                "text": "Ray Casting"
+              },
+              {
+                "id": "tutorial",
+                "depth": 2,
+                "text": "Tutorial"
+              },
+              {
+                "id": "1-create-source-view-rays",
+                "depth": 3,
+                "text": "1. Create Source View Rays"
+              },
+              {
+                "id": "2-set-max-view-distance--add-obstructions",
+                "depth": 3,
+                "text": "2. Set Max View Distance & Add Obstructions"
+              },
+              {
+                "id": "3-visualize-the-results",
+                "depth": 3,
+                "text": "3. Visualize the Results"
+              },
+              {
+                "id": "4-create-metrics",
+                "depth": 3,
+                "text": "4. Create Metrics"
+              },
+              {
+                "id": "conclusion",
+                "depth": 2,
+                "text": "Conclusion"
+              },
+              {
+                "id": "assignment",
+                "depth": 2,
+                "text": "Assignment"
+              },
+              {
+                "id": "additional-resources",
+                "depth": 2,
+                "text": "Additional Resources"
+              }
+            ],
+            "dir": "/modules/4-grasshopper-intro",
+            "path": "/modules/4-grasshopper-intro/48-Deriving-Spatial-Data",
+            "extension": ".md",
+            "createdAt": "2022-04-08T22:08:13.057Z",
+            "updatedAt": "2022-04-08T22:08:13.058Z",
+            "readingTime": 920700,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "49-Procedural-Rules.md",
+          "ordinal": 49,
+          "contentdata": {
+            "slug": "parametric-to-procedural",
+            "moduleid": 49,
+            "title": "Parametric to Procedural",
+            "published": true,
+            "authors": [
+              "Luc Wilson"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "why-is-this-important",
+                "depth": 2,
+                "text": "Why is this important?"
+              },
+              {
+                "id": "what-is-procedural-modeling-and-how-is-it-different-form-parametric-modeling",
+                "depth": 3,
+                "text": "What is procedural modeling and how is it different form parametric modeling?"
+              },
+              {
+                "id": "tutorial",
+                "depth": 2,
+                "text": "Tutorial"
+              },
+              {
+                "id": "1-best-practices",
+                "depth": 3,
+                "text": "1. Best Practices"
+              },
+              {
+                "id": "1-inputs",
+                "depth": 3,
+                "text": "1. Inputs"
+              },
+              {
+                "id": "2-procedural-generation-based-on-view-distance",
+                "depth": 3,
+                "text": "2. Procedural generation based on view distance"
+              },
+              {
+                "id": "3-procedural-generation-based-on-view-distance-threshold",
+                "depth": 3,
+                "text": "3. Procedural generation based on view distance threshold"
+              },
+              {
+                "id": "conclusion",
+                "depth": 2,
+                "text": "Conclusion"
+              },
+              {
+                "id": "assignment",
+                "depth": 2,
+                "text": "Assignment"
+              },
+              {
+                "id": "additional-resources",
+                "depth": 2,
+                "text": "Additional Resources"
+              }
+            ],
+            "dir": "/modules/4-grasshopper-intro",
+            "path": "/modules/4-grasshopper-intro/49-Procedural-Rules",
+            "extension": ".md",
+            "createdAt": "2022-04-08T22:08:13.058Z",
+            "updatedAt": "2022-04-08T22:08:13.087Z",
+            "readingTime": 586500,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "410-Generating-Exploring-Spatial-Data.md",
+          "ordinal": 410,
+          "contentdata": {
+            "slug": "generating-and-exploring-spatial-data",
+            "moduleid": 410,
+            "title": "Generating and Exploring Spatial Data",
+            "published": true,
+            "authors": [
+              "Luc Wilson"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "why-is-this-important",
+                "depth": 2,
+                "text": "Why is this important?"
+              },
+              {
+                "id": "tutorial",
+                "depth": 2,
+                "text": "Tutorial"
+              },
+              {
+                "id": "1-adjust-slider-range",
+                "depth": 3,
+                "text": "1. Adjust Slider Range"
+              },
+              {
+                "id": "2-prepare-data-for-export",
+                "depth": 3,
+                "text": "2. Prepare Data for Export"
+              },
+              {
+                "id": "3-data-recorder",
+                "depth": 3,
+                "text": "3. Data Recorder"
+              },
+              {
+                "id": "4-generate-the-data-set",
+                "depth": 3,
+                "text": "4. Generate the Data Set"
+              },
+              {
+                "id": "4-explore-results",
+                "depth": 3,
+                "text": "4. Explore Results"
+              },
+              {
+                "id": "conclusion",
+                "depth": 2,
+                "text": "Conclusion"
+              },
+              {
+                "id": "assignment",
+                "depth": 2,
+                "text": "Assignment"
+              },
+              {
+                "id": "additional-resources",
+                "depth": 2,
+                "text": "Additional Resources"
+              }
+            ],
+            "dir": "/modules/4-grasshopper-intro",
+            "path": "/modules/4-grasshopper-intro/410-Generating-Exploring-Spatial-Data",
+            "extension": ".md",
+            "createdAt": "2022-04-08T22:08:13.053Z",
+            "updatedAt": "2022-04-08T22:08:13.053Z",
+            "readingTime": 659700,
+            "uniqueLinks": []
+          }
+        }
+      ]
+    },
+    {
+      "contentdata": {
+        "slug": "computational-design-modeling-in-grasshopper",
+        "moduleid": "5-0",
+        "title": "Computational Design Modeling In Grasshopper",
+        "published": true,
+        "authors": [
+          "Luc Wilson"
+        ],
+        "toc": [
+          {
+            "id": "sequence-summary",
+            "depth": 2,
+            "text": "Sequence Summary:"
+          },
+          {
+            "id": "why",
+            "depth": 2,
+            "text": "Why?"
+          },
+          {
+            "id": "modules",
+            "depth": 2,
+            "text": "Modules:"
+          }
+        ],
+        "dir": "/modules/5-computational-design-modeling-in-grasshopper",
+        "path": "/modules/5-computational-design-modeling-in-grasshopper/index",
+        "extension": ".md",
+        "createdAt": "2022-03-31T08:43:06.938Z",
+        "updatedAt": "2022-03-31T08:43:06.938Z",
+        "readingTime": 80700,
+        "uniqueLinks": []
+      },
+      "ordinal": 5,
+      "path": "5-computational-design-modeling-in-grasshopper",
+      "slug": "computational-design-modeling-in-grasshopper",
+      "modules": [
+        {
+          "file": "index.md",
+          "ordinal": 0,
+          "contentdata": {
+            "slug": "computational-design-modeling-in-grasshopper",
+            "moduleid": "5-0",
+            "title": "Computational Design Modeling In Grasshopper",
+            "published": true,
+            "authors": [
+              "Luc Wilson"
+            ],
+            "toc": [
+              {
+                "id": "sequence-summary",
+                "depth": 2,
+                "text": "Sequence Summary:"
+              },
+              {
+                "id": "why",
+                "depth": 2,
+                "text": "Why?"
+              },
+              {
+                "id": "modules",
+                "depth": 2,
+                "text": "Modules:"
+              }
+            ],
+            "dir": "/modules/5-computational-design-modeling-in-grasshopper",
+            "path": "/modules/5-computational-design-modeling-in-grasshopper/index",
+            "extension": ".md",
+            "createdAt": "2022-03-31T08:43:06.938Z",
+            "updatedAt": "2022-03-31T08:43:06.938Z",
+            "readingTime": 80700,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "5-1-Comp-Design-Modeling.md",
+          "ordinal": 5,
+          "contentdata": {
+            "slug": "what-is-a-computational-design-model",
+            "moduleid": "5-1",
+            "title": "What is a Computational Design Model?",
+            "published": true,
+            "authors": [
+              "Luc Wilson & Snoweria Zhang"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "computation-in-architecture",
+                "depth": 2,
+                "text": "Computation in Architecture"
+              },
+              {
+                "id": "terminology",
+                "depth": 2,
+                "text": "Terminology"
+              },
+              {
+                "id": "anatomy-of-a-computational-design-model",
+                "depth": 2,
+                "text": "Anatomy of a Computational Design Model"
+              },
+              {
+                "id": "assignment",
+                "depth": 2,
+                "text": "Assignment"
+              },
+              {
+                "id": "additional-resources",
+                "depth": 2,
+                "text": "Additional Resources"
+              }
+            ],
+            "dir": "/modules/5-computational-design-modeling-in-grasshopper",
+            "path": "/modules/5-computational-design-modeling-in-grasshopper/5-1-Comp-Design-Modeling",
+            "extension": ".md",
+            "createdAt": "2022-03-31T06:51:55.589Z",
+            "updatedAt": "2022-03-31T06:51:55.590Z",
+            "readingTime": 600600,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "5-2-Subdivide-Geometry.md",
+          "ordinal": 5,
+          "contentdata": {
+            "slug": "subdividing-geometry-for-analysis",
+            "moduleid": "5-2",
+            "title": "Subdividing Geometry for Analysis",
+            "published": true,
+            "authors": [
+              "Luc Wilson"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "why-is-this-important",
+                "depth": 2,
+                "text": "Why is this important?"
+              },
+              {
+                "id": "tutorial",
+                "depth": 2,
+                "text": "Tutorial"
+              },
+              {
+                "id": "1-how-to-subdivide-surfaces-for-analysis",
+                "depth": 3,
+                "text": "1. How to subdivide surfaces for analysis"
+              },
+              {
+                "id": "conclusion",
+                "depth": 2,
+                "text": "Conclusion"
+              },
+              {
+                "id": "assignment",
+                "depth": 2,
+                "text": "Assignment"
+              }
+            ],
+            "dir": "/modules/5-computational-design-modeling-in-grasshopper",
+            "path": "/modules/5-computational-design-modeling-in-grasshopper/5-2-Subdivide-Geometry",
+            "extension": ".md",
+            "createdAt": "2022-03-31T06:51:55.590Z",
+            "updatedAt": "2022-03-31T06:51:55.590Z",
+            "readingTime": 508800,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "5-3-Analysis-Tools.md",
+          "ordinal": 5,
+          "contentdata": {
+            "slug": "building-custom-analysis-tools",
+            "moduleid": "5-3",
+            "title": "Building Custom Analysis Tools",
+            "published": true,
+            "authors": [
+              "Luc Wilson"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "why-is-this-important",
+                "depth": 2,
+                "text": "Why is this important?"
+              },
+              {
+                "id": "tutorial",
+                "depth": 2,
+                "text": "Tutorial"
+              },
+              {
+                "id": "1-how-to-install-grasshopper-plugins",
+                "depth": 3,
+                "text": "1. How to install Grasshopper plugins"
+              },
+              {
+                "id": "2-how-to-build-a-direct-sun-analysis-tool-inputs",
+                "depth": 3,
+                "text": "2. How to build a direct sun analysis tool: Inputs"
+              },
+              {
+                "id": "3-how-to-build-a-direct-sun-analysis-tool-visualization",
+                "depth": 3,
+                "text": "3. How to build a direct sun analysis tool: Visualization"
+              },
+              {
+                "id": "4-how-to-build-a-direct-sun-analysis-tool-metric",
+                "depth": 3,
+                "text": "4. How to build a direct sun analysis tool: Metric"
+              },
+              {
+                "id": "conclusion",
+                "depth": 2,
+                "text": "Conclusion"
+              },
+              {
+                "id": "assignment",
+                "depth": 2,
+                "text": "Assignment"
+              },
+              {
+                "id": "additional-resources",
+                "depth": 2,
+                "text": "Additional Resources"
+              }
+            ],
+            "dir": "/modules/5-computational-design-modeling-in-grasshopper",
+            "path": "/modules/5-computational-design-modeling-in-grasshopper/5-3-Analysis-Tools",
+            "extension": ".md",
+            "createdAt": "2022-03-31T06:51:55.590Z",
+            "updatedAt": "2022-03-31T06:51:55.590Z",
+            "readingTime": 937200,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "5-4-Street-Grid.md",
+          "ordinal": 5,
+          "contentdata": {
+            "slug": "parametric-streets-blocks-and-parcels",
+            "moduleid": "5-4",
+            "title": "Parametric Streets, Blocks, and Parcels",
+            "published": true,
+            "authors": [
+              "Luc Wilson"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "why-is-this-important",
+                "depth": 2,
+                "text": "Why is this important?"
+              },
+              {
+                "id": "asking-the-right-question",
+                "depth": 2,
+                "text": "Asking the right question"
+              },
+              {
+                "id": "tutorial",
+                "depth": 2,
+                "text": "Tutorial"
+              },
+              {
+                "id": "1-inputs",
+                "depth": 3,
+                "text": "1. Inputs"
+              },
+              {
+                "id": "2-parametric-streets",
+                "depth": 3,
+                "text": "2. Parametric streets"
+              },
+              {
+                "id": "3-procedural-parcel-generation",
+                "depth": 3,
+                "text": "3. Procedural Parcel Generation"
+              },
+              {
+                "id": "conclusion",
+                "depth": 2,
+                "text": "Conclusion"
+              },
+              {
+                "id": "assignment",
+                "depth": 2,
+                "text": "Assignment"
+              },
+              {
+                "id": "additional-resources",
+                "depth": 2,
+                "text": "Additional Resources"
+              }
+            ],
+            "dir": "/modules/5-computational-design-modeling-in-grasshopper",
+            "path": "/modules/5-computational-design-modeling-in-grasshopper/5-4-Street-Grid",
+            "extension": ".md",
+            "createdAt": "2022-03-31T06:51:55.590Z",
+            "updatedAt": "2022-03-31T06:51:55.590Z",
+            "readingTime": 959100,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "5-5_Buildings-Density.md",
+          "ordinal": 5,
+          "contentdata": {
+            "slug": "procedural-density-and-building-types",
+            "moduleid": "5-5",
+            "title": "Procedural Density and Building Types",
+            "published": true,
+            "authors": [
+              "Luc Wilson"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "why-is-this-important",
+                "depth": 2,
+                "text": "Why is this important?"
+              },
+              {
+                "id": "tutorial",
+                "depth": 2,
+                "text": "Tutorial"
+              },
+              {
+                "id": "1-procedurally-generating-density",
+                "depth": 3,
+                "text": "1. Procedurally Generating Density"
+              },
+              {
+                "id": "2-turn-parcels-into-boxes",
+                "depth": 3,
+                "text": "2. Turn Parcels into \"Boxes\""
+              },
+              {
+                "id": "3-sorting-between-low-medium-and-high-density-parcel-boxes",
+                "depth": 3,
+                "text": "3. Sorting Between Low, Medium and High Density Parcel \"Boxes\""
+              },
+              {
+                "id": "4-design-and-prep-building-types",
+                "depth": 3,
+                "text": "4. Design and Prep Building Types"
+              },
+              {
+                "id": "5-mapping-building-types-by-density",
+                "depth": 3,
+                "text": "5. Mapping Building Types by Density"
+              },
+              {
+                "id": "conclusion",
+                "depth": 2,
+                "text": "Conclusion"
+              },
+              {
+                "id": "assignment",
+                "depth": 2,
+                "text": "Assignment"
+              }
+            ],
+            "dir": "/modules/5-computational-design-modeling-in-grasshopper",
+            "path": "/modules/5-computational-design-modeling-in-grasshopper/5-5_Buildings-Density",
+            "extension": ".md",
+            "createdAt": "2022-03-31T06:51:55.590Z",
+            "updatedAt": "2022-03-31T06:51:55.591Z",
+            "readingTime": 873900,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "5-6_Troubleshooting.md",
+          "ordinal": 5,
+          "contentdata": {
+            "slug": "putting-everything-together",
+            "moduleid": "5-6",
+            "title": "Putting Everything Together",
+            "published": true,
+            "authors": [
+              "Luc Wilson"
+            ],
+            "toc": [
+              {
+                "id": "troubleshooting-when-everything-breaks",
+                "depth": 3,
+                "text": "Troubleshooting when everything breaks"
+              },
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "why-is-this-important",
+                "depth": 2,
+                "text": "Why is this important?"
+              },
+              {
+                "id": "tutorial",
+                "depth": 2,
+                "text": "Tutorial"
+              },
+              {
+                "id": "1-clean-up-inputs-and-procedural-model",
+                "depth": 3,
+                "text": "1. Clean Up Inputs and Procedural Model"
+              },
+              {
+                "id": "2-daylight-to-streets",
+                "depth": 3,
+                "text": "2. Daylight to Streets"
+              },
+              {
+                "id": "3-daylight-to-buildings",
+                "depth": 3,
+                "text": "3. Daylight to Buildings"
+              },
+              {
+                "id": "4-views-from-buildings",
+                "depth": 3,
+                "text": "4. Views From Buildings"
+              },
+              {
+                "id": "conclusion",
+                "depth": 2,
+                "text": "Conclusion"
+              },
+              {
+                "id": "assignment",
+                "depth": 2,
+                "text": "Assignment"
+              },
+              {
+                "id": "additional-resources",
+                "depth": 2,
+                "text": "Additional Resources"
+              }
+            ],
+            "dir": "/modules/5-computational-design-modeling-in-grasshopper",
+            "path": "/modules/5-computational-design-modeling-in-grasshopper/5-6_Troubleshooting",
+            "extension": ".md",
+            "createdAt": "2022-03-31T06:51:55.591Z",
+            "updatedAt": "2022-03-31T06:51:55.591Z",
+            "readingTime": 1416900,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "5-7_Design-Space.md",
+          "ordinal": 5,
+          "contentdata": {
+            "slug": "creating-a-design-space-and-exploring-results",
+            "moduleid": "5-7",
+            "title": "Creating a Design Space and Exploring results",
+            "published": true,
+            "authors": [
+              "Luc Wilson"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "why-is-this-important",
+                "depth": 2,
+                "text": "Why is this important?"
+              },
+              {
+                "id": "tutorial",
+                "depth": 2,
+                "text": "Tutorial"
+              },
+              {
+                "id": "1-establishing-the-design-space",
+                "depth": 3,
+                "text": "1. Establishing the design space"
+              },
+              {
+                "id": "2-formatting-for-export",
+                "depth": 3,
+                "text": "2. Formatting for export"
+              },
+              {
+                "id": "3-running-out-the-design-space",
+                "depth": 3,
+                "text": "3. Running out the design space"
+              },
+              {
+                "id": "4-exploring-the-results-and-deriving-insights",
+                "depth": 3,
+                "text": "4. Exploring the results and deriving insights"
+              },
+              {
+                "id": "conclusion",
+                "depth": 2,
+                "text": "Conclusion"
+              },
+              {
+                "id": "assignment",
+                "depth": 2,
+                "text": "Assignment"
+              }
+            ],
+            "dir": "/modules/5-computational-design-modeling-in-grasshopper",
+            "path": "/modules/5-computational-design-modeling-in-grasshopper/5-7_Design-Space",
+            "extension": ".md",
+            "createdAt": "2022-03-31T06:51:55.591Z",
+            "updatedAt": "2022-03-31T06:51:55.591Z",
+            "readingTime": 1227300,
+            "uniqueLinks": []
+          }
+        }
+      ]
+    },
+    {
+      "contentdata": {
+        "slug": "intro-to-python",
+        "moduleid": 60,
+        "title": "Intro to Python",
+        "published": true,
+        "authors": [
+          "Carlo Bailey"
+        ],
+        "toc": [
+          {
+            "id": "sequence-summary",
+            "depth": 2,
+            "text": "Sequence Summary:"
+          },
+          {
+            "id": "why",
+            "depth": 2,
+            "text": "Why?"
+          },
+          {
+            "id": "modules",
+            "depth": 2,
+            "text": "Modules:"
+          }
+        ],
+        "dir": "/modules/6-intro-to-python",
+        "path": "/modules/6-intro-to-python/index",
+        "extension": ".md",
+        "createdAt": "2022-03-31T08:43:06.938Z",
+        "updatedAt": "2022-03-31T08:43:06.938Z",
+        "readingTime": 74400,
+        "uniqueLinks": []
+      },
+      "ordinal": 6,
+      "path": "6-intro-to-python",
+      "slug": "intro-to-python",
+      "modules": [
+        {
+          "file": "index.md",
+          "ordinal": 0,
+          "contentdata": {
+            "slug": "intro-to-python",
+            "moduleid": 60,
+            "title": "Intro to Python",
+            "published": true,
+            "authors": [
+              "Carlo Bailey"
+            ],
+            "toc": [
+              {
+                "id": "sequence-summary",
+                "depth": 2,
+                "text": "Sequence Summary:"
+              },
+              {
+                "id": "why",
+                "depth": 2,
+                "text": "Why?"
+              },
+              {
+                "id": "modules",
+                "depth": 2,
+                "text": "Modules:"
+              }
+            ],
+            "dir": "/modules/6-intro-to-python",
+            "path": "/modules/6-intro-to-python/index",
+            "extension": ".md",
+            "createdAt": "2022-03-31T08:43:06.938Z",
+            "updatedAt": "2022-03-31T08:43:06.938Z",
+            "readingTime": 74400,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "61-getting-started-with-Python.md",
+          "ordinal": 61,
+          "contentdata": {
+            "slug": "getting-started-with-Python",
+            "moduleid": 61,
+            "title": "Getting started with Python",
+            "published": true,
+            "authors": [
+              "Carlo Bailey"
+            ],
+            "toc": [
+              {
+                "id": "the-many-options-for-python-installation",
+                "depth": 2,
+                "text": "The Many Options for Python Installation?"
+              },
+              {
+                "id": "installing-python-on-a-mac",
+                "depth": 2,
+                "text": "Installing Python on a Mac"
+              },
+              {
+                "id": "google-colab",
+                "depth": 2,
+                "text": "Google Colab"
+              },
+              {
+                "id": "the-jupyter-interface",
+                "depth": 2,
+                "text": "The Jupyter Interface"
+              },
+              {
+                "id": "the-command-line-interface-and-ides",
+                "depth": 2,
+                "text": "The command line interface and IDEs"
+              },
+              {
+                "id": "additional-resources",
+                "depth": 2,
+                "text": "Additional Resources"
+              }
+            ],
+            "dir": "/modules/6-intro-to-python",
+            "path": "/modules/6-intro-to-python/61-getting-started-with-Python",
+            "extension": ".md",
+            "createdAt": "2022-03-31T06:51:56.713Z",
+            "updatedAt": "2022-03-31T06:51:56.713Z",
+            "readingTime": 353400,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "62-using-python-in-grasshopper.md",
+          "ordinal": 62,
+          "contentdata": {
+            "slug": "using-python-in-grasshopper",
+            "moduleid": 62,
+            "title": "Using Python in Grasshopper",
+            "published": true,
+            "authors": [
+              "Carlo Bailey"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "introduction",
+                "depth": 2,
+                "text": "Introduction"
+              },
+              {
+                "id": "why-python",
+                "depth": 2,
+                "text": "Why Python?"
+              },
+              {
+                "id": "python-in-rhino-and-grasshopper",
+                "depth": 2,
+                "text": "Python in Rhino and Grasshopper"
+              },
+              {
+                "id": "using-the-ghpython-component",
+                "depth": 2,
+                "text": "Using the GHPython component"
+              },
+              {
+                "id": "learning-more",
+                "depth": 2,
+                "text": "Learning more"
+              }
+            ],
+            "dir": "/modules/6-intro-to-python",
+            "path": "/modules/6-intro-to-python/62-using-python-in-grasshopper",
+            "extension": ".md",
+            "createdAt": "2022-03-31T06:51:56.713Z",
+            "updatedAt": "2022-03-31T06:51:56.713Z",
+            "readingTime": 417300,
+            "uniqueLinks": []
+          }
+        }
+      ]
+    },
+    {
+      "contentdata": {
+        "slug": "fundamentals-of-python",
+        "moduleid": 70,
+        "title": "Fundamentals of Python",
+        "published": true,
+        "authors": [
+          "Danil Nagy"
+        ],
+        "toc": [
+          {
+            "id": "sequence-summary",
+            "depth": 2,
+            "text": "Sequence Summary:"
+          },
+          {
+            "id": "why",
+            "depth": 2,
+            "text": "Why?"
+          },
+          {
+            "id": "modules",
+            "depth": 2,
+            "text": "Modules:"
+          }
+        ],
+        "dir": "/modules/7-fundamentals-of-python",
+        "path": "/modules/7-fundamentals-of-python/index",
+        "extension": ".md",
+        "createdAt": "2022-03-31T08:43:06.938Z",
+        "updatedAt": "2022-03-31T08:43:06.938Z",
+        "readingTime": 54300,
+        "uniqueLinks": []
+      },
+      "ordinal": 7,
+      "path": "7-fundamentals-of-python",
+      "slug": "fundamentals-of-python",
+      "modules": [
+        {
+          "file": "index.md",
+          "ordinal": 0,
+          "contentdata": {
+            "slug": "fundamentals-of-python",
+            "moduleid": 70,
+            "title": "Fundamentals of Python",
+            "published": true,
+            "authors": [
+              "Danil Nagy"
+            ],
+            "toc": [
+              {
+                "id": "sequence-summary",
+                "depth": 2,
+                "text": "Sequence Summary:"
+              },
+              {
+                "id": "why",
+                "depth": 2,
+                "text": "Why?"
+              },
+              {
+                "id": "modules",
+                "depth": 2,
+                "text": "Modules:"
+              }
+            ],
+            "dir": "/modules/7-fundamentals-of-python",
+            "path": "/modules/7-fundamentals-of-python/index",
+            "extension": ".md",
+            "createdAt": "2022-03-31T08:43:06.938Z",
+            "updatedAt": "2022-03-31T08:43:06.938Z",
+            "readingTime": 54300,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "71-variables-lists-and-dictionaries.md",
+          "ordinal": 71,
+          "contentdata": {
+            "slug": "variables-lists-and-dictionaries",
+            "moduleid": 71,
+            "title": "Variables, Lists, and Dictionaries",
+            "published": true,
+            "authors": [
+              "Danil Nagy"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "introduction",
+                "depth": 2,
+                "text": "Introduction"
+              },
+              {
+                "id": "comments-and-print",
+                "depth": 2,
+                "text": "Comments and print()"
+              },
+              {
+                "id": "variables",
+                "depth": 2,
+                "text": "Variables"
+              },
+              {
+                "id": "multi-part-variables",
+                "depth": 2,
+                "text": "Multi-part variables"
+              },
+              {
+                "id": "working-with-lists",
+                "depth": 3,
+                "text": "Working with Lists"
+              },
+              {
+                "id": "working-with-dictionaries",
+                "depth": 3,
+                "text": "Working with Dictionaries"
+              },
+              {
+                "id": "combining-lists-and-dictionaries",
+                "depth": 3,
+                "text": "Combining Lists and Dictionaries"
+              },
+              {
+                "id": "additional-resources",
+                "depth": 2,
+                "text": "Additional resources:"
+              }
+            ],
+            "dir": "/modules/7-fundamentals-of-python",
+            "path": "/modules/7-fundamentals-of-python/71-variables-lists-and-dictionaries",
+            "extension": ".md",
+            "createdAt": "2022-03-31T06:51:56.728Z",
+            "updatedAt": "2022-03-31T06:51:56.728Z",
+            "readingTime": 655500,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "72-conditionals-and-loops.md",
+          "ordinal": 72,
+          "contentdata": {
+            "slug": "conditionals-and-loops",
+            "moduleid": 72,
+            "title": "Conditionals and Loops",
+            "published": true,
+            "authors": [
+              "Danil Nagy"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "introduction",
+                "depth": 2,
+                "text": "Introduction"
+              },
+              {
+                "id": "conditionals",
+                "depth": 2,
+                "text": "Conditionals"
+              },
+              {
+                "id": "code-structures-and-indents",
+                "depth": 3,
+                "text": "Code structures and indents"
+              },
+              {
+                "id": "else-statements",
+                "depth": 3,
+                "text": "Else statements"
+              },
+              {
+                "id": "comparison-operators",
+                "depth": 3,
+                "text": "Comparison operators"
+              },
+              {
+                "id": "elif-statements",
+                "depth": 3,
+                "text": "Elif statements"
+              },
+              {
+                "id": "combining-conditions",
+                "depth": 3,
+                "text": "Combining conditions"
+              },
+              {
+                "id": "the-in-operator",
+                "depth": 3,
+                "text": "The 'in' operator"
+              },
+              {
+                "id": "loops",
+                "depth": 2,
+                "text": "Loops"
+              },
+              {
+                "id": "for-loops",
+                "depth": 3,
+                "text": "For loops"
+              },
+              {
+                "id": "looping-with-the-range-function",
+                "depth": 3,
+                "text": "Looping with the range() function"
+              },
+              {
+                "id": "looping-with-the-enumerate-function",
+                "depth": 3,
+                "text": "Looping with the enumerate() function"
+              },
+              {
+                "id": "while-loops",
+                "depth": 3,
+                "text": "While loops"
+              },
+              {
+                "id": "conclusion",
+                "depth": 2,
+                "text": "Conclusion"
+              },
+              {
+                "id": "additional-resources",
+                "depth": 2,
+                "text": "Additional resources:"
+              }
+            ],
+            "dir": "/modules/7-fundamentals-of-python",
+            "path": "/modules/7-fundamentals-of-python/72-conditionals-and-loops",
+            "extension": ".md",
+            "createdAt": "2022-03-31T06:51:56.728Z",
+            "updatedAt": "2022-03-31T06:51:56.728Z",
+            "readingTime": 654900,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "73-functions-and-classes.md",
+          "ordinal": 73,
+          "contentdata": {
+            "slug": "functions-and-classes",
+            "moduleid": 73,
+            "title": "Functions and Classes",
+            "published": true,
+            "authors": [
+              "Danil Nagy"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "introduction",
+                "depth": 2,
+                "text": "Introduction"
+              },
+              {
+                "id": "functions",
+                "depth": 2,
+                "text": "Functions"
+              },
+              {
+                "id": "classes",
+                "depth": 2,
+                "text": "Classes"
+              },
+              {
+                "id": "defining-a-custom-class",
+                "depth": 3,
+                "text": "Defining a custom Class"
+              }
+            ],
+            "dir": "/modules/7-fundamentals-of-python",
+            "path": "/modules/7-fundamentals-of-python/73-functions-and-classes",
+            "extension": ".md",
+            "createdAt": "2022-03-31T06:51:56.728Z",
+            "updatedAt": "2022-03-31T06:51:56.729Z",
+            "readingTime": 777900,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "74-python-libraries.md",
+          "ordinal": 74,
+          "contentdata": {
+            "slug": "python-libraries",
+            "moduleid": 74,
+            "title": "Python Libraries",
+            "published": true,
+            "authors": [
+              "Danil Nagy"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "introduction",
+                "depth": 2,
+                "text": "Introduction"
+              },
+              {
+                "id": "libraries-overview",
+                "depth": 2,
+                "text": "Libraries Overview"
+              },
+              {
+                "id": "installing-external-libraries",
+                "depth": 2,
+                "text": "Installing External Libraries"
+              },
+              {
+                "id": "additional-resources",
+                "depth": 2,
+                "text": "Additional Resources"
+              }
+            ],
+            "dir": "/modules/7-fundamentals-of-python",
+            "path": "/modules/7-fundamentals-of-python/74-python-libraries",
+            "extension": ".md",
+            "createdAt": "2022-03-31T06:51:56.729Z",
+            "updatedAt": "2022-03-31T06:51:56.729Z",
+            "readingTime": 251700,
+            "uniqueLinks": []
+          }
+        }
+      ]
+    },
+    {
+      "contentdata": {
+        "slug": "intro-to-python-scripting-in-rhino",
+        "moduleid": 80,
+        "title": "Intro to Python Scripting in Rhino",
+        "published": true,
+        "authors": [
+          "Danil Nagy"
+        ],
+        "toc": [
+          {
+            "id": "sequence-summary",
+            "depth": 2,
+            "text": "Sequence Summary:"
+          },
+          {
+            "id": "why",
+            "depth": 2,
+            "text": "Why?"
+          },
+          {
+            "id": "modules",
+            "depth": 2,
+            "text": "Modules:"
+          }
+        ],
+        "dir": "/modules/8-intro-to-python-in-rhino",
+        "path": "/modules/8-intro-to-python-in-rhino/index",
+        "extension": ".md",
+        "createdAt": "2022-03-31T08:43:06.939Z",
+        "updatedAt": "2022-03-31T08:43:06.939Z",
+        "readingTime": 45900,
+        "uniqueLinks": []
+      },
+      "ordinal": 8,
+      "path": "8-intro-to-python-in-rhino",
+      "slug": "intro-to-python-in-rhino",
+      "modules": [
+        {
+          "file": "index.md",
+          "ordinal": 0,
+          "contentdata": {
+            "slug": "intro-to-python-scripting-in-rhino",
+            "moduleid": 80,
+            "title": "Intro to Python Scripting in Rhino",
+            "published": true,
+            "authors": [
+              "Danil Nagy"
+            ],
+            "toc": [
+              {
+                "id": "sequence-summary",
+                "depth": 2,
+                "text": "Sequence Summary:"
+              },
+              {
+                "id": "why",
+                "depth": 2,
+                "text": "Why?"
+              },
+              {
+                "id": "modules",
+                "depth": 2,
+                "text": "Modules:"
+              }
+            ],
+            "dir": "/modules/8-intro-to-python-in-rhino",
+            "path": "/modules/8-intro-to-python-in-rhino/index",
+            "extension": ".md",
+            "createdAt": "2022-03-31T08:43:06.939Z",
+            "updatedAt": "2022-03-31T08:43:06.939Z",
+            "readingTime": 45900,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "81-accessing-the-rhino-apis-in-python.md",
+          "ordinal": 81,
+          "contentdata": {
+            "slug": "accessing-with-the-rhino-libraries-in-python",
+            "moduleid": 81,
+            "title": "Accessing with the Rhino Libraries in Python",
+            "published": true,
+            "authors": [
+              "Danil Nagy"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "introduction",
+                "depth": 2,
+                "text": "Introduction"
+              },
+              {
+                "id": "working-with-the-rhino-and-grasshopper-libraries",
+                "depth": 2,
+                "text": "Working with the Rhino and Grasshopper Libraries"
+              },
+              {
+                "id": "inputting-geometry",
+                "depth": 3,
+                "text": "Inputting geometry"
+              },
+              {
+                "id": "the-ghpythonlibcomponents-library",
+                "depth": 3,
+                "text": "The ghpythonlib.components library"
+              },
+              {
+                "id": "the-rhinogeometry-library",
+                "depth": 3,
+                "text": "The Rhino.Geometry library"
+              },
+              {
+                "id": "the-rhinoscriptsyntax-library",
+                "depth": 3,
+                "text": "The rhinoscriptsyntax library"
+              }
+            ],
+            "dir": "/modules/8-intro-to-python-in-rhino",
+            "path": "/modules/8-intro-to-python-in-rhino/81-accessing-the-rhino-apis-in-python",
+            "extension": ".md",
+            "createdAt": "2022-03-31T06:51:56.729Z",
+            "updatedAt": "2022-03-31T06:51:56.729Z",
+            "readingTime": 581400,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "82-working-with-geometry-in-python.md",
+          "ordinal": 82,
+          "contentdata": {
+            "slug": "working-with-geometry-in-python",
+            "moduleid": 82,
+            "title": "Working with geometry in Python",
+            "published": true,
+            "authors": [
+              "Danil Nagy"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "introduction",
+                "depth": 2,
+                "text": "Introduction"
+              },
+              {
+                "id": "working-with-sets-of-data",
+                "depth": 2,
+                "text": "Working with sets of data"
+              },
+              {
+                "id": "working-with-datatrees-in-python",
+                "depth": 2,
+                "text": "Working with DataTrees in Python"
+              },
+              {
+                "id": "computing-geometry-in-python",
+                "depth": 2,
+                "text": "Computing geometry in Python"
+              },
+              {
+                "id": "conclusion",
+                "depth": 2,
+                "text": "Conclusion"
+              }
+            ],
+            "dir": "/modules/8-intro-to-python-in-rhino",
+            "path": "/modules/8-intro-to-python-in-rhino/82-working-with-geometry-in-python",
+            "extension": ".md",
+            "createdAt": "2022-03-31T06:51:56.729Z",
+            "updatedAt": "2022-03-31T06:51:56.729Z",
+            "readingTime": 508800,
+            "uniqueLinks": []
+          }
+        }
+      ]
+    },
+    {
+      "contentdata": {
+        "slug": "spatial-data-python",
+        "moduleid": 100,
+        "title": "Working with Spatial Data in Python",
+        "published": true,
+        "authors": [
+          "Carlo Bailey"
+        ],
+        "toc": [
+          {
+            "id": "sequence-summary",
+            "depth": 2,
+            "text": "Sequence Summary:"
+          },
+          {
+            "id": "why",
+            "depth": 2,
+            "text": "Why?"
+          },
+          {
+            "id": "modules",
+            "depth": 2,
+            "text": "Modules:"
+          }
+        ],
+        "dir": "/modules/10-spatial-python",
+        "path": "/modules/10-spatial-python/index",
+        "extension": ".md",
+        "createdAt": "2022-03-31T08:43:04.617Z",
+        "updatedAt": "2022-03-31T08:43:04.617Z",
+        "readingTime": 100500,
+        "uniqueLinks": []
+      },
+      "ordinal": 10,
+      "path": "10-spatial-python",
+      "slug": "spatial-python",
+      "modules": [
+        {
+          "file": "index.md",
+          "ordinal": 0,
+          "contentdata": {
+            "slug": "spatial-data-python",
+            "moduleid": 100,
+            "title": "Working with Spatial Data in Python",
+            "published": true,
+            "authors": [
+              "Carlo Bailey"
+            ],
+            "toc": [
+              {
+                "id": "sequence-summary",
+                "depth": 2,
+                "text": "Sequence Summary:"
+              },
+              {
+                "id": "why",
+                "depth": 2,
+                "text": "Why?"
+              },
+              {
+                "id": "modules",
+                "depth": 2,
+                "text": "Modules:"
+              }
+            ],
+            "dir": "/modules/10-spatial-python",
+            "path": "/modules/10-spatial-python/index",
+            "extension": ".md",
+            "createdAt": "2022-03-31T08:43:04.617Z",
+            "updatedAt": "2022-03-31T08:43:04.617Z",
+            "readingTime": 100500,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "101-data-manipulation.md",
+          "ordinal": 101,
+          "contentdata": {
+            "slug": "data-manipulation",
+            "moduleid": 101,
+            "title": "Data Manipulation",
+            "published": true,
+            "authors": [
+              "Carlo Bailey"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "why-is-this-important",
+                "depth": 2,
+                "text": "Why is this important?"
+              },
+              {
+                "id": "pandas-basics-dataframes--series",
+                "depth": 3,
+                "text": "Pandas Basics: DataFrames + Series"
+              },
+              {
+                "id": "indexing-and-selecting-data",
+                "depth": 3,
+                "text": "Indexing and Selecting Data"
+              },
+              {
+                "id": "vectorization",
+                "depth": 3,
+                "text": "Vectorization"
+              },
+              {
+                "id": "additional-resources",
+                "depth": 2,
+                "text": "Additional Resources"
+              },
+              {
+                "id": "challenge",
+                "depth": 2,
+                "text": "Challenge"
+              }
+            ],
+            "dir": "/modules/10-spatial-python",
+            "path": "/modules/10-spatial-python/101-data-manipulation",
+            "extension": ".md",
+            "createdAt": "2022-03-31T06:51:48.504Z",
+            "updatedAt": "2022-03-31T06:51:48.504Z",
+            "readingTime": 519000,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "102-geospatial-data.md",
+          "ordinal": 102,
+          "contentdata": {
+            "slug": "geospatial-data",
+            "moduleid": 102,
+            "title": "Geospatial Data",
+            "published": true,
+            "authors": [
+              "Carlo Bailey"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "why-is-this-important",
+                "depth": 2,
+                "text": "Why is this important?"
+              },
+              {
+                "id": "geodataframes",
+                "depth": 3,
+                "text": "GeoDataFrames"
+              },
+              {
+                "id": "polygons",
+                "depth": 3,
+                "text": "Polygons"
+              },
+              {
+                "id": "discrete-vs-continous-data",
+                "depth": 3,
+                "text": "Discrete vs Continous Data"
+              },
+              {
+                "id": "graphs",
+                "depth": 3,
+                "text": "Graphs"
+              },
+              {
+                "id": "additional-resources",
+                "depth": 2,
+                "text": "Additional Resources"
+              }
+            ],
+            "dir": "/modules/10-spatial-python",
+            "path": "/modules/10-spatial-python/102-geospatial-data",
+            "extension": ".md",
+            "createdAt": "2022-03-31T06:51:48.504Z",
+            "updatedAt": "2022-03-31T06:51:48.504Z",
+            "readingTime": 479400,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "103-spatial-analysis-point-pattern.md",
+          "ordinal": 103,
+          "contentdata": {
+            "slug": "spatial-analysis-point-patterns",
+            "moduleid": 103,
+            "title": "Spatial Analysis – Point Patterns",
+            "published": true,
+            "authors": [
+              "Carlo Bailey"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "point-pattern-analysis",
+                "depth": 3,
+                "text": "Point Pattern Analysis"
+              },
+              {
+                "id": "challenge",
+                "depth": 2,
+                "text": "Challenge"
+              }
+            ],
+            "dir": "/modules/10-spatial-python",
+            "path": "/modules/10-spatial-python/103-spatial-analysis-point-pattern",
+            "extension": ".md",
+            "createdAt": "2022-03-31T06:51:48.504Z",
+            "updatedAt": "2022-03-31T06:51:48.504Z",
+            "readingTime": 407700,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "104-spatial-analysis-correlation.md",
+          "ordinal": 104,
+          "contentdata": {
+            "slug": "spatial-analysis-correlation",
+            "moduleid": 104,
+            "title": "Spatial Analysis – Correlation",
+            "published": true,
+            "authors": [
+              "Carlo Bailey"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "correlation",
+                "depth": 3,
+                "text": "Correlation"
+              },
+              {
+                "id": "challenge",
+                "depth": 2,
+                "text": "Challenge"
+              }
+            ],
+            "dir": "/modules/10-spatial-python",
+            "path": "/modules/10-spatial-python/104-spatial-analysis-correlation",
+            "extension": ".md",
+            "createdAt": "2022-03-31T06:51:48.504Z",
+            "updatedAt": "2022-03-31T06:51:48.504Z",
+            "readingTime": 552000,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "105-spatial-analysis-clustering.md",
+          "ordinal": 105,
+          "contentdata": {
+            "slug": "spatial-analysis-clustering",
+            "moduleid": 105,
+            "title": "Spatial Analysis – Clustering",
+            "published": true,
+            "authors": [
+              "Carlo Bailey"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "clustering",
+                "depth": 3,
+                "text": "Clustering"
+              },
+              {
+                "id": "challenges",
+                "depth": 2,
+                "text": "Challenges"
+              }
+            ],
+            "dir": "/modules/10-spatial-python",
+            "path": "/modules/10-spatial-python/105-spatial-analysis-clustering",
+            "extension": ".md",
+            "createdAt": "2022-03-31T06:51:48.504Z",
+            "updatedAt": "2022-03-31T06:51:48.504Z",
+            "readingTime": 78900,
+            "uniqueLinks": []
+          }
+        }
+      ]
+    },
+    {
+      "contentdata": {
+        "slug": "interactive-web",
+        "moduleid": 110,
+        "title": "Interactive Web",
+        "published": true,
+        "authors": [
+          "Celeste Layne"
+        ],
+        "toc": [
+          {
+            "id": "sequence-summary",
+            "depth": 2,
+            "text": "Sequence Summary:"
+          },
+          {
+            "id": "why",
+            "depth": 2,
+            "text": "Why?"
+          },
+          {
+            "id": "modules",
+            "depth": 2,
+            "text": "Modules:"
+          },
+          {
+            "id": "guides",
+            "depth": 2,
+            "text": "Guides"
+          },
+          {
+            "id": "github",
+            "depth": 2,
+            "text": "Github"
+          },
+          {
+            "id": "html-basics",
+            "depth": 2,
+            "text": "HTML Basics"
+          },
+          {
+            "id": "css-basics",
+            "depth": 2,
+            "text": "CSS Basics"
+          },
+          {
+            "id": "web-typography",
+            "depth": 2,
+            "text": "Web Typography"
+          },
+          {
+            "id": "layout-basics",
+            "depth": 2,
+            "text": "Layout Basics"
+          },
+          {
+            "id": "animation-basics",
+            "depth": 2,
+            "text": "Animation Basics"
+          },
+          {
+            "id": "javascript-basics",
+            "depth": 2,
+            "text": "JavaScript Basics"
+          },
+          {
+            "id": "dom-manipulation-basics",
+            "depth": 2,
+            "text": "DOM Manipulation Basics"
+          },
+          {
+            "id": "search-filter-and-sort",
+            "depth": 2,
+            "text": "Search, Filter and Sort"
+          },
+          {
+            "id": "user-interface-design",
+            "depth": 2,
+            "text": "User Interface Design"
+          }
+        ],
+        "dir": "/modules/11-interactive-web",
+        "path": "/modules/11-interactive-web/index",
+        "extension": ".md",
+        "createdAt": "2022-03-31T08:43:04.617Z",
+        "updatedAt": "2022-03-31T08:43:04.617Z",
+        "readingTime": 209400,
+        "uniqueLinks": []
+      },
+      "ordinal": 11,
+      "path": "11-interactive-web",
+      "slug": "interactive-web",
+      "modules": [
+        {
+          "file": "index.md",
+          "ordinal": 0,
+          "contentdata": {
+            "slug": "interactive-web",
+            "moduleid": 110,
+            "title": "Interactive Web",
+            "published": true,
+            "authors": [
+              "Celeste Layne"
+            ],
+            "toc": [
+              {
+                "id": "sequence-summary",
+                "depth": 2,
+                "text": "Sequence Summary:"
+              },
+              {
+                "id": "why",
+                "depth": 2,
+                "text": "Why?"
+              },
+              {
+                "id": "modules",
+                "depth": 2,
+                "text": "Modules:"
+              },
+              {
+                "id": "guides",
+                "depth": 2,
+                "text": "Guides"
+              },
+              {
+                "id": "github",
+                "depth": 2,
+                "text": "Github"
+              },
+              {
+                "id": "html-basics",
+                "depth": 2,
+                "text": "HTML Basics"
+              },
+              {
+                "id": "css-basics",
+                "depth": 2,
+                "text": "CSS Basics"
+              },
+              {
+                "id": "web-typography",
+                "depth": 2,
+                "text": "Web Typography"
+              },
+              {
+                "id": "layout-basics",
+                "depth": 2,
+                "text": "Layout Basics"
+              },
+              {
+                "id": "animation-basics",
+                "depth": 2,
+                "text": "Animation Basics"
+              },
+              {
+                "id": "javascript-basics",
+                "depth": 2,
+                "text": "JavaScript Basics"
+              },
+              {
+                "id": "dom-manipulation-basics",
+                "depth": 2,
+                "text": "DOM Manipulation Basics"
+              },
+              {
+                "id": "search-filter-and-sort",
+                "depth": 2,
+                "text": "Search, Filter and Sort"
+              },
+              {
+                "id": "user-interface-design",
+                "depth": 2,
+                "text": "User Interface Design"
+              }
+            ],
+            "dir": "/modules/11-interactive-web",
+            "path": "/modules/11-interactive-web/index",
+            "extension": ".md",
+            "createdAt": "2022-03-31T08:43:04.617Z",
+            "updatedAt": "2022-03-31T08:43:04.617Z",
+            "readingTime": 209400,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "110-javascript-in-browser.md",
+          "ordinal": 110,
+          "contentdata": {
+            "slug": "javascript-in-browser",
+            "moduleid": 110,
+            "title": "Javascript in the Browser I - Weather UI Design",
+            "published": true,
+            "authors": [
+              "Celeste Layne"
+            ],
+            "toc": [
+              {
+                "id": "set-up-your-html-project",
+                "depth": 3,
+                "text": "Set Up Your HTML Project"
+              },
+              {
+                "id": "start-with-the-basic-layout-of-the-page",
+                "depth": 3,
+                "text": "Start with the basic layout of the page"
+              },
+              {
+                "id": "style-the-layout",
+                "depth": 3,
+                "text": "Style the layout"
+              },
+              {
+                "id": "style-the-input-and-output-containers",
+                "depth": 3,
+                "text": "Style the input and output containers"
+              },
+              {
+                "id": "style-the-data-appended-to-the-dom",
+                "depth": 3,
+                "text": "Style the data appended to the DOM"
+              },
+              {
+                "id": "weather-icons",
+                "depth": 3,
+                "text": "Weather Icons"
+              }
+            ],
+            "dir": "/modules/11-interactive-web",
+            "path": "/modules/11-interactive-web/110-javascript-in-browser",
+            "extension": ".md",
+            "createdAt": "2022-03-31T06:51:48.560Z",
+            "updatedAt": "2022-03-31T06:51:48.560Z",
+            "readingTime": 270000,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "111-data-and-apis.md",
+          "ordinal": 111,
+          "contentdata": {
+            "slug": "data-and-apis",
+            "moduleid": 111,
+            "title": "Data and APIs",
+            "published": true,
+            "authors": [
+              "Celeste Layne"
+            ],
+            "toc": [
+              {
+                "id": "what-are-we-building",
+                "depth": 2,
+                "text": "What are we building?"
+              },
+              {
+                "id": "what-is-an-api",
+                "depth": 3,
+                "text": "What is an API?"
+              },
+              {
+                "id": "where-do-we-find-apis",
+                "depth": 3,
+                "text": "Where Do We Find APIs?"
+              },
+              {
+                "id": "the-api-in-action",
+                "depth": 3,
+                "text": "The API in action"
+              },
+              {
+                "id": "why-just-data",
+                "depth": 3,
+                "text": "Why Just Data?"
+              },
+              {
+                "id": "what-is-serialized-data",
+                "depth": 3,
+                "text": "What is Serialized Data?"
+              },
+              {
+                "id": "json",
+                "depth": 3,
+                "text": "JSON"
+              },
+              {
+                "id": "lets-see-that-data-shall-we",
+                "depth": 2,
+                "text": "Let's See That Data, Shall We?"
+              },
+              {
+                "id": "step-0--create-directory",
+                "depth": 3,
+                "text": "Step 0 – Create Directory"
+              },
+              {
+                "id": "step-1--execute-javascript-in-a-web-page",
+                "depth": 3,
+                "text": "Step 1 – Execute JavaScript in a web page"
+              },
+              {
+                "id": "step-2--view-logged-message-in-the-browser",
+                "depth": 3,
+                "text": "Step 2 – View logged message in the browser"
+              },
+              {
+                "id": "set-up-the-api",
+                "depth": 2,
+                "text": "Set Up the API"
+              },
+              {
+                "id": "step-1--create-an-account",
+                "depth": 3,
+                "text": "Step 1 – Create an account"
+              },
+              {
+                "id": "step-2--api-key",
+                "depth": 3,
+                "text": "Step 2 – API Key"
+              },
+              {
+                "id": "step-3---current-weather-data-by-zipcode",
+                "depth": 3,
+                "text": "Step 3 - Current Weather Data by Zipcode"
+              },
+              {
+                "id": "step-4--constructing-the-url",
+                "depth": 3,
+                "text": "Step 4 – Constructing the URL"
+              },
+              {
+                "id": "making-an-api-call",
+                "depth": 2,
+                "text": "Making an API Call"
+              },
+              {
+                "id": "getting-data-from-an-api-with-javascript-fetch",
+                "depth": 3,
+                "text": "Getting Data from an API with JavaScript Fetch"
+              },
+              {
+                "id": "wrap-it-in-a-getweatherdata-function",
+                "depth": 3,
+                "text": "Wrap it in a getWeatherData() function"
+              }
+            ],
+            "dir": "/modules/11-interactive-web",
+            "path": "/modules/11-interactive-web/111-data-and-apis",
+            "extension": ".md",
+            "createdAt": "2022-03-31T06:51:48.560Z",
+            "updatedAt": "2022-03-31T06:51:48.560Z",
+            "readingTime": 685800,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "112-javascript-in-the-browser.md",
+          "ordinal": 112,
+          "contentdata": {
+            "slug": "events-and-uis",
+            "moduleid": 112,
+            "title": "JavaScript in the Browser II - Events and UIs",
+            "published": true,
+            "authors": [
+              "Celeste Layne"
+            ],
+            "toc": [
+              {
+                "id": "what-are-we-building",
+                "depth": 2,
+                "text": "What are we building?"
+              },
+              {
+                "id": "events",
+                "depth": 3,
+                "text": "Events"
+              },
+              {
+                "id": "step-1--store-the-json-data-in-a-variable",
+                "depth": 3,
+                "text": "Step 1 – Store the JSON data in a variable"
+              },
+              {
+                "id": "step-2--set-up-an-event-listener",
+                "depth": 3,
+                "text": "Step 2 – Set Up An Event Listener"
+              },
+              {
+                "id": "step-3--set-up-an-event-handler",
+                "depth": 3,
+                "text": "Step 3 – Set Up An Event Handler"
+              },
+              {
+                "id": "step-4--putting-it-all-togehter",
+                "depth": 3,
+                "text": "Step 4 – Putting it all togehter"
+              }
+            ],
+            "dir": "/modules/11-interactive-web",
+            "path": "/modules/11-interactive-web/112-javascript-in-the-browser",
+            "extension": ".md",
+            "createdAt": "2022-03-31T06:51:48.560Z",
+            "updatedAt": "2022-03-31T06:51:48.560Z",
+            "readingTime": 398700,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "113-javascript-in-the-browser.md",
+          "ordinal": 113,
+          "contentdata": {
+            "slug": "events-and-uis",
+            "moduleid": 113,
+            "title": "JavaScript in the Browser III - Events and UIs",
+            "published": true,
+            "authors": [
+              "Celeste Layne"
+            ],
+            "toc": [
+              {
+                "id": "the-document-object-model-dom",
+                "depth": 3,
+                "text": "The Document Object Model (DOM)"
+              },
+              {
+                "id": "putting-it-all-togehter",
+                "depth": 3,
+                "text": "Putting it all togehter"
+              },
+              {
+                "id": "the-reset",
+                "depth": 3,
+                "text": "The Reset"
+              },
+              {
+                "id": "bonus---weather-icon",
+                "depth": 3,
+                "text": "Bonus - Weather Icon"
+              }
+            ],
+            "dir": "/modules/11-interactive-web",
+            "path": "/modules/11-interactive-web/113-javascript-in-the-browser",
+            "extension": ".md",
+            "createdAt": "2022-03-31T06:51:48.560Z",
+            "updatedAt": "2022-03-31T06:51:48.560Z",
+            "readingTime": 321600,
+            "uniqueLinks": []
+          }
+        }
+      ]
+    },
+    {
+      "contentdata": {
+        "slug": "introduction-to-rhino",
+        "moduleid": 120,
+        "title": "Introduction to Rhino",
+        "published": true,
+        "authors": [
+          "Zachary White"
+        ],
+        "toc": [
+          {
+            "id": "sequence-summary",
+            "depth": 2,
+            "text": "Sequence Summary:"
+          },
+          {
+            "id": "modeling",
+            "depth": 2,
+            "text": "Modeling"
+          },
+          {
+            "id": "why-rhino",
+            "depth": 2,
+            "text": "Why Rhino?"
+          },
+          {
+            "id": "modules",
+            "depth": 2,
+            "text": "Modules:"
+          }
+        ],
+        "dir": "/modules/12-rhino-intro",
+        "path": "/modules/12-rhino-intro/index",
+        "extension": ".md",
+        "createdAt": "2022-03-31T08:43:04.617Z",
+        "updatedAt": "2022-03-31T08:43:04.617Z",
+        "readingTime": 83100,
+        "uniqueLinks": []
+      },
+      "ordinal": 12,
+      "path": "12-rhino-intro",
+      "slug": "rhino-intro",
+      "modules": [
+        {
+          "file": "index.md",
+          "ordinal": 0,
+          "contentdata": {
+            "slug": "introduction-to-rhino",
+            "moduleid": 120,
+            "title": "Introduction to Rhino",
+            "published": true,
+            "authors": [
+              "Zachary White"
+            ],
+            "toc": [
+              {
+                "id": "sequence-summary",
+                "depth": 2,
+                "text": "Sequence Summary:"
+              },
+              {
+                "id": "modeling",
+                "depth": 2,
+                "text": "Modeling"
+              },
+              {
+                "id": "why-rhino",
+                "depth": 2,
+                "text": "Why Rhino?"
+              },
+              {
+                "id": "modules",
+                "depth": 2,
+                "text": "Modules:"
+              }
+            ],
+            "dir": "/modules/12-rhino-intro",
+            "path": "/modules/12-rhino-intro/index",
+            "extension": ".md",
+            "createdAt": "2022-03-31T08:43:04.617Z",
+            "updatedAt": "2022-03-31T08:43:04.617Z",
+            "readingTime": 83100,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "12-1_rhino-interface.md",
+          "ordinal": 12,
+          "contentdata": {
+            "slug": "rhino-interface",
+            "moduleid": 121,
+            "title": "The Rhino Interface",
+            "published": true,
+            "authors": [
+              "Zachary White"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "getting-started-in-rhino",
+                "depth": 2,
+                "text": "Getting Started in Rhino"
+              },
+              {
+                "id": "creating-a-new-project",
+                "depth": 3,
+                "text": "Creating a New Project"
+              },
+              {
+                "id": "adding-geometry-to-the-scene",
+                "depth": 3,
+                "text": "Adding Geometry to the Scene"
+              },
+              {
+                "id": "basic-modifications",
+                "depth": 3,
+                "text": "Basic Modifications"
+              },
+              {
+                "id": "drafting-constraints",
+                "depth": 3,
+                "text": "Drafting Constraints"
+              },
+              {
+                "id": "panels",
+                "depth": 3,
+                "text": "Panels"
+              },
+              {
+                "id": "conclusion",
+                "depth": 3,
+                "text": "Conclusion"
+              }
+            ],
+            "dir": "/modules/12-rhino-intro",
+            "path": "/modules/12-rhino-intro/12-1_rhino-interface",
+            "extension": ".md",
+            "createdAt": "2022-04-08T21:40:14.386Z",
+            "updatedAt": "2022-04-08T21:40:14.387Z",
+            "readingTime": 519600,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "12-2_rhino-2d.md",
+          "ordinal": 12,
+          "contentdata": {
+            "slug": "rhino-2d",
+            "moduleid": 122,
+            "title": "Rhino 2D",
+            "published": true,
+            "authors": [
+              "Zachary White"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary:"
+              },
+              {
+                "id": "modeling-a-project",
+                "depth": 2,
+                "text": "Modeling a Project"
+              },
+              {
+                "id": "drawing-in-2d",
+                "depth": 3,
+                "text": "Drawing in 2D"
+              },
+              {
+                "id": "starting-the-model",
+                "depth": 3,
+                "text": "Starting the Model"
+              },
+              {
+                "id": "scaling-the-reference-drawings",
+                "depth": 3,
+                "text": "Scaling the reference drawings"
+              },
+              {
+                "id": "drafting-the-base-modules",
+                "depth": 3,
+                "text": "Drafting the Base Modules"
+              },
+              {
+                "id": "adapting-the-prototype-plan",
+                "depth": 3,
+                "text": "Adapting the Prototype Plan"
+              },
+              {
+                "id": "completing-the-plans",
+                "depth": 3,
+                "text": "Completing the Plans"
+              }
+            ],
+            "dir": "/modules/12-rhino-intro",
+            "path": "/modules/12-rhino-intro/12-2_rhino-2d",
+            "extension": ".md",
+            "createdAt": "2022-04-08T21:40:14.390Z",
+            "updatedAt": "2022-04-08T21:40:14.392Z",
+            "readingTime": 747600,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "12-3_rhino-3d.md",
+          "ordinal": 12,
+          "contentdata": {
+            "slug": "rhino-3d",
+            "moduleid": 123,
+            "title": "Rhino 3D",
+            "published": true,
+            "authors": [
+              "Zachary White"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary:"
+              },
+              {
+                "id": "tutorial",
+                "depth": 2,
+                "text": "Tutorial"
+              },
+              {
+                "id": "getting-started",
+                "depth": 3,
+                "text": "Getting Started"
+              },
+              {
+                "id": "modeling-the-outer-walls",
+                "depth": 3,
+                "text": "Modeling the Outer Walls"
+              },
+              {
+                "id": "cutting-holes-for-the-doors-and-windows",
+                "depth": 3,
+                "text": "Cutting Holes for the Doors and Windows"
+              },
+              {
+                "id": "cleaning-up-the-vector-reference-drawings",
+                "depth": 3,
+                "text": "Cleaning up the Vector Reference Drawings"
+              },
+              {
+                "id": "door--window-blocks",
+                "depth": 3,
+                "text": "Door & Window Blocks"
+              },
+              {
+                "id": "terrace-and-garden",
+                "depth": 3,
+                "text": "Terrace and Garden"
+              },
+              {
+                "id": "conclusion",
+                "depth": 2,
+                "text": "Conclusion"
+              }
+            ],
+            "dir": "/modules/12-rhino-intro",
+            "path": "/modules/12-rhino-intro/12-3_rhino-3d",
+            "extension": ".md",
+            "createdAt": "2022-04-08T21:40:14.393Z",
+            "updatedAt": "2022-04-08T21:40:14.398Z",
+            "readingTime": 702900,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "12-4_rhino-nurbs.md",
+          "ordinal": 12,
+          "contentdata": {
+            "slug": "modeling-with-nurbs",
+            "moduleid": 124,
+            "title": "Modeling with NURBS",
+            "published": true,
+            "authors": [
+              "Zachary White"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary:"
+              },
+              {
+                "id": "a-brief-history-of-architectural-geometry",
+                "depth": 2,
+                "text": "A Brief History of Architectural Geometry"
+              },
+              {
+                "id": "i-euclidean-geometry",
+                "depth": 3,
+                "text": "I. Euclidean Geometry"
+              },
+              {
+                "id": "ii-the-modern-era",
+                "depth": 3,
+                "text": "II. The Modern Era"
+              },
+              {
+                "id": "iii-splines",
+                "depth": 3,
+                "text": "III. Splines"
+              },
+              {
+                "id": "nurbs",
+                "depth": 2,
+                "text": "NURBS"
+              },
+              {
+                "id": "tutorial-working-with-nurbs",
+                "depth": 2,
+                "text": "Tutorial: Working with NURBS"
+              },
+              {
+                "id": "working-with-nurbs-surfaces",
+                "depth": 3,
+                "text": "Working with NURBS Surfaces"
+              },
+              {
+                "id": "trimmed-surfaces",
+                "depth": 3,
+                "text": "Trimmed Surfaces"
+              },
+              {
+                "id": "creating-surfaces-from-curves",
+                "depth": 3,
+                "text": "Creating Surfaces from Curves"
+              },
+              {
+                "id": "modeling-terrain",
+                "depth": 3,
+                "text": "Modeling Terrain"
+              },
+              {
+                "id": "conclusion",
+                "depth": 2,
+                "text": "Conclusion"
+              },
+              {
+                "id": "post-sequence-challenge",
+                "depth": 2,
+                "text": "Post-Sequence Challenge"
+              }
+            ],
+            "dir": "/modules/12-rhino-intro",
+            "path": "/modules/12-rhino-intro/12-4_rhino-nurbs",
+            "extension": ".md",
+            "createdAt": "2022-04-08T21:40:14.399Z",
+            "updatedAt": "2022-04-08T21:40:14.409Z",
+            "readingTime": 1166700,
+            "uniqueLinks": []
+          }
+        }
+      ]
+    },
+    {
+      "contentdata": {
+        "slug": "introduction-to-architectural-drawing",
+        "moduleid": 131,
+        "title": "Introduction to Architectural Drawing",
+        "published": true,
+        "authors": [
+          "Zachary White"
+        ],
+        "toc": [
+          {
+            "id": "sequence-summary",
+            "depth": 2,
+            "text": "Sequence Summary:"
+          },
+          {
+            "id": "drawing-an-argument",
+            "depth": 2,
+            "text": "Drawing an Argument"
+          },
+          {
+            "id": "modules",
+            "depth": 2,
+            "text": "Modules:"
+          }
+        ],
+        "dir": "/modules/13-arch-drawing",
+        "path": "/modules/13-arch-drawing/index",
+        "extension": ".md",
+        "createdAt": "2022-04-08T21:40:15.004Z",
+        "updatedAt": "2022-04-08T21:40:15.004Z",
+        "readingTime": 18600,
+        "uniqueLinks": []
+      },
+      "ordinal": 13,
+      "path": "13-arch-drawing",
+      "slug": "arch-drawing",
+      "modules": [
+        {
+          "file": "index.md",
+          "ordinal": 0,
+          "contentdata": {
+            "slug": "introduction-to-architectural-drawing",
+            "moduleid": 131,
+            "title": "Introduction to Architectural Drawing",
+            "published": true,
+            "authors": [
+              "Zachary White"
+            ],
+            "toc": [
+              {
+                "id": "sequence-summary",
+                "depth": 2,
+                "text": "Sequence Summary:"
+              },
+              {
+                "id": "drawing-an-argument",
+                "depth": 2,
+                "text": "Drawing an Argument"
+              },
+              {
+                "id": "modules",
+                "depth": 2,
+                "text": "Modules:"
+              }
+            ],
+            "dir": "/modules/13-arch-drawing",
+            "path": "/modules/13-arch-drawing/index",
+            "extension": ".md",
+            "createdAt": "2022-04-08T21:40:15.004Z",
+            "updatedAt": "2022-04-08T21:40:15.004Z",
+            "readingTime": 18600,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "13-1_orthographic-drawing.md",
+          "ordinal": 13,
+          "contentdata": {
+            "slug": "orthographic-drawing",
+            "moduleid": 131,
+            "title": "Orthographic Drawing: Plans & Sections",
+            "published": true,
+            "date": "2021-12-14 11:26",
+            "authors": [
+              "Zachary White"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "what-is-orthographic-drawing",
+                "depth": 2,
+                "text": "What is Orthographic Drawing?"
+              },
+              {
+                "id": "plans",
+                "depth": 3,
+                "text": "Plans"
+              },
+              {
+                "id": "sections",
+                "depth": 3,
+                "text": "Sections"
+              },
+              {
+                "id": "orthographic-drawing",
+                "depth": 3,
+                "text": "Orthographic Drawing"
+              },
+              {
+                "id": "tutorial",
+                "depth": 2,
+                "text": "Tutorial"
+              },
+              {
+                "id": "setting-up-the-plan",
+                "depth": 3,
+                "text": "Setting up the Plan"
+              },
+              {
+                "id": "creating-the-linework",
+                "depth": 3,
+                "text": "Creating the Linework"
+              },
+              {
+                "id": "hatches-and-fills",
+                "depth": 3,
+                "text": "Hatches and Fills"
+              },
+              {
+                "id": "layout",
+                "depth": 3,
+                "text": "Layout"
+              },
+              {
+                "id": "styling-the-drawing",
+                "depth": 3,
+                "text": "Styling the Drawing"
+              },
+              {
+                "id": "dimensions--annotations",
+                "depth": 3,
+                "text": "Dimensions & Annotations"
+              },
+              {
+                "id": "drawing-a-section",
+                "depth": 3,
+                "text": "Drawing a Section"
+              },
+              {
+                "id": "conclusion",
+                "depth": 2,
+                "text": "Conclusion"
+              }
+            ],
+            "dir": "/modules/13-arch-drawing",
+            "path": "/modules/13-arch-drawing/13-1_orthographic-drawing",
+            "extension": ".md",
+            "createdAt": "2022-04-08T21:40:14.996Z",
+            "updatedAt": "2022-04-08T21:40:14.996Z",
+            "readingTime": 958800,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "13-2_projection.md",
+          "ordinal": 13,
+          "contentdata": {
+            "slug": "projection",
+            "moduleid": 132,
+            "title": "Projection",
+            "published": true,
+            "authors": [
+              "Zachary White"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "what-is-projection",
+                "depth": 2,
+                "text": "What is Projection?"
+              },
+              {
+                "id": "perspectival-projection",
+                "depth": 2,
+                "text": "Perspectival Projection"
+              },
+              {
+                "id": "one-two-and-three-point-perspective",
+                "depth": 3,
+                "text": "One, Two, and Three-Point Perspective"
+              },
+              {
+                "id": "one-point-perspective",
+                "depth": 3,
+                "text": "One-Point Perspective"
+              },
+              {
+                "id": "two-point-perspective",
+                "depth": 3,
+                "text": "Two-Point Perspective"
+              },
+              {
+                "id": "three-point-perspective",
+                "depth": 3,
+                "text": "Three-Point Perspective"
+              },
+              {
+                "id": "parallel-projection",
+                "depth": 2,
+                "text": "Parallel Projection"
+              },
+              {
+                "id": "isometric-projection",
+                "depth": 3,
+                "text": "Isometric Projection"
+              },
+              {
+                "id": "oblique-axonometric-projection",
+                "depth": 3,
+                "text": "Oblique (Axonometric) Projection"
+              },
+              {
+                "id": "tutorial",
+                "depth": 2,
+                "text": "Tutorial"
+              },
+              {
+                "id": "three-point-perspective-1",
+                "depth": 3,
+                "text": "Three-Point Perspective"
+              },
+              {
+                "id": "two-point-perspective-1",
+                "depth": 3,
+                "text": "Two-Point Perspective"
+              },
+              {
+                "id": "forced-two-point-perspective",
+                "depth": 3,
+                "text": "Forced Two-Point Perspective"
+              },
+              {
+                "id": "one-point-perspective-1",
+                "depth": 3,
+                "text": "One-Point Perspective"
+              },
+              {
+                "id": "view-angle",
+                "depth": 3,
+                "text": "View Angle"
+              },
+              {
+                "id": "isometric-projection-1",
+                "depth": 3,
+                "text": "Isometric Projection"
+              },
+              {
+                "id": "plan-oblique",
+                "depth": 3,
+                "text": "Plan Oblique"
+              },
+              {
+                "id": "elevation-oblique",
+                "depth": 3,
+                "text": "Elevation Oblique"
+              },
+              {
+                "id": "conclusion",
+                "depth": 2,
+                "text": "Conclusion"
+              }
+            ],
+            "dir": "/modules/13-arch-drawing",
+            "path": "/modules/13-arch-drawing/13-2_projection",
+            "extension": ".md",
+            "createdAt": "2022-04-08T21:40:14.997Z",
+            "updatedAt": "2022-04-08T21:40:15.001Z",
+            "readingTime": 858900,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "13-3_rendering.md",
+          "ordinal": 13,
+          "contentdata": {
+            "slug": "lighting-materials-and-rendering",
+            "moduleid": 133,
+            "title": "Lighting, Materials & Rendering",
+            "published": true,
+            "authors": [
+              "Zachary White"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "introduction-to-rendering",
+                "depth": 2,
+                "text": "Introduction to Rendering"
+              },
+              {
+                "id": "tutorial",
+                "depth": 2,
+                "text": "Tutorial"
+              },
+              {
+                "id": "lighting--environment",
+                "depth": 3,
+                "text": "Lighting & Environment"
+              },
+              {
+                "id": "simple-materials",
+                "depth": 3,
+                "text": "Simple Materials"
+              },
+              {
+                "id": "textures--texture-mapping",
+                "depth": 3,
+                "text": "Textures & Texture Mapping"
+              },
+              {
+                "id": "texturing-the-terrain",
+                "depth": 3,
+                "text": "Texturing the Terrain"
+              },
+              {
+                "id": "plants",
+                "depth": 3,
+                "text": "Plants"
+              },
+              {
+                "id": "output",
+                "depth": 3,
+                "text": "Output"
+              },
+              {
+                "id": "additional-challenges",
+                "depth": 3,
+                "text": "Additional Challenges"
+              },
+              {
+                "id": "conclusion",
+                "depth": 2,
+                "text": "Conclusion"
+              }
+            ],
+            "dir": "/modules/13-arch-drawing",
+            "path": "/modules/13-arch-drawing/13-3_rendering",
+            "extension": ".md",
+            "createdAt": "2022-04-08T21:40:15.001Z",
+            "updatedAt": "2022-04-08T21:40:15.004Z",
+            "readingTime": 810000,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "13-4_compositing.md",
+          "ordinal": 13,
+          "contentdata": {
+            "slug": "compositing",
+            "moduleid": 134,
+            "title": "Compositing",
+            "published": true,
+            "authors": [
+              "Zachary White"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "tutorial",
+                "depth": 2,
+                "text": "Tutorial"
+              },
+              {
+                "id": "custom-view-settings",
+                "depth": 3,
+                "text": "Custom View Settings"
+              },
+              {
+                "id": "view-settings-for-compositing",
+                "depth": 3,
+                "text": "View Settings for Compositing"
+              },
+              {
+                "id": "compositing-in-photoshop",
+                "depth": 3,
+                "text": "Compositing in Photoshop"
+              },
+              {
+                "id": "exporting-vectors-to-illustrator",
+                "depth": 3,
+                "text": "Exporting Vectors to Illustrator"
+              },
+              {
+                "id": "combining-vector--raster-images",
+                "depth": 3,
+                "text": "Combining Vector & Raster Images"
+              },
+              {
+                "id": "post-sequence-challenge-drawing-an-argument",
+                "depth": 2,
+                "text": "Post-Sequence Challenge: Drawing an Argument"
+              }
+            ],
+            "dir": "/modules/13-arch-drawing",
+            "path": "/modules/13-arch-drawing/13-4_compositing",
+            "extension": ".md",
+            "createdAt": "2022-03-31T06:51:49.092Z",
+            "updatedAt": "2022-03-31T06:51:49.092Z",
+            "readingTime": 393300,
+            "uniqueLinks": []
+          }
+        }
+      ]
+    },
+    {
+      "contentdata": {
+        "slug": "geospatial-concepts",
+        "moduleid": 140,
+        "title": "Introduction to Geographic Information Systems Concepts",
+        "published": true,
+        "authors": [
+          "Dare Brawley"
+        ],
+        "toc": [
+          {
+            "id": "sequence-summary",
+            "depth": 2,
+            "text": "Sequence Summary:"
+          },
+          {
+            "id": "why",
+            "depth": 2,
+            "text": "Why?"
+          },
+          {
+            "id": "modules",
+            "depth": 2,
+            "text": "Modules"
+          },
+          {
+            "id": "whats-next",
+            "depth": 2,
+            "text": "What's next"
+          }
+        ],
+        "dir": "/modules/14-geospatial-concepts",
+        "path": "/modules/14-geospatial-concepts/index",
+        "extension": ".md",
+        "createdAt": "2022-03-31T08:43:04.617Z",
+        "updatedAt": "2022-03-31T08:43:04.618Z",
+        "readingTime": 90600,
+        "uniqueLinks": []
+      },
+      "ordinal": 14,
+      "path": "14-geospatial-concepts",
+      "slug": "geospatial-concepts",
+      "modules": [
+        {
+          "file": "index.md",
+          "ordinal": 0,
+          "contentdata": {
+            "slug": "geospatial-concepts",
+            "moduleid": 140,
+            "title": "Introduction to Geographic Information Systems Concepts",
+            "published": true,
+            "authors": [
+              "Dare Brawley"
+            ],
+            "toc": [
+              {
+                "id": "sequence-summary",
+                "depth": 2,
+                "text": "Sequence Summary:"
+              },
+              {
+                "id": "why",
+                "depth": 2,
+                "text": "Why?"
+              },
+              {
+                "id": "modules",
+                "depth": 2,
+                "text": "Modules"
+              },
+              {
+                "id": "whats-next",
+                "depth": 2,
+                "text": "What's next"
+              }
+            ],
+            "dir": "/modules/14-geospatial-concepts",
+            "path": "/modules/14-geospatial-concepts/index",
+            "extension": ".md",
+            "createdAt": "2022-03-31T08:43:04.617Z",
+            "updatedAt": "2022-03-31T08:43:04.618Z",
+            "readingTime": 90600,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "141-what-is-gis.md",
+          "ordinal": 141,
+          "contentdata": {
+            "slug": "what-is-gis",
+            "moduleid": 141,
+            "title": "What is GIS?",
+            "published": true,
+            "authors": [
+              "Dare Brawley"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "a-definition",
+                "depth": 2,
+                "text": "A definition"
+              },
+              {
+                "id": "a-diagram-components-of-a-gis",
+                "depth": 2,
+                "text": "A diagram: components of a GIS"
+              },
+              {
+                "id": "another-diagram-layers-the-fundamental-abstraction-of-gis",
+                "depth": 2,
+                "text": "Another diagram: layers, the fundamental abstraction of GIS"
+              },
+              {
+                "id": "references--further-reading",
+                "depth": 2,
+                "text": "References & further reading"
+              }
+            ],
+            "dir": "/modules/14-geospatial-concepts",
+            "path": "/modules/14-geospatial-concepts/141-what-is-gis",
+            "extension": ".md",
+            "createdAt": "2022-03-31T06:51:50.844Z",
+            "updatedAt": "2022-03-31T06:51:50.844Z",
+            "readingTime": 308100,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "142-spatial-data.md",
+          "ordinal": 142,
+          "contentdata": {
+            "slug": "spatial-data",
+            "moduleid": 142,
+            "title": "Spatial Data",
+            "published": true,
+            "authors": [
+              "Dare Brawley"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "spatial-data-information-linked-to-a-space",
+                "depth": 2,
+                "text": "Spatial data: information linked to a space"
+              },
+              {
+                "id": "two-data-models-vector--raster",
+                "depth": 2,
+                "text": "Two data models: vector & raster"
+              },
+              {
+                "id": "vector-data",
+                "depth": 3,
+                "text": "Vector data"
+              },
+              {
+                "id": "raster-data",
+                "depth": 3,
+                "text": "Raster data"
+              },
+              {
+                "id": "storage-types",
+                "depth": 2,
+                "text": "Storage Types"
+              },
+              {
+                "id": "vector-data-1",
+                "depth": 3,
+                "text": "Vector Data"
+              },
+              {
+                "id": "storage-types-raster-data",
+                "depth": 2,
+                "text": "Storage Types: Raster Data"
+              },
+              {
+                "id": "assignment",
+                "depth": 2,
+                "text": "Assignment"
+              }
+            ],
+            "dir": "/modules/14-geospatial-concepts",
+            "path": "/modules/14-geospatial-concepts/142-spatial-data",
+            "extension": ".md",
+            "createdAt": "2022-03-31T06:51:50.844Z",
+            "updatedAt": "2022-03-31T06:51:50.844Z",
+            "readingTime": 507300,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "143-coordinates-projections.md",
+          "ordinal": 143,
+          "contentdata": {
+            "slug": "coordinates-projections",
+            "moduleid": 143,
+            "title": "Coordinate Reference Systems & Projections",
+            "published": true,
+            "authors": [
+              "Dare Brawley"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "conceptual-introduction",
+                "depth": 2,
+                "text": "Conceptual Introduction"
+              },
+              {
+                "id": "coordinate-reference-systems",
+                "depth": 2,
+                "text": "Coordinate reference systems"
+              },
+              {
+                "id": "geographic-coordinate-reference-systems",
+                "depth": 2,
+                "text": "Geographic coordinate reference systems"
+              },
+              {
+                "id": "wgs-84--gps",
+                "depth": 3,
+                "text": "WGS 84 & GPS"
+              },
+              {
+                "id": "projected-coordinate-reference-systems",
+                "depth": 2,
+                "text": "Projected coordinate reference systems"
+              },
+              {
+                "id": "projection-surfaces",
+                "depth": 3,
+                "text": "Projection surfaces"
+              },
+              {
+                "id": "types-of-distortion",
+                "depth": 3,
+                "text": "Types of distortion"
+              },
+              {
+                "id": "working-with-coordinate-reference-systems-in-practice",
+                "depth": 2,
+                "text": "Working with coordinate reference systems in practice"
+              },
+              {
+                "id": "assignment",
+                "depth": 2,
+                "text": "Assignment"
+              }
+            ],
+            "dir": "/modules/14-geospatial-concepts",
+            "path": "/modules/14-geospatial-concepts/143-coordinates-projections",
+            "extension": ".md",
+            "createdAt": "2022-03-31T06:51:50.844Z",
+            "updatedAt": "2022-03-31T06:51:50.844Z",
+            "readingTime": 487800,
+            "uniqueLinks": []
+          }
+        }
+      ]
+    },
+    {
+      "contentdata": {
+        "slug": "qgis",
+        "moduleid": 150,
+        "title": "Introduction to GIS with QGIS",
+        "published": true,
+        "authors": [
+          "Dare Brawley"
+        ],
+        "toc": [
+          {
+            "id": "sequence-summary",
+            "depth": 2,
+            "text": "Sequence Summary"
+          },
+          {
+            "id": "why",
+            "depth": 2,
+            "text": "Why?"
+          },
+          {
+            "id": "modules",
+            "depth": 2,
+            "text": "Modules"
+          },
+          {
+            "id": "modules-overviewsequence",
+            "depth": 2,
+            "text": "Modules overview/sequence"
+          }
+        ],
+        "dir": "/modules/15-intro-qgis",
+        "path": "/modules/15-intro-qgis/index",
+        "extension": ".md",
+        "createdAt": "2022-03-31T08:43:04.618Z",
+        "updatedAt": "2022-03-31T08:43:04.618Z",
+        "readingTime": 127500,
+        "uniqueLinks": []
+      },
+      "ordinal": 15,
+      "path": "15-intro-qgis",
+      "slug": "intro-qgis",
+      "modules": [
+        {
+          "file": "index.md",
+          "ordinal": 0,
+          "contentdata": {
+            "slug": "qgis",
+            "moduleid": 150,
+            "title": "Introduction to GIS with QGIS",
+            "published": true,
+            "authors": [
+              "Dare Brawley"
+            ],
+            "toc": [
+              {
+                "id": "sequence-summary",
+                "depth": 2,
+                "text": "Sequence Summary"
+              },
+              {
+                "id": "why",
+                "depth": 2,
+                "text": "Why?"
+              },
+              {
+                "id": "modules",
+                "depth": 2,
+                "text": "Modules"
+              },
+              {
+                "id": "modules-overviewsequence",
+                "depth": 2,
+                "text": "Modules overview/sequence"
+              }
+            ],
+            "dir": "/modules/15-intro-qgis",
+            "path": "/modules/15-intro-qgis/index",
+            "extension": ".md",
+            "createdAt": "2022-03-31T08:43:04.618Z",
+            "updatedAt": "2022-03-31T08:43:04.618Z",
+            "readingTime": 127500,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "151-mapping-where.md",
+          "ordinal": 151,
+          "contentdata": {
+            "slug": "mapping-where",
+            "moduleid": 151,
+            "title": "Mapping Where",
+            "published": true,
+            "authors": [
+              "Dare Brawley"
+            ],
+            "toc": [
+              {
+                "id": "setup",
+                "depth": 2,
+                "text": "Setup"
+              },
+              {
+                "id": "file-management",
+                "depth": 3,
+                "text": "File management"
+              },
+              {
+                "id": "data-downloads",
+                "depth": 3,
+                "text": "Data downloads"
+              },
+              {
+                "id": "qgis-interface",
+                "depth": 3,
+                "text": "QGIS interface"
+              },
+              {
+                "id": "adding-raster-data-mapping-tree-cover-from-land-use",
+                "depth": 2,
+                "text": "Adding raster data: mapping tree cover from land use"
+              },
+              {
+                "id": "adding-vector-data-mapping-tree-concentrations",
+                "depth": 2,
+                "text": "Adding vector data: mapping tree concentrations"
+              },
+              {
+                "id": "creating-points-from-xy-values",
+                "depth": 2,
+                "text": "Creating points from XY values"
+              },
+              {
+                "id": "spatial-join-which-census-blocks-have-the-most-street-trees",
+                "depth": 2,
+                "text": "Spatial Join: which census blocks have the most street trees?"
+              },
+              {
+                "id": "spatial-join-in-action",
+                "depth": 2,
+                "text": "Spatial Join in action"
+              },
+              {
+                "id": "calculating-new-fields",
+                "depth": 2,
+                "text": "Calculating new fields"
+              },
+              {
+                "id": "quantitative-symbology-average-street-tree-diameter-by-block",
+                "depth": 2,
+                "text": "Quantitative symbology: average street tree diameter by block"
+              },
+              {
+                "id": "on-your-own",
+                "depth": 3,
+                "text": "On your own"
+              },
+              {
+                "id": "quantitative-symbology-graduated-symbols",
+                "depth": 2,
+                "text": "Quantitative symbology: graduated symbols"
+              },
+              {
+                "id": "assignment",
+                "depth": 2,
+                "text": "Assignment"
+              }
+            ],
+            "dir": "/modules/15-intro-qgis",
+            "path": "/modules/15-intro-qgis/151-mapping-where",
+            "extension": ".md",
+            "createdAt": "2022-03-31T06:51:51.099Z",
+            "updatedAt": "2022-03-31T06:51:51.100Z",
+            "readingTime": 1246800,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "152-print-layout.md",
+          "ordinal": 152,
+          "contentdata": {
+            "slug": "print-layout",
+            "moduleid": 152,
+            "title": "Print Layout",
+            "published": true,
+            "authors": [
+              "Dare Brawley"
+            ],
+            "toc": [
+              {
+                "id": "map-space--paper-space",
+                "depth": 2,
+                "text": "Map space / paper space"
+              },
+              {
+                "id": "cartographic-design",
+                "depth": 2,
+                "text": "Cartographic design"
+              },
+              {
+                "id": "set-up",
+                "depth": 2,
+                "text": "Set up"
+              },
+              {
+                "id": "set-page-size",
+                "depth": 2,
+                "text": "Set page size"
+              },
+              {
+                "id": "add-a-map",
+                "depth": 2,
+                "text": "Add a map"
+              },
+              {
+                "id": "edit-item-properties",
+                "depth": 2,
+                "text": "Edit item properties"
+              },
+              {
+                "id": "add-a-legend",
+                "depth": 2,
+                "text": "Add a legend"
+              },
+              {
+                "id": "add-a-grid",
+                "depth": 2,
+                "text": "Add a grid"
+              },
+              {
+                "id": "add-additional-map-elements",
+                "depth": 2,
+                "text": "Add additional map elements"
+              },
+              {
+                "id": "exporting",
+                "depth": 2,
+                "text": "Exporting"
+              },
+              {
+                "id": "notes-on-workflow",
+                "depth": 3,
+                "text": "Notes on workflow"
+              },
+              {
+                "id": "further-resources",
+                "depth": 2,
+                "text": "Further resources"
+              },
+              {
+                "id": "assignment-build-and-use-an-atlas-of-references",
+                "depth": 2,
+                "text": "Assignment: build and use an atlas of references"
+              }
+            ],
+            "dir": "/modules/15-intro-qgis",
+            "path": "/modules/15-intro-qgis/152-print-layout",
+            "extension": ".md",
+            "createdAt": "2022-03-31T06:51:51.100Z",
+            "updatedAt": "2022-03-31T06:51:51.100Z",
+            "readingTime": 486600,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "153-archives.md",
+          "ordinal": 153,
+          "contentdata": {
+            "slug": "archives",
+            "moduleid": 153,
+            "title": "Making data from Archives",
+            "published": true,
+            "authors": [
+              "Dare Brawley"
+            ],
+            "toc": [
+              {
+                "id": "data-download",
+                "depth": 2,
+                "text": "Data download"
+              },
+              {
+                "id": "reference-data",
+                "depth": 2,
+                "text": "Reference data"
+              },
+              {
+                "id": "projections-and-coordinate-reference-systems",
+                "depth": 2,
+                "text": "Projections and coordinate reference systems"
+              },
+              {
+                "id": "begin-georeferencing-setting-control-points",
+                "depth": 2,
+                "text": "Begin georeferencing: setting control points"
+              },
+              {
+                "id": "transformation-settings",
+                "depth": 2,
+                "text": "Transformation settings"
+              },
+              {
+                "id": "digitizing",
+                "depth": 2,
+                "text": "Digitizing"
+              },
+              {
+                "id": "assignment",
+                "depth": 2,
+                "text": "Assignment"
+              }
+            ],
+            "dir": "/modules/15-intro-qgis",
+            "path": "/modules/15-intro-qgis/153-archives",
+            "extension": ".md",
+            "createdAt": "2022-03-31T06:51:51.100Z",
+            "updatedAt": "2022-03-31T06:51:51.100Z",
+            "readingTime": 648900,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "154-observations.md",
+          "ordinal": 154,
+          "contentdata": {
+            "slug": "observations",
+            "moduleid": 154,
+            "title": "Making Data from Field Observations",
+            "published": true,
+            "authors": [
+              "Dare Brawley"
+            ],
+            "toc": [
+              {
+                "id": "on-simplification",
+                "depth": 2,
+                "text": "On Simplification"
+              },
+              {
+                "id": "setup--survey-design",
+                "depth": 2,
+                "text": "Setup & Survey Design"
+              },
+              {
+                "id": "collect-data",
+                "depth": 2,
+                "text": "Collect data"
+              },
+              {
+                "id": "review--download-your-data",
+                "depth": 2,
+                "text": "Review & download your data"
+              },
+              {
+                "id": "open-data-in-qgis",
+                "depth": 2,
+                "text": "Open data in QGIS"
+              },
+              {
+                "id": "assignment",
+                "depth": 2,
+                "text": "Assignment"
+              },
+              {
+                "id": "bonus",
+                "depth": 3,
+                "text": "Bonus"
+              }
+            ],
+            "dir": "/modules/15-intro-qgis",
+            "path": "/modules/15-intro-qgis/154-observations",
+            "extension": ".md",
+            "createdAt": "2022-03-31T06:51:51.100Z",
+            "updatedAt": "2022-03-31T06:51:51.100Z",
+            "readingTime": 585300,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "155-satellites.md",
+          "ordinal": 155,
+          "contentdata": {
+            "slug": "satellites",
+            "moduleid": 155,
+            "title": "Making Data from Satellites",
+            "published": true,
+            "authors": [
+              "Dare Brawley"
+            ],
+            "toc": [
+              {
+                "id": "multispectral-satellite-imagery",
+                "depth": 2,
+                "text": "Multispectral satellite imagery"
+              },
+              {
+                "id": "some-background-on-working-with-landsat-satellite-imagery",
+                "depth": 2,
+                "text": "Some Background on Working with Landsat Satellite Imagery"
+              },
+              {
+                "id": "downloading-landsat-satellite-images",
+                "depth": 3,
+                "text": "Downloading Landsat satellite images"
+              },
+              {
+                "id": "creating-false-color-composites",
+                "depth": 2,
+                "text": "Creating False Color Composites"
+              },
+              {
+                "id": "install-the-semi-automatic-classification-plugin",
+                "depth": 3,
+                "text": "Install the Semi-Automatic Classification Plugin"
+              },
+              {
+                "id": "load-landsat-data-and-create-a-band-set",
+                "depth": 3,
+                "text": "Load Landsat data and create a \"Band Set\""
+              },
+              {
+                "id": "export-false-color-composites",
+                "depth": 3,
+                "text": "Export false color composites"
+              },
+              {
+                "id": "take-it-further-supervised-classification",
+                "depth": 3,
+                "text": "Take it further: supervised classification"
+              },
+              {
+                "id": "assignment",
+                "depth": 2,
+                "text": "Assignment"
+              }
+            ],
+            "dir": "/modules/15-intro-qgis",
+            "path": "/modules/15-intro-qgis/155-satellites",
+            "extension": ".md",
+            "createdAt": "2022-03-31T06:51:51.100Z",
+            "updatedAt": "2022-03-31T06:51:51.100Z",
+            "readingTime": 657300,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "156-aerial-imagery.md",
+          "ordinal": 156,
+          "contentdata": {
+            "slug": "aerial",
+            "moduleid": 156,
+            "title": "Making Data from",
+            "published": true,
+            "authors": [
+              "Dare Brawley"
+            ],
+            "toc": [
+              {
+                "id": "instructions",
+                "depth": 2,
+                "text": "Instructions"
+              },
+              {
+                "id": "prerequisites",
+                "depth": 3,
+                "text": "Prerequisites"
+              },
+              {
+                "id": "method-a-google-colab",
+                "depth": 3,
+                "text": "Method A: Google Colab"
+              },
+              {
+                "id": "method-b---python-environment-on-your-computer",
+                "depth": 3,
+                "text": "Method B - Python environment on your computer"
+              },
+              {
+                "id": "assignment",
+                "depth": 2,
+                "text": "Assignment"
+              }
+            ],
+            "dir": "/modules/15-intro-qgis",
+            "path": "/modules/15-intro-qgis/156-aerial-imagery",
+            "extension": ".md",
+            "createdAt": "2022-03-31T06:51:51.100Z",
+            "updatedAt": "2022-03-31T06:51:51.100Z",
+            "readingTime": 506400,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "157-atlas.md",
+          "ordinal": 157,
+          "contentdata": {
+            "slug": "atlas",
+            "moduleid": 157,
+            "title": "A Subjective Atlas",
+            "published": true,
+            "authors": [
+              "Dare Brawley"
+            ],
+            "toc": [
+              {
+                "id": "precedents",
+                "depth": 2,
+                "text": "Precedents"
+              },
+              {
+                "id": "general-critical-gisradical-cartography-resources",
+                "depth": 3,
+                "text": "General Critical GIS/Radical Cartography resources"
+              },
+              {
+                "id": "making-data-from-archives",
+                "depth": 2,
+                "text": "Making Data from Archives"
+              },
+              {
+                "id": "making-data-from-observation--sensing",
+                "depth": 2,
+                "text": "Making Data From Observation & Sensing"
+              },
+              {
+                "id": "making-data-from-satellites",
+                "depth": 2,
+                "text": "Making Data from Satellites"
+              },
+              {
+                "id": "maps--narrative",
+                "depth": 2,
+                "text": "Maps & Narrative"
+              },
+              {
+                "id": "new-york-times-graphics-department-map-forward-stories",
+                "depth": 3,
+                "text": "New York Times Graphics Department map-forward stories:"
+              }
+            ],
+            "dir": "/modules/15-intro-qgis",
+            "path": "/modules/15-intro-qgis/157-atlas",
+            "extension": ".md",
+            "createdAt": "2022-03-31T06:51:51.100Z",
+            "updatedAt": "2022-03-31T06:51:51.100Z",
+            "readingTime": 377100,
+            "uniqueLinks": []
+          }
+        }
+      ]
+    },
+    {
+      "contentdata": {
+        "slug": "ambient-computing-network-architecture",
+        "moduleid": 160,
+        "title": "Ambient Computing - Network Architecture",
+        "published": true,
+        "authors": [
+          "Violet Whitney"
+        ],
+        "toc": [
+          {
+            "id": "sequence-summary",
+            "depth": 2,
+            "text": "Sequence Summary"
+          },
+          {
+            "id": "why",
+            "depth": 2,
+            "text": "Why?"
+          },
+          {
+            "id": "modules",
+            "depth": 2,
+            "text": "Modules"
+          },
+          {
+            "id": "modules-overviewsequence",
+            "depth": 2,
+            "text": "Modules overview/sequence"
+          }
+        ],
+        "dir": "/modules/16-ambient-computing-network-architecture",
+        "path": "/modules/16-ambient-computing-network-architecture/index",
+        "extension": ".md",
+        "createdAt": "2022-03-31T08:43:04.841Z",
+        "updatedAt": "2022-03-31T08:43:04.842Z",
+        "readingTime": 5100,
+        "uniqueLinks": []
+      },
+      "ordinal": 16,
+      "path": "16-ambient-computing-network-architecture",
+      "slug": "ambient-computing-network-architecture",
+      "modules": [
+        {
+          "file": "index.md",
+          "ordinal": 0,
+          "contentdata": {
+            "slug": "ambient-computing-network-architecture",
+            "moduleid": 160,
+            "title": "Ambient Computing - Network Architecture",
+            "published": true,
+            "authors": [
+              "Violet Whitney"
+            ],
+            "toc": [
+              {
+                "id": "sequence-summary",
+                "depth": 2,
+                "text": "Sequence Summary"
+              },
+              {
+                "id": "why",
+                "depth": 2,
+                "text": "Why?"
+              },
+              {
+                "id": "modules",
+                "depth": 2,
+                "text": "Modules"
+              },
+              {
+                "id": "modules-overviewsequence",
+                "depth": 2,
+                "text": "Modules overview/sequence"
+              }
+            ],
+            "dir": "/modules/16-ambient-computing-network-architecture",
+            "path": "/modules/16-ambient-computing-network-architecture/index",
+            "extension": ".md",
+            "createdAt": "2022-03-31T08:43:04.841Z",
+            "updatedAt": "2022-03-31T08:43:04.842Z",
+            "readingTime": 5100,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "161-dynamic-environments.md",
+          "ordinal": 161,
+          "contentdata": {
+            "slug": "ambient-environments",
+            "moduleid": 161,
+            "title": "Ambient Environments",
+            "published": true,
+            "authors": [
+              "Violet Whitney"
+            ],
+            "toc": [
+              {
+                "id": "diagramming-for-ambient-environments",
+                "depth": 2,
+                "text": "Diagramming for Ambient Environments"
+              },
+              {
+                "id": "challenge",
+                "depth": 3,
+                "text": "Challenge"
+              },
+              {
+                "id": "the-new-affordance-of-physical-places-ambient-environments",
+                "depth": 2,
+                "text": "The New Affordance of Physical Places: Ambient Environments"
+              },
+              {
+                "id": "affordances-in-physical-space",
+                "depth": 3,
+                "text": "Affordances In Physical Space"
+              },
+              {
+                "id": "physical--digital--new-affordance",
+                "depth": 3,
+                "text": "Physical + Digital = New Affordance"
+              },
+              {
+                "id": "walls-are-a-nice-invention-but-if-there-were-no-holes-in-them-there-would-be-no-way-to-get-in-or-out-they-would-be-mausoleums-or-tombs-the-problem-is-that-if-you-make-holes-in-the-walls-anything-and-anyone-can-get-in-and-out-bears-visitors-dust-rats-noise-so-architects-invented-this-hybrid-a-hole-wall-often-called-a-door-which-although-common-enough-has-always-struck-me-as-a-miracle-technology",
+                "depth": 3,
+                "text": "\"Walls are a nice invention, but if there were no holes in them, there would be no way to get in or out; they would be mausoleums or tombs. The problem is that if you make holes in the walls, anything and anyone can get in and out (bears, visitors, dust, rats, noise). So architects invented this hybrid: a hole-wall, often called a door, which, although common enough, has always struck me as a miracle technology.\""
+              },
+              {
+                "id": "challenge-1",
+                "depth": 3,
+                "text": "Challenge"
+              }
+            ],
+            "dir": "/modules/16-ambient-computing-network-architecture",
+            "path": "/modules/16-ambient-computing-network-architecture/161-dynamic-environments",
+            "extension": ".md",
+            "createdAt": "2022-04-11T14:47:49.528Z",
+            "updatedAt": "2022-04-11T14:47:49.529Z",
+            "readingTime": 437400,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "162-network-architecture.md",
+          "ordinal": 162,
+          "contentdata": {
+            "slug": "network-architecture",
+            "moduleid": 162,
+            "title": "Network Architecture",
+            "published": true,
+            "authors": [
+              "Violet Whitney"
+            ],
+            "toc": [
+              {
+                "id": "0-system-architecture",
+                "depth": 3,
+                "text": "0. System Architecture"
+              },
+              {
+                "id": "1-cybernetic-system",
+                "depth": 3,
+                "text": "1. Cybernetic System"
+              },
+              {
+                "id": "2-how-ifttt-works",
+                "depth": 3,
+                "text": "2. How IFTTT Works"
+              },
+              {
+                "id": "3-how-ifttt-maps-to-a-cybernetic-feedback-loop",
+                "depth": 3,
+                "text": "3. How IFTTT Maps to a Cybernetic Feedback Loop"
+              },
+              {
+                "id": "4-create-your-own-ifttt-recipe",
+                "depth": 3,
+                "text": "4. Create Your Own IFTTT Recipe"
+              }
+            ],
+            "dir": "/modules/16-ambient-computing-network-architecture",
+            "path": "/modules/16-ambient-computing-network-architecture/162-network-architecture",
+            "extension": ".md",
+            "createdAt": "2022-03-31T08:43:04.618Z",
+            "updatedAt": "2022-03-31T08:43:04.618Z",
+            "readingTime": 521400,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "163-low-and-high-programming.md",
+          "ordinal": 163,
+          "contentdata": {
+            "slug": "low-and-high-programming",
+            "moduleid": 163,
+            "title": "Low and High Programming",
+            "published": true,
+            "authors": [
+              "Violet Whitney"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "how-the-cloud-and-microservices-allow-for-high-level-programming",
+                "depth": 3,
+                "text": "How the Cloud and Microservices Allow for High Level Programming"
+              }
+            ],
+            "dir": "/modules/16-ambient-computing-network-architecture",
+            "path": "/modules/16-ambient-computing-network-architecture/163-low-and-high-programming",
+            "extension": ".md",
+            "createdAt": "2022-03-31T08:43:04.618Z",
+            "updatedAt": "2022-03-31T08:43:04.619Z",
+            "readingTime": 241500,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "164-Intro-to-Processing-Lighting.md",
+          "ordinal": 164,
+          "contentdata": {
+            "slug": "intro-to-processing",
+            "moduleid": 171,
+            "title": "Intro to Processing",
+            "published": true,
+            "authors": [
+              "Violet Whitney"
+            ],
+            "toc": [
+              {
+                "id": "what-is-processing-and-why-use-it",
+                "depth": 2,
+                "text": "What is Processing and why use it?"
+              },
+              {
+                "id": "tutorial",
+                "depth": 2,
+                "text": "Tutorial"
+              },
+              {
+                "id": "example-student-projects",
+                "depth": 2,
+                "text": "Example Student Projects"
+              }
+            ],
+            "dir": "/modules/16-ambient-computing-network-architecture",
+            "path": "/modules/16-ambient-computing-network-architecture/164-Intro-to-Processing-Lighting",
+            "extension": ".md",
+            "createdAt": "2022-04-11T14:47:49.529Z",
+            "updatedAt": "2022-04-11T14:47:49.530Z",
+            "readingTime": 336300,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "165-Webhooks-Connecting-IFTTT-and-Processing.md",
+          "ordinal": 165,
+          "contentdata": {
+            "slug": "webhooks-connecting-ifttt-and-processing",
+            "moduleid": 172,
+            "title": "Webhooks - Connecting IFTTT and Processing",
+            "published": true,
+            "authors": [
+              "Violet Whitney"
+            ],
+            "toc": [
+              {
+                "id": "why-should-i-care-about-webhooks",
+                "depth": 2,
+                "text": "Why should I care about webhooks?"
+              },
+              {
+                "id": "tutorial",
+                "depth": 2,
+                "text": "Tutorial"
+              },
+              {
+                "id": "disclaimer-before-getting-started-you-will-need",
+                "depth": 3,
+                "text": "(Disclaimer) Before Getting Started You Will Need"
+              },
+              {
+                "id": "creating-a-ifttt-recipe-with-webhooks",
+                "depth": 3,
+                "text": "Creating A IFTTT Recipe with Webhooks"
+              },
+              {
+                "id": "creating-an-api-key",
+                "depth": 3,
+                "text": "Creating An API Key"
+              },
+              {
+                "id": "connecting-processing-to-your-webhook-api",
+                "depth": 3,
+                "text": "Connecting Processing to your Webhook API"
+              },
+              {
+                "id": "challenge",
+                "depth": 2,
+                "text": "Challenge"
+              },
+              {
+                "id": "can-you-create-your-own-processingifttt-recipe",
+                "depth": 3,
+                "text": "Can you create your own Processing<>IFTTT Recipe?"
+              },
+              {
+                "id": "resources",
+                "depth": 2,
+                "text": "Resources"
+              }
+            ],
+            "dir": "/modules/16-ambient-computing-network-architecture",
+            "path": "/modules/16-ambient-computing-network-architecture/165-Webhooks-Connecting-IFTTT-and-Processing",
+            "extension": ".md",
+            "createdAt": "2022-04-11T14:47:49.530Z",
+            "updatedAt": "2022-04-11T14:47:49.530Z",
+            "readingTime": 486300,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "166-sounds-speech-and-macros.md",
+          "ordinal": 166,
+          "contentdata": {
+            "slug": "sounds-speech-and-macros",
+            "moduleid": 173,
+            "title": "Sounds, Speech, and Marcros",
+            "published": true,
+            "authors": [
+              "Violet Whitney"
+            ],
+            "toc": [
+              {
+                "id": "sound-is-fundamental-to-ambient-environments",
+                "depth": 2,
+                "text": "Sound is fundamental to ambient environments"
+              },
+              {
+                "id": "companies-investing-in-speech-and-audio",
+                "depth": 3,
+                "text": "Companies investing in speech and audio"
+              },
+              {
+                "id": "why-sound-is-a-great-communication-mechanism-for-ambient-environments",
+                "depth": 3,
+                "text": "Why sound is a great communication mechanism for ambient environments"
+              },
+              {
+                "id": "ethical-considerations-for-smart-home-systems",
+                "depth": 3,
+                "text": "Ethical considerations for smart home systems"
+              },
+              {
+                "id": "inspirational-projects",
+                "depth": 3,
+                "text": "Inspirational projects"
+              },
+              {
+                "id": "playing-sounds",
+                "depth": 2,
+                "text": "Playing Sounds"
+              },
+              {
+                "id": "challenge",
+                "depth": 3,
+                "text": "Challenge"
+              },
+              {
+                "id": "listening-to-your-mic",
+                "depth": 2,
+                "text": "Listening to Your Mic"
+              },
+              {
+                "id": "challenge-1",
+                "depth": 3,
+                "text": "Challenge"
+              },
+              {
+                "id": "text-to-speech",
+                "depth": 2,
+                "text": "Text to Speech"
+              },
+              {
+                "id": "automated-language",
+                "depth": 3,
+                "text": "Automated Language"
+              },
+              {
+                "id": "projects-that-use-bots",
+                "depth": 3,
+                "text": "Projects that Use Bots"
+              },
+              {
+                "id": "projects-that-use-sound",
+                "depth": 3,
+                "text": "Projects that Use Sound"
+              }
+            ],
+            "dir": "/modules/16-ambient-computing-network-architecture",
+            "path": "/modules/16-ambient-computing-network-architecture/166-sounds-speech-and-macros",
+            "extension": ".md",
+            "createdAt": "2022-03-31T08:43:04.842Z",
+            "updatedAt": "2022-03-31T08:43:04.843Z",
+            "readingTime": 358500,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "167-Markers-and-Tracking.md",
+          "ordinal": 167,
+          "contentdata": {
+            "slug": "markers-and-tracking",
+            "moduleid": 174,
+            "title": "Markers and Tracking",
+            "published": true,
+            "authors": [
+              "Violet Whitney"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "conceptual-introduction-or-why-is-this-interesting--important",
+                "depth": 2,
+                "text": "Conceptual Introduction, or: Why is this interesting / important?"
+              },
+              {
+                "id": "power-in-furniture",
+                "depth": 3,
+                "text": "Power in Furniture"
+              },
+              {
+                "id": "tutorial",
+                "depth": 2,
+                "text": "Tutorial"
+              },
+              {
+                "id": "setup",
+                "depth": 3,
+                "text": "Setup"
+              },
+              {
+                "id": "challenge",
+                "depth": 2,
+                "text": "Challenge"
+              }
+            ],
+            "dir": "/modules/16-ambient-computing-network-architecture",
+            "path": "/modules/16-ambient-computing-network-architecture/167-Markers-and-Tracking",
+            "extension": ".md",
+            "createdAt": "2022-03-31T08:43:04.843Z",
+            "updatedAt": "2022-03-31T08:43:04.843Z",
+            "readingTime": 355800,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "168-Computer-Vision.md",
+          "ordinal": 168,
+          "contentdata": {
+            "slug": "computer-vision",
+            "moduleid": 175,
+            "title": "Computer Vision",
+            "published": true,
+            "authors": [
+              "Violet Whitney"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "conceptual-introduction-or-why-is-this-interesting--important",
+                "depth": 2,
+                "text": "Conceptual Introduction, or: Why is this interesting / important?"
+              },
+              {
+                "id": "computer-vision-1",
+                "depth": 3,
+                "text": "Computer Vision"
+              },
+              {
+                "id": "ab-testing-in-physical-space",
+                "depth": 3,
+                "text": "AB Testing in Physical Space"
+              },
+              {
+                "id": "tutorial",
+                "depth": 2,
+                "text": "Tutorial"
+              },
+              {
+                "id": "referencing-your-webcam",
+                "depth": 3,
+                "text": "Referencing Your Webcam"
+              },
+              {
+                "id": "face-tracking",
+                "depth": 3,
+                "text": "Face Tracking"
+              },
+              {
+                "id": "challenge",
+                "depth": 2,
+                "text": "Challenge"
+              }
+            ],
+            "dir": "/modules/16-ambient-computing-network-architecture",
+            "path": "/modules/16-ambient-computing-network-architecture/168-Computer-Vision",
+            "extension": ".md",
+            "createdAt": "2022-03-31T08:43:04.843Z",
+            "updatedAt": "2022-03-31T08:43:04.843Z",
+            "readingTime": 208500,
+            "uniqueLinks": []
+          }
+        }
+      ]
+    },
+    {
+      "contentdata": {
+        "slug": "ambient-computing",
+        "moduleid": 170,
+        "title": "Ambient Computing",
+        "published": true,
+        "authors": [
+          "Violet Whitney"
+        ],
+        "toc": [
+          {
+            "id": "sequence-summary",
+            "depth": 2,
+            "text": "Sequence Summary:"
+          },
+          {
+            "id": "ambient-computing---physical-and-digital-worlds-intertwined",
+            "depth": 2,
+            "text": "Ambient Computing - Physical and Digital Worlds Intertwined"
+          },
+          {
+            "id": "networked-context-profile-based",
+            "depth": 3,
+            "text": "Networked (context, profile-based)"
+          },
+          {
+            "id": "embedded-spatially-bodily",
+            "depth": 3,
+            "text": "Embedded (spatially, bodily)"
+          },
+          {
+            "id": "ethical-questions-for-todays-designers",
+            "depth": 3,
+            "text": "Ethical Questions for Today's Designers"
+          },
+          {
+            "id": "the-rise-of-end-user-programming-and-low-code",
+            "depth": 2,
+            "text": "The Rise of End User Programming and Low Code"
+          },
+          {
+            "id": "microservice-architecture",
+            "depth": 3,
+            "text": "Microservice Architecture"
+          },
+          {
+            "id": "microservice-low-code-sentence-structure",
+            "depth": 3,
+            "text": "microservice \"low code\" sentence structure"
+          },
+          {
+            "id": "modules",
+            "depth": 2,
+            "text": "Modules:"
+          }
+        ],
+        "dir": "/modules/17-ambient-computing-interactivity",
+        "path": "/modules/17-ambient-computing-interactivity/index",
+        "extension": ".md",
+        "createdAt": "2022-04-11T14:47:49.654Z",
+        "updatedAt": "2022-04-11T14:47:49.655Z",
+        "readingTime": 323700,
+        "uniqueLinks": []
+      },
+      "ordinal": 17,
+      "path": "17-ambient-computing-interactivity",
+      "slug": "ambient-computing-interactivity",
+      "modules": [
+        {
+          "file": "index.md",
+          "ordinal": 0,
+          "contentdata": {
+            "slug": "ambient-computing",
+            "moduleid": 170,
+            "title": "Ambient Computing",
+            "published": true,
+            "authors": [
+              "Violet Whitney"
+            ],
+            "toc": [
+              {
+                "id": "sequence-summary",
+                "depth": 2,
+                "text": "Sequence Summary:"
+              },
+              {
+                "id": "ambient-computing---physical-and-digital-worlds-intertwined",
+                "depth": 2,
+                "text": "Ambient Computing - Physical and Digital Worlds Intertwined"
+              },
+              {
+                "id": "networked-context-profile-based",
+                "depth": 3,
+                "text": "Networked (context, profile-based)"
+              },
+              {
+                "id": "embedded-spatially-bodily",
+                "depth": 3,
+                "text": "Embedded (spatially, bodily)"
+              },
+              {
+                "id": "ethical-questions-for-todays-designers",
+                "depth": 3,
+                "text": "Ethical Questions for Today's Designers"
+              },
+              {
+                "id": "the-rise-of-end-user-programming-and-low-code",
+                "depth": 2,
+                "text": "The Rise of End User Programming and Low Code"
+              },
+              {
+                "id": "microservice-architecture",
+                "depth": 3,
+                "text": "Microservice Architecture"
+              },
+              {
+                "id": "microservice-low-code-sentence-structure",
+                "depth": 3,
+                "text": "microservice \"low code\" sentence structure"
+              },
+              {
+                "id": "modules",
+                "depth": 2,
+                "text": "Modules:"
+              }
+            ],
+            "dir": "/modules/17-ambient-computing-interactivity",
+            "path": "/modules/17-ambient-computing-interactivity/index",
+            "extension": ".md",
+            "createdAt": "2022-04-11T14:47:49.654Z",
+            "updatedAt": "2022-04-11T14:47:49.655Z",
+            "readingTime": 323700,
+            "uniqueLinks": []
+          }
+        }
+      ]
+    },
+    {
+      "contentdata": {
+        "slug": "behavioral-modeling-intro",
+        "moduleid": 180,
+        "title": "Behavioral Modeling - Intro",
+        "published": true,
+        "authors": [
+          "Violet Whitney"
+        ],
+        "toc": [
+          {
+            "id": "sequence-summary",
+            "depth": 2,
+            "text": "Sequence Summary:"
+          },
+          {
+            "id": "a-world-influenced-by-seemingly-invisible-forces-why-designers-should-model-behavior",
+            "depth": 3,
+            "text": "A World Influenced By Seemingly Invisible Forces: Why Designers Should Model Behavior"
+          },
+          {
+            "id": "example-student-projects",
+            "depth": 3,
+            "text": "Example Student Projects"
+          },
+          {
+            "id": "modules",
+            "depth": 2,
+            "text": "Modules:"
+          }
+        ],
+        "dir": "/modules/18-behavioral-modeling-intro",
+        "path": "/modules/18-behavioral-modeling-intro/index",
+        "extension": ".md",
+        "createdAt": "2022-04-11T14:47:49.655Z",
+        "updatedAt": "2022-04-11T14:47:49.655Z",
+        "readingTime": 140400,
+        "uniqueLinks": []
+      },
+      "ordinal": 18,
+      "path": "18-behavioral-modeling-intro",
+      "slug": "behavioral-modeling-intro",
+      "modules": [
+        {
+          "file": "index.md",
+          "ordinal": 0,
+          "contentdata": {
+            "slug": "behavioral-modeling-intro",
+            "moduleid": 180,
+            "title": "Behavioral Modeling - Intro",
+            "published": true,
+            "authors": [
+              "Violet Whitney"
+            ],
+            "toc": [
+              {
+                "id": "sequence-summary",
+                "depth": 2,
+                "text": "Sequence Summary:"
+              },
+              {
+                "id": "a-world-influenced-by-seemingly-invisible-forces-why-designers-should-model-behavior",
+                "depth": 3,
+                "text": "A World Influenced By Seemingly Invisible Forces: Why Designers Should Model Behavior"
+              },
+              {
+                "id": "example-student-projects",
+                "depth": 3,
+                "text": "Example Student Projects"
+              },
+              {
+                "id": "modules",
+                "depth": 2,
+                "text": "Modules:"
+              }
+            ],
+            "dir": "/modules/18-behavioral-modeling-intro",
+            "path": "/modules/18-behavioral-modeling-intro/index",
+            "extension": ".md",
+            "createdAt": "2022-04-11T14:47:49.655Z",
+            "updatedAt": "2022-04-11T14:47:49.655Z",
+            "readingTime": 140400,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "181-Unity-and-Agent-Based-Models.md",
+          "ordinal": 181,
+          "contentdata": {
+            "slug": "agent-based-modeling",
+            "moduleid": 181,
+            "title": "Agent Based Modeling",
+            "published": true,
+            "authors": [
+              "Violet Whitney"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "conceptual-introduction",
+                "depth": 2,
+                "text": "Conceptual Introduction"
+              },
+              {
+                "id": "agent-based-models",
+                "depth": 3,
+                "text": "Agent Based Models"
+              },
+              {
+                "id": "game-theory",
+                "depth": 3,
+                "text": "Game Theory"
+              },
+              {
+                "id": "tutorial",
+                "depth": 2,
+                "text": "Tutorial"
+              },
+              {
+                "id": "components-of-an-agent-based-model",
+                "depth": 3,
+                "text": "Components of an Agent Based Model"
+              }
+            ],
+            "dir": "/modules/18-behavioral-modeling-intro",
+            "path": "/modules/18-behavioral-modeling-intro/181-Unity-and-Agent-Based-Models",
+            "extension": ".md",
+            "createdAt": "2022-03-31T08:43:05.690Z",
+            "updatedAt": "2022-03-31T08:43:05.691Z",
+            "readingTime": 252600,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "182-Intro-To-Unity.md",
+          "ordinal": 182,
+          "contentdata": {
+            "slug": "intro-to-unity",
+            "moduleid": 182,
+            "title": "Intro to Unity",
+            "published": true,
+            "authors": [
+              "Violet Whitney"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "what-is-unity",
+                "depth": 2,
+                "text": "What is Unity?"
+              },
+              {
+                "id": "tutorial",
+                "depth": 2,
+                "text": "Tutorial"
+              },
+              {
+                "id": "1-download-unity",
+                "depth": 3,
+                "text": "1. Download Unity"
+              },
+              {
+                "id": "2-create-a-unity-account",
+                "depth": 3,
+                "text": "2. Create a Unity Account"
+              },
+              {
+                "id": "3-create-your-first-unity-project",
+                "depth": 3,
+                "text": "3. Create your first Unity Project"
+              },
+              {
+                "id": "4-the-unity-interface",
+                "depth": 3,
+                "text": "4. The Unity Interface"
+              },
+              {
+                "id": "creating-your-first-project",
+                "depth": 2,
+                "text": "Creating Your First Project"
+              }
+            ],
+            "dir": "/modules/18-behavioral-modeling-intro",
+            "path": "/modules/18-behavioral-modeling-intro/182-Intro-To-Unity",
+            "extension": ".md",
+            "createdAt": "2022-03-31T08:43:05.691Z",
+            "updatedAt": "2022-03-31T08:43:05.691Z",
+            "readingTime": 302100,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "183-Agent-Based-Populations-and-Behavior-Bricks.md",
+          "ordinal": 183,
+          "contentdata": {
+            "slug": "agent-based-modeling-and-behavior-bricks",
+            "moduleid": 183,
+            "title": "Agent Based Modeling and Behavior Bricks",
+            "published": true,
+            "authors": [
+              "Violet Whitney"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "conceptual-introduction",
+                "depth": 2,
+                "text": "Conceptual Introduction"
+              },
+              {
+                "id": "tutorial",
+                "depth": 2,
+                "text": "Tutorial"
+              },
+              {
+                "id": "1--setting-up-behavior-bricks",
+                "depth": 3,
+                "text": "1 — Setting Up Behavior Bricks"
+              },
+              {
+                "id": "2--creating-a-behavior",
+                "depth": 3,
+                "text": "2 — Creating A Behavior"
+              },
+              {
+                "id": "3--editing-behavior-parameters",
+                "depth": 3,
+                "text": "3 — Editing Behavior Parameters"
+              },
+              {
+                "id": "4--composing-behaviors",
+                "depth": 3,
+                "text": "4 — Composing Behaviors"
+              },
+              {
+                "id": "making-a-repeat-behavior",
+                "depth": 3,
+                "text": "Making A Repeat Behavior"
+              },
+              {
+                "id": "5--conditions--perceptions",
+                "depth": 3,
+                "text": "5 — Conditions & Perceptions"
+              }
+            ],
+            "dir": "/modules/18-behavioral-modeling-intro",
+            "path": "/modules/18-behavioral-modeling-intro/183-Agent-Based-Populations-and-Behavior-Bricks",
+            "extension": ".md",
+            "createdAt": "2022-03-31T08:43:05.691Z",
+            "updatedAt": "2022-03-31T08:43:05.691Z",
+            "readingTime": 530700,
+            "uniqueLinks": []
+          }
+        },
+        {
+          "file": "184-Mapbox-SDK-and-Routing.md",
+          "ordinal": 184,
+          "contentdata": {
+            "slug": "mapbox-sdk",
+            "moduleid": 184,
+            "title": "Mapbox SDK",
+            "published": true,
+            "authors": [
+              "Violet Whitney"
+            ],
+            "toc": [
+              {
+                "id": "module-summary",
+                "depth": 2,
+                "text": "Module Summary"
+              },
+              {
+                "id": "conceptual-introduction",
+                "depth": 2,
+                "text": "Conceptual Introduction"
+              },
+              {
+                "id": "tutorial",
+                "depth": 2,
+                "text": "Tutorial"
+              },
+              {
+                "id": "challenge",
+                "depth": 3,
+                "text": "Challenge"
+              },
+              {
+                "id": "not-required-but-useful",
+                "depth": 3,
+                "text": "Not required but useful:"
+              }
+            ],
+            "dir": "/modules/18-behavioral-modeling-intro",
+            "path": "/modules/18-behavioral-modeling-intro/184-Mapbox-SDK-and-Routing",
+            "extension": ".md",
+            "createdAt": "2022-03-31T08:43:05.691Z",
+            "updatedAt": "2022-03-31T08:43:05.692Z",
+            "readingTime": 138000,
+            "uniqueLinks": []
+          }
+        }
+      ]
+    }
+  ]
+}

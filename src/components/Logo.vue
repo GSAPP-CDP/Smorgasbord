@@ -1,10 +1,10 @@
 <template>
-  <div class="logo">
-      <div class="img"><img src="~/assets/logo.svg" /></div>
-    <div class="text">
+  <div class="logo" :style="cssWidth">
+    <a href="/"><img src="~/assets/logo_full.svg" /></a>
+<!--    <div class="text">
       <div class="cdp"><a href="/">GSAPP CDP</a> </div>
       <div class="smorgasbord"><a href="/">Smorgasbord</a> </div>
-    </div>
+</div> -->
   </div>
 </template>
 
@@ -12,8 +12,15 @@
 export default {
   name: 'Logo',
   props: {
+    width: {
+      default: "150px",
+      type: String,
+    }
   },
   computed: {
+    cssWidth() {
+      return "width: " + this.width + "; "
+    },
   },
 }
 </script>
@@ -21,21 +28,12 @@ export default {
 
 <style scoped>
 .logo {
-  height: 100px;
 }
 
 a {
   text-decoration: none;
 }
 
-.img img {
-  width: 60px;
-}
-
-.img {
-  float: left;
-  padding-right: 10px;
-}
 .cdp {
 }
 .smorgasbord {

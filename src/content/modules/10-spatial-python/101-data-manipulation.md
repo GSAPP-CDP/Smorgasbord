@@ -3,6 +3,8 @@ moduleid: 101
 title: Data Manipulation
 published: True
 slug: data-manipulation
+authors:
+ - "Carlo Bailey"
 ---
 
 

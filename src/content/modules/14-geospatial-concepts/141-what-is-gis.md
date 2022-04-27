@@ -3,6 +3,8 @@ moduleid: 141
 title: What is GIS?
 published: True
 slug: what-is-gis
+authors:
+ - "Dare Brawley"
 ---
 
 # What is Geographic Information Systems?
@@ -73,14 +75,7 @@ GIS is based on a layered model of the world. In this abstracted world each laye
 
 This layered model of the world is the underlying premise on which all GIS work and spatial data is based. The [next module]() discusses spatial data in detail.  
 
-## Challenge
-
-TBD
-
-
 ## References & further reading
-
-[many sources to be added here will likely use the below categories]
 
 #### Histories & definitions of GIS  
 
@@ -112,3 +107,7 @@ McHarg, Ian L. *Design with Nature.* New York: J. Wiley, c1992.
 #### Textbooks
 Maantay, Juliana, and John Ziegler. GIS for the Urban Environment. Redlands, Calif: Independent Publishers Group (IPG) [distributor], 2006.
 
+
+-------
+Module by Dare Brawley, fall 2021.  
+tutorial credit information, to be added in standard format
