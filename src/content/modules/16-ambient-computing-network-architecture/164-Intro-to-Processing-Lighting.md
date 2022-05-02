@@ -9,17 +9,21 @@ authors:
 
 Intro to Processing 
 ===========================================
+## Module Summary
 In this module you will get an intro to the Processing environment, build a simple sketch and learn how to find, understand, and use Processing Documenation in your own sketches.
 
 ## What is Processing and why use it?
 Processing is a flexible software sketchbook and a language for learning how to code within the context of the visual arts. Its an especially great environment for ambient computing because it will allow you to prototype projection mapping that responds to interactive inputs like (a web cam, markers, or a multitude of triggers from the web). Many artists choose to work with Processing because of its visual interface and its simplicity. Processing can be a great environment to prototype user interfaces, tie together IOT devices, and work with interactive audio.
 
-Below are some examples of artists using Processing in their own work:
 
-![processing-ex](images/processing-ex-5.gif#img-full)
-![processing-ex](images/processing-ex-4.gif#img-full)
-![processing-ex](images/processing-ex2.gif#img-full)
-![processing-ex](images/processing-ex1.gif#img-full)
+![processing-ex](images/processing-ex-5.gif#img-full)   
+*example of Processing artist work*   
+![processing-ex](images/processing-ex-4.gif#img-full)   
+*example of Processing artist work*   
+![processing-ex](images/processing-ex2.gif#img-full)   
+*example of Processing artist work*   
+![processing-ex](images/processing-ex1.gif#img-full)   
+*example of Processing artist work*   
 
 
 ## Tutorial
@@ -34,6 +38,7 @@ Processing includes
    * a display window - where visuals created by your sketch are displayed
 
 ![processing-diagram](images/processing-diagram-2.gif#img-full)
+*breakdown of Processing IDE (integrated development environment) and Canvas*
 
 
 
@@ -50,7 +55,8 @@ void draw() {
 }
 ```
 
-![light-image](images/processinig-setup-vs-draw.png#img-full)
+![light-image](images/processinig-setup-vs-draw.png#img-full)  
+*Processing setup vs draw loop*
 
 3. **Documentation Intro**  
 The basis of learning to code is really about learning how to find and use information (usually online). Rarely does anyone know off hand the exact syntax and operations to write all of their code from scratch. Rather, creative technologists and even seasoned software engineers regularly use the documentation pages for a programming language or a development environment to understand how a particular programming language functions, its operations, and so they can borrow from what's already written.
@@ -61,6 +67,7 @@ You can find Processing's documentation here:
 If we look around within Processing's documentation, we'll see all kinds of operations and parameters we can use in our code. So much possibility! Poke around and click into some of the functions you see. Lets look into `background()`. You'll see if we click into [background](https://processing.org/reference/background_.html) we'll get information on how to use this function, what parameters it expects, and some examples. It looks like it takes a single number `background(51);` for a value between black and white, or 3 numbers `(background(152,190,100);` for RGB values.
 
 ![light-image](images/17-160-0-Processing-Background-Color.png#img-full)
+*3 Processing canvases with RBG values of the background changed*
 
 **CHALLENGE**  
 Can you change the background to yellow?
@@ -101,7 +108,8 @@ Document your lighting effects through videos and gifs. Extra bonus points for t
 
 * Some other useful tips
    * If you are looking for more examples — you can find some great things to try under `File` > `Examples`. This brings up a lot of various examples which you can play around with and learn how different bits of code are functioning.
-   ![examples](images/processing-ex-1.png#img-full)
+   ![examples](images/processing-ex-1.png#img-full)   
+   *Processing examples menu location*
 
 **TIPS & TRICKS** 
    ```
@@ -113,12 +121,15 @@ Document your lighting effects through videos and gifs. Extra bonus points for t
 The following are ambient computing projects from students working with Processing in a course called [Measuring the Great Indoors](https://medium.com/measuring-the-great-indoors) co-taught by Gaby Brainard and Violet Whitney. They give a sampling of the kinds of possibilities when working with Processing.  
 
 While smart home products often orient around individual users, Wenya Liu was interested in the governance and voting of groups. How do you decide if a light is turned on or off? Who gets to decide? They used moods of people to change the lighting. When everyone’s having fun at a party the light is white, but when one person gets angry or sad the light goes red.  
-  ![wenya student project](images/Wenya-Liu.gif#img-full)
+  ![wenya student project](images/Wenya-Liu.gif#img-full)   
+  *Wenya Liu, Mood Lighting, 2018*
   
 Yanan Zhou was interested in creating a light reflection that emphasizes the time of day while working in a stationary place.  
-  ![Yanan Zhou student project](images/Yanan-Zhou.gif#img-full)  
+  ![Yanan Zhou student project](images/Yanan-Zhou.gif#img-full)   
+  *Yanan Zhou, Day Times, 2020*
   
  Daniel Chang, Yanan Zhou, Enrique Bejarano created a projected “wallpaper” that updates whenever anyone leaves or enters a webcam frame, serving as a visual reminder and connector to the constant activities happening during largely isolated activities that occured during the COVID pandemic in 2020.
   [Synchronized Wallpaper](https://www.youtube.com/watch?v=Zn2bYJPMXRw)  
   ![student project](images/synchronized-wallpaper.png#img-full)
+  *Daniel Chang, Yanan Zhou, Enrique Bejarano, Synchronized Wallpaper-Network Diagram, 2020*
   
