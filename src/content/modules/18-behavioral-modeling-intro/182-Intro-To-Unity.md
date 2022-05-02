@@ -7,9 +7,6 @@ authors:
  - "Violet Whitney"
 ---
 
-Behavioral Modeling Intro:
-===========================================
-
 # Intro to Unity
 ## Module Summary
 
@@ -30,7 +27,9 @@ You can also find many more [Unity tutorials here](https://learn.unity.com/).
 ### 1. Download Unity
 - **Download Unity** - You can download a free personal version [here](https://store.unity.com/#plans-individual). If you are on a Columbia GSAPP computer, Unity should already be installed. It is more ideal to download the version for windows as it will integrate with behavior bricks. Follow the screen prompts to “Download the installer for Windows” (click continue and accept the license agreement). 
 ### 2. Create a Unity Account 
-![mapbox](images/167-unity-login.gif#img-full)
+![mapbox](images/167-unity-login.gif#img-full)   
+*Unity steps 1-2*    
+
 - Once the installation is complete, launch Unity. You’ll be prompted to a Unity sign in. If you don’t have one, create a Unity account (free) under “create one”.
 - Follow the sign in prompts adding your user information and license details.
 ### 3. Create your first Unity Project
@@ -42,7 +41,9 @@ You can also find many more [Unity tutorials here](https://learn.unity.com/).
    - For now you can ignore the “asset packages”. 
    - Keep Unity Analytics Off and click “Create project”.
 ### 4. The Unity Interface 
-  ![mapbox](images/167-unity-ui.png#img-full)
+  ![mapbox](images/167-unity-ui.png#img-full)   
+*Unity Interface*    
+  
 - **Scene View**
    - This is where you will model your simulation. This is akin to any 3d modeling view in an app such as Rhino or 3ds Max. 
 - **Game View**
@@ -79,8 +80,8 @@ Thee search bar within your hierarchy window can facilitate navigating the GameO
    - [Displaying Score and Text](https://learn.unity.com/tutorial/displaying-score-and-text?uv=2019.4&projectId=5f158f1bedbc2a0020e51f0d#)
    - [Building the Game](https://learn.unity.com/tutorial/building-the-game?uv=2019.4&projectId=5f158f1bedbc2a0020e51f0d#)
    
-
-
+## Example Student Project
+[Uber Simulation Model - Guangwei Ren](https://medium.com/data-mining-the-city/uber-simulation-model-f3492aee7263)
 
 
 
