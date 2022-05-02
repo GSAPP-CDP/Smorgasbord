@@ -235,7 +235,7 @@ After you've drawn each curve, you can fine-tune them by **adjusting the control
 
 ![Panton profile curves](images/12-4/panton-curves-side.PNG#img-full)
 
-Switch to `Perspective` view and **drag your lines out in the X direction**, just enough so that they're in the correct order. (Since the chair is symmetrical, we're only going to worry about one side.) Then switch to Front view. Now you can once again adjust your curves using their control points so that they match the underlay drawing. As long as you only drag them left and right, their appearance from the side should be largely unaffected. But you may need to switch between views a few times, adjusting as you go, before you're satisfied with the results.
+Switch to `Perspective` view and **drag your lines out in the X direction**, just enough so that they're in the correct order. (Since the chair is symmetrical, we're only going to worry about one side.) Then switch to `Front` view. Now you can once again adjust your curves using their control points so that they match the underlay drawing. As long as you only drag them left and right, their appearance from the side should be largely unaffected. But you may need to switch between views a few times, adjusting as you go, before you're satisfied with the results.
 
 ![Panton profile curves](images/12-4/panton-curves-complete.PNG#img-full)
 

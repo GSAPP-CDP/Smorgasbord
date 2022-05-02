@@ -21,7 +21,7 @@ The most familiar kind of architectural drawing is the **plan**. As you probably
 ![sumerian house plan](images/13-1/sumerian-house-plan.jpg#img-full)
 *A floor plan for a house in Umma, Sumeria (present-day Iraq), inscribed on a clay tablet, 2100-2000 BC. Vorderasiatisches Museum, Berlin, Germany. The annotations denote room dimensions.*
 
-Contemporary plans usually follow a more explicit set of conventions, so they can be include more information while still being legible and unambiguous. Here's a more recent example:
+Contemporary plans usually follow a more explicit set of conventions, so they can include lots of information while still being legible and unambiguous. Here's a more recent example:
 
 ![SHP Sugar Hill](images/13-1/SHP_PLAN_L2.jpg#img-full)
 *Sugar Hill Development Floor Plan, New York City. Adjaye Associates, 2014.*
@@ -30,7 +30,7 @@ We imagine that an **infinite, invisible horizontal plane** intersects the build
 
 ### Sections
 
-A **section** is like a plan, but the plane which cuts the building is vertical rather than horizontal, allowing us to look at the interior of the building "face on." This general point-of-view is in general very intuitive, especially for depicting people, and is commonplace in early two-dimensional representational art from around the world.
+A **section** is like a plan, but the plane which cuts the building is vertical rather than horizontal, allowing us to look at the interior of the building "face on." This general point-of-view is in very intuitive, especially for depicting people, and is commonplace in early two-dimensional representational art from around the world.
 
 ![Book of the Dead](images/13-1/Book_of_the_Dead.jpg#img-full)
 *From the Book of the Dead of Hunefer, Egyptian, c. 1275 BC. British Museum, London.*
@@ -40,12 +40,12 @@ But as architectural representation it's less ubiquitous, historically, especial
 ![Boullee Opera](images/13-1/boulee.jpeg#img-full)
 *Design for an Opera House, Étienne-Louis Boullée, 1781.*
 
-The placement of sections is less governed by convention than that of plans, but the section plane typically aligns with one of the main axes of the building. If the building is symetrical, as in the examples above, then the section would be expected to cut through the center. A contemporary section might look like this:
+The placement of section cuts is less strictly dictated by convention than that of plans, but the cutting plane typically aligns with one of the main axes of the building. If the building is symetrical, as in the examples above, then the section would be expected to cut through the center. A contemporary section might look like this:
 
 ![CaixaForum, Herzog & De Meuron](images/13-1/herzog-forum.jpeg#img-full)
 *CaixaForum, Madrid. Herzog & De Meuron, 2008.*
 
-One of the most common uses of section drawings in architecture today is to represent space technical assembly of things like walls and windows, in **detail** drawings.
+One of the most common uses of section drawings in architecture today is to describe technical assembly of things like walls and windows, in **detail** drawings.
 
 ![Renzo Piano Section Detail](images/13-1/renzo-section.jpg#img-full)
 *Palais de Justice, Paris. Renzo Piano Workshop, 2017.*
@@ -79,7 +79,7 @@ For a quick sense of how your plan will come out, try looking at it in the "Tech
 
 ### Creating the Linework
 
-Next we'll **create the lines for our floor plan**. Drag a window around your entire building to select all the gemoetry. To convert these 3D objects to lines, Rhino has a command called `Make2D`. Use it now, and you'll be presented with some options. We're going to use "View" for our projection, "Maintain Source Layers" for object properties, and check the box for "Clipping Plane Intersections." Hit OK to complete the command.
+Next we'll **create the lines for our floor plan**. Drag a window around your entire building to select all the geometry. To convert these 3D objects to lines, Rhino has a command called `Make2D`. Use it now, and you'll be presented with some options. We're going to use "View" for our projection, "Maintain Source Layers" for object properties, and check the box for "Clipping Plane Intersections." Hit OK to complete the command.
 
 ![Make2D Options](images/13-1/make2d-options.png#img-full)
 *Make2D Options*
@@ -102,9 +102,9 @@ Depending on how you put your model together, you may have some lines in your Ma
 
 ### Hatches and Fills
 
-Using a heavy line is one way to indicate where a plan drawing has been cut, but we want to **fill the areas inside the walls plan with a solid color** to distinguish them from the floor and make the drawing easier to read. In architectural drawing, the fill used to represent cuts through solid material is called **poché** (pronounced *po-shay*). We could fill in our solid walls light grey with a heavy outline, or assign patterns to represent the different materials being cut through, but for a simple plan like this a plain black poché will be fine.
+Using a heavy line is one way to indicate where a plan drawing has been cut, but we want to **fill the areas inside the walls with a solid color** to distinguish them from the floor and make the drawing easier to read. In architectural drawing, the fill used to represent cuts through solid material is called **poché** (pronounced *po-shay*). We could fill in our solid walls light grey with a heavy outline, or assign patterns to represent the different materials being cut through, but for a simple plan like this a plain black poché will be fine.
 
-To create solid fills, **we need their outlines to be closed curves**, not the unconnected line segments we get from using Make2D. Turn off the "Curves" layer, leaving only your cut lines visible. Select them all, and use `CurveBoolean` to create closed regions (doing this by selecting "open" areas will produce the same results, and take less time). You can toggle on the option to delete all input curves, since we won't need them after this.
+To create solid fills, **we need their outlines to be closed curves**, not the unconnected line segments we get from using Make2D. Turn off the "Curves" layer, leaving only your cut lines visible. Select them all, and use `CurveBoolean` to create closed regions (doing this by clicking the "open" areas will produce the same results, and take less time). You can toggle on the option to delete all input curves, since we won't need them after this.
 
 ![using CurveBoolean on the plan linework](images/13-1/plan-boolean.gif#img-full)
 *Using CurveBoolean on the Plan Linework*
@@ -116,7 +116,7 @@ Make a layer for your hatches, nest another layer called "Solid" under it, and a
 ![creating the solid hatches](images/13-1/solid-hatch.gif#img-full)
 *Creating Solid Hatches*
 
-Let's create one more hatch to represent the garden, since this area has a different character than the rest of the plan and can't be walked through. Since it's just one zone, we'll create the hatch directly without generating the boundary first. Use `hatch` again, but this time set "Boundary" to "Yes" in the command prompt. Then select your entire drawing, hit `enter`, click inside the garden, and hit `enter` once more to bring the hatch dialog back up.
+Let's create one more hatch to represent the garden, since this area has a distinct character than the rest of the plan and can't be walked through. Since it's just one zone, we'll create the hatch directly without generating the boundary first. Use `hatch` again, but this time set "Boundary" to "Yes" in the command prompt. Then select your entire drawing, hit `enter`, click inside the garden, and hit `enter` once more to bring the hatch dialog back up.
 
 Rhino only comes with a few hatches pre-installed. [You can download more from McNeel here]("https://wiki.mcneel.com/rhino/draftingpage"), and find others by searching online, but we'll just use the built-in "Plus" hatch. Set the scale to 25 and the rotation to 45 degrees, then click 'OK'.
 
@@ -125,21 +125,21 @@ Rhino only comes with a few hatches pre-installed. [You can download more from M
 
 ### Layout
 
-Before we do anything else to this plan, let's set up the page and figure out what scale it's going to be. To create a **new page layout**, click the '+' to the right of the viewport tabs at the bottom left of the screen. Make an A3 layout in landscape format, called "Plan".
+Before we do anything else to this plan, let's set up a page for it and figure out what scale it should be. To create a **new page layout**, click the '+' to the right of the viewport tabs at the bottom left of the screen. Make an A3 layout in landscape format, called "Plan".
 
 ![new layout dialog](images/13-1/layout-dialog.png#img-full)
 *New Layout Options*
 
-You'll see a page with "Detail View" of your model from the top. 
+You'll see a page with a "Detail View" of your model from the top. 
 
-Now we want to rotate our plan 90 degrees so it fits nicely on our landscape-oriented page, but rather then changing our actual geometry, let's just change the way we look at it in this drawing. We do this by changing the **Construction Plane**, or **CPlane**. Creating a CPlane lets us define a **new coordinate system**, moving the origin of our model and rotating the X, Y and Z axes. You've actually already moved between CPlanes, when switching between Top, Front, and Right views; each of these has its own coordinate system, letting you draft in different orientations.
+Now we want to rotate our plan 90 degrees so it fits nicely on our landscape-oriented page, but rather then changing our actual geometry, let's just change the way we look at it on this page. We do this by changing the **Construction Plane**, or **CPlane**. Creating a CPlane lets us define a **new coordinate system**, moving the origin of our model and rotating the X, Y and Z axes. You've actually already moved between CPlanes, when switching between Top, Front, and Right views; each of these has its own coordinate system, letting you draft in different orientations.
 
 Double-click in the Detail View to enter your model space, zoom in to your floor plan, and use the `CPlane` command. Choose "3Point" in the command prompt, and click near the bottom-right corner of your building to set the origin of your new coordinate system. Next you'll be prompted to set the direction of the X axis. We want this CPlan rotated 90 degrees, so instead of being to the right, we want X to be "up", in what's normally the Y direction. Click somewhere "above" your new origin to set the X axis, and then hit `enter` to accept the default Y direction (which will now be pointing to the left).
 
 ![creating a new cplane](images/13-1/create-cplane.gif#img-full)
 *Creating a New Construction Plane*
 
-So far the only thing that has visibly changed is the grid representing your CPlane, with its red and green lines representing the X and Y axes, respectively. To rotate your view to match the CPlane, use `SetView`, and choose "CPlane" in the command prompt, followed by "Top."
+So far the only thing that has visibly changed is the grid representing your CPlane, with its red and green lines for the X and Y axes. To rotate your view to match the CPlane, use `SetView`, and choose "CPlane" in the command prompt, followed by "Top."
 
 ![rotating the view](images/13-1/set-view.gif#img-full)
 *Rotating the View*
@@ -151,7 +151,7 @@ Center the drawing on the page, then, with the Detail View itself selected, go t
 
 ### Styling the Drawing
 
-Now lets get this looking more like a real drawing. To get an accurate preview of what the drawing will look like, use `PrintDisplay` again, and set it to "On" (the last time we used this it only affected our viewports, not our layouts).
+Now lets get this looking like a real drawing. For an accurate preview of what the drawing will look like, use `PrintDisplay` again, and set it to "On" (the last time we used this it only affected our viewports, not our layouts).
 
 To make all our lines black we can change the **Print Colors** of our layers, without affecting the display colors. Print colors are represented by a lozenge shape (◆) in the layers panel. If you select all the layers under "Make2D", click the diamond next to one of them, and set it to black, the print colors of all those layers will be changed.
 

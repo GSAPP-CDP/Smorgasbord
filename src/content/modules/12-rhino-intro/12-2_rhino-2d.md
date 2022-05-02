@@ -51,14 +51,14 @@ It's good to have **photographs** to clarify any parts of the building we're fin
 
 ### Starting the Model
 
-Now let's jump into Rhino. **Create a new file**: since the project is designed and built in a country that uses metric dimensions, we're going to use the "large objects, meters" template. 
+Now let's jump into Rhino. **Create a new file**: since the project is designed and built in a country that uses the metric system, we're going to use the "large objects, meters" template. 
 
 Next, we'll **import our reference drawings** into the model. Create a new layer, name it "Picture," and make it the active layer by double-clicking on it. Then maximize the Top viewport by double-clicking on the name.
 
 ![getting started](images/12-2/createlayer.gif#img-full)
 *Starting the Model*
 
-The `Picture` command creates a flat surface with a bitmap image applied to it. Type "Picture" into the command prompt select the file of the first plan, then follow the prompts to place it in the model, in top view. Don't worry about the size for now, since we'll be correcting it later. Repeat this for the other two image files.
+The `Picture` command creates a flat surface with a bitmap image applied to it. Type "Picture" into the command prompt, select the file of the first plan, then follow the prompts to place it in the model, in top view. Don't worry about the size for now, we'll  correct it later. Repeat this for the other two image files.
 
 !["Picture" command](images/12-2/picture.gif#img-full)
 *Inserting an Image into the Model*
@@ -71,7 +71,7 @@ For the PDF, since we want to bring this drawing into Rhino as geometry rather t
 
 ### Scaling the reference drawings
 
-Next we need to scale our reference drawings so that their dimensions are accurate in our Rhino model. Usually this is done by referring to a **graphical scale**: a symbol whose size is marked, allowing us to find the dimensions of everything else in the drawing. In all of the reference drawings we found, there's only one of these: it's on the site plan, in the page of diagrammatic plans and elevations. So this is what we'll use to find out how big our building is.
+We need to scale our reference drawings so that their dimensions are accurate in our model. Usually this is done by referring to a **graphical scale**: a symbol whose size is marked, allowing us to find the dimensions of everything else in the drawing. In all of the reference drawings we found, there's only one of these: it's on the site plan, in the page of diagrammatic plans and elevations. This is what we'll use to find out how big our building is.
 
 ![finding the graphic scale](images/12-2/graphicalscale-01.png#img-full)
 *Finding the Graphical Scale*
@@ -86,17 +86,17 @@ The site plan is now its own surface. Move it out of the way of the rest of your
 ![scaling the site plan](images/12-2/scale.gif#img-full)
 *Scaling the Site Plan*
 
-Now we can use the site plan to measure our building. While you're drawing a line, Rhino will display the line's current length in the bottom left of the window, and this is a quick way to measure distances. Try finding the length of the northernmost building module this way:
+Now we can use the site plan to measure our building. While you're drawing a line Rhino displays its current length in the bottom left of the window, which is a quick way to measure distances. Try finding the length of the northernmost building module this way:
 
 ![measuring distance](images/12-2/dim-location-01.jpg#img-full)
 *Measuring Distance*
 
-You should find that it's about 13 meters (if it isn't, use the same method on the drawing's scale to check that it's the right size). The low resolution of the image makes the plan pretty blurry though, so it would be good if we could give ourselves some more confidence in this number. Let's look at the rest of the drawings on the page we cut this site plan out of, in particular the diagram in the top left.
+You should find that it's about 13 meters (if it isn't, use the same method on the drawing's scale to check that it's the right size). The low resolution of the image makes the plan pretty blurry, though, so it would be good if we could give ourselves some more confidence in this number. Let's look at the rest of the drawings on the page we cut this site plan out of, in particular the diagram in the top left.
 
 ![CBA elements diagram](images/12-2/cba-diagram-only.jpg#img-full)
 *Elements of the Casa Bahia Azul*
 
-This is a very useful drawing! It lays out the logic and vocabulary which govern the design. There's a standard profile (the "house" shape), and three standard opening sizes which are cut out of it (the gray rectangles). In plan, the module is divided into eleven equal bays, which alternate between solid walls and openings. The drawings on the right side of the page explain how three variations on this prototype are developed into the three volumes of the house.
+This is a very useful drawing! It lays out the logic and vocabulary which govern the design. There's a standard profile (the "house" shape), and three opening sizes which are cut out of it (the gray rectangles). In plan, the module is divided into eleven equal bays, which alternate between solid walls and openings. The drawings on the right side of the page explain how three variations on this prototype are developed into the three volumes of the house.
 
 ![CBA diagram part II](images/12-2/diagram_2of3.png#img-full)
 ![CBA diagram part III](images/12-2/diagram_3of3.png#img-full)
@@ -104,12 +104,12 @@ This is a very useful drawing! It lays out the logic and vocabulary which govern
 
 Without these drawings, we might have approached our 2D drafting by simply tracing what was drawn in the plans, line by line. But when reconstructing a project, it's important to keep in mind that **a building is not a heap of unrelated bits of geometry**. Parts and dimensions will repeat. Elements will align, or be symmetrical. Often the whole thing will be laid out according to a regular grid system. The logic will differ in kind and degree depending on when and where the project was built, and by whom, but trying to uncover it, working from the abstract to the concrete and the general to specific, will leave you with a better model and a deeper understanding of the project.
 
-So. Resize this drawing (again, with the `Scale` command) to make the length of the plan 13m, like it was on the site plan. How long does this make a single bay? 13 ÷ 11 is an irrational number, which seems like an unlikely choice for a module of a floor plan. But it's roughly 1.18. You can verify this by drawing a line in Rhino and seeing how long it is. **It seems more likely that each of these bays is a much cleaner 1.2m, making the entire plan 13.2 meters long.** Rescale the plan to match this number, and you'll find that other key dimensions are nice round numbers as well.
+So. Resize this drawing (using `Scale`) to make the length of the plan 13m, like it was on the site plan. How long does this make a single bay? 13 ÷ 11 is an irrational number, which seems like an unlikely choice for a module of a rational floor plan. But it's roughly 1.18. You can verify this by drawing a line in Rhino and seeing how long it is. **It seems more likely that each of these bays is a much cleaner 1.2m, making the entire plan 13.2 meters long.** Rescale the plan to match this number, and you'll find that other key dimensions are nice round numbers as well.
 
 ![CBA dimensions](images/12-2/diagram-dimensions-01.png#img-full)
 *Dimensions of the Casa Bahia Azul*
 
-These are the dimensions we'll base our model on, so **re-scale the other floor plan to match** (note that, as explained in the diagram drawings, one of the modules has an extra bay added on). You can also rotate it to be the same orientation as the diagram. We won't use the isometric or imported vector drawings for the rest of this 2D drafting tutorial, so you can move those out of the way, or select them and use the `Hide` command (bring back hidden objects with `Show`). Then we'll be ready to start drawing. If you haven't already, remember to save your model!
+These are the dimensions we'll base our model on, so **re-scale the other floor plan to match** (note that, as explained in the diagram drawings, one of the volumes has an extra bay added on). You can also rotate it to be the same orientation as the diagram. We won't use the isometric or imported vector drawings for the rest of this 2D drafting tutorial, so you can move those out of the way, or select them and use the `Hide` command (bring back hidden objects with `Show`). Then we'll be ready to start drawing. If you haven't already, remember to save your model!
 
 ![underlays-scaled](images/12-2/underlays-scaled.png#img-full)
 *Scaled Underlays*
@@ -165,7 +165,7 @@ Start by using `Copy` to place your base drawing onto each of these floor plans.
 ![base grids](images/12-2/base-on-plan.png#img-full)
 *Base Geometry Aligned with the Plan*
 
-First, this plan is one bay longer than the other two. To stretch it, select the two rectangles representing the outer wall, and press the `F10` key (or use the `PointsOn` command). This lets you edit the 'control points' which make up a NURBS object as individual pieces of geometry, and works on surfaces and solids as well as curves like these (we'll go into more detail on NURBS and control points in a later tutorial). Select the top corners of your rectangles and move them up the width of one bay, either by typing the distance or using one of the existing bays as a reference to snap to. Then fill in the missing grid line with `Copy`.
+First, this plan is one bay longer than the other two. To stretch it, select the two rectangles representing the outer wall, and press the `F10` key (or use the `PointsOn` command). This lets you directly edit the 'control points' which define a NURBS object, and works on surfaces and solids as well as curves like these (we'll go into more detail on NURBS and control points in a later tutorial). Select the top corners of your rectangles and move them up the width of one bay, either by typing the distance or using one of the existing bays as a reference to snap to. Then fill in the missing grid line with `Copy`.
 
 ![edit points](images/12-2/points-edit.gif#img-full)
 *Using Edit Points*
@@ -187,7 +187,7 @@ Now we'll add the floor to the section. Start by drawing a line connecting the i
 
 ### Completing the Plans
 
-We're finally ready to move our line work over to the real floor plans of the house. Make sure when you do that inside edges of the ground-level volumes are aligned, and note that the gap between them is the width of a single grid bay (1.2m). The upper level floor plan off to the left also aligns with the grid of the lower volumes.
+We're finally ready to move our line work over to the real floor plans of the house. Make sure when you do that inside edges of the ground-level volumes are aligned, and note that the gap between them is the width of a single grid bay (1.2m). The upper level floor plan off to the left aligns with the grid of the lower volumes.
 
 ![grids in place](images/12-2/base-in-place.png#img-full)
 *Base Grids in Place*

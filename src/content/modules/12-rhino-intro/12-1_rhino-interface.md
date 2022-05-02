@@ -69,7 +69,7 @@ If you don't have anything typed in the command prompt, `ENTER` and `SPACEBAR` c
 ![various geometry](images/12-1/geo-populated.png#img-full)
 *Assorted Geometry*
 
-Typing out entire commands can take a while. To speed things up, Rhino will **auto-complete** as you type: the command it predicts will appear after what you've typed so far, and can be executed as usual with `ENTER` or `SPACEBAR`. Other commands beginning with or just containing what you've typed will be listed below, and these can be selected either with the mouse or with the up and down arrows on your keyboard.
+Typing out entire commands can take a while. To speed things up, Rhino will **auto-complete** as you type: the command it predicts will appear after what you've typed so far, and can be executed as usual with `ENTER` or `SPACEBAR`. Other commands beginning with, or just containing, what you've typed will be listed below, and these can be selected either with the mouse or with the up and down arrows on your keyboard.
 
 ![auto-complete](images/12-1/predictive-text.gif#img-full)
 *Command Prompt auto-completion*
@@ -104,7 +104,7 @@ To **delete an object**, use the `DELETE` or `BACKSPACE` keys (or create an alia
 
 ### Drafting Constraints
 
-So far, whenever you've clicked in the viewport to complete a command, Rhino has taken as its input precisely the place where you clicked: choose two points to create a line, and that's exacly where the line appears. But very often, when we're drafting or modeling, we want what we make to be **constrained** in various ways, to make our work more precise. We want lines to follow right angles, elements to line up with each other, edges to meet exactly without gaps or overlap. To acheive this Rhino has constraints which we can turn on or off as needed. These are at the bottom of the screen, near where the Gumball button was.
+So far, whenever you've clicked in the viewport to complete a command, Rhino has taken as its input precisely the place where you clicked: choose two points to create a line, and that's exacly where the line appears. But very often, when we're drafting or modeling, we want what we make to be **constrained** in various ways, to make our work more precise. We want lines to follow right angles, elements to line up with each other, edges to meet exactly without gaps or overlap. To acheive this, Rhino has constraints which we can turn on or off as needed. These are at the bottom of the screen, near where the Gumball button was.
 
 To make new geometry **align to the X and Y axes**, hold `SHIFT` (for instance, between choosing the first and second points of a line). Or if you want to work this way most of the time, click the `Ortho` (for orthogonal) button, and use `SHIFT` to toggle the constraint off as needed.
 
@@ -130,7 +130,7 @@ Other than Properties, the most essential panel is **Layers**. The icon for this
 ![docking a panel](images/12-1/panel-dock.gif#img-full)
 *Docking a Panel*
 
-Keeping geometry organized in different "layers" is essential for working efficiently in Rhino. Layers let you deal with collections of similar objects as a class, rather than one at a time: hiding, locking, or selecting them, and controlling the way they appear.
+Keeping geometry organized in different "layers" is essential for working efficiently in Rhino. Layers let you deal with collections of similar objects as a class, rather than one at a time: hiding, locking, or selecting them, and controlling their appearances.
 
 When you first create a Rhino file, it will have a few numbered layers in addition to the "Default" layer. You can rename these by clicking the name, or add and delete layers by right-clicking. Hide or lock layers temporarily with the lightbulb and lock icons, or change the display color of the objects on a layer by clicking the color swatch.
 

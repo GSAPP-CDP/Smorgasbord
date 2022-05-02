@@ -24,12 +24,12 @@ So far, unless you changed the settings of your viewport, all your 3D modeling h
 ![albertian perspective](images/13-2/albertisketch.jpg#img-full)
 *From De Pictura (On Painting), Leon Batista Alberti, 1435*
 
-This general approach to creating depth goes at least as far back as Ancient Rome. Not much classical painting has survived to the present day, due to the nature of the materials involved (the fresco below was only preserved by the eruption of Mount Vesuvius), but we know from written accounts that they placed a high value on illusionistic representation. It's important to point out that this emphasis hasn't been typical, globally or historically, and the fact that pictorial art from other times and places looks, to our eyes, less "realistic" is due to differences in artistic philosophy rather than technical skill.
+This general approach to creating depth goes at least as far back as Ancient Rome. Not much classical painting has survived to the present day, due to the nature of the materials involved (the fresco below was only preserved by the eruption of Mount Vesuvius), but we know from written accounts that they placed a high value on illusionistic representation. It's important to point out that this emphasis hasn't been typical, globally or historically, and the fact that pictorial art from other times and places looks, to our eyes, less "realistic" is due to differences in culture and artistic philosophy rather than technical skill.
 
 ![roman wall painting](images/13-2/roman-wall-painting.jpg#img-full)
 *Wall Painting from the Villa of P. Fannius Synistor at Boscoreale, c. 50-40 BC. Metropolitan Museum of Art, New York.*
 
-The fresco above shows an early use of **vanishing points**, but the projection isn't mathematically rigorous. The formal description of perspective doesn't appear until the Italian Renaissance, being first recorded by Leon Batista Alberti in 1425.
+The fresco above shows an early use of **vanishing points**, but the projection isn't mathematically rigorous. A formal description of perspective doesn't appear until the Italian Renaissance, being first recorded by Leon Batista Alberti in 1435.
 
 ![albertian perspective](images/13-2/albertisketch2.jpg#img-full)
 *From De Pictura (On Painting), Leon Batista Alberti, 1435*
@@ -44,14 +44,14 @@ Perspectival projection is effective at creating illusionistic space because it 
 ![types of perspective](images/13-2/perspective-points.png#img-full)
 *A Box Drawn with, One, Two, and Three Vanishing Points*
 
-Perspective images are classified as **One-Point**, **Two-Point**, or **Three-Point**. For "true" projections, these categories describe the orientation of the "camera" in relation to the subject, not a difference in the construction of the projection. They also assume that the subject mostly rectilinear, but when representing buildings this is usually true (at the very least, walls are usually perpendicular to the ground). The number of "points" refers to how many vanishing points there are in the drawing, if you're drawing a simple box.
+Perspective images are classified as **One-Point**, **Two-Point**, or **Three-Point**. For "true" projections, these categories describe the orientation of the "camera" in relation to the subject, not a difference in the construction of the projection. They also assume that the subject is mostly rectilinear, which when representing buildings is usually reasonable (at the very least, walls are usually perpendicular to a flat ground plane). The number of "points" refers to how many vanishing points there are in the drawing, if you're drawing a simple box.
 
 ### One-Point Perspective
 
 ![school of athens](images/13-2/school-of-athens.jpg#img-full)
 *The School of Athens, Rafael, 1509-1511. Apostolic Palace, Vatican City.*
 
-In a one-point perspective drawing, **the view is parallel to both the ground and one of the main primary axes of the subject** (and, therefore, perpendicular to the third axis). The result is that **only lines moving away from the viewer converge at a point**. This creates the kind of classical, balanced image favored by the Renaissanice painters who were first experimenting with perspective.
+In a one-point perspective drawing, **the view is parallel to both the ground and one of the main primary axes of the subject** (and, therefore, is perpendicular to the third axis). The result is that **only lines moving away from the viewer converge at a point**. This creates the kind of classical, balanced image favored by the Renaissanice painters who were first experimenting with perspective.
 
 ### Two-Point Perspective
 
@@ -72,7 +72,7 @@ If the **angle of the camera doesn't align with any of the primary axes of the s
 ![a parallel rendering](images/13-2/isometric.jpg#img-full)
 *Max Guther, 2018*
 
-With parallel projection, **lines which are parallel in 3D space stay parallel on the page**, and **the size of objects isn't affected by their location in space**. Strictly speaking the plan and section we created in the last module used parallel projection, with the constraint that the camera was oriented perpendicularly (orthogonally) to one of the faces of our building. But parallel projection can be used from other points of view as well.
+In a parallel projection, **lines which are parallel in 3D space stay parallel on the page**, and **the size of objects isn't affected by their location in space**. Strictly speaking the plan and section we created in the last module used parallel projection, with the constraint that the camera was oriented perpendicularly (orthogonally) to one of the faces of our building. But parallel projection can be used from other points of view as well.
 
 Parallel projection sacrifices the immersive illusion of depth in favor of **dimensional and geometric consistency**. The sense that parallel projection was more objective, or scientific, made it a favorite of designers in the modernist era, who popularized its use in architectural drawing.
 
@@ -94,7 +94,7 @@ It was also common in early video games, since the unchanging appearance of obje
 ![SimCity 2000](images/13-2/sim-city.gif#img-full)
 *SimCity 2000*
 
-Like perspectives, there are a few different types of parallel projection.
+As with perspectives, there are a few different types of parallel projection.
 ### Isometric Projection
 
 ![isometric cube](images/13-2/iso-cube.jpg#img-full)
@@ -107,7 +107,7 @@ The rendering at the beginning of this section and the image from *SimCity 2000*
 
 ### Oblique (Axonometric) Projection
 
-Isometric drawing preserves dimensions along the main axes, and distorts all three visible faces equally. The goal of an oblique drawing is **to depict either a plan or elevation with no distortion at all**, while still conveying a sense of three-dimensional space. In this drawing, for instance, all the angles and dimensions of the plan are depicted accurately, giving a clear description of the building's plan:
+Isometric drawing preserves dimensions along the main axes, and distorts all three visible faces equally. The goal of an oblique drawing is **to depict either a plan or elevation with no distortion at all**, while still conveying a sense of three-dimensional space. In this drawing, for instance, all the angles and dimensions in the XY plane are depicted accurately, giving a clear description of the building's plan:
 
 ![FLW Plan Oblique](images/13-2/flw-plan-oblique.jpg#img-full)
 *Frank Lloyd Wright, American System-Built Houses for The Richards Company project, Milwaukee, Wisconsin,, 1915-17*
@@ -178,7 +178,7 @@ Since we set our camera at a 45-degree angle to the building, our two vanishing 
 
 ### Forced Two-Point Perspective
 
-As a *general* rule of thumb, a drawing with parallel vertical lines will create a more appealing composition than one in which vertical lines are *almost* parallel, but not quite.
+As a general rule of thumb, a drawing with parallel vertical lines will create a more appealing composition than one where vertical lines are *almost* parallel, but not quite.
 
 But sometimes it's difficult to set up a view that works perfectly as a true two-point perspective; often, for instance, there's more happening in the scene above eye-level than below, which would be easier to capture by pointing your camera upwards. For these situations, Rhino gives you the option of **artificially straightening vertical lines to "force" a two-point perspective**. Try moving your camera above your target, and switching to this projection in the viewport properties panel.
 
@@ -212,7 +212,7 @@ Other than the placement of the camera and target, the main variable which affec
 ![view cone](images/13-2/view-cone.png#img-full)
 *The View Cone*
 
-Rhino describes this angle in terms of **lens length**, as if you were using a physical camera. By default this is set to 50mm, which roughly approximates the view angle of the human eye. You can adjust this value in the properties panel.
+Rhino describes this angle in terms of **lens length**, as if you were using a physical camera. By default this is set to 50mm, which approximates the view angle of the human eye. You can adjust this value in the properties panel.
 
 Lowering the lens length allows you to capture more of your scene from a given viewpoint, but makes the angles in the resulting image more acute. Try setting it to 25:
 
@@ -258,7 +258,7 @@ Try out each of these to make isometric drawings of the Casa Bahia Azul.
 
 ### Plan Oblique
 
-Unlike all of the perspective and parallel projections we've used so far, **we can't create an oblique in Rhino just by changing the settings or placement of the camera**. We have to manipulate the actual geometry of our model. So select all of your 3D geometry, `copy` it to a new location in the model, and then `hide` the original.
+Unlike all of the perspective and parallel projections we've used so far, **we can't create an oblique axonometric drawing in Rhino just by changing the settings or placement of the camera**. We have to distort the actual geometry of our model. So select all of your 3D geometry, `copy` it to a new location in the model, and then `hide` the original.
 
 Select the new geometry you just copied, switch to `Right` view, and then `Shear` it by 45 degrees.
 

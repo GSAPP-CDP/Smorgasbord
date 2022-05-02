@@ -16,14 +16,14 @@ This module will introduce how to create a simple rendered perspective from Rhin
 ![zaha stadium](images/13-3/zaha-stadium.jpg#img-full)
 *Zaha Hadid Architects, Xi'An International Football Centre, 2020.*
 
-A **rendering** is an image of an intended to communicate the experience or visual impression of an architectural design. They're typically in perspective, and emphasize materiality, lighting, narrative, and atmosphere.
+A **rendering** communicates the experience or visual impression of an architectural design. They're typically in perspective, and emphasize materiality, lighting, narrative, and atmosphere.
 
 In the past, of course, rendering was done by hand, using analog techniques of drawing and painting. But before the twentieth century, images we would today recognize as architectural renderings were quite rare. Architects usually produced plans and sections, even when they were concerned with color, material and light.
 
 ![labroustre section](images/13-3/labrouste-section.jpg#img-full)
 *A rendered section. Henri Labrouste, Bibliothèque Sainte-Geneviève, 1838.*
 
-An architect was more likely to paint a life-like scene attempting to reconstruct a great scructure from the ruins of Greece or Rome than on original design, though occasionally this romantic sensibility can be found projected onto proposed structures as well.
+An architect was more likely to paint a life-like scene attempting to reconstruct a great scructure from the ruins of Greece or Rome than an original design, though occasionally this romantic sensibility can be found projected onto proposed structures as well.
 
 ![john soane bank of england](images/13-3/soane-bank.jpg#img-full)
 *John Soane, Bank of England, 1830. The proposal is rendered as if it was already a ruin, creating a Romantic association with classical civilization while also cleverly revealing the interior layout.*
@@ -83,7 +83,7 @@ Let's start by creating a more specific **environment** for our model. Use the `
 ![sun settings](images/13-3/sun-settings.PNG#img-full)
 *Sun Settings*
 
-Next we'll add an environment, which takes the form of a **spherical image surrounding the model**, and will affect the reflections in your image. Use the `Environment` command to open the environments palette (or open it from the "Panels" dropdown menu). Rhino has a built-in library of environments, which you can find by clicking the menu button at the top right corner of the palette and choosing "Import from Environment Library." You can also find environments online in the form of HDRIs (for "High Dynamic Range Image"), which combine data from a wide range of photographic exposures. I'll be using [one I found on Poly Haven](https://polyhaven.com/a/cannon) that seems pretty similar to the site of the Casa Bahia Azul. Unwrapped, the image looks like this:
+Next we'll add an environment, which acts like a **spherical image surrounding the model**, and will affect the reflections and ambient lighting in your image. Use the `Environment` command to open the environments palette (or open it from the "Panels" dropdown menu). Rhino has a built-in library of environments, which you can find by clicking the menu button at the top right corner of the palette and choosing "Import from Environment Library." You can also find environments online in the form of HDRIs (for "High Dynamic Range Image"), which combine data from a wide range of photographic exposures. I'll be using [one I found on Poly Haven](https://polyhaven.com/a/cannon) that seems pretty similar to the site of the Casa Bahia Azul. Unwrapped, the image looks like this:
 
 ![environment image](images/13-3/cannon.jpg#img-full)
 *Lighting Environment*
@@ -109,7 +109,7 @@ Next let's do the **glass** for the windows. There's a built-in glass material, 
 
 ### Textures & Texture Mapping
 
-The rest of the materials we need to create aren't homogenous like glass and metal, so we need to use textures: ordinary image files, like JPEGs or PNGs, which get applied to our geometry. 
+The rest of the materials we need aren't homogenous like glass and metal, so we need to use textures: ordinary image files, like JPEGs or PNGs, which get applied to our geometry. 
 
 We'll start with the concrete texture of the walls, which show the imprint of the wooden formwork used to pour them. For this we can start with a built-in texture. Click your wall layer's material slot, then choose "Use a New Material" >> "Import from Material Library...". Navigate to "Architectural/Wall/Concrete" and double-click "Conc stripes.rmtl". Click "OK" to preview the material in your viewport.
 

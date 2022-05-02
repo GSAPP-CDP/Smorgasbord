@@ -19,7 +19,7 @@ When we're done, we'll have something that looks like this:
 
 ### Getting Started
 
-Since we'll be working in 3D from here, let's **switch to the Perspective viewport** by clicking on the "Perspective" tab at the bottom left of your window. Then make sure your camera target is in the area where you'll be working by selecting your 2D geometry, using the `Zoom` command, and choosing  `Selected` in the command prompt (or use the default alias for this, `ZS`). Now when you orbit (by dragging the right mouse button), the camera will remain pointed at this part of your model.
+Since we'll be working in 3D from here, **switch to the Perspective viewport** by clicking on the "Perspective" tab at the bottom left of your window. Then make sure your camera target is in the area where you'll be working by selecting your 2D geometry, using the `Zoom` command, and choosing  `Selected` in the command prompt (or use the default alias for this, `ZS`). Now when you orbit (by dragging the right mouse button), the camera will remain pointed at this part of your model.
 
 ![3D start layers](images/12-3/start-layers.png#img-left)
 
@@ -109,7 +109,7 @@ From here we'll be getting a bit more into the details of the house, so we'll st
 ![vector reference drawings](images/12-3/vector-reference.png#img-full)
 *Imported Vector Drawings*
 
-Start by **scaling the drawings** so that the "standard" volumes are 13.2 meters by 5 meters (these drawings are not all at the same scale, so you need to resize them separately). You can double-check that you've gotten the scale right by measuring the widths of the windows.
+Start by **scaling the drawings** so that the "standard" volumes are 13.2 meters by 5 meters (these drawings are not all at the same scale, so resize them individually). You can double-check that you've gotten the scale right by measuring the widths of the windows.
 
 We won't be using the greenish lines describing the patterns of the concrete and stone, and it would clean things up if we got rid of them. Since all this linework was placed on the same layer when we imported it, the easiest way to do this is by selecting one of the lines, using `SelColor` to select all the other lines that have the same color, and then deleting them.
 
@@ -136,9 +136,9 @@ Select both pieces of the window, rotate them so that they're upright, and move 
 ![window in place](images/12-3/window-in-place.png#img-full)
 *First Window in Place*
 
-At this point, we could copy these two pieces of geometry into each of the other openings of this size to fill in the rest of the windows. But this window is an **element that repeats throughout the building**, so making a bunch of unrelated copies of it would be sort of redundant. Plus, what if we wanted to change this window later, maybe to add more detail? We'd have to go back and replace them all individually. So instead, we're going to turn this window into a **Block**. A block is like a sub-drawing contained within your model, which Rhino only has to record one description of, and if you change one instance of it, the rest change too. This saves you time, but also, for more complex models, disk space and memory.
+At this point, we could copy these two pieces of geometry into each of the other openings of this size to fill in the rest of the windows. But this window is an **element that repeats throughout the building**, so making a bunch of unrelated copies of it would be sort of redundant. Plus, what if we wanted to change this window later, maybe to add more detail? We'd have to go back and replace them all one by one. So instead, we're going to turn this window into a **Block**. A block is like a sub-drawing contained within your model which Rhino only has to remember one description of, and if you change one instance the rest change too. This saves you time, but also, for more complex models, disk space and memory.
 
-So select your frame and glass, and use the `Block` command. You'll be asked to choose the **base point** of the block, which is the **origin** (0,0,0) of this new sub-drawing. The lower-left corner will work. Next you'll be prompted to give it a name, which should be specific enough to distinguish it from any other window blocks you'll create: I've gone with "Window 120". Hit 'OK' and your block will be created. Note that **a block instance exists on a layer independent of the elements that make it up**, so make sure this one is on the "Window" layer to avoid confusion further down the line.
+So select your frame and glass, and use the `Block` command. You'll be asked to choose the **base point** of the block, which is the **origin** (0,0,0) of this new sub-drawing. The lower-left corner will work. Next you'll be prompted to give it a name, which should be specific enough to distinguish it from any other window blocks you might create: I've gone with "Window 120". Hit 'OK' and your block will be created. Note that **a block instance exists on a layer independent of the elements that make it up**, so make sure this one is on the "Window" layer to avoid confusion further down the line.
 
 ![block creation](images/12-3/block-creation.gif#img-full)
 *Creating a Block*
@@ -153,7 +153,7 @@ Once you're done, try **making a change to the block**, to get a sense of how us
 ![block edit](images/12-3/block-edit.gif#img-full)
 *Editing a Block*
 
-Our doors and wide windows are going to be very similar to the window block we just created, so instead of building each of those from scratch, let's re-use some of the work we've already done. Make two copies of your window out in an open area where other geometry won't get in the way, and use the `Explode` command on them. `Explode` turns an instance of a block back into ordinary geometry without affecting the other instances. (It can also be used to break an object into its component parts, for instance a box into six planes or a rectangle into four lines.) Now we can modify these using `MoveFace` so that one is 0.9m wide, and the other 2.4m.
+Our doors and wide windows will to be very similar to the window block we just created, so instead of building each of those from scratch, let's re-use some of the work we've already done. Make two copies of your window out in an open area where other geometry won't get in the way, and use the `Explode` command on them. `Explode` turns an instance of a block back into ordinary geometry without affecting the other instances. (It can also be used to break an object into its component parts, for instance a box into six planes or a rectangle into four lines.) Now we can modify these using `MoveFace` so that one is 0.9m wide, and the other 2.4m.
 
 ![move face](images/12-3/move-face.gif#img-full)
 *Using MoveFace*
