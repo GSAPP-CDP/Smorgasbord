@@ -8,6 +8,7 @@ authors:
 ---
 
 # Sounds, Speech and Macros
+## Module Summary
 In this module you will learn how to work with sound in processing: 
 - playing an audio file
 - using the microphone
@@ -28,10 +29,15 @@ Consider the amount of attention required for a visually based system:
 ![](images/sound_15.gif#img-left)
 
 ### Ethical considerations for smart home systems
+![](images/sound-13.png#img-left)   
+*privacy*   
 
-privacy           |  assumptions of race and gender in service |  reliance on technology
-:-------------------------:|:-------------------------:|:-------------------------:
-![](images/sound-13.png)  |  ![](images/sound-12.png)  |  ![](images/sound-11.png)
+![](images/sound-12.png#img-left)    
+*assumptions of race and gender in service*   
+
+![](images/sound-11.png#img-left)     
+*reliance on technology*   
+
 
 ### Inspirational projects
 
