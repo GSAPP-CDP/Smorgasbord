@@ -71,7 +71,8 @@ The point here is that our furniture and rooms have immense impact on our behavi
         - Hit Open or Accept. 
         - You should see green numbers layered ontop of the fiducial markers.
 
-        ![markers-1](images/markers-1.gif#img-full)
+        ![markers-1](images/markers-1.gif#img-full)    
+        *reactivision marker tracking - camera view*   
 
 **3. Getting Hardware and Software Talking**
 - Now open **Processing** and navigate to your **libraries** folder where you placed TUIO. 
@@ -79,7 +80,8 @@ The point here is that our furniture and rooms have immense impact on our behavi
   - You must have reacTIVision still running. 
   - You should see black squares with the marker number that follow what is happening in the view. In the gif below I move the whiteboard moving the “5” marker, then sit in the chair obfuscating the “0” and “3” marker.
 
-  ![markers-2](images/markers-2.gif#img-full)
+  ![markers-2](images/markers-2.gif#img-full)   
+  *reactivision marker tracking - markers only of camera view above*   
 
 ## Challenge
 Can you create your own system with this hardware and software toolkit?
@@ -91,3 +93,8 @@ Example: How might you display a welcome message anytime someone sits in a chair
   - point your camera at the chair
   - place a marker on the chair
   - use an `if` `else` statement [reference here](https://processing.org/reference/else.html) to show the message if the marker is obscured
+
+## Example Student Projects
+[Cartoon Room — Urechi Oguguo, Taylor Urbshott](https://vimeo.com/705149163)   
+[Pushy Window — Qi Yang](https://vimeo.com/705149284)   
+
