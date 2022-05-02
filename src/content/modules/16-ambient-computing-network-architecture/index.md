@@ -59,8 +59,8 @@ The following are example student projects from a course called Measuring the Gr
  
 </p>
 
-Synchronized Wallpaper — Daniel Chang, Yanan Zhou, Enrique Bejarano. A projected “wallpaper” that updates whenever anyone leaves or enters a webcam frame, serving as a visual reminder and connector to the constant activities happening during COVID’s largely isolated activities.
-Projecting the Great Outdoors, by: Tianyu Yang, Alec Harris, Maria Berger
+[Synchronized Wallpaper — Daniel Chang, Yanan Zhou, Enrique Bejarano](https://vimeo.com/705148926)   
+[Projecting the Great Outdoors, by: Tianyu Yang, Alec Harris, Maria Berger](https://vimeo.com/705149312)
 
 
 ## Modules
