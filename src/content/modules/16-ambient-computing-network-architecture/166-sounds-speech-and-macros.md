@@ -182,6 +182,6 @@ JSON format is particularly useful for auto-sentence generation because its dict
 [Magic Realism](https://twitter.com/MagicRealismBot), Kate Compton
 
 ### Student Projects that Use Sound
-Could you play with the idea of who is speaking in a room, and direct light towards them?
-https://vimeo.com/groups/processing/videos/3102434
-[Shared Kitchen — Jacob Kackley, Takashi Honzawa, Karan Matta, Kylie Walker](https://vimeo.com/705150301)
+Could you play with the idea of who is speaking in a room, and direct light towards them?    
+https://vimeo.com/groups/processing/videos/3102434     
+[Shared Kitchen — Jacob Kackley, Takashi Honzawa, Karan Matta, Kylie Walker](https://vimeo.com/705150301)    
