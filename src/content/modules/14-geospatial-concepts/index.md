@@ -9,7 +9,7 @@ authors:
 
 # Sequence: Introduction to Geographic Information Systems & Spatial Data
 
-## Sequence Summary:
+## Sequence Summary
 
 This sequence of modules introduces foundational concepts in geographic information systems (GIS) and the use of spatial data for urban research and as part of design processes. Modules provide a conceptual overview of fundamentals of spatial data, coordinate reference systems, and elementary geoprocessing techniques that is software agnostic.  
 
@@ -30,5 +30,4 @@ The increasingly widespread availability of up-to-date (or even real-time) spati
 
 After completing the Introduction to Geographic Information Systems and Spatial Data module sequence you may choose to continue learning spatial concepts in multiple processing/software environments.  
 
-- {{Introduction to GIS with QGIS}}
-{{links to module sequences for spatial analysis in QGIS, Python & Grasshopper}}
+Within the Smorgasbord **Introduction to GIS with QGIS**  provides an introduction to the application of these concepts in open source desktop GIS software QGIS. And **Working with Spatial Data in Python** applies these concepts using Python.
