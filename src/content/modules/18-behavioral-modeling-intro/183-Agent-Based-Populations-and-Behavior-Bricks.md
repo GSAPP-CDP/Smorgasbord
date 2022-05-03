@@ -7,9 +7,6 @@ authors:
  - "Violet Whitney"
 ---
 
-Behavioral Modeling:
-===========================================
-
 # Agent Based Modeling and Behavior Bricks
 ## Module Summary
 
@@ -27,8 +24,8 @@ Behavior Bricks is a character animation plugin for Unity the gaming engine.
 What is quite useful about Behavior Bricks and character animation apps like it, is that it allows us to program behavior of an agent with high level programming. Behavior Bricks uses a node based Visual Programming Language (akin to Grasshopper) to program things like character movement, following, or other actions based on other triggers. This will be particularly useful for modeling behaviors in relation to one another in an agent based model.
 
 
-<img width="899" alt="bb-43" src="https://user-images.githubusercontent.com/14256456/155209726-ca31e78c-d363-42a1-b445-f6a45f635d8d.png">
-
+<img width="899" alt="bb-43" src="https://user-images.githubusercontent.com/14256456/155209726-ca31e78c-d363-42a1-b445-f6a45f635d8d.png">    
+*behavior bricks plugin user interface*    
 
 ## Tutorial
 ### 1 — Setting Up Behavior Bricks
@@ -38,51 +35,67 @@ What is quite useful about Behavior Bricks and character animation apps like it,
 - Click **Search** → and search for **“Behavior Bricks”**
 
 
-![processing-diagram](images/bb-1.png#img-full)
-![processing-diagram](images/bb-2.png#img-full)
-![processing-diagram](images/bb-3.png#img-full)
+![processing-diagram](images/bb-1.png#img-full)    
+*menu to find Unity asset store*    
+
+![processing-diagram](images/bb-2.png#img-full)    
+*search for behavior bricks*    
+
+![processing-diagram](images/bb-3.png#img-full)    
+*behavior bricks on Unity asset store*   
 
 
 - Select the pink **Import** → this brings up a list of all of the assets in Behavior Bricks. 
 - Select **Import** → this will load Behavior Bricks into your current project
 
-![processing-diagram](images/bb-4.png#img-full)
-![processing-diagram](images/bb-5.png#img-full)
+![processing-diagram](images/bb-4.png#img-full)    
+*Select the pink Import → this brings up a list of all of the assets in Behavior Bricks.*    
+
+![processing-diagram](images/bb-5.png#img-full)    
+*example of behavior bricks files to be added to your current project*    
+
 ![processing-diagram](images/bb-6.png#img-full)
+*this loads Behavior Bricks into your current project*    
+
 
 - To get out of the **Asset Store** click the **Scene tab**. You’ll now see **Behavior Bricks** in your project under the **Assets Folder**.
-
-![processing-diagram](images/bb-7.gif#img-full)
-
 - Create a plane **GameObject** →**3D** → **Plane**. 
 - Right Click it and Rename it to `Floor`.
 
-![processing-diagram](images/bb-8.gif#img-full)
+![processing-diagram](images/bb-7.gif#img-full)   
+*creating a plane in unity*   
 
 - **Set** the position to `(0, 0, 0)`, and the scale to `(5, 1, 5)` so it covers a bigger area. 
 - **Check** the `Static` checkbox near the Game Object name in the Inspector.
 
-![processing-diagram](images/bb-9.gif#img-full)
+![processing-diagram](images/bb-8.gif#img-full)   
+*set position and make static*    
 
 - Move the **main camera** to `(0, 20, -30)`, and set the rotation to `(45, 0, 0)` in order to fit the plane into the view.
-
-![processing-diagram](images/bb-11.gif#img-full)
+![processing-diagram](images/bb-9.gif#img-full)   
+*move the camera*   
 
 - Create a sphere for the player. 
-- Rename it to **Player**, and place it in **(0, 0.5, 0)** so it will be over the floor.
+- Rename it to **Player**, and place it in **(0, 0.5, 0)** so it will be over the floor.   
 
-![processing-diagram](images/bb-12.gif#img-full)
+![processing-diagram](images/bb-11.gif#img-full)    
+*make the player*    
 
 - Create a cube for the agent. 
 - Rename it to `Agent`, and place it in `(20, 0.5, 20)`. It will be quite far away from the player, near the plane limits.
 
-![processing-diagram](images/bb-13.gif#img-full)
-
+![processing-diagram](images/bb-12.gif#img-full)    
+*create the agent*   
 - Create three new materials, `Green`, `Blue` and `Red` and use them for the **floor**, **player** and **agent** respectively. 
 - To create a new material go to **Assets** → **Create** → **Material**. 
 - Right click to rename the material `Green`. 
 - Use the eyedropper to select a color. Then drag and drop the material to assign it to a game object. 
-- To quickly duplicate a material **select it** and use **ctrl+d** (Windows) **cmd+d** (Mac). This is a good time to save.
+- To quickly duplicate a material **select it** and use **ctrl+d** (Windows) **cmd+d** (Mac). This is a good time to save.   
+
+![processing-diagram](images/bb-13.gif#img-full)    
+*create and apply materials*   
+
+
 
 ![processing-diagram](images/bb-14.gif#img-full)
 
@@ -129,9 +142,6 @@ What is quite useful about Behavior Bricks and character animation apps like it,
 ![processing-diagram](images/bb-22.gif#img-full)
 
 - Under the `Behavior Params` change the values to `(-20, .5, 20)`.
-
-![processing-diagram](images/bb-23.gif#img-full)
-
 
 - Launch your project and you will see the `Agent` moving to the left.
 Be aware of the Unity warning “The Enemy game object does not have a Nav Mesh Agent component to navigate. One with default values has been added”. This is due to a missing component in the `Enemy`. Specifically, `MoveToPosition` action uses the scene nav mesh, which requires a nav mesh agent component. Unity automatically adds it on runtime when missing, and warns about that. You can avoid the warning adding that component beforehand yourself.
