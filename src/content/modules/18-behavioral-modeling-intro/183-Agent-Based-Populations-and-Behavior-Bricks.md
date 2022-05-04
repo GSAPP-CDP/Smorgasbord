@@ -46,6 +46,10 @@ What is quite useful about Behavior Bricks and character animation apps like it,
 
 
 - To get out of the **Asset Store** click the **Scene tab**. You’ll now see **Behavior Bricks** in your project under the **Assets Folder**.
+
+![processing-diagram](images/bb-42.gif#img-full)    
+*get out of asset store*   
+
 - Create a plane **GameObject** →**3D** → **Plane**. 
 - Right Click it and Rename it to `Floor`.
 
@@ -63,54 +67,56 @@ What is quite useful about Behavior Bricks and character animation apps like it,
 *move the camera*   
 
 - Create a sphere for the player. 
-- Rename it to **Player**, and place it in **(0, 0.5, 0)** so it will be over the floor.   
+- Rename it to **Player**, and place it in **(0, 0.5, 0)** so it will be over the floor.     
 
-![processing-diagram](images/bb-11.gif#img-full)    
-*make the player*    
+![processing-diagram](images/bb-43.gif#img-full)    
+*make a sphere player*   
 
 - Create a cube for the agent. 
 - Rename it to `Agent`, and place it in `(20, 0.5, 20)`. It will be quite far away from the player, near the plane limits.
 
-![processing-diagram](images/bb-12.gif#img-full)    
-*create the agent*   
+![cube](images/bb-11.gif#img-full)    
+*make the cube agent*  
+
 - Create three new materials, `Green`, `Blue` and `Red` and use them for the **floor**, **player** and **agent** respectively. 
 - To create a new material go to **Assets** → **Create** → **Material**. 
 - Right click to rename the material `Green`. 
 - Use the eyedropper to select a color. Then drag and drop the material to assign it to a game object. 
 - To quickly duplicate a material **select it** and use **ctrl+d** (Windows) **cmd+d** (Mac). This is a good time to save.   
 
-![processing-diagram](images/bb-13.gif#img-full)    
-*create and apply materials*   
-
-
-
-![processing-diagram](images/bb-14.gif#img-full)
+![create a behavior](images/bb-apply-materials.gif#img-full)    
+*apply materials* 
 
 - Create the **navigation mesh** that will be used by both the agent and the player for pathfinding. 
 - Select the floor, go to **Window** → **AI** → **Navigation**, 
 - go to the Bake Tab and press the **Bake** button.
 
-![processing-diagram](images/bb-15.gif#img-full)
+![navigation mesh](images/bb-12.gif#img-full)    
+*navigation mesh*   
 
 ### 2 — Creating A Behavior
 - We’ll create a wander behavior for our Agent. 
 - Go to the Behavior Bricks menu **Window** → **Behavior Bricks** →**Editor**. That will open the Behavior Bricks Editor.
 
-![processing-diagram](images/bb-16.gif#img-full)
+![create a behavior](images/bb-13.gif#img-full)    
+*create a behavior*   
+ 
 
 - The first step is to create a new behavior tree by clicking the `Create new behavior` button in the upper part of the `Collection` tab and naming it “Wander”.
 
-![processing-diagram](images/bb-17.gif#img-full)
+![processing-diagram](images/bb-14.gif#img-full)   
+*create a behavior wanderer*  
 
 - Once the new behavior asset has been saved it will appear in the `Behaviors` list and will be opened as a new tab in the behavior graphical editor, showing an initially empty canvas.
 
-![processing-diagram](images/bb-18.gif#img-full)
 
 ### 3 — Editing Behavior Parameters
-- Make the agent move to a position (-20, 0.5, 20)
+- Make the agent move to a position (-20, 0.5, 20)   
 - In the canvas for the `Wander` behavior **right-click** to add a new node and choose the action **MoveToPosition** from the drop-down menu. You can type **move** in the search box to quickly find the action.
 
-![processing-diagram](images/bb-19.png#img-full)
+![processing-diagram](images/bb-15.gif#img-full)   
+*make the agent move*   
+
 
 
 - Click the new `MoveToPosition' node → **select** the `Node` tab in the Behavior Bricks inspector.
@@ -118,23 +124,23 @@ What is quite useful about Behavior Bricks and character animation apps like it,
 - Change the dropdown from `CONSTANT` to `BLACKBOARD` and **change** the target name to `wanderTarget`.
 - All changes are automatically saved in your project so, once done, you can close the Behavior Bricks editor.
 
-![processing-diagram](images/bb-20.gif#img-full)
+![processing-diagram](images/bb-16.gif#img-full)
 
 - Connect the Behavior to the “Agent” Game Object
 - **Select** the `Agent` → **click** `Add Component` from the inspector tab → **select** the `Behavior Bricks - Behavior Executor`.
+![processing-diagram](images/bb-17.gif#img-full)   
 
 - From the asset folders, look for the `Wander` behavior, **drag and drop** it in the Behavior Executor `Behavior` variable where it says `None (Internal Brick Asset)`. This links the wander behavior to the selected game object and executes the Behavior Bricks script during the runtime.
 
-![processing-diagram](images/bb-21.gif#img-full)
-![processing-diagram](images/bb-22.gif#img-full)
+![processing-diagram](images/bb-18.gif#img-full)   
+![processing-diagram](images/bb-19.png#img-full)   
 
-- Under the `Behavior Params` change the values to `(-20, .5, 20)`.
-
+- Under the `Behavior Params` change the values to `(-20, .5, 20)` 
+![processing-diagram](images/bb-20.gif#img-full)
 - Launch your project and you will see the `Agent` moving to the left.
 Be aware of the Unity warning “The Enemy game object does not have a Nav Mesh Agent component to navigate. One with default values has been added”. This is due to a missing component in the `Enemy`. Specifically, `MoveToPosition` action uses the scene nav mesh, which requires a nav mesh agent component. Unity automatically adds it on runtime when missing, and warns about that. You can avoid the warning adding that component beforehand yourself.
 
-
-![processing-diagram](images/bb-24.gif#img-full)
+![processing-diagram](images/bb-21.gif#img-full)
 
 ### 4 — Composing Behaviors
 - Lets make the behavior more interesting for our Agent by making the `MoveToPosition` go to a `Random` position.
@@ -143,22 +149,22 @@ Be aware of the Unity warning “The Enemy game object does not have a Nav Mesh 
 - Create a new blackboard input parameter and call it `wanderArea`.
 - Select the previous `wanderTarget` as the blackboard parameter where the action will write the selected position.
 
-![processing-diagram](images/bb-25.png#img-full)
-![processing-diagram](images/bb-26.gif#img-full)
+![processing-diagram](images/bb-22.gif#img-full)
+![processing-diagram](images/bb-menu.png#img-full)
 
-- In the `Blackboard` tab **change** the `wanderTarget` from `IN` to `LOCAL`.
-
+- In the `Blackboard` tab **change** the `wanderTarget` from `IN` to `LOCAL`.  
 ![processing-diagram](images/bb-24.gif#img-full)
+
 
 - The action marked with an `R`(`MoveToPosition`) is the root of the behavior tree and will be executed in the first place. In fact, `GetRandomInArea` will not be executed at all. In order to create a behavior with two actions, we need to compose them.
 
 ![processing-diagram](images/bb-25.png#img-full)
 
+
 - **Right click** on the canvas an add a composite `Sequence Node`. A Sequence is a composite node that executes its children in order.
 - **Click** the handle from the bottom of the `Sequence Node` and connect it to `MoveToPosition` and `GetRandomArea`, clicking at the top of each node to make the connection.
 Our behavior is now a valid tree!
 The respective numbers `1` and `2` at the top of these nodes represent the order of execution. If you move the nodes around the numbers, and thus the execution order will change.
-
 
 ![processing-diagram](images/bb-26.gif#img-full)
 
@@ -207,7 +213,7 @@ We’ll use the built-in `CheckMouseButton` condition that test if the user has 
    - `selectedGameObject`: an output parameter where the action will write back the game object under the mouse, if any. We are not interested on it in this behavior, so we will keep it unassigned.
    - `selectedPosition`: output parameter with the 3D position of the mouse relative to the chosen camera. Add a new blackboard field and keep the default name.
 
-![processing-diagram](images/webhook1-12.gif#img-full)
+![processing-diagram](images/bb-from-mouse-to-world-action.gif#img-full)
 
 - Add a `MoveToPosition`. Change its target parameter to the `selectedPosition` field in the blackboard.
 
