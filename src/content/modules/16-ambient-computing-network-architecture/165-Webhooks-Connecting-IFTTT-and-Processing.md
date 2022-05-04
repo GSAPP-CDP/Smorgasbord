@@ -185,7 +185,7 @@ void keyPressed() {
 2. Try changing the webhook action in IFTTT. It doesn't need to connect to Kasa, it could connect to a camera, an email, a sound, or something else.
 
 ### Example Student Project
-<iframe src="https://player.vimeo.com/video/705149732?h=8aa0bdfb99" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/705149732?h=8aa0bdfb99" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>   
 [Lighthouse — Yilun Sun, Wanting Sun, Qing Hou](https://vimeo.com/705149732)
 
 ### Resources
