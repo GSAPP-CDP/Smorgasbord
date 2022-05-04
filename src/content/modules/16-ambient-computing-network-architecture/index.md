@@ -54,12 +54,11 @@ Ambient computing often relies on microservices, or small applications and web s
 ### Example Student Projects Using Ambient Computing   
 The following are example student projects from a course called Measuring the Great Indoors co-taught by Gaby Brainard and Violet Whitney.
 
-<p align="center">
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/705149312?h=0aad7723dc&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Projecting the Great Outdoors, by: Tianyu Yang, Alec Harris, Maria Berger"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
- 
-</p>
+<iframe src="https://player.vimeo.com/video/705148926?h=3f0fef7dcb" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 [Synchronized Wallpaper — Daniel Chang, Yanan Zhou, Enrique Bejarano](https://vimeo.com/705148926)   
+
+<iframe src="https://player.vimeo.com/video/705149312?h=0aad7723dc" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 [Projecting the Great Outdoors, by: Tianyu Yang, Alec Harris, Maria Berger](https://vimeo.com/705149312)
 
 
