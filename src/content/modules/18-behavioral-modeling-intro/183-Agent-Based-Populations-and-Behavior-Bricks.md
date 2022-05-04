@@ -23,9 +23,9 @@ In this tutorial we will use Behavior Bricks (a plugin for character animation) 
 Behavior Bricks is a character animation plugin for Unity the gaming engine.
 What is quite useful about Behavior Bricks and character animation apps like it, is that it allows us to program behavior of an agent with high level programming. Behavior Bricks uses a node based Visual Programming Language (akin to Grasshopper) to program things like character movement, following, or other actions based on other triggers. This will be particularly useful for modeling behaviors in relation to one another in an agent based model.
 
+![processing-diagram](images/bb-43.png#img-full)    
+*behavior bricks user interface*    
 
-<img width="899" alt="bb-43" src="https://user-images.githubusercontent.com/14256456/155209726-ca31e78c-d363-42a1-b445-f6a45f635d8d.png">    
-*behavior bricks plugin user interface*    
 
 ## Tutorial
 ### 1 — Setting Up Behavior Bricks
@@ -34,28 +34,15 @@ What is quite useful about Behavior Bricks and character animation apps like it,
 - Go to **Window** → **Asset Store**
 - Click **Search** → and search for **“Behavior Bricks”**
 
-
-![processing-diagram](images/bb-1.png#img-full)    
-*menu to find Unity asset store*    
-
-![processing-diagram](images/bb-2.png#img-full)    
-*search for behavior bricks*    
-
-![processing-diagram](images/bb-3.png#img-full)    
-*behavior bricks on Unity asset store*   
+![processing-diagram](images/bb-41.gif#img-full)    
+*find behavior bricks in the asset store*   
 
 
 - Select the pink **Import** → this brings up a list of all of the assets in Behavior Bricks. 
 - Select **Import** → this will load Behavior Bricks into your current project
 
-![processing-diagram](images/bb-4.png#img-full)    
-*Select the pink Import → this brings up a list of all of the assets in Behavior Bricks.*    
-
-![processing-diagram](images/bb-5.png#img-full)    
-*example of behavior bricks files to be added to your current project*    
-
-![processing-diagram](images/bb-6.png#img-full)
-*this loads Behavior Bricks into your current project*    
+![processing-diagram](images/bb-40.gif#img-full)    
+*import behavior bricks*   
 
 
 - To get out of the **Asset Store** click the **Scene tab**. You’ll now see **Behavior Bricks** in your project under the **Assets Folder**.
