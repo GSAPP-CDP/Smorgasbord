@@ -27,7 +27,19 @@ The computerization of every aspect of life has created a Platform society. Toda
 But long before the internet, encoded rules like zoning, to racial redlining of the 30s also governed the structure and behavior of cities. Scientists in the 40s speculated that the emergent behaviors of cities could be simulated, analyzed and even shifted through agent based models. Today, computing speed, open spatial data, gives immense power to designers and engineers to create far more sophisticated models of interdependent dynamic systems. But even more importantly, in a century dictated by invisible algorithms, pokemon stops, and interconnected sharing economies - the design of rules, policies or algorithms may be more important than the design of a new building or masterplan. 
 
 ### Example Student Projects
+[Simulation — Rodent Plague in Manhattan, Yingjun Mou, 2018](https://medium.com/data-mining-the-city/simulation-rodent-plague-in-manhattan-9153f98da034)   
+![processing-ex](images/bmi-1.gif#img-full)   
+*Simulation — Rodent Plague in Manhattan, Yingjun Mou, 2018* 
 
+![processing-ex](images/bmi-7.jpeg#img-full)   
+*example agent based model student work, Data Mining the City 2018*   
+
+[Uber Simulation Model, Guangwei Ren, Data Mining the City 2019](https://medium.com/data-mining-the-city/uber-simulation-model-f3492aee7263)
+![processing-ex](images/bmi-9.gif#img-full)   
+*Uber Simulation Model, Guangwei Ren, Data Mining the City 2019*
+
+![processing-ex](images/bmi-10.png#img-full)   
+*Uber Simulation Model agent diagram, Guangwei Ren, Data Mining the City 2019*
 
 ## Modules:
 [Agent Based Modeling](181-Unity-and-Agent-Based-Models.md)    
