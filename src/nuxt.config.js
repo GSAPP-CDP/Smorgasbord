@@ -1,4 +1,3 @@
-import hooks from './hooks'
 
 export default {
   // Target: https://go.nuxtjs.dev/config-target
