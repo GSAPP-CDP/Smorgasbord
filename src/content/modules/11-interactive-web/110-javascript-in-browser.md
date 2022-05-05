@@ -46,7 +46,7 @@ weather-widget
 ```
 It is best practice to separate out the structure of your project _index.html_ from the styles _style.css_ from the behaviors _main.js_. 
 
-![image](assets/2022-05-04 17.59.18.gif)
+![image](src/content/modules/11-interactive-web/assets/2022-05-04 17.47.53.gif)
 
 Let's take a step back and look at each of these file types. Think of an HTML file like a building without any walls, paint, electricity or applicances. HTML stands for HyperText Markup Language. The building below can be thought of as HTML without Cascading Style Sheet (CSS) or JavaScript. CSS handles the presentation layer of our webpage and gives each website its own look or brand. JavaScript is a set of instructions that orchestrates the behavior of our webpage.
 
