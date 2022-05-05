@@ -28,7 +28,7 @@ __Note:__ This experiment is meant to be used as a technical guide. Consider _al
   * See the setup guides for [Mac](https://code.visualstudio.com/docs/setup/mac) and [Windows](https://code.visualstudio.com/docs/setup/windows)
 2. Open up a new project folder and name it `weather-widget`. To create a new project folder in Visual Studio Code, navigate to the “File” menu item in the top menu and select “Add Folder to Workspace.” In the new window, click the “New Folder” button and create a new folder called `weather-widget`.
 
-![image](src/content/modules/11-interactive-web/assets/2022-05-04 17.47.53.gif)
+![cerate project folder](assets/create-project-folder.gif)
 
 Inside that folder, we will create this recommended project structure:
 
@@ -46,7 +46,7 @@ weather-widget
 ```
 It is best practice to separate out the structure of your project _index.html_ from the styles _style.css_ from the behaviors _main.js_. 
 
-![image](src/content/modules/11-interactive-web/assets/2022-05-04 17.47.53.gif)
+![image](assets/set-up-project-files.gif)
 
 Let's take a step back and look at each of these file types. Think of an HTML file like a building without any walls, paint, electricity or applicances. HTML stands for HyperText Markup Language. The building below can be thought of as HTML without Cascading Style Sheet (CSS) or JavaScript. CSS handles the presentation layer of our webpage and gives each website its own look or brand. JavaScript is a set of instructions that orchestrates the behavior of our webpage.
 
@@ -79,7 +79,7 @@ Alternatively, you can use one of the VS Code shortcuts. In the body of the `ind
 * type `html` and select html:5 from the dropdown (_see image below_)
 * type `!` and then press enter
 
-![image](assets/2022-05-04 18.30.53.gif)
+![image](assets/add-boilerplate-to-html.gif)
 
 One of the benefits of using VS Code adopts a common user interface and layout of an `explorer` on the left, showing all of the files and folders you have access to, and an `editor` on the right, showing the content of the files you have opened. In the sidebar, you should see the list of open editors. Currently, `index.html` is the only open file so that is the only one listed. Below the open editors tab is your [workspace](https://code.visualstudio.com/docs/editor/workspaces), in this case its called `weather-widget`. In most cases, you will have a single folder opened as the workspace.
 
