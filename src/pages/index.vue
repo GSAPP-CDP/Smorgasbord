@@ -20,6 +20,7 @@ export default {
       modules: [],
     };
   },
-  layout: 'default',
+  layout: 'module',
+  middleware: 'redirect_front_page',
 }
 </script>

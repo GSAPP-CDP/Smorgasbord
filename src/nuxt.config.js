@@ -1,3 +1,5 @@
+import hooks from './hooks'
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -52,7 +54,10 @@ export default {
     '~/modules/process_content.js',
   ],
 
-  // Content module configuration: https://go.nuxtjs.dev/config-content
+  router: {
+  },
+
+  // Content module configuration: https://go.nuxtjs.dev/config-contents
   content: {
    markdown: {
       rehypePlugins: ['~/plugins/rehype-content-img.js'],
@@ -88,7 +93,7 @@ export default {
     }
   },
 
-  hooks: {
+/*  hooks: {
     'content:file:beforeInsert': (document) => {
       if (document.extension === '.md') {
         const { time } = require('reading-time')(document.text);
@@ -100,7 +105,7 @@ export default {
       }
     }
   },
-
+  */
 
 
 
