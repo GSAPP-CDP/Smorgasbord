@@ -183,5 +183,6 @@ JSON format is particularly useful for auto-sentence generation because its dict
 
 ### Student Projects that Use Sound
 Could you play with the idea of who is speaking in a room, and direct light towards them?    
-https://vimeo.com/groups/processing/videos/3102434     
+[(Sound Translator) - 2009](https://vimeo.com/groups/processing/videos/3102434)     
+<iframe src="https://player.vimeo.com/video/705150301?h=fc141cb8d9" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>   
 [Shared Kitchen — Jacob Kackley, Takashi Honzawa, Karan Matta, Kylie Walker](https://vimeo.com/705150301)    

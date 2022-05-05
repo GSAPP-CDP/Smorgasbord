@@ -95,6 +95,10 @@ Example: How might you display a welcome message anytime someone sits in a chair
   - use an `if` `else` statement [reference here](https://processing.org/reference/else.html) to show the message if the marker is obscured
 
 ## Example Student Projects
+<iframe src="https://player.vimeo.com/video/705149163?h=40c15d722c" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>   
+
 [Cartoon Room — Urechi Oguguo, Taylor Urbshott](https://vimeo.com/705149163)   
+<iframe src="https://player.vimeo.com/video/705149284?h=af91bdafd9" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>    
+
 [Pushy Window — Qi Yang](https://vimeo.com/705149284)   
 
