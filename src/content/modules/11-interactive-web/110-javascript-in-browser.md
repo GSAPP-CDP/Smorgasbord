@@ -28,7 +28,7 @@ __Note:__ This experiment is meant to be used as a technical guide. Consider _al
   * See the setup guides for [Mac](https://code.visualstudio.com/docs/setup/mac) and [Windows](https://code.visualstudio.com/docs/setup/windows)
 2. Open up a new project folder and name it `weather-widget`. To create a new project folder in Visual Studio Code, navigate to the “File” menu item in the top menu and select “Add Folder to Workspace.” In the new window, click the “New Folder” button and create a new folder called `weather-widget`.
 
-![image](assets/2022-05-04 17.47.53.gif)
+![image](src/content/modules/11-interactive-web/assets/2022-05-04 17.47.53.gif)
 
 Inside that folder, we will create this recommended project structure:
 
