@@ -1,6 +1,9 @@
 <template>
   <div class="nav">
-    <!--<div class="title">List of Modules</div>-->
+    <div class="links">
+      <div class="navlink"><NuxtLink to="/how-to-use-this-site">How To Use This Site</NuxtLink></div>
+      <div class="navlink"><NuxtLink to="/credits">Credits</NuxtLink></div>
+    </div>
     <ModuleIndex :index="index" />
   </div>
 </template>
@@ -16,14 +19,24 @@ export default {
 
 
 <style scoped>
+
+.navlink {
+}
+
+.links {
+  border-bottom: 2px dotted gray;
+  margin-bottom: 20px;
+  padding: 0px 5px 20px 5px;
+}
+
   .nav {
     color: #4A4A4A;
     font-weight: bold;
-    font-size: 0.85em;
   }
   
   a {
-    text-decoration: none;
+    /* border-bottom: 2px dotted #D82E8A; */
+    display: inline-block;
   }
 
   .title {
