@@ -8,6 +8,9 @@ authors:
 ---
 # Sequence: Working with Spatial Data in Python
 
+![missing-image](images/bogda_mts.jpg)
+*Bogda Mountains, September 1st, 1999, Landsat 7*
+
 ## Sequence Summary:
 
 This sequence of modules is an introduction to spatial analytics and working with large datasets in Python.
@@ -26,4 +29,3 @@ The objective of this sequence will be to analyze neighborhoods in NYC using ope
 3. Spatial analysis – point patterns
 4. Spatial analysis – correlation
 5. Spatial analysis – clustering
-6. Interactive Mapping
