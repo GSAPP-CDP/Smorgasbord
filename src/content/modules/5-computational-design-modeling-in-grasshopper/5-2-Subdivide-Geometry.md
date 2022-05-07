@@ -25,10 +25,11 @@ In the `Intro to Grasshopper` sequence the input for the view analysis tool was 
 
 ## Tutorial
 
-This tutorial has two sections:
+This tutorial has three sections:
 
 1. How to subdivide surfaces for analysis.
 2. How to subdivide breps for analysis.
+3. How to subdivide trimmed surfaces
 
 ### 1. How to subdivide surfaces for analysis
 
@@ -117,6 +118,8 @@ Finally, make a copy of you definition, add a second output srf parameter holder
 
 ![description](images/5-2-1_Clustering.gif)
 
+### 2. How to subdivide breps for analysis
+
 Now we are going to adapt our surface subdivision tool to handle breps. Our tool requires surfaces so we will need extract the surfaces from breps.
 1. Model a few breps (solid objects) in Rhino. (The `Box` command is the quickest way to get input geometry.)
 2. Move your definition to the right on the canvas to make room.
@@ -151,6 +154,61 @@ Now that you brep subdivision tool is complete, make it into a clusters so you c
 ![description](images/5-2-1_Brep_complete.PNG)
 *Subdivision of just vertical surfaces.*
 
+### 3. How to subdivide trimmed surfaces
+
+The two subdivision methods we have created only work for untrimmed surfaces, like those generated from boxes or extruding curves. However, it doesn't work properly on geometry with trimmed surfaces, such as when you use a boolean operation. To illustrate the issue and generate a massing with trimmed surfaces, model geometry to subtract out of your massing and use the Rhino command `Boolean Diffeence` to boolean them out. Once you do, you will need to right click on your Brep input in grasshopper and set multiple breps to input your new massings.
+
+![description](images/5-2-3_Boolean.gif)
+
+IsoTrim is subdividing the original, untrimmed surfaces, in this example the two spheres we booleaned out. 
+
+![description](images/5-2-3_Trimmed.PNG)
+
+Next double click on the center of your cluster to edit it. Move your outputs to the right to make room for new components.
+
+
+![description](images/5-3-3_cluster.gif)
+
+We are going to remove (or cull) the subdivided surfaces that are not coincident with our original surfaces. To do this we need some way of measuring the distance between the original surfaces and subdivide surfaces so that we can keep the subdivide surfaces that have a distance of 0. There is no component that measures the distance between two sets of surfaces but there is one that measures the distance between points and any geometry. 
+
+First, we need to generate the center points of our subdivided surfaces. Get an `Evaluate Surface` component. Right click on `S` and `Reparametrize'. Next plug a panel in `UV` with `{0.5, 0.5, 0}`. (Same method we used as part of the view analysis in the Intro to Grasshopper sequence.)
+
+![description](images/5-3-3_evaluate-surface.gif)
+
+
+Next, copy over the parameter holder with the original surface (before they are subdivided.) Plug the surfaces into `G` of a `Pull Point` component and the output of the evaluate surface into `P`. Pull point returns the distance between a set of geometry and a set of points. 
+
+![description](images/5-2-3_Pull-point.PNG)
+
+Now we want to generate a boolean pattern where true is a distance of zero between the points and the surfaces. Get `equals`, run the distance values through an integer parameter holder, and plug into the equals component. *Why add the integer parameter holder?* It turns the distance values into an integer (as opposed to a string with potentially lots of decimal places) to catch very small distances that may be slightly above 0 but that are essentially coincident with our original surfaces.
+
+![description](images/5-2-3_equal.PNG)
+
+Next, plug the boolean pattern into the `P` input of a `Cull` and our subdivided surfaces into `L`. This removes all of the surfaces that are not coincident with our original surfaces. However, as you can see with the example below it is not an exact match as you may have some surfaces that overlap your original geometry. However, this won’t impact the analysis. Additionally, you can adjust the subdivision resolution to get a better fit.
+
+![description](images/5-2-3_cull.PNG)
+
+![description](images/5-2-3_sdsize.PNG)
+
+Copy `Cull` twice and plug in the `Points` and `Normal Vectors` from the evaluate surface. We want to output these as part of the cluster as many analysis tools (like the view one from the Intro to Grasshopper sequence) need points and normal vectors.
+
+![description](images/5-2-3_cull2.PNG)
+
+Next, we want to add an input for slightly moving the points off of the surfaces using the normal vector. This is for when we do an analysis (like direct sun in the next module) that needs to account for the sun blocked by our own design so that the points that get analyzed are not exactly coincident with the building. 
+
+Get a `Move` component and plug the culled points into `G`. Next, plug the culled normal vectors into the `V` input of an `Amplitude` and a number parameter holder into the `A`. Plug the output of the amplitude into the move component and add a cluster `input` into the number parameter holder that is setting the amplitude of the vector so that we can control how far the points are moved outside of the cluster.
+
+![description](images/5-3-3_move.gif)
+
+Add labeled parameter holders and cluster `outputs` for the new outputs.
+
+![description](images/5-2-3_Outputs.PNG)
+
+Save and exit the cluster, add a panel input for the distance to move the points and we are all done!
+
+![description](images/5-3-3_cluster2.gif)
+
+
 ## Conclusion
 
 You'll use these two subdivision components to generate the geometric inputs for analysis tools you will develop in the next Module.
@@ -159,4 +217,4 @@ It is important to note that this subdivision technique is limited to `Untrimmed
 
 ## Assignment
 
-Make a version of your brep subdivision component that outputs subdivision of the horizontal surfaces instead.
+Add the workflow for subdividing trimmed surfaces, moving points, and extra outputs to your cluster for subdividing surfaces.
