@@ -21,7 +21,7 @@ This module expands on the methods for building custom analysis tools in Grassho
 
 ## Why is this important?
 
-Refer to Deriving Spatial Data module.
+Refer to Deriving Spatial Data module in the Intro to Grasshopper sequence.
 
 ## Tutorial
 
@@ -48,11 +48,11 @@ Scroll down on the page till you get to the Downloads section. Food 4 Rhino does
 
  Windows automatically blocks certain features of files downloaded from the internet, which can cause those definitions to not function. To prevent this right click on  human.gha file and select properties. In the lower right you should see `Unblock`. Click the box next to it and hit apply. (Not all grasshopper plugins will be blocked so if you don't see an option to unblock, that is ok.)
 
- ```
-Tip
-If the grasshopper plugin that you download is a zip file, unblock it before unzipping. This will apply
-the unblocking to all the files in the zip folder preventing you from having to unblock them one by one.
- ```
+
+>Tip:
+>
+>If the grasshopper plugin that you download is a zip file, unblock it before unzipping. This will apply the unblocking to all the files in the zip folder preventing you from having to unblock them one by one.
+
 
 ![description](images/5-3-1_Library.gif)
 
@@ -94,7 +94,7 @@ We'll start with the `(O)` inputs for Occlusion.
 4. Add a labeled parameter holder and plug into `(O) of Occlusion`.
 
 ![description](images/5-3-2_Rhino.PNG)
->*Context (grey,) a design massing (white,) and a suruface for analysis (green).*
+*Context (grey,) a design massing (white,) and a suruface for analysis (green).*
 
 <br>
 <br>
@@ -117,10 +117,9 @@ Finally, we will use `Ladybug` to get the `Sun Vectors` from a `Weather File` fo
 
 To determine the location `ImportLoc` needs an `epw` weather file. Over 2,400 hundred cities have weather files containing annual climate data that is necessary for almost all environmental analysis. The developers of Ladybug have created a [web map aggregated global weather data.](https://www.ladybug.tools/epwmap/) Use the web map to navigate to any city, download the weather data and un-zip it. We will be using the `.epw` file contained in the unzipped folder. If a city has multiple weather files available (like NYC in this example) first choose the one that has the condition most similar to the one you want to analyze. For example, we chose the Central Park weather data because we want to analyze a park in an urban condition. Next, choose a TMY3 weather file if available. TMY or [Typical Meteorological Year](https://en.wikipedia.org/wiki/Typical_meteorological_year) represents a statistical average of at least 12 years of collected weather data that represents long term trends. TMY3 is the most current TMY.
 
-```
-The author of this module dabbles in environmental simulation but is not an expert. Links to resources developed
-by experts are provided in the additional resources section at the end if you want to dive deeper.
-```
+
+>The author of this module dabbles in environmental simulation but is not an expert. Links to resources developed by experts are provided in the additional resources section at the end if you want to dive deeper.
+
 ![description](images/5-3-3_Import-Location.PNG)
 
 Next, add a `File Path` parameter holder, right click on it, select "One Existing File Location", and navigate to the epw file you just downloaded. Plug this into ImportLoc.
@@ -194,7 +193,7 @@ Finally, We are going to create three metrics following the methods covered in t
 Finally, make sure you have all the inputs and outputs of your direct sun analysis tool properly labeled and `Cluster` it so that it is easy to reuse. Make sure to keep the surface subdivision outside of the direct sun tool cluster since you will likely use it as an input for additional analysis tools.
 
 ![description](images/5-3-4_Complete.png)
->*Complete, but unclustered definition.*
+*Complete, but unclustered definition.*
 
 
 ## Conclusion
@@ -205,8 +204,8 @@ Additionally, environmental simulation, normally the domain of engineers, is an 
 
 ## Assignment
 
-1. Apply this tool to a building using the building subdivision cluster from the previous Module. Create a new metric specific to daylight building performance. For example, in a climate like New York there are [months were direct sun is beneficial for reducing heating load and harmful when it increases cooling loads.](https://www.weather.gov/key/climate_heat_cool) Can you create a metric or metrics that measure for this? Do you need two?
-2. Next vary the building design and record the metric outputs. Can you identify performance trends? Are their trade-offs between building and building space performance?
+1. Apply this tool to a building using the building subdivision cluster from the previous Module. Create a new metric specific to daylight building performance. For example, in a climate like New York there are [months were direct sun is beneficial for reducing heating load and harmful when it increases cooling loads.](https://www.weather.gov/key/climate_heat_cool) Can you create a metric or metrics that measure for this? Do you need two different tools? (Yes!) To do so, first you'll need to identify the months were sun is beneficial (cold months) vs when it is harmful (hot months.) Next, you'll want to establish a threshold, minimum number of hours of direct sun during cold months and minimum hours of *shade* during the hot months. To determine the hours of shade delete the `Not` component we were using to invert the boolean pattern coming out of the Occlusion component.
+2. Next vary the building design in Rhino and record the metric outputs. Can you identify performance trends? Are their trade-offs between building and open space performance?
 
 ## Additional Resources
 
