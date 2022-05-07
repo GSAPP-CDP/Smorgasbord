@@ -21,7 +21,7 @@ This module introduces subdivisions techniques for surfaces and breps (solid obj
 
 ## Why is this important?
 
-In the `Intro to Grasshopper` sequence the input for the view analysis tool was generated as part of the creation of the geometry of the tower and specific to that model. We need generalized subdivision tools so that we can get the proper inputs for analysis tools.
+In the `Intro to Grasshopper` sequence the input for the view analysis tool was generated as part of the creation of the geometry of the tower and specific to that model. We need generalized subdivision tools so that we can get the proper inputs for analysis tools. By developing a standardize subdivision method (as opposed to one specific to our geometry generation) we can apply any grid based analysis to any geometry.
 
 ## Tutorial
 
@@ -38,11 +38,10 @@ We are going to develop two geometry subdivision tools, one for surfaces (ie par
 
 The core component we will be using to do subdivision of geometry is the `Isotrim` or `Sub Surface` component, which is looking for a `surface (S)` to subdivide and a `2-dimensional domain (D)` to divide the surface by. (The component is called Isotrim, so that is what you would use to search for it, but is labelled as Sub Surface so that is how we will refer to it in this module.)   
 
-```
-Reminder
-Make sure to continue to apply the Grasshopper best practices established in the Intro to Grasshopper
-sequence.
-```
+
+>Reminder:
+>
+>Make sure to continue to apply the Grasshopper best practices established in the Intro to Grasshopper sequence.
 
 1. Create a surface in Rhino.
 2. Add the surface to a `surface parameter holder` in grasshopper (right click "Select One Surface",) and label the parameter holder.
@@ -52,8 +51,10 @@ sequence.
 
 Unfortunately not. Remember the discussion of `global vs local coordinate systems` from Deriving Spatial Data module? SubSrf is looking for us to provide the subdivision as a domain in U and V coordinates for the coordinate system of the geometry to subdivide. Luckily grasshopper has a component that does just that! Add the `Divide Domain^2` component (make sure to get the one that generates a 2-dimensional domain) and plug into the (D) input of SubSrf.
 
+![description](images/5-2-1_Divide-Domain.gif)
+
 ![description](images/5-2-1_Divide-Domain.PNG)
->*If you plug in the output of the Divide Domain^2 component you can see the domain of local UV coordinates that is created.*
+*If you plug in the output of the Divide Domain^2 component you can see the domain of local UV coordinates that is created.*
 
 Our surface is now subdivided! That was easy and now we can move on to creating the brep subdivision tool, right? Nope. Can you spot what is wrong?
 
@@ -67,6 +68,17 @@ Our surface is now subdivided! That was easy and now we can move on to creating 
 
 -
 
+-
+
+-
+
+-
+
+-
+
+-
+
+
 If you guessed the default subdivision values of 10 you are correct! We need dynamically generated subdivision values that maintain a target subdivision *size* regardless of the dimensions of the input geometry. If you were to input other geometry into this current definition, each would be subdivided into 100 (10x10) surfaces. For our analysis tools we need surfaces of (relatively) equal size, otherwise smaller analysis surfaces would disproportionately effect the metric output.
 
 We are going to use the `Dimensions` component to measure the dimensions of our input surfaces and then the `Division` component to divide those dimensions by a target subdivision size. While adding these components to your definition, make sure that you maintain the correct flow of U and V from Dimension through Division and into Divide Domain. If your resulting subdivision is not even this is likely where something has gone wrong.
@@ -79,13 +91,11 @@ We are going to use the `Dimensions` component to measure the dimensions of our 
 4. Get two `Division` components. Plug the subdivision size into (B) and plug the (U) output from the Dimension component into (A) for one and (V) for the other.
 5. Plug the two Division components into the (U) and (V) inputs of the `Divide Domain^2` component.  
 
-```
-Tip
-Grasshopper uses the same units as your Rhino file so it is important to understand which units a definition
-is assuming before applying to another Rhino file. If the example above was developing a Rhino  file in meters
-and you apply it to another that is in millimeters you would get 1000000x more subdivided surfaces and
-likely crash Rhino!
-```
+
+>Tip:
+>
+>Grasshopper uses the same units as your Rhino file so it is important to understand which units a definition is assuming before applying to another Rhino file. If the example above was developing a Rhino  file in meters and you apply it to another that is in millimeters you would get 1000000x more subdivided surfaces and likely crash Rhino!
+
 
 The Dimension component outputs one dimension for U and one for V. But what if you surface has parallel sides with un-equal length? In that instance you will get subdivided surfaces that range from smaller then your target subdivision size to larger, which is something we want to avoid. Take this into consideration and try and generate input surfaces with relatively even lengths of the pairs of parallel edges.
 
@@ -97,13 +107,11 @@ You'll notice that multiple surfaces it doesn't work as intended. This is becaus
 
 ![description](images/5-2-1_Flatten.PNG)
 
-```
-Tip
-Definitions often behave differently for one input then it will with more then one input. Before you get
-too far into the development of any definition that will need to handle both conditions make sure to test to make
-sure that both work. If they don't, you need to identify the location where a data tree mismatch occurs and use
-the Path Mapper to accommodate data tree structures that work for both conditions.
-```
+
+>Tip
+>
+>Definitions often behave differently for one input then it will with more then one input. Before you get too far into the development of any definition that will need to handle both conditions make sure to test to make sure that both work. If they don't, you need to identify the location where a data tree mismatch occurs and use the Path Mapper to accommodate data tree structures that work for both conditions.
+
 
 Finally, make a copy of you definition, add a second output srf parameter holder and cluster the subdivision portion. Now you have an easy to re-use surface subdivision tool! (We'll use the un-clustered version to develop our brep subdivision component)
 
@@ -141,7 +149,7 @@ Now that you brep subdivision tool is complete, make it into a clusters so you c
 ![description](images/5-2-1_Cluster2.gif)
 
 ![description](images/5-2-1_Brep_complete.PNG)
->*Subdivision of just vertical surfaces.*
+*Subdivision of just vertical surfaces.*
 
 ## Conclusion
 
