@@ -15,20 +15,22 @@ The (very simple) script in this tutorial was initially developed as part of the
 From this script it is possible to build images / projects like that of artist [Josh Begley](https://joshbegley.com/) or like this:
 
 ![grid of satellite images]
+*Grid of satellite images, bright locations above 50 degrees latitude, process materials from [In Plain Sight](https://c4sr.columbia.edu/projects/plain-sight)*  
 
 This tutorial is *not* an introduction to APIs, *nor* is it an introduction to Python. However the tutorial walks you through how to batch download Google aerial or satellite imagery at a specified zoom level from a CSV of latitude and longitude coordinates. Unlike the multispectral satellite imagery from the Landsat program in the previous module the aerial images you will download are not georeferenced and do not have embedded geographic information. You could georeference them following the methods shown in the Making Data from Archives module, but generally they are more well suited to working with outside of a GIS software.
 
 At a high level the process below is as follows:
 
 ![diagram process]
+*Diagram of query process*  
 
-The outputs are image files (.png) that are not georeferenced and thus are best suited to use outside of a GIS software -- combined into grids, assembled for an animation or GIF 
+The outputs are image files (.png) that are not georeferenced and thus are best suited to use outside of a GIS software -- combined into grids, assembled for an animation or GIF
 
 ## Instructions
 
 ### Prerequisites
-Follow instructions for how to create a Google API key for the Static Maps API [here](https://developers.google.com/maps/documentation/maps-static/get-api-key). You must enable billing for your API key in order to run the script, you will not incur any charges for the scale of project outlined in this tutorial. Every Google SKU account is granted $200 per month in credits towards API usage, this translates to being able to download 100,000 images from Google's Static Maps API for free each month. For more information on pricing see [this page](https://developers.google.com/maps/documentation/maps-static/usage-and-billing).
 
+Follow instructions for how to create a Google API key for the Static Maps API [here](https://developers.google.com/maps/documentation/maps-static/get-api-key). You must enable billing for your API key in order to run the script, you will not incur any charges for the scale of project outlined in this tutorial. Every Google SKU account is granted $200 per month in credits towards API usage, this translates to being able to download 100,000 images from Google's Static Maps API for free each month. For more information on pricing see [this page](https://developers.google.com/maps/documentation/maps-static/usage-and-billing).
 
 ### Method A: Google Colab
 
@@ -46,9 +48,9 @@ The script below expects a CSV file in a specific format, with three columns, no
 103,-16.432387,136.098233
 ```
 
-Save the snippet above as `test_points.csv`, and/or change the latitude and longitude coordinates to locations of your choosing. You can do this by either pasting the text above into a text editor (making sure it is in plain text mode) and save it as `test_points.csv`. Or you can use some spreadsheet software (google sheets, or excel) and create a table with three columns containing the values above and save it as a `.csv` file. When you reuse this script on you own you will likely be using latitude and longitude coordinates gathered from elsewhere -- you may export them from QGIS, or from EpiCollect, or manually input them into a spreadsheet. Before uploading them here be sure to format them exactly as shown above. 
+Save the snippet above as `test_points.csv`, and/or change the latitude and longitude coordinates to locations of your choosing. You can do this by either pasting the text above into a text editor (making sure it is in plain text mode) and save it as `test_points.csv`. Or you can use some spreadsheet software (google sheets, or excel) and create a table with three columns containing the values above and save it as a `.csv` file. When you reuse this script on you own you will likely be using latitude and longitude coordinates gathered from elsewhere -- you may export them from QGIS, or from EpiCollect, or manually input them into a spreadsheet. Before uploading them here be sure to format them exactly as shown above.
 
-#### Step 2 - Setting up Colab and uploading the csv file 
+#### Step 2 - Setting up Colab and uploading the csv file
 
 Open a new Google Colab notebook. This is the environment you will use to run the Python script which will query the Google Static Maps API.  
 
@@ -65,7 +67,8 @@ for fn in uploaded.keys():
   print('User uploaded file "{name}" with length {length} bytes'.format(
       name=fn, length=len(uploaded[fn])))
 ```
-Use the `Choose Files` button that appears to navigate to the 'test_points.csv' file that you have just created. 
+
+Use the `Choose Files` button that appears to navigate to the 'test_points.csv' file that you have just created.
 
 #### Step 3 - Define and run Python function to query API
 
@@ -130,7 +133,7 @@ Once you have defined the function above call the function to download images. R
 satellite_squares_colab("uploaded_filename","yourAPIkey",13,640)
 ```
 
-**nb** make sure you use the snippet above and not the code from step 3. 
+**nb** make sure you use the snippet above and not the code from step 3.
 
 You should see the names of the images print in your notebook and images for the latitude and longitude coordinates specified in your csv file will begin to download to the downloads folder of your computer.
 
@@ -141,6 +144,7 @@ If you already use Python (3) please follow these instructions.
 The script requires three dependencies: `requests` `csv` and `io`, install these using your package manager if you do not already have them installed
 
 #### Step 1: formatting a csv file with latitude and longitude coordinates
+
 The script below expects a CSV file in a specific format, with three columns, no headers/column names, column 1 contains a unique id for each point, column 2 contains latitude coordinates, column 3 contains longitude coordinates. A sample of three points are shown below
 
 ```
@@ -149,7 +153,7 @@ The script below expects a CSV file in a specific format, with three columns, no
 103,-16.432387,136.098233
 ```
 
-Save the snippet above as `test_points.csv`, and/or change the latitude and longitude coordinates to locations of your choosing. You can do this by either pasting the text above into a text editor (making sure it is in plain text mode) and save it as `test_points.csv`. Or you can use some spreadsheet software (google sheets, or excel) and create a table with three columns containing the values above and save it as a `.csv` file. When you reuse this script on you own you will likely be using latitude and longitude coordinates gathered from elsewhere -- you may export them from QGIS, or from EpiCollect, or manually input them into a spreadsheet. Before uploading them here be sure to format them exactly as shown above. 
+Save the snippet above as `test_points.csv`, and/or change the latitude and longitude coordinates to locations of your choosing. You can do this by either pasting the text above into a text editor (making sure it is in plain text mode) and save it as `test_points.csv`. Or you can use some spreadsheet software (google sheets, or excel) and create a table with three columns containing the values above and save it as a `.csv` file. When you reuse this script on you own you will likely be using latitude and longitude coordinates gathered from elsewhere -- you may export them from QGIS, or from EpiCollect, or manually input them into a spreadsheet. Before uploading them here be sure to format them exactly as shown above.
 
 #### Step 2: defining the function to download images
 
@@ -201,6 +205,7 @@ def satellite_squares(csvforimport,APIkey,zoom,size):
 Run the script above in your preferred python environment, jupyter notebooks is a good option, you can also run it in a terminal
 
 Once you have defined the function above call the function to download images.
+
 ```python
 satellite_squares("path-to-your-csv-file/test_points.csv","yourAPIkey",13,640)
 ```
@@ -209,22 +214,11 @@ Note on file paths: depending on where / how you are running this python script 
 
 Images for the latitude and longitude coordinates specified in your csv file will be downloaded into whatever location on your hard drive you are running the script from  
 
-## Assignment
+## Challenge
 
-Use the Google Static Maps API to download satellite/aerial images for 20 - 100 significant locations of your choosing.
+Use the Google Static Maps API to download satellite/aerial images for 20 to 100 significant locations of your choosing.
 
 Design a layout to present the images on one or more slides (or GIFs)
-
-Upload to Canvas: 
-- the csv file you used and 
-- a screenshot of the directory on your computer where you have saved your downloaded images 
-
----
-Module by Dare Brawley, fall 2021.  
-tutorial credit information, to be added in standard format
-
-
-
 
 [grid of satellite images]:images/156/satellite_grids_01.png
 
