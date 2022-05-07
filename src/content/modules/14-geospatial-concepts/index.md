@@ -17,6 +17,9 @@ This sequence of modules introduces foundational concepts in geographic informat
 
 The increasingly widespread availability of up-to-date (or even real-time) spatial data is changing the landscape of possibility for design workflows and methods of urban analysis. Having a robust understanding of concepts central to spatial analysis makes it possible to develop fluency in methods of spatial computation across a range of platforms and software environments. Geographic information systems is not a software, but rather a set of related methods which can be implemented in a range of softwares and programming languages.  
 
+![earths surface and latitude and longitude diagram](images/0-preview.png#img-full)
+*Images from this sequence: approximations of the shape of the Earth via [NASA](https://www.ngs.noaa.gov/PUBS_LIB/ManualNOSNGS5.pdf), and Latitude and Longitude explained.*  
+
 ## Modules
 
 - **What is GIS?**  
@@ -25,6 +28,9 @@ The increasingly widespread availability of up-to-date (or even real-time) spati
     This module introduces vector and raster spatial data types and discusses the different forms of representation and abstraction required by each. It asks readers to think critically about the affordances and limitations offered by each type of spatial data.  
 - **Coordinate Reference Systems & Projections**  
     This module covers fundamental concepts related to coordinate reference systems and map projections -- in other words it provides answers to the questions: how do we define location? and how do we represent the round earth on a flat plane?
+
+![Earth in the Goode homolosine projection](images/Earth_2017_02_16_(32802878532).jpg#img-full)
+*Images from this sequence: Earth in the Goode homolosine projection. Credit: Antti Lipponen, CC BY 2.0, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Earth_2017_02_16_(32802878532).jpg)*
 
 ## What's next
 

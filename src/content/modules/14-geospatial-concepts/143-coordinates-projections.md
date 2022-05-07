@@ -18,7 +18,7 @@ If, as covered in the [previous module](), our operating definition of spatial d
 
 Most maps are flat, but represent features of our round planet (or of any round planet, see for example [this beautiful map of the moon](https://commons.wikimedia.org/wiki/File:Lunar_Earthside_Map_-_3rd_Edition_-_1976_-_NASA.jpg)). Projected coordinate reference systems use mathematical transformations to allow us to represent the round surface of the planet on a flat plane.
 ![Earth in the Goode homolosine projection](images/Earth_2017_02_16_(32802878532).jpg#img-full)
-*Earth in the Goode homolosine projection*  
+*Earth in the Goode homolosine projection. Credit: Antti Lipponen, CC BY 2.0, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Earth_2017_02_16_(32802878532).jpg)*  
 
 ## Coordinate reference systems
 
@@ -130,7 +130,7 @@ Practically, the thoughtful use of spatial data requires that you consider "what
     - If the project covers a large area (think national, continental, global) then you need to consider which type of distortion you hope to minimize and should choose a projected coordinate reference system accordingly. In addition you should select a projected coordinate reference system a whose standard parallel is located in the center of the geographic region covered by your project.
 
 ![Blue Marble, NASA, 1972](images/135918main_bm1_high.jpg#img-full)
-*Blue Marble, NASA, 1972*
+*Blue Marble, NASA, 1972 via [NASA](https://www.nasa.gov/content/blue-marble-image-of-the-earth-from-apollo-17)*
 
 ## Challenge
 
