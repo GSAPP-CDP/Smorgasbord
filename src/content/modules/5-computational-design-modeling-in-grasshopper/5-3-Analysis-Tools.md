@@ -104,7 +104,7 @@ Next, we will add the `(S)` input for Occlusion.
 ![description](images/5-3-2_Subdivision.PNG)
 
 1. Input your surface for analysis (park) from rhino into the surface subdivision cluster you made in the previous tutorial.
-2. Occlusion is looking of `Sample Points` so use `Evaluate Surface` to get the center points of our subdivided surface. Create a panel with `{0.5,0.5,0}`, input to `UV`, and make sure to `Reparametrize.`
+2. Occlusion is looking of `Sample Points` so plugin the points from your subdivision cluster. *The screenshot above was generated before the point generation was added as part of the previous tutorial. No need to add it, just use the points from the cluster.*
 3. Add a labeled parameter holder and plug into `(S) of Occlusion`.
 
 ![description](images/5-3-3_Ladybug.PNG)
