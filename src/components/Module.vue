@@ -69,7 +69,7 @@ blockquote {
 /* https://vue-loader.vuejs.org/guide/scoped-css.html#child-component-root-elements */
 
 * >>> img {
-  max-width: 100%;
+  width: 100%;
   height: auto; 
 }
 * >>> img[src$='#img-left'] { 

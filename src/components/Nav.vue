@@ -1,10 +1,11 @@
 <template>
   <div class="nav">
     <div class="links">
+      <div class="navlink"><NuxtLink to="/welcome">Welcome</NuxtLink></div>
       <div class="navlink"><NuxtLink to="/how-to-use-this-site">How To Use This Site</NuxtLink></div>
-      <div class="navlink"><NuxtLink to="/credits">Credits</NuxtLink></div>
     </div>
     <ModuleIndex :index="index" />
+      <div class="navlink"><NuxtLink to="/credits">Credits</NuxtLink></div>
   </div>
 </template>
 

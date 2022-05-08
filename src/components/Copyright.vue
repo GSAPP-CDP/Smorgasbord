@@ -10,7 +10,6 @@
     color: #4A4A4A;
     font-size: 0.85em;
     padding: 30px;
-    text-align: center;
   }
   
   a:hover {
