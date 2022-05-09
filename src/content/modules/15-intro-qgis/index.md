@@ -27,13 +27,15 @@ Maps and geographic analysis are key tools for interpreting the built and social
 - Making Data from Satellites: True Color
 - Final Project: A Subjective Atlas
 
+![maps of tree cover and streams](images/151/0-preview.png)
+*Examples from this sequence: Tree canopy of Manhattan and parts of the Bronx, Queens, and Brooklyn. Streams of Upper Manhattan in 1874*  
 
 ## Modules overview/sequence
 
 - **Mapping Where**  
     This module covers the basics of working with raster and vector spatial data within QGIS. After completing this module you will learn how to load datasets into a new QGIS project; modify coordinate reference systems; manipulate layer symbology based on attribute information; carry out spatial selections; and perform basic (but powerful!) spatial joins.
     These concepts will be introduced through a series of studies of the trees of New York City.  
-- **Making Data from Archives** 
+- **Making Data from Archives**
     In this module you will learn techniques for creating spatial data from archival sources. In it we will cover how to georectify raster datasets (in this case a scanned paper map), giving them geographic coordinates based on reference data. Then the module will cover how to outline and trace features to create new vector-based data from those scanned materials, this is a process we call digitizing.  
 - **Making Data From Observation & Sensing**  
     In this module you will be introduced to basic methods for field data collection through designing a method for recording information about your surroundings. Using the GPS capabilities of your cellphone you will turn this information into data that you can work with in GIS environment.  
@@ -43,3 +45,6 @@ Maps and geographic analysis are key tools for interpreting the built and social
     This is an introduction to batch downloading true color satellite imagery/aerial photography using the Google Static Maps API.  
 - **Final Project: Urban Atlas**  
     Instructions and precedent projects to develop an atlas of your mapping assignments thus far.
+
+![satellite images](images/151/00-preview.png)
+*Examples from this sequence: false color composite using the Landsat satellite. A grid of extraction sites obtained through Google's static maps API.*  

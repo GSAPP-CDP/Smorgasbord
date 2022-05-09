@@ -22,18 +22,18 @@ Create a new folder for your work on this series of modules. Inside it create a 
 
 ### Data downloads
 
-In this module you will be making a series of maps about the urban forest in New York City. Download the following datasets: 
+In this module you will be making a series of maps about the urban forest in New York City. Download the following datasets:
 
-- [New York City Landcover 2010 (3ft version)](https://data.cityofnewyork.us/Environment/Landcover-Raster-Data-2010-3ft-Resolution/9auy-76zt). A raster dataset created to describe major land use categories for New York City derived from satellite imagery. Full metadata and other downloads available via NYC Open Data [here] Download this dataset (Land Cover 2010.zip) and unzip its contents. You should have a folder titled `Land_Cover_2010` with five files in it. Also from the above page download the Data Dictionary for this dataset: `Landcover2010_DataDictionary_20171012.xlsx`. Save it within the `Land_Cover_2010` folder. 
+- [New York City Landcover 2010 (3ft version)](https://data.cityofnewyork.us/Environment/Landcover-Raster-Data-2010-3ft-Resolution/9auy-76zt). A raster dataset created to describe major land use categories for New York City derived from satellite imagery. Full metadata and other downloads available via NYC Open Data [here] Download this dataset (Land Cover 2010.zip) and unzip its contents. You should have a folder titled `Land_Cover_2010` with five files in it. Also from the above page download the Data Dictionary for this dataset: `Landcover2010_DataDictionary_20171012.xlsx`. Save it within the `Land_Cover_2010` folder.
 - [New York City 2015 Street Tree Census](data/2015_street_tree_census.zip) This dataset was collected by more than 2000 volunteers visiting each street tree within the five boroughs of NYC. For more background on this amazing effort (the third such census over the past 30 years) see the NYC Parks department website [here](https://www.nycgovparks.org/trees/treescount). The link above provides a subset of the data for an area in Harlem to make for easier processing. For those interested the full dataset is available for download directly via NYC Open Data [here](https://data.cityofnewyork.us/Environment/2015-Street-Tree-Census-Tree-Data/pi5s-9p35)
 - [New York City Census Blocks 2010](data/nycb2010_subset_um.zip). As with the street trees above, this is a subset of the full NYC Census Blocks file for an area of Harlem. The smaller file makes for easier processing in this tutorial however if you wish to conduct the analysis below for all of NYC the original dataset is available [here.](https://data.cityofnewyork.us/City-Government/2010-Census-Blocks/v2h8-6mxf)
-
 
 ### QGIS interface
 
 Open QGIS and create a new project.  
 
 ![qgis interface](images/151/01-qgis-interface.png#img-full)
+*QGIS interface*  
 
 The QGIS interface consists of a selection of **Panels** and **Toolbars** and a **Map canvas**.  
 
@@ -41,12 +41,11 @@ All toolbars and panels can be moved or removed from the QGIS interface. If you 
 
 The **Browser Panel** provides the ability to browse, search and inspect spatial datasets from your local file system, database connections, and online sources.  
 
-The **Layers Panel** will show all datasets (layers) that you have added to your project. After adding datasets to your project you can access properties and analytic tools for each layer via its name in the layer panel. The order of the datasets listed here controls their rendering order in the **Map canvas`. 
+The **Layers Panel** will show all datasets (layers) that you have added to your project. After adding datasets to your project you can access properties and analytic tools for each layer via its name in the layer panel. The order of the datasets listed here controls their rendering order in the **Map canvas`.
 
 The **Map canvas** provides a view of the datasets you have added to your project.  
 
 **Toolbars** provide access to various tools within the program.
-
 
 ## Adding raster data: mapping tree cover from land use
 
@@ -59,31 +58,37 @@ Before completing the steps below review the introduction to raster and vector d
 From the top menu bar select `Layer` and then `Add Layer` > `Add Raster Layer`.  
 
 ![add raster dataset data source manager](images/151/03-land-cover.png#img-right)
+*Data source manager*  
 
 When the `Data Soursce Manager` menu appears select the Source Type as `File` then click on the `...` and navigate to the `Land_cover_2010` folder within data folder you created for this series of modules. Select the file named `landcover_2010_nyc_3ft.img`. Take care to select the file with the **.img** file extension. The five files with the same name except for their file extension together comprise this particular raster dataset (for more on the specific file format that this dataset uses see [here](https://www.loc.gov/preservation/digital/formats/fdd/fdd000420.shtml)). QGIS will do the work of interpreting each of the five files together. Click `Add`. Then click `Close`.  
 
 The land cover dataset's name should now appear in the layers panel and the dataset should be visible in the map canvas.  
 
 ![land cover dataset rendered](images/151/05-land-cover.png)
+*Land cover data for New York City*
 
 Open the `Layer Properties` menu for this dataset to look at its source and coordinate reference system information. This is always a good thing to do when you add a new dataset to your project.  
 
 Notice that the coordinate reference system is already defined as EPSG:2263 which refers to the New York State Plane Coordinate reference system for the Long Island region. This is the projected coordinate reference system that produces the smallest level of distortion for NYC and should be used for all local maps of NYC. Because the dataset already uses this coordinate reference system  
 
 ![land cover properties menu](images/151/05-land-cover-properties.png)
+*Layer Properties panel*
 ![land cover zoom](images/151/06-land-cover.png#img-right)
+*A closeup of land cover data for NYC*
 
 Save your project within the folder you created for this series of modules. Save the QGIS project as a `.qgz` file.  
 
 Use the map navigation tools (circled above in green) to zoom to an area that interests you. The view on the right shows Harlem between Morningside and Marcus Garvey parks.  
 
 ![land cover individual raster cells](images/151/07-land-cover.png#img-right)
+*Individual raster cells visible in NYC land cover data*  
 
 Continue to zoom in until individual raster cells are visible.  
 
 Next use the Measure Line tool (circled above in cyan) to measure the size of each raster cell (aka pixel). Set the units to feet, in the map canvas click where you want to start measuring then click again where you want to stop. Each cell is 3 feet. This matches the information conveyed in the metadata for the dataset.  
 
 ![measuring tool demo](images/151/08-landuse-measure.png#img-full)
+*The measuring tool*  
 
 Next use the identify features tool (circled in green above) to examine the value contained in a few of the rasters cells. Remember for raster datasets each cell represents a specific area on the earths surface (its cell size) and each cell has exactly one numeric value. With the identify features tool selected click on a raster cell. The `Identify Results Panel` will show you the numeric value for each cell that you click.  
 
@@ -96,10 +101,12 @@ To do this we will manipulate the symbology for this land cover layer. Right cli
 Select all of the values except for 1. Right click to change their color.  
 
 ![land use change symbology](images/151/09-land-cover-symbology.png#img-right)
+*Layer Symbology menu in the Layer Properties panel for NYC Land Cover*
 
-Change them all to white. Click `OK` on the change color menu then click `Apply` on the layer properties symbology menu. You should now see a map showing just those areas classified as tree canopy in this land cover dataset. Click `OK` to close the layer properties menu. 
+Change them all to white. Click `OK` on the change color menu then click `Apply` on the layer properties symbology menu. You should now see a map showing just those areas classified as tree canopy in this land cover dataset. Click `OK` to close the layer properties menu.
 
 ![tree canopy map](images/151/10-tree-canopy.png#img-full)
+*A map of tree canopy based on land cover data*  
 
 ## Adding vector data: mapping tree concentrations
 
@@ -110,6 +117,7 @@ In this section will answer the question: which census blocks have the greatest 
 To do this we will add two new datasets to our project, a shapefile containing census block boundaries, and the 2015 street tree census for New York City.  
 
 To reduce processing times you will conduct the next section with a subset of data covering part of upper Manhattan (from 105th Street to 141st Street). If you have a powerful computer (or don't mind waiting several minutes between steps) feel free to download the complete versions of the datasets for NYC as a whole.
+
 - [Download NYC Street Tree Census for all of NYC.](https://data.cityofnewyork.us/api/views/5rq2-4hqu/rows.csv?accessType=DOWNLOAD) Metadata available [here](https://data.cityofnewyork.us/Environment/2015-Street-Tree-Census-Tree-Data/pi5s-9p35).
 - [Download Census Blocks for all of NYC.](https://data.cityofnewyork.us/api/geospatial/v2h8-6mxf?method=export&format=Shapefile) Metadata available [here](https://data.cityofnewyork.us/City-Government/2010-Census-Blocks/v2h8-6mxf).
 
@@ -120,6 +128,7 @@ From the top menu bar select `Layer` and then `Add Layer` > `Add Vector Layer`.
 When the `Data Source Manager` menu appears select the Source Type as `File` then click on the `...` and navigate to the data folder for this assignment. Within the **nycb2010** folder select the **nycb2010.shp** file. Take care to select the file with the **.shp** file extension. QGIS will do the work of interpreting the full shapefile and will pull the projection and database information from the other files in the roads folder. Click `Add`.
 
 ![add nyc blocks data](images/151/11-nyc-blocks.png#)
+*Census blocks for Upper Manhattan*  
 
 ## Creating points from XY values
 
@@ -136,10 +145,12 @@ Then make sure to specify the `Geometry CRS` as World Geodetic System (WGS) 84 (
 Click `Add`. It may take a few seconds to render the street tree locations.  
 
 ![add street trees from xy locations](images/151/12-street-trees.png)
+*Data Source Manager to add delimited text*  
 
 Turn off the blocks and land cover datasets in the layers panel (uncheck the box next to the name of each) so that only the street tree locations are visible. Zoom in until you see an area that is a few blocks wide so that the individual trees are more visible.  
 
 ![street tree locations](images/151/13-street-trees-viz.png#img-right)
+*Street trees visualized as points*
 
 Notice how the outlines of streets are visible in the patterns formed by the trees. It is also clear that some blocks have many trees and others have very few.  
 
@@ -152,13 +163,15 @@ To do this we will export a copy of the dataset and specify the new projected co
 Again right click on the street trees layer in the layers panel. Select `Export`>`Save features as` then in the Save vector features as dialogue window opens use the `...` button to choose a location to save the new dataset you are creating (within the data>original folder you created for this project is a good spot). Specify the correct coordinate reference system for NYC (New York State Plane - Long Island with EPSG:2263). If it is not visible in the drop down menu click the `Select CRS` button to open the coordinate reference system dialog box and search for the correct coordinate reference system for NYC. Make sure `Add saved file to map` is selected and click `OK`. It may take a few minutes for this action to finish processing (there are a lot of street trees!).
 
 ![save as vector layer diaglog box](images/151/14-save-as.png#img-right)
+*Save vector layer dialogue box*  
 
 Once the new dataset of street trees in the correct projected coordinate reference system you can remove the original street trees dataset from your project. Right click on its name in the Layers Panel and select `remove layer`.  
 
 ## Spatial Join: which census blocks have the most street trees?
+
 Our goal is to understand the variation in the number of street trees by block in New York City. Specifically we are aiming to answer the research question: which census blocks (in Morningside Heights and Harlem) have the most street trees? and which census block has the largest proportion of mature street trees (as determined by trunk size)?
 
-To answer this question we will perform a **spatial join** between the 2010 census blocks and the street trees. 
+To answer this question we will perform a **spatial join** between the 2010 census blocks and the street trees.
 
 A **spatial join** is an analysis operation that allows you to associate attributes from one dataset with the attributes of another dataset based on some spatial relationship between the two datasets. It is a simple but deeply powerful analytic tool that is not possible without geographic information systems. Remember that vector spatial data is comprised of two core components: geometry and geographic information (what you see on the map canvas) and a table of attributes corresponding to each geometric/geographic entity. In performing a spatial join we are able to add information from one dataset to the attribute table of another dataset based on how they are related to one another in space even when we have no other information about how the two datasets are related to one another.  
 
@@ -166,12 +179,13 @@ Take our street trees and census blocks as an example: we are hoping to learn wh
 
 Before we execute a spatial join in QGIS for the first time, consider the diagram below to have a stronger conceptual grasp of spatial joins. The diagram shows the geometry and the attribute tables for two layers: trees and blocks. There are three three trees and two blocks. The trees and the blocks are spatially co-located so it is possible to perform a spatial join between the two layers.  
 ![spatial join in concept](images/151/15-spatial_join-01.png)
-
+*Diagrams illustrating spatial join*  
 ![attribute tables of spatial join demo](images/151/16-spatial_join-02.png#img-right)
-
+*Spatial join from blocks to trees illustrated in concept*  
 The diagram at the right shows the results of a spatial join from the dataset of blocks to the dataset of street trees. This operation results in adding new information to the attributes of each tree based on which block each tree overlaps. In other words we will add new columns to the attribute table for the street trees and the values in these new columns will correspond with the attribute information for the block that each tree grows within.  
 
 ![spatial join table illustrated](images/151/17-spatial_join-03.png#img-left)
+*Spatial join from trees to blocks illustrated in concept*  
 
 If instead, we join the street trees to the blocks we will add new information to the attributes of each block based on the attributes of the trees within that block. The diagram to the left illustrates these results. In this scenario however there are multiple trees within each block. Because each block corresponds with exactly 1 row in the attribute table this means that we must summarize the information about the trees that we are joining to the blocks. In this example we have chosen to count the trees, however a number of other summary methods could have been used for any numeric values in the dataset (minimum, maximum, average, etc.).
 
@@ -192,9 +206,9 @@ For the summaries to calculate again use the `...` button to select `count` and 
 Specify a location to save the resulting new dataset (the processed folder within your data folder for this series of modules is a good spot). Then click `Run`. This is a computationally intensive process and it may take a few minutes for QGIS to execute the spatial join.  
 
 ![spatial join dialogue box](images/151/18-spatial-join-dialog.png)
-
+*Join Attributes by Location (Summary) tool*  
 ![spatial join results](images/151/19-spatial-join.png#img-right)
-
+*Spatial join geometric results*
 
 Once the spatial join has completed the results (a new dataset) should have a new dataset added to your project.  
 
@@ -203,6 +217,7 @@ This new dataset will have the geometry of the census blocks and should have two
 Open the attribute table to check.  
 
 ![attribute table of join results](images/151/20-spatial-join.png#img-left)
+*Spatial join tabular results*
 
 You can now remove the original NYC census blocks dataset from your project.  
 
@@ -213,10 +228,12 @@ So that we can distinguish between blocks with many small trees and blocks with 
 Open the `field calculator`. Circled in green above. Create a new field, specify the output field type as decimal number. Then use the `Fields and Values` expandable menu to select the two fields needed to calculate the average tree diameter per block. When you have constructed the expression and made the selections shown below click `OK`.  
 
 ![field calculator](images/151/21-field-calc.png)
+*Field calculator*
 
 Using the field calculator turns on edit mode (a setting that allows you to directly modify a dataset within your project). Click on the `toggle edit mode` button (a pencil icon at the far left of the attribute table or in the toolbar) to end the edit session. Be sure to select to save your changes (aka save the new field you just calculated).  
 
 ![field calculator results](images/151/22-field-calc.png)
+*Results of the calculation in the attribute table*  
 
 You should see the new `avg_diameter` field added to the attribute table. You can sort the attribute table by any field by clicking on the field name. Sort the attribute table to find out:
 
@@ -235,12 +252,15 @@ First we will visualize the average tree diameter per block  through a [chorople
 Make the selections shown below and click `Apply`.  
 
 ![symbology](images/151/23-symbology.png)
+*Symbology menu*
 
 ![histogram view](images/151/23-symbology-natural-breaks.png#img-right)
+*Histogram view to see data distribution*
 
 The classification mode determines the groups that your data are assembled into. The classification mode you choose will greatly influence the argument that you map conveys. The `Histogram` menu helps to show you the relationship between the distribution of your data and the classification mode you have chosen. Compare a few different classification modes by changing the mode and then returning to the histogram (you may need to select `Load Values`) to see how the groupings change across the distribution of your data. For more on data classification see [Mark Monmonier's *How to Lie With Maps*](https://clio.columbia.edu/catalog/2668118).
 
 ![tree diameter](images/151/24-natural-breaks.png#img-left)
+*A map of tree diameter by block*
 
 ### On your own
 
@@ -255,13 +275,16 @@ Next we'll make ***A View of NYC Trees #4:*** or a map of trunk diameter by tree
 Open the layer properties menu and the symbology tab for the `2015_Street_Tree_Census_subset_um` layer. Choose graduated symbols and then make the following selections:  
 
 ![graduated symbols menu](images/151/25-tree-size.png)
+*Graduated symbols via the Layer Properties panel*  
 
 Your map should look something like this:
 
 ![graduated trees map](images/151/26-tree-size.png)
+*A map of street trees visualized in two ways*  
 
-## Assignment
-Design a map, or a series of maps showing your four ***Views of NYC Trees***. This is an opportunity to experiment with the nuances between these different ways of representing (and indeed understanding) trees in New York City.  Complete the [next short module]() on the print layout functions of QGIS cartographic design before embarking on this.
+## Challenge
+
+Design a map, or a series of maps showing your four ***Views of NYC Trees***. This is an opportunity to experiment with the nuances between these different ways of representing (and indeed understanding) trees in New York City.  Complete the next short module on the print layout functions of QGIS cartographic design before embarking on this.
 
 Consider:  
 How can your design convey similarities and differences across each of the four ways of understanding trees of New York City?  
@@ -280,8 +303,3 @@ Your designed map compositions must thoughtfully include:
 - citations for all data sources
 - projection used
 - your name
-
-
----
-Module by Dare Brawley, fall 2021.  
-tutorial credit information, to be added in standard format
