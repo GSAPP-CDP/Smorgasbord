@@ -1,6 +1,7 @@
 
 export default {
   // Target: https://go.nuxtjs.dev/config-target
+  ssr: true,
   target: 'static',
 
   // Global page headers: https://go.nuxtjs.dev/config-head
@@ -34,6 +35,12 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+
+    ['@nuxt/image', {
+        provider: 'static',
+        dir: "assets/images",
+    }],
+    
 
     ['@nuxtjs/google-fonts', {
       families: {
@@ -70,13 +77,19 @@ export default {
       console.log(files)
 
 
-      return files.map(function(file) {
+      var fdir = files.map(function(file) {
+        console.log(file, " xxx")
         if(file.path === '/index') { return  '/'; }
         else { 
-          const filepathdir =  '/' + file.path.split('/')[1]
-          return filepathdir + '/' + file.slug;
+         // const filepathdir =  '/' + file.path.split('/')[1]
+//          return filepathdir + '/' + file.slug;
+            return file.path;
         }
       });
+
+      console.log(fdir);
+
+      return fdir;
 
     }
   },
@@ -89,7 +102,8 @@ export default {
         test: /\.md$/i,
         loader: 'ignore-loader'
       })
-    }
+    },
+    publicPath: 'https://smorgasbord-dist.s3.us-east-1.amazonaws.com/',
   },
 
 /*  hooks: {

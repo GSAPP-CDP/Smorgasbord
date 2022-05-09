@@ -1,0 +1,3 @@
+[submodule "src/dist"]
+	path = src/dist
+	url = git@github.com:GSAPP-CDP/smorgasbord-dist.git
