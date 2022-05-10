@@ -3,10 +3,7 @@
     "10-spatial-python/101-data-manipulation": {
       "double_links": []
     },
-    "10-spatial-python/102-geospatial-data": {
-      "double_links": []
-    },
-    "10-spatial-python/105-spatial-analysis-clustering": {
+    "10-spatial-python/103-spatial-analysis-point-pattern": {
       "double_links": []
     },
     "10-spatial-python/index": {
@@ -21,25 +18,28 @@
     "11-interactive-web/112-javascript-in-the-browser": {
       "double_links": []
     },
-    "11-interactive-web/113-javascript-in-the-browser": {
-      "double_links": []
-    },
-    "12-rhino-intro/12-1_rhino-interface": {
-      "double_links": []
-    },
-    "12-rhino-intro/12-2_rhino-2d": {
-      "double_links": []
-    },
-    "10-spatial-python/104-spatial-analysis-correlation": {
+    "10-spatial-python/105-spatial-analysis-clustering": {
       "double_links": []
     },
     "11-interactive-web/index": {
       "double_links": []
     },
-    "10-spatial-python/103-spatial-analysis-point-pattern": {
+    "12-rhino-intro/12-2_rhino-2d": {
       "double_links": []
     },
-    "12-rhino-intro/12-4_rhino-nurbs": {
+    "10-spatial-python/102-geospatial-data": {
+      "double_links": []
+    },
+    "12-rhino-intro/12-1_rhino-interface": {
+      "double_links": []
+    },
+    "11-interactive-web/113-javascript-in-the-browser": {
+      "double_links": []
+    },
+    "12-rhino-intro/12-3_rhino-3d": {
+      "double_links": []
+    },
+    "13-arch-drawing/13-1_orthographic-drawing": {
       "double_links": []
     },
     "13-arch-drawing/13-2_projection": {
@@ -48,37 +48,34 @@
     "13-arch-drawing/13-3_rendering": {
       "double_links": []
     },
-    "12-rhino-intro/index": {
+    "13-arch-drawing/13-4_compositing": {
       "double_links": []
     },
-    "13-arch-drawing/13-4_compositing": {
+    "12-rhino-intro/12-4_rhino-nurbs": {
+      "double_links": []
+    },
+    "12-rhino-intro/index": {
       "double_links": []
     },
     "13-arch-drawing/index": {
       "double_links": []
     },
-    "13-arch-drawing/13-1_orthographic-drawing": {
-      "double_links": []
-    },
-    "14-geospatial-concepts/141-what-is-gis": {
-      "double_links": []
-    },
     "14-geospatial-concepts/142-spatial-data": {
       "double_links": []
     },
-    "14-geospatial-concepts/index": {
-      "double_links": []
-    },
-    "12-rhino-intro/12-3_rhino-3d": {
-      "double_links": []
-    },
-    "15-intro-qgis/151-mapping-where": {
+    "10-spatial-python/104-spatial-analysis-correlation": {
       "double_links": []
     },
     "14-geospatial-concepts/143-coordinates-projections": {
       "double_links": []
     },
-    "15-intro-qgis/152-print-layout": {
+    "14-geospatial-concepts/index": {
+      "double_links": []
+    },
+    "15-intro-qgis/151-mapping-where": {
+      "double_links": []
+    },
+    "14-geospatial-concepts/141-what-is-gis": {
       "double_links": []
     },
     "15-intro-qgis/153-archives": {
@@ -90,10 +87,16 @@
     "15-intro-qgis/155-satellites": {
       "double_links": []
     },
-    "15-intro-qgis/157-atlas": {
+    "15-intro-qgis/index": {
       "double_links": []
     },
-    "15-intro-qgis/index": {
+    "15-intro-qgis/156-aerial-imagery": {
+      "double_links": []
+    },
+    "16-ambient-computing-network-architecture/161-dynamic-environments": {
+      "double_links": []
+    },
+    "15-intro-qgis/157-atlas": {
       "double_links": []
     },
     "16-ambient-computing-network-architecture/162-network-architecture": {
@@ -102,22 +105,13 @@
     "16-ambient-computing-network-architecture/163-low-and-high-programming": {
       "double_links": []
     },
-    "15-intro-qgis/156-aerial-imagery": {
-      "double_links": []
-    },
-    "16-ambient-computing-network-architecture/165-Webhooks-Connecting-IFTTT-and-Processing": {
-      "double_links": []
-    },
     "16-ambient-computing-network-architecture/164-Intro-to-Processing-Lighting": {
       "double_links": []
     },
-    "16-ambient-computing-network-architecture/167-Markers-and-Tracking": {
-      "double_links": []
-    },
-    "16-ambient-computing-network-architecture/168-Computer-Vision": {
-      "double_links": []
-    },
     "16-ambient-computing-network-architecture/166-sounds-speech-and-macros": {
+      "double_links": []
+    },
+    "15-intro-qgis/152-print-layout": {
       "double_links": []
     },
     "16-ambient-computing-network-architecture/index": {
@@ -126,13 +120,22 @@
     "18-behavioral-modeling-intro/181-Unity-and-Agent-Based-Models": {
       "double_links": []
     },
+    "16-ambient-computing-network-architecture/167-Markers-and-Tracking": {
+      "double_links": []
+    },
+    "16-ambient-computing-network-architecture/165-Webhooks-Connecting-IFTTT-and-Processing": {
+      "double_links": []
+    },
     "18-behavioral-modeling-intro/182-Intro-To-Unity": {
       "double_links": []
     },
-    "16-ambient-computing-network-architecture/161-dynamic-environments": {
+    "4-grasshopper-intro/41-getting-started-with-grasshopper": {
       "double_links": []
     },
     "18-behavioral-modeling-intro/183-Agent-Based-Populations-and-Behavior-Bricks": {
+      "double_links": []
+    },
+    "4-grasshopper-intro/410-Generating-Exploring-Spatial-Data": {
       "double_links": []
     },
     "18-behavioral-modeling-intro/184-Mapbox-SDK-and-Routing": {
@@ -141,61 +144,58 @@
     "18-behavioral-modeling-intro/index": {
       "double_links": []
     },
-    "4-grasshopper-intro/410-Generating-Exploring-Spatial-Data": {
-      "double_links": []
-    },
-    "4-grasshopper-intro/42-exercise-hello-grasshopper": {
-      "double_links": []
-    },
-    "4-grasshopper-intro/43-working-in-grasshopper": {
-      "double_links": []
-    },
-    "4-grasshopper-intro/44-exercise-parametric-tower-part-1": {
-      "double_links": []
-    },
-    "4-grasshopper-intro/41-getting-started-with-grasshopper": {
-      "double_links": []
-    },
-    "4-grasshopper-intro/45-working-with-data": {
-      "double_links": []
-    },
-    "4-grasshopper-intro/46-exercise-parametric-tower-part-2": {
+    "16-ambient-computing-network-architecture/168-Computer-Vision": {
       "double_links": []
     },
     "4-grasshopper-intro/47-documentation-best-practices": {
       "double_links": []
     },
-    "5-computational-design-modeling-in-grasshopper/5-1-Comp-Design-Modeling": {
+    "4-grasshopper-intro/46-exercise-parametric-tower-part-2": {
       "double_links": []
     },
-    "4-grasshopper-intro/index": {
+    "4-grasshopper-intro/48-Deriving-Spatial-Data": {
       "double_links": []
     },
     "4-grasshopper-intro/49-Procedural-Rules": {
       "double_links": []
     },
-    "5-computational-design-modeling-in-grasshopper/5-2-Subdivide-Geometry": {
+    "4-grasshopper-intro/43-working-in-grasshopper": {
       "double_links": []
     },
-    "5-computational-design-modeling-in-grasshopper/5-4-Street-Grid": {
+    "4-grasshopper-intro/index": {
+      "double_links": []
+    },
+    "4-grasshopper-intro/42-exercise-hello-grasshopper": {
+      "double_links": []
+    },
+    "4-grasshopper-intro/44-exercise-parametric-tower-part-1": {
+      "double_links": []
+    },
+    "5-computational-design-modeling-in-grasshopper/5-2-Subdivide-Geometry": {
       "double_links": []
     },
     "5-computational-design-modeling-in-grasshopper/5-3-Analysis-Tools": {
       "double_links": []
     },
+    "4-grasshopper-intro/45-working-with-data": {
+      "double_links": []
+    },
+    "5-computational-design-modeling-in-grasshopper/5-1-Comp-Design-Modeling": {
+      "double_links": []
+    },
     "5-computational-design-modeling-in-grasshopper/5-5_Buildings-Density": {
+      "double_links": []
+    },
+    "5-computational-design-modeling-in-grasshopper/5-4-Street-Grid": {
+      "double_links": []
+    },
+    "6-intro-to-python/61-getting-started-with-Python": {
       "double_links": []
     },
     "5-computational-design-modeling-in-grasshopper/5-6_Troubleshooting": {
       "double_links": []
     },
-    "5-computational-design-modeling-in-grasshopper/5-7_Design-Space": {
-      "double_links": []
-    },
     "5-computational-design-modeling-in-grasshopper/index": {
-      "double_links": []
-    },
-    "4-grasshopper-intro/48-Deriving-Spatial-Data": {
       "double_links": []
     },
     "6-intro-to-python/62-using-python-in-grasshopper": {
@@ -204,22 +204,19 @@
     "6-intro-to-python/index": {
       "double_links": []
     },
-    "6-intro-to-python/61-getting-started-with-Python": {
+    "5-computational-design-modeling-in-grasshopper/5-7_Design-Space": {
+      "double_links": []
+    },
+    "7-fundamentals-of-python/71-variables-lists-and-dictionaries": {
       "double_links": []
     },
     "7-fundamentals-of-python/72-conditionals-and-loops": {
       "double_links": []
     },
-    "7-fundamentals-of-python/73-functions-and-classes": {
-      "double_links": []
-    },
-    "7-fundamentals-of-python/74-python-libraries": {
-      "double_links": []
-    },
     "7-fundamentals-of-python/index": {
       "double_links": []
     },
-    "8-intro-to-python-in-rhino/81-accessing-the-rhino-apis-in-python": {
+    "7-fundamentals-of-python/74-python-libraries": {
       "double_links": []
     },
     "8-intro-to-python-in-rhino/82-working-with-geometry-in-python": {
@@ -228,7 +225,10 @@
     "8-intro-to-python-in-rhino/index": {
       "double_links": []
     },
-    "7-fundamentals-of-python/71-variables-lists-and-dictionaries": {
+    "7-fundamentals-of-python/73-functions-and-classes": {
+      "double_links": []
+    },
+    "8-intro-to-python-in-rhino/81-accessing-the-rhino-apis-in-python": {
       "double_links": []
     }
   },
