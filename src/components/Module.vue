@@ -29,8 +29,12 @@
   
 }
 
-p {
-  line-height: 1.7em;
+* >>> p {
+  line-height: 1.5em;
+}
+
+* >>> li {
+  line-height: 1.5em;
 }
 
 blockquote {
