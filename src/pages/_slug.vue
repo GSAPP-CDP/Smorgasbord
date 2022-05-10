@@ -70,5 +70,26 @@ ul {
   margin: 0px;
 }
 
+* >>> img {
+  width: 100%;
+  height: auto; 
+}
+* >>> img[src$='#img-left'] { 
+  max-width: 50%;
+  max-height: 400px;
+  padding: 10px 15px 10px 0px;
+  float: left;
+  clear: both;
+}
+
+* >>> img[src$='#img-right'] { 
+  float: right;
+  max-width: 50%;
+  max-height: 400px;
+  padding: 10px 0px 10px 15px;
+  clear: both;
+}
+
+
 </style>
 

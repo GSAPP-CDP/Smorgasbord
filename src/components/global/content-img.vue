@@ -50,7 +50,7 @@ export default {
         
         return require(`~/content${thisdir}/${srconly}`) + srchash;
       } catch (error) {
-        return null;
+        return this.src;
       }
     }
 

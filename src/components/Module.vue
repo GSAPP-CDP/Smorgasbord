@@ -111,6 +111,19 @@ img + em, div.img + em {
   font-weight: bold;
 }
 
+* >>>  code {
+  background-color: #f4f4f4;
+  padding: 3px 6px;
+  border-radius: 5px;
+}
+
+* >>> blockquote {
+  border-left: 2px solid #666;
+  padding-left: 20px;
+  margin-left: 10px;
+  color: #666;
+}
+
 </style>
 
 <script>

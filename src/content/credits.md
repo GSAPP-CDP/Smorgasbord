@@ -12,24 +12,33 @@ The following group of people have produced tutorials as well as were actively e
 
 Dan Taeyoung 
 
-
 #### Tutorials by:
 
-**Carlo Bailey**
+**Carlo Bailey** - Carlo Bailey is an Adjunct Assistant Professor at Columbia University GSAPP. He is also a Senior Data Scientist at VTS, a prop-tech company bringing advanced machine learning to the commercial real estate industry. His teaching and research focus on new methods in geospatial analytics, machine learning, big data, and visualization.
 
-**Celeste Layne** - Celeste Layne is an urban planner by training — software engineer by profession currently working at digital media startup, theSkimm. She is one of the founding members of the NYC Chapter for Architechie — a community of professionals working at the intersection of architecture and technology. As an educator, Celeste has developed curricula for General Assembly’s Software Engineering Immersive. She is currently leading courses in web development and computational design workflows as an adjunct professor at Columbia University.
+His work has been featured in numerous publications including The New York Times, Wired, MSNBC, Architect, and Entrepreneur Magazine. Carlo has lectured widely and co-authored numerous scientific papers that have been published by Springer and the International Journal of Architectural Computing.
+
+Prior to his current positions, Carlo held senior roles within WeWork’s research and development team, where he was modelling the dynamics between people and space, and had stints at Topos, KieranTimberlake, and Foster + Partners.
+
+**Celeste Layne** - Celeste Layne is an urban planner by training — software engineer by profession having previously worked at Paddle8 and Knotel. As an educator, Celeste has developed curricula for General Assembly’s Software Engineering Immersive. Currently, she leads courses in public interest technology and programming for spatial practices as an adjunct associate professor in the Architecture Department at Columbia GSAPP. The work she does there feeds her practice. 
+
+Celeste received a graduate degree in City and Regional Planning from the University of Pennsylvania Stuart Weitzman School of Design and is a co-founder of the Architechie New York Chapter, a community founded by architects and designers who now work in technology fields with a mission to bring more diverse backgrounds to the tech industry.
 
 **Dan Taeyoung** - Adj Assistant Professor, Metatool and ADR2 Classes. Dan is a teacher, spatial designer, technologist and artist. His practice involves around collaborating to create architectural spaces and social collectives that embody how we might want to live together, as well as researching design and social tools that change the way we work together.
 
 **Danil Nagy** - Danil is a designer, coder, and educator with a passion for creating technology to transform the building industries. Trained as an architect, he has developed expertise across a diverse set of fields including professional practice, research, and software development. Danil loves solving complex problems through software solutions that combine technical state-of-the-art with sensible design and a deep focus on user experience. His specialties are computational design, automation, and front-end web development. Danil teaches architecture and technology at Columbia University and runs his own consultancy called Colidescope.
 
-**Dare Brawley**
+**Dare Brawley** - Dare Brawley is a designer and researcher. Her work focuses on the interactions of data infrastructures, housing, and spatial politics using methods from critical urban studies and geographic information systems. 
+She is currently a City Research Scientist with the Center on Housing Opportunity, Mobility, and Equity (HOME) at the New York City Department of Housing Preservation and Development.
+
+At Columbia GSAPP she teaches courses on mapping and spatial research methods, and on drawing as a tool for collective decision making.
+Her work has been exhibited and published by the Venice Architecture Biennale, Storefront for Art and Architecture, The Architectural League, and the Chicago Architecture Biennial. She received her M.S. in Urban Planning from Columbia, GSAPP and holds a BA in Architecture from Barnard College. She recently co-edited *Ways of Knowing Cities* (Columbia Books on Architecture and the City, 2019).
 
 **Luc Wilson** - Luc is a Director at Kohn Pedersen Fox and leads KPF Urban Interface (ui.kpf.com,) an urban technology team focused on computational design, software development, and data analytics. The UI team has worked on over 400 projects globally ranging from master plans to rezonings to supertall towers. His work and research has been published in both academic and popular publications from Architectural Science Review and the Economist to Wired and the New York Times
 
 **Violet Whitney** - Adj. Assistant Professor,- Measuring the Great Indoors, Datamining the City, Sidewalk Lab classes. Researcher for future cities, geo-data + simulation, ai tracking, equity and entrepreneurship, sharing economy, parametric fabrication, networked human. Director of Project Management, Sidewalk Labs.
 
-**Zachary White**
+**Zachary White** - Zachary White is a designer, artist and researcher with a focus on experimental use of emerging technologies. His work explores critical and creative applications of digital representation, web development, physical computing, and fabrication. He is an Adjunct Assistant Professor at Columbia GSAPP, where he co-teaches Architectural Drawing and Representation I, and Director of Technology Development at FullStack Modular.
 
 
 

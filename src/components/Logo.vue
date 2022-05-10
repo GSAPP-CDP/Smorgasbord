@@ -1,6 +1,6 @@
 <template>
   <div class="logo" :style="cssWidth">
-    <a href="/"><img src="~/assets/logo_full.svg" /></a>
+    <NuxtLink to="/"><img src="~/assets/logo_full.svg" /></NuxtLink>
 <!--    <div class="text">
       <div class="cdp"><a href="/">GSAPP CDP</a> </div>
       <div class="smorgasbord"><a href="/">Smorgasbord</a> </div>
