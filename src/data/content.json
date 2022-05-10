@@ -9,6 +9,9 @@
     "10-spatial-python/103-spatial-analysis-point-pattern": {
       "double_links": []
     },
+    "10-spatial-python/104-spatial-analysis-correlation": {
+      "double_links": []
+    },
     "10-spatial-python/105-spatial-analysis-clustering": {
       "double_links": []
     },
@@ -21,13 +24,10 @@
     "11-interactive-web/111-data-and-apis": {
       "double_links": []
     },
-    "11-interactive-web/113-javascript-in-the-browser": {
-      "double_links": []
-    },
     "11-interactive-web/112-javascript-in-the-browser": {
       "double_links": []
     },
-    "12-rhino-intro/12-1_rhino-interface": {
+    "11-interactive-web/113-javascript-in-the-browser": {
       "double_links": []
     },
     "11-interactive-web/index": {
@@ -45,13 +45,10 @@
     "12-rhino-intro/index": {
       "double_links": []
     },
-    "13-arch-drawing/13-1_orthographic-drawing": {
-      "double_links": []
-    },
     "13-arch-drawing/13-2_projection": {
       "double_links": []
     },
-    "10-spatial-python/104-spatial-analysis-correlation": {
+    "13-arch-drawing/13-1_orthographic-drawing": {
       "double_links": []
     },
     "13-arch-drawing/13-3_rendering": {
@@ -63,10 +60,10 @@
     "13-arch-drawing/index": {
       "double_links": []
     },
-    "14-geospatial-concepts/142-spatial-data": {
+    "14-geospatial-concepts/141-what-is-gis": {
       "double_links": []
     },
-    "14-geospatial-concepts/141-what-is-gis": {
+    "14-geospatial-concepts/142-spatial-data": {
       "double_links": []
     },
     "14-geospatial-concepts/143-coordinates-projections": {
@@ -126,6 +123,9 @@
     "16-ambient-computing-network-architecture/index": {
       "double_links": []
     },
+    "18-behavioral-modeling-intro/181-Unity-and-Agent-Based-Models": {
+      "double_links": []
+    },
     "18-behavioral-modeling-intro/182-Intro-To-Unity": {
       "double_links": []
     },
@@ -159,9 +159,6 @@
     "4-grasshopper-intro/46-exercise-parametric-tower-part-2": {
       "double_links": []
     },
-    "18-behavioral-modeling-intro/181-Unity-and-Agent-Based-Models": {
-      "double_links": []
-    },
     "4-grasshopper-intro/47-documentation-best-practices": {
       "double_links": []
     },
@@ -189,28 +186,28 @@
     "5-computational-design-modeling-in-grasshopper/5-5_Buildings-Density": {
       "double_links": []
     },
-    "5-computational-design-modeling-in-grasshopper/5-6_Troubleshooting": {
+    "5-computational-design-modeling-in-grasshopper/5-7_Design-Space": {
       "double_links": []
     },
-    "5-computational-design-modeling-in-grasshopper/5-7_Design-Space": {
+    "5-computational-design-modeling-in-grasshopper/5-6_Troubleshooting": {
       "double_links": []
     },
     "5-computational-design-modeling-in-grasshopper/index": {
       "double_links": []
     },
-    "6-intro-to-python/61-getting-started-with-Python": {
+    "6-intro-to-python/62-using-python-in-grasshopper": {
       "double_links": []
     },
-    "6-intro-to-python/62-using-python-in-grasshopper": {
+    "6-intro-to-python/61-getting-started-with-Python": {
       "double_links": []
     },
     "6-intro-to-python/index": {
       "double_links": []
     },
-    "7-fundamentals-of-python/72-conditionals-and-loops": {
+    "7-fundamentals-of-python/71-variables-lists-and-dictionaries": {
       "double_links": []
     },
-    "7-fundamentals-of-python/71-variables-lists-and-dictionaries": {
+    "7-fundamentals-of-python/72-conditionals-and-loops": {
       "double_links": []
     },
     "7-fundamentals-of-python/73-functions-and-classes": {
@@ -229,6 +226,9 @@
       "double_links": []
     },
     "8-intro-to-python-in-rhino/index": {
+      "double_links": []
+    },
+    "12-rhino-intro/12-1_rhino-interface": {
       "double_links": []
     }
   },
