@@ -48,4 +48,10 @@ a, a:visited {
 }
 </style>
 
+<script>
+export default {
+  scrollToTop: true,
+}
+
+</script>
 
