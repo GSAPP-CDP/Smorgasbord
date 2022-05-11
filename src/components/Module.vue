@@ -1,5 +1,5 @@
 <template>
-  <div class="post">
+  <div class="post" v-if="!loading">
     <div class="postheader">
       <div class="posttitle"><span class="val">{{ module.title }}</span></div>
       <div class="postauthor">by <span class="val">{{ moduleAuthors }}</span></div>
@@ -136,6 +136,7 @@ export default {
   data () {
     return {
       module: {},
+      loading: true,
     };
   },
   props: ['path'],
@@ -170,6 +171,11 @@ export default {
       }
     }
   },
+  created() {
+   this.$nextTick(function() {
+      this.loading = false;
+    })
+  }
 }
 
 </script>
