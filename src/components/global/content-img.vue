@@ -18,6 +18,9 @@ export default {
     },
   },
   computed: {
+    thispath() {
+      return this.$nuxt.$route.path;
+    }
   },
   methods: {
     imgSrc() {
@@ -36,7 +39,7 @@ export default {
         console.log("yo"); */
 
         var thispath = this.$nuxt.$route.path;
-        var thisdir = thispath.substr(0, thispath.lastIndexOf("/"))
+        var thisdir = thispath.substr(0, thispath.replace(/\/$/, '').lastIndexOf("/"));
 
         //console.log("##########")
 //        console.log(thisdir);
@@ -50,7 +53,7 @@ export default {
         
         return require(`~/content${thisdir}/${srconly}`) + srchash;
       } catch (error) {
-        return this.src;
+        return null;
       }
     }
 
