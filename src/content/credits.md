@@ -10,7 +10,7 @@ The following group of people have produced tutorials as well as were actively e
 
 #### Smorgasbord Concept and Development: 
 
-**Dan Taeyoung** - Dan is a teacher, spatial designer, technologist. His practice involves around collaborating to create architectural spaces and social collectives that embody how we might want to live and communicate together, as well as researching spatial and technological environments as tools for thought, emotions, and social tools that change the way we work together. Adjunct Assistant Professor, Metatool and ADR2 Classes. 
+**Dan Taeyoung** - Dan is a teacher, spatial designer, technologist, and artist. His practice involves around collaborating to create architectural spaces and social cooperatives that embody how we might want to live and communicate together, as well as researching architecture and technology as environments for deep interpersonal communication. He is Adjunct Assistant Professor at Columbia GSAPP, teaching classes on tangible media interfaces, experimental design tools, and forms of representation. He is a former co-founder of spaces such as Prime Produce, Soft Surplus, and the Cybernetics Library.
 
 #### Tutorials by:
 
