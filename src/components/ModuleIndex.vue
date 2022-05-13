@@ -5,6 +5,7 @@
     <div class="course">
       <SequenceLinks path="14-geospatial-concepts" />
       <SequenceLinks path="15-intro-qgis" />
+      <SequenceLinks path="19-data_visualization" />
     </div>
 
     <div class="coursetitle">Computational Drawing</div>
@@ -34,6 +35,7 @@
       <SequenceLinks path="17-ambient-computing-interactivity" />
       <SequenceLinks path="18-behavioral-modeling-intro" />
     </div> 
+
 
   </div>
 </template>

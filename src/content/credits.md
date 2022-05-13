@@ -10,7 +10,7 @@ The following group of people have produced tutorials as well as were actively e
 
 #### Smorgasbord Concept and Development: 
 
-Dan Taeyoung 
+**Dan Taeyoung** - Dan is a teacher, spatial designer, technologist. His practice involves around collaborating to create architectural spaces and social collectives that embody how we might want to live and communicate together, as well as researching spatial and technological environments as tools for thought, emotions, and social tools that change the way we work together. Adjunct Assistant Professor, Metatool and ADR2 Classes. 
 
 #### Tutorials by:
 
@@ -24,8 +24,6 @@ Prior to his current positions, Carlo held senior roles within WeWork’s resear
 
 Celeste received a graduate degree in City and Regional Planning from the University of Pennsylvania Stuart Weitzman School of Design and is a co-founder of the Architechie New York Chapter, a community founded by architects and designers who now work in technology fields with a mission to bring more diverse backgrounds to the tech industry.
 
-**Dan Taeyoung** - Adj Assistant Professor, Metatool and ADR2 Classes. Dan is a teacher, spatial designer, technologist and artist. His practice involves around collaborating to create architectural spaces and social collectives that embody how we might want to live together, as well as researching design and social tools that change the way we work together.
-
 **Danil Nagy** - Danil is a designer, coder, and educator with a passion for creating technology to transform the building industries. Trained as an architect, he has developed expertise across a diverse set of fields including professional practice, research, and software development. Danil loves solving complex problems through software solutions that combine technical state-of-the-art with sensible design and a deep focus on user experience. His specialties are computational design, automation, and front-end web development. Danil teaches architecture and technology at Columbia University and runs his own consultancy called Colidescope.
 
 **Dare Brawley** - Dare Brawley is a designer and researcher. Her work focuses on the interactions of data infrastructures, housing, and spatial politics using methods from critical urban studies and geographic information systems. 
@@ -33,6 +31,8 @@ She is currently a City Research Scientist with the Center on Housing Opportunit
 
 At Columbia GSAPP she teaches courses on mapping and spatial research methods, and on drawing as a tool for collective decision making.
 Her work has been exhibited and published by the Venice Architecture Biennale, Storefront for Art and Architecture, The Architectural League, and the Chicago Architecture Biennial. She received her M.S. in Urban Planning from Columbia, GSAPP and holds a BA in Architecture from Barnard College. She recently co-edited *Ways of Knowing Cities* (Columbia Books on Architecture and the City, 2019).
+
+**Jia Zhang** - Jia Zhang is a Mellon Associate Research Scholar at Columbia University's Center for Spatial Research. She experiments with communicating quantitative and qualitative data visually. She is currently building projects that deal with public facing data of the urban environment and interactive tools that allow individuals to directly engage with urban information for their own well-being. Jia completed her PhD at MIT’s Media Lab.
 
 **Luc Wilson** - Luc is a Director at Kohn Pedersen Fox and leads KPF Urban Interface (ui.kpf.com,) an urban technology team focused on computational design, software development, and data analytics. The UI team has worked on over 400 projects globally ranging from master plans to rezonings to supertall towers. His work and research has been published in both academic and popular publications from Architectural Science Review and the Economist to Wired and the New York Times
 
