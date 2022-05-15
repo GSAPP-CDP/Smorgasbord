@@ -8,38 +8,30 @@
 ---
 # Sequence: Interactive Web
 
+![ivan sutherland](assets/ivan-sutherland-sketchpad-03.png)
+*Photo: Ivan Sutherland invented Sketchpad, the ancestor of modern computer-aided design (CAD) programs, in 1962 while at MIT.*
+
 ## Sequence Summary:
 
-This sequence is an introduction to modern web design and development. While the topics covered are broad and introductory, the backbone of this sequence is programming, the lens through which the content and concepts will be taught. It covers the foundational, front-end languages HTML, CSS and JavaScript to create work for the web browser.
+This sequence is an introductory guide to modern web design and development. It covers the foundational, front-end languages HTML, CSS and JavaScript as a tool for creating interactive content for the web.
 
 ## Why?
 
-THe web in increasingly becoming an integral part of 
+The web is an integral part of our everyday lives – Amazon Echo Show, Google Nest, Zoom, FaceTime, Slack, Netflix, Apple Maps. As a communication medium, the web has its own inherent characteristics and ways of impacting the people that use it. Marc Andreessen, founder of Netscape, famously said, "Software is eating the world." By understanding the potentials and limitations of creating digital experiences through software (or hardware), architects have an opportunity to shape the future of both the built and virtual environment.
+
+While this modules' focus is front-end web languages – those that work together to make up the
+visual side of web sites. These languages form the foundation for further exploration into emergent technologies such as voice search or control, blockchain, conversational AI, development of the metaverse and much more. The visual elements of all websites use a combination of three languages:
+
+* HTML — which stands for HyperText Markup Language and creates and controls content such as paragraphs, headings, links and more.
+* CSS — or Cascading Style Sheets, which sets how the content of websites (the HTML) should look, such as how websites look on a mobile screen, versus tablet or desktop.
+* Javascript – which defines how a user interacts with the web. For example, when a user types in their email address into an input field, JavaScript can check the text is correctly formatted. Anything that happens after a page has loaded is usually controlled with Javascript.
 
 ## Modules:
 
-* Javascript in the Browser I - Weather UI Design
+* Javascript in the Browser I
 * Data and APIs
-* JavaScript in the Browser II - Events and UIs
-* JavaScript in the Browser III - Events and UIs
-
-## Modules Overview/Sequence
-
-- **Javascript in the Browser I - Weather UI Design**
-  Digital technologies increasingly form the backdrop for our everyday work and play. Something as simple as a weather widget mediates awareness of the world in ways that matter to the person using it. In this module we will design a simple display of current weather conditions for a single city which will be determined by the user of your site. The premice of this experiment is to guide you through the steps of using client-side JavaScript in the browser to request JSON data directly from a weather service and render that JSON data to the web browser.
-- **Data and APIs**
-  This module covers the basics of working with HTML files.
-- **JavaScript in the Browser II - Events and UIs**
-  This module covers the basics of working with HTML files.
-- **JavaScript in the Browser III - Events and UIs**
-  This module covers the basics of working with HTML files.
-
-## Guides
-
-* [What is a URL?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL)
-* [What is Code?](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/), Paul Ford, Bloomberg Businessweek. June 15, 2015.
-* [Dealing with Files](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Dealing_with_files)
-* [Simple Guide to HTML <head> Elements](https://github.com/joshbuchea/HEAD)
+* JavaScript in the Browser II
+* JavaScript in the Browser III
 
 ## Github
 At a high level, GitHub is a website and cloud-based service that helps developers store and manage their code, as well as track and control changes to their code. To understand exactly what GitHub is, you need to know two connected principles:
@@ -123,28 +115,4 @@ CSS stands for Cascading Style Sheet and was invented in 1994 by Håkon Lie. It 
 * [Locating DOM Elements Using Selectors](https://developer.mozilla.org/en-US/docs/Web/API/Document_object_model/Locating_DOM_elements_using_selectors), MDN Documentation
 * [Events and the DOM](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events), MDN Documentation
 
-## Search, Filter and Sort
-
-* [Build a JavaScript Search Bar](https://www.jamesqquick.com/blog/build-a-javascript-search-bar), James Quick
-* [Four Methods to Search Through Arrays in JavaScript](https://www.digitalocean.com/community/tutorials/js-array-search-methods), Digital Ocean
-
-* [filter() method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) – MDN Documentation
-* [JavaScript Array FIlter: Filtering Elements](https://www.javascripttutorial.net/javascript-array-filter/), Javascript Tutorial
-* [How to Filter Object in JavaScript](https://www.codegrepper.com/code-examples/javascript/how+to+filter+object+in+javascript), Code Grepper 
-
-* [How to Sort an Array of Objects by a Property Value in JavaScript](https://flaviocopes.com/how-to-sort-array-of-objects-by-property-javascript/), Flavio Copes
-* [How to Sort an Array of Objects in JavaScript](https://www.sitepoint.com/sort-an-array-of-objects-in-javascript/), Sitepoint 
-* [Sort an Array of Objects in Javascript](https://www.javascripttutorial.net/array/javascript-sort-an-array-of-objects/), Javascript Tutorial
-
-##### References
-
-* [Keller Easterling](http://kellereasterling.com/books)
-* [Damien Hirst](https://damienhirst.com/artworks/catalogue)
-* [Printed Matter](https://www.printedmatter.org/catalog)
-* [Experimental Jetset](http://www.jetset.nl/)
-
-## User Interface Design
-
-* [10 Usability Heuristics for User Interface Design](https://www.nngroup.com/articles/ten-usability-heuristics/) by Jakob Nielsen. Updated Nov. 15, 2020
-* [iOS Design Themes](https://developer.apple.com/design/human-interface-guidelines/ios/overview/themes/), Human Interface Guidelines
 

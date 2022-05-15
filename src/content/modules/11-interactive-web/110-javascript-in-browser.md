@@ -13,7 +13,9 @@
 
 # Javascript in the Browser I - Weather UI Design
 
-Digital technologies increasingly form the backdrop for our everyday work and play. Something as simple as a weather widget mediates awareness of the world in ways that matter to the person using it. Design a display of current weather conditions for a single city which will be determined by the user of your site. The premice of this experiment is to guide you through the steps of using client-side JavaScript in the browser to request JSON data directly from a weather service and render that JSON data to the web browser.
+Digital technologies increasingly form the backdrop for our everyday work and play. Something as simple as a weather widget mediates awareness of the world in ways that matter to the person using it. 
+
+Design a display of current weather conditions for a single city which will be determined by the user of your site. The premice of this experiment is to guide you through the steps of using client-side JavaScript in the browser to request JSON data directly from a weather service and render that JSON data to the web browser.
 
 __Note:__ This experiment is meant to be used as a technical guide. Consider _all_ the data that is returned from the weather service, not just the temperature and let that inform your design choices. What kind of experience could you create to accomodate all possible weather conditions? Consider how your agency as a designer can enter into the design of this interface – as a system, what is the weather?
 
@@ -26,7 +28,7 @@ __Note:__ This experiment is meant to be used as a technical guide. Consider _al
 ### Set Up Your HTML Project
 
 1. Set up a new project using a text editor, like [Visual Studio Code](https://code.visualstudio.com/) a free, open source code editor available for Mac, Windows, or Linux.
-  * See the setup guides for [Mac](https://code.visualstudio.com/docs/setup/mac) and [Windows](https://code.visualstudio.com/docs/setup/windows)
+  * See the installation guides for [Mac](https://code.visualstudio.com/docs/setup/mac) and [Windows](https://code.visualstudio.com/docs/setup/windows)
 2. Open up a new project folder and name it `weather-widget`. To create a new project folder in Visual Studio Code, navigate to the “File” menu item in the top menu and select “Add Folder to Workspace.” In the new window, click the “New Folder” button and create a new folder called `weather-widget`.
 
 ![cerate project folder](assets/create-project-folder.gif)
@@ -56,7 +58,7 @@ Let's take a step back and look at each of these file types. Think of an HTML fi
 In your blank `index.html` file, set up the bones for what will be your weather application by copying and pasting in the following code snippet, or using the one found [here](https://www.w3schools.com/html/html_basic.asp).
 
 ```html
-index.html
+weather-widget/index.html
 
 <!DOCTYPE html>
 <html lang="en">
@@ -99,7 +101,7 @@ At this point, we will be setting up our HTML file to be styled. How? By using C
 The following is the initial page layout and goes in between the opening and closing body tags:
 
 ```html
-index.html
+weather-widget/index.html
 
 <div class="container">
   <div class="input-container">
@@ -150,8 +152,8 @@ For this exercise, we will be using an external file which we have already creat
 
 Link the stylesheet to the HTML file using the link tag. The link tag takes two attributes, `rel` which sets the relationship between the HTML page and the file its linked to and `href` which sets the path to the stylesheet. In this case, the relationship is that our file is the stylesheet to the HTML file and the path is the location of the stylesheet in our project folder. Here, our stylesheet is located in the styles subfolder, `styles/style.css`
 
-```
-index.html
+```html
+weather-widget/index.html
 
 <!DOCTYPE html>
 <html lang="en">
@@ -164,8 +166,8 @@ index.html
 
 Now that we've connected our stylesheet to our HTML file, let's set up our webpage with a basic layout using CSS styles. First, use the universal selector property to strip all the elements of their inherent margins and padding. Many HTML tags have [default browser values](https://chromium.googlesource.com/chromium/blink/+/master/Source/core/css/html.css) that we would have to take into account when we are designing our webpage. So, some developers use a simple reset. For example, the default browser style for an `<h2>` tag is:
 
-```
-style.css
+```css
+weather-widget/styles/style.css
 
 h2 {
     display: block;
@@ -194,7 +196,7 @@ To learn more about the box model, these two resources can be quite helpful:
 For this exercise, we want the browser to account for any border and padding in the values we specify for an element's width and height. In the `style.css` file copy and paste the following code snippet: 
 
 ```css
-style.css
+weather-widget/styles/style.css
 
 * {
   box-sizing: border-box;
@@ -206,7 +208,7 @@ style.css
 Next, we'll set the height of the HTML tag to 100%. The `<body>` tag looks to its parent, `<html>` tag for how to scale the dynamic property, so the HTML tag needs to have its height set as well. This will give our layout a nice snug fit within the browser window.
 
 ```css
-style.css
+weather-widget/styles/style.css
 
 html,
 body {
@@ -219,7 +221,7 @@ At this point, you should see the styles refelected in your browser window -- th
 Now, we need to center the input tag and button in the browser window. There are a couple ways we can accomplish this; but for the sake of simplicity we will use [flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/). It's best practice to place the `display: flex;` property on the parent element. In this case, its the element with the `.container` class. Nested inside are two child elements, `input-container` and `output-container`. We want these elements centered on the page, so first apply `flex-direction: column;` to the parent element so that the `input-container` and `output-container` stack on top each other like blocks -- the default behavior is `flex-direction: row;`. Then, flexbox provides two properties that make centering simple: `align-items: center;` and `justify-content: center;`.
 
 ```css
-style.css
+weather-widget/styles/style.css
 
 .container {
   height: 100%;
@@ -257,7 +259,7 @@ The `input-container` contains a `<form>` tag and nested inside the `<form>` tag
 Copy and paste the following code snippet for the input field and the search button. 
 
 ```css
-style.css
+weather-widget/styles/style.css
 
 input[type="text"] {
   width: 100%;
@@ -290,7 +292,7 @@ input::placeholder{
 The `output-container` contains an `<h2>` tag and `<p>` tag. Add the following styles to these elements. This is where the current temperature about the requested city will be rendered. In the mean time, we can hard code a city name and temperature to verify that our styles work.
 
 ```css
-style.css
+weather-widget/styles/style.css
 
 .output_component{
   position: absolute;
