@@ -20,11 +20,13 @@ This sequence is an introductory guide to modern web design and development. It 
 The web is an integral part of our everyday lives – Amazon Echo Show, Google Nest, Zoom, FaceTime, Slack, Netflix, Apple Maps. As a communication medium, the web has its own inherent characteristics and ways of impacting the people that use it. Marc Andreessen, founder of Netscape, famously said, "Software is eating the world." By understanding the potentials and limitations of creating digital experiences through software (or hardware), architects have an opportunity to shape the future of both the built and virtual environment.
 
 While this modules' focus is front-end web languages – those that work together to make up the
-visual side of web sites. These languages form the foundation for further exploration into emergent technologies such as voice search or control, blockchain, conversational AI, development of the metaverse and much more. The visual elements of all websites use a combination of three languages:
+visual side of web sites. The visual elements of all websites use a combination of three languages:
 
 * HTML — which stands for HyperText Markup Language and creates and controls content such as paragraphs, headings, links and more.
 * CSS — or Cascading Style Sheets, which sets how the content of websites (the HTML) should look, such as how websites look on a mobile screen, versus tablet or desktop.
 * Javascript – which defines how a user interacts with the web. For example, when a user types in their email address into an input field, JavaScript can check the text is correctly formatted. Anything that happens after a page has loaded is usually controlled with Javascript.
+
+These languages form the foundation for further exploration into emergent technologies such as voice search or control, blockchain, conversational AI, development of the metaverse and much more. 
 
 ## Modules:
 
