@@ -1,20 +1,38 @@
 ---
-moduleid: 110
-title: Interactive Web
-published: True
-slug: interactive-web
-authors:
- - "Celeste Layne"
+	moduleid: 110
+	title: Interactive Web
+	published: True
+	slug: interactive-web
+	authors:
+	 - "Celeste Layne"
 ---
 # Sequence: Interactive Web
+
 ## Sequence Summary:
+
+This sequence is an introduction to modern web design and development. While the topics covered are broad and introductory, the backbone of this sequence is programming, the lens through which the content and concepts will be taught. It covers the foundational, front-end languages HTML, CSS and JavaScript to create work for the web browser.
+
 ## Why?
+
+THe web in increasingly becoming an integral part of 
+
 ## Modules:
 
 * Javascript in the Browser I - Weather UI Design
 * Data and APIs
 * JavaScript in the Browser II - Events and UIs
 * JavaScript in the Browser III - Events and UIs
+
+## Modules Overview/Sequence
+
+- **Javascript in the Browser I - Weather UI Design**
+  Digital technologies increasingly form the backdrop for our everyday work and play. Something as simple as a weather widget mediates awareness of the world in ways that matter to the person using it. In this module we will design a simple display of current weather conditions for a single city which will be determined by the user of your site. The premice of this experiment is to guide you through the steps of using client-side JavaScript in the browser to request JSON data directly from a weather service and render that JSON data to the web browser.
+- **Data and APIs**
+  This module covers the basics of working with HTML files.
+- **JavaScript in the Browser II - Events and UIs**
+  This module covers the basics of working with HTML files.
+- **JavaScript in the Browser III - Events and UIs**
+  This module covers the basics of working with HTML files.
 
 ## Guides
 
@@ -24,9 +42,27 @@ authors:
 * [Simple Guide to HTML <head> Elements](https://github.com/joshbuchea/HEAD)
 
 ## Github
+At a high level, GitHub is a website and cloud-based service that helps developers store and manage their code, as well as track and control changes to their code. To understand exactly what GitHub is, you need to know two connected principles:
 
-* Getting Started with GitHub Desktop, GitHub Desktop Documentation 
-* Getting Started with Git and GitHub Desktop, Codecademy
+* Version control
+* Git
+
+### What is Version Control?
+Version control is the management of changes to documents, computer programs, websites, and other collections of information.
+
+### What is Git?
+Git is a specific open-source version control system created in 2005 by Linus Torvalds, the creator of Linux. Specifically, Git is a distributed version control system, which means that the entire codebase and history is available on every developer’s computer, which allows for easy branching and merging.  It can be used with any file type such as such as Word documents or Final Cut projects, but is most often used for tracking code files. 
+
+GitHub is a Git repository hosting service. It allows developers and engineers to create remote, public-facing repositories on the cloud for free. While Git is a command line tool, GitHub provides a Web-based graphical interface.
+
+For the following reasons, GitHub is the version control manager of choice:
+
+* It manage changes over time.
+* It aids sharing and collaboration.
+* It allows for experimentation.
+
+
+* [Getting Started with GitHub Desktop](https://docs.github.com/en/get-started/quickstart/hello-world), GitHub Desktop Documentation 
 
 ## HTML Basics
 HTML stands for HyperText Markup Language and was invented in 1989 by Sir Timothy Berners-Lee, a computer scientist. The fundamental building block of HTML is the element. Elements consist of an opening tag, closing tag and content (text, image, video) sandwiched in between. The content is what the user sees on the webpage. The tags tell the browser the type of content and how to present it.

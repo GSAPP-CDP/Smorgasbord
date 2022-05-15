@@ -1,11 +1,12 @@
 ---
 
-moduleid: 110
-title: Javascript in the Browser I - Weather UI Design
-published: True
-slug: javascript-in-browser
-authors:
- - "Celeste Layne"
+	moduleid: 110
+	title: Javascript in the Browser I - Weather UI Design
+	published: True
+	slug: javascript-in-browser
+	authors:
+	 - "Celeste Layne"
+	 
 ---
 
 ===========================================
