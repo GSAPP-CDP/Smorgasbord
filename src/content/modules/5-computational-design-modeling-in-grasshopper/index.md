@@ -6,14 +6,15 @@ slug: computational-design-modeling-in-grasshopper
 authors:
  - "Luc Wilson"
 ---
-# Sequence: Computational Design Modeling In Grasshopper
+![description](images/5-7-0_Teaser.gif)
+
 ## Sequence Summary:
 
 This sequence of modules introduces computational design modeling in Grasshopper through first exploring the concept of computational design modeling and positioning it relative to other related methods, such as parametric modeling and generative modeling, and then developing a simple computational urban design model.
 
 You get to generate hundreds of urban design schemes + performance metrics. *Who wouldn't want to do that??*
 
-This sequence assumes that you have done the [Intro to Grasshopper sequence](https://github.com/GSAPP-CDP/Smorgasbord/blob/main/src/content/modules/4-grasshopper-intro/4-GH-Intro-Sequence%20Overview.md).
+This sequence assumes that you have done the [Intro to Grasshopper sequence](https://cdp-smorgasbord.netlify.app/modules/4-grasshopper-intro/index).
 
 ## Why?
 
@@ -25,10 +26,10 @@ Yes! The "Why" is such a big topic that the entire first module will be devoted 
 
 ## Modules:
 
-1. [What is Computational Design Modeling?](https://github.com/GSAPP-CDP/Smorgasbord/blob/main/src/content/modules/5-computational-design-modeling-in-grasshopper/5-1-Comp-Design-Modeling.md)
-2. [Subdividing Geometry for Analysis.](https://github.com/GSAPP-CDP/Smorgasbord/blob/main/src/content/modules/5-computational-design-modeling-in-grasshopper/5-2-Subdivide-Geometry.md)
-3. [Developing spatial analysis tools and metrics.](https://github.com/GSAPP-CDP/Smorgasbord/blob/main/src/content/modules/5-computational-design-modeling-in-grasshopper/5-3-Analysis-Tools.md)
-4. [Creating a parametric street grid.](https://github.com/GSAPP-CDP/Smorgasbord/blob/main/src/content/modules/5-computational-design-modeling-in-grasshopper/5-4-Street-Grid.md)
-5. [Urban scale procedural generation.](https://github.com/GSAPP-CDP/Smorgasbord/blob/main/src/content/modules/5-computational-design-modeling-in-grasshopper/5-5_Buildings-Density.md)
-6. [Putting Everything Together.](https://github.com/GSAPP-CDP/Smorgasbord/blob/main/src/content/modules/5-computational-design-modeling-in-grasshopper/5-6_Troubleshooting.md)
-7. [Creating a design spaces & exploring results.](https://github.com/GSAPP-CDP/Smorgasbord/blob/main/src/content/modules/5-computational-design-modeling-in-grasshopper/5-7_Design-Space.md)
+1. [What is Computational Design Modeling?](https://cdp-smorgasbord.netlify.app/modules/5-computational-design-modeling-in-grasshopper/5-1-Comp-Design-Modeling)
+2. [Subdividing Geometry for Analysis.](https://cdp-smorgasbord.netlify.app/modules/5-computational-design-modeling-in-grasshopper/5-2-Subdivide-Geometry)
+3. [Developing spatial analysis tools and metrics.](https://cdp-smorgasbord.netlify.app/modules/5-computational-design-modeling-in-grasshopper/5-3-Analysis-Tools)
+4. [Creating a parametric street grid.](https://cdp-smorgasbord.netlify.app/modules/5-computational-design-modeling-in-grasshopper/5-4-Street-Grid)
+5. [Urban scale procedural generation.](https://cdp-smorgasbord.netlify.app/modules/5-computational-design-modeling-in-grasshopper/5-5_Buildings-Density)
+6. [Putting Everything Together.](https://cdp-smorgasbord.netlify.app/modules/5-computational-design-modeling-in-grasshopper/5-6_Troubleshooting)
+7. [Creating a design spaces & exploring results.](https://cdp-smorgasbord.netlify.app/modules/5-computational-design-modeling-in-grasshopper/5-7_Design-Space)

@@ -1,44 +1,41 @@
 <template>
   <div class="moduleindex" :class="{ indexview: index }">
 
+    <div class="coursetitle">Mapping and Data</div>
     <div class="course">
-      <div class="coursetitle">Mapping and Data</div>
-
       <SequenceLinks path="14-geospatial-concepts" />
       <SequenceLinks path="15-intro-qgis" />
+      <SequenceLinks path="19-data_visualization" />
     </div>
 
+    <div class="coursetitle">Computational Drawing</div>
     <div class="course">
-      <div class="coursetitle">Computational Drawing</div>
-
       <SequenceLinks path="12-rhino-intro" />
       <SequenceLinks path="13-arch-drawing" />
     </div>
 
+    <div class="coursetitle">Programming for Design Practices: A - Grasshopper</div>
     <div class="course">
-      <div class="coursetitle">Programming for Design Practices: A - Grasshopper</div>
-
       <SequenceLinks path="4-grasshopper-intro" />
       <SequenceLinks path="5-computational-design-modeling-in-grasshopper" />
     </div>
 
+    <div class="coursetitle">Programming for Design Practices: B - Python</div>
     <div class="course">
-      <div class="coursetitle">Programming for Design Practices: B - Python</div>
-
       <SequenceLinks path="6-intro-to-python" />
       <SequenceLinks path="7-fundamentals-of-python" />
       <SequenceLinks path="8-intro-to-python-in-rhino" />
       <SequenceLinks path="10-spatial-python" />
     </div>
 
+    <div class="coursetitle">Programming for Design Practices: C - Web and Interactivity</div>
     <div class="course">
-      <div class="coursetitle">Programming for Design Practices: C - Web and Interactivity</div>
-
       <SequenceLinks path="11-interactive-web" />
       <SequenceLinks path="16-ambient-computing-network-architecture" />
       <SequenceLinks path="17-ambient-computing-interactivity" />
       <SequenceLinks path="18-behavioral-modeling-intro" />
     </div> 
+
 
   </div>
 </template>
@@ -46,17 +43,20 @@
 <style scoped>
 
 .course {
+  border-left: 2px solid gray;
+  padding-left: 8px;
 }
 
 .coursetitle {
-  font-size: 2em;
-  margin: 30px 0px;
+  font-size: 1.5em;
+  margin-bottom: 10px;
 }
 
 .moduleindex {
   color: 555;
   font-family: Lato;
   color: black;
+  font-size: 0.85em;
 }
 
 .sequence {

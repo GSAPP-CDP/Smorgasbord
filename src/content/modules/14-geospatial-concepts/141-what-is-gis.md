@@ -9,11 +9,9 @@ authors:
 
 # What is Geographic Information Systems?
 
-
 ## Module Summary
 
 This module will introduce geographic information systems (GIS) and their application for research and design of the built environment. It begins with a definition of GIS that considers how this set of technologies is shaped by and shapes its social context. From this premise it discusses the forms of abstraction at the heart of this work and asks readers to consider their significance and potential.  
-
 
 ## A definition
 
@@ -50,8 +48,10 @@ GIS is not independent of its social, political and cultural context. Instead  G
 ## A diagram: components of a GIS
 
 ![five components of a GIS](images/01-gis-components.png)
+*Many similar diagrams showing components of a GIS*
 
 The diagrams above of the *Components of a GIS* are ubiquitous in GIS instructional materials (these specific examples are some of the top results from an image search for 'GIS components'). These five components of a GIS are generally described as:  
+
 - **people**
 - **data**
 - **methods**
@@ -60,14 +60,12 @@ The diagrams above of the *Components of a GIS* are ubiquitous in GIS instructio
 
 Sometimes **networks** are included as a sixth component given the increasing prevalence of web-based maps and spatial databases.
 
-
 Despite being visually jarring (read: ugly!!) they are a helpful way to visualize aspects of our above working definition of GIS. The diagrams again emphasize that **GIS is not a software** but rather a set of related methods, tools, and data that are put to work by people.  
 
 ## Another diagram: layers, the fundamental abstraction of GIS
 
-
 ![layers in GIS](images/02-layers.png)
-
+*Examples of standard depictions of GIS layers*
 
 As Nicholas Chrisman describes above GIS requires the representation of measurements about geographic phenomena. There are many different ways that this representation takes place but fundamentally GIS-based work relies on one overall method of abstraction: **layers**.  
 
@@ -81,33 +79,28 @@ This layered model of the world is the underlying premise on which all GIS work 
 
 Nicholas R. Chrisman “What Does ‘GIS’ Mean?” Transactions in GIS 3, no. 2 (1999): 175–86.
 
-Wilmott, Clancy. *Mobile Mapping: Space, Cartography and the Digital.* Amsterdam University Press, 2020. https://doi.org/10.2307/j.ctvx8b7zc.7.
+Wilmott, Clancy. *Mobile Mapping: Space, Cartography and the Digital.* Amsterdam University Press, 2020. <https://doi.org/10.2307/j.ctvx8b7zc.7>.
 
 Wilson, Matthew W. *New Lines: Critical GIS and the Trouble of the Map.* Minneapolis: The University of Minnesota Press, 2017.
 
 #### Mapping sciences & geopolitics
 
-Rankin, William. After the Map: Cartography, Navigation, and the Transformation of Territory in the Twentieth Century. After the Map. Chicago: University of Chicago Press, 2016. http://chicago.universitypressscholarship.com/view/10.7208/chicago/9780226339535.001.0001/upso-9780226339368.
+Rankin, William. After the Map: Cartography, Navigation, and the Transformation of Territory in the Twentieth Century. After the Map. Chicago: University of Chicago Press, 2016. <http://chicago.universitypressscholarship.com/view/10.7208/chicago/9780226339535.001.0001/upso-9780226339368>.
 
 Wilson, Mabel. “The Cartography of W.E.B. Du Bois’s Color Line.” In W.E.B. Du Bois’s Data Portraits: Visualizing Black America: The Color Line at the Turn of the Twentieth Century, edited by Whitney Battle-Baptiste and Britt Rusert, First edition. [Amherst, Massachusetts] : Hudson, NY: The W.E.B. Du Bois Center at the University of Massachusetts Amherst ; Princeton Architectural Press, 2018.
 
 #### Maps & design process
 
-Corner, James. “The Agency of Mapping.” In Landscape Imagination: Collected Essays of James Corner 1990-2010. New York, UNITED STATES: Princeton Architectural Press, 2014. http://ebookcentral.proquest.com/lib/columbia/detail.action?docID=3387582.
+Corner, James. “The Agency of Mapping.” In Landscape Imagination: Collected Essays of James Corner 1990-2010. New York, UNITED STATES: Princeton Architectural Press, 2014. <http://ebookcentral.proquest.com/lib/columbia/detail.action?docID=3387582>.
 
+Desimini, Jill. “Cartographic Grounds.” Places Journal, January 17, 2013. <https://doi.org/10.22269/130117>.
 
-Desimini, Jill. “Cartographic Grounds.” Places Journal, January 17, 2013. https://doi.org/10.22269/130117.
-
-Mattern, Shannon. “Methodolatry and the Art of Measure.” Places Journal, November 5, 2013. https://doi.org/10.22269/131105.
+Mattern, Shannon. “Methodolatry and the Art of Measure.” Places Journal, November 5, 2013. <https://doi.org/10.22269/131105>.
 
 #### Evolution of spatial analysis
 
 McHarg, Ian L. *Design with Nature.* New York: J. Wiley, c1992.
 
 #### Textbooks
+
 Maantay, Juliana, and John Ziegler. GIS for the Urban Environment. Redlands, Calif: Independent Publishers Group (IPG) [distributor], 2006.
-
-
--------
-Module by Dare Brawley, fall 2021.  
-tutorial credit information, to be added in standard format

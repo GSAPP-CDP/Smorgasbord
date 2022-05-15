@@ -55,12 +55,11 @@ Outputs:
 - (D) The distance to the intersection with the cast ray. Similar to (P) rays with no intersection return the sampling radius distance.
 - (I) The index (or location of obstructing geometry within a list) or -1 if no obstacle hit.
 
-```
-Tip
-The letters for inputs and outputs are not consistent across components. For example, sometimes P = Point
-and other times P = Plane. Or sometimes P = Point and S = Point. Don't use the letters as an indicator of
-geometry or data type. Always mouse over to check data or geometry types.
-```
+
+>Tip:
+>
+>The letters for inputs and outputs are not consistent across components. For example, sometimes P = Point and other times P = Plane. Or sometimes P = Point and S = Point. Don't use the letters as an indicator of geometry or data type. Always mouse over to check data or geometry types.
+
 
 Lets create our inputs. First up, view rays. We will need a point to determine their start. We'll use the center of our tower panels so copy down the `parameter holder containing the vertical panels` from your parametric tower. These were created prior to creating the windows and should be untrimmed surfaces. (The windows are trimmed surfaces.)
 
@@ -72,14 +71,11 @@ Next, we need to create our view rays using a `Line` component. There are two th
 
 Previously we generated the center point of a surface using the Area component but that doesn't give us a vector. Luckily there is a component that does both! Get the `Evaluate Surface` component, which evaluates local surface properties, such as a point and normal vector) at {U,V} coordinates.
 
-```
-Tip
-There are two coordinate systems in Rhino and Grasshopper a global one and a local one.
-The global system is referred to and described by X,Y,Z coordinates. Remember when you made
-a point to as the input location for you tower? That was using the global coordinate system.
-Every piece of geometry has a local coordinate system that is independent of the global one
-and is referred to and described by U,V,W coordinates.
-```
+
+>Tip:
+>
+>There are two coordinate systems in Rhino and Grasshopper a global one and a local one. The global system is referred to and described by X,Y,Z coordinates. Remember when you made a point to as the input location for you tower? That was using the global coordinate system. Every piece of geometry has a local coordinate system that is independent of the global one and is referred to and described by U,V,W coordinates.
+
 
 Evaluate Surface is looking for a surface (those are our vertical tower panels) and a UV coordinate. We need to specify the UV coordinate for the center of the surface. We could measure the height and length of each surface and divide by two, but that would be tedious. Luckily there is an option to `Reparametrize` geometry, which maps the local coordinate system to a domain of 0 to 1. If we do that we don't have to worry about the actual dimensions of each surface, 0.5 will always be half way.
 
@@ -97,7 +93,7 @@ While our view rays were derived from our tower, the next two inputs for IsoVist
 
 ![description](images/4-5-5_Space.PNG)
 
-> _Space and straight lines!_
+*Space and straight lines!*
 
 <br>
 
@@ -107,7 +103,7 @@ While IsoVist Ray will accept any geometry as an obstruction, it runs faster and
 
 ![description](images/4-5-4_JoinMesh.PNG)
 
-> _Comparison of run time with and without the joined mesh. 20ms might not seem like it matters but in situations where you have more analysis points it will make a huge difference in calculation time._
+*Comparison of run time with and without the joined mesh. 20ms might not seem like it matters but in situations where you have more analysis points it will make a huge difference in calculation time.*
 
 <br>
 
@@ -127,13 +123,13 @@ The Gradient component has a number of presets to choose from (right click anywh
 
 ![description](images/4-5-6_Gradient1.PNG)
 
-> _right click on the gradient to pull up the presets_
+*right click on the gradient to pull up the presets*
 
 <br>
 
 ![description](images/4-5-6_Gradient2.PNG)
 
-> _right click on the black circles to change the colors_
+*right click on the black circles to change the colors*
 
 <br>
 
@@ -193,11 +189,11 @@ What started out as a pretty straight forward module, "Lets maximize views for o
 
 Do one of the following:
 
-1. One ray perpendicular to the façade does not come close to accurately discrbing the obstructions within a human field of view. It is a _huge_ simplification of an already simplified approach to quantifying view quality. Lets fix it! (Or at least reduce the amount of simplification.) Use the rotate component that `Rotates an object about a plane` to rotate your current sampling ray to create more rays for each point to better cover a field of view. Use the series component to generate your rotation angles. If your rotate rays don't look correct (see image below) take a look at your data tree structure -- you'll need to do some grafting to get everything to work correctly!
+1. One ray perpendicular to the façade does not come close to accurately describing the obstructions within a human field of view. It is a _huge_ simplification of an already simplified approach to quantifying view quality. Let’s fix it! (Or at least reduce the amount of simplification.) Use the rotate component that `Rotates an object about a plane` to rotate your current sampling ray to create more rays for each point to better cover a field of view. Use the `series` component to generate your rotation angles, ex. start the series at -60, step size 15, and count 9. The rotation component is expecting angels in Radians, if you followed the example in the previous sentence and are specifing degrees, right click on A and select "degrees." If your rotate rays don't look correct (see image below) take a look at your data tree structure -- you'll need to do some grafting to get everything to work correctly!
 
 ![description](images/4-5-8_Assignment1.PNG)
 
-2. The module had you measure how far you can see, but what about measuring _what_ you can see? Modify your definition to analyze views to a specific object, like a landmark building, park or river. To start you will need to generate target points. You could subdivide a curve (river) or subdivide a surface (park or building.) You could do this in grasshopper or by manually drawing points in Rhino. Next you need to connect those points to create view rays. Take a look at the Line Component we did not use, the one that `creates a line between two points`. Try Mesh Ray instead of IsoVist Ray -- it has an output more suited to this type of analysis. Finally, don't forget that your tower is also an obstruction! Makes to take that into consideration. You might have to use the `Move` component to slightly move the points off of the building using the normal vector.
+2. The module had you measure how far you can see, but what about measuring _what_ you can see? Modify your definition to analyze views to a specific object, like a landmark building, park or river. To start you will need to generate target points. Try subdividing a curve (ex. river) using `divide curve`. Next, you need to connect those points to create view rays. Take a look at the Line Component we did not use, the one that `creates a line between two points`. Try Mesh Ray instead of IsoVist Ray -- You'll want to use the "H" output, which is a boolean pattern indicating a hit or a miss. You can use `Mass Addition` to add up the number of hits, which is the number of points along your curve that are visible. Finally, don't forget that your tower is also an obstruction! Makes to take that into consideration. You might have to use the `Move` component to slightly move the points off of the building using the normal vector.
 
 ## Additional Resources
 

@@ -10,13 +10,14 @@ authors:
 # Spatial Data Types
 
 *"the technical question of the most appropriate data structure for the representation of geographic phenomena begs the philosophical question of the most appropriate conceptualization of the geographic world."*  
-Helen Couclelis. 1992. "People Manipulate Objects (but Cultivate Fields): Beyond the Raster-Vector Debate in GIS." 
+Helen Couclelis. 1992. "People Manipulate Objects (but Cultivate Fields): Beyond the Raster-Vector Debate in GIS."
 
 ## Module Summary
 
 This module introduces vector and raster spatial data types and discusses the different forms of representation and abstraction required by each. It asks readers to think critically about the affordances and limitations offered by each type of spatial data.  
 
 ## Spatial data: information linked to a space
+
 Spatial analysis and geographic information systems are powerful tools for understanding and designing the built environment. Our ability to interpret the world through computational tools for spatial analysis however relies in part on special forms of data that support linking information to a spatial location.  
 
 Lets look again at Nicholas Chrisman's definition of GIS from the previous module:  
@@ -43,8 +44,9 @@ So, then, what is spatial data??
 I like to use a very straightforward definition: ***information tied to a space***
 
 ![spatial data examples](images/142/02-spatial-data.png)
+*Spatial data in concept*
 
-These statements in the image to above are all examples of spatial data. Each is an example of information linked with a spatial location. 
+These statements in the image to above are all examples of spatial data. Each is an example of information linked with a spatial location.
 
 **"Where I grew up"** is spatial data about me where the reference to location might only be clear to people who know me well. **"Newark has 300k residents**" tells us how many people live in a particular city. **"Mount Mitchell is 6,684 feet tall"** helps us understand the height of the tallest mountain east of the Mississippi River. **"39.083055, -94.586736 is Kansas City"** tells us a name that has been given to the place with those latitude and longitude coordinates.  
 
@@ -56,23 +58,25 @@ In order to encode spatial information in ways that can be interpreted by a comp
 
 ### Vector data
 
-Vector spatial data is a method for representing geographic spaces, and attributes of those spaces, using discrete geometric shapes. The example below shows tax parcels (represented as polygons) for the City of Newark, NJ with information about the ownership and address of each parcel. 
+Vector spatial data is a method for representing geographic spaces, and attributes of those spaces, using discrete geometric shapes. The example below shows tax parcels (represented as polygons) for the City of Newark, NJ with information about the ownership and address of each parcel.
 
 Vector spatial data is composed of geometry and attributes associated with that geometry. Most often those attributes are stored in the form of a table (though in certain file formats they are stored in a structure called a dictionary).  
 
 These elements link directly with our basic definition of spatial data: information (attributes) tied to a space (geometry).  
 
-
 ![vector](images/142/03-vector.png)
-
+*Components of vector data*  
 ![vector features](images/142/03-vector-features.png)
+*Attributes and features of vector data*  
 
 Each feature in the dataset (or each individual element) is represented as a single entry in the attribute table.  
 ![vector geometry types](images/142/04-geometry.png#img-right)
+*Types of vector features*  
 
 Vector spatial data can have one of three different geometry types. An individual vector dataset can only have one type of geometry, for example: there cannot be a single dataset with both points and lines.
 
 Each geometry type is defined computationally by the following features:
+
 - **Points**
   - defined as a node
   - can have multi-point data, where a single feature (i.e. single row in attribute table) is associated with multiple points
@@ -85,13 +89,14 @@ Each geometry type is defined computationally by the following features:
 
 The things that each type of geometry is used to represent is subjective and depends on the scale of the dataset. For example points could represent fire hydrants on a map of a city block. Or, on a map of the whole world points could represent the location of the largest cities. Likewise the Hudson River could be represented as a single curving line on a map of the U.S. or could be represented as a polygon showing the river's varying width on a map of New York State.  
 
-***NEED TO FINISH UPDATING TEXT FROM HERE DOWN***
 ### Raster data
 
 Raster datasets are composed of a grid of cells where each cell contains exactly one numeric value, as illustrated schematically in the diagram below. Each cell has a dimension and therefore corresponds with some square area of the Earth's surface. Raster datasets must always be rectangular.
 
 ![raster](images/142/06-raster-grid.png)
+*Raster data in concept*  
 ![raster as grid](images/142/05-raster-.png#img-right)
+*Examples of raster data from a satellite image*  
 
 In contrast to vector dataset's discrete entities (features), rasters represent information as a continuous surface. Each cell does not necessarily represent a different entity but instead represents some observed numeric value associated with a specific square area of the earth's surface. This is a fundamentally different way of abstracting phenomena in the world.  
 
@@ -117,7 +122,7 @@ Vector and raster datasets are distributed and stored in a number of different f
     - **.shx – a positional index connecting the shp & dbf
     - **.prj – contains the projection information
     - **.shp.xml – contains the metadata
-    - **.sbn, **.sbx – spatial index files to help draw faster
+    - **.sbn,**.sbx – spatial index files to help draw faster
 - [GeoJSON](https://www.loc.gov/preservation/digital/formats/fdd/fdd000382.shtml)
   - open source file format
   - one file, uses a `*.geojson` file extension
@@ -127,10 +132,9 @@ Vector and raster datasets are distributed and stored in a number of different f
   - uses an XML format designed for storage of geographic data  
   - developed specifically for the software that would become Google Earth
 - [ArcGIS geodatabase](https://www.loc.gov/preservation/digital/formats/fdd/fdd000293.shtml)
-  - format developed by ESRI, essentially a spatial database in disguise as a file. Can be opened with QGIS or ESRI softwares. Also possible to open using Python (osgeo library needed) 
-- Spatial databases 
+  - format developed by ESRI, essentially a spatial database in disguise as a file. Can be opened with QGIS or ESRI softwares. Also possible to open using Python (osgeo library needed)
+- Spatial databases
   - large scale projects are often best executed using spatial databases such as [PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL) with [PostGIS](https://en.wikipedia.org/wiki/PostGIS)
-
 
 ## Storage Types: Raster Data
 
@@ -138,7 +142,7 @@ Vector and raster datasets are distributed and stored in a number of different f
   - most common & most well supported file type
   - extension of the TIFF data standard that allows for embeded geospatial metadata
   - can also still be opened by non-spatial enabled software (i.e. photoshop)
-  - when a georeferenced raster dataset does not include 'inline' geographic metadata it may be accompanied by a [`*.tfw` world file](https://en.wikipedia.org/wiki/World_file) with the same file name which contains the spatial reference information for the raster dataset that is stored in the TIFF file. 
+  - when a georeferenced raster dataset does not include 'inline' geographic metadata it may be accompanied by a [`*.tfw` world file](https://en.wikipedia.org/wiki/World_file) with the same file name which contains the spatial reference information for the raster dataset that is stored in the TIFF file.
     - When a raster dataset inlcudes a `*tfw` file, you need to make sure to place the `*.tiff` and `*.tfw` file in the same folder and maintain their matching names (just like with shapefiles).  
 - [JPEG 2000](https://www.loc.gov/preservation/digital/formats/fdd/fdd000303.shtml)
   - similar to GeoTIFF, it is an extension of the JPEG file standard
@@ -146,16 +150,9 @@ Vector and raster datasets are distributed and stored in a number of different f
   - often used for multilayer remote sensing data
   - can hold classification information (such as for land use land cover maps)
 
+## Challenge
 
-## Assignment
-
-Please read:  
+Read the text below and consider, *what are the conceptual differences between vector and raster data?*
 
 Helen Couclelis. 1992. ["People Manipulate Objects (but Cultivate Fields): Beyond the Raster-Vector Debate in GIS."](https://www.researchgate.net/publication/221589734_People_Manipulate_Objects_but_Cultivate_Fields_Beyond_the_Raster-Vector_Debate_in_GIS)
-In: Frank A.U., Campari I., Formentini U. (eds) *Theories and Methods of Spatio-Temporal Reasoning in Geographic Space. Lecture Notes in Computer Science*, vol 639. Springer, Berlin, Heidelberg. 1992. 
-
-
-
--------
-Module by Dare Brawley, fall 2021.  
-tutorial credit information, to be added in standard format
+In: Frank A.U., Campari I., Formentini U. (eds) *Theories and Methods of Spatio-Temporal Reasoning in Geographic Space. Lecture Notes in Computer Science*, vol 639. Springer, Berlin, Heidelberg. 1992.

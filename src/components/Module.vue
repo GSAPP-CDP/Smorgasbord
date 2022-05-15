@@ -1,5 +1,5 @@
 <template>
-  <div class="post">
+  <div class="post" v-if="!loading">
     <div class="postheader">
       <div class="posttitle"><span class="val">{{ module.title }}</span></div>
       <div class="postauthor">by <span class="val">{{ moduleAuthors }}</span></div>
@@ -29,8 +29,12 @@
   
 }
 
-p {
-  line-height: 1.7em;
+* >>> p {
+  line-height: 1.5em;
+}
+
+* >>> li {
+  line-height: 1.5em;
 }
 
 blockquote {
@@ -69,7 +73,7 @@ blockquote {
 /* https://vue-loader.vuejs.org/guide/scoped-css.html#child-component-root-elements */
 
 * >>> img {
-  max-width: 100%;
+  width: 100%;
   height: auto; 
 }
 * >>> img[src$='#img-left'] { 
@@ -111,6 +115,19 @@ img + em, div.img + em {
   font-weight: bold;
 }
 
+* >>>  code {
+  background-color: #f4f4f4;
+  padding: 3px 6px;
+  border-radius: 5px;
+}
+
+* >>> blockquote {
+  border-left: 2px solid #666;
+  padding-left: 20px;
+  margin-left: 10px;
+  color: #666;
+}
+
 </style>
 
 <script>
@@ -119,6 +136,7 @@ export default {
   data () {
     return {
       module: {},
+      loading: true,
     };
   },
   props: ['path'],
@@ -153,6 +171,11 @@ export default {
       }
     }
   },
+  created() {
+   this.$nextTick(function() {
+      this.loading = false;
+    })
+  }
 }
 
 </script>

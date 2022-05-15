@@ -1,3 +1,4 @@
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -34,6 +35,12 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
 
+    ['@nuxt/image', {
+        provider: 'static',
+        dir: "assets/images",
+    }],
+    
+
     ['@nuxtjs/google-fonts', {
       families: {
         'Lato': [300, 400, 700],
@@ -52,7 +59,11 @@ export default {
     '~/modules/process_content.js',
   ],
 
-  // Content module configuration: https://go.nuxtjs.dev/config-content
+  router: {
+    base: '/smorgasbord/'
+  },
+
+  // Content module configuration: https://go.nuxtjs.dev/config-contents
   content: {
    markdown: {
       rehypePlugins: ['~/plugins/rehype-content-img.js'],
@@ -66,15 +77,22 @@ export default {
       console.log(files)
 
 
-      return files.map(function(file) {
+      var fdir = files.map(function(file) {
+        console.log(file, " xxx")
         if(file.path === '/index') { return  '/'; }
         else { 
-          const filepathdir =  '/' + file.path.split('/')[1]
-          return filepathdir + '/' + file.slug;
+         // const filepathdir =  '/' + file.path.split('/')[1]
+//          return filepathdir + '/' + file.slug;
+            return file.path;
         }
       });
 
-    }
+      console.log(fdir);
+
+      return fdir;
+
+    },
+    dir: 'dist/smorgasbord'
   },
 
 
@@ -85,10 +103,11 @@ export default {
         test: /\.md$/i,
         loader: 'ignore-loader'
       })
-    }
+    },
+    publicPath: 'https://smorgasbord-dist.s3.us-east-1.amazonaws.com/',
   },
 
-  hooks: {
+/*  hooks: {
     'content:file:beforeInsert': (document) => {
       if (document.extension === '.md') {
         const { time } = require('reading-time')(document.text);
@@ -100,7 +119,7 @@ export default {
       }
     }
   },
-
+  */
 
 
 
