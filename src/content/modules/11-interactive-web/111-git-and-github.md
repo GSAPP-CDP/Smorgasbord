@@ -1,13 +1,11 @@
 ---
-	moduleid: 111
-	title: Javascript in the Browser - Git and GitHub
-	published: True
-	slug: git-and-github
-	authors:
-	 - "Celeste Layne"
+moduleid: 111
+title: "Javascript in the Browser - Git and GitHub"
+published: True
+slug: git-and-github
+authors:
+ - "Celeste Layne"
 ---
-
-===========================================
 
 # Javascript in the Browser - Git and GitHub Foundations
 

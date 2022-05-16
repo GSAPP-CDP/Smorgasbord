@@ -1,57 +1,66 @@
 {
   "modules": {
-    "10-spatial-python/101-data-manipulation": {
-      "double_links": []
-    },
-    "10-spatial-python/105-spatial-analysis-clustering": {
-      "double_links": []
-    },
     "10-spatial-python/104-spatial-analysis-correlation": {
       "double_links": []
     },
     "10-spatial-python/index": {
       "double_links": []
     },
-    "11-interactive-web/110-javascript-in-browser": {
-      "double_links": []
-    },
-    "11-interactive-web/112-javascript-in-the-browser": {
-      "double_links": []
-    },
-    "11-interactive-web/111-data-and-apis": {
+    "10-spatial-python/101-data-manipulation": {
       "double_links": []
     },
     "10-spatial-python/102-geospatial-data": {
       "double_links": []
     },
-    "10-spatial-python/103-spatial-analysis-point-pattern": {
+    "11-interactive-web/113-data-and-apis": {
       "double_links": []
     },
-    "11-interactive-web/index": {
+    "11-interactive-web/110-getting-started": {
       "double_links": []
     },
-    "12-rhino-intro/12-3_rhino-3d": {
+    "11-interactive-web/112-html-and-css": {
       "double_links": []
     },
-    "12-rhino-intro/index": {
+    "11-interactive-web/115-dom-manipulation": {
       "double_links": []
     },
-    "12-rhino-intro/12-2_rhino-2d": {
+    "11-interactive-web/114-events-and-uis": {
+      "double_links": []
+    },
+    "11-interactive-web/111-git-and-github": {
       "double_links": []
     },
     "12-rhino-intro/12-1_rhino-interface": {
       "double_links": []
     },
-    "13-arch-drawing/13-2_projection": {
+    "11-interactive-web/index": {
       "double_links": []
     },
-    "11-interactive-web/113-javascript-in-the-browser": {
+    "10-spatial-python/103-spatial-analysis-point-pattern": {
+      "double_links": []
+    },
+    "12-rhino-intro/12-4_rhino-nurbs": {
+      "double_links": []
+    },
+    "12-rhino-intro/12-2_rhino-2d": {
+      "double_links": []
+    },
+    "12-rhino-intro/index": {
+      "double_links": []
+    },
+    "12-rhino-intro/12-3_rhino-3d": {
+      "double_links": []
+    },
+    "10-spatial-python/105-spatial-analysis-clustering": {
       "double_links": []
     },
     "13-arch-drawing/13-1_orthographic-drawing": {
       "double_links": []
     },
-    "13-arch-drawing/index": {
+    "13-arch-drawing/13-2_projection": {
+      "double_links": []
+    },
+    "13-arch-drawing/13-3_rendering": {
       "double_links": []
     },
     "14-geospatial-concepts/141-what-is-gis": {
@@ -60,52 +69,49 @@
     "14-geospatial-concepts/142-spatial-data": {
       "double_links": []
     },
-    "14-geospatial-concepts/143-coordinates-projections": {
-      "double_links": []
-    },
-    "12-rhino-intro/12-4_rhino-nurbs": {
-      "double_links": []
-    },
-    "13-arch-drawing/13-3_rendering": {
-      "double_links": []
-    },
-    "14-geospatial-concepts/index": {
-      "double_links": []
-    },
-    "15-intro-qgis/152-print-layout": {
-      "double_links": []
-    },
-    "15-intro-qgis/151-mapping-where": {
-      "double_links": []
-    },
-    "15-intro-qgis/154-observations": {
-      "double_links": []
-    },
-    "15-intro-qgis/153-archives": {
-      "double_links": []
-    },
-    "15-intro-qgis/156-aerial-imagery": {
+    "13-arch-drawing/index": {
       "double_links": []
     },
     "13-arch-drawing/13-4_compositing": {
       "double_links": []
     },
+    "14-geospatial-concepts/index": {
+      "double_links": []
+    },
+    "15-intro-qgis/151-mapping-where": {
+      "double_links": []
+    },
+    "14-geospatial-concepts/143-coordinates-projections": {
+      "double_links": []
+    },
+    "15-intro-qgis/152-print-layout": {
+      "double_links": []
+    },
+    "15-intro-qgis/153-archives": {
+      "double_links": []
+    },
+    "15-intro-qgis/154-observations": {
+      "double_links": []
+    },
     "15-intro-qgis/155-satellites": {
       "double_links": []
     },
-    "16-ambient-computing-network-architecture/161-dynamic-environments": {
+    "15-intro-qgis/157-atlas": {
       "double_links": []
     },
-    "16-ambient-computing-network-architecture/162-network-architecture": {
+    "15-intro-qgis/156-aerial-imagery": {
       "double_links": []
     },
     "16-ambient-computing-network-architecture/163-low-and-high-programming": {
       "double_links": []
     },
-    "16-ambient-computing-network-architecture/166-sounds-speech-and-macros": {
+    "16-ambient-computing-network-architecture/161-dynamic-environments": {
       "double_links": []
     },
-    "15-intro-qgis/157-atlas": {
+    "15-intro-qgis/index": {
+      "double_links": []
+    },
+    "16-ambient-computing-network-architecture/162-network-architecture": {
       "double_links": []
     },
     "16-ambient-computing-network-architecture/164-Intro-to-Processing-Lighting": {
@@ -114,70 +120,67 @@
     "16-ambient-computing-network-architecture/165-Webhooks-Connecting-IFTTT-and-Processing": {
       "double_links": []
     },
-    "16-ambient-computing-network-architecture/168-Computer-Vision": {
+    "16-ambient-computing-network-architecture/166-sounds-speech-and-macros": {
       "double_links": []
     },
     "16-ambient-computing-network-architecture/167-Markers-and-Tracking": {
       "double_links": []
     },
-    "16-ambient-computing-network-architecture/index": {
-      "double_links": []
-    },
-    "18-behavioral-modeling-intro/182-Intro-To-Unity": {
-      "double_links": []
-    },
-    "15-intro-qgis/index": {
-      "double_links": []
-    },
-    "18-behavioral-modeling-intro/183-Agent-Based-Populations-and-Behavior-Bricks": {
-      "double_links": []
-    },
-    "19-data_visualization/index": {
+    "16-ambient-computing-network-architecture/168-Computer-Vision": {
       "double_links": []
     },
     "18-behavioral-modeling-intro/181-Unity-and-Agent-Based-Models": {
       "double_links": []
     },
-    "19-data_visualization/Module1WorkflowsPartASetupCodeEnvironment": {
+    "18-behavioral-modeling-intro/182-Intro-To-Unity": {
       "double_links": []
     },
-    "19-data_visualization/Module2Introductiontod3anscombe": {
-      "double_links": []
-    },
-    "19-data_visualization/Module3Tourofthebasiccharts2Line": {
-      "double_links": []
-    },
-    "19-data_visualization/Module3Tourofthebasiccharts3Pie": {
+    "16-ambient-computing-network-architecture/index": {
       "double_links": []
     },
     "18-behavioral-modeling-intro/184-Mapbox-SDK-and-Routing": {
       "double_links": []
     },
-    "19-data_visualization/Module5Buildinginteractivity": {
+    "18-behavioral-modeling-intro/183-Agent-Based-Populations-and-Behavior-Bricks": {
       "double_links": []
     },
-    "19-data_visualization/Module4Workingwithexternaldata": {
+    "18-behavioral-modeling-intro/index": {
       "double_links": []
     },
-    "4-grasshopper-intro/41-getting-started-with-grasshopper": {
+    "19-data_visualization/index": {
       "double_links": []
     },
-    "4-grasshopper-intro/42-exercise-hello-grasshopper": {
+    "19-data_visualization/Module2Introductiontod3anscombe": {
+      "double_links": []
+    },
+    "19-data_visualization/Module1WorkflowsPartASetupCodeEnvironment": {
       "double_links": []
     },
     "19-data_visualization/Module3Tourofthebasiccharts1Bar": {
       "double_links": []
     },
-    "4-grasshopper-intro/44-exercise-parametric-tower-part-1": {
+    "19-data_visualization/Module3Tourofthebasiccharts3Pie": {
       "double_links": []
     },
-    "4-grasshopper-intro/43-working-in-grasshopper": {
+    "19-data_visualization/Module4Workingwithexternaldata": {
+      "double_links": []
+    },
+    "19-data_visualization/Module3Tourofthebasiccharts2Line": {
+      "double_links": []
+    },
+    "19-data_visualization/Module5Buildinginteractivity": {
+      "double_links": []
+    },
+    "4-grasshopper-intro/41-getting-started-with-grasshopper": {
       "double_links": []
     },
     "4-grasshopper-intro/410-Generating-Exploring-Spatial-Data": {
       "double_links": []
     },
-    "4-grasshopper-intro/46-exercise-parametric-tower-part-2": {
+    "4-grasshopper-intro/42-exercise-hello-grasshopper": {
+      "double_links": []
+    },
+    "4-grasshopper-intro/44-exercise-parametric-tower-part-1": {
       "double_links": []
     },
     "4-grasshopper-intro/47-documentation-best-practices": {
@@ -186,73 +189,76 @@
     "4-grasshopper-intro/45-working-with-data": {
       "double_links": []
     },
-    "18-behavioral-modeling-intro/index": {
-      "double_links": []
-    },
     "4-grasshopper-intro/49-Procedural-Rules": {
       "double_links": []
     },
-    "5-computational-design-modeling-in-grasshopper/5-1-Comp-Design-Modeling": {
+    "4-grasshopper-intro/43-working-in-grasshopper": {
       "double_links": []
     },
-    "4-grasshopper-intro/48-Deriving-Spatial-Data": {
-      "double_links": []
-    },
-    "5-computational-design-modeling-in-grasshopper/5-2-Subdivide-Geometry": {
+    "4-grasshopper-intro/46-exercise-parametric-tower-part-2": {
       "double_links": []
     },
     "4-grasshopper-intro/index": {
       "double_links": []
     },
-    "5-computational-design-modeling-in-grasshopper/5-6_Troubleshooting": {
+    "4-grasshopper-intro/48-Deriving-Spatial-Data": {
+      "double_links": []
+    },
+    "5-computational-design-modeling-in-grasshopper/5-1-Comp-Design-Modeling": {
+      "double_links": []
+    },
+    "5-computational-design-modeling-in-grasshopper/5-2-Subdivide-Geometry": {
       "double_links": []
     },
     "5-computational-design-modeling-in-grasshopper/5-5_Buildings-Density": {
       "double_links": []
     },
-    "5-computational-design-modeling-in-grasshopper/index": {
-      "double_links": []
-    },
     "5-computational-design-modeling-in-grasshopper/5-4-Street-Grid": {
-      "double_links": []
-    },
-    "6-intro-to-python/index": {
-      "double_links": []
-    },
-    "7-fundamentals-of-python/71-variables-lists-and-dictionaries": {
-      "double_links": []
-    },
-    "5-computational-design-modeling-in-grasshopper/5-7_Design-Space": {
-      "double_links": []
-    },
-    "6-intro-to-python/62-using-python-in-grasshopper": {
-      "double_links": []
-    },
-    "7-fundamentals-of-python/73-functions-and-classes": {
-      "double_links": []
-    },
-    "7-fundamentals-of-python/72-conditionals-and-loops": {
-      "double_links": []
-    },
-    "6-intro-to-python/61-getting-started-with-Python": {
-      "double_links": []
-    },
-    "7-fundamentals-of-python/index": {
       "double_links": []
     },
     "5-computational-design-modeling-in-grasshopper/5-3-Analysis-Tools": {
       "double_links": []
     },
-    "8-intro-to-python-in-rhino/81-accessing-the-rhino-apis-in-python": {
+    "5-computational-design-modeling-in-grasshopper/5-6_Troubleshooting": {
       "double_links": []
     },
-    "8-intro-to-python-in-rhino/82-working-with-geometry-in-python": {
+    "5-computational-design-modeling-in-grasshopper/5-7_Design-Space": {
+      "double_links": []
+    },
+    "5-computational-design-modeling-in-grasshopper/index": {
+      "double_links": []
+    },
+    "6-intro-to-python/index": {
+      "double_links": []
+    },
+    "6-intro-to-python/61-getting-started-with-Python": {
+      "double_links": []
+    },
+    "7-fundamentals-of-python/71-variables-lists-and-dictionaries": {
+      "double_links": []
+    },
+    "7-fundamentals-of-python/72-conditionals-and-loops": {
       "double_links": []
     },
     "7-fundamentals-of-python/74-python-libraries": {
       "double_links": []
     },
+    "6-intro-to-python/62-using-python-in-grasshopper": {
+      "double_links": []
+    },
+    "7-fundamentals-of-python/index": {
+      "double_links": []
+    },
+    "7-fundamentals-of-python/73-functions-and-classes": {
+      "double_links": []
+    },
     "8-intro-to-python-in-rhino/index": {
+      "double_links": []
+    },
+    "8-intro-to-python-in-rhino/82-working-with-geometry-in-python": {
+      "double_links": []
+    },
+    "8-intro-to-python-in-rhino/81-accessing-the-rhino-apis-in-python": {
       "double_links": []
     }
   },
@@ -2576,14 +2582,19 @@
             "text": "Modules:"
           },
           {
-            "id": "guides",
-            "depth": 2,
-            "text": "Guides"
-          },
-          {
             "id": "github",
             "depth": 2,
             "text": "Github"
+          },
+          {
+            "id": "what-is-version-control",
+            "depth": 3,
+            "text": "What is Version Control?"
+          },
+          {
+            "id": "what-is-git",
+            "depth": 3,
+            "text": "What is Git?"
           },
           {
             "id": "html-basics",
@@ -2619,23 +2630,13 @@
             "id": "dom-manipulation-basics",
             "depth": 2,
             "text": "DOM Manipulation Basics"
-          },
-          {
-            "id": "search-filter-and-sort",
-            "depth": 2,
-            "text": "Search, Filter and Sort"
-          },
-          {
-            "id": "user-interface-design",
-            "depth": 2,
-            "text": "User Interface Design"
           }
         ],
         "dir": "/modules/11-interactive-web",
         "path": "/modules/11-interactive-web/index",
         "extension": ".md",
-        "createdAt": "2022-03-31T08:43:04.617Z",
-        "updatedAt": "2022-03-31T08:43:04.617Z"
+        "createdAt": "2022-05-16T17:13:15.830Z",
+        "updatedAt": "2022-05-16T17:13:15.833Z"
       },
       "ordinal": 11,
       "path": "11-interactive-web",
@@ -2669,14 +2670,19 @@
                 "text": "Modules:"
               },
               {
-                "id": "guides",
-                "depth": 2,
-                "text": "Guides"
-              },
-              {
                 "id": "github",
                 "depth": 2,
                 "text": "Github"
+              },
+              {
+                "id": "what-is-version-control",
+                "depth": 3,
+                "text": "What is Version Control?"
+              },
+              {
+                "id": "what-is-git",
+                "depth": 3,
+                "text": "What is Git?"
               },
               {
                 "id": "html-basics",
@@ -2712,32 +2718,132 @@
                 "id": "dom-manipulation-basics",
                 "depth": 2,
                 "text": "DOM Manipulation Basics"
-              },
-              {
-                "id": "search-filter-and-sort",
-                "depth": 2,
-                "text": "Search, Filter and Sort"
-              },
-              {
-                "id": "user-interface-design",
-                "depth": 2,
-                "text": "User Interface Design"
               }
             ],
             "dir": "/modules/11-interactive-web",
             "path": "/modules/11-interactive-web/index",
             "extension": ".md",
-            "createdAt": "2022-03-31T08:43:04.617Z",
-            "updatedAt": "2022-03-31T08:43:04.617Z"
+            "createdAt": "2022-05-16T17:13:15.830Z",
+            "updatedAt": "2022-05-16T17:13:15.833Z"
           }
         },
         {
-          "file": "110-javascript-in-browser.md",
+          "file": "110-getting-started.md",
           "ordinal": 110,
           "contentdata": {
-            "slug": "javascript-in-browser",
+            "slug": "getting-started",
             "moduleid": 110,
-            "title": "Javascript in the Browser I - Weather UI Design",
+            "title": "Javascript in the Browser - Getting Started",
+            "published": true,
+            "authors": [
+              "Celeste Layne"
+            ],
+            "toc": [
+              {
+                "id": "references",
+                "depth": 3,
+                "text": "References"
+              },
+              {
+                "id": "getting-started",
+                "depth": 2,
+                "text": "Getting Started"
+              },
+              {
+                "id": "final-check-of-mac-os-applications",
+                "depth": 3,
+                "text": "Final Check of Mac OS Applications"
+              }
+            ],
+            "dir": "/modules/11-interactive-web",
+            "path": "/modules/11-interactive-web/110-getting-started",
+            "extension": ".md",
+            "createdAt": "2022-05-16T17:15:49.266Z",
+            "updatedAt": "2022-05-16T17:15:49.266Z"
+          }
+        },
+        {
+          "file": "111-git-and-github.md",
+          "ordinal": 111,
+          "contentdata": {
+            "slug": "git-and-github",
+            "moduleid": 111,
+            "title": "Javascript in the Browser - Git and GitHub",
+            "published": true,
+            "authors": [
+              "Celeste Layne"
+            ],
+            "toc": [
+              {
+                "id": "github-what-is-it",
+                "depth": 3,
+                "text": "Github, what is it?"
+              },
+              {
+                "id": "what-is-version-control",
+                "depth": 3,
+                "text": "What is Version Control?"
+              },
+              {
+                "id": "what-is-git",
+                "depth": 3,
+                "text": "What is Git?"
+              },
+              {
+                "id": "github-desktop-vs-github-in-the-terminal",
+                "depth": 2,
+                "text": "GitHub Desktop vs GitHub in the Terminal"
+              },
+              {
+                "id": "create-account",
+                "depth": 3,
+                "text": "Create Account"
+              },
+              {
+                "id": "github-desktop",
+                "depth": 3,
+                "text": "GitHub Desktop"
+              },
+              {
+                "id": "terminal",
+                "depth": 3,
+                "text": "Terminal"
+              },
+              {
+                "id": "create-your-first-webpage",
+                "depth": 3,
+                "text": "Create Your First Webpage"
+              },
+              {
+                "id": "push-local-code-to-remote-repository",
+                "depth": 3,
+                "text": "Push Local Code to Remote Repository"
+              },
+              {
+                "id": "publish-your-website",
+                "depth": 3,
+                "text": "Publish Your Website"
+              },
+              {
+                "id": "glossary-of-git-terminology",
+                "depth": 3,
+                "text": "Glossary of Git Terminology:"
+              }
+            ],
+            "dir": "/modules/11-interactive-web",
+            "path": "/modules/11-interactive-web/111-git-and-github",
+            "extension": ".md",
+            "createdAt": "2022-05-16T17:14:18.171Z",
+            "updatedAt": "2022-05-16T17:14:18.172Z"
+          }
+        },
+        {
+          "file": "112-html-and-css.md",
+          "ordinal": 112,
+          "contentdata": {
+            "slug": "html-and-css",
+            "moduleid": 112,
+            "title": "Javascript in the Browser - HTML & CSS",
             "published": true,
             "authors": [
               "Celeste Layne"
@@ -2785,19 +2891,19 @@
               }
             ],
             "dir": "/modules/11-interactive-web",
-            "path": "/modules/11-interactive-web/110-javascript-in-browser",
+            "path": "/modules/11-interactive-web/112-html-and-css",
             "extension": ".md",
-            "createdAt": "2022-05-05T20:35:18.170Z",
-            "updatedAt": "2022-05-05T20:35:18.170Z"
+            "createdAt": "2022-05-16T17:14:20.611Z",
+            "updatedAt": "2022-05-16T17:14:20.612Z"
           }
         },
         {
-          "file": "111-data-and-apis.md",
-          "ordinal": 111,
+          "file": "113-data-and-apis.md",
+          "ordinal": 113,
           "contentdata": {
             "slug": "data-and-apis",
-            "moduleid": 111,
-            "title": "Data and APIs",
+            "moduleid": 113,
+            "title": "JavaScript in the Browser - Data and APIs",
             "published": true,
             "authors": [
               "Celeste Layne"
@@ -2900,19 +3006,19 @@
               }
             ],
             "dir": "/modules/11-interactive-web",
-            "path": "/modules/11-interactive-web/111-data-and-apis",
+            "path": "/modules/11-interactive-web/113-data-and-apis",
             "extension": ".md",
-            "createdAt": "2022-03-31T06:51:48.560Z",
-            "updatedAt": "2022-03-31T06:51:48.560Z"
+            "createdAt": "2022-05-16T17:16:00.326Z",
+            "updatedAt": "2022-05-16T17:16:00.326Z"
           }
         },
         {
-          "file": "112-javascript-in-the-browser.md",
-          "ordinal": 112,
+          "file": "114-events-and-uis.md",
+          "ordinal": 114,
           "contentdata": {
             "slug": "events-and-uis",
             "moduleid": 112,
-            "title": "JavaScript in the Browser II - Events and UIs",
+            "title": "JavaScript in the Browser - Events and UIs",
             "published": true,
             "authors": [
               "Celeste Layne"
@@ -2950,19 +3056,19 @@
               }
             ],
             "dir": "/modules/11-interactive-web",
-            "path": "/modules/11-interactive-web/112-javascript-in-the-browser",
+            "path": "/modules/11-interactive-web/114-events-and-uis",
             "extension": ".md",
-            "createdAt": "2022-03-31T06:51:48.560Z",
-            "updatedAt": "2022-03-31T06:51:48.560Z"
+            "createdAt": "2022-05-16T17:15:34.986Z",
+            "updatedAt": "2022-05-16T17:15:34.989Z"
           }
         },
         {
-          "file": "113-javascript-in-the-browser.md",
-          "ordinal": 113,
+          "file": "115-dom-manipulation.md",
+          "ordinal": 115,
           "contentdata": {
-            "slug": "events-and-uis",
-            "moduleid": 113,
-            "title": "JavaScript in the Browser III - Events and UIs",
+            "slug": "dom-manipulation",
+            "moduleid": 115,
+            "title": "JavaScript in the Browser - DOM Manipulation",
             "published": true,
             "authors": [
               "Celeste Layne"
@@ -2990,10 +3096,10 @@
               }
             ],
             "dir": "/modules/11-interactive-web",
-            "path": "/modules/11-interactive-web/113-javascript-in-the-browser",
+            "path": "/modules/11-interactive-web/115-dom-manipulation",
             "extension": ".md",
-            "createdAt": "2022-03-31T06:51:48.560Z",
-            "updatedAt": "2022-03-31T06:51:48.560Z"
+            "createdAt": "2022-05-16T17:14:28.486Z",
+            "updatedAt": "2022-05-16T17:14:28.486Z"
           }
         }
       ]
@@ -5466,8 +5572,8 @@
         "dir": "/modules/19-data_visualization",
         "path": "/modules/19-data_visualization/index",
         "extension": ".md",
-        "createdAt": "2022-05-13T07:54:45.776Z",
-        "updatedAt": "2022-05-13T07:54:45.776Z"
+        "createdAt": "2022-05-13T14:35:48.453Z",
+        "updatedAt": "2022-05-13T14:35:48.453Z"
       },
       "ordinal": 19,
       "path": "19-data_visualization",
@@ -5514,8 +5620,8 @@
             "dir": "/modules/19-data_visualization",
             "path": "/modules/19-data_visualization/index",
             "extension": ".md",
-            "createdAt": "2022-05-13T07:54:45.776Z",
-            "updatedAt": "2022-05-13T07:54:45.776Z"
+            "createdAt": "2022-05-13T14:35:48.453Z",
+            "updatedAt": "2022-05-13T14:35:48.453Z"
           }
         },
         {
@@ -5533,8 +5639,8 @@
             "dir": "/modules/19-data_visualization",
             "path": "/modules/19-data_visualization/Module1WorkflowsPartASetupCodeEnvironment",
             "extension": ".md",
-            "createdAt": "2022-05-13T07:46:10.703Z",
-            "updatedAt": "2022-05-13T07:46:10.704Z"
+            "createdAt": "2022-05-13T14:35:48.308Z",
+            "updatedAt": "2022-05-13T14:35:48.312Z"
           }
         },
         {
@@ -5552,8 +5658,8 @@
             "dir": "/modules/19-data_visualization",
             "path": "/modules/19-data_visualization/Module2Introductiontod3anscombe",
             "extension": ".md",
-            "createdAt": "2022-05-13T07:46:28.959Z",
-            "updatedAt": "2022-05-13T07:46:28.959Z"
+            "createdAt": "2022-05-13T14:35:48.312Z",
+            "updatedAt": "2022-05-13T14:35:48.312Z"
           }
         },
         {
@@ -5571,8 +5677,8 @@
             "dir": "/modules/19-data_visualization",
             "path": "/modules/19-data_visualization/Module3Tourofthebasiccharts1Bar",
             "extension": ".md",
-            "createdAt": "2022-05-13T07:47:03.102Z",
-            "updatedAt": "2022-05-13T07:47:03.102Z"
+            "createdAt": "2022-05-13T14:35:48.312Z",
+            "updatedAt": "2022-05-13T14:35:48.313Z"
           }
         },
         {
@@ -5590,8 +5696,8 @@
             "dir": "/modules/19-data_visualization",
             "path": "/modules/19-data_visualization/Module3Tourofthebasiccharts2Line",
             "extension": ".md",
-            "createdAt": "2022-05-13T07:47:25.125Z",
-            "updatedAt": "2022-05-13T07:47:25.127Z"
+            "createdAt": "2022-05-13T14:35:48.313Z",
+            "updatedAt": "2022-05-13T14:35:48.313Z"
           }
         },
         {
@@ -5609,8 +5715,8 @@
             "dir": "/modules/19-data_visualization",
             "path": "/modules/19-data_visualization/Module3Tourofthebasiccharts3Pie",
             "extension": ".md",
-            "createdAt": "2022-05-13T07:47:38.989Z",
-            "updatedAt": "2022-05-13T07:47:38.990Z"
+            "createdAt": "2022-05-13T14:35:48.314Z",
+            "updatedAt": "2022-05-13T14:35:48.314Z"
           }
         },
         {
@@ -5628,8 +5734,8 @@
             "dir": "/modules/19-data_visualization",
             "path": "/modules/19-data_visualization/Module4Workingwithexternaldata",
             "extension": ".md",
-            "createdAt": "2022-05-13T07:48:03.471Z",
-            "updatedAt": "2022-05-13T07:48:03.472Z"
+            "createdAt": "2022-05-13T14:35:48.314Z",
+            "updatedAt": "2022-05-13T14:35:48.314Z"
           }
         },
         {
@@ -5647,8 +5753,8 @@
             "dir": "/modules/19-data_visualization",
             "path": "/modules/19-data_visualization/Module5Buildinginteractivity",
             "extension": ".md",
-            "createdAt": "2022-05-13T07:48:24.802Z",
-            "updatedAt": "2022-05-13T07:48:24.803Z"
+            "createdAt": "2022-05-13T14:35:48.314Z",
+            "updatedAt": "2022-05-13T14:35:48.315Z"
           }
         }
       ]

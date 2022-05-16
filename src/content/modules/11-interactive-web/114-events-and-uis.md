@@ -1,13 +1,11 @@
 ---
 moduleid: 112
-title: JavaScript in the Browser - Events and UIs
+title: "JavaScript in the Browser - Events and UIs"
 published: True
 slug: events-and-uis
 authors:
  - "Celeste Layne"
 ---
-
-===========================================
 
 # JavaScript in the Browser II - Events and UIs
 
@@ -15,7 +13,7 @@ Wouldn’t it be nice if we could write code that allows elements on the webpage
 
 ## What are we building?
 
-![weather widget](./images/111/111-09.gif)
+![weather widget](images/111/111-09.gif)
 
 ### Events
 
@@ -179,7 +177,7 @@ let ZIP_CODE = input.value;
 
 In this case, we're using the `.value` property to access the text we type into the input field.
 
-![weather widget](./images/111/111-19.png)
+![weather widget](images/111/111-19.png)
 
 Just as an exercise, type your zipcode into the input field, then in the developer console, type `input.value` into the console. You should get back a string with the zipcode you've typed into the input field.
 
