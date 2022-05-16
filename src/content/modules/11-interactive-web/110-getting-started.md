@@ -106,7 +106,19 @@ Visual Studio Code’s core functionality can be extended using thousands of thi
 
 Have you ever opened up the Terminal, then you may have wondered what to do next? You're not alone. Developers on macOS and Linux machines use Bash to interact with files and applications. Bash is a command-line interface shell program used extensively in Linux and macOS. The name Bash is an acronym for "Bourne Again Shell," developed in 1989 as a successor to the Bourne Shell.
 
-"What's a shell?" you ask? A shell is a computer program that allows you to directly control a computer's operating system (OS) with a graphical user interface (GUI) or command-line interface (CLI). For example, Windows 10 is based on the Windows shell that allows you to control your OS with a desktop, taskbar, and menus.
+##### What is a GUI (pronounced gooey)?
+
+There was a point when computers didn't come with a Graphical User Interface (GUI). Instead, everyone interacted with the computer using text commands in what we call a Command Line Interface (CLI).
+
+![Free DOS](assets/freedos-gui-01.png)
+
+_FreeDOS 1.1 is a free software operating system for IBM PC compatible computers_
+
+Today, the command line still exists, even though you may have never seen it as a casual computer user. As a developer, you will regularly intereact with the command line to manage your files and tell your computer how to run the programs you write. It will greatly speed up your development process and help you take ownership of your computer at a deeper level. 
+
+##### What is a shell?
+
+"What's a shell?" you ask? A shell is a computer program that allows you to directly control a computer's operating system (OS) with a graphical user interface (GUI) or command-line interface (CLI). Simply put, it is a program that accepts text as input and translates that text into the appropriate functions that you want your computer to run. For example, Windows 10 is based on the Windows shell that allows you to control your OS with a desktop, taskbar, and menus.
 
 While Bash is famous for being the go-to CLI shell in Mac and Linux, Windows uses Command Prompt and PowerShell to perform the same functions as Bash. But, it's now possible to install Bash on Windows 10 to provide almost the same functionality as Bash in Mac and Linux.
 
@@ -128,7 +140,7 @@ While Bash is famous for being the go-to CLI shell in Mac and Linux, Windows use
 
 #### Open Visual Studio Code from Terminal
 
-![]()
+![command palette](assets/command-palette-01.gif)
 
 1. With Visual Studio Code open, type the following shortcut to pull up the command pallette: `command + shift + P`
 2. Enter the command `install 'code' command in PATH` and press Enter.
@@ -136,7 +148,7 @@ While Bash is famous for being the go-to CLI shell in Mac and Linux, Windows use
 
 ##### How?
 
-Real-world software projects often involve many files, which are organized into folders. It's handy to be able to see all files in our project while working in our text editor. VS Code makes this easy, as it supports a project mode. To use this mode, we simply pass a directory.
+Real-world software projects often involve many files, which are organized into folders. It's handy to be able to see all files in our project while working in our text editor. VS Code makes this easy, as it supports a project mode. To use this mode, we simply pass in a directory.
 
 1. Navigate to the root of your project folder.
 2. In the command line type `code .` and VS Code will launch with the project folder ready to edit.
@@ -187,13 +199,6 @@ If you don’t have it installed already, the `git --version` command will promp
 
 There are also a few ways to install Git on Windows. The most official build is available for download on the Git website. Just go to [https://git-scm.com/download/win](https://git-scm.com/download/win) and the download will start automatically.
 
-Check your Git config:
-
-```bash
-$ git config --list
-$ git config user.name
-```
-
 _Configure Git_
 
 Configuring your git settings will help GitHub track your contributions and to make it easier and smoother to commit changes. Please be sure to use the same email as the one used to creat your GitHub account.
@@ -224,7 +229,16 @@ It is best practice to separate out the structure of your project _index.html_ f
 
 ![image](assets/set-up-project-files.gif)
 
+* Type the command `pwd` into the Terminal and hit enter. After entering the command, you should see something like: `/Users/username` directly above a new prompt.
+* Create a new project folder that will hold all the work created in this sequence. Type the command `mkdir /weather-widget` and hit enter. If you re-type `ls` , the "list" command, you should notice a new folder called "weather-widget"
+* Navigate into this new directory: `cd /weather-widget`. Type the command to print your working directory, `pwd`. You should now be inside the folder called `/weather-widget`
+* Create the subfolders for the sequence: `mkdir styles javascript`. Check that you created the  folders by typing `ls`.
+
 ##### Creating and Opening Files
+
+* Double-check you’re in the root folder `/Users/yourusername/weather-widget`
+* Create a new file using the following command: `touch index.html`
+* Open the file in the text editor: `code index.html`
 
 ##### Creating Local Site
 
@@ -249,7 +263,7 @@ Did you know that you can create web pages without being connected to the intern
  * Save it
 2. Test that the page works locally. To do this, drag your `index.html` into your Chrome web browser. You should get something that looks like the following screenshot.
 
-![]()
+![hello world](assets/hello-world-01.png)
 
 ### Final Check of Mac OS Applications
 * __Spectacle (for Mac):__ Open [Spectacle](https://www.spectacleapp.com/) using Spotlight, by pressing `⌘-Space` and typing Spec, and then pressing Return. It will direct you to change your Accessibility settings to allow it to control window management.
@@ -257,4 +271,4 @@ Did you know that you can create web pages without being connected to the intern
 
 
 #### Create Remote Site
-To set up your site on the web, see [How to Git & Github?](/git-and-github)
+To set up your site on the web, see [How to Git & Github?](../git-and-github)
