@@ -39,30 +39,62 @@ What is the difference between Git and GitHub? Find an answer [here](https://sta
 
 ## GitHub Desktop vs GitHub in the Terminal
 
-
 ### Create Account
 
-### Create Repository
+* Sign up for a [GitHub](https://github.com/) account.
+* Download the [GitHub Desktop](https://desktop.github.com/) application and install it on your computer.
 
-Log into [github.com]() and create a new repository using the link under the `+` icon in the upper right of the GitHub homepage.
+### GitHub Desktop
 
-![]()
+![](assets/github-onboarding-01.png)
 
-Name the repository. For example, I named this one didactic-eureka. Thanks for the recommendation, GitHub! Check the box to add a README file. This repository will be the home for all your assignments and exercises for this class. Click the green create repository button.
+#### Create Repository
 
-![]()
+Log into [github.com](https://github.com/) and create a new repository using the link under the `+` icon in the upper right of the GitHub homepage.
 
-Once you’ve initialized the repository, it will take you to the home screen. Click the green Code button. Then select, Open with GitHub Desktop.
+![](assets/github-onboarding-02.png)
 
-![]()
+Name the repository. For example, I named this one `didactic-eureka`. Thanks for the recommendation, GitHub! Check the box to add a README file. This repository will be the home for all your assignments and exercises for this class. __Click the green create repository button__.
 
-When you press this button, you may see an alert window asking, Open GitHub Desktop? Click the Open GitHub Desktop button in the alert box. This will launch the GitHub Desktop application.
+![](assets/github-onboarding-03.png)
+
+Once you’ve initialized the repository, it will take you to the home screen. __Click the green Code button__. Then select, Open with GitHub Desktop.
+
+![](assets/github-onboarding-04.png)
+
+When you press this button, you may see an alert window asking, Open GitHub Desktop? __Click the Set up in Desktop__ button. This will launch the GitHub Desktop application.
+
+![](assets/github-onboarding-05.png)
+
+Now…(this is important) choose a place on your computer where you want this repository to live. My local path is: `/Users/your-computer-name/Documents/GitHub/studious-umbrella`. __Click the blue Clone button__.
+
+![](assets/github-onboarding-06.png)
+
+Yay! You’re in your local repository. GitHub Desktop provides some friendly suggestions for where to go next:
+
+* Open the repository in your code editor (Visual Studio Code etc)
+* View the files in Finder
+* Open the repository page on GitHub in your web browser
+
+If you select, view the files in finder, you will be taken to a folder named `studious-umbrella`, this is the ‘local’ version of your github repository. It’s local address is: `/Users/your-computer-name/Documents/GitHub/studious-umbrella`. We will use this as a space to archive your projects and exercises.
+
+### Terminal
+
+#### Create Repository
+
+```
+$ cd ~/gsapp/cdp/interactive-web
+$ mkdir weather-widget  
+$ cd weather-widget  
+$ git init
+```
+
 
 ### Create Your First Webpage
 
 1. Open the repository in your code editor.
-2. Make a new HTML file named index.html in Visual Studio Code (or your code editor of choice).
-3. Copy the basic HTML structure from here and paste it into your index.html file (or, use the following VS Code shortcut).
+2. Make a new HTML file named `index.html` in Visual Studio Code (or your code editor of choice).
+3. Copy the basic HTML structure from here and paste it into your `index.html` file (or, use the following VS Code shortcut).
 4. Modify the code with the words Hello World and save the file to your local GitHub repository.
 
 ### Push Local Code to Remote Repository
@@ -74,9 +106,9 @@ When you press this button, you may see an alert window asking, Open GitHub Desk
 ### Publish Your Website
 
 1. In your github.com repository, find the Settings tab.
-2. Scroll to the GitHub Pages section. Under the Source heading, click the dropdown menu and select the main branch as your publishing source. Keep the /(root) folder for your publishing source.
+2. Scroll to the GitHub Pages section. Under the Source heading, click the dropdown menu and select the main branch as your publishing source. Keep the `/(root)` folder for your publishing source.
 3. Click Save.
-4. Now, drumroll please! In the same GitHub Pages section, you should see a green success bar appear that says: “Your site is published at https://yourusername.github.io/didactic-eureka”
+4. Now, drumroll please! In the same GitHub Pages section, you should see a green success bar appear that says: "Your site is published at `https://yourusername.github.io/studious-umbrella`"
 5. Click on the link. Voila!
 
 ![]()

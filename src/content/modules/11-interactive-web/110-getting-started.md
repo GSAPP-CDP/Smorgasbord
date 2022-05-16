@@ -1,10 +1,10 @@
 ---
-	moduleid: 110
-	title: Javascript in the Browser - Getting Started
-	published: True
-	slug: getting-started
-	authors:
-	 - "Celeste Layne"
+moduleid: 110
+title: Javascript in the Browser - Getting Started
+published: True
+slug: getting-started
+authors:
+  - "Celeste Layne"
 ---
 
 ===========================================

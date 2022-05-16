@@ -32,9 +32,9 @@ __Note:__ This experiment is meant to be used as a technical guide. Consider _al
 
 Inside that folder, we will create this recommended project structure:
 
-* within the `weather-widget` folder, create in index.html file
-* also within the `weather-widget` folder, create two subfolders, called styles and javascript
-* Inside the styles folder, create a style.css file and inside the javascript folder, create a main.js file.
+* within the `weather-widget` folder, create an `index.html` file
+* also within the `weather-widget` folder, create two subfolders, called `/styles` and `/javascript`
+* Inside the styles folder, create a `style.css` file and inside the javascript folder, create a `main.js` file.
 
 ```md
 weather-widget
@@ -316,3 +316,4 @@ The weather service we will be using in this module is called Open Weather Map a
 * [The Noun Project](https://thenounproject.com/search/icons/?iconspage=1&q=weather)
 
 At this point, we’re ready to build the core functionality of our weather widget. If you haven't done so already, let’s do it!
+
