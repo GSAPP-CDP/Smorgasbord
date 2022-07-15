@@ -228,7 +228,7 @@ Once you adjust the inputs you may notice that the analysis is no longer working
 ![description](images/5-6-2_Daylight2_Gradient1.PNG)
 
 14. To fix this first set the lower limit of the color gradient `(LO)` to 1. Visually, this tool will still display areas with less then this value as a different color.
-15. Plug the minimum average daylight hours (now a maximum) in the upper limit `(LO)`.
+15. Plug the minimum average daylight hours (now a maximum) in the upper limit `(L1)`.
 16. Double click on the right most black circle to pull up the gradient editor. Change the color left so that there will be a visual break with the color right. In this example we are leaving the color right as red and changing the color left to orange. Now anywhere over our threshold will be red.
 
 ![description](images/5-6-2_Daylight2_Gradient.gif)
