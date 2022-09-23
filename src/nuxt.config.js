@@ -104,7 +104,6 @@ export default {
         loader: 'ignore-loader'
       })
     },
-    publicPath: 'https://smorgasbord-dist.s3.us-east-1.amazonaws.com/',
   },
 
 /*  hooks: {
