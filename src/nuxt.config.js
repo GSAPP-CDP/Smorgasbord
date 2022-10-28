@@ -92,7 +92,7 @@ export default {
       return fdir;
 
     },
-    dir: 'dist
+    dir: 'dist',
   },
 
 
