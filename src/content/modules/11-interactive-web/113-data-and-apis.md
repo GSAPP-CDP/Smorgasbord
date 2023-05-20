@@ -1,6 +1,6 @@
 ---
 moduleid: 113
-title: "JavaScript in the Browser - Data and APIs"
+title: "Data and APIs"
 published: True
 slug: data-and-apis
 authors:
@@ -256,6 +256,5 @@ getWeatherData()
 2. Reusability – You can repeat functions throughout your code by calling the function. This saves you time from writing more code.
 3. Store Steps – Provides us with a way to ‘store’ the steps needed to achieve a task.
 
-#### Anatomy of a Function
+## Challenge
 
-![javascript functions visualized](images/111/111-17.png)
