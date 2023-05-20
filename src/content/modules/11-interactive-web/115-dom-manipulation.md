@@ -1,6 +1,6 @@
 ---
 moduleid: 115
-title: "JavaScript in the Browser - DOM Manipulation"
+title: "DOM Manipulation"
 published: True
 slug: dom-manipulation
 authors:
@@ -212,3 +212,4 @@ const getWeatherData = (zip) => {
 }
 ```
 
+## Challenge
