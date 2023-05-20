@@ -1,6 +1,6 @@
 ---
 	moduleid: 112
-	title: Javascript in the Browser - HTML & CSS
+	title: HTML & CSS
 	published: True
 	slug: html-and-css
 	authors:
@@ -317,3 +317,4 @@ The weather service we will be using in this module is called Open Weather Map a
 
 At this point, we’re ready to build the core functionality of our weather widget. If you haven't done so already, let’s do it!
 
+## Challenge
