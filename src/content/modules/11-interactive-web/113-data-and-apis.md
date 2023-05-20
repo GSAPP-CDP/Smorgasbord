@@ -1,19 +1,17 @@
 ---
-	moduleid: 113
-	title: JavaScript in the Browser - Data and APIs
-	published: True
-	slug: data-and-apis
-	authors:
-	  - "Celeste Layne"
+moduleid: 113
+title: "JavaScript in the Browser - Data and APIs"
+published: True
+slug: data-and-apis
+authors:
+  - "Celeste Layne"
 ---
-
-===========================================
 
 # JavaScript in the Browser - Data and APIs
 
 ## What are we building?
 
-![weather widget](./images/111/111-09.gif)
+![weather widget](images/111/111-09.gif)
 
 Using [Open Weather Map API](https://openweathermap.org/api), we will build a weather application that allows a user to type their zipcode and render the current weather forcast to the browser window.
 
@@ -26,7 +24,7 @@ http://api.openweathermap.org/data/2.5/forecast?id=524901&appid={API key}
 
 Sometimes the easiest way to understand the function of an API is to think about a metaphor. A common metaphor used is that of the customer, a waiter, and a restaurant kitchen: Imagine you’re sitting at a table in a restaurant with a menu of choices to order from. The kitchen is the part of the “system” that will prepare your food order. What is missing is the critical link to communicate your food order to the kitchen and deliver your actual food (raw data) back to your table. That’s where the waiter or API comes in. The waiter is the messenger — or API — that takes your request or food order and tells the kitchen — the system — what to do. Then the waiter delivers the response (raw data) back to you; in this case, it is the food.
 
-![customer waiter kitchen metaphor](./images/111/111-10.png)
+![customer waiter kitchen metaphor](images/111/111-10.png)
 
 ### Where Do We Find APIs?
 APIs are published everywhere. Chances are good that most major content sources you follow online publish their data in some type of serialized format. Here are a few examples:
@@ -39,7 +37,7 @@ APIs are published everywhere. Chances are good that most major content sources 
 ### The API in action
 One common example of an API that we come into contact with on a daily basis is _weather data_. These rich weather snippets are found on many platforms like Google Search or smart home devices (Echo Dot, Google Nest, Facebook Portal). For example, if you search “weather + [your city’s name]” on Google, you will see an interactive widget at the top of the search results with the current weather conditions and forecast. 
 
-![rich weather snippet](./images/111/111-11.png)
+![rich weather snippet](images/111/111-11.png)
 
 Here, Google sources this weather data from a third party which sends back the latest weather details in a way that is easy to format. In this case, they are using the [Weather Channel](https://weather.com/weather/today/l/40.7500,-73.9967) API.
 
@@ -121,7 +119,7 @@ Most modern web browsers provide you with access to a Developer Console where yo
 
 At the top of the pane that appears, choose the Console tab. Any messages that you send from your `main.js` file will appear here.
 
-![console log in browser](./images/111/111-12.png)
+![console log in browser](images/111/111-12.png)
 
 The JavaScript Console is a text-only interface. When we type into the console, we’re writing expressions in real-time. These expressions must be written using JavaScript syntax. Let’s start with an alert that prints out the string Hello, World:
 
@@ -146,7 +144,7 @@ If you don’t already have an Open Weather Map account, [sign up for a free one
 #### Look at the Documentation
 Now, let's familiarize ourselves with the API documentation. There are no rules governing how to write documentation for an API, so its content is presented differently each time. Knowing how to quickly find key pieces of information is the most important part of reading API documentation.
 
-![open weather map documentation ](./images/111/111-06.png)
+![open weather map documentation ](images/111/111-06.png)
 
 ### Step 2 – API Key
 Once you've signed up, you're given an [API key](https://home.openweathermap.org/api_keys). Copy the API key and create a variable in your `main.js` file to store the key. You can place it just below the `console.log()`.

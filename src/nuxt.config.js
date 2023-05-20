@@ -60,7 +60,7 @@ export default {
   ],
 
   router: {
-    base: '/smorgasbord/'
+    base: '/'
   },
 
   // Content module configuration: https://go.nuxtjs.dev/config-contents
@@ -92,7 +92,7 @@ export default {
       return fdir;
 
     },
-    dir: 'dist/smorgasbord'
+    dir: 'dist',
   },
 
 
@@ -104,7 +104,6 @@ export default {
         loader: 'ignore-loader'
       })
     },
-    publicPath: 'https://smorgasbord-dist.s3.us-east-1.amazonaws.com/',
   },
 
 /*  hooks: {

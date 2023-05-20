@@ -1,13 +1,11 @@
 ---
 moduleid: 115
-title: JavaScript in the Browser - DOM Manipulation
+title: "JavaScript in the Browser - DOM Manipulation"
 published: True
 slug: dom-manipulation
 authors:
  - "Celeste Layne"
 ---
-
-===========================================
 
 # JavaScript in the Browser - DOM Manipulation
 

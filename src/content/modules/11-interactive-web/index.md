@@ -1,10 +1,10 @@
 ---
-	moduleid: 110
-	title: Interactive Web
-	published: True
-	slug: interactive-web
-	authors:
-	 - "Celeste Layne"
+moduleid: 110
+title: "Interactive Web"
+published: True
+slug: interactive-web
+authors:
+ - "Celeste Layne"
 ---
 # Sequence: Interactive Web
 

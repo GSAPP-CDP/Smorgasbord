@@ -1,13 +1,11 @@
 ---
 moduleid: 110
-title: Javascript in the Browser - Getting Started
+title: "Javascript in the Browser - Getting Started"
 published: True
 slug: getting-started
 authors:
   - "Celeste Layne"
 ---
-
-===========================================
 
 # Javascript in the Browser - Getting Started
 
@@ -271,4 +269,4 @@ Did you know that you can create web pages without being connected to the intern
 
 
 #### Create Remote Site
-To set up your site on the web, see [How to Git & Github?](../git-and-github)
+To set up your site on the web, see [How to Git & Github?](git-and-github)
