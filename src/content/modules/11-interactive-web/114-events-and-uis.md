@@ -1,6 +1,6 @@
 ---
 moduleid: 112
-title: "JavaScript in the Browser - Events and UIs"
+title: "Events and UIs"
 published: True
 slug: events-and-uis
 authors:
@@ -230,10 +230,4 @@ const getZipCode = (e) => {
 btn.addEventListener("click", getZipCode);
 ```
 
-
-
-
-
-
-
-
+## Challenge
