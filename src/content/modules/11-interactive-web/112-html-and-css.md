@@ -1,10 +1,8 @@
 ---
-	moduleid: 112
-	title: HTML & CSS
-	published: True
-	slug: html-and-css
-	authors:
-	 - "Celeste Layne"
+moduleid: 112
+title: HTML & CSS
+published: True
+slug: html-and-css
 ---
 
 # Javascript in the Browser - HTML & CSS
