@@ -7,6 +7,8 @@ slug: html-and-css
 
 # Javascript in the Browser - HTML & CSS
 
+Duration: 1 hour
+
 Digital technologies increasingly form the backdrop for our everyday work and play – Zoom, FaceTime, Slack, Instagram, GMail, Spotify, the list is almost endless. Something as simple as a weather widget mediates awareness of the world in ways that matter to the person using it – should I walk with an umbrella? do I need my sunglasses? maybe I should pack an extra sweater? since its raining, maybe I'll go to the museum instead of the park?
 
 This module will walk through the steps of building a weather widget – starting with the basic HTML structure and building out the styles and interaction. The challenge is to design a display of current weather conditions for a single city that will be determined by the user of your site. The premice of this experiment is to guide you through the steps of using client-side JavaScript in the browser to request JSON data directly from a weather service and render that JSON data to the web browser, in a delightful manner.
@@ -22,25 +24,25 @@ __Note:__ This experiment is meant to be used as a technical guide. Consider _al
 
 1. Set up a new project using a text editor, like [Visual Studio Code](https://code.visualstudio.com/) a free, open source code editor available for Mac, Windows, or Linux.
   * See the installation guides for [Mac](https://code.visualstudio.com/docs/setup/mac) and [Windows](https://code.visualstudio.com/docs/setup/windows)
-2. Open up a new project folder and name it `weather-widget`. To create a new project folder in Visual Studio Code, navigate to the “File” menu item in the top menu and select “Add Folder to Workspace.” In the new window, click the “New Folder” button and create a new folder called `weather-widget`.
+2. Open up a new project folder and name it `weather-widget`. To create a new project folder in Visual Studio Code, navigate to the “File” menu item in the top menu and select “Add Folder to Workspace.” In the Finder window, click the “New Folder” button and create a new folder called `weather-widget`.
 
 ![cerate project folder](assets/create-project-folder.gif)
 
 Inside that folder, we will create this recommended project structure:
 
-* within the `weather-widget` folder, create an `index.html` file
-* also within the `weather-widget` folder, create two subfolders, called `/styles` and `/javascript`
-* Inside the styles folder, create a `style.css` file and inside the javascript folder, create a `main.js` file.
+* Within the `weather-widget` folder, create an `index.html` file and two subfolders called `/styles` and `/javascript` respectively
+* Inside the styles folder, create a `style.css` file 
+* Inside the javascript folder, create a `main.js` file.
 
 ```md
-weather-widget
-├── index.html
-├── styles
+weather-widget # project folder
+├── index.html # entry point of the website
+├── styles # subfolder for css files
 │   └── style.css
-└── javascript
+└── javascript # subfolder for javascript files
     └── main.js
 ```
-It is best practice to separate out the structure of your project _index.html_ from the styles _style.css_ from the behaviors _main.js_. 
+__Note:__ It is best practice to separate out the structure of your project _index.html_ from the styles _style.css_ from the behaviors _main.js_. 
 
 ![image](assets/set-up-project-files.gif)
 
