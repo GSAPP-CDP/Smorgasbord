@@ -24,6 +24,10 @@ The previous Intro to Grasshopper sequence touched on the power of computational
 
 Yes! The "Why" is such a big topic that the entire first module will be devoted to it.
 
+## CDP Requirements:
+- If your are new to grasshopper do borth Intro to Grasshopper and Computational Design Modeling in Grasshopper.
+- If you already know some Grasshopper review 7 Grasshopper Documentation Best Practices, create the view analysis tool in 8 Deriving Spatial Data, and review 10 Generating and Exploring Spatial Data of the Intro to Grasshopper sequence. Also complete all of the Computational Design Modeling sequence.
+
 ## Modules:
 
 1. [What is Computational Design Modeling?](https://cdp-smorgasbord.netlify.app/modules/5-computational-design-modeling-in-grasshopper/5-1-Comp-Design-Modeling)
