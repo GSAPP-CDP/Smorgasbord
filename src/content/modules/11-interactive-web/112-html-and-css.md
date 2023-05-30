@@ -20,19 +20,27 @@ __Note:__ This experiment is meant to be used as a technical guide. Consider _al
 * [Weather Gradient](https://weathergradient.com/)
 * [Do I Need a Jacket](https://doineedajacket.com/)
 
-### Set Up Your HTML Project
+### What is HTML?
+HTML stands for HyperText Markup Language and was invented in 1989 by Sir Timothy Berners-Lee while working at the European Organization for Nuclear Research (CERN). Every website you’ve ever visited is rendered in HTML. Your web browser parses the HTML then renders the results.
 
-1. Set up a new project using a text editor, like [Visual Studio Code](https://code.visualstudio.com/) a free, open source code editor available for Mac, Windows, or Linux.
-  * See the installation guides for [Mac](https://code.visualstudio.com/docs/setup/mac) and [Windows](https://code.visualstudio.com/docs/setup/windows)
-2. Open up a new project folder and name it `weather-widget`. To create a new project folder in Visual Studio Code, navigate to the “File” menu item in the top menu and select “Add Folder to Workspace.” In the Finder window, click the “New Folder” button and create a new folder called `weather-widget`.
+HyperText is text that contains links to other texts. Markup describes a system of describing or annotating text files. Just like any language, HTML has its own vocabulary, grammar and syntax.
+
+The fundamental building block of HTML is the element. Elements consist of an opening tag, closing tag and content (text, image, video) sandwiched in between. The content is what the user sees on the webpage. The tags tell the browser the type of content and how to present it.
+
+![image](./images/111/111-01.png)
+
+## Set Up Your HTML Project
+
+Set up a new project using a text editor, like [Visual Studio Code](https://code.visualstudio.com/) a free, open source code editor available for Mac, Windows, or Linux. For more detials, read [Get Up and Running with VS Code](). See the installation guides for [Mac](https://code.visualstudio.com/docs/setup/mac) and [Windows](https://code.visualstudio.com/docs/setup/windows)
+
+1. Open your code editor.
+2. Open a new project folder and name it `weather-widget`. We will use this folder to store the files created for this module. 
+3. To create a new project folder in Visual Studio Code, navigate to the "File" menu item in the top menu and select "Add Folder to Workspace." Place your new folder in the `Documents/GSAPP` folder (or your preferred location). In the Finder window, click the "New Folder" button and create a folder called `weather-widget`.
+4. Finally, drag the `weather-widget` folder from Finder and drop it into your VS Code icon.
 
 ![cerate project folder](assets/create-project-folder.gif)
 
-Inside that folder, we will create this recommended project structure:
-
-* Within the `weather-widget` folder, create an `index.html` file and two subfolders called `/styles` and `/javascript` respectively
-* Inside the styles folder, create a `style.css` file 
-* Inside the javascript folder, create a `main.js` file.
+Inside the `weather-widget` folder, we will create the following project structure:
 
 ```md
 weather-widget # project folder
@@ -42,6 +50,10 @@ weather-widget # project folder
 └── javascript # subfolder for javascript files
     └── main.js
 ```
+* Within the `weather-widget` folder, create an `index.html` file and two subfolders called `/styles` and `/javascript` respectively
+* Inside the styles folder, create a `style.css` file 
+* Inside the javascript folder, create a `main.js` file.
+
 __Note:__ It is best practice to separate out the structure of your project _index.html_ from the styles _style.css_ from the behaviors _main.js_. 
 
 ![image](assets/set-up-project-files.gif)
@@ -50,7 +62,7 @@ Let's take a step back and look at each of these file types. Think of an HTML fi
 
 ![html-as-building](images/111/111-21.png)
 
-In your blank `index.html` file, set up the bones for what will be your weather application by copying and pasting in the following code snippet, or using the one found [here](https://www.w3schools.com/html/html_basic.asp).
+In VS Code, click on the `index.html` file which is currently blank and set up the bones for what will be your weather application by copying and pasting in the following code snippet, or using the one found [here](https://www.w3schools.com/html/html_basic.asp).
 
 ```html
 index.html
@@ -74,12 +86,13 @@ In the code editor, you should see the following:
 
 Alternatively, you can use one of the VS Code shortcuts. In the body of the `index.html` file:
 
-* type `html` and select html:5 from the dropdown (_see image below_)
-* type `!` and then press enter
+* type `html` and select `html:5` from the dropdown (_see image below_)
 
 ![image](assets/add-boilerplate-to-html.gif)
 
-One of the benefits of using VS Code adopts a common user interface and layout of an `explorer` on the left, showing all of the files and folders you have access to, and an `editor` on the right, showing the content of the files you have opened. In the sidebar, you should see the list of open editors. Currently, `index.html` is the only open file so that is the only one listed. Below the open editors tab is your [workspace](https://code.visualstudio.com/docs/editor/workspaces), in this case its called `weather-widget`. In most cases, you will have a single folder opened as the workspace.
+One of the benefits of using VS Code is that it adopts a common user interface and layout of an `explorer` on the left, showing all of the files and folders you have access to, and an `editor` on the right, showing the content of the files you have opened. In the sidebar, you should see the list of open editors. Currently, `index.html` is the only open file so that is the only one listed. Below the open editors tab is your [workspace](https://code.visualstudio.com/docs/editor/workspaces), in this case its called `weather-widget`. In most cases, you will have a single folder opened as the workspace. However, as your projects become more complex, there will be  multiple opened editors and workspaces.
+
+Read [this documentation](https://code.visualstudio.com/docs/getstarted/userinterface) on the layout of the VS Code user interface.
 
 ### Start with the basic layout of the page
 
@@ -87,7 +100,7 @@ Now that we have a basic HTML template in our `index.html` file, let's create a 
 
 ![html-image](images/111/111-08.png)
 
-At this point, we will be setting up our HTML file to be styled. How? By using CSS classes
+At this point, we will be setting up our HTML file to be styled. How? By using CSS classes:
 
 1. Define two sections with the following class names: `input-container` and `output-container`.
 2. The `input-container` will include a form with a search field where the user will type in their zipcode and a submit button that makes the request for the current weather to the weather service.
@@ -111,7 +124,7 @@ index.html
   </div>
 </div>
 ```
-Copy and paste the above code snippet into the `index.html` file.
+Copy and paste the above code snippet into the `index.html` file. Place the code between the open and closing `<body>` tags.
 
 ![html-image](images/111/111-25.png)
 
@@ -125,7 +138,7 @@ Now, let's see what we have so far. You can view your  `index.html` file in the 
  
 ![html-image](images/111/111-23.png)
 
- c. Copy the full path of your file and paste it into the browser address bar. CTRL + Left Click (on Mac) or Right Click (on Windows) on the index.html file in the panel on the left and select “Copy Path”. Then, paste the path in the web browser.
+ c. Copy the full path of your file and paste it into the browser address bar. CTRL + Left Click (on Mac) or Right Click (on Windows) on the `index.html` file in the panel on the left and select "Copy Path". Then, paste the path in the web browser.
 
 ![html-image](images/111/111-24.png)
 
@@ -147,7 +160,7 @@ For this exercise, we will be using an external file which we have already creat
 
 Link the stylesheet to the HTML file using the link tag. The link tag takes two attributes, `rel` which sets the relationship between the HTML page and the file its linked to and `href` which sets the path to the stylesheet. In this case, the relationship is that our file is the stylesheet to the HTML file and the path is the location of the stylesheet in our project folder. Here, our stylesheet is located in the styles subfolder, `styles/style.css`
 
-```
+```html
 index.html
 
 <!DOCTYPE html>
@@ -161,7 +174,7 @@ index.html
 
 Now that we've connected our stylesheet to our HTML file, let's set up our webpage with a basic layout using CSS styles. First, use the universal selector property to strip all the elements of their inherent margins and padding. Many HTML tags have [default browser values](https://chromium.googlesource.com/chromium/blink/+/master/Source/core/css/html.css) that we would have to take into account when we are designing our webpage. So, some developers use a simple reset. For example, the default browser style for an `<h2>` tag is:
 
-```
+```css
 style.css
 
 h2 {
@@ -316,3 +329,4 @@ The weather service we will be using in this module is called Open Weather Map a
 At this point, we’re ready to build the core functionality of our weather widget. If you haven't done so already, let’s do it!
 
 ## Challenge
+

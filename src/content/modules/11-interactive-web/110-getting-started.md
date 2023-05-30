@@ -9,7 +9,7 @@ slug: getting-started
 
 Digital technologies increasingly form the backdrop for our everyday work and play – Zoom, FaceTime, Slack, Instagram, GMail, Spotify, the list is almost endless. Something as simple as a weather widget mediates awareness of the world in ways that matter to the person using it – should I walk with an umbrella? do I need my sunglasses? maybe I should pack an extra sweater? since its raining, maybe I'll go to the museum instead of the park?
 
-This module will walk through the steps of building a weather widget – starting with the basic HTML structure and building out the styles and interaction. The challenge is to design a display of current weather conditions for a single city that will be determined by the user of your site. The premice of this experiment is to guide you through the steps of using client-side JavaScript in the browser to request JSON data directly from a weather service and render that JSON data to the web browser, in a delightful manner.
+This module will walk through the steps of building a weather widget – starting with the basic HTML structure and building out the styles and interaction. The challenge is to design a display of current weather conditions for a single city that will be determined by the user of your site. The premise of this experiment is to guide you through the steps of using client-side JavaScript in the browser to request JSON data directly from a weather service and render that JSON data to the web browser, in a delightful manner.
 
 __Note:__ This experiment is meant to be used as a technical guide. Consider _all_ the data that is returned from the weather service, not just the temperature and let that inform your design choices. What kind of experience could you create to accomodate all possible weather conditions? Consider how your agency as a designer can enter into the _development_ of this interface.
 
@@ -81,7 +81,8 @@ While programming it's pretty common to need to juggle the placement of multiple
 
 ##### Get Up and Running with VS Code
 
-1. Go [here](https://code.visualstudio.com/) to download Visual Studio Code.
+1. Download Visual Studio Code:
+  * See the installation guides for [Mac](https://code.visualstudio.com/docs/setup/mac) and [Windows](https://code.visualstudio.com/docs/setup/windows)
 2. Open the downloaded zip file.
 3. Drag the unzipped `Visual Studio Code` app to your `Applications` folder.
 4. Launch the application by clicking on the icon or press `Command + Spacebar` and type VS Code in the input field that appears
