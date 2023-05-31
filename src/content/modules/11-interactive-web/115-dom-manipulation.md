@@ -216,3 +216,12 @@ const getWeatherData = (zip) => {
 ```
 
 ## Challenge
+
+Submit your progress to the cloud via GitHub Desktop. Forgot how? 
+
+Open GitHub Desktop. Newly written code is rendered in green while deleted code is rendered in red. In the bottom left corner of the application window, type the following message:
+
+```md
+DOM Manipulation# replace Create index.html
+Interactive Web submission # replace Description
+```

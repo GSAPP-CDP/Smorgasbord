@@ -7,7 +7,7 @@ authors:
  - "Celeste Layne"
 ---
 
-# JavaScript in the Browser II - Events and UIs
+# JavaScript in the Browser - Events and UIs
 
 * Duration: 1 hour
 * Deliverable: [Challenge](#challenge) 
@@ -31,6 +31,8 @@ JavaScript is different than most other programming languages because it is desi
 Building off the `getWeatherData` function we created in the previous module, let's store the data returned from the weather service to a variable called `local_weather_data`. If you want to see what this data being returned looks like, you can log that variable to the console. In this case, you would call `console.log(local_weather_data)` _after_ the variable.
 
 ```js
+main.js
+
 function getWeatherData() {
   fetch(`http://api.openweathermap.org/data/2.5/weather?zip=10128&APPID=${API_KEY}`)
     .then((response) => response.json())
@@ -64,7 +66,12 @@ gsapp.addEventListener(‘click’, sayHello)
 
 ### Step 2 – Set Up An Event Listener
 
-In order to listen for an event, we need to define an event listener. Below you’ll find a simple event listener associated with a 'click' event on a button element. First, target the HTML element with a class name `search-button` and save it to a variable.
+In order to listen for an event, we need to define an event listener. Below you’ll find a simple event listener associated with a 'click' event on a button element. First, target the HTML element with a class name `search-button` and save it to a variable in the `main.js` file.
+
+```html
+<button type="button" class="search-button">Search</button>
+```
+
 
 ```js
 let btn = document.querySelector(".search-button");
@@ -234,3 +241,14 @@ btn.addEventListener("click", getZipCode);
 ```
 
 ## Challenge
+
+Submit your progress to the cloud via GitHub Desktop. Forgot how? 
+
+Open GitHub Desktop. Newly written code is rendered in green while deleted code is rendered in red. In the bottom left corner of the application window, type the following message:
+
+```md
+Events and UIs # replace Create index.html
+Interactive Web submission # replace Description
+```
+
+### Next Steps: [Events and UIs](./115-dom-manipulation.md)
