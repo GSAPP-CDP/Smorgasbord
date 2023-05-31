@@ -250,5 +250,3 @@ Open GitHub Desktop. Newly written code is rendered in green while deleted code 
 Events and UIs # replace Create index.html
 Interactive Web submission # replace Description
 ```
-
-### Next Steps: [Events and UIs](./modules/11-interactive-web/115-dom-manipulation.md)
