@@ -26,7 +26,7 @@ _The following are the instructions for getting your computer set up to complete
 #### Set-up the following accounts and software
 
 * [Google Chrome](https://www.google.com/chrome/downloads/)
-* [VS Code](https://code.visualstudio.com/)
+* [VS Code](https://code.visualstudio.com/) is used to build, edit, and debug code
 * [GitHub](https://github.com/)
 * [GitHub Desktop](https://desktop.github.com/)
 
@@ -40,30 +40,17 @@ It is recommended that you install the following Chrome Extensions:
 
 * [JSON View](https://chrome.google.com/webstore/detail/jsonvue/chklaanhfefbnpoihckbnefhakgolnmc)
 
-### Window Manager
+### Integrated Development Environment (IDE)
+![visual studio code](assets/visual-studio-code-01.png) // replace image with course repo
 
-![]() // GIF demonstrating window management
-
-While programming it's pretty common to need to juggle the placement of multiple windows. To speed up this process install Spectacle, a program that does this for us (and gives us a bunch of convenient keyboard shortcuts).
-
-* Download [Spectacle](https://www.spectacleapp.com/) for Mac
-* Next, extract it and drag the application icon into your `Applications` directory.
-* Finally, launch the app by right-clicking on the Spectacle icon and click open, follow the instructions to enable the accessibility options. 
-* It will serve you well to familiarze yourself with Spectacle commands and keyboard shortcuts, like:
-  * Move window to the left-half: Command+Option+LeftArrow
-  * Move window to the right-half: Command+Option+RightArrow
-  * Maximize a window: Command+Option+F	
-
-### Text Editor
-
-#### What is a Text Editor?
+#### What is an IDE?
 
 * Text editors provide an interface for viewing and modifying text files.
 * There are different kinds of text editors:
- * Terminal/command line: Vim, Emacs, GNU nano
- * Window-based: VS CODE, Sublime, Atom, TextMate, Notepad++
+  * Terminal/command line: Vim, Emacs, GNU nano
+  * Window-based: VS CODE, Sublime, Atom, TextMate, Notepad++
 
-#### Modern Text Editors
+#### Modern IDEs
 
 * Can open a file or directory.
 * Can understand context.
@@ -80,9 +67,10 @@ While programming it's pretty common to need to juggle the placement of multiple
 * JavaScript
 * Python
 
-![visual studio code](assets/visual-studio-code-01.png) // replace image with course repo
 
 #### Get Up and Running with VS Code
+
+This sequence uses Visual Studio Code as the preferred IDE because it is free, open-source and cross-platform meaning that it supports macOS, Linux, and Windows - so you can hit the ground running.
 
 1. Download Visual Studio Code:
    * See the installation guides for [Mac](https://code.visualstudio.com/docs/setup/mac) and [Windows](https://code.visualstudio.com/docs/setup/windows)
@@ -153,7 +141,7 @@ While Bash is famous for being the go-to CLI shell in Mac and Linux, Windows use
 
 ##### How?
 
-Real-world software projects often involve many files, which are organized into folders. It's handy to be able to see all files in our project while working in our text editor. VS Code makes this easy, as it supports a project mode. To use this mode, we simply pass in a directory.
+Real-world software projects often involve many files, which are organized into folders. It's handy to be able to see all files in our project while working in our IDE. VS Code makes this easy, as it supports a project mode. To use this mode, we simply pass in a directory.
 
 1. Navigate to the root of your project folder.
 2. In the command line type `code .` and VS Code will launch with the project folder ready to edit.

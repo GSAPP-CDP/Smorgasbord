@@ -33,24 +33,23 @@ For the following reasons, GitHub is the version control manager of choice:
 What is the difference between Git and GitHub? Find an answer [here](https://stackoverflow.com/questions/11816424/understanding-the-basics-of-git-and-github).
 
 
-## GitHub Desktop vs GitHub in the Terminal
+## GitHub Desktop 
 
-### Create Account
-
-* Sign up for a [GitHub](https://github.com/) account.
-* Download the [GitHub Desktop](https://desktop.github.com/) application and install it on your computer.
-
-### GitHub Desktop
+Download the [GitHub Desktop](https://desktop.github.com/) application and install it on your computer.
 
 ![](assets/github-onboarding-01.png)
 
-#### Create Repository
+## GitHub.com
+
+Follow [these instructions](https://docs.github.com/en/get-started/signing-up-for-github) and sign up for a **free** personal [GitHub](https://github.com/) account.
+
+### Create Repository
 
 Log into [github.com](https://github.com/) and create a new repository using the link under the `+` icon in the upper right of the GitHub homepage.
 
 ![](assets/github-onboarding-02.png)
 
-Name the repository. For example, I named this one `didactic-eureka`. Thanks for the recommendation, GitHub! Check the box to add a README file. This repository will be the home for all your assignments and exercises for this class. __Click the green create repository button__.
+Name the repository. For example, I named this one `studious-umbrella`. Thanks for the recommendation, GitHub! Check the box to add a README file. This repository will be the home for the work produced in this module. __Click the green create repository button__.
 
 ![](assets/github-onboarding-03.png)
 
@@ -68,30 +67,40 @@ Now…(this is important) choose a place on your computer where you want this re
 
 Yay! You’re in your local repository. GitHub Desktop provides some friendly suggestions for where to go next:
 
-* Open the repository in your code editor (Visual Studio Code etc)
-* View the files in Finder
+* Open the repository in your IDE (Visual Studio Code)
+* View the files in the [Finder](https://support.apple.com/en-us/HT201732) on MacOS or [File Explorer](https://support.microsoft.com/en-us/windows/find-and-open-file-explorer-ef370130-1cca-9dc5-e0df-2f7416fe1cb1) on Windows
 * Open the repository page on GitHub in your web browser
 
-If you select, view the files in finder, you will be taken to a folder named `studious-umbrella`, this is the ‘local’ version of your github repository. It’s local address is: `/Users/your-computer-name/Documents/GitHub/studious-umbrella`. We will use this as a space to archive your projects and exercises.
+If you select, `Show in Finder`, you will be taken to a folder named `studious-umbrella`, this is the `local` version of your GitHub repository. It’s local address is: `/Users/your-computer-name/Documents/GitHub/studious-umbrella`. We will use this as a space to archive the work in this tutorial.
 
-### Terminal
+![](./images/111/111-32.png)
 
-#### Create Repository
-
-```
-$ cd ~/gsapp/cdp/interactive-web
-$ mkdir weather-widget  
-$ cd weather-widget  
-$ git init
-```
-
-
-### Create Your First Webpage
+## Create Your First Webpage
 
 1. Open the repository in your code editor.
-2. Make a new HTML file named `index.html` in Visual Studio Code (or your code editor of choice).
-3. Copy the basic HTML structure from here and paste it into your `index.html` file (or, use the following VS Code shortcut).
+   * To open the project folder in Visual Studio Code, navigate to the "File" menu item in the top menu and select "Add Folder to Workspace." 
+   * Select the folder you've just created, `studious-umbrella` 
+2. Make a new HTML file named `index.html` in Visual Studio Code.
+   * Click on the `New File...` icon
+   * Name the file, index.html
+3. In VS Code, click on the `index.html` file which is currently blank and set up the bones for what will be your website by copying and pasting in the following code snippet, or using the one found [here](https://www.w3schools.com/html/html_basic.asp).
 4. Modify the code with the words Hello World and save the file to your local GitHub repository.
+
+```html
+index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+</head>
+<body>
+
+  <!-- your code goes in here -->
+
+</body>
+</html>
+``` 
 
 ### Push Local Code to Remote Repository
 
