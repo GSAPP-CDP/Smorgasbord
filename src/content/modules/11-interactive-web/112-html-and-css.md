@@ -31,14 +31,18 @@ HTML provides structure to the content appearing on a website, such as images, t
 
 ## Set Up Your HTML Project
 
-Set up a new project using a text editor, like [Visual Studio Code](https://code.visualstudio.com/) a free, open source code editor available for Mac, Windows, or Linux. For more detials, read [Get Up and Running with VS Code](). See the installation guides for [Mac](https://code.visualstudio.com/docs/setup/mac) and [Windows](https://code.visualstudio.com/docs/setup/windows)
+At this point, your GitHub repo should look like the following:
 
-1. Open your code editor.
+![](./images/111/111-35.png)
+
+Now, we are going to create a new folder called, `weather-widget` next to the `index.html` file. 
+
+1. Open your code editor. Click on the `New Folder..` icon.
 2. Open a new project folder and name it `weather-widget`. We will use this folder to store the files created for this module. 
 3. To create a new project folder in Visual Studio Code, navigate to the "File" menu item in the top menu and select "Add Folder to Workspace." Place your new folder in the `Documents/GSAPP` folder (or your preferred location). In the Finder window, click the "New Folder" button and create a folder called `weather-widget`.
 4. Finally, drag the `weather-widget` folder from Finder and drop it into your VS Code icon.
 
-![cerate project folder](assets/create-project-folder.gif)
+![cerate project folder](assets/create-project-folder-vscode.gif)
 
 Inside the `weather-widget` folder, we will create the following project structure:
 
@@ -330,3 +334,29 @@ At this point, we’re ready to build the core functionality of our weather widg
 
 ## Challenge
 
+### Creating Local Site
+
+Did you know that you can create web pages without being connected to the internet? Webpages are simply files, often with the extension `.html`. To preview them, just drag the file to your Chrome web browser. You’ll notice the top URL starts with `file://...` This is the indication of a local file. Local files are running on your computer, whereas when the top URL bar starts with `http://...` , it means it’s running on the internet and can be seen by anyone.
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Programming for Design Practices</title>
+  </head>
+  <body>
+    <h1>Hello World.</h1>
+  </body>
+</html>
+```
+
+1. Add content to your `index.html` file
+ * Open up your `index.html` file in the text editor
+ * Copy and paste the above code into your `index.html`
+ * Save it
+2. Test that the page works locally. To do this, drag your `index.html` into your Chrome web browser. You should get something that looks like the following screenshot.
+
+![hello world](assets/hello-world-01.png)
+
+### Next Steps: [Data and APIs](./113-data-and-apis.md)
