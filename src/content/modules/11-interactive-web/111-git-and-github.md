@@ -7,6 +7,9 @@ slug: git-and-github
 
 # Javascript in the Browser - Git and GitHub Foundations
 
+* Duration: 1 hour
+* Deliverable: [Challenge](#challenge) 
+
 ### Github, what is it?
 At a high level, GitHub is a website and cloud-based service that helps developers store and manage their code, as well as track and control changes to their code. To understand exactly what GitHub is, you need to know two connected principles:
 
@@ -17,7 +20,7 @@ At a high level, GitHub is a website and cloud-based service that helps develope
 Version control is the management of changes to documents, computer programs, websites, and other collections of information.
 
 ### What is Git?
-Git is a specific open-source version control system created in 2005 by Linus Torvalds, the creator of Linux. Specifically, Git is a distributed version control system, which means that the entire codebase and history is available on every developer’s computer, which allows for easy [branching]() and [merging]().  It can be used with any file type such as such as [Unity projects](https://unityatscale.com/unity-version-control-guide/how-to-setup-unity-project-on-github/) or [WebVR projects](https://aframe.io/), but is most often used for tracking simple codebases. 
+Git is a specific open-source version control system created in 2005 by Linus Torvalds, the creator of Linux. Specifically, Git is a distributed version control system, which means that the entire codebase and history is available on every developer’s computer.  It can be used with any file type such as such as [Unity projects](https://unityatscale.com/unity-version-control-guide/how-to-setup-unity-project-on-github/) or [WebVR projects](https://aframe.io/), but is most often used for tracking simple codebases. 
 
 GitHub is a Git repository hosting service. It allows developers and engineers to create remote, public-facing repositories on the cloud for free. While Git is a command line tool, GitHub provides a Web-based graphical interface.
 
@@ -26,7 +29,6 @@ For the following reasons, GitHub is the version control manager of choice:
 * It manage changes over time.
 * It aids sharing and collaboration.
 * It allows for experimentation.
-
 
 * [Getting Started with GitHub Desktop](https://docs.github.com/en/get-started/quickstart/hello-world), GitHub Desktop Documentation 
 
@@ -117,12 +119,15 @@ index.html
 ![](./images/111/111-36.png)
 
 1. In your github.com repository, find the `Settings` tab.
-2. Scroll to the `Pages` section in the left menu. Under the `Build and Deployment` heading, click the dropdown menu under the Branch sub-heading and select the main branch as your publishing source. Keep the `/(root)` folder for your publishing source.
+2. Scroll to the `Pages` section in the left menu. Under the `Build and Deployment` heading, click the dropdown menu under the `Branch` sub-heading and select the `main` branch as your publishing source. Keep the `/(root)` folder for your publishing source.
 3. Click Save.
-4. Now, drumroll please! In the same GitHub Pages section, you should see a green success bar appear that says: "Your site is published at `https://yourusername.github.io/studious-umbrella`." _Note:_ This may take a few minutes to occur.
-5. Click on the link. Voila!
 
 ![](./images/111/111-37.png)
+
+4. Now, drumroll please! In the same GitHub Pages section, you should see a green success bar appear that says: "Your site is live at `https://yourusername.github.io/studious-umbrella`." _Note:_ This may take a few minutes to occur.
+5. Click on the link. Voila!
+
+![](./images/111/111-38.png)
 
 ## Challenge
 
