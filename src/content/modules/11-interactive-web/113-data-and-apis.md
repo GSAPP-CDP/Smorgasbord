@@ -96,7 +96,7 @@ weather-widget
 
 ### Step 1 – Execute JavaScript in a web page
 
-1. Open the `weather-widget` in your text editor and add the following log to the top of the `main.js` file:
+1. Open the `weather-widget` in your text editor and add the following [`console.log`](https://developer.mozilla.org/en-US/docs/Web/API/Console/log) to the top of the `main.js` file:
 
 ```js
 console.log("this works");
@@ -134,7 +134,7 @@ Once you press the ENTER key following your line of JavaScript, you should see t
 console.log("Hello, World!");
 ```
 
-##### Resource:
+### Required Read:
 [Get Started With Running JavaScript In The Console](https://developer.chrome.com/docs/devtools/console/javascript/) by Kayce Basques, Technical Writer, Chrome DevTools & Lighthouse
 
 ## Set Up the API
@@ -148,7 +148,7 @@ Now, let's familiarize ourselves with the API documentation. There are no rules 
 ![open weather map documentation ](images/111/111-06.png)
 
 ### Step 2 – API Key
-Once you've signed up, you're given an [API key](https://home.openweathermap.org/api_keys). Copy the API key and create a variable in your `main.js` file to store the key. You can place it just below the `console.log()`.
+Once you've signed up, you're given an [API key](https://home.openweathermap.org/api_keys). Copy the API key and create a variable in your `main.js` file to store the key. You can place it just below the `console.log()` in between the quotes.
 
 ```js
  const API_KEY = “”;
@@ -230,7 +230,7 @@ Here we are fetching a JSON file across the network and printing it to the conso
 
 ![html-image](images/111/111-07.png)
 
-##### Resource:
+### Required Read:
 * [Using Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch), MDN Documentation
 * [How to Use the JavaScript Fetch API to get Data](https://www.digitalocean.com/community/tutorials/how-to-use-the-javascript-fetch-api-to-get-data) by Sara Vieira. Scotch.io
 
@@ -259,3 +259,13 @@ getWeatherData()
 
 ## Challenge
 
+Submit your progress to the cloud via GitHub Desktop. Forgot how? 
+
+Open GitHub Desktop. Newly written code is rendered in green while deleted code is rendered in red. In the bottom left corner of the application window, type the following message:
+
+```md
+Data and APIs # replace Create index.html
+Interactive Web submission # replace Description
+```
+
+### Next Steps: [Events and UIs](./114-events-and-uis.md)

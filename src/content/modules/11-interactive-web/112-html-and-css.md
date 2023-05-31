@@ -360,5 +360,6 @@ See the changes on the right. Newly written code is rendered in green while dele
 HTML and CSS # replace Create index.html
 Interactive Web submission # replace Description
 ```
+Check your personal GitHub Pages link to make sure it works: `https://yourusername.github.io/studious-umbrella/weather-widget`. Replace `yourusername` with the name of your GitHub account.
 
 ### Next Steps: [Data and APIs](./113-data-and-apis.md)
