@@ -9,6 +9,9 @@ authors:
 
 # JavaScript in the Browser II - Events and UIs
 
+* Duration: 1 hour
+* Deliverable: [Challenge](#challenge) 
+
 Wouldn’t it be nice if we could write code that allows elements on the webpage to respond to user interactions? The DOM not only lets us manipulate the document (or webpage) using JavaScript, but also gives us the ability to write JavaScript that responds to interactions with the page. These interactions are communicated as events. We can listen for certain kinds of user-driven events, such as clicking a button, entering data into a form, pressing a particular key on your keyboard, and more.
 
 ## What are we building?

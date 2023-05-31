@@ -7,11 +7,12 @@ slug: getting-started
 
 # Javascript in the Browser - Getting Started
 
-Digital technologies increasingly form the backdrop for our everyday work and play – Zoom, FaceTime, Slack, Instagram, GMail, Spotify, the list is almost endless. Something as simple as a weather widget mediates awareness of the world in ways that matter to the person using it – should I walk with an umbrella? do I need my sunglasses? maybe I should pack an extra sweater? since its raining, maybe I'll go to the museum instead of the park?
+* Duration: 1 hour
+* Deliverable: [Challenge](#challenge) 
 
-This module will walk through the steps of building a weather widget – starting with the basic HTML structure and building out the styles and interaction. The challenge is to design a display of current weather conditions for a single city that will be determined by the user of your site. The premise of this experiment is to guide you through the steps of using client-side JavaScript in the browser to request JSON data directly from a weather service and render that JSON data to the web browser, in a delightful manner.
+Digital technologies increasingly form the backdrop for our everyday work and play – Zoom, FaceTime, Slack, Instagram, GMail, Spotify, chatGPT, the list is almost endless. Something as simple as a weather widget mediates awareness of the world in ways that matter to the person using it – should I walk with an umbrella? do I need my sunglasses? maybe I should pack an extra sweater? since its raining, maybe I'll go to the museum instead of the park?
 
-__Note:__ This experiment is meant to be used as a technical guide. Consider _all_ the data that is returned from the weather service, not just the temperature and let that inform your design choices. What kind of experience could you create to accomodate all possible weather conditions? Consider how your agency as a designer can enter into the _development_ of this interface.
+This project-based tutorial will walk through the steps of building a weather widget – starting with the basic HTML structure and building out the styles and interaction. The challenge is to design a display of current weather conditions for a single city that will be determined by the user of your site.
 
 ### References
 
@@ -25,10 +26,11 @@ _The following are the instructions for getting your computer set up to complete
 #### Set-up the following accounts and software
 
 * [Google Chrome](https://www.google.com/chrome/downloads/)
-* [VS Code](https://code.visualstudio.com/), [Sublime Text](https://www.sublimetext.com/) or [Atom](https://atom.io/)
+* [VS Code](https://code.visualstudio.com/)
 * [GitHub](https://github.com/)
+* [GitHub Desktop](https://desktop.github.com/)
 
-#### Browser
+### Browser
 
 ![google chrome browser](assets/google-chrome-01.png)
 
@@ -38,27 +40,30 @@ It is recommended that you install the following Chrome Extensions:
 
 * [JSON View](https://chrome.google.com/webstore/detail/jsonvue/chklaanhfefbnpoihckbnefhakgolnmc)
 
-#### Window Manager
+### Window Manager
+
+![]() // GIF demonstrating window management
+
 While programming it's pretty common to need to juggle the placement of multiple windows. To speed up this process install Spectacle, a program that does this for us (and gives us a bunch of convenient keyboard shortcuts).
 
-* Download [Spectacle](https://www.spectacleapp.com/) 
- * Next, extract it and drag the application icon into your `Applications` directory.
- * Finally, launch the app by right-clicking on the Spectacle icon and click open, follow the instructions to enable the accessibility options. 
+* Download [Spectacle](https://www.spectacleapp.com/) for Mac
+* Next, extract it and drag the application icon into your `Applications` directory.
+* Finally, launch the app by right-clicking on the Spectacle icon and click open, follow the instructions to enable the accessibility options. 
 * It will serve you well to familiarze yourself with Spectacle commands and keyboard shortcuts, like:
- * Move window to the left-half: Command+Option+LeftArrow
- * Move window to the right-half: Command+Option+RightArrow
- * Maximize a window: Command+Option+F	
+  * Move window to the left-half: Command+Option+LeftArrow
+  * Move window to the right-half: Command+Option+RightArrow
+  * Maximize a window: Command+Option+F	
 
-#### Text Editor
+### Text Editor
 
-##### What is a Text Editor?
+#### What is a Text Editor?
 
 * Text editors provide an interface for viewing and modifying text files.
 * There are different kinds of text editors:
  * Terminal/command line: Vim, Emacs, GNU nano
  * Window-based: VS CODE, Sublime, Atom, TextMate, Notepad++
 
-##### Modern Text Editors
+#### Modern Text Editors
 
 * Can open a file or directory.
 * Can understand context.
@@ -68,21 +73,19 @@ While programming it's pretty common to need to juggle the placement of multiple
  * Provide syntax highlighting. 
 * Provide extensions and plugins to add additional features to a text editor.
 
-##### Types of Text Files
+#### Types of Text Files
 
-* Plaintext
 * Markdown
 * HTML
 * JavaScript
 * Python
-* BASH
 
-![visual studio code](assets/visual-studio-code-01.png)
+![visual studio code](assets/visual-studio-code-01.png) // replace image with course repo
 
-##### Get Up and Running with VS Code
+#### Get Up and Running with VS Code
 
 1. Download Visual Studio Code:
-  * See the installation guides for [Mac](https://code.visualstudio.com/docs/setup/mac) and [Windows](https://code.visualstudio.com/docs/setup/windows)
+   * See the installation guides for [Mac](https://code.visualstudio.com/docs/setup/mac) and [Windows](https://code.visualstudio.com/docs/setup/windows)
 2. Open the downloaded zip file.
 3. Drag the unzipped `Visual Studio Code` app to your `Applications` folder.
 4. Launch the application by clicking on the icon or press `Command + Spacebar` and type VS Code in the input field that appears
@@ -99,6 +102,8 @@ Visual Studio Code’s core functionality can be extended using thousands of thi
 4. After reloading, you will now have that extension installed and activated!
 5. Now, try searching for and adding the `open in browser` extension as well.
 
+// add image of extension icon in the activity bar
+
 #### Terminal
 
 Have you ever opened up the Terminal, then you may have wondered what to do next? You're not alone. Developers on macOS and Linux machines use Bash to interact with files and applications. Bash is a command-line interface shell program used extensively in Linux and macOS. The name Bash is an acronym for "Bourne Again Shell," developed in 1989 as a successor to the Bourne Shell.
@@ -108,40 +113,43 @@ Have you ever opened up the Terminal, then you may have wondered what to do next
 There was a point when computers didn't come with a Graphical User Interface (GUI). Instead, everyone interacted with the computer using text commands in what we call a Command Line Interface (CLI).
 
 ![Free DOS](assets/freedos-gui-01.png)
-
 _FreeDOS 1.1 is a free software operating system for IBM PC compatible computers_
 
 Today, the command line still exists, even though you may have never seen it as a casual computer user. As a developer, you will regularly intereact with the command line to manage your files and tell your computer how to run the programs you write. It will greatly speed up your development process and help you take ownership of your computer at a deeper level. 
 
-##### What is a shell?
+// add image of iTerm or Terminal app 
+
+### What is a shell?
 
 "What's a shell?" you ask? A shell is a computer program that allows you to directly control a computer's operating system (OS) with a graphical user interface (GUI) or command-line interface (CLI). Simply put, it is a program that accepts text as input and translates that text into the appropriate functions that you want your computer to run. For example, Windows 10 is based on the Windows shell that allows you to control your OS with a desktop, taskbar, and menus.
 
 While Bash is famous for being the go-to CLI shell in Mac and Linux, Windows uses Command Prompt and PowerShell to perform the same functions as Bash. But, it's now possible to install Bash on Windows 10 to provide almost the same functionality as Bash in Mac and Linux.
 
-##### Basic Bash Commands
+### Basic Bash Commands
 
-| Key/Command | Description 				                |
-| :---        | :---                                    |    
-| Tab         | Auto-complete files and folder names    | 
-| cd [folder]  | Change to a different directory                       | 
-| ls  | Lists the contents of a directory                       | 
-| open [file]  | Opens a file                       | 
-| open .  | Opens the directory                      | 
-| clear  | Clear terminal screen                       | 
-| touch [file]  | Create new (empty) file                       | 
-| pwd  | Full path to working directory                       | 
-| mkdir [dir]  | Create new directory                      | 
+| Key/Command | Description 				                             |
+| :---        | :---                                             |    
+| Tab         | Auto-complete files and folder names             | 
+| cd [folder]  | Change to a different directory                 | 
+| ls  | Lists the contents of a directory                        | 
+| open [file]  | Opens a file                                    | 
+| open .  | Opens the directory                                  | 
+| clear  | Clear terminal screen                                 | 
+| touch [file]  | Create new (empty) file                        | 
+| pwd  | Full path to working directory                          | 
+| mkdir [dir]  | Create new directory                            | 
 | cp [file] [dir]  | Copy file to directory                      | 
 | mv [file] [new filename]  | Move/Rename, e.g. mv -v [file] [dir]                      | 
 
-#### Open Visual Studio Code from Terminal
+### Open Visual Studio Code from Terminal
 
 ![command palette](assets/command-palette-01.gif)
 
 1. With Visual Studio Code open, type the following shortcut to pull up the command pallette: `command + shift + P`
 2. Enter the command `install 'code' command in PATH` and press Enter.
 3. Now you will be able to type `code` in the Terminal to open Visual Studio Code.
+
+// show GIF using code to open folder
 
 ##### How?
 

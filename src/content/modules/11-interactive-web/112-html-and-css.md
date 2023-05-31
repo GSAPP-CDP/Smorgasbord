@@ -7,27 +7,27 @@ slug: html-and-css
 
 # Javascript in the Browser - HTML & CSS
 
-Duration: 1 hour
+* Duration: 1 hour
+* Deliverable: [Challenge](#challenge) 
 
-Digital technologies increasingly form the backdrop for our everyday work and play – Zoom, FaceTime, Slack, Instagram, GMail, Spotify, the list is almost endless. Something as simple as a weather widget mediates awareness of the world in ways that matter to the person using it – should I walk with an umbrella? do I need my sunglasses? maybe I should pack an extra sweater? since its raining, maybe I'll go to the museum instead of the park?
+Digital technologies increasingly form the backdrop for our everyday work and play – Zoom, FaceTime, Slack, Instagram, GMail, Spotify, chatGPT, the list is almost endless. Something as simple as a weather widget mediates awareness of the world in ways that matter to the person using it – should I walk with an umbrella? do I need my sunglasses? maybe I should pack an extra sweater? since its raining, maybe I'll go to the museum instead of the park?
 
-This module will walk through the steps of building a weather widget – starting with the basic HTML structure and building out the styles and interaction. The challenge is to design a display of current weather conditions for a single city that will be determined by the user of your site. The premice of this experiment is to guide you through the steps of using client-side JavaScript in the browser to request JSON data directly from a weather service and render that JSON data to the web browser, in a delightful manner.
+This project-based tutorial will walk through the steps of building a weather widget – starting with the basic HTML structure and building out the styles and interaction. The challenge is to design a display of current weather conditions for a single city that will be determined by the user of your site.
 
-__Note:__ This experiment is meant to be used as a technical guide. Consider _all_ the data that is returned from the weather service, not just the temperature and let that inform your design choices. What kind of experience could you create to accomodate all possible weather conditions? Consider how your agency as a designer can enter into the _development_ of this interface.
-
-#### References
+### References
 
 * [Weather Gradient](https://weathergradient.com/)
 * [Do I Need a Jacket](https://doineedajacket.com/)
 
-### What is HTML?
+## What is HTML?
 HTML stands for HyperText Markup Language and was invented in 1989 by Sir Timothy Berners-Lee while working at the European Organization for Nuclear Research (CERN). Every website you’ve ever visited is rendered in HTML. Your web browser parses the HTML then renders the results.
 
-HyperText is text that contains links to other texts. Markup describes a system of describing or annotating text files. Just like any language, HTML has its own vocabulary, grammar and syntax.
+_HyperText_ is text that contains links to other texts. _Markup_ describes a system of describing or annotating text files. Just like any language, HTML has its own vocabulary, grammar and syntax.
 
-The fundamental building block of HTML is the element. Elements consist of an opening tag, closing tag and content (text, image, video) sandwiched in between. The content is what the user sees on the webpage. The tags tell the browser the type of content and how to present it.
+HTML provides structure to the content appearing on a website, such as images, text, or videos. The fundamental building block of HTML is the element. Elements consist of an opening tag, closing tag and content (text, image, video) sandwiched in between. The content is what the user sees on the webpage. The tags tell the browser the type of content and how to present it.
 
 ![image](./images/111/111-01.png)
+*Anatomy of an HTML element*
 
 ## Set Up Your HTML Project
 
@@ -170,7 +170,7 @@ index.html
 </head>
 ```
 
-### Style the layout
+## Style the layout
 
 Now that we've connected our stylesheet to our HTML file, let's set up our webpage with a basic layout using CSS styles. First, use the universal selector property to strip all the elements of their inherent margins and padding. Many HTML tags have [default browser values](https://chromium.googlesource.com/chromium/blink/+/master/Source/core/css/html.css) that we would have to take into account when we are designing our webpage. So, some developers use a simple reset. For example, the default browser style for an `<h2>` tag is:
 

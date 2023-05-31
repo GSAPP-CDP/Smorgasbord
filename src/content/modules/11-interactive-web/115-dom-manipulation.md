@@ -9,6 +9,9 @@ authors:
 
 # JavaScript in the Browser - DOM Manipulation
 
+* Duration: 1 hour
+* Deliverable: [Challenge](#challenge) 
+
 The user interface is the part of a computer and its software that people can see, hear, understand or direct. The user interface has two components: input and output. The input is how a user communicates their needs to the computer. Some common input components are keyboard, mouse or voice. The output is how the computer conveys the results back to the user; this is usually done through the display screen.
 
 Before we continue building out our widget, let's consider how do we want people to interact with it. The wireframe is a great tool to illustrate how the user interfaces with our application. Most wireframes are free of any color or visual design elements, and simply show boxes and lines with notations to outline user interactions.
