@@ -20,11 +20,16 @@ This project-based tutorial will walk through the steps of building a weather wi
 * [Do I Need a Jacket](https://doineedajacket.com/)
 
 ## What is HTML?
+
+![html-as-building](images/111/111-21.png)
+
 HTML stands for HyperText Markup Language and was invented in 1989 by Sir Timothy Berners-Lee while working at the European Organization for Nuclear Research (CERN). Every website you’ve ever visited is rendered in HTML. Your web browser parses the HTML then renders the results.
 
 _HyperText_ is text that contains links to other texts. _Markup_ describes a system of describing or annotating text files. Just like any language, HTML has its own vocabulary, grammar and syntax.
 
 HTML provides structure to the content appearing on a website, such as images, text, or videos. The fundamental building block of HTML is the element. Elements consist of an opening tag, closing tag and content (text, image, video) sandwiched in between. The content is what the user sees on the webpage. The tags tell the browser the type of content and how to present it.
+
+**Required Read:** [Getting Started with HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
 
 ![image](./images/111/111-01.png)
 *Anatomy of an HTML element*
@@ -35,14 +40,15 @@ At this point, your GitHub repo should look like the following:
 
 ![](./images/111/111-35.png)
 
-Now, we are going to create a new folder called, `weather-widget` next to the `index.html` file. 
+Now, we are going to create a new folder called, `weather-widget` that sits next to the `index.html` file. 
 
-1. Open your code editor. Click on the `New Folder..` icon.
-2. Open a new project folder and name it `weather-widget`. We will use this folder to store the files created for this module. 
-3. To create a new project folder in Visual Studio Code, navigate to the "File" menu item in the top menu and select "Add Folder to Workspace." Place your new folder in the `Documents/GSAPP` folder (or your preferred location). In the Finder window, click the "New Folder" button and create a folder called `weather-widget`.
-4. Finally, drag the `weather-widget` folder from Finder and drop it into your VS Code icon.
+1. Open your code editor. Hover over and click on the `New Folder..` icon.
+2. Type the name of the project, `weather-widget`. We will use this folder to store the files created for this module.
+3. You should __also__ see the folder created in the Finder window on the right.
 
 ![cerate project folder](assets/create-project-folder-vscode.gif)
+
+### Project Architecture
 
 Inside the `weather-widget` folder, we will create the following project structure:
 
@@ -54,19 +60,15 @@ weather-widget # project folder
 └── javascript # subfolder for javascript files
     └── main.js
 ```
-* Within the `weather-widget` folder, create an `index.html` file and two subfolders called `/styles` and `/javascript` respectively
-* Inside the styles folder, create a `style.css` file 
-* Inside the javascript folder, create a `main.js` file.
+1. Within the `weather-widget` folder, create an `index.html` file and two subfolders called `/styles` and `/javascript` respectively
+2. Inside the `styles` folder, create a `style.css` file 
+3. Inside the `javascript` folder, create a `main.js` file.
 
 __Note:__ It is best practice to separate out the structure of your project _index.html_ from the styles _style.css_ from the behaviors _main.js_. 
 
 ![image](assets/set-up-project-files.gif)
 
-Let's take a step back and look at each of these file types. Think of an HTML file like a building without any walls, paint, electricity or applicances. HTML stands for HyperText Markup Language. The building below can be thought of as HTML without Cascading Style Sheet (CSS) or JavaScript. CSS handles the presentation layer of our webpage and gives each website its own look or brand. JavaScript is a set of instructions that orchestrates the behavior of our webpage.
-
-![html-as-building](images/111/111-21.png)
-
-In VS Code, click on the `index.html` file which is currently blank and set up the bones for what will be your weather application by copying and pasting in the following code snippet, or using the one found [here](https://www.w3schools.com/html/html_basic.asp).
+In VS Code, click on the `index.html` file which is currently blank and set up the bones for what will be your weather widget by copying and pasting in the following code snippet, or using the one found [here](https://www.w3schools.com/html/html_basic.asp).
 
 ```html
 index.html
@@ -84,13 +86,11 @@ index.html
 </html>
 ``` 
 
-In the code editor, you should see the following:
+Your VS Code editor should look like the following:
 
 ![vscode-workspace](images/111/111-22.png)
 
-Alternatively, you can use one of the VS Code shortcuts. In the body of the `index.html` file:
-
-* type `html` and select `html:5` from the dropdown (_see image below_)
+Alternatively, you can use one of the VS Code shortcuts. In the body of the blank `index.html` file, type `html` and select `html:5` from the dropdown (_see image below_)
 
 ![image](assets/add-boilerplate-to-html.gif)
 
@@ -98,13 +98,13 @@ One of the benefits of using VS Code is that it adopts a common user interface a
 
 Read [this documentation](https://code.visualstudio.com/docs/getstarted/userinterface) on the layout of the VS Code user interface.
 
-### Start with the basic layout of the page
+## Start with the basic layout of the weather widget
 
-Now that we have a basic HTML template in our `index.html` file, let's create a basic layout for the webpage. Below, is what we're going to be building:
+Now that we have a basic HTML template in our `index.html` file, let's create a basic layout for the weather widget. Below, is what we're going to be building:
 
 ![html-image](images/111/111-08.png)
 
-At this point, we will be setting up our HTML file to be styled. How? By using CSS classes:
+At this point, we will be setting up our HTML file to be styled. How? By using [CSS class selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors):
 
 1. Define two sections with the following class names: `input-container` and `output-container`.
 2. The `input-container` will include a form with a search field where the user will type in their zipcode and a submit button that makes the request for the current weather to the weather service.
@@ -131,24 +131,30 @@ index.html
 Copy and paste the above code snippet into the `index.html` file. Place the code between the open and closing `<body>` tags.
 
 ![html-image](images/111/111-25.png)
+_Code snippet placed in between the `<body>` tags of the VS Code Editor_
 
-### Viewing Your Local HTML File in the Web Browser
+## Viewing Your Local HTML File in the Web Browser
 
-Now, let's see what we have so far. You can view your  `index.html` file in the Chrome browser a few ways:
+We've already seen how to view our code via GitHub Pages after pushing it to our repo on Github.com using the GitHub Desktop client. Now, let's view the code that we have locally on our laptops -- the code available to us _before_ we push it to GitHub.com. You can view your `index.html` file in the Chrome browser a few ways:
 
  a. Drag the `index.html` file from Finder and drop it into your web browser window.
- 
- b. CTRL + Left Click (on Mac) or Right Click (on Windows) to open the `index.html` file in the browser.
+
+ b. CTRL + Left Click (on Mac) or Right Click (on Windows) to open the `index.html` file in the browser (see image below).
  
 ![html-image](images/111/111-23.png)
+_CTRL + Left Click (on Mac) or Right Click (on Windows) to select Open in Default Browser_
 
- c. Copy the full path of your file and paste it into the browser address bar. CTRL + Left Click (on Mac) or Right Click (on Windows) on the `index.html` file in the panel on the left and select "Copy Path". Then, paste the path in the web browser.
+ c. Copy the full path of your file and paste it into the browser address bar. CTRL + Left Click (on Mac) or Right Click (on Windows) on the `index.html` file in the panel on the left and select "Copy Path". Then, paste the URL link in the web browser (Google Chrome).
 
 ![html-image](images/111/111-24.png)
+_CTRL + Left Click (on Mac) or Right Click (on Windows) to select Copy Path and paste into web browser address bar_
 
 __Note:__ refresh the browser window as you build out your website to see the changes you make locally in your GitHub repository.
 
-### Connecting Style to Structure
+![html-image](images/112/112-01.png)
+_The URL of the web page should match the location of the files on your computer_
+
+## Connecting Style to Structure
 
 There are three ways to add styles to your HTML:
 
@@ -174,9 +180,11 @@ index.html
 </head>
 ```
 
+Required Reading: [Getting Started with CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Getting_started)
+
 ## Style the layout
 
-Now that we've connected our stylesheet to our HTML file, let's set up our webpage with a basic layout using CSS styles. First, use the universal selector property to strip all the elements of their inherent margins and padding. Many HTML tags have [default browser values](https://chromium.googlesource.com/chromium/blink/+/master/Source/core/css/html.css) that we would have to take into account when we are designing our webpage. So, some developers use a simple reset. For example, the default browser style for an `<h2>` tag is:
+Now that we've connected our stylesheet to our HTML file, let's set up our webpage with a basic layout using CSS styles. First, use the [universal selector property](https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors) to strip all the elements of their inherent margins and padding. Many HTML tags have [default browser values](https://chromium.googlesource.com/chromium/blink/+/master/Source/core/css/html.css) that we would have to take into account when we are designing our webpage. So, some developers use a simple reset. For example, the default browser style for an `<h2>` tag is:
 
 ```css
 style.css
@@ -190,7 +198,7 @@ h2 {
 
 We want to reset these default browser styles and apply our own. So, one way of accomplishing that is to zero out the padding and margin. We also adjust the `box-sizing` to `border-box`. [Box-sizing](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing) is a CSS property sets how the total width and height of an element is calculated. By default the width and height you assign to an element is applied only to the element's content box. 
 
-#### Box Model
+### Box Model
 
 Every box (HTML element) has three properties that can be adjusted to control its appearance:
 
@@ -205,7 +213,7 @@ To learn more about the box model, these two resources can be quite helpful:
 1. [Introduction to the CSS basic box model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model), MDN Documentation
 2. [The CSS Box Model](https://css-tricks.com/the-css-box-model/), CSS Tricks
 
-For this exercise, we want the browser to account for any border and padding in the values we specify for an element's width and height. In the `style.css` file copy and paste the following code snippet: 
+For this exercise, we want the browser to account for any border and padding in the values we specify for an element's width and height. In the `style.css` file copy and paste the following code snippet for [universal selector property](https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors): 
 
 ```css
 style.css
@@ -217,7 +225,7 @@ style.css
 }
 ```
 
-Next, we'll set the height of the HTML tag to 100%. The `<body>` tag looks to its parent, `<html>` tag for how to scale the dynamic property, so the HTML tag needs to have its height set as well. This will give our layout a nice snug fit within the browser window.
+Next, we'll set the height of the HTML tag to 100%. The `<body>` tag looks to its parent, `<html>` tag for how to scale the dynamic property, so the HTML tag needs to have its height set as well. This will give our layout a nice snug fit within the browser window (without that hideous gap at the bottom of the screen).
 
 ```css
 style.css
@@ -228,7 +236,7 @@ body {
   background-color: #141414;
 }
 ```
-At this point, you should see the styles refelected in your browser window -- the background color should be black.
+If you already have your local code rendering in the browser, then refresh the window (CTRL + R). At this point, you should see the styles you've just written refelected in your browser window -- the background color should be black. If you do not see the changes in the web browser, save your code (CTRL + S) and refresh the page again.
 
 Now, we need to center the input tag and button in the browser window. There are a couple ways we can accomplish this; but for the sake of simplicity we will use [flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/). It's best practice to place the `display: flex;` property on the parent element. In this case, its the element with the `.container` class. Nested inside are two child elements, `input-container` and `output-container`. We want these elements centered on the page, so first apply `flex-direction: column;` to the parent element so that the `input-container` and `output-container` stack on top each other like blocks -- the default behavior is `flex-direction: row;`. Then, flexbox provides two properties that make centering simple: `align-items: center;` and `justify-content: center;`.
 
@@ -247,19 +255,21 @@ form {
   display: flex;
 }
 ```
-The unstyled form should look like the following:
+The minimally styled form should look like the following:
 
 ![html-image](images/111/111-27.png)
+_Code rendered in the web browser_
 
 At this point, the `style.css` file should look like the following:
 
 ![html-image](images/111/111-28.png)
+_Code snippet for the universal selector, HTML tag and container styles in the VS Code Editor_
 
 __Note:__ we've added the `display: flex` property to the form element which defines it as a flex container because we want the button to sit snugly next to the input field and the default `flex-direction`, the direction flex items are placed inside the flex container is row.
 
-Resources: 
+**Required Read:** 
 
- * [A Complete Guide to Flexbox]() by Chris Coyier. CSS Tricks.
+ * [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) by Chris Coyier. CSS Tricks.
  * [Basic Concepts of Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox) MDN Documentation
 
 ### Style the input and output containers
@@ -294,12 +304,15 @@ input::placeholder{
   border: 1px solid #f4f4f4;
 }
 ```
+_style.css file_
 
 ![html-image](images/111/111-29.png)
+_CSS styles in the VS Code Editor_
 
 ![html-image](images/111/111-30.png)
+_Code rendered in the web browser_
 
-### Style the data appended to the DOM
+## Style the data appended to the DOM
 
 The `output-container` contains an `<h2>` tag and `<p>` tag. Add the following styles to these elements. This is where the current temperature about the requested city will be rendered. In the mean time, we can hard code a city name and temperature to verify that our styles work.
 
@@ -320,43 +333,32 @@ style.css
   color: white;
 }
 ```
+_style.css file_
+
+```html
+        <div class="output-container">
+          <h2 class="city_name">New York</h2>
+          <p class="temperature">34</p>
+        </div>
+```
+_Hard-coded city name and temperature content in the index.html file_
 
 ![html-image](images/111/111-31.png)
+_Hard-coded city and temperature data rendered in the web browser_
 
-### Weather Icons
-
-The weather service we will be using in this module is called Open Weather Map and it comes with its own [icon set](https://openweathermap.org/weather-conditions). However, you can create your own set of weather icons informed by your design choices for this widget. Maybe your designs don't require icons at all. Alternatively, you can use one of the following UI kits:
-
-* [Font Awesome](https://fontawesome.com/v5.15/icons?d=gallery&p=2&c=weather)
-* [The Noun Project](https://thenounproject.com/search/icons/?iconspage=1&q=weather)
-
-At this point, we’re ready to build the core functionality of our weather widget. If you haven't done so already, let’s do it!
+At this point, we’re ready to build the core functionality of our weather widget. 
 
 ## Challenge
 
-### Creating Local Site
+Submit your progress to the cloud via GitHub Desktop. Forgot how? 
 
-Did you know that you can create web pages without being connected to the internet? Webpages are simply files, often with the extension `.html`. To preview them, just drag the file to your Chrome web browser. You’ll notice the top URL starts with `file://...` This is the indication of a local file. Local files are running on your computer, whereas when the top URL bar starts with `http://...` , it means it’s running on the internet and can be seen by anyone.
+![](./images/111/111-34.png)
 
-```html
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Programming for Design Practices</title>
-  </head>
-  <body>
-    <h1>Hello World.</h1>
-  </body>
-</html>
+See the changes on the right. Newly written code is rendered in green while deleted code is rendered in red. In the bottom left corner of the application window, type the following message:
+
+```md
+HTML and CSS # replace Create index.html
+Interactive Web submission # replace Description
 ```
-
-1. Add content to your `index.html` file
- * Open up your `index.html` file in the text editor
- * Copy and paste the above code into your `index.html`
- * Save it
-2. Test that the page works locally. To do this, drag your `index.html` into your Chrome web browser. You should get something that looks like the following screenshot.
-
-![hello world](assets/hello-world-01.png)
 
 ### Next Steps: [Data and APIs](./113-data-and-apis.md)
