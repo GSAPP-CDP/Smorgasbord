@@ -92,4 +92,4 @@ Visual Studio Code’s core functionality can be extended using thousands of thi
 ![](./images/111/111-39.png)
 
 #### Next Steps: Create Remote Site
-To set up your site on the web, see [How to Git & Github?](./111-git-and-github.md)
+To set up your site on the web, see [How to Git & Github?](./modules/11-interactive-web/111-git-and-github.md)

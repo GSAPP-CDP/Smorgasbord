@@ -133,4 +133,4 @@ index.html
 
 Submit your website to this Google Form [Interactive Web | Student GitHub Links](https://forms.gle/kTGHSLyyLvBBorBc9).
 
-#### Next Steps: [HTML and CSS](./112-html-and-css.md)
+#### Next Steps: [HTML and CSS](./modules/11-interactive-web/112-html-and-css.md)

@@ -251,4 +251,4 @@ Events and UIs # replace Create index.html
 Interactive Web submission # replace Description
 ```
 
-### Next Steps: [Events and UIs](./115-dom-manipulation.md)
+### Next Steps: [Events and UIs](./modules/11-interactive-web/115-dom-manipulation.md)
