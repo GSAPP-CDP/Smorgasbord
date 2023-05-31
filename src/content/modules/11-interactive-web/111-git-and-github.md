@@ -73,16 +73,16 @@ Yay! You’re in your local repository. GitHub Desktop provides some friendly su
 
 If you select, `Show in Finder`, you will be taken to a folder named `studious-umbrella`, this is the `local` version of your GitHub repository. It’s local address is: `/Users/your-computer-name/Documents/GitHub/studious-umbrella`. We will use this as a space to archive the work in this tutorial.
 
+Selecting `Open in Visual Studio Code` will immediately open the project folder, `studious-umbrella` in your IDE. You're ready to start coding.
+
 ![](./images/111/111-32.png)
 
 ## Create Your First Webpage
 
-1. Open the repository in your code editor.
-   * To open the project folder in Visual Studio Code, navigate to the "File" menu item in the top menu and select "Add Folder to Workspace." 
-   * Select the folder you've just created, `studious-umbrella` 
+See detailed instructions in the following document, [Exercise 01: Hello World](https://docs.google.com/document/d/10F3U7-U3mJdA2MdlDdrkt6iuydT4sq3Nv9OJk92AQKE/edit)
+
+1. Open the repository in your code editor
 2. Make a new HTML file named `index.html` in Visual Studio Code.
-   * Click on the `New File...` icon
-   * Name the file, index.html
 3. In VS Code, click on the `index.html` file which is currently blank and set up the bones for what will be your website by copying and pasting in the following code snippet, or using the one found [here](https://www.w3schools.com/html/html_basic.asp).
 4. Modify the code with the words Hello World and save the file to your local GitHub repository.
 
@@ -104,27 +104,28 @@ index.html
 
 ### Push Local Code to Remote Repository
 
+![](./images/111/111-34.png)
+
 1. Confirm that you see changes made to your file in the Changes Tab on the GitHub Desktop app.
-2. Click the blue Commit to main button, then press Push to Origin.
-3. Now, check to make sure that your changes were pushed to the main github.com repository. Reload the page if you don’t yet see changes.
+2. Click the blue `Commit to main` button, then the blue `Publish branch` button.
+3. Now, check to make sure that your changes were pushed to the `main` github.com repository (click on the `View on GitHub` link). Reload the page if you don’t yet see changes.
+
+![](./images/111/111-35.png)
 
 ### Publish Your Website
 
-1. In your github.com repository, find the Settings tab.
-2. Scroll to the GitHub Pages section. Under the Source heading, click the dropdown menu and select the main branch as your publishing source. Keep the `/(root)` folder for your publishing source.
+![](./images/111/111-36.png)
+
+1. In your github.com repository, find the `Settings` tab.
+2. Scroll to the `Pages` section in the left menu. Under the `Build and Deployment` heading, click the dropdown menu under the Branch sub-heading and select the main branch as your publishing source. Keep the `/(root)` folder for your publishing source.
 3. Click Save.
-4. Now, drumroll please! In the same GitHub Pages section, you should see a green success bar appear that says: "Your site is published at `https://yourusername.github.io/studious-umbrella`"
+4. Now, drumroll please! In the same GitHub Pages section, you should see a green success bar appear that says: "Your site is published at `https://yourusername.github.io/studious-umbrella`." _Note:_ This may take a few minutes to occur.
 5. Click on the link. Voila!
 
-![]()
+![](./images/111/111-37.png)
 
-### Glossary of Git Terminology:
+## Challenge
 
-* Repository: A collection of related commits that form a directed acyclic graph.
-* Commit: A snapshot of the working tree at a given time (along with a message detailing what changed).
-* The index (stage): A staging area where we list changes we want to commit.
-* Branch: A set of commits that form a linear progression of changes.
-* Master: The default name for the "main" development branch.
-* Tag: An optional label on a commit.
-* HEAD: The commit that is currently checked out.
-* Working area: The directory and subdirectories containing the files we're currently editing.
+Submit your website to this Google Form [Interactive Web | Student GitHub Links](https://forms.gle/kTGHSLyyLvBBorBc9).
+
+Next Steps: [HTML and CSS](./112-html-and-css.md)
