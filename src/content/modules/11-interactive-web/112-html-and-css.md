@@ -153,7 +153,7 @@ _CTRL + Left Click (on Mac) or Right Click (on Windows) to select Copy Path and 
 __Note:__ refresh the browser window as you build out your website to see the changes you make locally in your GitHub repository.
 
 ![html-image](images/112/112-01.png)
-_The URL of the web page should match the location of the files on your computer_
+_The URL in the address bar should match the location of the files on your computer_
 
 ## Connecting Style to Structure
 
@@ -169,7 +169,7 @@ For this exercise, we will be using an external file which we have already creat
  * Only have to make changes to one file
  * Keep your content separate from the presentation
 
-Link the stylesheet to the HTML file using the link tag. The link tag takes two attributes, `rel` which sets the relationship between the HTML page and the file its linked to and `href` which sets the path to the stylesheet. In this case, the relationship is that our file is the stylesheet to the HTML file and the path is the location of the stylesheet in our project folder. Here, our stylesheet is located in the styles subfolder, `styles/style.css`
+Link the stylesheet to the HTML file using the [link tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link). The link tag takes two attributes, `rel` which sets the relationship between the HTML page and the file its linked to and `href` which sets the path to the stylesheet. In this case, the relationship is that our file is the stylesheet to the HTML file and the path is the location of the stylesheet in our project folder. Here, our stylesheet is located in the styles subfolder, `styles/style.css`
 
 ```html
 index.html
@@ -355,7 +355,7 @@ Submit your progress to the cloud via GitHub Desktop. Forgot how?
 
 ![](./images/111/111-34.png)
 
-See the changes on the right. Newly written code is rendered in green while deleted code is rendered in red. In the bottom left corner of the application window, type the following message:
+See the changes on the right. Newly written code is rendered in green while deleted code is rendered in red. In the bottom left corner of the application window, type the following message and click the `Commit to main` button:
 
 ```md
 HTML and CSS # replace Create index.html
