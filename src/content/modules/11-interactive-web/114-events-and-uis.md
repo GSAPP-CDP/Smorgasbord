@@ -97,7 +97,11 @@ function getZipCode() {
 ### Step 4 – Putting it all togehter
 
 ```js
-<button type="button" class="search-button">Search</button>
+main.js
+
+function getWeatherData() {
+    // fetch request goes in here :-)
+}
 
 let btn = document.querySelector(".search-button");
 btn.addEventListener('click', getZipCode);
@@ -219,7 +223,7 @@ let input = document.querySelector(".zipcode");
 let btn = document.querySelector(".search-button");
 
 getWeatherData = (zip) => {
-  let API_KEY = "[YOUR API KEY HERE]";
+  let API_KEY = config.WEATHER_API_KEY;
   let API_ENDPOINT = `https://api.openweathermap.org/data/2.5/weather?zip=${zip}&APPID=${API_KEY}`;
 
   fetch(API_ENDPOINT)

@@ -285,7 +285,7 @@ A function is a block of code that returns a result. Think of a function like a 
 Functions encapsulate a set of commands pertaining to one set of functionality. In this case, the input is the zipcode and the output is the weather data. The purpose of this function is to get the weather data. To make it clear, that's what we'll name the function. _Don't forget to invoke the function_.
 
 ```js
-const getWeatherData = () => {
+function getWeatherData() {
   // fetch request goes in here :-)
 }
 
