@@ -3,12 +3,13 @@ moduleid: 111
 title: "Git and GitHub"
 published: True
 slug: git-and-github
+authors:
+ - "Celeste Layne"
 ---
 
 # Javascript in the Browser - Git and GitHub Foundations
 
 * Duration: 1 hour
-* Deliverable: [Challenge](#challenge) 
 
 ### Github, what is it?
 At a high level, GitHub is a website and cloud-based service that helps developers store and manage their code, as well as track and control changes to their code. To understand exactly what GitHub is, you need to know two connected principles:

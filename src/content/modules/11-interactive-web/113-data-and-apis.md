@@ -3,6 +3,8 @@ moduleid: 113
 title: "Data and APIs"
 published: True
 slug: data-and-apis
+authors:
+ - "Celeste Layne"
 ---
 
 # JavaScript in the Browser - Data and APIs

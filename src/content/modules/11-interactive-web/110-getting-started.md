@@ -3,12 +3,13 @@ moduleid: 110
 title: "Getting Started"
 published: True
 slug: getting-started
+authors:
+ - "Celeste Layne"
 ---
 
 # Javascript in the Browser - Getting Started
 
 * Duration: 1 hour
-* Deliverable: [Challenge](#challenge) 
 
 Digital technologies increasingly form the backdrop for our everyday work and play – Zoom, FaceTime, Slack, Instagram, GMail, Spotify, chatGPT, the list is almost endless. Something as simple as a weather widget mediates awareness of the world in ways that matter to the person using it – should I walk with an umbrella? do I need my sunglasses? maybe I should pack an extra sweater? since its raining, maybe I'll go to the museum instead of the park?
 
