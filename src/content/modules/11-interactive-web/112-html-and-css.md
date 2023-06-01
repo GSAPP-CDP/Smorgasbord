@@ -8,7 +8,6 @@ slug: html-and-css
 # Javascript in the Browser - HTML & CSS
 
 * Duration: 1 hour
-* Deliverable: [Challenge](#challenge) 
 
 Digital technologies increasingly form the backdrop for our everyday work and play – Zoom, FaceTime, Slack, Instagram, GMail, Spotify, chatGPT, the list is almost endless. Something as simple as a weather widget mediates awareness of the world in ways that matter to the person using it – should I walk with an umbrella? do I need my sunglasses? maybe I should pack an extra sweater? since its raining, maybe I'll go to the museum instead of the park?
 
@@ -361,5 +360,3 @@ HTML and CSS # replace Create index.html
 Interactive Web submission # replace Description
 ```
 Check your personal GitHub Pages link to make sure it works: `https://yourusername.github.io/studious-umbrella/weather-widget`. Replace `yourusername` with the name of your GitHub account.
-
-### Next Steps: [Data and APIs](./113-data-and-apis.md)

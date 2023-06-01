@@ -8,7 +8,6 @@ slug: data-and-apis
 # JavaScript in the Browser - Data and APIs
 
 * Duration: 1 hour
-* Deliverable: [Challenge](#challenge) 
 
 ## What are we building?
 
