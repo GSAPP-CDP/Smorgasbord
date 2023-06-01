@@ -192,7 +192,7 @@ const getWeatherData = (zip) => {
     .then(response => response.json())
     .then(data => {
     
-      let WEATHER_ICON = new_york_weather_data.weather[0].icon
+      let WEATHER_ICON = local_weather_data.weather[0].icon
 
   }
 }
@@ -207,7 +207,7 @@ const getWeatherData = (zip) => {
   fetch(API_ENDPOINT)
     .then(response => response.json())
     .then(data => {
-      let WEATHER_ICON = new_york_weather_data.weather[0].icon
+      let WEATHER_ICON = local_weather_data.weather[0].icon
       
       image.setAttribute('src', `https://openweathermap.org/img/wn/${WEATHER_ICON}@2x.png`)
   }
