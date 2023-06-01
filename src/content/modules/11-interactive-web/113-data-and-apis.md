@@ -37,7 +37,7 @@ APIs are published everywhere. Chances are good that most major content sources 
 * [Cooper Hewitt, Smithsonian Design Museum Collections](https://collection.cooperhewitt.org/api/)
 
 ### The API in action
-One common example of an API that we come into contact with on a daily basis is _weather data_. These rich weather snippets are found on many platforms like Google Search or smart home devices (Echo Dot, Google Nest, Facebook Portal). For example, if you search “weather + [your city’s name]” on Google, you will see an interactive widget at the top of the search results with the current weather conditions and forecast. 
+One common example of an API that we come into contact with on a daily basis is _weather data_. These rich weather snippets are found on many platforms like Google Search, smart home devices (Echo Dot, Google Nest, Facebook Portal) or Apple Watch. For example, if you search “weather + [your city’s name]” on Google, you will see an interactive widget at the top of the search results with the current weather conditions and forecast. 
 
 ![rich weather snippet](images/111/111-11.png)
 
@@ -102,7 +102,7 @@ weather-widget
 ```js
 console.log("this works");
 ```
-2. Link the JavaScript file to the HTML file with a script tag. When implementing JavaScript on your webpages, insert the script just above the closing `</body>` tag. The browser renders HTML onto a page in the order you’ve written it. We load `<script>` tags just before the end of the document to ensure that the rest of our content has loaded first.
+2. Link the JavaScript file to the HTML file with a script tag. When implementing JavaScript on your webpages, insert the script **just above the closing `</body>` tag**. The browser renders HTML onto a page in the order you’ve written it. We load `<script>` tags just before the end of the document to ensure that the rest of our content has loaded first.
 
 ```js
 <body>
@@ -147,6 +147,7 @@ If you don’t already have an Open Weather Map account, [sign up for a free one
 Now, let's familiarize ourselves with the API documentation. There are no rules governing how to write documentation for an API, so its content is presented differently each time. Knowing how to quickly find key pieces of information is the most important part of reading API documentation.
 
 ![open weather map documentation ](images/111/111-06.png)
+_Open Weather Map website_
 
 ### Step 2 – API Key
 Once you've signed up, you're given an [API key](https://home.openweathermap.org/api_keys). Copy the API key and create a variable in your `main.js` file to store the key. You can place it just below the `console.log()` in between the quotes.
@@ -173,6 +174,43 @@ http://api.openweathermap.org/data/2.5/forecast/city?id=524901&APPID={APIKEY}
 ```
 
 Now that we have our key, let’s look back at some of the other information the API documentation can provide. Spend a few minutes exploring the documentation. See what different types of data you can get from the API.
+
+#### How to hide API keys from GitHub
+
+❗ **BEFORE WE MOVE ON** ❗ let's take a moment to hide sensitive data. What sensitive data do we have? API Keys. 
+
+1. In the root of your `weatehr-widget` folder, create a new file called, `config.js`. In the config file, enter your API key in a JavaScript object:
+
+```js
+config.js
+
+const config = {
+  WEATHER_API_KEY: "<paste your api key in here>"
+}
+```
+2. In the `index.html` file, add a script above your `main.js` file:
+
+```js
+<body>
+  ...
+
+  <script src="config.js"></script>  
+  <script src="javascript/main.js"></script>
+</body>
+```
+3. In the `main.js` file, replace the hard-coded API key with the following:
+
+```js
+ const API_KEY = config.WEATHER_API_KEY;
+```
+4. Finally, create a file called, `.gitignore` (you must include the period before the word)
+5. Open the `.gitignore` file in VS Code and add the name of the config file.
+```js
+.gitignore
+
+config.js
+```
+Adding the `config` file to the `.gitignore` will ensure that your API keys will not be pushed up to the cloud for everyone to steal. This may not be much of an issue with free APIs but once you start paying for API access, this practice becomes super important. 
 
 ### Step 3 - Current Weather Data by Zipcode
 
@@ -212,6 +250,7 @@ https://api.openweathermap.org/data/2.5/weather?zip=10128&APPID=[PUT YOUR API KE
 You can see that we have an object with several properties including coordinates, weather, wind, clouds, timezone, name and main:
 
 ![weather API data example](images/111/111-04.png)
+_Google Chrome browser_
 
 __Note:__ If you don't see the data, check that your API key matches the one in your account.
 
@@ -222,12 +261,12 @@ __Note:__ If you don't see the data, check that your API key matches the one in 
 Now that we know more about the URL, we’ll use that information to make the API call and log that data to the developer console. Let’s dig into the core functionality of the weather widget using a basic JavaScript fetch request:
 
 ```js
-fetch(`http://api.openweathermap.org/data/2.5/weather?zip=10128&APPID=${API_KEY}`)
+fetch(`http://api.openweathermap.org/data/2.5/weather?zip=10128&APPID=${WEATHER_API_KEY}`)
   .then(response => response.json())
   .then(data => console.log(data));
 ```
 
-Here we are fetching a JSON file across the network and printing it to the console. _Remember: To access the data in the browser concole, use the hot keys CMD + Option + i_ The simplest use of `fetch()` takes one argument — the path to the resource you want to fetch — and returns a promise containing the response. This is just an HTTP response, not the actual JSON. To extract the JSON body content from the response, we use the `json()` method.
+Here we are fetching a JSON file across the network and printing it to the console. _Remember: To access the data in the browser console, use the hot keys CMD + Option + i_ The simplest use of `fetch()` takes one argument — the path to the resource you want to fetch — and returns a promise containing the response. This is just an HTTP response, not the actual JSON. To extract the JSON body content from the response, we use the `json()` method.
 
 ![html-image](images/111/111-07.png)
 
