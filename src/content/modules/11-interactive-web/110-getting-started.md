@@ -86,7 +86,7 @@ References: [Visual Studio Code Tips and Tricks](https://code.visualstudio.com/d
 
 Visual Studio Code’s core functionality can be extended using thousands of third-party packages that can help reduce your errors, and increase your productivity. Install [VS Code Extensions](https://code.visualstudio.com/docs/editor/extension-marketplace) in the VSC extensions sidebar.
 
-1. Click on the `Extensions` icon and search for `indent-rainbow` extension.
+1. Click on the `Extensions` icon and search for `indent rainbow` extension.
 2. When you have found the package, click on the green `install` button.
 3. You may be prompted to reload your Visual Studio Code. That’s perfectly fine!
 4. After reloading, you will now have that extension installed and activated!
