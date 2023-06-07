@@ -24,7 +24,22 @@ So far, unless you changed the settings of your viewport, all your 3D modeling h
 ![albertian perspective](images/13-2/albertisketch.jpg#img-full)
 *From De Pictura (On Painting), Leon Batista Alberti, 1435*
 
-## One, Two, and Three-Point Perspective
+This general approach to creating depth goes at least as far back as Ancient Rome. Not much classical painting has survived to the present day, due to the nature of the materials involved (the fresco below was only preserved by the eruption of Mount Vesuvius), but we know from written accounts that they placed a high value on illusionistic representation. It's important to point out that this emphasis hasn't been typical, globally or historically, and the fact that pictorial art from other times and places looks, to our eyes, less "realistic" is due to differences in culture and artistic philosophy rather than technical skill.
+
+![roman wall painting](images/13-2/roman-wall-painting.jpg#img-full)
+*Wall Painting from the Villa of P. Fannius Synistor at Boscoreale, c. 50-40 BC. Metropolitan Museum of Art, New York.*
+
+The fresco above shows an early use of **vanishing points**, but the projection isn't mathematically rigorous. A formal description of perspective doesn't appear until the Italian Renaissance, being first recorded by Leon Batista Alberti in 1435.
+
+![albertian perspective](images/13-2/albertisketch2.jpg#img-full)
+*From De Pictura (On Painting), Leon Batista Alberti, 1435*
+
+Perspectival projection is effective at creating illusionistic space because it reproduces the mechanics of the human eye--or, more precisely, the mechanics of a camera. Painters in the renaissance pioneered the use of the **Camera Obscura** ("Dark Room"), a device which projected the light from a scene onto a flat surface, and the precursor to the cameras we use today.
+
+![camera obscura](images/13-2/camera-obscura.jpg#img-full)
+*Illustration of a Camera Obscura*
+
+### One, Two, and Three-Point Perspective
 
 ![types of perspective](images/13-2/perspective-points.png#img-full)
 *A Box Drawn with, One, Two, and Three Vanishing Points*

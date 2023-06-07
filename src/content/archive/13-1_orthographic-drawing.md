@@ -16,9 +16,12 @@ In this module we'll introduce the two most essential types of architectural dra
 
 ### Plans
 
-The most familiar kind of architectural drawing is the **plan**. As you probably know, a plan depicts a space as if you were looking down at it from above. Since humans mostly move around the world in the horizontal plane, this tends to be the single most useful drawing for explaining a design.
+The most familiar kind of architectural drawing is the **plan**. As you probably know, a plan depicts a space as if you were looking down at it from above. Since humans mostly move around the world in the horizontal plane, this tends to be the single most useful drawing for explaining a design. Here's an old one:
 
-Contemporary plans usually follow an explicit set of conventions, so that they can include lots of information while still being legible and unambiguous. 
+![sumerian house plan](images/13-1/sumerian-house-plan.jpg#img-full)
+*A floor plan for a house in Umma, Sumeria (present-day Iraq), inscribed on a clay tablet, 2100-2000 BC. Vorderasiatisches Museum, Berlin, Germany. The annotations denote room dimensions.*
+
+Contemporary plans usually follow a more explicit set of conventions, so they can include lots of information while still being legible and unambiguous. Here's a more recent example:
 
 ![SHP Sugar Hill](images/13-1/SHP_PLAN_L2.jpg#img-full)
 *Sugar Hill Development Floor Plan, New York City. Adjaye Associates, 2014.*
@@ -27,12 +30,17 @@ We imagine that an **infinite, invisible horizontal plane** intersects the build
 
 ### Sections
 
-A **section** is like a plan, but the plane which cuts the building is vertical rather than horizontal, allowing us to look at the interior of the building "face on." 
+A **section** is like a plan, but the plane which cuts the building is vertical rather than horizontal, allowing us to look at the interior of the building "face on." This general point-of-view is in very intuitive, especially for depicting people, and is commonplace in early two-dimensional representational art from around the world.
+
+![Book of the Dead](images/13-1/Book_of_the_Dead.jpg#img-full)
+*From the Book of the Dead of Hunefer, Egyptian, c. 1275 BC. British Museum, London.*
+
+But as architectural representation it's less ubiquitous, historically, especially since it's most useful when describing multi-story buildings. It doesn't really catch on until the 18th century:
 
 ![Boullee Opera](images/13-1/boulee.jpeg#img-full)
 *Design for an Opera House, Étienne-Louis Boullée, 1781.*
 
-The placement of section cuts is less strictly dictated by convention than that of plans, but the cutting plane typically aligns with one of the main axes of the building. If the building is symetrical, as in the example above, then the section would be expected to cut through the center. A contemporary section might look like this:
+The placement of section cuts is less strictly dictated by convention than that of plans, but the cutting plane typically aligns with one of the main axes of the building. If the building is symetrical, as in the examples above, then the section would be expected to cut through the center. A contemporary section might look like this:
 
 ![CaixaForum, Herzog & De Meuron](images/13-1/herzog-forum.jpeg#img-full)
 *CaixaForum, Madrid. Herzog & De Meuron, 2008.*
