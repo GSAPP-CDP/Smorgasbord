@@ -1,6 +1,6 @@
 ---
 moduleid: 156
-title: Making Data from 
+title: Making Data from Aerial Imagery
 published: True
 slug: aerial
 authors:

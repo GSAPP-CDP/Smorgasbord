@@ -17,7 +17,7 @@ Getting started in Rhino is pretty easy, especially if you already have experien
 
 ### Creating a New Project
 
-If you don't have Rhino installed, you can **download** it [here]("https://www.rhino3d.com/download/"), and either buy a license or start a free 90-day trial. These tutorials will all use **Rhino 7 for Windows**. Earlier and Mac versions are very similar, but you may encounter some differences if you aren't using the same release.
+If you don't have Rhino installed, you can **download** it [here](https://www.rhino3d.com/download/), and either buy a license or start a free 90-day trial. These tutorials will all use **Rhino 7 for Windows**. Earlier and Mac versions are very similar, but you may encounter some differences if you aren't using the same release.
 
 Once you have it downloaded and installed, go ahead and **open Rhino**. You’ll have the option of either reopening a recent file or starting a new one. To create a new model, **choose a template**. This sets your units and unit tolerances, both of which can be changed later if needed.
 

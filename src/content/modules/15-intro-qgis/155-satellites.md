@@ -106,7 +106,7 @@ A new toolbar and dock should have been added to your QGIS window. The are highl
 
 ### Load Landsat data and create a "Band Set"
 
-Download the `landsat_sample` folder from [here](data/landsat_sample.zip). This contains a clipped version of two landsat band sets showing the North West side of Puerto Rico before and after Hurricane Maria. They have been clipped to speed up processing times.
+Download the `landsat_sample` folder from [here](https://github.com/GSAPP-CDP/Smorgasbord/blob/main/src/content/modules/15-intro-qgis/data/landsat_sample.zip). This contains a clipped version of two landsat band sets showing the North West side of Puerto Rico before and after Hurricane Maria. They have been clipped to speed up processing times.
 
 Save the folder within the `data`>`original` directory you have for this sequence.  
 
