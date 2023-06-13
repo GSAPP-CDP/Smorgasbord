@@ -35,6 +35,8 @@ import geopandas as gpd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from shapely.geometry import Point, Polygon
+import numpy as np 
+import contextily as cx
 ```
 
 <br/>
