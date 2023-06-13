@@ -71,7 +71,7 @@ Where:
 For this demonstration we will look at the relationship between Brooklyn houses prices in relation to their distance to Manhattan. We will be studying the clustering of higher price houses around the island of Manhattan, the hypothesis being that the closer a house is to Manhattan the higher the sales price. We will utilize multiple datasets provided by NYC Open Data:
 
 - [Annual sales of properties sold in NYC](https://data.cityofnewyork.us/City-Government/NYC-Citywide-Annualized-Calendar-Sales-Update/w2pb-icbu)
-- [NYC borough boundaries](https://data.cityofnewyork.us/City-Government/Borough-Boundaries/tqmj-j8zm)
+- [NYC borough boundaries](https://services5.arcgis.com/GfwWNkhOj9bNBqoJ/arcgis/rest/services/NYC_Borough_Boundary/FeatureServer/0/query?where=1=1&outFields=*&outSR=4326&f=pgeojson) from the [Planning department's website](https://www.nyc.gov/site/planning/data-maps/open-data/districts-download-metadata.page)
 
 Correlation can be visualized and explored in numerous ways, typically it is shown via a scatter plot which show the numeric value of two variables along an X and Y axis. But it can also be shown spatially on a map, which is intuitive but less precise, using the values of one value to color objects while distances between objects are seen relative to locations in geographic space. Let's see how we could first show the relationship between house prices and distance to Manhattan using points on a map.
 
