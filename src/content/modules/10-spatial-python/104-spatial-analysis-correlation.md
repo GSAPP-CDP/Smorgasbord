@@ -33,6 +33,7 @@ import geopandas as gpd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from shapely.geometry import Point, Polygon
+from shapely.ops import nearest_points
 ```
 
 <br/>
