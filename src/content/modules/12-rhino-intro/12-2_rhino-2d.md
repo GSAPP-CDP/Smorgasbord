@@ -40,7 +40,7 @@ And a PDF which includes a more detailed plan, as well as three sections:
 
 ![CBA PDF Drawings](images/12-2/cba-vector.jpg#img-full)
 
-This is a jpeg (raster) version of the drawing, but what's nice about the PDF is it has vector geometry which we can import directly into Rhino. The original file can be found [here]().
+This is a jpeg (raster) version of the drawing, but what's nice about the PDF is it has vector geometry which we can import directly into Rhino. The original file can be found [here](https://github.com/GSAPP-CDP/Smorgasbord/blob/main/src/content/modules/12-rhino-intro/images/12-2/cba-vector.pdf).
 
 I also found these isometric drawings. We won't use these to draft from, but they could still be a useful reference. **Download all the above drawings** so that you can put them in your Rhino model.
 
