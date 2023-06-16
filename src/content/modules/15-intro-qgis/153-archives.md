@@ -69,7 +69,7 @@ Now you are ready to begin georeferencing!
 
 ## Begin georeferencing: setting control points
 
-Open the `Georeferencer` tool via the `Raster` menu in the top menu bar.  
+Open the `Georeferencer` tool via the `Raster` menu in the top menu bar.  (If you have QGIS version 3.26 or older, the `Georeferencer` tool is now in the `Layer` menu.)
 ![geo referencer](images/153/04-georef.png)
 
 ![geo referencer raster](images/153/05-georef.png#img-right)
