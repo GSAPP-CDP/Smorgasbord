@@ -231,8 +231,8 @@ getWeatherData = (zip) => {
     .then((data) => {
       let local_weather_data = data;
     	console.log(local_weather_data)
-    }
-}
+    })
+  }
 
 const getZipCode = (e) => {
   e.preventDefault();
