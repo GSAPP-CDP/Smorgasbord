@@ -81,7 +81,7 @@ If you select, `Show in Finder`, you will be taken to a folder named `studious-u
 
 Selecting `Open in Visual Studio Code` will immediately open the project folder, `studious-umbrella` in your code editor. You're ready to start coding!
 
-![](./images/111/111-32.png)
+![](images/111/111-32.png)
 _GitHub Desktop application_
 
 __Note:__ The name of the current repositiry (your project folder) in the top left screen.
@@ -116,7 +116,7 @@ index.html
 #### What is pushing? 
 Pushing is how you transfer your code from your local repository (the files on your computer) to a remote repository (the cloud, i.e. Github.com). What are we using to send your code to the cloud? GitHub Desktop.
 
-![](./images/111/111-34.png)
+![](images/111/111-34.png)
 _GitHub Desktop application_
 
 1. Confirm that you see changes made to your file in the Changes Tab on the GitHub Desktop app.
@@ -124,25 +124,25 @@ _GitHub Desktop application_
 3. With the form filled in, click the blue `Commit to main` button, then the blue `Publish branch` button.
 4. Now, check to make sure that your changes were pushed to the `main` github.com repository (click on the `View on GitHub` link). Reload the GitHub.com page if you don’t immediately see your most recent changes.
 
-![](./images/111/111-35.png)
+![](images/111/111-35.png)
 _GitHub.com website_
 
 ### Publish Your Website
 
-![](./images/111/111-36.png)
+![](images/111/111-36.png)
 _GitHub Pages tab_
 
 1. In your github.com repository, find the `Settings` tab in the top menu bar.
 2. Scroll to the `Pages` section in the left menu. Under the `Build and Deployment` heading, click the dropdown menu under the `Branch` sub-heading and select the `main` branch as your publishing source. Keep the `/(root)` folder for your publishing source.
 3. Click Save.
 
-![](./images/111/111-37.png)
+![](images/111/111-37.png)
 _GitHub Pages tab_
 
 4. Now, drumroll please! In the same GitHub Pages section, you should see a green success bar appear that says: "Your site is live at `https://yourusername.github.io/studious-umbrella`." __Note:__ This may take a few minutes to occur.
 5. Click on the link. Voila! Your site is live!
 
-![](./images/111/111-38.png)
+![](images/111/111-38.png)
 _Open the Github Pages link in the Google Chrome web browser_
 
 ## Challenge
