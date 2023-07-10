@@ -47,8 +47,8 @@ There are many ways to construct a DataFrame – one of the most common is to pr
 
 ```python
 data = {
-  'column-1': [1, 2, 3, 4, 5]
-  'column-2': ['a', 'b', 'c', 'd', 'e']
+  'column-1': [1, 2, 3, 4, 5],
+  'column-2': ['a', 'b', 'c', 'd', 'e'],
   'column-3': [2020, 2021, 2022, 2023, 2024]
 }
 
