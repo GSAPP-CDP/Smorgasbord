@@ -1,18 +1,18 @@
 {
   "modules": {
+    "10-spatial-python/101-data-manipulation": {
+      "double_links": []
+    },
     "10-spatial-python/102-geospatial-data": {
+      "double_links": []
+    },
+    "10-spatial-python/105-spatial-analysis-clustering": {
       "double_links": []
     },
     "10-spatial-python/103-spatial-analysis-point-pattern": {
       "double_links": []
     },
-    "10-spatial-python/101-data-manipulation": {
-      "double_links": []
-    },
     "10-spatial-python/index": {
-      "double_links": []
-    },
-    "10-spatial-python/105-spatial-analysis-clustering": {
       "double_links": []
     },
     "10-spatial-python/104-spatial-analysis-correlation": {
@@ -21,43 +21,46 @@
     "11-interactive-web/110-getting-started": {
       "double_links": []
     },
+    "11-interactive-web/111-git-and-github": {
+      "double_links": []
+    },
     "11-interactive-web/112-html-and-css": {
       "double_links": []
     },
     "11-interactive-web/113-data-and-apis": {
       "double_links": []
     },
-    "11-interactive-web/111-git-and-github": {
-      "double_links": []
-    },
-    "11-interactive-web/114-events-and-uis": {
-      "double_links": []
-    },
     "11-interactive-web/115-dom-manipulation": {
-      "double_links": []
-    },
-    "12-rhino-intro/12-1_rhino-interface": {
-      "double_links": []
-    },
-    "12-rhino-intro/12-3_rhino-3d": {
-      "double_links": []
-    },
-    "12-rhino-intro/12-4_rhino-nurbs": {
-      "double_links": []
-    },
-    "12-rhino-intro/12-2_rhino-2d": {
       "double_links": []
     },
     "11-interactive-web/index": {
       "double_links": []
     },
+    "12-rhino-intro/12-1_rhino-interface": {
+      "double_links": []
+    },
+    "12-rhino-intro/12-2_rhino-2d": {
+      "double_links": []
+    },
+    "12-rhino-intro/12-3_rhino-3d": {
+      "double_links": []
+    },
+    "11-interactive-web/114-events-and-uis": {
+      "double_links": []
+    },
     "12-rhino-intro/index": {
       "double_links": []
     },
-    "13-arch-drawing/13-1_orthographic-drawing": {
+    "13-arch-drawing/13-2_projection": {
       "double_links": []
     },
-    "13-arch-drawing/13-2_projection": {
+    "13-arch-drawing/13-4_compositing": {
+      "double_links": []
+    },
+    "12-rhino-intro/12-4_rhino-nurbs": {
+      "double_links": []
+    },
+    "13-arch-drawing/13-1_orthographic-drawing": {
       "double_links": []
     },
     "13-arch-drawing/13-3_rendering": {
@@ -66,43 +69,40 @@
     "13-arch-drawing/index": {
       "double_links": []
     },
-    "13-arch-drawing/13-4_compositing": {
-      "double_links": []
-    },
     "14-geospatial-concepts/141-what-is-gis": {
-      "double_links": []
-    },
-    "14-geospatial-concepts/142-spatial-data": {
-      "double_links": []
-    },
-    "14-geospatial-concepts/143-coordinates-projections": {
       "double_links": []
     },
     "14-geospatial-concepts/index": {
       "double_links": []
     },
-    "15-intro-qgis/151-mapping-where": {
+    "14-geospatial-concepts/143-coordinates-projections": {
       "double_links": []
     },
-    "15-intro-qgis/152-print-layout": {
+    "14-geospatial-concepts/142-spatial-data": {
       "double_links": []
     },
     "15-intro-qgis/153-archives": {
       "double_links": []
     },
-    "15-intro-qgis/154-observations": {
+    "15-intro-qgis/155-satellites": {
       "double_links": []
     },
-    "15-intro-qgis/155-satellites": {
+    "15-intro-qgis/154-observations": {
       "double_links": []
     },
     "15-intro-qgis/156-aerial-imagery": {
       "double_links": []
     },
-    "15-intro-qgis/index": {
+    "15-intro-qgis/151-mapping-where": {
       "double_links": []
     },
     "15-intro-qgis/157-atlas": {
+      "double_links": []
+    },
+    "15-intro-qgis/152-print-layout": {
+      "double_links": []
+    },
+    "15-intro-qgis/index": {
       "double_links": []
     },
     "16-ambient-computing-network-architecture/161-dynamic-environments": {
@@ -111,40 +111,40 @@
     "16-ambient-computing-network-architecture/162-network-architecture": {
       "double_links": []
     },
-    "16-ambient-computing-network-architecture/163-low-and-high-programming": {
-      "double_links": []
-    },
-    "16-ambient-computing-network-architecture/164-Intro-to-Processing-Lighting": {
-      "double_links": []
-    },
-    "16-ambient-computing-network-architecture/165-Webhooks-Connecting-IFTTT-and-Processing": {
+    "16-ambient-computing-network-architecture/167-Markers-and-Tracking": {
       "double_links": []
     },
     "16-ambient-computing-network-architecture/166-sounds-speech-and-macros": {
       "double_links": []
     },
-    "16-ambient-computing-network-architecture/167-Markers-and-Tracking": {
+    "16-ambient-computing-network-architecture/index": {
+      "double_links": []
+    },
+    "16-ambient-computing-network-architecture/165-Webhooks-Connecting-IFTTT-and-Processing": {
+      "double_links": []
+    },
+    "16-ambient-computing-network-architecture/164-Intro-to-Processing-Lighting": {
       "double_links": []
     },
     "16-ambient-computing-network-architecture/168-Computer-Vision": {
       "double_links": []
     },
-    "16-ambient-computing-network-architecture/index": {
+    "16-ambient-computing-network-architecture/163-low-and-high-programming": {
       "double_links": []
     },
     "18-behavioral-modeling-intro/181-Unity-and-Agent-Based-Models": {
       "double_links": []
     },
-    "18-behavioral-modeling-intro/182-Intro-To-Unity": {
+    "18-behavioral-modeling-intro/index": {
       "double_links": []
     },
-    "18-behavioral-modeling-intro/183-Agent-Based-Populations-and-Behavior-Bricks": {
+    "18-behavioral-modeling-intro/182-Intro-To-Unity": {
       "double_links": []
     },
     "18-behavioral-modeling-intro/184-Mapbox-SDK-and-Routing": {
       "double_links": []
     },
-    "18-behavioral-modeling-intro/index": {
+    "18-behavioral-modeling-intro/183-Agent-Based-Populations-and-Behavior-Bricks": {
       "double_links": []
     },
     "19-data_visualization/index": {
@@ -153,28 +153,34 @@
     "19-data_visualization/Module1WorkflowsPartASetupCodeEnvironment": {
       "double_links": []
     },
-    "19-data_visualization/Module2Introductiontod3anscombe": {
+    "19-data_visualization/Module3Tourofthebasiccharts2Line": {
       "double_links": []
     },
     "19-data_visualization/Module3Tourofthebasiccharts1Bar": {
       "double_links": []
     },
-    "19-data_visualization/Module3Tourofthebasiccharts3Pie": {
-      "double_links": []
-    },
-    "19-data_visualization/Module3Tourofthebasiccharts2Line": {
-      "double_links": []
-    },
     "19-data_visualization/Module4Workingwithexternaldata": {
+      "double_links": []
+    },
+    "19-data_visualization/Module2Introductiontod3anscombe": {
       "double_links": []
     },
     "19-data_visualization/Module5Buildinginteractivity": {
       "double_links": []
     },
-    "4-grasshopper-intro/41-getting-started-with-grasshopper": {
+    "19-data_visualization/Module3Tourofthebasiccharts3Pie": {
       "double_links": []
     },
     "4-grasshopper-intro/410-Generating-Exploring-Spatial-Data": {
+      "double_links": []
+    },
+    "4-grasshopper-intro/41-getting-started-with-grasshopper": {
+      "double_links": []
+    },
+    "4-grasshopper-intro/43-working-in-grasshopper": {
+      "double_links": []
+    },
+    "4-grasshopper-intro/44-exercise-parametric-tower-part-1": {
       "double_links": []
     },
     "4-grasshopper-intro/42-exercise-hello-grasshopper": {
@@ -183,58 +189,46 @@
     "4-grasshopper-intro/45-working-with-data": {
       "double_links": []
     },
-    "4-grasshopper-intro/46-exercise-parametric-tower-part-2": {
-      "double_links": []
-    },
-    "4-grasshopper-intro/47-documentation-best-practices": {
-      "double_links": []
-    },
-    "4-grasshopper-intro/43-working-in-grasshopper": {
-      "double_links": []
-    },
     "4-grasshopper-intro/49-Procedural-Rules": {
-      "double_links": []
-    },
-    "4-grasshopper-intro/index": {
       "double_links": []
     },
     "4-grasshopper-intro/48-Deriving-Spatial-Data": {
       "double_links": []
     },
-    "4-grasshopper-intro/44-exercise-parametric-tower-part-1": {
+    "4-grasshopper-intro/47-documentation-best-practices": {
+      "double_links": []
+    },
+    "4-grasshopper-intro/46-exercise-parametric-tower-part-2": {
       "double_links": []
     },
     "5-computational-design-modeling-in-grasshopper/5-1-Comp-Design-Modeling": {
       "double_links": []
     },
-    "5-computational-design-modeling-in-grasshopper/5-2-Subdivide-Geometry": {
+    "4-grasshopper-intro/index": {
       "double_links": []
     },
     "5-computational-design-modeling-in-grasshopper/5-3-Analysis-Tools": {
       "double_links": []
     },
-    "5-computational-design-modeling-in-grasshopper/5-4-Street-Grid": {
-      "double_links": []
-    },
     "5-computational-design-modeling-in-grasshopper/5-5_Buildings-Density": {
       "double_links": []
     },
-    "5-computational-design-modeling-in-grasshopper/index": {
+    "5-computational-design-modeling-in-grasshopper/5-4-Street-Grid": {
       "double_links": []
     },
-    "5-computational-design-modeling-in-grasshopper/5-6_Troubleshooting": {
+    "5-computational-design-modeling-in-grasshopper/5-2-Subdivide-Geometry": {
       "double_links": []
     },
     "5-computational-design-modeling-in-grasshopper/5-7_Design-Space": {
       "double_links": []
     },
-    "6-intro-to-python/61-getting-started-with-Python": {
+    "5-computational-design-modeling-in-grasshopper/index": {
       "double_links": []
     },
     "6-intro-to-python/index": {
       "double_links": []
     },
-    "6-intro-to-python/62-using-python-in-grasshopper": {
+    "5-computational-design-modeling-in-grasshopper/5-6_Troubleshooting": {
       "double_links": []
     },
     "7-fundamentals-of-python/71-variables-lists-and-dictionaries": {
@@ -243,22 +237,28 @@
     "7-fundamentals-of-python/72-conditionals-and-loops": {
       "double_links": []
     },
-    "7-fundamentals-of-python/73-functions-and-classes": {
+    "6-intro-to-python/62-using-python-in-grasshopper": {
       "double_links": []
     },
     "7-fundamentals-of-python/74-python-libraries": {
       "double_links": []
     },
-    "7-fundamentals-of-python/index": {
+    "6-intro-to-python/61-getting-started-with-Python": {
       "double_links": []
     },
-    "8-intro-to-python-in-rhino/81-accessing-the-rhino-apis-in-python": {
+    "7-fundamentals-of-python/index": {
       "double_links": []
     },
     "8-intro-to-python-in-rhino/82-working-with-geometry-in-python": {
       "double_links": []
     },
+    "8-intro-to-python-in-rhino/81-accessing-the-rhino-apis-in-python": {
+      "double_links": []
+    },
     "8-intro-to-python-in-rhino/index": {
+      "double_links": []
+    },
+    "7-fundamentals-of-python/73-functions-and-classes": {
       "double_links": []
     }
   },
@@ -297,8 +297,8 @@
         "dir": "/modules/4-grasshopper-intro",
         "path": "/modules/4-grasshopper-intro/index",
         "extension": ".md",
-        "createdAt": "2023-06-07T15:23:35.235Z",
-        "updatedAt": "2023-06-07T15:23:35.235Z"
+        "createdAt": "2023-06-06T20:39:11.048Z",
+        "updatedAt": "2023-06-06T20:39:11.048Z"
       },
       "ordinal": 4,
       "path": "4-grasshopper-intro",
@@ -340,8 +340,8 @@
             "dir": "/modules/4-grasshopper-intro",
             "path": "/modules/4-grasshopper-intro/index",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:35.235Z",
-            "updatedAt": "2023-06-07T15:23:35.235Z"
+            "createdAt": "2023-06-06T20:39:11.048Z",
+            "updatedAt": "2023-06-06T20:39:11.048Z"
           }
         },
         {
@@ -435,8 +435,8 @@
             "dir": "/modules/4-grasshopper-intro",
             "path": "/modules/4-grasshopper-intro/41-getting-started-with-grasshopper",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:34.580Z",
-            "updatedAt": "2023-06-07T15:23:34.580Z"
+            "createdAt": "2022-10-06T21:21:17.654Z",
+            "updatedAt": "2022-10-06T21:21:17.655Z"
           }
         },
         {
@@ -480,8 +480,8 @@
             "dir": "/modules/4-grasshopper-intro",
             "path": "/modules/4-grasshopper-intro/42-exercise-hello-grasshopper",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:34.581Z",
-            "updatedAt": "2023-06-07T15:23:34.581Z"
+            "createdAt": "2022-10-06T21:21:17.655Z",
+            "updatedAt": "2022-10-06T21:21:17.655Z"
           }
         },
         {
@@ -600,8 +600,8 @@
             "dir": "/modules/4-grasshopper-intro",
             "path": "/modules/4-grasshopper-intro/43-working-in-grasshopper",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:34.581Z",
-            "updatedAt": "2023-06-07T15:23:34.581Z"
+            "createdAt": "2022-10-06T21:21:17.655Z",
+            "updatedAt": "2022-10-06T21:21:17.655Z"
           }
         },
         {
@@ -650,8 +650,8 @@
             "dir": "/modules/4-grasshopper-intro",
             "path": "/modules/4-grasshopper-intro/44-exercise-parametric-tower-part-1",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:34.581Z",
-            "updatedAt": "2023-06-07T15:23:34.582Z"
+            "createdAt": "2022-10-06T21:21:17.655Z",
+            "updatedAt": "2022-10-06T21:21:17.655Z"
           }
         },
         {
@@ -710,8 +710,8 @@
             "dir": "/modules/4-grasshopper-intro",
             "path": "/modules/4-grasshopper-intro/45-working-with-data",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:34.582Z",
-            "updatedAt": "2023-06-07T15:23:34.582Z"
+            "createdAt": "2022-10-06T21:21:17.655Z",
+            "updatedAt": "2022-10-06T21:21:17.655Z"
           }
         },
         {
@@ -765,8 +765,8 @@
             "dir": "/modules/4-grasshopper-intro",
             "path": "/modules/4-grasshopper-intro/46-exercise-parametric-tower-part-2",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:34.582Z",
-            "updatedAt": "2023-06-07T15:23:34.582Z"
+            "createdAt": "2022-10-06T21:21:17.655Z",
+            "updatedAt": "2022-10-06T21:21:17.655Z"
           }
         },
         {
@@ -830,8 +830,8 @@
             "dir": "/modules/4-grasshopper-intro",
             "path": "/modules/4-grasshopper-intro/47-documentation-best-practices",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:34.583Z",
-            "updatedAt": "2023-06-07T15:23:34.583Z"
+            "createdAt": "2022-10-06T21:21:17.655Z",
+            "updatedAt": "2022-10-06T21:21:17.655Z"
           }
         },
         {
@@ -910,8 +910,8 @@
             "dir": "/modules/4-grasshopper-intro",
             "path": "/modules/4-grasshopper-intro/48-Deriving-Spatial-Data",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:34.583Z",
-            "updatedAt": "2023-06-07T15:23:34.583Z"
+            "createdAt": "2022-10-06T21:21:17.656Z",
+            "updatedAt": "2022-10-06T21:21:17.656Z"
           }
         },
         {
@@ -985,8 +985,8 @@
             "dir": "/modules/4-grasshopper-intro",
             "path": "/modules/4-grasshopper-intro/49-Procedural-Rules",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:34.583Z",
-            "updatedAt": "2023-06-07T15:23:34.583Z"
+            "createdAt": "2022-10-06T21:21:17.656Z",
+            "updatedAt": "2022-10-06T21:21:17.656Z"
           }
         },
         {
@@ -1060,8 +1060,8 @@
             "dir": "/modules/4-grasshopper-intro",
             "path": "/modules/4-grasshopper-intro/410-Generating-Exploring-Spatial-Data",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:34.580Z",
-            "updatedAt": "2023-06-07T15:23:34.580Z"
+            "createdAt": "2022-10-06T21:21:17.655Z",
+            "updatedAt": "2022-10-06T21:21:17.655Z"
           }
         }
       ]
@@ -1100,8 +1100,8 @@
         "dir": "/modules/5-computational-design-modeling-in-grasshopper",
         "path": "/modules/5-computational-design-modeling-in-grasshopper/index",
         "extension": ".md",
-        "createdAt": "2023-06-07T15:23:36.173Z",
-        "updatedAt": "2023-06-07T15:23:36.174Z"
+        "createdAt": "2023-06-06T20:39:11.049Z",
+        "updatedAt": "2023-06-06T20:39:11.049Z"
       },
       "ordinal": 5,
       "path": "5-computational-design-modeling-in-grasshopper",
@@ -1143,8 +1143,8 @@
             "dir": "/modules/5-computational-design-modeling-in-grasshopper",
             "path": "/modules/5-computational-design-modeling-in-grasshopper/index",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:36.173Z",
-            "updatedAt": "2023-06-07T15:23:36.174Z"
+            "createdAt": "2023-06-06T20:39:11.049Z",
+            "updatedAt": "2023-06-06T20:39:11.049Z"
           }
         },
         {
@@ -1193,8 +1193,8 @@
             "dir": "/modules/5-computational-design-modeling-in-grasshopper",
             "path": "/modules/5-computational-design-modeling-in-grasshopper/5-1-Comp-Design-Modeling",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:35.239Z",
-            "updatedAt": "2023-06-07T15:23:35.239Z"
+            "createdAt": "2022-10-06T21:21:18.001Z",
+            "updatedAt": "2022-10-06T21:21:18.001Z"
           }
         },
         {
@@ -1253,8 +1253,8 @@
             "dir": "/modules/5-computational-design-modeling-in-grasshopper",
             "path": "/modules/5-computational-design-modeling-in-grasshopper/5-2-Subdivide-Geometry",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:35.239Z",
-            "updatedAt": "2023-06-07T15:23:35.239Z"
+            "createdAt": "2022-10-06T21:21:18.001Z",
+            "updatedAt": "2022-10-06T21:21:18.001Z"
           }
         },
         {
@@ -1323,8 +1323,8 @@
             "dir": "/modules/5-computational-design-modeling-in-grasshopper",
             "path": "/modules/5-computational-design-modeling-in-grasshopper/5-3-Analysis-Tools",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:35.240Z",
-            "updatedAt": "2023-06-07T15:23:35.240Z"
+            "createdAt": "2022-10-06T21:21:18.002Z",
+            "updatedAt": "2022-10-06T21:21:18.002Z"
           }
         },
         {
@@ -1393,8 +1393,8 @@
             "dir": "/modules/5-computational-design-modeling-in-grasshopper",
             "path": "/modules/5-computational-design-modeling-in-grasshopper/5-4-Street-Grid",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:35.241Z",
-            "updatedAt": "2023-06-07T15:23:35.241Z"
+            "createdAt": "2022-10-06T21:21:18.002Z",
+            "updatedAt": "2022-10-06T21:21:18.002Z"
           }
         },
         {
@@ -1463,8 +1463,8 @@
             "dir": "/modules/5-computational-design-modeling-in-grasshopper",
             "path": "/modules/5-computational-design-modeling-in-grasshopper/5-5_Buildings-Density",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:35.241Z",
-            "updatedAt": "2023-06-07T15:23:35.241Z"
+            "createdAt": "2022-10-06T21:21:18.002Z",
+            "updatedAt": "2022-10-06T21:21:18.002Z"
           }
         },
         {
@@ -1538,8 +1538,8 @@
             "dir": "/modules/5-computational-design-modeling-in-grasshopper",
             "path": "/modules/5-computational-design-modeling-in-grasshopper/5-6_Troubleshooting",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:35.242Z",
-            "updatedAt": "2023-06-07T15:23:35.242Z"
+            "createdAt": "2022-10-06T21:21:18.002Z",
+            "updatedAt": "2022-10-06T21:21:18.002Z"
           }
         },
         {
@@ -1603,8 +1603,8 @@
             "dir": "/modules/5-computational-design-modeling-in-grasshopper",
             "path": "/modules/5-computational-design-modeling-in-grasshopper/5-7_Design-Space",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:35.242Z",
-            "updatedAt": "2023-06-07T15:23:35.242Z"
+            "createdAt": "2022-10-06T21:21:18.002Z",
+            "updatedAt": "2022-10-06T21:21:18.003Z"
           }
         }
       ]
@@ -1638,8 +1638,8 @@
         "dir": "/modules/6-intro-to-python",
         "path": "/modules/6-intro-to-python/index",
         "extension": ".md",
-        "createdAt": "2023-06-07T15:23:36.194Z",
-        "updatedAt": "2023-06-07T15:23:36.194Z"
+        "createdAt": "2022-10-06T21:21:18.600Z",
+        "updatedAt": "2022-10-06T21:21:18.600Z"
       },
       "ordinal": 6,
       "path": "6-intro-to-python",
@@ -1676,8 +1676,8 @@
             "dir": "/modules/6-intro-to-python",
             "path": "/modules/6-intro-to-python/index",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:36.194Z",
-            "updatedAt": "2023-06-07T15:23:36.194Z"
+            "createdAt": "2022-10-06T21:21:18.600Z",
+            "updatedAt": "2022-10-06T21:21:18.600Z"
           }
         },
         {
@@ -1726,8 +1726,8 @@
             "dir": "/modules/6-intro-to-python",
             "path": "/modules/6-intro-to-python/61-getting-started-with-Python",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:36.179Z",
-            "updatedAt": "2023-06-07T15:23:36.179Z"
+            "createdAt": "2022-10-06T21:21:18.592Z",
+            "updatedAt": "2022-10-06T21:21:18.592Z"
           }
         },
         {
@@ -1776,8 +1776,8 @@
             "dir": "/modules/6-intro-to-python",
             "path": "/modules/6-intro-to-python/62-using-python-in-grasshopper",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:36.180Z",
-            "updatedAt": "2023-06-07T15:23:36.180Z"
+            "createdAt": "2022-10-06T21:21:18.592Z",
+            "updatedAt": "2022-10-06T21:21:18.592Z"
           }
         }
       ]
@@ -1811,8 +1811,8 @@
         "dir": "/modules/7-fundamentals-of-python",
         "path": "/modules/7-fundamentals-of-python/index",
         "extension": ".md",
-        "createdAt": "2023-06-07T15:23:36.196Z",
-        "updatedAt": "2023-06-07T15:23:36.196Z"
+        "createdAt": "2022-10-06T21:21:18.600Z",
+        "updatedAt": "2022-10-06T21:21:18.600Z"
       },
       "ordinal": 7,
       "path": "7-fundamentals-of-python",
@@ -1849,8 +1849,8 @@
             "dir": "/modules/7-fundamentals-of-python",
             "path": "/modules/7-fundamentals-of-python/index",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:36.196Z",
-            "updatedAt": "2023-06-07T15:23:36.196Z"
+            "createdAt": "2022-10-06T21:21:18.600Z",
+            "updatedAt": "2022-10-06T21:21:18.600Z"
           }
         },
         {
@@ -1914,8 +1914,8 @@
             "dir": "/modules/7-fundamentals-of-python",
             "path": "/modules/7-fundamentals-of-python/71-variables-lists-and-dictionaries",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:36.195Z",
-            "updatedAt": "2023-06-07T15:23:36.195Z"
+            "createdAt": "2022-10-06T21:21:18.600Z",
+            "updatedAt": "2022-10-06T21:21:18.600Z"
           }
         },
         {
@@ -2014,8 +2014,8 @@
             "dir": "/modules/7-fundamentals-of-python",
             "path": "/modules/7-fundamentals-of-python/72-conditionals-and-loops",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:36.195Z",
-            "updatedAt": "2023-06-07T15:23:36.195Z"
+            "createdAt": "2022-10-06T21:21:18.600Z",
+            "updatedAt": "2022-10-06T21:21:18.600Z"
           }
         },
         {
@@ -2059,8 +2059,8 @@
             "dir": "/modules/7-fundamentals-of-python",
             "path": "/modules/7-fundamentals-of-python/73-functions-and-classes",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:36.196Z",
-            "updatedAt": "2023-06-07T15:23:36.196Z"
+            "createdAt": "2022-10-06T21:21:18.600Z",
+            "updatedAt": "2022-10-06T21:21:18.600Z"
           }
         },
         {
@@ -2104,8 +2104,8 @@
             "dir": "/modules/7-fundamentals-of-python",
             "path": "/modules/7-fundamentals-of-python/74-python-libraries",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:36.196Z",
-            "updatedAt": "2023-06-07T15:23:36.196Z"
+            "createdAt": "2022-10-06T21:21:18.600Z",
+            "updatedAt": "2022-10-06T21:21:18.600Z"
           }
         }
       ]
@@ -2139,8 +2139,8 @@
         "dir": "/modules/8-intro-to-python-in-rhino",
         "path": "/modules/8-intro-to-python-in-rhino/index",
         "extension": ".md",
-        "createdAt": "2023-06-07T15:23:36.211Z",
-        "updatedAt": "2023-06-07T15:23:36.212Z"
+        "createdAt": "2022-10-06T21:21:18.607Z",
+        "updatedAt": "2022-10-06T21:21:18.607Z"
       },
       "ordinal": 8,
       "path": "8-intro-to-python-in-rhino",
@@ -2177,8 +2177,8 @@
             "dir": "/modules/8-intro-to-python-in-rhino",
             "path": "/modules/8-intro-to-python-in-rhino/index",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:36.211Z",
-            "updatedAt": "2023-06-07T15:23:36.212Z"
+            "createdAt": "2022-10-06T21:21:18.607Z",
+            "updatedAt": "2022-10-06T21:21:18.607Z"
           }
         },
         {
@@ -2232,8 +2232,8 @@
             "dir": "/modules/8-intro-to-python-in-rhino",
             "path": "/modules/8-intro-to-python-in-rhino/81-accessing-the-rhino-apis-in-python",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:36.197Z",
-            "updatedAt": "2023-06-07T15:23:36.197Z"
+            "createdAt": "2022-10-06T21:21:18.600Z",
+            "updatedAt": "2022-10-06T21:21:18.601Z"
           }
         },
         {
@@ -2282,8 +2282,8 @@
             "dir": "/modules/8-intro-to-python-in-rhino",
             "path": "/modules/8-intro-to-python-in-rhino/82-working-with-geometry-in-python",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:36.197Z",
-            "updatedAt": "2023-06-07T15:23:36.198Z"
+            "createdAt": "2022-10-06T21:21:18.601Z",
+            "updatedAt": "2022-10-06T21:21:18.601Z"
           }
         }
       ]
@@ -2317,8 +2317,8 @@
         "dir": "/modules/10-spatial-python",
         "path": "/modules/10-spatial-python/index",
         "extension": ".md",
-        "createdAt": "2023-06-07T15:23:08.075Z",
-        "updatedAt": "2023-06-07T15:23:08.075Z"
+        "createdAt": "2022-10-06T21:21:14.111Z",
+        "updatedAt": "2022-10-06T21:21:14.111Z"
       },
       "ordinal": 10,
       "path": "10-spatial-python",
@@ -2355,8 +2355,8 @@
             "dir": "/modules/10-spatial-python",
             "path": "/modules/10-spatial-python/index",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:08.075Z",
-            "updatedAt": "2023-06-07T15:23:08.075Z"
+            "createdAt": "2022-10-06T21:21:14.111Z",
+            "updatedAt": "2022-10-06T21:21:14.111Z"
           }
         },
         {
@@ -2410,8 +2410,8 @@
             "dir": "/modules/10-spatial-python",
             "path": "/modules/10-spatial-python/101-data-manipulation",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:07.990Z",
-            "updatedAt": "2023-06-07T15:23:07.990Z"
+            "createdAt": "2023-08-16T17:59:01.938Z",
+            "updatedAt": "2023-08-16T17:59:01.938Z"
           }
         },
         {
@@ -2465,8 +2465,8 @@
             "dir": "/modules/10-spatial-python",
             "path": "/modules/10-spatial-python/102-geospatial-data",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:07.990Z",
-            "updatedAt": "2023-06-07T15:23:07.990Z"
+            "createdAt": "2022-10-06T21:21:14.060Z",
+            "updatedAt": "2022-10-06T21:21:14.061Z"
           }
         },
         {
@@ -2500,8 +2500,8 @@
             "dir": "/modules/10-spatial-python",
             "path": "/modules/10-spatial-python/103-spatial-analysis-point-pattern",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:07.990Z",
-            "updatedAt": "2023-06-15T21:34:56.196Z"
+            "createdAt": "2023-06-29T16:03:25.784Z",
+            "updatedAt": "2023-06-29T16:03:25.785Z"
           }
         },
         {
@@ -2535,8 +2535,8 @@
             "dir": "/modules/10-spatial-python",
             "path": "/modules/10-spatial-python/104-spatial-analysis-correlation",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:07.992Z",
-            "updatedAt": "2023-06-28T19:02:04.638Z"
+            "createdAt": "2023-06-29T16:03:25.785Z",
+            "updatedAt": "2023-06-29T16:03:25.785Z"
           }
         },
         {
@@ -2570,8 +2570,8 @@
             "dir": "/modules/10-spatial-python",
             "path": "/modules/10-spatial-python/105-spatial-analysis-clustering",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:07.992Z",
-            "updatedAt": "2023-06-07T15:23:07.992Z"
+            "createdAt": "2022-10-06T21:21:14.061Z",
+            "updatedAt": "2022-10-06T21:21:14.061Z"
           }
         }
       ]
@@ -2655,8 +2655,8 @@
         "dir": "/modules/11-interactive-web",
         "path": "/modules/11-interactive-web/index",
         "extension": ".md",
-        "createdAt": "2023-06-07T15:23:08.279Z",
-        "updatedAt": "2023-06-07T15:23:08.279Z"
+        "createdAt": "2022-10-06T21:21:14.234Z",
+        "updatedAt": "2022-10-06T21:21:14.234Z"
       },
       "ordinal": 11,
       "path": "11-interactive-web",
@@ -2743,8 +2743,8 @@
             "dir": "/modules/11-interactive-web",
             "path": "/modules/11-interactive-web/index",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:08.279Z",
-            "updatedAt": "2023-06-07T15:23:08.279Z"
+            "createdAt": "2022-10-06T21:21:14.234Z",
+            "updatedAt": "2022-10-06T21:21:14.234Z"
           }
         },
         {
@@ -2793,8 +2793,8 @@
             "dir": "/modules/11-interactive-web",
             "path": "/modules/11-interactive-web/110-getting-started",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:08.076Z",
-            "updatedAt": "2023-06-07T15:23:08.076Z"
+            "createdAt": "2023-06-06T20:39:11.036Z",
+            "updatedAt": "2023-06-06T20:39:11.037Z"
           }
         },
         {
@@ -2863,8 +2863,8 @@
             "dir": "/modules/11-interactive-web",
             "path": "/modules/11-interactive-web/111-git-and-github",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:08.076Z",
-            "updatedAt": "2023-06-28T19:21:13.719Z"
+            "createdAt": "2023-06-29T16:03:25.785Z",
+            "updatedAt": "2023-06-29T16:03:25.786Z"
           }
         },
         {
@@ -2943,8 +2943,8 @@
             "dir": "/modules/11-interactive-web",
             "path": "/modules/11-interactive-web/112-html-and-css",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:08.076Z",
-            "updatedAt": "2023-06-07T15:23:08.077Z"
+            "createdAt": "2023-06-06T20:39:11.037Z",
+            "updatedAt": "2023-06-06T20:39:11.037Z"
           }
         },
         {
@@ -3073,8 +3073,8 @@
             "dir": "/modules/11-interactive-web",
             "path": "/modules/11-interactive-web/113-data-and-apis",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:08.077Z",
-            "updatedAt": "2023-06-07T15:23:08.077Z"
+            "createdAt": "2023-06-06T20:39:11.038Z",
+            "updatedAt": "2023-06-06T20:39:11.038Z"
           }
         },
         {
@@ -3128,8 +3128,8 @@
             "dir": "/modules/11-interactive-web",
             "path": "/modules/11-interactive-web/114-events-and-uis",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:08.077Z",
-            "updatedAt": "2023-06-28T19:02:04.644Z"
+            "createdAt": "2023-06-29T16:03:25.786Z",
+            "updatedAt": "2023-06-29T16:03:25.786Z"
           }
         },
         {
@@ -3173,8 +3173,8 @@
             "dir": "/modules/11-interactive-web",
             "path": "/modules/11-interactive-web/115-dom-manipulation",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:08.077Z",
-            "updatedAt": "2023-06-07T15:23:08.077Z"
+            "createdAt": "2023-06-06T20:39:11.038Z",
+            "updatedAt": "2023-06-06T20:39:11.038Z"
           }
         }
       ]
@@ -3208,8 +3208,8 @@
         "dir": "/modules/12-rhino-intro",
         "path": "/modules/12-rhino-intro/index",
         "extension": ".md",
-        "createdAt": "2023-06-07T15:23:08.887Z",
-        "updatedAt": "2023-06-07T15:23:08.887Z"
+        "createdAt": "2022-10-06T21:21:14.587Z",
+        "updatedAt": "2022-10-06T21:21:14.587Z"
       },
       "ordinal": 12,
       "path": "12-rhino-intro",
@@ -3246,8 +3246,8 @@
             "dir": "/modules/12-rhino-intro",
             "path": "/modules/12-rhino-intro/index",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:08.887Z",
-            "updatedAt": "2023-06-07T15:23:08.887Z"
+            "createdAt": "2022-10-06T21:21:14.587Z",
+            "updatedAt": "2022-10-06T21:21:14.587Z"
           }
         },
         {
@@ -3306,8 +3306,8 @@
             "dir": "/modules/12-rhino-intro",
             "path": "/modules/12-rhino-intro/12-1_rhino-interface",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:08.279Z",
-            "updatedAt": "2023-06-15T21:34:56.201Z"
+            "createdAt": "2023-06-08T12:38:54.158Z",
+            "updatedAt": "2023-06-08T12:38:54.158Z"
           }
         },
         {
@@ -3366,8 +3366,8 @@
             "dir": "/modules/12-rhino-intro",
             "path": "/modules/12-rhino-intro/12-2_rhino-2d",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:08.279Z",
-            "updatedAt": "2023-06-15T21:34:59.753Z"
+            "createdAt": "2023-06-29T16:03:25.786Z",
+            "updatedAt": "2023-06-29T16:03:25.787Z"
           }
         },
         {
@@ -3431,8 +3431,8 @@
             "dir": "/modules/12-rhino-intro",
             "path": "/modules/12-rhino-intro/12-3_rhino-3d",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:08.280Z",
-            "updatedAt": "2023-06-07T15:23:08.280Z"
+            "createdAt": "2022-10-06T21:21:14.234Z",
+            "updatedAt": "2022-10-06T21:21:14.234Z"
           }
         },
         {
@@ -3516,8 +3516,8 @@
             "dir": "/modules/12-rhino-intro",
             "path": "/modules/12-rhino-intro/12-4_rhino-nurbs",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:08.280Z",
-            "updatedAt": "2023-06-07T15:23:08.280Z"
+            "createdAt": "2022-10-06T21:21:14.234Z",
+            "updatedAt": "2022-10-06T21:21:14.234Z"
           }
         }
       ]
@@ -3551,8 +3551,8 @@
         "dir": "/modules/13-arch-drawing",
         "path": "/modules/13-arch-drawing/index",
         "extension": ".md",
-        "createdAt": "2023-06-07T15:23:13.402Z",
-        "updatedAt": "2023-06-07T15:23:13.402Z"
+        "createdAt": "2022-10-06T21:21:15.455Z",
+        "updatedAt": "2022-10-06T21:21:15.455Z"
       },
       "ordinal": 13,
       "path": "13-arch-drawing",
@@ -3589,8 +3589,8 @@
             "dir": "/modules/13-arch-drawing",
             "path": "/modules/13-arch-drawing/index",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:13.402Z",
-            "updatedAt": "2023-06-07T15:23:13.402Z"
+            "createdAt": "2022-10-06T21:21:15.455Z",
+            "updatedAt": "2022-10-06T21:21:15.455Z"
           }
         },
         {
@@ -3680,8 +3680,8 @@
             "dir": "/modules/13-arch-drawing",
             "path": "/modules/13-arch-drawing/13-1_orthographic-drawing",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:08.888Z",
-            "updatedAt": "2023-06-07T20:44:56.989Z"
+            "createdAt": "2023-06-08T12:38:54.159Z",
+            "updatedAt": "2023-06-08T12:38:54.159Z"
           }
         },
         {
@@ -3800,8 +3800,8 @@
             "dir": "/modules/13-arch-drawing",
             "path": "/modules/13-arch-drawing/13-2_projection",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:08.888Z",
-            "updatedAt": "2023-06-07T20:27:35.072Z"
+            "createdAt": "2023-06-08T12:38:54.159Z",
+            "updatedAt": "2023-06-08T12:38:54.159Z"
           }
         },
         {
@@ -3875,8 +3875,8 @@
             "dir": "/modules/13-arch-drawing",
             "path": "/modules/13-arch-drawing/13-3_rendering",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:08.888Z",
-            "updatedAt": "2023-06-07T15:23:08.889Z"
+            "createdAt": "2022-10-06T21:21:14.588Z",
+            "updatedAt": "2022-10-06T21:21:14.588Z"
           }
         },
         {
@@ -3935,8 +3935,8 @@
             "dir": "/modules/13-arch-drawing",
             "path": "/modules/13-arch-drawing/13-4_compositing",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:08.889Z",
-            "updatedAt": "2023-06-07T15:23:08.889Z"
+            "createdAt": "2022-10-06T21:21:14.588Z",
+            "updatedAt": "2022-10-06T21:21:14.588Z"
           }
         }
       ]
@@ -3975,8 +3975,8 @@
         "dir": "/modules/14-geospatial-concepts",
         "path": "/modules/14-geospatial-concepts/index",
         "extension": ".md",
-        "createdAt": "2023-06-07T15:23:14.781Z",
-        "updatedAt": "2023-06-07T15:23:14.781Z"
+        "createdAt": "2022-10-06T21:21:15.585Z",
+        "updatedAt": "2022-10-06T21:21:15.585Z"
       },
       "ordinal": 14,
       "path": "14-geospatial-concepts",
@@ -4018,8 +4018,8 @@
             "dir": "/modules/14-geospatial-concepts",
             "path": "/modules/14-geospatial-concepts/index",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:14.781Z",
-            "updatedAt": "2023-06-07T15:23:14.781Z"
+            "createdAt": "2022-10-06T21:21:15.585Z",
+            "updatedAt": "2022-10-06T21:21:15.585Z"
           }
         },
         {
@@ -4063,8 +4063,8 @@
             "dir": "/modules/14-geospatial-concepts",
             "path": "/modules/14-geospatial-concepts/141-what-is-gis",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:13.403Z",
-            "updatedAt": "2023-06-07T15:23:13.403Z"
+            "createdAt": "2022-10-06T21:21:15.455Z",
+            "updatedAt": "2022-10-06T21:21:15.455Z"
           }
         },
         {
@@ -4128,8 +4128,8 @@
             "dir": "/modules/14-geospatial-concepts",
             "path": "/modules/14-geospatial-concepts/142-spatial-data",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:13.403Z",
-            "updatedAt": "2023-06-07T15:23:13.403Z"
+            "createdAt": "2022-10-06T21:21:15.455Z",
+            "updatedAt": "2022-10-06T21:21:15.456Z"
           }
         },
         {
@@ -4198,8 +4198,8 @@
             "dir": "/modules/14-geospatial-concepts",
             "path": "/modules/14-geospatial-concepts/143-coordinates-projections",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:13.403Z",
-            "updatedAt": "2023-06-07T15:23:13.462Z"
+            "createdAt": "2022-10-06T21:21:15.456Z",
+            "updatedAt": "2022-10-06T21:21:15.456Z"
           }
         }
       ]
@@ -4238,8 +4238,8 @@
         "dir": "/modules/15-intro-qgis",
         "path": "/modules/15-intro-qgis/index",
         "extension": ".md",
-        "createdAt": "2023-06-07T15:23:17.271Z",
-        "updatedAt": "2023-06-07T15:23:17.271Z"
+        "createdAt": "2022-10-06T21:21:16.348Z",
+        "updatedAt": "2022-10-06T21:21:16.348Z"
       },
       "ordinal": 15,
       "path": "15-intro-qgis",
@@ -4281,8 +4281,8 @@
             "dir": "/modules/15-intro-qgis",
             "path": "/modules/15-intro-qgis/index",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:17.271Z",
-            "updatedAt": "2023-06-07T15:23:17.271Z"
+            "createdAt": "2022-10-06T21:21:16.348Z",
+            "updatedAt": "2022-10-06T21:21:16.348Z"
           }
         },
         {
@@ -4371,8 +4371,8 @@
             "dir": "/modules/15-intro-qgis",
             "path": "/modules/15-intro-qgis/151-mapping-where",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:14.782Z",
-            "updatedAt": "2023-06-15T21:34:56.206Z"
+            "createdAt": "2023-06-08T12:38:54.160Z",
+            "updatedAt": "2023-06-08T12:38:54.160Z"
           }
         },
         {
@@ -4456,8 +4456,8 @@
             "dir": "/modules/15-intro-qgis",
             "path": "/modules/15-intro-qgis/152-print-layout",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:14.783Z",
-            "updatedAt": "2023-06-07T15:23:14.783Z"
+            "createdAt": "2022-10-06T21:21:15.585Z",
+            "updatedAt": "2022-10-06T21:21:15.585Z"
           }
         },
         {
@@ -4511,8 +4511,8 @@
             "dir": "/modules/15-intro-qgis",
             "path": "/modules/15-intro-qgis/153-archives",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:14.783Z",
-            "updatedAt": "2023-06-28T19:02:04.650Z"
+            "createdAt": "2023-06-29T16:03:25.787Z",
+            "updatedAt": "2023-06-29T16:03:25.788Z"
           }
         },
         {
@@ -4566,8 +4566,8 @@
             "dir": "/modules/15-intro-qgis",
             "path": "/modules/15-intro-qgis/154-observations",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:14.853Z",
-            "updatedAt": "2023-06-07T15:23:14.853Z"
+            "createdAt": "2022-10-06T21:21:15.585Z",
+            "updatedAt": "2022-10-06T21:21:15.585Z"
           }
         },
         {
@@ -4631,8 +4631,8 @@
             "dir": "/modules/15-intro-qgis",
             "path": "/modules/15-intro-qgis/155-satellites",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:14.855Z",
-            "updatedAt": "2023-06-15T21:34:56.210Z"
+            "createdAt": "2023-06-08T12:38:54.160Z",
+            "updatedAt": "2023-06-08T12:38:54.160Z"
           }
         },
         {
@@ -4676,8 +4676,8 @@
             "dir": "/modules/15-intro-qgis",
             "path": "/modules/15-intro-qgis/156-aerial-imagery",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:14.856Z",
-            "updatedAt": "2023-06-15T21:34:56.214Z"
+            "createdAt": "2023-06-08T12:38:54.160Z",
+            "updatedAt": "2023-06-08T12:38:54.161Z"
           }
         },
         {
@@ -4731,8 +4731,8 @@
             "dir": "/modules/15-intro-qgis",
             "path": "/modules/15-intro-qgis/157-atlas",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:14.857Z",
-            "updatedAt": "2023-06-07T15:23:14.857Z"
+            "createdAt": "2022-10-06T21:21:15.586Z",
+            "updatedAt": "2022-10-06T21:21:15.586Z"
           }
         }
       ]
@@ -4781,8 +4781,8 @@
         "dir": "/modules/16-ambient-computing-network-architecture",
         "path": "/modules/16-ambient-computing-network-architecture/index",
         "extension": ".md",
-        "createdAt": "2023-06-07T15:23:25.223Z",
-        "updatedAt": "2023-06-07T15:23:25.224Z"
+        "createdAt": "2022-10-06T21:21:16.903Z",
+        "updatedAt": "2022-10-06T21:21:16.903Z"
       },
       "ordinal": 16,
       "path": "16-ambient-computing-network-architecture",
@@ -4834,8 +4834,8 @@
             "dir": "/modules/16-ambient-computing-network-architecture",
             "path": "/modules/16-ambient-computing-network-architecture/index",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:25.223Z",
-            "updatedAt": "2023-06-07T15:23:25.224Z"
+            "createdAt": "2022-10-06T21:21:16.903Z",
+            "updatedAt": "2022-10-06T21:21:16.903Z"
           }
         },
         {
@@ -4894,8 +4894,8 @@
             "dir": "/modules/16-ambient-computing-network-architecture",
             "path": "/modules/16-ambient-computing-network-architecture/161-dynamic-environments",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:17.271Z",
-            "updatedAt": "2023-06-07T15:23:17.271Z"
+            "createdAt": "2022-10-06T21:21:16.348Z",
+            "updatedAt": "2022-10-06T21:21:16.349Z"
           }
         },
         {
@@ -4944,8 +4944,8 @@
             "dir": "/modules/16-ambient-computing-network-architecture",
             "path": "/modules/16-ambient-computing-network-architecture/162-network-architecture",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:17.272Z",
-            "updatedAt": "2023-06-07T15:23:17.272Z"
+            "createdAt": "2022-10-06T21:21:16.349Z",
+            "updatedAt": "2022-10-06T21:21:16.349Z"
           }
         },
         {
@@ -4974,8 +4974,8 @@
             "dir": "/modules/16-ambient-computing-network-architecture",
             "path": "/modules/16-ambient-computing-network-architecture/163-low-and-high-programming",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:17.272Z",
-            "updatedAt": "2023-06-07T15:23:17.363Z"
+            "createdAt": "2022-10-06T21:21:16.349Z",
+            "updatedAt": "2022-10-06T21:21:16.349Z"
           }
         },
         {
@@ -5014,8 +5014,8 @@
             "dir": "/modules/16-ambient-computing-network-architecture",
             "path": "/modules/16-ambient-computing-network-architecture/164-Intro-to-Processing-Lighting",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:17.364Z",
-            "updatedAt": "2023-06-07T15:23:17.364Z"
+            "createdAt": "2022-10-06T21:21:16.349Z",
+            "updatedAt": "2022-10-06T21:21:16.349Z"
           }
         },
         {
@@ -5084,8 +5084,8 @@
             "dir": "/modules/16-ambient-computing-network-architecture",
             "path": "/modules/16-ambient-computing-network-architecture/165-Webhooks-Connecting-IFTTT-and-Processing",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:17.365Z",
-            "updatedAt": "2023-06-07T15:23:17.365Z"
+            "createdAt": "2022-10-06T21:21:16.349Z",
+            "updatedAt": "2022-10-06T21:21:16.349Z"
           }
         },
         {
@@ -5174,8 +5174,8 @@
             "dir": "/modules/16-ambient-computing-network-architecture",
             "path": "/modules/16-ambient-computing-network-architecture/166-sounds-speech-and-macros",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:17.366Z",
-            "updatedAt": "2023-06-07T15:23:17.366Z"
+            "createdAt": "2022-10-06T21:21:16.349Z",
+            "updatedAt": "2022-10-06T21:21:16.349Z"
           }
         },
         {
@@ -5229,8 +5229,8 @@
             "dir": "/modules/16-ambient-computing-network-architecture",
             "path": "/modules/16-ambient-computing-network-architecture/167-Markers-and-Tracking",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:17.367Z",
-            "updatedAt": "2023-06-07T15:23:17.367Z"
+            "createdAt": "2022-10-06T21:21:16.349Z",
+            "updatedAt": "2022-10-06T21:21:16.349Z"
           }
         },
         {
@@ -5294,8 +5294,8 @@
             "dir": "/modules/16-ambient-computing-network-architecture",
             "path": "/modules/16-ambient-computing-network-architecture/168-Computer-Vision",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:17.367Z",
-            "updatedAt": "2023-06-07T15:23:17.367Z"
+            "createdAt": "2022-10-06T21:21:16.349Z",
+            "updatedAt": "2022-10-06T21:21:16.349Z"
           }
         }
       ]
@@ -5334,8 +5334,8 @@
         "dir": "/modules/18-behavioral-modeling-intro",
         "path": "/modules/18-behavioral-modeling-intro/index",
         "extension": ".md",
-        "createdAt": "2023-06-07T15:23:34.497Z",
-        "updatedAt": "2023-06-07T15:23:34.497Z"
+        "createdAt": "2022-10-06T21:21:17.605Z",
+        "updatedAt": "2022-10-06T21:21:17.605Z"
       },
       "ordinal": 18,
       "path": "18-behavioral-modeling-intro",
@@ -5377,8 +5377,8 @@
             "dir": "/modules/18-behavioral-modeling-intro",
             "path": "/modules/18-behavioral-modeling-intro/index",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:34.497Z",
-            "updatedAt": "2023-06-07T15:23:34.497Z"
+            "createdAt": "2022-10-06T21:21:17.605Z",
+            "updatedAt": "2022-10-06T21:21:17.605Z"
           }
         },
         {
@@ -5427,8 +5427,8 @@
             "dir": "/modules/18-behavioral-modeling-intro",
             "path": "/modules/18-behavioral-modeling-intro/181-Unity-and-Agent-Based-Models",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:25.782Z",
-            "updatedAt": "2023-06-07T15:23:25.782Z"
+            "createdAt": "2022-10-06T21:21:16.903Z",
+            "updatedAt": "2022-10-06T21:21:16.904Z"
           }
         },
         {
@@ -5492,8 +5492,8 @@
             "dir": "/modules/18-behavioral-modeling-intro",
             "path": "/modules/18-behavioral-modeling-intro/182-Intro-To-Unity",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:25.783Z",
-            "updatedAt": "2023-06-07T15:23:25.783Z"
+            "createdAt": "2022-10-06T21:21:16.904Z",
+            "updatedAt": "2022-10-06T21:21:16.904Z"
           }
         },
         {
@@ -5557,8 +5557,8 @@
             "dir": "/modules/18-behavioral-modeling-intro",
             "path": "/modules/18-behavioral-modeling-intro/183-Agent-Based-Populations-and-Behavior-Bricks",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:25.784Z",
-            "updatedAt": "2023-06-07T15:23:26.155Z"
+            "createdAt": "2022-10-06T21:21:16.904Z",
+            "updatedAt": "2022-10-06T21:21:16.904Z"
           }
         },
         {
@@ -5602,8 +5602,8 @@
             "dir": "/modules/18-behavioral-modeling-intro",
             "path": "/modules/18-behavioral-modeling-intro/184-Mapbox-SDK-and-Routing",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:26.802Z",
-            "updatedAt": "2023-06-07T15:23:26.803Z"
+            "createdAt": "2022-10-06T21:21:16.904Z",
+            "updatedAt": "2022-10-06T21:21:16.904Z"
           }
         }
       ]
@@ -5647,8 +5647,8 @@
         "dir": "/modules/19-data_visualization",
         "path": "/modules/19-data_visualization/index",
         "extension": ".md",
-        "createdAt": "2023-06-07T15:23:34.578Z",
-        "updatedAt": "2023-06-07T15:23:34.578Z"
+        "createdAt": "2022-10-06T21:21:17.654Z",
+        "updatedAt": "2022-10-06T21:21:17.654Z"
       },
       "ordinal": 19,
       "path": "19-data_visualization",
@@ -5695,8 +5695,8 @@
             "dir": "/modules/19-data_visualization",
             "path": "/modules/19-data_visualization/index",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:34.578Z",
-            "updatedAt": "2023-06-07T15:23:34.578Z"
+            "createdAt": "2022-10-06T21:21:17.654Z",
+            "updatedAt": "2022-10-06T21:21:17.654Z"
           }
         },
         {
@@ -5714,8 +5714,8 @@
             "dir": "/modules/19-data_visualization",
             "path": "/modules/19-data_visualization/Module1WorkflowsPartASetupCodeEnvironment",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:34.498Z",
-            "updatedAt": "2023-06-07T15:23:34.498Z"
+            "createdAt": "2022-10-06T21:21:17.605Z",
+            "updatedAt": "2022-10-06T21:21:17.605Z"
           }
         },
         {
@@ -5733,8 +5733,8 @@
             "dir": "/modules/19-data_visualization",
             "path": "/modules/19-data_visualization/Module2Introductiontod3anscombe",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:34.498Z",
-            "updatedAt": "2023-06-07T15:23:34.498Z"
+            "createdAt": "2022-10-06T21:21:17.605Z",
+            "updatedAt": "2022-10-06T21:21:17.605Z"
           }
         },
         {
@@ -5752,8 +5752,8 @@
             "dir": "/modules/19-data_visualization",
             "path": "/modules/19-data_visualization/Module3Tourofthebasiccharts1Bar",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:34.498Z",
-            "updatedAt": "2023-06-07T15:23:34.499Z"
+            "createdAt": "2022-10-06T21:21:17.606Z",
+            "updatedAt": "2022-10-06T21:21:17.606Z"
           }
         },
         {
@@ -5771,8 +5771,8 @@
             "dir": "/modules/19-data_visualization",
             "path": "/modules/19-data_visualization/Module3Tourofthebasiccharts2Line",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:34.499Z",
-            "updatedAt": "2023-06-07T15:23:34.499Z"
+            "createdAt": "2022-10-06T21:21:17.606Z",
+            "updatedAt": "2022-10-06T21:21:17.606Z"
           }
         },
         {
@@ -5790,8 +5790,8 @@
             "dir": "/modules/19-data_visualization",
             "path": "/modules/19-data_visualization/Module3Tourofthebasiccharts3Pie",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:34.499Z",
-            "updatedAt": "2023-06-07T15:23:34.499Z"
+            "createdAt": "2022-10-06T21:21:17.606Z",
+            "updatedAt": "2022-10-06T21:21:17.606Z"
           }
         },
         {
@@ -5809,8 +5809,8 @@
             "dir": "/modules/19-data_visualization",
             "path": "/modules/19-data_visualization/Module4Workingwithexternaldata",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:34.499Z",
-            "updatedAt": "2023-06-07T15:23:34.500Z"
+            "createdAt": "2022-10-06T21:21:17.606Z",
+            "updatedAt": "2022-10-06T21:21:17.606Z"
           }
         },
         {
@@ -5828,8 +5828,8 @@
             "dir": "/modules/19-data_visualization",
             "path": "/modules/19-data_visualization/Module5Buildinginteractivity",
             "extension": ".md",
-            "createdAt": "2023-06-07T15:23:34.500Z",
-            "updatedAt": "2023-06-07T15:23:34.500Z"
+            "createdAt": "2022-10-06T21:21:17.606Z",
+            "updatedAt": "2022-10-06T21:21:17.606Z"
           }
         }
       ]

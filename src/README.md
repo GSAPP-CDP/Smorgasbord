@@ -23,7 +23,13 @@ _See [content/modules/0-template](content/modules/0-template) as an example; you
 
 ### Structure
 
-Module Content is located in [content/modules](content/modules), with one module per folder.
+The hierarchy of the Smorgasbord goes Course -> Sequence -> Module
+
+![Smorgasbord Structure](assets/SmorgasbordIndex.png)
+
+Module Content is located in [content/modules](content/modules), with folders named after the sequence, and modules inside.
+
+Sequences are assigned to Courses manually in [components/ModuleIndex.Vue](components/ModuleIndex.vue). If you would like to add a course, please contact CDP Assistant Director Adam Vosburgh, or submit a pull request with him as a reviewer.
 
 ### Module Markdown File
 
