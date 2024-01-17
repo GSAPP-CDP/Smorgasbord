@@ -44,7 +44,7 @@ published: True
 ---
 ```
 
-**Make sure that the moduleid is unique!** You can make sure that the module IDs don't collide by looking at our CDP Smorgasbord Module Tracker(https://docs.google.com/spreadsheets/d/1v-vODKkGjbIf1fCRc6aVs-EnZ248mZvRsGmF1WnpTCg/edit?usp=sharing). If you do not have access please contact Adam Vosburgh.s
+**Make sure that the moduleid is unique!** You can make sure that the module IDs don't collide by looking at our [CDP Smorgasbord Module Tracker](https://docs.google.com/spreadsheets/d/1v-vODKkGjbIf1fCRc6aVs-EnZ248mZvRsGmF1WnpTCg/edit?usp=sharing). If you do not have access please contact Adam Vosburgh.s
 
 Typical file naming conventions is that the title of the sequence should be 'index.md', and that moduleid start with zero. For example, if your new tutorial sequence is sequence '21', then your index is '210' your first module '211' etc.
 
