@@ -6,8 +6,7 @@ slug: 21-1-tensile
 authors:
  - "Stella Ioannidou"
 ----
-
-## Interactive Physics Simulation (part 1) - Tensile Surface Form Finding
+# Interactive Physics Simulation (part 1) - Tensile Surface Form Finding
 
 ![Description](images/21_1_Step8b.gif)
 
