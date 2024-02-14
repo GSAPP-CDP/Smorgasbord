@@ -71,9 +71,8 @@ In recent years, the field of acoustic visualization has continued to evolve, dr
 
 Acoustic Simulation in three dimensional space is typically conducted using  "task-specific" acoustic simulation software packages. n Grasshopper, sound dispersion was often approximated with definitions imitating acoustic ray tracing. However, Arthur van der Harten's plugin Pachyderm expands Grasshopper's capabilities in acoustic simulation, allowing for more comprehensive sound dispersion modeling.
 
-<img style="float:left; margin-right: 1.5rem;"  width="80" height="80" src="images/pachyderm.png"> 
-
 Pachyderm Acoustic Simulation is a collection of acoustics simulation algorithms that can be used to predict noise, visualize sound propagation, and critically listen to designed spaces. Pachyderm includes geometrical acoustics (ray-tracing and image source with enhancements, and visualization), Finite Volume Method (with several built-in applications, including eigen-frequencies, 3d scattering coefficient prediction, and visualization), and Transfer Matrix techniques for calculation of acoustic absorption which can be applied in the simulation techniques.
+
 
 ## Acoustic Visualization with Pachyderm
 
