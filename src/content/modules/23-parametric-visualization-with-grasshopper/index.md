@@ -1,12 +1,12 @@
 ---
 moduleid: 200
 title: Real-World Data in Grasshopper
-published: False
+published: True
 slug: real-world-data-in-grasshopper
 authors:
  - "Zachary White"
 ---
-# Sequence: TBD
+# Sequence: Parametric Visualization with Grasshopper
 ## Sequence Summary:
 
 This sequence will show a variety of ways to bring external data into Grasshopper, as well as ways to analyze and visualize it. We'll start with purely numerical data, then add in spatial information that can be mapped. After that we'll look at how to work with images, audio, and video, and finally scanned 3D meshes. In parallel, we'll look at ways of using Grasshopper for visualization: applying colors, lineweights and materials, creating animations, and automating rendering.
