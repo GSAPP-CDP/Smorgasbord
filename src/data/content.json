@@ -6,13 +6,19 @@
     "10-spatial-python/101-data-manipulation": {
       "double_links": []
     },
-    "10-spatial-python/102-geospatial-data": {
-      "double_links": []
-    },
     "10-spatial-python/103-spatial-analysis-point-pattern": {
       "double_links": []
     },
+    "10-spatial-python/102-geospatial-data": {
+      "double_links": []
+    },
     "10-spatial-python/104-spatial-analysis-correlation": {
+      "double_links": []
+    },
+    "10-spatial-python/index": {
+      "double_links": []
+    },
+    "11-interactive-web/111-git-and-github": {
       "double_links": []
     },
     "10-spatial-python/105-spatial-analysis-clustering": {
@@ -21,7 +27,7 @@
     "11-interactive-web/110-getting-started": {
       "double_links": []
     },
-    "10-spatial-python/index": {
+    "11-interactive-web/113-data-and-apis": {
       "double_links": []
     },
     "11-interactive-web/112-html-and-css": {
@@ -30,16 +36,13 @@
     "11-interactive-web/114-events-and-uis": {
       "double_links": []
     },
-    "11-interactive-web/111-git-and-github": {
-      "double_links": []
-    },
     "11-interactive-web/115-dom-manipulation": {
       "double_links": []
     },
     "11-interactive-web/index": {
       "double_links": []
     },
-    "11-interactive-web/113-data-and-apis": {
+    "12-rhino-intro/12-3_rhino-3d": {
       "double_links": []
     },
     "12-rhino-intro/12-1_rhino-interface": {
@@ -48,16 +51,16 @@
     "12-rhino-intro/12-2_rhino-2d": {
       "double_links": []
     },
-    "12-rhino-intro/12-3_rhino-3d": {
+    "12-rhino-intro/12-4_rhino-nurbs": {
       "double_links": []
     },
     "12-rhino-intro/index": {
       "double_links": []
     },
-    "12-rhino-intro/12-4_rhino-nurbs": {
+    "13-arch-drawing/13-2_projection": {
       "double_links": []
     },
-    "13-arch-drawing/13-4_compositing": {
+    "13-arch-drawing/13-1_orthographic-drawing": {
       "double_links": []
     },
     "13-arch-drawing/index": {
@@ -66,103 +69,106 @@
     "13-arch-drawing/13-3_rendering": {
       "double_links": []
     },
-    "14-geospatial-concepts/141-what-is-gis": {
-      "double_links": []
-    },
-    "14-geospatial-concepts/143-coordinates-projections": {
-      "double_links": []
-    },
-    "14-geospatial-concepts/index": {
+    "13-arch-drawing/13-4_compositing": {
       "double_links": []
     },
     "14-geospatial-concepts/142-spatial-data": {
       "double_links": []
     },
-    "13-arch-drawing/13-1_orthographic-drawing": {
+    "14-geospatial-concepts/141-what-is-gis": {
       "double_links": []
     },
-    "15-intro-qgis/152-print-layout": {
-      "double_links": []
-    },
-    "15-intro-qgis/154-observations": {
+    "14-geospatial-concepts/index": {
       "double_links": []
     },
     "15-intro-qgis/153-archives": {
       "double_links": []
     },
-    "15-intro-qgis/155-satellites": {
-      "double_links": []
-    },
-    "15-intro-qgis/index": {
-      "double_links": []
-    },
-    "15-intro-qgis/157-atlas": {
+    "15-intro-qgis/151-mapping-where": {
       "double_links": []
     },
     "15-intro-qgis/156-aerial-imagery": {
       "double_links": []
     },
-    "16-ambient-computing-network-architecture/161-dynamic-environments": {
+    "15-intro-qgis/152-print-layout": {
       "double_links": []
     },
-    "16-ambient-computing-network-architecture/163-low-and-high-programming": {
+    "15-intro-qgis/157-atlas": {
       "double_links": []
     },
-    "16-ambient-computing-network-architecture/171-Intro-to-Processing-Lighting": {
+    "15-intro-qgis/index": {
+      "double_links": []
+    },
+    "14-geospatial-concepts/143-coordinates-projections": {
+      "double_links": []
+    },
+    "15-intro-qgis/154-observations": {
       "double_links": []
     },
     "16-ambient-computing-network-architecture/172-Webhooks-Connecting-IFTTT-and-Processing": {
       "double_links": []
     },
-    "16-ambient-computing-network-architecture/162-network-architecture": {
+    "16-ambient-computing-network-architecture/161-dynamic-environments": {
       "double_links": []
     },
-    "15-intro-qgis/151-mapping-where": {
-      "double_links": []
-    },
-    "16-ambient-computing-network-architecture/174-Markers-and-Tracking": {
+    "15-intro-qgis/155-satellites": {
       "double_links": []
     },
     "16-ambient-computing-network-architecture/173-sounds-speech-and-macros": {
       "double_links": []
     },
-    "13-arch-drawing/13-2_projection": {
-      "double_links": []
-    },
-    "16-ambient-computing-network-architecture/175-Computer-Vision": {
+    "16-ambient-computing-network-architecture/162-network-architecture": {
       "double_links": []
     },
     "16-ambient-computing-network-architecture/index": {
       "double_links": []
     },
-    "18-behavioral-modeling-intro/183-Agent-Based-Populations-and-Behavior-Bricks": {
-      "double_links": []
-    },
-    "18-behavioral-modeling-intro/184-Mapbox-SDK-and-Routing": {
-      "double_links": []
-    },
-    "18-behavioral-modeling-intro/182-Intro-To-Unity": {
-      "double_links": []
-    },
-    "19-data_visualization/index": {
-      "double_links": []
-    },
-    "19-data_visualization/Module1WorkflowsPartASetupCodeEnvironment": {
+    "16-ambient-computing-network-architecture/171-Intro-to-Processing-Lighting": {
       "double_links": []
     },
     "18-behavioral-modeling-intro/181-Unity-and-Agent-Based-Models": {
       "double_links": []
     },
+    "16-ambient-computing-network-architecture/163-low-and-high-programming": {
+      "double_links": []
+    },
+    "16-ambient-computing-network-architecture/175-Computer-Vision": {
+      "double_links": []
+    },
+    "18-behavioral-modeling-intro/183-Agent-Based-Populations-and-Behavior-Bricks": {
+      "double_links": []
+    },
+    "16-ambient-computing-network-architecture/174-Markers-and-Tracking": {
+      "double_links": []
+    },
+    "18-behavioral-modeling-intro/182-Intro-To-Unity": {
+      "double_links": []
+    },
+    "18-behavioral-modeling-intro/184-Mapbox-SDK-and-Routing": {
+      "double_links": []
+    },
     "18-behavioral-modeling-intro/index": {
       "double_links": []
     },
-    "19-data_visualization/Module3Tourofthebasiccharts1Bar": {
+    "19-data_visualization/Module1WorkflowsPartASetupCodeEnvironment": {
+      "double_links": []
+    },
+    "19-data_visualization/index": {
+      "double_links": []
+    },
+    "19-data_visualization/Module3Tourofthebasiccharts2Line": {
+      "double_links": []
+    },
+    "19-data_visualization/Module3Tourofthebasiccharts3Pie": {
       "double_links": []
     },
     "19-data_visualization/Module2Introductiontod3anscombe": {
       "double_links": []
     },
-    "19-data_visualization/Module3Tourofthebasiccharts2Line": {
+    "21-integrated-computational-simulation/212-inflatable-structure": {
+      "double_links": []
+    },
+    "19-data_visualization/Module3Tourofthebasiccharts1Bar": {
       "double_links": []
     },
     "19-data_visualization/Module4Workingwithexternaldata": {
@@ -171,22 +177,19 @@
     "21-integrated-computational-simulation/211-tensile-membrane": {
       "double_links": []
     },
-    "21-integrated-computational-simulation/212-inflatable-structure": {
+    "21-integrated-computational-simulation/index": {
       "double_links": []
     },
     "21-integrated-computational-simulation/213-acoustic": {
       "double_links": []
     },
-    "19-data_visualization/Module5Buildinginteractivity": {
-      "double_links": []
-    },
-    "21-integrated-computational-simulation/index": {
-      "double_links": []
-    },
-    "19-data_visualization/Module3Tourofthebasiccharts3Pie": {
-      "double_links": []
-    },
     "23-parametric-visualization-with-grasshopper/index": {
+      "double_links": []
+    },
+    "23-parametric-visualization-with-grasshopper/23-1_tabular-data": {
+      "double_links": []
+    },
+    "19-data_visualization/Module5Buildinginteractivity": {
       "double_links": []
     },
     "23-parametric-visualization-with-grasshopper/23-3_media": {
@@ -195,22 +198,13 @@
     "4-grasshopper-intro/41-getting-started-with-grasshopper": {
       "double_links": []
     },
-    "4-grasshopper-intro/410-Generating-Exploring-Spatial-Data": {
-      "double_links": []
-    },
-    "23-parametric-visualization-with-grasshopper/23-1_tabular-data": {
-      "double_links": []
-    },
-    "4-grasshopper-intro/44-exercise-parametric-tower-part-1": {
-      "double_links": []
-    },
     "4-grasshopper-intro/42-exercise-hello-grasshopper": {
       "double_links": []
     },
-    "4-grasshopper-intro/46-exercise-parametric-tower-part-2": {
+    "4-grasshopper-intro/410-Generating-Exploring-Spatial-Data": {
       "double_links": []
     },
-    "4-grasshopper-intro/47-documentation-best-practices": {
+    "4-grasshopper-intro/44-exercise-parametric-tower-part-1": {
       "double_links": []
     },
     "4-grasshopper-intro/43-working-in-grasshopper": {
@@ -219,49 +213,52 @@
     "4-grasshopper-intro/45-working-with-data": {
       "double_links": []
     },
+    "4-grasshopper-intro/47-documentation-best-practices": {
+      "double_links": []
+    },
+    "4-grasshopper-intro/46-exercise-parametric-tower-part-2": {
+      "double_links": []
+    },
     "4-grasshopper-intro/48-Deriving-Spatial-Data": {
-      "double_links": []
-    },
-    "5-computational-design-modeling-in-grasshopper/5-3-Analysis-Tools": {
-      "double_links": []
-    },
-    "4-grasshopper-intro/index": {
-      "double_links": []
-    },
-    "5-computational-design-modeling-in-grasshopper/5-1-Comp-Design-Modeling": {
       "double_links": []
     },
     "4-grasshopper-intro/49-Procedural-Rules": {
       "double_links": []
     },
+    "5-computational-design-modeling-in-grasshopper/5-2-Subdivide-Geometry": {
+      "double_links": []
+    },
+    "5-computational-design-modeling-in-grasshopper/5-3-Analysis-Tools": {
+      "double_links": []
+    },
     "5-computational-design-modeling-in-grasshopper/5-4-Street-Grid": {
       "double_links": []
     },
-    "5-computational-design-modeling-in-grasshopper/5-6_Troubleshooting": {
+    "4-grasshopper-intro/index": {
       "double_links": []
     },
     "5-computational-design-modeling-in-grasshopper/5-7_Design-Space": {
       "double_links": []
     },
-    "5-computational-design-modeling-in-grasshopper/5-2-Subdivide-Geometry": {
+    "5-computational-design-modeling-in-grasshopper/5-6_Troubleshooting": {
+      "double_links": []
+    },
+    "5-computational-design-modeling-in-grasshopper/5-5_Buildings-Density": {
       "double_links": []
     },
     "5-computational-design-modeling-in-grasshopper/index": {
       "double_links": []
     },
-    "6-intro-to-python/61-getting-started-with-Python": {
-      "double_links": []
-    },
-    "6-intro-to-python/62-using-python-in-grasshopper": {
+    "5-computational-design-modeling-in-grasshopper/5-1-Comp-Design-Modeling": {
       "double_links": []
     },
     "6-intro-to-python/index": {
       "double_links": []
     },
-    "7-fundamentals-of-python/73-functions-and-classes": {
+    "6-intro-to-python/62-using-python-in-grasshopper": {
       "double_links": []
     },
-    "5-computational-design-modeling-in-grasshopper/5-5_Buildings-Density": {
+    "6-intro-to-python/61-getting-started-with-Python": {
       "double_links": []
     },
     "7-fundamentals-of-python/71-variables-lists-and-dictionaries": {
@@ -273,13 +270,16 @@
     "7-fundamentals-of-python/74-python-libraries": {
       "double_links": []
     },
-    "8-intro-to-python-in-rhino/81-accessing-the-rhino-apis-in-python": {
+    "8-intro-to-python-in-rhino/index": {
       "double_links": []
     },
     "8-intro-to-python-in-rhino/82-working-with-geometry-in-python": {
       "double_links": []
     },
-    "8-intro-to-python-in-rhino/index": {
+    "7-fundamentals-of-python/73-functions-and-classes": {
+      "double_links": []
+    },
+    "8-intro-to-python-in-rhino/81-accessing-the-rhino-apis-in-python": {
       "double_links": []
     },
     "7-fundamentals-of-python/index": {
@@ -5942,8 +5942,8 @@
         "dir": "/modules/21-integrated-computational-simulation",
         "path": "/modules/21-integrated-computational-simulation/index",
         "extension": ".md",
-        "createdAt": "2024-03-22T19:46:38.381Z",
-        "updatedAt": "2024-03-22T19:46:38.381Z"
+        "createdAt": "2024-03-22T20:34:05.170Z",
+        "updatedAt": "2024-03-22T20:34:05.170Z"
       },
       "ordinal": 21,
       "path": "21-integrated-computational-simulation",
@@ -5980,8 +5980,8 @@
             "dir": "/modules/21-integrated-computational-simulation",
             "path": "/modules/21-integrated-computational-simulation/index",
             "extension": ".md",
-            "createdAt": "2024-03-22T19:46:38.381Z",
-            "updatedAt": "2024-03-22T19:46:38.381Z"
+            "createdAt": "2024-03-22T20:34:05.170Z",
+            "updatedAt": "2024-03-22T20:34:05.170Z"
           }
         },
         {
@@ -6070,8 +6070,8 @@
             "dir": "/modules/21-integrated-computational-simulation",
             "path": "/modules/21-integrated-computational-simulation/211-tensile-membrane",
             "extension": ".md",
-            "createdAt": "2024-03-22T19:46:38.137Z",
-            "updatedAt": "2024-03-22T19:46:38.137Z"
+            "createdAt": "2024-03-22T20:34:04.619Z",
+            "updatedAt": "2024-03-22T20:34:04.620Z"
           }
         },
         {
@@ -6170,8 +6170,8 @@
             "dir": "/modules/21-integrated-computational-simulation",
             "path": "/modules/21-integrated-computational-simulation/212-inflatable-structure",
             "extension": ".md",
-            "createdAt": "2024-03-22T19:46:38.137Z",
-            "updatedAt": "2024-03-22T19:46:38.137Z"
+            "createdAt": "2024-03-22T20:34:04.620Z",
+            "updatedAt": "2024-03-22T20:34:04.621Z"
           }
         },
         {
@@ -6260,8 +6260,8 @@
             "dir": "/modules/21-integrated-computational-simulation",
             "path": "/modules/21-integrated-computational-simulation/213-acoustic",
             "extension": ".md",
-            "createdAt": "2024-03-22T19:46:38.137Z",
-            "updatedAt": "2024-03-22T19:46:38.138Z"
+            "createdAt": "2024-03-22T20:34:04.622Z",
+            "updatedAt": "2024-03-22T20:34:04.623Z"
           }
         }
       ]
@@ -6295,8 +6295,8 @@
         "dir": "/modules/23-parametric-visualization-with-grasshopper",
         "path": "/modules/23-parametric-visualization-with-grasshopper/index",
         "extension": ".md",
-        "createdAt": "2024-03-22T19:46:39.075Z",
-        "updatedAt": "2024-03-22T20:02:44.574Z"
+        "createdAt": "2024-03-22T20:34:06.149Z",
+        "updatedAt": "2024-03-22T20:34:06.153Z"
       },
       "ordinal": 23,
       "path": "23-parametric-visualization-with-grasshopper",
@@ -6333,8 +6333,8 @@
             "dir": "/modules/23-parametric-visualization-with-grasshopper",
             "path": "/modules/23-parametric-visualization-with-grasshopper/index",
             "extension": ".md",
-            "createdAt": "2024-03-22T19:46:39.075Z",
-            "updatedAt": "2024-03-22T20:02:44.574Z"
+            "createdAt": "2024-03-22T20:34:06.149Z",
+            "updatedAt": "2024-03-22T20:34:06.153Z"
           }
         },
         {
@@ -6373,8 +6373,8 @@
             "dir": "/modules/23-parametric-visualization-with-grasshopper",
             "path": "/modules/23-parametric-visualization-with-grasshopper/23-1_tabular-data",
             "extension": ".md",
-            "createdAt": "2024-03-22T19:46:38.381Z",
-            "updatedAt": "2024-03-22T20:18:09.455Z"
+            "createdAt": "2024-03-22T20:34:05.170Z",
+            "updatedAt": "2024-03-22T20:34:05.171Z"
           }
         },
         {
@@ -6423,8 +6423,8 @@
             "dir": "/modules/23-parametric-visualization-with-grasshopper",
             "path": "/modules/23-parametric-visualization-with-grasshopper/23-3_media",
             "extension": ".md",
-            "createdAt": "2024-03-22T19:46:38.381Z",
-            "updatedAt": "2024-03-22T20:02:54.841Z"
+            "createdAt": "2024-03-22T20:34:05.171Z",
+            "updatedAt": "2024-03-22T20:34:05.171Z"
           }
         }
       ]
