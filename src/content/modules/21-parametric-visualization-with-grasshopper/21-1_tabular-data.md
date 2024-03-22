@@ -140,3 +140,10 @@ Our last step in this tutorial will be exporting this interactive slider as an a
 Click "OK" and Grasshopper will export a series of frames you can compile in Photoshop or After Effects.
 
 ![interactive graph](images/1-19-gh-animation.gif)
+
+# Further Experimentation
+
+Now that we've graphed a dataset, here are some things to try on your own:
+- Incorporate another parameter from the dataset into the current graph
+- Graph another dataset from NYC Open Data
+- Create an animated graph in three dimensions

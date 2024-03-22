@@ -100,7 +100,7 @@ Franz Kline Mahoning 1956 Whitney Museum
 
 I'll plug it into the same script as before, but with a single cutting plane whose height I can adjust manually. To reduce noise I'm also going to filter the curves by `Length`, using a `Dispatch` node to toss out any below an adjustable threshold.
 
-![franz kline mahoning](images/3-15%20franz%20kline%20contour.png)
+![franz kline contoured](images/3-15%20franz%20kline%20contour.png)
 
 ## Video
 
@@ -178,3 +178,7 @@ Ideally I'd like to join all this data into a single mesh, with vertices colored
 Note that I've reversed the gradient colors too, this time by right-clicking the output of the `Series` node and choosing "Reverse." I've also added a white line at the very beginning, to highlight the current input. The result looks like this:
 
 ![smoothed waveform](images/3-34%20frequency%20animation.gif)
+
+# Further Experimentation
+
+In this tutorial we analyzed video and audio data separately. Can you create a visualization that combines both data sources?
