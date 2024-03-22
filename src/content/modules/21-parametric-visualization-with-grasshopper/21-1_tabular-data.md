@@ -8,19 +8,27 @@ authors:
 ---
 # Graphing Tabular Data
 
-The first information format we'll be bringing in to Grasshopper is data organized in a table of rows and columns (in other words, a spreadsheet).
+The first information format we'll be bringing in to Grasshopper is data organized in a table of rows and columns (in other words, a spreadsheet). This tutorial will cover creating a graph of a numerical dataset, visually styling it, annotating it, and finally adding interactivity which can be animated and exported.
 
 ## Downloading a Dataset
 
- You can of course collect your own data, but for this tutorial we'll use a public dataset from New York City's Open Data portal. Let's start with 
+For this tutorial we'll use a public dataset from [New York City's Open Data](https://opendata.cityofnewyork.us/) portal: [COVID-19 Daily Counts of Cases, Hospitalizations, and Deaths](https://data.cityofnewyork.us/Health/COVID-19-Daily-Counts-of-Cases-Hospitalizations-an/rc75-m7u3). The "Export" button at the top right of the page will allow you to download the latest version of the dataset as a CSV file.
 
-A common format for tabular data in computational contexts is the CSV (Comma Separated Values) file, which is like a simplified, non-propietary Excel file. You can create and edit them in Excel
+CSV (Comma Serparated Values) is a typical format for tabular data in computational contexts. You can open it in Excel to see and edit the data:
 
-Note that since commas are being used to separate columns, it's important that there aren't any commas in the data itself.
+ ![CSV Filein Excel](images/1-01%20csv%20excel.png)
+
+But you can also see the raw contents of the file by opening it in a basic text editor:
+
+ ![CSV Filein Excel](images/1-02%20csv%20notepad.png)
+
+Here you can see the structure of a CSV dataset, which is just a text file where columns are separated by commas and rows are separated by line breaks. *Note that since commas are being used to separate columns, it's important that there aren't any commas in the data itself.*
+
+To start interpreting this data, create a new Rhino file and open Grasshopper.
 
 ## Importing the Data
 
-Interpreting the file will be easier using a "Read CSV" component, which is part of the LunchBox plugin. If you don't have it already, [you can download LunchBox here](https://www.food4rhino.com/en/app/lunchbox). Later on we'll also be using a plugin called [Human](https://www.food4rhino.com/en/app/human), so install that one too while you're at it.
+Interpreting the file will be easier using a `Read CSV` component, which is part of the LunchBox plugin. If you don't have it already, [you can download LunchBox here](https://www.food4rhino.com/en/app/lunchbox). Later on we'll also be using a plugin called [Human](https://www.food4rhino.com/en/app/human), so install that one too.
 
  Create a new Rhino file and open Grasshopper. Add `File Path`, `Read File`, and `Read CSV` components to the canvas, and connect them like so:
 
@@ -63,3 +71,72 @@ Lastly I've added one more line, in orange, to track the 7-day average death tol
 ![styled graph gh canvas](images/1-6%20styled%20graph%20gh.png)
 
 ![styled graph result](images//1-7%20styled%20graph.png)
+
+# Annotating the Graph
+
+This is looking a lot better, but it doesn't contain any numerical information. To understand what we're looking at better we'll add labels to both axes as well as grid lines.
+
+Let's start by labelling the dates, on the *x*-axis. Obviously there isn't room for each day, so we'll do months and years. **Our goal here is to add all the labels parametrically**, so they'll adjust automatically if we update the data set, rescale the graph, etc.
+
+The process for creating the date labels is, broadly:
+- Identify dates which have a month value different from the previous date.
+- Use this information to isolate data points on the graph corresponding to the first day of each month.
+- Add text labels at the bottom of the graph using the x component of those data points.
+Repeat the same process to label years.
+
+Here's a more detailed look at each of those steps, and the results:
+
+![date label script](images/1-8%20label%20script.png)
+![graph with dates](images/1-9%20graph%20with%20dates.png)
+
+
+Now we'll add the grid lines and Y-axis labels for both case counts and death counts. Here's how:
+- For the horizontals simply make a series of lines, adjusting their spacing and number by eye. We do want to make sure we pick intervals that give round numbers for both of our data sets, though we can always adjust for this later on.
+- Use the same scaling factors we used when graphing the data to determine what values each grid lines represents.
+- Add tags for these values at either end of each grid line.
+- Draw a vertical line on the grid for each month.
+
+Again, a more detailed look at how this is done, along with the results:
+
+![date label script](images/1-10%20grid%20script.png)
+![graph with dates](images/1-11%20graph%20with%20grid.png)
+
+# Interactivity
+
+We've successfully created a static graph, but maybe by adding some interactivity we can extract more information from this dataset. For instance, we can now see the number of cases and deaths from COVID that are reported on each day, and how that value changes over time, but what about the *total* number of cases and deaths up to a particular date? Let's add a slider which will let us scrub through dates and see the totals as we do so.
+
+The first step is creating the slider that lets us choose a date. This input should work for any arbitrary list of dates, so we'll use a slider that goes from 0 to 1, then remap that parameter to the indices of our source data. The result looks like this:
+
+![date selector](images/1-12%20date%20selector.png)
+
+The value of the slider is multiplied by the length of the list, minus one (since the first index is 0, the length of a list is always one more than the index of the last item). Then we round the result to an integer to get our date index.
+
+Next let's add a vertical line to the graph to mark the current position of the slider. We can do this the same way we created our vertical grid lines, but using the slider we just made to choose the index of our starting point. That gives us the following:
+
+![date marker](images/1-13%20date%20marker%20line.png)
+
+Now we can move on to visualizing the total reported cases and fatalities. We can (and will) do this with numbers, but we can also show it graphically by highlighting the area underneath each curve. We'll create a closed `Polyline`, fill it in using `BoundarySrf`, and then tailor its appearance using another Human component, `CustomPreviewMaterials`.
+
+![curve integrals](images/1-14%20filled%20areas.png)
+
+Next we'll add points for placing tags of the current date and totals, relative to the top left of the graph:
+
+![date selector](images/1-15%20tag%20locations.png)
+
+And then add the tags:
+
+![tags](images/1-16%20total%20tags.png)
+
+Now we have a graph we can scrub through using our slider:
+
+![interactive graph](images/1-17%20interactive%20graph.gif)
+
+# Animation
+
+Our last step in this tutorial will be exporting this interactive slider as an animation. Grasshopper makes this easy: just right-click any slider, select "Animation," and choose your file location, resolution, and frame count.
+
+![interactive graph](images/1-18%20animation%20settings.png)
+
+Click "OK" and Grasshopper will export a series of frames you can compile in Photoshop or After Effects.
+
+![interactive graph](images/1-19-gh-animation.gif)
