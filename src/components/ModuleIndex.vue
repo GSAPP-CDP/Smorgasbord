@@ -39,6 +39,7 @@
        <div class="coursetitle">Computation for Design and Representation</div>
     <div class="course">
       <SequenceLinks path="21-integrated-computational-simulation" />
+      <SequenceLinks path="23-parametric-visualization-with-grasshopper" />
     </div> 
 
 
