@@ -350,7 +350,7 @@ We've created a computation design model, generated a spatial data set, and expl
 
 
 ## Assignment
-
+**NOTE:** If you are completing this tutorial sequence as part of the pre-program for the summer CDP program, please be aware that you will be posting this assignment to a google slide deck, which will be provided to you, for review as part of the first class of Computational Modeling. This tutorial sequence can be challenging, especially if you are new to grasshopper. For the first class review it is not required that everything is working perfectly. Focus on making it through everything and for the review post questions and any issues you had. You'll get feedback and have the opportunity to revise and rerun.
 1. Repeat the exploration of results for the last scenario: overall balance.
 2. Create simple diagrams for each scenario that illustrate design guidelines. Make them such that another designer could understand and follow them.
 3. Based on insights from this initial exploration, revise the inputs for your model and re-run. In addition to the dynamic inputs, consider re-designing the building types.
