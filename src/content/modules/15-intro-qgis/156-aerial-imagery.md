@@ -5,8 +5,11 @@ published: True
 slug: aerial
 authors:
  - "Dare Brawley"
+ - "Adam Vosburgh"
 ---
 # Satellite Grids & Google Static Maps API
+
+These next two tutorials will go outside of the QGIS interface to produce visualizations and work with spatial data in favor of work with some python scripts. If this is your first introduction to programming, don't worry, this is fairly copy paste, and it is ok if you do not understand everything that is going on.
 
 This is a brief guide to using the Google Static Maps API (Application Programming Interface). In it we provide an example python script that allows you to download satellite/aerial imagery through the [Google Static Maps API](https://developers.google.com/maps/documentation/maps-static/dev-guide).  
 
@@ -210,6 +213,10 @@ Once you have defined the function above call the function to download images.
 satellite_squares("path-to-your-csv-file/test_points.csv","yourAPIkey",13,640)
 ```
 
+The last two numbers, `13` and `640`, define the zoom level and the image size that the funciton will query the API in. What is essentially happening here is we simply providing the parameters that will go into a URL that makes up an API query. For a breakdown of what is what, see the image below.
+
+![URL diagram]
+
 Note on file paths: depending on where / how you are running this python script you may need to use either an absolute or a relative path to your csv files
 
 Images for the latitude and longitude coordinates specified in your csv file will be downloaded into whatever location on your hard drive you are running the script from  
@@ -223,3 +230,5 @@ Design a layout to present the images on one or more slides (or GIFs)
 [grid of satellite images]:images/156/satellite_grids_01.png
 
 [diagram process]:images/156/satellite_grids_explained.png
+
+[URL diagram]:images/156/satellite_grids_url.png

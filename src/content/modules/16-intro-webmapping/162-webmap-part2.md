@@ -28,7 +28,7 @@ Prepare the polygon dataset you wish to use, use QGIS to export your chosen data
 
 Save the geojson file of polygons that you plan to use in the `data` folder you have just created.
 
-The instructions below use the processed NYC census blocks dataset that you used in tutorial 1 as an example. It is available in the class [data folder](https://drive.google.com/file/d/1txeh8GCmZChtyYQnRPkxPhDyjw7r8mK-/view?usp=sharing).
+The instructions below use the processed NYC census blocks dataset that you used in tutorial 1 as an example. It is available in the class [data folder](https://github.com/GSAPP-CDP/Smorgasbord/blob/main/src/content/modules/16-intro-webmapping/data/blocks_joined_trees_um.geojson).
 
 To add your chosen polygon dataset to your map you will need to do three things:
 - load the dataset into your map object
@@ -79,7 +79,7 @@ Next we will add a **point** layer.
 
 Save the geojson file of points that you plan to use in the `data` folder you have just created.
 
-The instructions below use the NYC street trees dataset that you used in tutorial 1 as an example. It is available in the class [data folder](https://drive.google.com/file/d/1twTjRQW9kK9IMjAnJ1QgKFtUu4erc8x6/view?usp=sharing).
+The instructions below use the NYC street trees dataset that you used in tutorial 1 as an example. It is available in the class [data folder](https://github.com/GSAPP-CDP/Smorgasbord/blob/main/src/src/content/modules/16-intro-webmapping/162-webmap-part2.md).
 
 We will repeat the steps above that we used for the polygons:
 - load the dataset into your map object
@@ -384,19 +384,7 @@ map.on('click', 'trees', function(e) {
 ```
 ______________________________________________________________________________________________________________
 
-[3DMAP]: images/webmap_1_04.png
-[CONTROLS]: images/webmap_1_05.png
-[GEOLOCATE]: images/webmap_1_06.png
-[COORDINATES]: images/webmap_1_07.png
-[INFO]: images/webmap_1_08.png
-[MARKER]: images/webmap_1_09.png
-[IMAGE]: images/webmap_1_10.png
-[MULTI]: images/webmap_1_11.png
-[TOKEN]: images/webmap_1_2-1.png
 [BLOCKS]: images/webmap_1_12.png
 [TREES]: images/webmap_1_13.png
 [BLOCKDATASTYLE]: images/webmap_1_14.png
 [TREEDATASTYLE]: images/webmap_1_15.png
-[REPO]: images/webmap_1_16.png
-[FOLDER]: images/webmap_1_17.png
-[WEB]: images/webmap_1_18.png

@@ -10,9 +10,23 @@ authors:
 
 # Step 1: Setting up Github and Mapbox
 
-## Setup Prerequisites
+## Intro
 
-To publish the web map you will create in this tutorial we will use [GitHub](https://en.wikipedia.org/wiki/GitHub). This website provides hosting for software development (a website is a kind of software...) version control using [Git](https://en.wikipedia.org/wiki/Git). Git is a system for tracking changes in software development. (You can think of it like a very sophisticated version of Microsoft Word's track changes function, and in fact you can use it in this way for [writing](https://programminghistorian.org/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown).) This tutorial will walk you through how to use Git with GitHub to track changes you make to your web map. However, it does not cover the mechanics of Git or GitHub.
+### Git + Github
+
+To publish the web map you will create in this tutorial we will use [GitHub](https://en.wikipedia.org/wiki/GitHub). This website provides hosting for software development (a website is a kind of software...) version control using [Git](https://en.wikipedia.org/wiki/Git). Git is a system for tracking changes in software development, and was developed by Linus Torvalds, the same person who create of the Linux kernel. You can think of it like a very sophisticated version of Microsoft Word's track changes function, and in fact you can use it in this way for [writing](https://programminghistorian.org/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown). 
+
+Note that Git and Github are not the same thing - Git is an open-source version control system, and Github is a for profit developer platform and software ecosystem built on top of Git, and owned by Microsoft. In this tutorial, your project will be stored and hosted on Github, and we will use Git to interface with Github. Note that for our purposes Github is a free service, but for more data intensive applications a pro membership is often required.
+
+This tutorial will walk you through how to use Git with GitHub to track changes you make to your web map. However, it does not cover the mechanics of Git or GitHub.
+
+### Mapbox
+
+[Mapbox](https://www.mapbox.com/) is a "location data platform" for mobile and web applications. Their service makes it easy to add maps to your projects and applications, and is built on data from Open Street Map. We will primiarly be interfacing with Mapbox via [Mapbox Studio](https://www.mapbox.com/mapbox-studio/) and [Mapbox GL JS](https://www.mapbox.com/mapbox-gl-js/api/).
+
+Similar to Github, while we will be using Mapbox in a completely free category for the purposes of these tutorials, it is a for profit company, and does have paid tiers that are necessary for large applications (like Accuweather and Strava, for example.) For an open-source alternative, I recommend [CesiumJS](https://cesium.com/platform/cesiumjs/), and may be re-making these tutorials for that platform soon.
+
+## Setup Prerequisites
 
 Using GitHub will allow us to easily host our web maps online, however it requires a bit of set up.
 
@@ -60,7 +74,7 @@ At this stage, you should:
         -  `git push`  
 9. view the result on your online github repository (the url should be `github.com/yourusername/webmap_1`) github page (the url should be `yourgithubusername.github.io/webmap_1` but you can also find this in the settings of the repository you created on github). You should see something like this:  
 
-![initial webpage](images/160/webmap_1_21.png)
+![initial webpage][WEB]
 
 ## A web page
 
@@ -259,3 +273,15 @@ ________________________________________________________________________________
 [DIRECTORY]: images/webmap_1_01.png
 [HELLOWORLD]: images/webmap_1_02.png
 [WORLDMAP]: images/webmap_1_03.png
+[3DMAP]: images/webmap_1_04.png
+[CONTROLS]: images/webmap_1_05.png
+[GEOLOCATE]: images/webmap_1_06.png
+[COORDINATES]: images/webmap_1_07.png
+[INFO]: images/webmap_1_08.png
+[MARKER]: images/webmap_1_09.png
+[IMAGE]: images/webmap_1_10.png
+[MULTI]: images/webmap_1_11.png
+[TOKEN]: images/webmap_1_21.png
+[REPO]: images/webmap_1_16.png
+[FOLDER]: images/webmap_1_17.png
+[WEB]: images/webmap_1_18.png

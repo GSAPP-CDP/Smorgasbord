@@ -9,7 +9,7 @@ authors:
 
 # Final Assignment: A Subjective Atlas
 
-![vinex atlas](images/157/studio-joost-grootens-vinex-atlas.png)  
+![vinex atlas](images/158/studio-joost-grootens-vinex-atlas.png)  
 *[Jelte Boeijenga, Jeroen Mensink. Vinex Atlas. Cartography & book design by: Studio Joost Grootens. 2008](https://www.joostgrootens.nl/#atlases). See also [this video](https://vimeo.com/55867581) of the work.*
 
 Design an atlas composed of your responses to each assignment from this module sequence.  
@@ -31,7 +31,7 @@ Assemble your final maps into a single designed PDF booklet (with a designed cov
 
 Please include a thoughtful but (very) concise (1-2 sentence) description of each map.  
 
-![moving border](images/157/studio-folder-moving-border.png)  
+![moving border](images/158/studio-folder-moving-border.png)  
 *[Studio Folder and Andrea Bagnato. A Moving Border: Alpine Cartographies of Climate Change, 2019](http://www.studiofolder.it/a-moving-border-cartographies-of-climate-change)*
 
 ## Precedents  

@@ -169,7 +169,7 @@ street_view_colab("StreetView_test_points.csv","yourAPIkey",0,90,0,50,640)
 
 The last five numbers, define the `heading`, field of view (`fov`), `pitch`, and `radius` that the funciton will query the API in. What is essentially happening here is we simply providing the parameters that will go into a URL that makes up an API query. For a breakdown of what is what, see the image below.
 
-![URL diagram]
+![URL diagram][URL diagram]
 
 You should see the names of the images print in your notebook and images for the latitude and longitude coordinates specified in your csv file will begin to download to the downloads folder of your computer.
 
@@ -184,4 +184,4 @@ Design a layout to present the images on one or more slides (or GIFs)
 ---
 Module by Adam Vosburgh, spring 2024.
 
-[URL diagram]:images/158/street_view_url.png
+[URL diagram]:images/157/street_view_url.png

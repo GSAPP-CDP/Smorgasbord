@@ -9,11 +9,11 @@ authors:
 
 # Making a Scrollytelling map with Mapbox Storytelling
 
-Now that you have learned QGIS, Git, html, css, javascript and some Mapbox libraries, let's make a custom story map using [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js/guides/) and [Scrollarama](https://github.com/russellgoldenberg/scrollama). 
+Now that you have learned a bit of QGIS, git, html, css, javascript and some Mapbox libraries, let's make a custom story map using [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js/guides/). We will be using a Mapbox template for this purpose that is built off of Intersection Observer and [Scrollarama](https://github.com/russellgoldenberg/scrollama). 
 
-This is a format that has become exponentially more common over the past five years or so for telling stories through maps. While a number of newsrooms have used propietary tools built for this purpose for awhile, recently Mapbox implementation has lowered the barrier to entry a lot.  
+This is a format that has become exponentially more common over the past five years or so for telling stories through maps. While a number of newsrooms have used propietary tools built for this purpose for awhile, recently Mapbox implementation has lowered the barrier to entry a lot. Note that this is just one of many ways to build an interactive map - there are many ways to accomplish, and nearly every web mapping provider with have their own method.
 
-The below animation is a fairly simple rendition of what this can look like, but they can easily get pretty immersive. See [this NYT interactive](https://www.nytimes.com/interactive/2020/10/02/opinion/amazon-under-threat.html) for the insanely fancy, and [this WaPo story](https://www.washingtonpost.com/graphics/2020/climate-solutions/wyoming-wildlife-corridor/) for a very clever use of a self-collected dataset to tell a much larger story.
+The below animation is a fairly simple rendition of what this can look like, but they can easily get pretty immersive. See [this NYT interactive](https://www.nytimes.com/interactive/2020/10/02/opinion/amazon-under-threat.html) for the more complex representations of existing datasets, and [this WaPo story](https://www.washingtonpost.com/graphics/2020/climate-solutions/wyoming-wildlife-corridor/) for a very clever use of a self-collected dataset to tell a much larger story.
 
 ![Scrollytelling][SCROLLYTELLING]
 
@@ -23,13 +23,15 @@ The below animation is a fairly simple rendition of what this can look like, but
 
 Because it reduces the complexity of our setup, we'll be adding our data layers through [mapbox studio](https://studio.mapbox.com/). Make an account if you don't have one already, or login if you do. Later on, we will style our data layers again in mapbox studio, and add them to our map using their `layer-id`.
 
-While this method gets our maps up and running quicker, for those with a bit more experience and interested in a more flexible storytelling format, I recommend [this tutorial](https://pointsunknown.nyc/web%20mapping/mapbox/2021/07/20/11A_MapboxStorytelling.html/) from the GSAPP course Points Unknown (I also recommend taking the course!) 
+While this method gets our maps up and running quicker, for those with a bit more experience and interested in a more flexible storytelling format, I
 
 #### File Setup
 
-We're going to build off of the [last tutorial](https://centerforspatialresearch.github.io/methods-in-spatial-research-sp2022/tutorials/webmap-1) to build this, so make sure you have that up and running first, or download the completed repo [here](https://drive.google.com/file/d/1y-UlR1s98gqxChyfWWo1EimCJ0ln4MXF/view?usp=sharing).
 
-We'll start by creating a new repo called `webmap_2_storytelling`, cloning it to your local filesystem, copying over the contents of `webmap_1` into it, and starting a live server. If you have any trouble with this - refer to the beginning of the [previous tutorial](https://centerforspatialresearch.github.io/methods-in-spatial-research-sp2022/tutorials/webmap-1).
+
+We're going to build off of the [previous tutorial](https://smorgasbord.cdp.arch.columbia.edu/modules/16-intro-webmapping/162-webmap-part2/) to build this, so make sure you have that up and running first, or download the completed repo [here](https://github.com/GSAPP-CDP/Smorgasbord/blob/main/src/content/modules/16-intro-webmapping/data/webmap_1.rar).
+
+We'll start by creating a new repo called `webmap_2_storytelling`, cloning it to your local filesystem, copying over the contents of `webmap_1` into it, and starting a live server. If you have any trouble with this - refer to the beginning of the [first tutorial](https://smorgasbord.cdp.arch.columbia.edu/modules/16-intro-webmapping/162-webmap-part1/).
 
 By now, you should have the same file contents and result as you did from the last tutorial
 
@@ -37,7 +39,7 @@ By now, you should have the same file contents and result as you did from the la
 
 To start, we will edit our `index.html` to include the correct setup for mapbox, and set up our map in a `config.js` instead of the `map.js` we were using earlier. We will be taking this code from the official [Mapbox Storytelling repo](https://github.com/mapbox/storytelling).
 
-It is important to note that if some of this is confusing, **that is fine.** using something copy pasted from the internet without fully understanding what it does is totally par for the course, especially when it comes to niche javascript libraries. 
+It is important to note that if some of this is confusing, **that is fine.** using something copy pasted from the internet without fully understanding what it does is totally par for the course. I do recommending reviewing the code once you have it working to get a sense of how everything comes together however; that will make swapping out the template content for your content much more straightforward.
 
 #### Editing index.html
 
@@ -706,7 +708,7 @@ I'll note a few things going on here:
 - All of the work is being done by `onChapterEnter`, and setting the opactiy for that layer. I personally only use `onChapterExit` if I am switching a dataset out for every chapter. My approach is to define the opacity for a layer everytime that it changes - layers won't change unless you tell them to. 
 - One thing you need to think about is what happens when your reader scrolls back up too - you'll want to plan for that so they don't break the site.
 - A really useful tool for setting up the 'camera' is the [Mapbox Location Helper](https://demos.mapbox.com/location-helper/).
-- To get the images I added to work, you'll need to add them to your repo. I placed them in a folder called 'img'. Here is the [download link](https://drive.google.com/drive/folders/1y5rgHK8I6ZIICwJhCx4Ei7qADSf9Msdx?usp=sharing).
+- To get the images I added to work, you'll need to add them to your repo. I placed them in a folder called 'img'. Here is the [download link](https://github.com/GSAPP-CDP/Smorgasbord/blob/main/src/content/modules/16-intro-webmapping/data/img.rar).
 - While you can add legends directly onto the map in html, the chapter image field is a really useful place to put legends.
 
 ![STORYMAP][STORYMAP]
@@ -902,7 +904,7 @@ ________________________________________________________________________________
 
 
 
-[SCROLLYTELLING]: images/webmap_2_00.png
+[SCROLLYTELLING]: images/webmap_2_00.gif
 [FILESETUP]: images/webmap_2_01.png
 [MAPBOXTEMPLATE]: images/webmap_2_02.png
 [MBSTUDIOSTYLE]: images/webmap_2_03.png
