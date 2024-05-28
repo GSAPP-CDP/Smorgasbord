@@ -5,6 +5,7 @@
     <div class="course">
       <SequenceLinks path="14-geospatial-concepts" />
       <SequenceLinks path="15-intro-qgis" />
+      <SequenceLinks path="16-intro-webmapping" />
       <SequenceLinks path="19-data_visualization" />
     </div>
 
@@ -31,8 +32,7 @@
     <div class="coursetitle">Programming for Design Practices: C - Web and Interactivity</div>
     <div class="course">
       <SequenceLinks path="11-interactive-web" />
-      <SequenceLinks path="16-ambient-computing-network-architecture" />
-      <SequenceLinks path="17-ambient-computing-interactivity" />
+      <SequenceLinks path="17-ambient-computing-network-architecture" />
       <SequenceLinks path="18-behavioral-modeling-intro" />
     </div> 
 

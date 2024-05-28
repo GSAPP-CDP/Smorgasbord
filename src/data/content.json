@@ -3,13 +3,16 @@
     "0-template/Template markdown file": {
       "double_links": []
     },
-    "10-spatial-python/101-data-manipulation": {
+    "10-spatial-python/102-geospatial-data": {
       "double_links": []
     },
     "10-spatial-python/103-spatial-analysis-point-pattern": {
       "double_links": []
     },
-    "10-spatial-python/102-geospatial-data": {
+    "10-spatial-python/101-data-manipulation": {
+      "double_links": []
+    },
+    "10-spatial-python/105-spatial-analysis-clustering": {
       "double_links": []
     },
     "10-spatial-python/104-spatial-analysis-correlation": {
@@ -18,19 +21,16 @@
     "10-spatial-python/index": {
       "double_links": []
     },
-    "11-interactive-web/111-git-and-github": {
-      "double_links": []
-    },
-    "10-spatial-python/105-spatial-analysis-clustering": {
-      "double_links": []
-    },
     "11-interactive-web/110-getting-started": {
+      "double_links": []
+    },
+    "11-interactive-web/112-html-and-css": {
       "double_links": []
     },
     "11-interactive-web/113-data-and-apis": {
       "double_links": []
     },
-    "11-interactive-web/112-html-and-css": {
+    "11-interactive-web/111-git-and-github": {
       "double_links": []
     },
     "11-interactive-web/114-events-and-uis": {
@@ -42,118 +42,127 @@
     "11-interactive-web/index": {
       "double_links": []
     },
-    "12-rhino-intro/12-3_rhino-3d": {
-      "double_links": []
-    },
-    "12-rhino-intro/12-1_rhino-interface": {
-      "double_links": []
-    },
     "12-rhino-intro/12-2_rhino-2d": {
       "double_links": []
     },
-    "12-rhino-intro/12-4_rhino-nurbs": {
+    "12-rhino-intro/12-3_rhino-3d": {
       "double_links": []
     },
     "12-rhino-intro/index": {
       "double_links": []
     },
-    "13-arch-drawing/13-2_projection": {
-      "double_links": []
-    },
     "13-arch-drawing/13-1_orthographic-drawing": {
-      "double_links": []
-    },
-    "13-arch-drawing/index": {
       "double_links": []
     },
     "13-arch-drawing/13-3_rendering": {
       "double_links": []
     },
+    "12-rhino-intro/12-4_rhino-nurbs": {
+      "double_links": []
+    },
     "13-arch-drawing/13-4_compositing": {
       "double_links": []
     },
-    "14-geospatial-concepts/142-spatial-data": {
-      "double_links": []
-    },
-    "14-geospatial-concepts/141-what-is-gis": {
+    "13-arch-drawing/13-2_projection": {
       "double_links": []
     },
     "14-geospatial-concepts/index": {
       "double_links": []
     },
-    "15-intro-qgis/153-archives": {
+    "14-geospatial-concepts/141-what-is-gis": {
       "double_links": []
     },
-    "15-intro-qgis/151-mapping-where": {
-      "double_links": []
-    },
-    "15-intro-qgis/156-aerial-imagery": {
+    "14-geospatial-concepts/142-spatial-data": {
       "double_links": []
     },
     "15-intro-qgis/152-print-layout": {
       "double_links": []
     },
-    "15-intro-qgis/157-atlas": {
-      "double_links": []
-    },
-    "15-intro-qgis/index": {
+    "15-intro-qgis/151-mapping-where": {
       "double_links": []
     },
     "14-geospatial-concepts/143-coordinates-projections": {
       "double_links": []
     },
-    "15-intro-qgis/154-observations": {
-      "double_links": []
-    },
-    "16-ambient-computing-network-architecture/172-Webhooks-Connecting-IFTTT-and-Processing": {
-      "double_links": []
-    },
-    "16-ambient-computing-network-architecture/161-dynamic-environments": {
+    "12-rhino-intro/12-1_rhino-interface": {
       "double_links": []
     },
     "15-intro-qgis/155-satellites": {
       "double_links": []
     },
-    "16-ambient-computing-network-architecture/173-sounds-speech-and-macros": {
+    "15-intro-qgis/154-observations": {
       "double_links": []
     },
-    "16-ambient-computing-network-architecture/162-network-architecture": {
+    "15-intro-qgis/153-archives": {
       "double_links": []
     },
-    "16-ambient-computing-network-architecture/index": {
+    "13-arch-drawing/index": {
       "double_links": []
     },
-    "16-ambient-computing-network-architecture/171-Intro-to-Processing-Lighting": {
+    "15-intro-qgis/158-atlas": {
       "double_links": []
     },
-    "18-behavioral-modeling-intro/181-Unity-and-Agent-Based-Models": {
+    "16-intro-webmapping/index": {
       "double_links": []
     },
-    "16-ambient-computing-network-architecture/163-low-and-high-programming": {
+    "15-intro-qgis/156-aerial-imagery": {
       "double_links": []
     },
-    "16-ambient-computing-network-architecture/175-Computer-Vision": {
+    "15-intro-qgis/index": {
       "double_links": []
     },
-    "18-behavioral-modeling-intro/183-Agent-Based-Populations-and-Behavior-Bricks": {
+    "16-intro-webmapping/163-storytelling": {
       "double_links": []
     },
-    "16-ambient-computing-network-architecture/174-Markers-and-Tracking": {
+    "16-intro-webmapping/162-webmap-part2": {
+      "double_links": []
+    },
+    "15-intro-qgis/157-street-view": {
+      "double_links": []
+    },
+    "16-intro-webmapping/161-webmap-part1": {
+      "double_links": []
+    },
+    "17-ambient-computing-network-architecture/171-Intro-to-P5": {
+      "double_links": []
+    },
+    "17-ambient-computing-network-architecture/index": {
+      "double_links": []
+    },
+    "17-ambient-computing-network-architecture/172-Webhooks-Connecting-IFTTT-and-P5": {
+      "double_links": []
+    },
+    "17-ambient-computing-network-architecture/175-ML5-&-Computer-Vision": {
+      "double_links": []
+    },
+    "17-ambient-computing-network-architecture/173-sounds-speech-and-macros": {
       "double_links": []
     },
     "18-behavioral-modeling-intro/182-Intro-To-Unity": {
       "double_links": []
     },
+    "18-behavioral-modeling-intro/index": {
+      "double_links": []
+    },
+    "18-behavioral-modeling-intro/181-Unity-and-Agent-Based-Models": {
+      "double_links": []
+    },
     "18-behavioral-modeling-intro/184-Mapbox-SDK-and-Routing": {
       "double_links": []
     },
-    "18-behavioral-modeling-intro/index": {
+    "19-data_visualization/index": {
       "double_links": []
     },
     "19-data_visualization/Module1WorkflowsPartASetupCodeEnvironment": {
       "double_links": []
     },
-    "19-data_visualization/index": {
+    "19-data_visualization/Module2Introductiontod3anscombe": {
+      "double_links": []
+    },
+    "18-behavioral-modeling-intro/183-Agent-Based-Populations-and-Behavior-Bricks": {
+      "double_links": []
+    },
+    "19-data_visualization/Module4Workingwithexternaldata": {
       "double_links": []
     },
     "19-data_visualization/Module3Tourofthebasiccharts2Line": {
@@ -162,16 +171,10 @@
     "19-data_visualization/Module3Tourofthebasiccharts3Pie": {
       "double_links": []
     },
-    "19-data_visualization/Module2Introductiontod3anscombe": {
+    "19-data_visualization/Module5Buildinginteractivity": {
       "double_links": []
     },
     "21-integrated-computational-simulation/212-inflatable-structure": {
-      "double_links": []
-    },
-    "19-data_visualization/Module3Tourofthebasiccharts1Bar": {
-      "double_links": []
-    },
-    "19-data_visualization/Module4Workingwithexternaldata": {
       "double_links": []
     },
     "21-integrated-computational-simulation/211-tensile-membrane": {
@@ -183,31 +186,34 @@
     "21-integrated-computational-simulation/213-acoustic": {
       "double_links": []
     },
-    "23-parametric-visualization-with-grasshopper/index": {
+    "23-parametric-visualization-with-grasshopper/23-3_media": {
       "double_links": []
     },
     "23-parametric-visualization-with-grasshopper/23-1_tabular-data": {
       "double_links": []
     },
-    "19-data_visualization/Module5Buildinginteractivity": {
-      "double_links": []
-    },
-    "23-parametric-visualization-with-grasshopper/23-3_media": {
+    "19-data_visualization/Module3Tourofthebasiccharts1Bar": {
       "double_links": []
     },
     "4-grasshopper-intro/41-getting-started-with-grasshopper": {
       "double_links": []
     },
-    "4-grasshopper-intro/42-exercise-hello-grasshopper": {
+    "23-parametric-visualization-with-grasshopper/index": {
       "double_links": []
     },
     "4-grasshopper-intro/410-Generating-Exploring-Spatial-Data": {
       "double_links": []
     },
+    "4-grasshopper-intro/43-working-in-grasshopper": {
+      "double_links": []
+    },
     "4-grasshopper-intro/44-exercise-parametric-tower-part-1": {
       "double_links": []
     },
-    "4-grasshopper-intro/43-working-in-grasshopper": {
+    "4-grasshopper-intro/42-exercise-hello-grasshopper": {
+      "double_links": []
+    },
+    "4-grasshopper-intro/46-exercise-parametric-tower-part-2": {
       "double_links": []
     },
     "4-grasshopper-intro/45-working-with-data": {
@@ -216,13 +222,22 @@
     "4-grasshopper-intro/47-documentation-best-practices": {
       "double_links": []
     },
-    "4-grasshopper-intro/46-exercise-parametric-tower-part-2": {
-      "double_links": []
-    },
     "4-grasshopper-intro/48-Deriving-Spatial-Data": {
       "double_links": []
     },
     "4-grasshopper-intro/49-Procedural-Rules": {
+      "double_links": []
+    },
+    "5-computational-design-modeling-in-grasshopper/5-1-Comp-Design-Modeling": {
+      "double_links": []
+    },
+    "4-grasshopper-intro/index": {
+      "double_links": []
+    },
+    "5-computational-design-modeling-in-grasshopper/5-6_Troubleshooting": {
+      "double_links": []
+    },
+    "5-computational-design-modeling-in-grasshopper/5-5_Buildings-Density": {
       "double_links": []
     },
     "5-computational-design-modeling-in-grasshopper/5-2-Subdivide-Geometry": {
@@ -234,55 +249,43 @@
     "5-computational-design-modeling-in-grasshopper/5-4-Street-Grid": {
       "double_links": []
     },
-    "4-grasshopper-intro/index": {
+    "5-computational-design-modeling-in-grasshopper/index": {
       "double_links": []
     },
     "5-computational-design-modeling-in-grasshopper/5-7_Design-Space": {
       "double_links": []
     },
-    "5-computational-design-modeling-in-grasshopper/5-6_Troubleshooting": {
-      "double_links": []
-    },
-    "5-computational-design-modeling-in-grasshopper/5-5_Buildings-Density": {
-      "double_links": []
-    },
-    "5-computational-design-modeling-in-grasshopper/index": {
-      "double_links": []
-    },
-    "5-computational-design-modeling-in-grasshopper/5-1-Comp-Design-Modeling": {
-      "double_links": []
-    },
     "6-intro-to-python/index": {
-      "double_links": []
-    },
-    "6-intro-to-python/62-using-python-in-grasshopper": {
       "double_links": []
     },
     "6-intro-to-python/61-getting-started-with-Python": {
       "double_links": []
     },
-    "7-fundamentals-of-python/71-variables-lists-and-dictionaries": {
+    "6-intro-to-python/62-using-python-in-grasshopper": {
       "double_links": []
     },
     "7-fundamentals-of-python/72-conditionals-and-loops": {
       "double_links": []
     },
-    "7-fundamentals-of-python/74-python-libraries": {
-      "double_links": []
-    },
-    "8-intro-to-python-in-rhino/index": {
-      "double_links": []
-    },
-    "8-intro-to-python-in-rhino/82-working-with-geometry-in-python": {
+    "7-fundamentals-of-python/71-variables-lists-and-dictionaries": {
       "double_links": []
     },
     "7-fundamentals-of-python/73-functions-and-classes": {
       "double_links": []
     },
+    "8-intro-to-python-in-rhino/index": {
+      "double_links": []
+    },
     "8-intro-to-python-in-rhino/81-accessing-the-rhino-apis-in-python": {
       "double_links": []
     },
+    "7-fundamentals-of-python/74-python-libraries": {
+      "double_links": []
+    },
     "7-fundamentals-of-python/index": {
+      "double_links": []
+    },
+    "8-intro-to-python-in-rhino/82-working-with-geometry-in-python": {
       "double_links": []
     }
   },
@@ -1472,8 +1475,8 @@
             "dir": "/modules/5-computational-design-modeling-in-grasshopper",
             "path": "/modules/5-computational-design-modeling-in-grasshopper/5-4-Street-Grid",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:18.002Z",
-            "updatedAt": "2022-10-06T21:21:18.002Z"
+            "createdAt": "2024-05-14T19:05:40.337Z",
+            "updatedAt": "2024-05-14T19:05:40.337Z"
           }
         },
         {
@@ -1682,8 +1685,8 @@
             "dir": "/modules/5-computational-design-modeling-in-grasshopper",
             "path": "/modules/5-computational-design-modeling-in-grasshopper/5-7_Design-Space",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:18.002Z",
-            "updatedAt": "2022-10-06T21:21:18.003Z"
+            "createdAt": "2024-05-14T19:05:40.337Z",
+            "updatedAt": "2024-05-14T19:05:40.337Z"
           }
         }
       ]
@@ -4317,8 +4320,8 @@
         "dir": "/modules/15-intro-qgis",
         "path": "/modules/15-intro-qgis/index",
         "extension": ".md",
-        "createdAt": "2022-10-06T21:21:16.348Z",
-        "updatedAt": "2022-10-06T21:21:16.348Z"
+        "createdAt": "2024-05-28T16:53:19.760Z",
+        "updatedAt": "2024-05-28T16:53:19.760Z"
       },
       "ordinal": 15,
       "path": "15-intro-qgis",
@@ -4360,8 +4363,8 @@
             "dir": "/modules/15-intro-qgis",
             "path": "/modules/15-intro-qgis/index",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:16.348Z",
-            "updatedAt": "2022-10-06T21:21:16.348Z"
+            "createdAt": "2024-05-28T16:53:19.760Z",
+            "updatedAt": "2024-05-28T16:53:19.760Z"
           }
         },
         {
@@ -4760,11 +4763,81 @@
           }
         },
         {
-          "file": "157-atlas.md",
+          "file": "157-street-view.md",
           "ordinal": 157,
           "contentdata": {
-            "slug": "atlas",
+            "slug": "street-view",
             "moduleid": 157,
+            "title": "Making Data from Street View",
+            "published": true,
+            "authors": [
+              "Adam Vosburgh"
+            ],
+            "toc": [
+              {
+                "id": "street-view-static-maps-api",
+                "depth": 2,
+                "text": "Street View Static Maps API"
+              },
+              {
+                "id": "instructions",
+                "depth": 2,
+                "text": "Instructions"
+              },
+              {
+                "id": "prerequisites",
+                "depth": 3,
+                "text": "Prerequisites"
+              },
+              {
+                "id": "step-0-google-colab",
+                "depth": 3,
+                "text": "Step 0: Google colab"
+              },
+              {
+                "id": "step-1---formatting-a-csv-file-with-latitude-and-longitude-coordinates",
+                "depth": 3,
+                "text": "Step 1 - formatting a csv file with latitude and longitude coordinates"
+              },
+              {
+                "id": "step-2---setting-up-colab-and-uploading-the-csv-file",
+                "depth": 3,
+                "text": "Step 2 - Setting up Colab and uploading the csv file"
+              },
+              {
+                "id": "step-25---editing-street-tree-dataset",
+                "depth": 3,
+                "text": "Step 2.5 - Editing Street Tree dataset"
+              },
+              {
+                "id": "step-3---define-and-run-python-function-to-query-api",
+                "depth": 3,
+                "text": "Step 3 - Define and run Python function to query API"
+              },
+              {
+                "id": "step-4---run-the-function-to-download-your-images",
+                "depth": 3,
+                "text": "Step 4 - Run the function to download your images"
+              },
+              {
+                "id": "challenge",
+                "depth": 2,
+                "text": "Challenge"
+              }
+            ],
+            "dir": "/modules/15-intro-qgis",
+            "path": "/modules/15-intro-qgis/157-street-view",
+            "extension": ".md",
+            "createdAt": "2024-05-28T16:53:19.760Z",
+            "updatedAt": "2024-05-28T16:53:19.760Z"
+          }
+        },
+        {
+          "file": "158-atlas.md",
+          "ordinal": 158,
+          "contentdata": {
+            "slug": "atlas",
+            "moduleid": 158,
             "title": "A Subjective Atlas",
             "published": true,
             "authors": [
@@ -4808,10 +4881,242 @@
               }
             ],
             "dir": "/modules/15-intro-qgis",
-            "path": "/modules/15-intro-qgis/157-atlas",
+            "path": "/modules/15-intro-qgis/158-atlas",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:15.586Z",
-            "updatedAt": "2022-10-06T21:21:15.586Z"
+            "createdAt": "2024-05-28T16:53:19.760Z",
+            "updatedAt": "2024-05-28T16:53:19.760Z"
+          }
+        }
+      ]
+    },
+    {
+      "contentdata": {
+        "slug": "web-mapping",
+        "moduleid": 160,
+        "title": "Introduction to Web Mapping with Mapbox",
+        "published": true,
+        "authors": [
+          "Adam Vosburgh",
+          "Dare Brawley"
+        ],
+        "toc": [
+          {
+            "id": "sequence-summary",
+            "depth": 2,
+            "text": "Sequence Summary"
+          },
+          {
+            "id": "modules",
+            "depth": 2,
+            "text": "Modules"
+          },
+          {
+            "id": "modules-overviewsequence",
+            "depth": 2,
+            "text": "Modules overview/sequence"
+          }
+        ],
+        "dir": "/modules/16-intro-webmapping",
+        "path": "/modules/16-intro-webmapping/index",
+        "extension": ".md",
+        "createdAt": "2024-05-28T16:53:19.820Z",
+        "updatedAt": "2024-05-28T16:53:19.820Z"
+      },
+      "ordinal": 16,
+      "path": "16-intro-webmapping",
+      "slug": "intro-webmapping",
+      "modules": [
+        {
+          "file": "index.md",
+          "ordinal": 0,
+          "contentdata": {
+            "slug": "web-mapping",
+            "moduleid": 160,
+            "title": "Introduction to Web Mapping with Mapbox",
+            "published": true,
+            "authors": [
+              "Adam Vosburgh",
+              "Dare Brawley"
+            ],
+            "toc": [
+              {
+                "id": "sequence-summary",
+                "depth": 2,
+                "text": "Sequence Summary"
+              },
+              {
+                "id": "modules",
+                "depth": 2,
+                "text": "Modules"
+              },
+              {
+                "id": "modules-overviewsequence",
+                "depth": 2,
+                "text": "Modules overview/sequence"
+              }
+            ],
+            "dir": "/modules/16-intro-webmapping",
+            "path": "/modules/16-intro-webmapping/index",
+            "extension": ".md",
+            "createdAt": "2024-05-28T16:53:19.820Z",
+            "updatedAt": "2024-05-28T16:53:19.820Z"
+          }
+        },
+        {
+          "file": "161-webmap-part1.md",
+          "ordinal": 161,
+          "contentdata": {
+            "slug": "webmap-part1",
+            "moduleid": 161,
+            "title": "Webmaps Part 1 - Setting up Github and Mapbox",
+            "published": true,
+            "authors": [
+              "Dare Brawley",
+              "Adam Vosburgh"
+            ],
+            "toc": [
+              {
+                "id": "intro",
+                "depth": 2,
+                "text": "Intro"
+              },
+              {
+                "id": "git--github",
+                "depth": 3,
+                "text": "Git + Github"
+              },
+              {
+                "id": "mapbox",
+                "depth": 3,
+                "text": "Mapbox"
+              },
+              {
+                "id": "setup-prerequisites",
+                "depth": 2,
+                "text": "Setup Prerequisites"
+              },
+              {
+                "id": "a-web-page",
+                "depth": 2,
+                "text": "A web page"
+              },
+              {
+                "id": "basic-mapbox-gl-javascript",
+                "depth": 2,
+                "text": "Basic Mapbox GL JavaScript"
+              }
+            ],
+            "dir": "/modules/16-intro-webmapping",
+            "path": "/modules/16-intro-webmapping/161-webmap-part1",
+            "extension": ".md",
+            "createdAt": "2024-05-28T16:53:19.760Z",
+            "updatedAt": "2024-05-28T18:09:21.561Z"
+          }
+        },
+        {
+          "file": "162-webmap-part2.md",
+          "ordinal": 162,
+          "contentdata": {
+            "slug": "webmap-part2",
+            "moduleid": 162,
+            "title": "Webmaps Part 2 - Making a Basic Webmap",
+            "published": true,
+            "authors": [
+              "Dare Brawley",
+              "Adam Vosburgh"
+            ],
+            "toc": [
+              {
+                "id": "adding-geojson-data",
+                "depth": 2,
+                "text": "Adding geojson data:"
+              },
+              {
+                "id": "data---driven-styling",
+                "depth": 2,
+                "text": "Data - Driven Styling"
+              },
+              {
+                "id": "pushing-to-github",
+                "depth": 2,
+                "text": "Pushing to Github"
+              },
+              {
+                "id": "adding-interactivity",
+                "depth": 2,
+                "text": "Adding Interactivity"
+              },
+              {
+                "id": "about-events",
+                "depth": 2,
+                "text": "About Events"
+              },
+              {
+                "id": "making-popups-on-click-events-with-mapbox-gl",
+                "depth": 2,
+                "text": "Making Popups on Click Events with Mapbox GL"
+              },
+              {
+                "id": "other-mapbox-gl-examples",
+                "depth": 2,
+                "text": "Other Mapbox GL Examples"
+              },
+              {
+                "id": "using-api-documentation",
+                "depth": 2,
+                "text": "Using API Documentation"
+              },
+              {
+                "id": "full-code",
+                "depth": 2,
+                "text": "Full Code"
+              }
+            ],
+            "dir": "/modules/16-intro-webmapping",
+            "path": "/modules/16-intro-webmapping/162-webmap-part2",
+            "extension": ".md",
+            "createdAt": "2024-05-28T16:53:19.761Z",
+            "updatedAt": "2024-05-28T17:45:35.827Z"
+          }
+        },
+        {
+          "file": "163-storytelling.md",
+          "ordinal": 163,
+          "contentdata": {
+            "slug": "webmap-scrolly",
+            "moduleid": 163,
+            "title": "Webmaps - Scrollytelling Map",
+            "published": true,
+            "authors": [
+              "Adam Vosburgh"
+            ],
+            "toc": [
+              {
+                "id": "setup",
+                "depth": 2,
+                "text": "Setup"
+              },
+              {
+                "id": "adding-your-content",
+                "depth": 2,
+                "text": "Adding your Content"
+              },
+              {
+                "id": "making-a-storymap",
+                "depth": 2,
+                "text": "Making a storymap"
+              },
+              {
+                "id": "the-end",
+                "depth": 2,
+                "text": "The End"
+              }
+            ],
+            "dir": "/modules/16-intro-webmapping",
+            "path": "/modules/16-intro-webmapping/163-storytelling",
+            "extension": ".md",
+            "createdAt": "2024-05-28T16:53:19.761Z",
+            "updatedAt": "2024-05-28T17:25:38.182Z"
           }
         }
       ]
@@ -4819,7 +5124,7 @@
     {
       "contentdata": {
         "slug": "ambient-computing-network-architecture",
-        "moduleid": 160,
+        "moduleid": 170,
         "title": "Ambient Computing - Network Architecture",
         "published": true,
         "authors": [
@@ -4857,14 +5162,14 @@
             "text": "Modules"
           }
         ],
-        "dir": "/modules/16-ambient-computing-network-architecture",
-        "path": "/modules/16-ambient-computing-network-architecture/index",
+        "dir": "/modules/17-ambient-computing-network-architecture",
+        "path": "/modules/17-ambient-computing-network-architecture/index",
         "extension": ".md",
-        "createdAt": "2022-10-06T21:21:16.903Z",
-        "updatedAt": "2022-10-06T21:21:16.903Z"
+        "createdAt": "2024-05-28T16:53:20.219Z",
+        "updatedAt": "2024-05-28T16:53:20.219Z"
       },
-      "ordinal": 16,
-      "path": "16-ambient-computing-network-architecture",
+      "ordinal": 17,
+      "path": "17-ambient-computing-network-architecture",
       "slug": "ambient-computing-network-architecture",
       "modules": [
         {
@@ -4872,7 +5177,7 @@
           "ordinal": 0,
           "contentdata": {
             "slug": "ambient-computing-network-architecture",
-            "moduleid": 160,
+            "moduleid": 170,
             "title": "Ambient Computing - Network Architecture",
             "published": true,
             "authors": [
@@ -4910,160 +5215,20 @@
                 "text": "Modules"
               }
             ],
-            "dir": "/modules/16-ambient-computing-network-architecture",
-            "path": "/modules/16-ambient-computing-network-architecture/index",
+            "dir": "/modules/17-ambient-computing-network-architecture",
+            "path": "/modules/17-ambient-computing-network-architecture/index",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:16.903Z",
-            "updatedAt": "2022-10-06T21:21:16.903Z"
+            "createdAt": "2024-05-28T16:53:20.219Z",
+            "updatedAt": "2024-05-28T16:53:20.219Z"
           }
         },
         {
-          "file": "161-dynamic-environments.md",
-          "ordinal": 161,
-          "contentdata": {
-            "slug": "ambient-environments",
-            "moduleid": 161,
-            "title": "Ambient Environments",
-            "published": true,
-            "authors": [
-              "Violet Whitney"
-            ],
-            "toc": [
-              {
-                "id": "module-summary",
-                "depth": 2,
-                "text": "Module Summary"
-              },
-              {
-                "id": "diagramming-for-ambient-environments",
-                "depth": 2,
-                "text": "Diagramming for Ambient Environments"
-              },
-              {
-                "id": "challenge",
-                "depth": 3,
-                "text": "Challenge"
-              },
-              {
-                "id": "the-new-affordance-of-physical-places-ambient-environments",
-                "depth": 2,
-                "text": "The New Affordance of Physical Places: Ambient Environments"
-              },
-              {
-                "id": "affordances-in-physical-space",
-                "depth": 3,
-                "text": "Affordances In Physical Space"
-              },
-              {
-                "id": "physical--digital--new-affordance",
-                "depth": 3,
-                "text": "Physical + Digital = New Affordance"
-              },
-              {
-                "id": "walls-are-a-nice-invention-but-if-there-were-no-holes-in-them-there-would-be-no-way-to-get-in-or-out-they-would-be-mausoleums-or-tombs-the-problem-is-that-if-you-make-holes-in-the-walls-anything-and-anyone-can-get-in-and-out-bears-visitors-dust-rats-noise-so-architects-invented-this-hybrid-a-hole-wall-often-called-a-door-which-although-common-enough-has-always-struck-me-as-a-miracle-technology",
-                "depth": 3,
-                "text": "\"Walls are a nice invention, but if there were no holes in them, there would be no way to get in or out; they would be mausoleums or tombs. The problem is that if you make holes in the walls, anything and anyone can get in and out (bears, visitors, dust, rats, noise). So architects invented this hybrid: a hole-wall, often called a door, which, although common enough, has always struck me as a miracle technology.\""
-              },
-              {
-                "id": "challenge-1",
-                "depth": 3,
-                "text": "Challenge"
-              }
-            ],
-            "dir": "/modules/16-ambient-computing-network-architecture",
-            "path": "/modules/16-ambient-computing-network-architecture/161-dynamic-environments",
-            "extension": ".md",
-            "createdAt": "2022-10-06T21:21:16.348Z",
-            "updatedAt": "2022-10-06T21:21:16.349Z"
-          }
-        },
-        {
-          "file": "162-network-architecture.md",
-          "ordinal": 162,
-          "contentdata": {
-            "slug": "network-architecture",
-            "moduleid": 162,
-            "title": "Network Architecture",
-            "published": true,
-            "authors": [
-              "Violet Whitney"
-            ],
-            "toc": [
-              {
-                "id": "module-summary",
-                "depth": 2,
-                "text": "Module Summary"
-              },
-              {
-                "id": "0-system-architecture",
-                "depth": 3,
-                "text": "0. System Architecture"
-              },
-              {
-                "id": "1-cybernetic-system",
-                "depth": 3,
-                "text": "1. Cybernetic System"
-              },
-              {
-                "id": "2-how-ifttt-works",
-                "depth": 3,
-                "text": "2. How IFTTT Works"
-              },
-              {
-                "id": "3-how-ifttt-maps-to-a-cybernetic-feedback-loop",
-                "depth": 3,
-                "text": "3. How IFTTT Maps to a Cybernetic Feedback Loop"
-              },
-              {
-                "id": "4-create-your-own-ifttt-recipe",
-                "depth": 3,
-                "text": "4. Create Your Own IFTTT Recipe"
-              }
-            ],
-            "dir": "/modules/16-ambient-computing-network-architecture",
-            "path": "/modules/16-ambient-computing-network-architecture/162-network-architecture",
-            "extension": ".md",
-            "createdAt": "2022-10-06T21:21:16.349Z",
-            "updatedAt": "2022-10-06T21:21:16.349Z"
-          }
-        },
-        {
-          "file": "163-low-and-high-programming.md",
-          "ordinal": 163,
-          "contentdata": {
-            "slug": "low-and-high-programming",
-            "moduleid": 163,
-            "title": "Low and High Programming",
-            "published": true,
-            "authors": [
-              "Violet Whitney"
-            ],
-            "toc": [
-              {
-                "id": "module-summary",
-                "depth": 2,
-                "text": "Module Summary"
-              },
-              {
-                "id": "how-the-cloud-and-microservices-allow-for-high-level-programming",
-                "depth": 3,
-                "text": "How the Cloud and Microservices Allow for High Level Programming"
-              }
-            ],
-            "dir": "/modules/16-ambient-computing-network-architecture",
-            "path": "/modules/16-ambient-computing-network-architecture/163-low-and-high-programming",
-            "extension": ".md",
-            "createdAt": "2022-10-06T21:21:16.349Z",
-            "updatedAt": "2022-10-06T21:21:16.349Z"
-          }
-        },
-        {
-          "file": "171-Intro-to-Processing-Lighting.md",
+          "file": "171-Intro-to-P5.md",
           "ordinal": 171,
           "contentdata": {
-            "slug": "intro-to-processing",
+            "slug": "intro-to-P5",
             "moduleid": 171,
-            "title": "Intro to Processing",
+            "title": "P5.js Intro",
             "published": true,
             "authors": [
               "Violet Whitney"
@@ -5075,9 +5240,9 @@
                 "text": "Module Summary"
               },
               {
-                "id": "what-is-processing-and-why-use-it",
+                "id": "what-is-p5js-and-why-use-it",
                 "depth": 2,
-                "text": "What is Processing and why use it?"
+                "text": "What is p5.js and why use it?"
               },
               {
                 "id": "tutorial",
@@ -5090,20 +5255,20 @@
                 "text": "Example Student Projects"
               }
             ],
-            "dir": "/modules/16-ambient-computing-network-architecture",
-            "path": "/modules/16-ambient-computing-network-architecture/171-Intro-to-Processing-Lighting",
+            "dir": "/modules/17-ambient-computing-network-architecture",
+            "path": "/modules/17-ambient-computing-network-architecture/171-Intro-to-P5",
             "extension": ".md",
-            "createdAt": "2024-03-22T19:46:38.136Z",
-            "updatedAt": "2024-03-22T19:46:38.136Z"
+            "createdAt": "2024-05-28T16:53:19.820Z",
+            "updatedAt": "2024-05-28T16:53:19.820Z"
           }
         },
         {
-          "file": "172-Webhooks-Connecting-IFTTT-and-Processing.md",
+          "file": "172-Webhooks-Connecting-IFTTT-and-P5.md",
           "ordinal": 172,
           "contentdata": {
-            "slug": "webhooks-connecting-ifttt-and-processing",
+            "slug": "webhooks-connecting-ifttt-and-P5",
             "moduleid": 172,
-            "title": "Webhooks - Connecting IFTTT and Processing",
+            "title": "Webhooks - Connecting IFTTT and P5.js",
             "published": true,
             "authors": [
               "Violet Whitney"
@@ -5140,9 +5305,9 @@
                 "text": "Creating An API Key"
               },
               {
-                "id": "connecting-processing-to-your-webhook-api",
+                "id": "connecting-p5-to-your-webhook-api",
                 "depth": 3,
-                "text": "Connecting Processing to your Webhook API"
+                "text": "Connecting P5 to your Webhook API"
               },
               {
                 "id": "challenge",
@@ -5150,21 +5315,16 @@
                 "text": "Challenge"
               },
               {
-                "id": "example-student-project",
-                "depth": 3,
-                "text": "Example Student Project"
-              },
-              {
                 "id": "resources",
                 "depth": 3,
                 "text": "Resources"
               }
             ],
-            "dir": "/modules/16-ambient-computing-network-architecture",
-            "path": "/modules/16-ambient-computing-network-architecture/172-Webhooks-Connecting-IFTTT-and-Processing",
+            "dir": "/modules/17-ambient-computing-network-architecture",
+            "path": "/modules/17-ambient-computing-network-architecture/172-Webhooks-Connecting-IFTTT-and-P5",
             "extension": ".md",
-            "createdAt": "2024-03-22T19:46:38.136Z",
-            "updatedAt": "2024-03-22T19:46:38.137Z"
+            "createdAt": "2024-05-28T16:53:19.820Z",
+            "updatedAt": "2024-05-28T16:53:19.820Z"
           }
         },
         {
@@ -5205,28 +5365,53 @@
                 "text": "Ethical considerations for smart home systems"
               },
               {
-                "id": "inspirational-projects",
-                "depth": 3,
-                "text": "Inspirational projects"
+                "id": "detect-sounds-in-p5js",
+                "depth": 2,
+                "text": "Detect Sounds in P5.js"
               },
               {
-                "id": "playing-sounds",
-                "depth": 2,
-                "text": "Playing Sounds"
+                "id": "step-1--set-up-the-microphone-input",
+                "depth": 3,
+                "text": "Step 1 — Set Up the Microphone Input"
+              },
+              {
+                "id": "step-2--create-the-circle-based-on-volume",
+                "depth": 3,
+                "text": "Step 2 — Create the Circle Based on Volume"
               },
               {
                 "id": "challenge",
-                "depth": 3,
+                "depth": 2,
                 "text": "Challenge"
               },
               {
-                "id": "listening-to-your-mic",
+                "id": "make-sounds-in-p5js",
                 "depth": 2,
-                "text": "Listening to Your Mic"
+                "text": "Make Sounds in P5.js"
+              },
+              {
+                "id": "step-1--write-code-for-loading-a-sound",
+                "depth": 3,
+                "text": "Step 1 — Write code for loading a sound"
+              },
+              {
+                "id": "step-2--upload-a-sound-file",
+                "depth": 3,
+                "text": "Step 2 — Upload A Sound File"
+              },
+              {
+                "id": "step-3--write-code-to-play-the-sound-file",
+                "depth": 3,
+                "text": "Step 3 — Write Code to Play the Sound File"
+              },
+              {
+                "id": "step-4--run-your-sketch--set-the-volume",
+                "depth": 3,
+                "text": "Step 4 — Run Your Sketch & Set the Volume"
               },
               {
                 "id": "challenge-1",
-                "depth": 3,
+                "depth": 2,
                 "text": "Challenge"
               },
               {
@@ -5235,85 +5420,30 @@
                 "text": "Text to Speech"
               },
               {
-                "id": "automated-language",
-                "depth": 3,
-                "text": "Automated Language"
-              },
-              {
-                "id": "projects-that-use-bots",
-                "depth": 3,
-                "text": "Projects that Use Bots"
+                "id": "speech-to-text-in-p5js",
+                "depth": 2,
+                "text": "Speech to Text in P5.js"
               },
               {
                 "id": "student-projects-that-use-sound",
                 "depth": 3,
                 "text": "Student Projects that Use Sound"
+              },
+              {
+                "id": "inspirational-projects",
+                "depth": 3,
+                "text": "Inspirational projects"
               }
             ],
-            "dir": "/modules/16-ambient-computing-network-architecture",
-            "path": "/modules/16-ambient-computing-network-architecture/173-sounds-speech-and-macros",
+            "dir": "/modules/17-ambient-computing-network-architecture",
+            "path": "/modules/17-ambient-computing-network-architecture/173-sounds-speech-and-macros",
             "extension": ".md",
-            "createdAt": "2024-03-22T19:46:38.137Z",
-            "updatedAt": "2024-03-22T19:46:38.137Z"
+            "createdAt": "2024-05-28T16:53:19.820Z",
+            "updatedAt": "2024-05-28T16:53:19.821Z"
           }
         },
         {
-          "file": "174-Markers-and-Tracking.md",
-          "ordinal": 174,
-          "contentdata": {
-            "slug": "markers-and-tracking",
-            "moduleid": 174,
-            "title": "Markers and Tracking",
-            "published": true,
-            "authors": [
-              "Violet Whitney"
-            ],
-            "toc": [
-              {
-                "id": "module-summary",
-                "depth": 2,
-                "text": "Module Summary"
-              },
-              {
-                "id": "conceptual-introduction-or-why-is-this-interesting--important",
-                "depth": 2,
-                "text": "Conceptual Introduction, or: Why is this interesting / important?"
-              },
-              {
-                "id": "power-in-furniture",
-                "depth": 3,
-                "text": "Power in Furniture"
-              },
-              {
-                "id": "tutorial",
-                "depth": 2,
-                "text": "Tutorial"
-              },
-              {
-                "id": "setup",
-                "depth": 3,
-                "text": "Setup"
-              },
-              {
-                "id": "challenge",
-                "depth": 2,
-                "text": "Challenge"
-              },
-              {
-                "id": "example-student-projects",
-                "depth": 2,
-                "text": "Example Student Projects"
-              }
-            ],
-            "dir": "/modules/16-ambient-computing-network-architecture",
-            "path": "/modules/16-ambient-computing-network-architecture/174-Markers-and-Tracking",
-            "extension": ".md",
-            "createdAt": "2024-03-22T19:46:38.137Z",
-            "updatedAt": "2024-03-22T19:46:38.137Z"
-          }
-        },
-        {
-          "file": "175-Computer-Vision.md",
+          "file": "175-ML5-&-Computer-Vision.md",
           "ordinal": 175,
           "contentdata": {
             "slug": "computer-vision",
@@ -5330,9 +5460,9 @@
                 "text": "Module Summary"
               },
               {
-                "id": "conceptual-introduction-or-why-is-this-interesting--important",
+                "id": "why-computer-vision",
                 "depth": 2,
-                "text": "Conceptual Introduction, or: Why is this interesting / important?"
+                "text": "Why Computer Vision?"
               },
               {
                 "id": "computer-vision-1",
@@ -5350,14 +5480,24 @@
                 "text": "Tutorial"
               },
               {
-                "id": "referencing-your-webcam",
+                "id": "1---setup-your-environment",
                 "depth": 3,
-                "text": "Referencing Your Webcam"
+                "text": "1 - Setup Your Environment"
               },
               {
-                "id": "face-tracking",
+                "id": "2---accessing-the-webcam",
                 "depth": 3,
-                "text": "Face Tracking"
+                "text": "2 - Accessing the Webcam"
+              },
+              {
+                "id": "3---introducing-ml5js",
+                "depth": 3,
+                "text": "3 - Introducing ML5.js"
+              },
+              {
+                "id": "4---implementing-face-detection",
+                "depth": 3,
+                "text": "4 - Implementing Face Detection"
               },
               {
                 "id": "challenge",
@@ -5370,11 +5510,11 @@
                 "text": "Example Student Project"
               }
             ],
-            "dir": "/modules/16-ambient-computing-network-architecture",
-            "path": "/modules/16-ambient-computing-network-architecture/175-Computer-Vision",
+            "dir": "/modules/17-ambient-computing-network-architecture",
+            "path": "/modules/17-ambient-computing-network-architecture/175-ML5-&-Computer-Vision",
             "extension": ".md",
-            "createdAt": "2024-03-22T19:46:38.137Z",
-            "updatedAt": "2024-03-22T19:46:38.137Z"
+            "createdAt": "2024-05-28T16:53:19.821Z",
+            "updatedAt": "2024-05-28T16:53:19.821Z"
           }
         }
       ]
@@ -6295,8 +6435,8 @@
         "dir": "/modules/23-parametric-visualization-with-grasshopper",
         "path": "/modules/23-parametric-visualization-with-grasshopper/index",
         "extension": ".md",
-        "createdAt": "2024-03-22T20:34:06.149Z",
-        "updatedAt": "2024-03-22T20:34:06.153Z"
+        "createdAt": "2024-03-23T18:50:30.031Z",
+        "updatedAt": "2024-03-23T18:50:30.034Z"
       },
       "ordinal": 23,
       "path": "23-parametric-visualization-with-grasshopper",
@@ -6333,8 +6473,8 @@
             "dir": "/modules/23-parametric-visualization-with-grasshopper",
             "path": "/modules/23-parametric-visualization-with-grasshopper/index",
             "extension": ".md",
-            "createdAt": "2024-03-22T20:34:06.149Z",
-            "updatedAt": "2024-03-22T20:34:06.153Z"
+            "createdAt": "2024-03-23T18:50:30.031Z",
+            "updatedAt": "2024-03-23T18:50:30.034Z"
           }
         },
         {
@@ -6373,8 +6513,8 @@
             "dir": "/modules/23-parametric-visualization-with-grasshopper",
             "path": "/modules/23-parametric-visualization-with-grasshopper/23-1_tabular-data",
             "extension": ".md",
-            "createdAt": "2024-03-22T20:34:05.170Z",
-            "updatedAt": "2024-03-22T20:34:05.171Z"
+            "createdAt": "2024-03-23T18:50:29.409Z",
+            "updatedAt": "2024-03-23T18:50:29.410Z"
           }
         },
         {
@@ -6423,8 +6563,8 @@
             "dir": "/modules/23-parametric-visualization-with-grasshopper",
             "path": "/modules/23-parametric-visualization-with-grasshopper/23-3_media",
             "extension": ".md",
-            "createdAt": "2024-03-22T20:34:05.171Z",
-            "updatedAt": "2024-03-22T20:34:05.171Z"
+            "createdAt": "2024-03-23T18:50:29.410Z",
+            "updatedAt": "2024-03-23T18:50:29.410Z"
           }
         }
       ]
