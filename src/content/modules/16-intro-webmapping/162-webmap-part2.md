@@ -79,7 +79,7 @@ Next we will add a **point** layer.
 
 Save the geojson file of points that you plan to use in the `data` folder you have just created.
 
-The instructions below use the NYC street trees dataset that you used in tutorial 1 as an example. It is available in the class [data folder](https://github.com/GSAPP-CDP/Smorgasbord/blob/main/src/src/content/modules/16-intro-webmapping/162-webmap-part2.md).
+The instructions below use the NYC street trees dataset that you used in tutorial 1 as an example. If you don't have it ready, it is available [here](https://github.com/GSAPP-CDP/Smorgasbord/blob/main/src/content/modules/16-intro-webmapping/data/2015_Street_Tree_Census_subset_um.geojson).
 
 We will repeat the steps above that we used for the polygons:
 - load the dataset into your map object

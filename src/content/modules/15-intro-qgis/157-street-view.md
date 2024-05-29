@@ -11,7 +11,7 @@ authors:
 
 This is a brief guide to using the Street View Static Maps API (Application Programming Interface). In here we will use an example python script to download images through the [Google Street View Static Maps API](https://developers.google.com/maps/documentation/streetview/overview).
 
-This script is a modified version of the one used for [Tutorial 7 - Making Data from Aerial Imagery](https://centerforspatialresearch.github.io/methods-in-spatial-research-sp2024/tutorials/aerial-imagery). Using this script, you can make work with street view imagery similar to Josh Begley's [Officer Involved](https://theintercept.co/officer-involved/).
+This script is a modified version of the one used for [Making Data from Aerial Imagery](https://smorgasbord.cdp.arch.columbia.edu/modules/15-intro-qgis/156-aerial-imagery). Using this script, you can make work with street view imagery similar to Josh Begley's [Officer Involved](https://theintercept.co/officer-involved/).
 
 Just like Tutorial 7, this tutorial is *not* an introduction to APIs, *nor* is it an introduction to Python. The tutorial walks you through how to batch download imagery using a CSV file of latitude and lognitude coordinates, and specify some parameters relevant to the way that Google collects are makes this data available. While the product is raster images, these are not geospatial rasters - they are not georeferenced, and do not ahve embedded geographic information.
 
@@ -28,7 +28,7 @@ Important to mention here is to keep your API key a secret - if someone else obt
 
 ### Step 0: Google colab
 
-**Whereas Tutorial 7 introduced methods to do this both on colab and on your local computer, for brevity's sake I will just do the former here. If you prefer not to use google services or to be able to run this without an internet connection, please cite [Tutorial 7](https://centerforspatialresearch.github.io/methods-in-spatial-research-sp2024/tutorials/aerial-imagery)**
+**Whereas the previous tutorial introduced methods to do this both on colab and on your local computer, for brevity's sake I will just do the former here. If you prefer not to use google services or to be able to run this without an internet connection, please cite [the previous tutorial](https://smorgasbord.cdp.arch.columbia.edu/modules/15-intro-qgis/156-aerial-imagery)**
 
 Launch [Google Colab](https://colab.research.google.com/). This is a cloud-based programming environment that allows for the execution of Python code in the browser.
 
@@ -44,7 +44,7 @@ The script below expects a CSV file in a specific format, with three columns, no
 523532,40.80871886,-73.96616471
 ```
 
-These five points are borrowed from the 2015 Street Tree Census that we used in Tutorial 1. This specifically is a subset of that dataset, showing just the five largest trees of that sample that I filtered using the python library pandas (which is also used in this tutorial). The three columns in this dataset are `tree_id`, `latitude`, and `longitude`. [Here](https://drive.google.com/open?id=1ZpLafJbA2xRxJ55J8B4DsAveZBNSzUUD&usp=drive_fs) is the full csv from tutorial 1, if you are curious about what the snippet of python looked like to get that five thickest trees, I will include that below.
+These five points are borrowed from the 2015 Street Tree Census that we used in Tutorial 1. This specifically is a subset of that dataset, showing just the five largest trees of that sample that I filtered using the python library pandas (which is also used in this tutorial). The three columns in this dataset are `tree_id`, `latitude`, and `longitude`. [Here](https://github.com/GSAPP-CDP/Smorgasbord/blob/main/src/content/modules/15-intro-qgis/data/2015_street_tree_census.zip) is the full csv from tutorial 1, if you are curious about what the snippet of python looked like to get that five thickest trees, I will include that below.
 
 Save that snippet above as `StreetView_test_points.csv`, or grab points of latitude/longitude of your own choosing (and in this case likely make the first column an index of 0,1,2 etc). You can do either by either pasting the text above into a text editor (making sure it is in plain text mode) and save it as `StreetView_test_points.csv`. Or you can use some spreadsheet software (google sheets, or excel) and create a table with three columns containing the values above and save it as a `.csv` file. When you reuse this script on you own you will likely be using latitude and longitude coordinates gathered from elsewhere -- you may export them from QGIS, or from EpiCollect, or manually input them into a spreadsheet. Before uploading them here be sure to format them exactly as shown above (usually by removing the headers). 
 
