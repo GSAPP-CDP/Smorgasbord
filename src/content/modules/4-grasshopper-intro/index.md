@@ -21,7 +21,7 @@ By the end of this tutorial you will use computational design modeling to facili
 Grasshopper transforms the spatial modeling capabilities of Rhino from a manual process to a computationally driven one through a visual programming language that is easy to learn and can bridge to other programming languages, such as Python and C#. We'll articulate and define the computational applications, such as automation, procedural generation, and simulation, as we work through this sequence.
 
 ## CDP Requirements:
-- If your are new to grasshopper do borth Intro to Grasshopper and Computational Design Modeling in Grasshopper.
+- If your are new to grasshopper do both Intro to Grasshopper and Computational Design Modeling in Grasshopper.
 - If you already know some Grasshopper review 7 Grasshopper Documentation Best Practices, create the view analysis tool in 8 Deriving Spatial Data, and review 10 Generating and Exploring Spatial Data of the Intro to Grasshopper sequence. Also complete all of the Computational Design Modeling sequence.
 
 ## Modules
