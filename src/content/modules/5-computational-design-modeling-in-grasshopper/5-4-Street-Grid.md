@@ -174,7 +174,7 @@ Next we need to procedurally generate parcel size relative to density distributi
 4. `Graft the Parcel Width (PWT)` input of the Parcel component and plug in the remapped values.
 5. Do a visual check: cycle through all street centerline inputs to make sure everything is working correctly. Add labeled parameter holders.
 
-To wrap up, add labeled parameter holders, colored & labeled groups, and notes. (Refer to Grasshopper Best Practices module in the Intro to Grasshopper sequence.)  Don't cluster anything yet. We will do that at the end of the next module when we complete our inputs and procedural modeling.
+To wrap up, add labeled parameter holders, colored & labeled groups, and notes. (Refer to Grasshopper Best Practices module in the Intro to Grasshopper sequence.)  Don't cluster anything yet. We will do that at the end of the next module when we complete our inputs and procedural modeling. [Completed Definition](https://drive.google.com/file/d/1zTJ5ykE6LkUXvP3ZlAnKoynWLM7Q_MJ-/view?usp=drive_link)
 
 ![description](images/5-4-3_Visual-Check-Parcels.gif)
 >*Visual check to make sure everything is working properly.*
