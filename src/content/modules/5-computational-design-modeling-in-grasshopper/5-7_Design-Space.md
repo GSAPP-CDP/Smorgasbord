@@ -235,7 +235,7 @@ As the slider animates you should see the panel with data filing up and an image
 
 ![description](images/5-7-3_Animation.gif)
 
-The images being exported are really cool, but not actually that import. You can use them to make an animation illustrating your design space, but the data.csv is far more important as it is the data set that will allow us to explore the relationship between form (inputs) and performance (outputs.)
+The images being exported are really cool, but are not actually that important. You can use them to make an animation illustrating your design space, but the data.csv is far more important as it is the data set that will allow us to explore the relationship between form (inputs) and performance (outputs.)
 
 12. Make a copy of the `data.csv` file
 
@@ -245,7 +245,7 @@ With the panel set to stream contents it will continue to write (or delete) data
 
 ![description](images/5-7-3_Data-CSV.PNG)
 
-Finally, if you have gotten to this point and are still having issues, refer to this [completed definition](https://github.com/GSAPP-CDP/Smorgasbord/raw/main/src/content/modules/5-computational-design-modeling-in-grasshopper/definitions/5-7_Design-Space.gh) to help trouble shoot.
+Finally, if you have gotten to this point and are still having issues, refer to this [completed definition](https://drive.google.com/file/d/1qfaspjyXiLmW97ojon5EGBqZ8aTU2a3w/view?usp=drive_link) to help trouble shoot.
 
 ### 4. Exploring the results and deriving insights
 
