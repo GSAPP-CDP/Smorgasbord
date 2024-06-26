@@ -190,7 +190,7 @@ Finally, We are going to create three metrics following the methods covered in t
 
 ![description](images/5-3-4_Cluster.gif)
 
-Finally, make sure you have all the inputs and outputs of your direct sun analysis tool properly labeled and `Cluster` it so that it is easy to reuse. Make sure to keep the surface subdivision outside of the direct sun tool cluster since you will likely use it as an input for additional analysis tools.
+Finally, make sure you have all the inputs and outputs of your direct sun analysis tool properly labeled and `Cluster` it so that it is easy to reuse. Make sure to keep the surface subdivision outside of the direct sun tool cluster since you will likely use it as an input for additional analysis tools. 	[Completed Definition](https://drive.google.com/file/d/1RSz7QKsQABIVl1yV2zEH0wdaui6mw4dQ/view?usp=drive_link)
 
 ![description](images/5-3-4_Complete.png)
 *Complete, but unclustered definition.*
