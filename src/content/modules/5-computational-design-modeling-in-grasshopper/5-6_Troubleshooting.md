@@ -339,11 +339,11 @@ Visual Check! The results should now look correct, but if you were using the vie
 ![description](images/5-6-2_View_Viz2.PNG)
 
 
-Finally, if you have gotten to this point and are still having issues, refer to this [completed definition](https://github.com/GSAPP-CDP/Smorgasbord/raw/main/src/content/modules/5-computational-design-modeling-in-grasshopper/definitions/5-6_Troubleshooting.gh) to help trouble shoot.
+Finally, if you have gotten to this point and are still having issues, refer to this [completed definition](https://drive.google.com/file/d/1Ykyx1fSqHdxvUbJ16wQPzrAm3TbKLI8C/view?usp=drive_link) to help trouble shoot.
 
 ## Conclusion
 
-Phew! This was a long one, but one of the most important modules. Getting all the pieces of a computational design model to work together correctly can be challenging. In this module we have covered a range of approaches and techniques for troubleshooting that will start to become second nature for your as you continue to develop your ability with grasshopper. The issues we dealt with cover almost every type of problem that may occur. (Although one we didn't cover is when something is just incorrectly connected.)
+Phew! This was a long one, but one of the most important modules. Getting all the pieces of a computational design model to work together correctly can be challenging. In this module we have covered a range of approaches and techniques for troubleshooting that will start to become second nature for you as you continue to develop your ability with grasshopper. The issues we dealt with cover almost every type of problem that may occur. (Although one we didn't cover is when something is just incorrectly connected.)
 
 Beyond the techniques introduced, remember proper troubleshooting requires you to be critical of the output. If you are getting a metric and visual output, don't just assume everything is working correctly. Examine the visual output, if it looks wrong it probably is. Are the metric outputs in a range that you would expect? If not, something is probably wrong.
 
