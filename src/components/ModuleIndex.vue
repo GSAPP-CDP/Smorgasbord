@@ -36,13 +36,18 @@
       <SequenceLinks path="18-behavioral-modeling-intro" />
     </div> 
 
-       <div class="coursetitle">Computation for Design and Representation</div>
+    <div class="coursetitle">Computation for Design and Representation</div>
     <div class="course">
       <SequenceLinks path="21-integrated-computational-simulation" />
       <SequenceLinks path="23-parametric-visualization-with-grasshopper" />
     </div> 
-
-
+    
+    <div class="coursetitle">Artificial Intelligence</div>
+    <div class="course">
+      <SequenceLinks path="30-ai-intro" />
+      <SequenceLinks path="31-ai-language" />
+      <SequenceLinks path="32-ai-vision-imagery" />
+    </div>
   </div>
 </template>
 
