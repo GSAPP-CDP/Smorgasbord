@@ -40,16 +40,12 @@ export default {
         dir: "assets/images",
     }],
     
-
     ['@nuxtjs/google-fonts', {
       families: {
         'Lato': [300, 400, 700],
         'IBM Plex Sans': [300, 400, 700],
       },
     }],
-
-
-
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -76,7 +72,6 @@ export default {
       const files = await $content({ deep: true }).fetch()
       console.log(files)
 
-
       var fdir = files.map(function(file) {
         console.log(file, " xxx")
         if(file.path === '/index') { return  '/'; }
@@ -95,12 +90,11 @@ export default {
     dir: 'dist',
   },
 
-
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     extend(config, { isDev, isClient }) {
       config.module.rules.push({
-        test: /\.md$/i,
+        test: /\.(md|ai|pdf|gh|3dm|3dmbak|aibak|ini|psd|exr|zip|rhl)$/i,
         loader: 'ignore-loader'
       })
     },
@@ -119,7 +113,4 @@ export default {
     }
   },
   */
-
-
-
 }

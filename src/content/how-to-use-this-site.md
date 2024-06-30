@@ -1,5 +1,6 @@
 ---
 title: How To Use This Site
+published: true
 ---
 
 ## Don’t Just Follow These Recipes:

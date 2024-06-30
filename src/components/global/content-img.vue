@@ -5,6 +5,12 @@
 </template>
 
 <script>
+// An overly simplistic way of checking for valid URLs.
+function isValidUrl(string) {
+  const regex = /^(https?|ftp):\/\/[^\s/$.?#].[^\s]*$/i;
+  return regex.test(string);
+}
+
 export default {
   name: 'ContentImage',
   props: {
@@ -24,6 +30,11 @@ export default {
   },
   methods: {
     imgSrc() {
+      // Preventing overwriting the image URL if we provide a fully qualified
+      // external URL.
+      if (isValidUrl(this.src)) {
+        return this.src;
+      }
       
       // this is so gross..... but the only way to do it
 

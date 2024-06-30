@@ -1,5 +1,6 @@
 ---
 title: Credits
+published: true
 ---
 
 The GSAPP-CDP Smorgasbord grew out of discussions between the CDP faculty listed below who have contributed tutorials to this site. The site will evolve and be updated over time to include more tutorials based on the evolving seminars taught by the [GSAPP Computational Design Practices](https://www.arch.columbia.edu/programs/15-m-s-computational-design-practices) program.
@@ -40,11 +41,5 @@ Her work has been exhibited and published by the Venice Architecture Biennale, S
 
 **Zachary White** - Zachary White is a designer, artist and researcher with a focus on experimental use of emerging technologies. His work explores critical and creative applications of digital representation, web development, physical computing, and fabrication. He is an Adjunct Assistant Professor at Columbia GSAPP, where he co-teaches Architectural Drawing and Representation I, and Director of Technology Development at FullStack Modular.
 
-
-
-
-
-
-
-
+**William Martin** - William is a technologist, design researcher, and product leader. He is cofounder of Spatial Pixel, an AI research and design studio focused on empowering people with digital and spatial agency. Originally trained as an architect, he has held roles as an interaction designer, software engineer, professor (at Yale and NYIT), head of product, and director of product management. Most recently, he served as director of AI at Consensys, a web3 and blockchain software company. He teaches Spatial AI and Colloquium I in the MS CDP program at Columbia GSAPP.
 

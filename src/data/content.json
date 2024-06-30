@@ -3,46 +3,46 @@
     "0-template/Template markdown file": {
       "double_links": []
     },
-    "10-spatial-python/102-geospatial-data": {
-      "double_links": []
-    },
-    "10-spatial-python/103-spatial-analysis-point-pattern": {
-      "double_links": []
-    },
     "10-spatial-python/101-data-manipulation": {
       "double_links": []
     },
-    "10-spatial-python/105-spatial-analysis-clustering": {
+    "10-spatial-python/102-geospatial-data": {
       "double_links": []
     },
     "10-spatial-python/104-spatial-analysis-correlation": {
       "double_links": []
     },
-    "10-spatial-python/index": {
+    "11-interactive-web/110-getting-started": {
       "double_links": []
     },
-    "11-interactive-web/110-getting-started": {
+    "10-spatial-python/105-spatial-analysis-clustering": {
+      "double_links": []
+    },
+    "10-spatial-python/index": {
       "double_links": []
     },
     "11-interactive-web/112-html-and-css": {
       "double_links": []
     },
-    "11-interactive-web/113-data-and-apis": {
+    "10-spatial-python/103-spatial-analysis-point-pattern": {
       "double_links": []
     },
     "11-interactive-web/111-git-and-github": {
       "double_links": []
     },
-    "11-interactive-web/114-events-and-uis": {
-      "double_links": []
-    },
-    "11-interactive-web/115-dom-manipulation": {
+    "11-interactive-web/113-data-and-apis": {
       "double_links": []
     },
     "11-interactive-web/index": {
       "double_links": []
     },
-    "12-rhino-intro/12-2_rhino-2d": {
+    "11-interactive-web/115-dom-manipulation": {
+      "double_links": []
+    },
+    "12-rhino-intro/12-1_rhino-interface": {
+      "double_links": []
+    },
+    "11-interactive-web/114-events-and-uis": {
       "double_links": []
     },
     "12-rhino-intro/12-3_rhino-3d": {
@@ -51,25 +51,34 @@
     "12-rhino-intro/index": {
       "double_links": []
     },
-    "13-arch-drawing/13-1_orthographic-drawing": {
+    "12-rhino-intro/12-2_rhino-2d": {
       "double_links": []
     },
-    "13-arch-drawing/13-3_rendering": {
+    "13-arch-drawing/13-1_orthographic-drawing": {
       "double_links": []
     },
     "12-rhino-intro/12-4_rhino-nurbs": {
       "double_links": []
     },
-    "13-arch-drawing/13-4_compositing": {
+    "13-arch-drawing/13-3_rendering": {
+      "double_links": []
+    },
+    "13-arch-drawing/index": {
       "double_links": []
     },
     "13-arch-drawing/13-2_projection": {
       "double_links": []
     },
-    "14-geospatial-concepts/index": {
+    "13-arch-drawing/13-4_compositing": {
       "double_links": []
     },
     "14-geospatial-concepts/141-what-is-gis": {
+      "double_links": []
+    },
+    "14-geospatial-concepts/143-coordinates-projections": {
+      "double_links": []
+    },
+    "15-intro-qgis/151-mapping-where": {
       "double_links": []
     },
     "14-geospatial-concepts/142-spatial-data": {
@@ -78,61 +87,52 @@
     "15-intro-qgis/152-print-layout": {
       "double_links": []
     },
-    "15-intro-qgis/151-mapping-where": {
-      "double_links": []
-    },
-    "14-geospatial-concepts/143-coordinates-projections": {
-      "double_links": []
-    },
-    "12-rhino-intro/12-1_rhino-interface": {
+    "15-intro-qgis/153-archives": {
       "double_links": []
     },
     "15-intro-qgis/155-satellites": {
       "double_links": []
     },
-    "15-intro-qgis/154-observations": {
-      "double_links": []
-    },
-    "15-intro-qgis/153-archives": {
-      "double_links": []
-    },
-    "13-arch-drawing/index": {
-      "double_links": []
-    },
-    "15-intro-qgis/158-atlas": {
-      "double_links": []
-    },
-    "16-intro-webmapping/index": {
-      "double_links": []
-    },
-    "15-intro-qgis/156-aerial-imagery": {
-      "double_links": []
-    },
-    "15-intro-qgis/index": {
-      "double_links": []
-    },
-    "16-intro-webmapping/163-storytelling": {
-      "double_links": []
-    },
-    "16-intro-webmapping/162-webmap-part2": {
+    "14-geospatial-concepts/index": {
       "double_links": []
     },
     "15-intro-qgis/157-street-view": {
       "double_links": []
     },
+    "15-intro-qgis/154-observations": {
+      "double_links": []
+    },
+    "15-intro-qgis/158-atlas": {
+      "double_links": []
+    },
+    "15-intro-qgis/156-aerial-imagery": {
+      "double_links": []
+    },
+    "16-intro-webmapping/162-webmap-part2": {
+      "double_links": []
+    },
     "16-intro-webmapping/161-webmap-part1": {
+      "double_links": []
+    },
+    "16-intro-webmapping/163-storytelling": {
+      "double_links": []
+    },
+    "15-intro-qgis/index": {
+      "double_links": []
+    },
+    "16-intro-webmapping/index": {
       "double_links": []
     },
     "17-ambient-computing-network-architecture/171-Intro-to-P5": {
       "double_links": []
     },
-    "17-ambient-computing-network-architecture/index": {
+    "17-ambient-computing-network-architecture/175-ML5-&-Computer-Vision": {
       "double_links": []
     },
     "17-ambient-computing-network-architecture/172-Webhooks-Connecting-IFTTT-and-P5": {
       "double_links": []
     },
-    "17-ambient-computing-network-architecture/175-ML5-&-Computer-Vision": {
+    "18-behavioral-modeling-intro/181-Unity-and-Agent-Based-Models": {
       "double_links": []
     },
     "17-ambient-computing-network-architecture/173-sounds-speech-and-macros": {
@@ -141,10 +141,10 @@
     "18-behavioral-modeling-intro/182-Intro-To-Unity": {
       "double_links": []
     },
-    "18-behavioral-modeling-intro/index": {
+    "18-behavioral-modeling-intro/183-Agent-Based-Populations-and-Behavior-Bricks": {
       "double_links": []
     },
-    "18-behavioral-modeling-intro/181-Unity-and-Agent-Based-Models": {
+    "17-ambient-computing-network-architecture/index": {
       "double_links": []
     },
     "18-behavioral-modeling-intro/184-Mapbox-SDK-and-Routing": {
@@ -153,19 +153,19 @@
     "19-data_visualization/index": {
       "double_links": []
     },
+    "18-behavioral-modeling-intro/index": {
+      "double_links": []
+    },
     "19-data_visualization/Module1WorkflowsPartASetupCodeEnvironment": {
       "double_links": []
     },
     "19-data_visualization/Module2Introductiontod3anscombe": {
       "double_links": []
     },
-    "18-behavioral-modeling-intro/183-Agent-Based-Populations-and-Behavior-Bricks": {
-      "double_links": []
-    },
-    "19-data_visualization/Module4Workingwithexternaldata": {
-      "double_links": []
-    },
     "19-data_visualization/Module3Tourofthebasiccharts2Line": {
+      "double_links": []
+    },
+    "19-data_visualization/Module3Tourofthebasiccharts1Bar": {
       "double_links": []
     },
     "19-data_visualization/Module3Tourofthebasiccharts3Pie": {
@@ -174,49 +174,103 @@
     "19-data_visualization/Module5Buildinginteractivity": {
       "double_links": []
     },
-    "21-integrated-computational-simulation/212-inflatable-structure": {
-      "double_links": []
-    },
     "21-integrated-computational-simulation/211-tensile-membrane": {
       "double_links": []
     },
-    "21-integrated-computational-simulation/index": {
+    "19-data_visualization/Module4Workingwithexternaldata": {
       "double_links": []
     },
     "21-integrated-computational-simulation/213-acoustic": {
       "double_links": []
     },
-    "23-parametric-visualization-with-grasshopper/23-3_media": {
+    "21-integrated-computational-simulation/212-inflatable-structure": {
+      "double_links": []
+    },
+    "21-integrated-computational-simulation/index": {
       "double_links": []
     },
     "23-parametric-visualization-with-grasshopper/23-1_tabular-data": {
       "double_links": []
     },
-    "19-data_visualization/Module3Tourofthebasiccharts1Bar": {
-      "double_links": []
-    },
-    "4-grasshopper-intro/41-getting-started-with-grasshopper": {
+    "23-parametric-visualization-with-grasshopper/23-3_media": {
       "double_links": []
     },
     "23-parametric-visualization-with-grasshopper/index": {
       "double_links": []
     },
+    "30-ai-intro/303-teachable-machine": {
+      "double_links": []
+    },
+    "30-ai-intro/302-how-ai-works": {
+      "double_links": []
+    },
+    "30-ai-intro/304-neural-networks": {
+      "double_links": []
+    },
+    "30-ai-intro/305-major-ai-platforms": {
+      "double_links": []
+    },
+    "30-ai-intro/308-ethics-and-governance": {
+      "double_links": []
+    },
+    "30-ai-intro/301-what-is-ai": {
+      "double_links": []
+    },
+    "30-ai-intro/306-ai-history": {
+      "double_links": []
+    },
+    "31-ai-language/311-text-generation": {
+      "double_links": []
+    },
+    "31-ai-language/312-llm-chat": {
+      "double_links": []
+    },
+    "31-ai-language/313-code-generation": {
+      "double_links": []
+    },
+    "30-ai-intro/307-notable-players": {
+      "double_links": []
+    },
+    "30-ai-intro/index": {
+      "double_links": []
+    },
+    "31-ai-language/index": {
+      "double_links": []
+    },
+    "32-ai-vision-imagery/321-cv-mediapipe": {
+      "double_links": []
+    },
+    "31-ai-language/314-function-calling": {
+      "double_links": []
+    },
+    "32-ai-vision-imagery/322-cv-hugging-face": {
+      "double_links": []
+    },
+    "32-ai-vision-imagery/323-image-generation": {
+      "double_links": []
+    },
     "4-grasshopper-intro/410-Generating-Exploring-Spatial-Data": {
-      "double_links": []
-    },
-    "4-grasshopper-intro/43-working-in-grasshopper": {
-      "double_links": []
-    },
-    "4-grasshopper-intro/44-exercise-parametric-tower-part-1": {
       "double_links": []
     },
     "4-grasshopper-intro/42-exercise-hello-grasshopper": {
       "double_links": []
     },
-    "4-grasshopper-intro/46-exercise-parametric-tower-part-2": {
+    "32-ai-vision-imagery/index": {
+      "double_links": []
+    },
+    "4-grasshopper-intro/41-getting-started-with-grasshopper": {
+      "double_links": []
+    },
+    "4-grasshopper-intro/44-exercise-parametric-tower-part-1": {
+      "double_links": []
+    },
+    "4-grasshopper-intro/43-working-in-grasshopper": {
       "double_links": []
     },
     "4-grasshopper-intro/45-working-with-data": {
+      "double_links": []
+    },
+    "4-grasshopper-intro/46-exercise-parametric-tower-part-2": {
       "double_links": []
     },
     "4-grasshopper-intro/47-documentation-best-practices": {
@@ -225,22 +279,16 @@
     "4-grasshopper-intro/48-Deriving-Spatial-Data": {
       "double_links": []
     },
-    "4-grasshopper-intro/49-Procedural-Rules": {
+    "4-grasshopper-intro/index": {
       "double_links": []
     },
     "5-computational-design-modeling-in-grasshopper/5-1-Comp-Design-Modeling": {
       "double_links": []
     },
-    "4-grasshopper-intro/index": {
-      "double_links": []
-    },
-    "5-computational-design-modeling-in-grasshopper/5-6_Troubleshooting": {
-      "double_links": []
-    },
-    "5-computational-design-modeling-in-grasshopper/5-5_Buildings-Density": {
-      "double_links": []
-    },
     "5-computational-design-modeling-in-grasshopper/5-2-Subdivide-Geometry": {
+      "double_links": []
+    },
+    "4-grasshopper-intro/49-Procedural-Rules": {
       "double_links": []
     },
     "5-computational-design-modeling-in-grasshopper/5-3-Analysis-Tools": {
@@ -249,13 +297,16 @@
     "5-computational-design-modeling-in-grasshopper/5-4-Street-Grid": {
       "double_links": []
     },
+    "5-computational-design-modeling-in-grasshopper/5-5_Buildings-Density": {
+      "double_links": []
+    },
     "5-computational-design-modeling-in-grasshopper/index": {
       "double_links": []
     },
     "5-computational-design-modeling-in-grasshopper/5-7_Design-Space": {
       "double_links": []
     },
-    "6-intro-to-python/index": {
+    "5-computational-design-modeling-in-grasshopper/5-6_Troubleshooting": {
       "double_links": []
     },
     "6-intro-to-python/61-getting-started-with-Python": {
@@ -264,28 +315,31 @@
     "6-intro-to-python/62-using-python-in-grasshopper": {
       "double_links": []
     },
-    "7-fundamentals-of-python/72-conditionals-and-loops": {
+    "7-fundamentals-of-python/71-variables-lists-and-dictionaries": {
       "double_links": []
     },
-    "7-fundamentals-of-python/71-variables-lists-and-dictionaries": {
+    "7-fundamentals-of-python/72-conditionals-and-loops": {
       "double_links": []
     },
     "7-fundamentals-of-python/73-functions-and-classes": {
       "double_links": []
     },
-    "8-intro-to-python-in-rhino/index": {
-      "double_links": []
-    },
-    "8-intro-to-python-in-rhino/81-accessing-the-rhino-apis-in-python": {
-      "double_links": []
-    },
     "7-fundamentals-of-python/74-python-libraries": {
+      "double_links": []
+    },
+    "6-intro-to-python/index": {
       "double_links": []
     },
     "7-fundamentals-of-python/index": {
       "double_links": []
     },
+    "8-intro-to-python-in-rhino/81-accessing-the-rhino-apis-in-python": {
+      "double_links": []
+    },
     "8-intro-to-python-in-rhino/82-working-with-geometry-in-python": {
+      "double_links": []
+    },
+    "8-intro-to-python-in-rhino/index": {
       "double_links": []
     }
   },
@@ -303,7 +357,7 @@
             "slug": "template-template-template",
             "moduleid": 0,
             "title": "Template as template",
-            "published": true,
+            "published": false,
             "toc": [
               {
                 "id": "sequence-summary",
@@ -339,8 +393,8 @@
             "dir": "/modules/0-template",
             "path": "/modules/0-template/Template markdown file",
             "extension": ".md",
-            "createdAt": "2024-03-22T19:46:38.010Z",
-            "updatedAt": "2024-03-22T19:46:38.010Z"
+            "createdAt": "2024-06-30T21:46:23.457Z",
+            "updatedAt": "2024-06-30T21:46:23.457Z"
           }
         }
       ]
@@ -379,8 +433,8 @@
         "dir": "/modules/4-grasshopper-intro",
         "path": "/modules/4-grasshopper-intro/index",
         "extension": ".md",
-        "createdAt": "2023-06-06T20:39:11.048Z",
-        "updatedAt": "2023-06-06T20:39:11.048Z"
+        "createdAt": "2024-06-30T21:46:23.291Z",
+        "updatedAt": "2024-06-30T21:46:23.291Z"
       },
       "ordinal": 4,
       "path": "4-grasshopper-intro",
@@ -422,8 +476,8 @@
             "dir": "/modules/4-grasshopper-intro",
             "path": "/modules/4-grasshopper-intro/index",
             "extension": ".md",
-            "createdAt": "2023-06-06T20:39:11.048Z",
-            "updatedAt": "2023-06-06T20:39:11.048Z"
+            "createdAt": "2024-06-30T21:46:23.291Z",
+            "updatedAt": "2024-06-30T21:46:23.291Z"
           }
         },
         {
@@ -517,8 +571,8 @@
             "dir": "/modules/4-grasshopper-intro",
             "path": "/modules/4-grasshopper-intro/41-getting-started-with-grasshopper",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:17.654Z",
-            "updatedAt": "2022-10-06T21:21:17.655Z"
+            "createdAt": "2024-05-15T18:07:12.600Z",
+            "updatedAt": "2024-05-15T18:07:12.600Z"
           }
         },
         {
@@ -562,8 +616,8 @@
             "dir": "/modules/4-grasshopper-intro",
             "path": "/modules/4-grasshopper-intro/42-exercise-hello-grasshopper",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:17.655Z",
-            "updatedAt": "2022-10-06T21:21:17.655Z"
+            "createdAt": "2024-05-15T18:07:12.600Z",
+            "updatedAt": "2024-05-15T18:07:12.600Z"
           }
         },
         {
@@ -682,8 +736,8 @@
             "dir": "/modules/4-grasshopper-intro",
             "path": "/modules/4-grasshopper-intro/43-working-in-grasshopper",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:17.655Z",
-            "updatedAt": "2022-10-06T21:21:17.655Z"
+            "createdAt": "2024-05-15T18:07:12.600Z",
+            "updatedAt": "2024-05-15T18:07:12.600Z"
           }
         },
         {
@@ -732,8 +786,8 @@
             "dir": "/modules/4-grasshopper-intro",
             "path": "/modules/4-grasshopper-intro/44-exercise-parametric-tower-part-1",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:17.655Z",
-            "updatedAt": "2022-10-06T21:21:17.655Z"
+            "createdAt": "2024-05-15T18:07:12.600Z",
+            "updatedAt": "2024-05-15T18:07:12.601Z"
           }
         },
         {
@@ -792,8 +846,8 @@
             "dir": "/modules/4-grasshopper-intro",
             "path": "/modules/4-grasshopper-intro/45-working-with-data",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:17.655Z",
-            "updatedAt": "2022-10-06T21:21:17.655Z"
+            "createdAt": "2024-05-15T18:07:12.601Z",
+            "updatedAt": "2024-05-15T18:07:12.601Z"
           }
         },
         {
@@ -847,8 +901,8 @@
             "dir": "/modules/4-grasshopper-intro",
             "path": "/modules/4-grasshopper-intro/46-exercise-parametric-tower-part-2",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:17.655Z",
-            "updatedAt": "2022-10-06T21:21:17.655Z"
+            "createdAt": "2024-05-15T18:07:12.601Z",
+            "updatedAt": "2024-05-15T18:07:12.601Z"
           }
         },
         {
@@ -912,8 +966,8 @@
             "dir": "/modules/4-grasshopper-intro",
             "path": "/modules/4-grasshopper-intro/47-documentation-best-practices",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:17.655Z",
-            "updatedAt": "2022-10-06T21:21:17.655Z"
+            "createdAt": "2024-05-15T18:07:12.601Z",
+            "updatedAt": "2024-05-15T18:07:12.601Z"
           }
         },
         {
@@ -992,8 +1046,8 @@
             "dir": "/modules/4-grasshopper-intro",
             "path": "/modules/4-grasshopper-intro/48-Deriving-Spatial-Data",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:17.656Z",
-            "updatedAt": "2022-10-06T21:21:17.656Z"
+            "createdAt": "2024-05-15T18:07:12.601Z",
+            "updatedAt": "2024-05-15T18:07:12.601Z"
           }
         },
         {
@@ -1067,8 +1121,8 @@
             "dir": "/modules/4-grasshopper-intro",
             "path": "/modules/4-grasshopper-intro/49-Procedural-Rules",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:17.656Z",
-            "updatedAt": "2022-10-06T21:21:17.656Z"
+            "createdAt": "2024-05-15T18:07:12.601Z",
+            "updatedAt": "2024-05-15T18:07:12.601Z"
           }
         },
         {
@@ -1142,8 +1196,8 @@
             "dir": "/modules/4-grasshopper-intro",
             "path": "/modules/4-grasshopper-intro/410-Generating-Exploring-Spatial-Data",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:17.655Z",
-            "updatedAt": "2022-10-06T21:21:17.655Z"
+            "createdAt": "2024-05-15T18:07:12.600Z",
+            "updatedAt": "2024-05-15T18:07:12.600Z"
           }
         }
       ]
@@ -1182,8 +1236,8 @@
         "dir": "/modules/5-computational-design-modeling-in-grasshopper",
         "path": "/modules/5-computational-design-modeling-in-grasshopper/index",
         "extension": ".md",
-        "createdAt": "2023-06-06T20:39:11.049Z",
-        "updatedAt": "2023-06-06T20:39:11.049Z"
+        "createdAt": "2024-05-15T18:07:13.153Z",
+        "updatedAt": "2024-05-15T18:07:13.153Z"
       },
       "ordinal": 5,
       "path": "5-computational-design-modeling-in-grasshopper",
@@ -1225,8 +1279,8 @@
             "dir": "/modules/5-computational-design-modeling-in-grasshopper",
             "path": "/modules/5-computational-design-modeling-in-grasshopper/index",
             "extension": ".md",
-            "createdAt": "2023-06-06T20:39:11.049Z",
-            "updatedAt": "2023-06-06T20:39:11.049Z"
+            "createdAt": "2024-05-15T18:07:13.153Z",
+            "updatedAt": "2024-05-15T18:07:13.153Z"
           }
         },
         {
@@ -1275,8 +1329,8 @@
             "dir": "/modules/5-computational-design-modeling-in-grasshopper",
             "path": "/modules/5-computational-design-modeling-in-grasshopper/5-1-Comp-Design-Modeling",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:18.001Z",
-            "updatedAt": "2022-10-06T21:21:18.001Z"
+            "createdAt": "2024-05-15T18:07:12.804Z",
+            "updatedAt": "2024-05-15T18:07:12.804Z"
           }
         },
         {
@@ -1335,8 +1389,8 @@
             "dir": "/modules/5-computational-design-modeling-in-grasshopper",
             "path": "/modules/5-computational-design-modeling-in-grasshopper/5-2-Subdivide-Geometry",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:18.001Z",
-            "updatedAt": "2022-10-06T21:21:18.001Z"
+            "createdAt": "2024-05-15T18:07:12.804Z",
+            "updatedAt": "2024-05-15T18:07:12.804Z"
           }
         },
         {
@@ -1405,8 +1459,8 @@
             "dir": "/modules/5-computational-design-modeling-in-grasshopper",
             "path": "/modules/5-computational-design-modeling-in-grasshopper/5-3-Analysis-Tools",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:18.002Z",
-            "updatedAt": "2022-10-06T21:21:18.002Z"
+            "createdAt": "2024-06-30T21:46:23.291Z",
+            "updatedAt": "2024-06-30T21:46:23.291Z"
           }
         },
         {
@@ -1475,8 +1529,8 @@
             "dir": "/modules/5-computational-design-modeling-in-grasshopper",
             "path": "/modules/5-computational-design-modeling-in-grasshopper/5-4-Street-Grid",
             "extension": ".md",
-            "createdAt": "2024-05-14T19:05:40.337Z",
-            "updatedAt": "2024-05-14T19:05:40.337Z"
+            "createdAt": "2024-06-30T21:46:23.291Z",
+            "updatedAt": "2024-06-30T21:46:23.292Z"
           }
         },
         {
@@ -1545,8 +1599,8 @@
             "dir": "/modules/5-computational-design-modeling-in-grasshopper",
             "path": "/modules/5-computational-design-modeling-in-grasshopper/5-5_Buildings-Density",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:18.002Z",
-            "updatedAt": "2022-10-06T21:21:18.002Z"
+            "createdAt": "2024-06-30T21:46:23.292Z",
+            "updatedAt": "2024-06-30T21:46:23.292Z"
           }
         },
         {
@@ -1620,8 +1674,8 @@
             "dir": "/modules/5-computational-design-modeling-in-grasshopper",
             "path": "/modules/5-computational-design-modeling-in-grasshopper/5-6_Troubleshooting",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:18.002Z",
-            "updatedAt": "2022-10-06T21:21:18.002Z"
+            "createdAt": "2024-06-30T21:46:23.292Z",
+            "updatedAt": "2024-06-30T21:46:23.292Z"
           }
         },
         {
@@ -1685,8 +1739,8 @@
             "dir": "/modules/5-computational-design-modeling-in-grasshopper",
             "path": "/modules/5-computational-design-modeling-in-grasshopper/5-7_Design-Space",
             "extension": ".md",
-            "createdAt": "2024-05-14T19:05:40.337Z",
-            "updatedAt": "2024-05-14T19:05:40.337Z"
+            "createdAt": "2024-06-30T21:46:23.292Z",
+            "updatedAt": "2024-06-30T21:46:23.292Z"
           }
         }
       ]
@@ -1720,8 +1774,8 @@
         "dir": "/modules/6-intro-to-python",
         "path": "/modules/6-intro-to-python/index",
         "extension": ".md",
-        "createdAt": "2022-10-06T21:21:18.600Z",
-        "updatedAt": "2022-10-06T21:21:18.600Z"
+        "createdAt": "2024-05-15T18:07:13.159Z",
+        "updatedAt": "2024-05-15T18:07:13.159Z"
       },
       "ordinal": 6,
       "path": "6-intro-to-python",
@@ -1758,8 +1812,8 @@
             "dir": "/modules/6-intro-to-python",
             "path": "/modules/6-intro-to-python/index",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:18.600Z",
-            "updatedAt": "2022-10-06T21:21:18.600Z"
+            "createdAt": "2024-05-15T18:07:13.159Z",
+            "updatedAt": "2024-05-15T18:07:13.159Z"
           }
         },
         {
@@ -1808,8 +1862,8 @@
             "dir": "/modules/6-intro-to-python",
             "path": "/modules/6-intro-to-python/61-getting-started-with-Python",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:18.592Z",
-            "updatedAt": "2022-10-06T21:21:18.592Z"
+            "createdAt": "2024-05-15T18:07:13.155Z",
+            "updatedAt": "2024-05-15T18:07:13.155Z"
           }
         },
         {
@@ -1858,8 +1912,8 @@
             "dir": "/modules/6-intro-to-python",
             "path": "/modules/6-intro-to-python/62-using-python-in-grasshopper",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:18.592Z",
-            "updatedAt": "2022-10-06T21:21:18.592Z"
+            "createdAt": "2024-05-15T18:07:13.155Z",
+            "updatedAt": "2024-05-15T18:07:13.155Z"
           }
         }
       ]
@@ -1893,8 +1947,8 @@
         "dir": "/modules/7-fundamentals-of-python",
         "path": "/modules/7-fundamentals-of-python/index",
         "extension": ".md",
-        "createdAt": "2022-10-06T21:21:18.600Z",
-        "updatedAt": "2022-10-06T21:21:18.600Z"
+        "createdAt": "2024-05-15T18:07:13.160Z",
+        "updatedAt": "2024-05-15T18:07:13.160Z"
       },
       "ordinal": 7,
       "path": "7-fundamentals-of-python",
@@ -1931,8 +1985,8 @@
             "dir": "/modules/7-fundamentals-of-python",
             "path": "/modules/7-fundamentals-of-python/index",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:18.600Z",
-            "updatedAt": "2022-10-06T21:21:18.600Z"
+            "createdAt": "2024-05-15T18:07:13.160Z",
+            "updatedAt": "2024-05-15T18:07:13.160Z"
           }
         },
         {
@@ -1996,8 +2050,8 @@
             "dir": "/modules/7-fundamentals-of-python",
             "path": "/modules/7-fundamentals-of-python/71-variables-lists-and-dictionaries",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:18.600Z",
-            "updatedAt": "2022-10-06T21:21:18.600Z"
+            "createdAt": "2024-05-15T18:07:13.160Z",
+            "updatedAt": "2024-05-15T18:07:13.160Z"
           }
         },
         {
@@ -2096,8 +2150,8 @@
             "dir": "/modules/7-fundamentals-of-python",
             "path": "/modules/7-fundamentals-of-python/72-conditionals-and-loops",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:18.600Z",
-            "updatedAt": "2022-10-06T21:21:18.600Z"
+            "createdAt": "2024-05-15T18:07:13.160Z",
+            "updatedAt": "2024-05-15T18:07:13.160Z"
           }
         },
         {
@@ -2141,8 +2195,8 @@
             "dir": "/modules/7-fundamentals-of-python",
             "path": "/modules/7-fundamentals-of-python/73-functions-and-classes",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:18.600Z",
-            "updatedAt": "2022-10-06T21:21:18.600Z"
+            "createdAt": "2024-05-15T18:07:13.160Z",
+            "updatedAt": "2024-05-15T18:07:13.160Z"
           }
         },
         {
@@ -2186,8 +2240,8 @@
             "dir": "/modules/7-fundamentals-of-python",
             "path": "/modules/7-fundamentals-of-python/74-python-libraries",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:18.600Z",
-            "updatedAt": "2022-10-06T21:21:18.600Z"
+            "createdAt": "2024-05-15T18:07:13.160Z",
+            "updatedAt": "2024-05-15T18:07:13.160Z"
           }
         }
       ]
@@ -2221,8 +2275,8 @@
         "dir": "/modules/8-intro-to-python-in-rhino",
         "path": "/modules/8-intro-to-python-in-rhino/index",
         "extension": ".md",
-        "createdAt": "2022-10-06T21:21:18.607Z",
-        "updatedAt": "2022-10-06T21:21:18.607Z"
+        "createdAt": "2024-05-15T18:07:13.165Z",
+        "updatedAt": "2024-05-15T18:07:13.165Z"
       },
       "ordinal": 8,
       "path": "8-intro-to-python-in-rhino",
@@ -2259,8 +2313,8 @@
             "dir": "/modules/8-intro-to-python-in-rhino",
             "path": "/modules/8-intro-to-python-in-rhino/index",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:18.607Z",
-            "updatedAt": "2022-10-06T21:21:18.607Z"
+            "createdAt": "2024-05-15T18:07:13.165Z",
+            "updatedAt": "2024-05-15T18:07:13.165Z"
           }
         },
         {
@@ -2314,8 +2368,8 @@
             "dir": "/modules/8-intro-to-python-in-rhino",
             "path": "/modules/8-intro-to-python-in-rhino/81-accessing-the-rhino-apis-in-python",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:18.600Z",
-            "updatedAt": "2022-10-06T21:21:18.601Z"
+            "createdAt": "2024-05-15T18:07:13.160Z",
+            "updatedAt": "2024-05-15T18:07:13.161Z"
           }
         },
         {
@@ -2364,8 +2418,8 @@
             "dir": "/modules/8-intro-to-python-in-rhino",
             "path": "/modules/8-intro-to-python-in-rhino/82-working-with-geometry-in-python",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:18.601Z",
-            "updatedAt": "2022-10-06T21:21:18.601Z"
+            "createdAt": "2024-05-15T18:07:13.161Z",
+            "updatedAt": "2024-05-15T18:07:13.161Z"
           }
         }
       ]
@@ -2399,8 +2453,8 @@
         "dir": "/modules/10-spatial-python",
         "path": "/modules/10-spatial-python/index",
         "extension": ".md",
-        "createdAt": "2022-10-06T21:21:14.111Z",
-        "updatedAt": "2022-10-06T21:21:14.111Z"
+        "createdAt": "2024-05-15T18:07:10.252Z",
+        "updatedAt": "2024-05-15T18:07:10.252Z"
       },
       "ordinal": 10,
       "path": "10-spatial-python",
@@ -2437,8 +2491,8 @@
             "dir": "/modules/10-spatial-python",
             "path": "/modules/10-spatial-python/index",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:14.111Z",
-            "updatedAt": "2022-10-06T21:21:14.111Z"
+            "createdAt": "2024-05-15T18:07:10.252Z",
+            "updatedAt": "2024-05-15T18:07:10.252Z"
           }
         },
         {
@@ -2492,8 +2546,8 @@
             "dir": "/modules/10-spatial-python",
             "path": "/modules/10-spatial-python/101-data-manipulation",
             "extension": ".md",
-            "createdAt": "2024-03-22T19:46:38.023Z",
-            "updatedAt": "2024-03-22T19:46:38.023Z"
+            "createdAt": "2024-05-15T18:07:10.222Z",
+            "updatedAt": "2024-06-22T16:08:50.351Z"
           }
         },
         {
@@ -2547,8 +2601,8 @@
             "dir": "/modules/10-spatial-python",
             "path": "/modules/10-spatial-python/102-geospatial-data",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:14.060Z",
-            "updatedAt": "2022-10-06T21:21:14.061Z"
+            "createdAt": "2024-05-15T18:07:10.223Z",
+            "updatedAt": "2024-05-15T18:07:10.223Z"
           }
         },
         {
@@ -2582,8 +2636,8 @@
             "dir": "/modules/10-spatial-python",
             "path": "/modules/10-spatial-python/103-spatial-analysis-point-pattern",
             "extension": ".md",
-            "createdAt": "2024-03-22T19:46:38.023Z",
-            "updatedAt": "2024-03-22T19:46:38.023Z"
+            "createdAt": "2024-05-15T18:07:10.223Z",
+            "updatedAt": "2024-05-15T18:07:10.223Z"
           }
         },
         {
@@ -2617,8 +2671,8 @@
             "dir": "/modules/10-spatial-python",
             "path": "/modules/10-spatial-python/104-spatial-analysis-correlation",
             "extension": ".md",
-            "createdAt": "2024-03-22T19:46:38.023Z",
-            "updatedAt": "2024-03-22T19:46:38.023Z"
+            "createdAt": "2024-05-15T18:07:10.223Z",
+            "updatedAt": "2024-05-15T18:07:10.223Z"
           }
         },
         {
@@ -2652,8 +2706,8 @@
             "dir": "/modules/10-spatial-python",
             "path": "/modules/10-spatial-python/105-spatial-analysis-clustering",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:14.061Z",
-            "updatedAt": "2022-10-06T21:21:14.061Z"
+            "createdAt": "2024-05-15T18:07:10.223Z",
+            "updatedAt": "2024-05-15T18:07:10.223Z"
           }
         }
       ]
@@ -2737,8 +2791,8 @@
         "dir": "/modules/11-interactive-web",
         "path": "/modules/11-interactive-web/index",
         "extension": ".md",
-        "createdAt": "2022-10-06T21:21:14.234Z",
-        "updatedAt": "2022-10-06T21:21:14.234Z"
+        "createdAt": "2024-05-15T18:07:10.325Z",
+        "updatedAt": "2024-05-15T18:07:10.325Z"
       },
       "ordinal": 11,
       "path": "11-interactive-web",
@@ -2825,8 +2879,8 @@
             "dir": "/modules/11-interactive-web",
             "path": "/modules/11-interactive-web/index",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:14.234Z",
-            "updatedAt": "2022-10-06T21:21:14.234Z"
+            "createdAt": "2024-05-15T18:07:10.325Z",
+            "updatedAt": "2024-05-15T18:07:10.325Z"
           }
         },
         {
@@ -2875,8 +2929,8 @@
             "dir": "/modules/11-interactive-web",
             "path": "/modules/11-interactive-web/110-getting-started",
             "extension": ".md",
-            "createdAt": "2023-06-06T20:39:11.036Z",
-            "updatedAt": "2023-06-06T20:39:11.037Z"
+            "createdAt": "2024-05-15T18:07:10.252Z",
+            "updatedAt": "2024-05-15T18:07:10.252Z"
           }
         },
         {
@@ -2945,8 +2999,8 @@
             "dir": "/modules/11-interactive-web",
             "path": "/modules/11-interactive-web/111-git-and-github",
             "extension": ".md",
-            "createdAt": "2023-06-29T16:03:25.785Z",
-            "updatedAt": "2023-06-29T16:03:25.786Z"
+            "createdAt": "2024-05-15T18:07:10.252Z",
+            "updatedAt": "2024-05-15T18:07:10.252Z"
           }
         },
         {
@@ -3025,8 +3079,8 @@
             "dir": "/modules/11-interactive-web",
             "path": "/modules/11-interactive-web/112-html-and-css",
             "extension": ".md",
-            "createdAt": "2023-06-06T20:39:11.037Z",
-            "updatedAt": "2023-06-06T20:39:11.037Z"
+            "createdAt": "2024-05-15T18:07:10.252Z",
+            "updatedAt": "2024-05-15T18:07:10.252Z"
           }
         },
         {
@@ -3155,8 +3209,8 @@
             "dir": "/modules/11-interactive-web",
             "path": "/modules/11-interactive-web/113-data-and-apis",
             "extension": ".md",
-            "createdAt": "2023-06-06T20:39:11.038Z",
-            "updatedAt": "2023-06-06T20:39:11.038Z"
+            "createdAt": "2024-05-15T18:07:10.252Z",
+            "updatedAt": "2024-05-15T18:07:10.253Z"
           }
         },
         {
@@ -3210,8 +3264,8 @@
             "dir": "/modules/11-interactive-web",
             "path": "/modules/11-interactive-web/114-events-and-uis",
             "extension": ".md",
-            "createdAt": "2024-03-22T19:46:38.023Z",
-            "updatedAt": "2024-03-22T19:46:38.024Z"
+            "createdAt": "2024-05-15T18:07:10.253Z",
+            "updatedAt": "2024-05-15T18:07:10.253Z"
           }
         },
         {
@@ -3255,8 +3309,8 @@
             "dir": "/modules/11-interactive-web",
             "path": "/modules/11-interactive-web/115-dom-manipulation",
             "extension": ".md",
-            "createdAt": "2023-06-06T20:39:11.038Z",
-            "updatedAt": "2023-06-06T20:39:11.038Z"
+            "createdAt": "2024-05-15T18:07:10.253Z",
+            "updatedAt": "2024-05-16T16:28:53.790Z"
           }
         }
       ]
@@ -3290,8 +3344,8 @@
         "dir": "/modules/12-rhino-intro",
         "path": "/modules/12-rhino-intro/index",
         "extension": ".md",
-        "createdAt": "2022-10-06T21:21:14.587Z",
-        "updatedAt": "2022-10-06T21:21:14.587Z"
+        "createdAt": "2024-05-15T18:07:10.530Z",
+        "updatedAt": "2024-05-15T18:07:10.530Z"
       },
       "ordinal": 12,
       "path": "12-rhino-intro",
@@ -3328,8 +3382,8 @@
             "dir": "/modules/12-rhino-intro",
             "path": "/modules/12-rhino-intro/index",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:14.587Z",
-            "updatedAt": "2022-10-06T21:21:14.587Z"
+            "createdAt": "2024-05-15T18:07:10.530Z",
+            "updatedAt": "2024-05-15T18:07:10.530Z"
           }
         },
         {
@@ -3388,8 +3442,8 @@
             "dir": "/modules/12-rhino-intro",
             "path": "/modules/12-rhino-intro/12-1_rhino-interface",
             "extension": ".md",
-            "createdAt": "2024-03-22T19:46:38.024Z",
-            "updatedAt": "2024-03-22T19:46:38.024Z"
+            "createdAt": "2024-05-15T18:07:10.325Z",
+            "updatedAt": "2024-05-15T18:07:10.325Z"
           }
         },
         {
@@ -3448,8 +3502,8 @@
             "dir": "/modules/12-rhino-intro",
             "path": "/modules/12-rhino-intro/12-2_rhino-2d",
             "extension": ".md",
-            "createdAt": "2023-06-29T16:03:25.786Z",
-            "updatedAt": "2023-06-29T16:03:25.787Z"
+            "createdAt": "2024-05-15T18:07:10.325Z",
+            "updatedAt": "2024-05-15T18:07:10.325Z"
           }
         },
         {
@@ -3513,8 +3567,8 @@
             "dir": "/modules/12-rhino-intro",
             "path": "/modules/12-rhino-intro/12-3_rhino-3d",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:14.234Z",
-            "updatedAt": "2022-10-06T21:21:14.234Z"
+            "createdAt": "2024-05-15T18:07:10.326Z",
+            "updatedAt": "2024-05-15T18:07:10.326Z"
           }
         },
         {
@@ -3598,8 +3652,8 @@
             "dir": "/modules/12-rhino-intro",
             "path": "/modules/12-rhino-intro/12-4_rhino-nurbs",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:14.234Z",
-            "updatedAt": "2022-10-06T21:21:14.234Z"
+            "createdAt": "2024-05-15T18:07:10.326Z",
+            "updatedAt": "2024-05-15T18:07:10.326Z"
           }
         }
       ]
@@ -3633,8 +3687,8 @@
         "dir": "/modules/13-arch-drawing",
         "path": "/modules/13-arch-drawing/index",
         "extension": ".md",
-        "createdAt": "2022-10-06T21:21:15.455Z",
-        "updatedAt": "2022-10-06T21:21:15.455Z"
+        "createdAt": "2024-05-15T18:07:11.050Z",
+        "updatedAt": "2024-05-15T18:07:11.050Z"
       },
       "ordinal": 13,
       "path": "13-arch-drawing",
@@ -3671,8 +3725,8 @@
             "dir": "/modules/13-arch-drawing",
             "path": "/modules/13-arch-drawing/index",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:15.455Z",
-            "updatedAt": "2022-10-06T21:21:15.455Z"
+            "createdAt": "2024-05-15T18:07:11.050Z",
+            "updatedAt": "2024-05-15T18:07:11.050Z"
           }
         },
         {
@@ -3762,8 +3816,8 @@
             "dir": "/modules/13-arch-drawing",
             "path": "/modules/13-arch-drawing/13-1_orthographic-drawing",
             "extension": ".md",
-            "createdAt": "2023-06-08T12:38:54.159Z",
-            "updatedAt": "2023-06-08T12:38:54.159Z"
+            "createdAt": "2024-05-15T18:07:10.530Z",
+            "updatedAt": "2024-05-15T18:07:10.530Z"
           }
         },
         {
@@ -3882,8 +3936,8 @@
             "dir": "/modules/13-arch-drawing",
             "path": "/modules/13-arch-drawing/13-2_projection",
             "extension": ".md",
-            "createdAt": "2023-06-08T12:38:54.159Z",
-            "updatedAt": "2023-06-08T12:38:54.159Z"
+            "createdAt": "2024-05-15T18:07:10.530Z",
+            "updatedAt": "2024-05-15T18:07:10.530Z"
           }
         },
         {
@@ -3957,8 +4011,8 @@
             "dir": "/modules/13-arch-drawing",
             "path": "/modules/13-arch-drawing/13-3_rendering",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:14.588Z",
-            "updatedAt": "2022-10-06T21:21:14.588Z"
+            "createdAt": "2024-05-15T18:07:10.530Z",
+            "updatedAt": "2024-05-15T18:07:10.530Z"
           }
         },
         {
@@ -4017,8 +4071,8 @@
             "dir": "/modules/13-arch-drawing",
             "path": "/modules/13-arch-drawing/13-4_compositing",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:14.588Z",
-            "updatedAt": "2022-10-06T21:21:14.588Z"
+            "createdAt": "2024-05-15T18:07:10.530Z",
+            "updatedAt": "2024-05-15T18:07:10.530Z"
           }
         }
       ]
@@ -4057,8 +4111,8 @@
         "dir": "/modules/14-geospatial-concepts",
         "path": "/modules/14-geospatial-concepts/index",
         "extension": ".md",
-        "createdAt": "2022-10-06T21:21:15.585Z",
-        "updatedAt": "2022-10-06T21:21:15.585Z"
+        "createdAt": "2024-05-15T18:07:11.124Z",
+        "updatedAt": "2024-05-15T18:07:11.124Z"
       },
       "ordinal": 14,
       "path": "14-geospatial-concepts",
@@ -4100,8 +4154,8 @@
             "dir": "/modules/14-geospatial-concepts",
             "path": "/modules/14-geospatial-concepts/index",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:15.585Z",
-            "updatedAt": "2022-10-06T21:21:15.585Z"
+            "createdAt": "2024-05-15T18:07:11.124Z",
+            "updatedAt": "2024-05-15T18:07:11.124Z"
           }
         },
         {
@@ -4145,8 +4199,8 @@
             "dir": "/modules/14-geospatial-concepts",
             "path": "/modules/14-geospatial-concepts/141-what-is-gis",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:15.455Z",
-            "updatedAt": "2022-10-06T21:21:15.455Z"
+            "createdAt": "2024-05-15T18:07:11.050Z",
+            "updatedAt": "2024-05-15T18:07:11.050Z"
           }
         },
         {
@@ -4210,8 +4264,8 @@
             "dir": "/modules/14-geospatial-concepts",
             "path": "/modules/14-geospatial-concepts/142-spatial-data",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:15.455Z",
-            "updatedAt": "2022-10-06T21:21:15.456Z"
+            "createdAt": "2024-05-15T18:07:11.050Z",
+            "updatedAt": "2024-05-15T18:07:11.050Z"
           }
         },
         {
@@ -4280,8 +4334,8 @@
             "dir": "/modules/14-geospatial-concepts",
             "path": "/modules/14-geospatial-concepts/143-coordinates-projections",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:15.456Z",
-            "updatedAt": "2022-10-06T21:21:15.456Z"
+            "createdAt": "2024-05-15T18:07:11.050Z",
+            "updatedAt": "2024-05-15T18:07:11.051Z"
           }
         }
       ]
@@ -4320,8 +4374,8 @@
         "dir": "/modules/15-intro-qgis",
         "path": "/modules/15-intro-qgis/index",
         "extension": ".md",
-        "createdAt": "2024-05-28T16:53:19.760Z",
-        "updatedAt": "2024-05-28T16:53:19.760Z"
+        "createdAt": "2024-06-30T21:46:22.883Z",
+        "updatedAt": "2024-06-30T21:46:22.883Z"
       },
       "ordinal": 15,
       "path": "15-intro-qgis",
@@ -4363,8 +4417,8 @@
             "dir": "/modules/15-intro-qgis",
             "path": "/modules/15-intro-qgis/index",
             "extension": ".md",
-            "createdAt": "2024-05-28T16:53:19.760Z",
-            "updatedAt": "2024-05-28T16:53:19.760Z"
+            "createdAt": "2024-06-30T21:46:22.883Z",
+            "updatedAt": "2024-06-30T21:46:22.883Z"
           }
         },
         {
@@ -4453,8 +4507,8 @@
             "dir": "/modules/15-intro-qgis",
             "path": "/modules/15-intro-qgis/151-mapping-where",
             "extension": ".md",
-            "createdAt": "2024-03-22T19:46:38.135Z",
-            "updatedAt": "2024-03-22T19:46:38.136Z"
+            "createdAt": "2024-05-15T18:07:11.124Z",
+            "updatedAt": "2024-05-15T18:07:11.124Z"
           }
         },
         {
@@ -4538,8 +4592,8 @@
             "dir": "/modules/15-intro-qgis",
             "path": "/modules/15-intro-qgis/152-print-layout",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:15.585Z",
-            "updatedAt": "2022-10-06T21:21:15.585Z"
+            "createdAt": "2024-05-15T18:07:11.124Z",
+            "updatedAt": "2024-05-15T18:07:11.124Z"
           }
         },
         {
@@ -4593,8 +4647,8 @@
             "dir": "/modules/15-intro-qgis",
             "path": "/modules/15-intro-qgis/153-archives",
             "extension": ".md",
-            "createdAt": "2024-03-22T19:46:38.136Z",
-            "updatedAt": "2024-03-22T19:46:38.136Z"
+            "createdAt": "2024-05-15T18:07:11.124Z",
+            "updatedAt": "2024-05-15T18:07:11.124Z"
           }
         },
         {
@@ -4648,8 +4702,8 @@
             "dir": "/modules/15-intro-qgis",
             "path": "/modules/15-intro-qgis/154-observations",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:15.585Z",
-            "updatedAt": "2022-10-06T21:21:15.585Z"
+            "createdAt": "2024-05-15T18:07:11.124Z",
+            "updatedAt": "2024-05-15T18:07:11.124Z"
           }
         },
         {
@@ -4713,8 +4767,8 @@
             "dir": "/modules/15-intro-qgis",
             "path": "/modules/15-intro-qgis/155-satellites",
             "extension": ".md",
-            "createdAt": "2024-03-22T19:46:38.136Z",
-            "updatedAt": "2024-03-22T19:46:38.136Z"
+            "createdAt": "2024-05-15T18:07:11.124Z",
+            "updatedAt": "2024-05-15T18:07:11.124Z"
           }
         },
         {
@@ -4726,7 +4780,8 @@
             "title": "Making Data from Aerial Imagery",
             "published": true,
             "authors": [
-              "Dare Brawley"
+              "Dare Brawley",
+              "Adam Vosburgh"
             ],
             "toc": [
               {
@@ -4758,8 +4813,8 @@
             "dir": "/modules/15-intro-qgis",
             "path": "/modules/15-intro-qgis/156-aerial-imagery",
             "extension": ".md",
-            "createdAt": "2024-03-22T19:46:38.136Z",
-            "updatedAt": "2024-03-22T19:46:38.136Z"
+            "createdAt": "2024-06-30T21:46:22.867Z",
+            "updatedAt": "2024-06-30T21:46:22.867Z"
           }
         },
         {
@@ -4828,8 +4883,8 @@
             "dir": "/modules/15-intro-qgis",
             "path": "/modules/15-intro-qgis/157-street-view",
             "extension": ".md",
-            "createdAt": "2024-05-28T16:53:19.760Z",
-            "updatedAt": "2024-05-28T16:53:19.760Z"
+            "createdAt": "2024-06-30T21:46:22.867Z",
+            "updatedAt": "2024-06-30T21:46:22.867Z"
           }
         },
         {
@@ -4883,8 +4938,8 @@
             "dir": "/modules/15-intro-qgis",
             "path": "/modules/15-intro-qgis/158-atlas",
             "extension": ".md",
-            "createdAt": "2024-05-28T16:53:19.760Z",
-            "updatedAt": "2024-05-28T16:53:19.760Z"
+            "createdAt": "2024-06-30T21:46:22.867Z",
+            "updatedAt": "2024-06-30T21:46:22.867Z"
           }
         }
       ]
@@ -4919,8 +4974,8 @@
         "dir": "/modules/16-intro-webmapping",
         "path": "/modules/16-intro-webmapping/index",
         "extension": ".md",
-        "createdAt": "2024-05-28T16:53:19.820Z",
-        "updatedAt": "2024-05-28T16:53:19.820Z"
+        "createdAt": "2024-06-30T21:46:22.947Z",
+        "updatedAt": "2024-06-30T21:46:22.947Z"
       },
       "ordinal": 16,
       "path": "16-intro-webmapping",
@@ -4958,8 +5013,8 @@
             "dir": "/modules/16-intro-webmapping",
             "path": "/modules/16-intro-webmapping/index",
             "extension": ".md",
-            "createdAt": "2024-05-28T16:53:19.820Z",
-            "updatedAt": "2024-05-28T16:53:19.820Z"
+            "createdAt": "2024-06-30T21:46:22.947Z",
+            "updatedAt": "2024-06-30T21:46:22.947Z"
           }
         },
         {
@@ -5009,8 +5064,8 @@
             "dir": "/modules/16-intro-webmapping",
             "path": "/modules/16-intro-webmapping/161-webmap-part1",
             "extension": ".md",
-            "createdAt": "2024-05-28T16:53:19.760Z",
-            "updatedAt": "2024-05-28T18:09:21.561Z"
+            "createdAt": "2024-06-30T21:46:22.884Z",
+            "updatedAt": "2024-06-30T21:46:22.884Z"
           }
         },
         {
@@ -5075,8 +5130,8 @@
             "dir": "/modules/16-intro-webmapping",
             "path": "/modules/16-intro-webmapping/162-webmap-part2",
             "extension": ".md",
-            "createdAt": "2024-05-28T16:53:19.761Z",
-            "updatedAt": "2024-05-28T17:45:35.827Z"
+            "createdAt": "2024-06-30T21:46:22.884Z",
+            "updatedAt": "2024-06-30T21:46:22.884Z"
           }
         },
         {
@@ -5115,8 +5170,8 @@
             "dir": "/modules/16-intro-webmapping",
             "path": "/modules/16-intro-webmapping/163-storytelling",
             "extension": ".md",
-            "createdAt": "2024-05-28T16:53:19.761Z",
-            "updatedAt": "2024-05-28T17:25:38.182Z"
+            "createdAt": "2024-06-30T21:46:22.884Z",
+            "updatedAt": "2024-06-30T21:46:22.884Z"
           }
         }
       ]
@@ -5165,8 +5220,8 @@
         "dir": "/modules/17-ambient-computing-network-architecture",
         "path": "/modules/17-ambient-computing-network-architecture/index",
         "extension": ".md",
-        "createdAt": "2024-05-28T16:53:20.219Z",
-        "updatedAt": "2024-05-28T16:53:20.219Z"
+        "createdAt": "2024-06-30T21:46:23.291Z",
+        "updatedAt": "2024-06-30T21:46:23.291Z"
       },
       "ordinal": 17,
       "path": "17-ambient-computing-network-architecture",
@@ -5218,8 +5273,8 @@
             "dir": "/modules/17-ambient-computing-network-architecture",
             "path": "/modules/17-ambient-computing-network-architecture/index",
             "extension": ".md",
-            "createdAt": "2024-05-28T16:53:20.219Z",
-            "updatedAt": "2024-05-28T16:53:20.219Z"
+            "createdAt": "2024-06-30T21:46:23.291Z",
+            "updatedAt": "2024-06-30T21:46:23.291Z"
           }
         },
         {
@@ -5258,8 +5313,8 @@
             "dir": "/modules/17-ambient-computing-network-architecture",
             "path": "/modules/17-ambient-computing-network-architecture/171-Intro-to-P5",
             "extension": ".md",
-            "createdAt": "2024-05-28T16:53:19.820Z",
-            "updatedAt": "2024-05-28T16:53:19.820Z"
+            "createdAt": "2024-06-30T21:46:22.947Z",
+            "updatedAt": "2024-06-30T21:46:22.947Z"
           }
         },
         {
@@ -5323,8 +5378,8 @@
             "dir": "/modules/17-ambient-computing-network-architecture",
             "path": "/modules/17-ambient-computing-network-architecture/172-Webhooks-Connecting-IFTTT-and-P5",
             "extension": ".md",
-            "createdAt": "2024-05-28T16:53:19.820Z",
-            "updatedAt": "2024-05-28T16:53:19.820Z"
+            "createdAt": "2024-06-30T21:46:22.947Z",
+            "updatedAt": "2024-06-30T21:46:22.947Z"
           }
         },
         {
@@ -5438,8 +5493,8 @@
             "dir": "/modules/17-ambient-computing-network-architecture",
             "path": "/modules/17-ambient-computing-network-architecture/173-sounds-speech-and-macros",
             "extension": ".md",
-            "createdAt": "2024-05-28T16:53:19.820Z",
-            "updatedAt": "2024-05-28T16:53:19.821Z"
+            "createdAt": "2024-06-30T21:46:22.947Z",
+            "updatedAt": "2024-06-30T21:46:22.947Z"
           }
         },
         {
@@ -5513,8 +5568,8 @@
             "dir": "/modules/17-ambient-computing-network-architecture",
             "path": "/modules/17-ambient-computing-network-architecture/175-ML5-&-Computer-Vision",
             "extension": ".md",
-            "createdAt": "2024-05-28T16:53:19.821Z",
-            "updatedAt": "2024-05-28T16:53:19.821Z"
+            "createdAt": "2024-06-30T21:46:22.947Z",
+            "updatedAt": "2024-06-30T21:46:22.947Z"
           }
         }
       ]
@@ -5553,8 +5608,8 @@
         "dir": "/modules/18-behavioral-modeling-intro",
         "path": "/modules/18-behavioral-modeling-intro/index",
         "extension": ".md",
-        "createdAt": "2022-10-06T21:21:17.605Z",
-        "updatedAt": "2022-10-06T21:21:17.605Z"
+        "createdAt": "2024-05-15T18:07:12.264Z",
+        "updatedAt": "2024-05-15T18:07:12.264Z"
       },
       "ordinal": 18,
       "path": "18-behavioral-modeling-intro",
@@ -5596,8 +5651,8 @@
             "dir": "/modules/18-behavioral-modeling-intro",
             "path": "/modules/18-behavioral-modeling-intro/index",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:17.605Z",
-            "updatedAt": "2022-10-06T21:21:17.605Z"
+            "createdAt": "2024-05-15T18:07:12.264Z",
+            "updatedAt": "2024-05-15T18:07:12.264Z"
           }
         },
         {
@@ -5646,8 +5701,8 @@
             "dir": "/modules/18-behavioral-modeling-intro",
             "path": "/modules/18-behavioral-modeling-intro/181-Unity-and-Agent-Based-Models",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:16.903Z",
-            "updatedAt": "2022-10-06T21:21:16.904Z"
+            "createdAt": "2024-05-15T18:07:11.874Z",
+            "updatedAt": "2024-05-15T18:07:11.875Z"
           }
         },
         {
@@ -5711,8 +5766,8 @@
             "dir": "/modules/18-behavioral-modeling-intro",
             "path": "/modules/18-behavioral-modeling-intro/182-Intro-To-Unity",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:16.904Z",
-            "updatedAt": "2022-10-06T21:21:16.904Z"
+            "createdAt": "2024-05-15T18:07:11.875Z",
+            "updatedAt": "2024-05-15T18:07:11.875Z"
           }
         },
         {
@@ -5776,8 +5831,8 @@
             "dir": "/modules/18-behavioral-modeling-intro",
             "path": "/modules/18-behavioral-modeling-intro/183-Agent-Based-Populations-and-Behavior-Bricks",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:16.904Z",
-            "updatedAt": "2022-10-06T21:21:16.904Z"
+            "createdAt": "2024-05-15T18:07:11.875Z",
+            "updatedAt": "2024-05-15T18:07:11.875Z"
           }
         },
         {
@@ -5821,8 +5876,8 @@
             "dir": "/modules/18-behavioral-modeling-intro",
             "path": "/modules/18-behavioral-modeling-intro/184-Mapbox-SDK-and-Routing",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:16.904Z",
-            "updatedAt": "2022-10-06T21:21:16.904Z"
+            "createdAt": "2024-05-15T18:07:11.875Z",
+            "updatedAt": "2024-05-15T18:07:11.875Z"
           }
         }
       ]
@@ -5866,8 +5921,8 @@
         "dir": "/modules/19-data_visualization",
         "path": "/modules/19-data_visualization/index",
         "extension": ".md",
-        "createdAt": "2024-03-22T19:46:38.137Z",
-        "updatedAt": "2024-03-22T19:46:38.137Z"
+        "createdAt": "2024-05-15T18:07:12.293Z",
+        "updatedAt": "2024-05-15T18:07:12.293Z"
       },
       "ordinal": 19,
       "path": "19-data_visualization",
@@ -5914,8 +5969,8 @@
             "dir": "/modules/19-data_visualization",
             "path": "/modules/19-data_visualization/index",
             "extension": ".md",
-            "createdAt": "2024-03-22T19:46:38.137Z",
-            "updatedAt": "2024-03-22T19:46:38.137Z"
+            "createdAt": "2024-05-15T18:07:12.293Z",
+            "updatedAt": "2024-05-15T18:07:12.293Z"
           }
         },
         {
@@ -5933,8 +5988,8 @@
             "dir": "/modules/19-data_visualization",
             "path": "/modules/19-data_visualization/Module1WorkflowsPartASetupCodeEnvironment",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:17.605Z",
-            "updatedAt": "2022-10-06T21:21:17.605Z"
+            "createdAt": "2024-05-15T18:07:12.264Z",
+            "updatedAt": "2024-05-15T18:07:12.264Z"
           }
         },
         {
@@ -5952,8 +6007,8 @@
             "dir": "/modules/19-data_visualization",
             "path": "/modules/19-data_visualization/Module2Introductiontod3anscombe",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:17.605Z",
-            "updatedAt": "2022-10-06T21:21:17.605Z"
+            "createdAt": "2024-05-15T18:07:12.264Z",
+            "updatedAt": "2024-05-15T18:07:12.264Z"
           }
         },
         {
@@ -5971,8 +6026,8 @@
             "dir": "/modules/19-data_visualization",
             "path": "/modules/19-data_visualization/Module3Tourofthebasiccharts1Bar",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:17.606Z",
-            "updatedAt": "2024-01-17T20:42:00.998Z"
+            "createdAt": "2024-05-15T18:07:12.264Z",
+            "updatedAt": "2024-05-15T18:07:12.264Z"
           }
         },
         {
@@ -5990,8 +6045,8 @@
             "dir": "/modules/19-data_visualization",
             "path": "/modules/19-data_visualization/Module3Tourofthebasiccharts2Line",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:17.606Z",
-            "updatedAt": "2022-10-06T21:21:17.606Z"
+            "createdAt": "2024-05-15T18:07:12.264Z",
+            "updatedAt": "2024-05-15T18:07:12.264Z"
           }
         },
         {
@@ -6009,8 +6064,8 @@
             "dir": "/modules/19-data_visualization",
             "path": "/modules/19-data_visualization/Module3Tourofthebasiccharts3Pie",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:17.606Z",
-            "updatedAt": "2022-10-06T21:21:17.606Z"
+            "createdAt": "2024-05-15T18:07:12.264Z",
+            "updatedAt": "2024-05-15T18:07:12.264Z"
           }
         },
         {
@@ -6028,8 +6083,8 @@
             "dir": "/modules/19-data_visualization",
             "path": "/modules/19-data_visualization/Module4Workingwithexternaldata",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:17.606Z",
-            "updatedAt": "2022-10-06T21:21:17.606Z"
+            "createdAt": "2024-05-15T18:07:12.264Z",
+            "updatedAt": "2024-05-15T18:07:12.264Z"
           }
         },
         {
@@ -6047,8 +6102,8 @@
             "dir": "/modules/19-data_visualization",
             "path": "/modules/19-data_visualization/Module5Buildinginteractivity",
             "extension": ".md",
-            "createdAt": "2022-10-06T21:21:17.606Z",
-            "updatedAt": "2022-10-06T21:21:17.606Z"
+            "createdAt": "2024-05-15T18:07:12.264Z",
+            "updatedAt": "2024-05-15T18:07:12.264Z"
           }
         }
       ]
@@ -6082,8 +6137,8 @@
         "dir": "/modules/21-integrated-computational-simulation",
         "path": "/modules/21-integrated-computational-simulation/index",
         "extension": ".md",
-        "createdAt": "2024-03-22T20:34:05.170Z",
-        "updatedAt": "2024-03-22T20:34:05.170Z"
+        "createdAt": "2024-05-15T18:07:12.437Z",
+        "updatedAt": "2024-05-15T18:07:12.437Z"
       },
       "ordinal": 21,
       "path": "21-integrated-computational-simulation",
@@ -6120,8 +6175,8 @@
             "dir": "/modules/21-integrated-computational-simulation",
             "path": "/modules/21-integrated-computational-simulation/index",
             "extension": ".md",
-            "createdAt": "2024-03-22T20:34:05.170Z",
-            "updatedAt": "2024-03-22T20:34:05.170Z"
+            "createdAt": "2024-05-15T18:07:12.437Z",
+            "updatedAt": "2024-05-15T18:07:12.437Z"
           }
         },
         {
@@ -6210,8 +6265,8 @@
             "dir": "/modules/21-integrated-computational-simulation",
             "path": "/modules/21-integrated-computational-simulation/211-tensile-membrane",
             "extension": ".md",
-            "createdAt": "2024-03-22T20:34:04.619Z",
-            "updatedAt": "2024-03-22T20:34:04.620Z"
+            "createdAt": "2024-05-15T18:07:12.293Z",
+            "updatedAt": "2024-05-15T18:07:12.293Z"
           }
         },
         {
@@ -6310,8 +6365,8 @@
             "dir": "/modules/21-integrated-computational-simulation",
             "path": "/modules/21-integrated-computational-simulation/212-inflatable-structure",
             "extension": ".md",
-            "createdAt": "2024-03-22T20:34:04.620Z",
-            "updatedAt": "2024-03-22T20:34:04.621Z"
+            "createdAt": "2024-05-15T18:07:12.293Z",
+            "updatedAt": "2024-05-15T18:07:12.293Z"
           }
         },
         {
@@ -6400,8 +6455,8 @@
             "dir": "/modules/21-integrated-computational-simulation",
             "path": "/modules/21-integrated-computational-simulation/213-acoustic",
             "extension": ".md",
-            "createdAt": "2024-03-22T20:34:04.622Z",
-            "updatedAt": "2024-03-22T20:34:04.623Z"
+            "createdAt": "2024-05-15T18:07:12.293Z",
+            "updatedAt": "2024-05-15T18:07:12.293Z"
           }
         }
       ]
@@ -6435,8 +6490,8 @@
         "dir": "/modules/23-parametric-visualization-with-grasshopper",
         "path": "/modules/23-parametric-visualization-with-grasshopper/index",
         "extension": ".md",
-        "createdAt": "2024-03-23T18:50:30.031Z",
-        "updatedAt": "2024-03-23T18:50:30.034Z"
+        "createdAt": "2024-05-15T18:07:12.599Z",
+        "updatedAt": "2024-05-15T18:07:12.600Z"
       },
       "ordinal": 23,
       "path": "23-parametric-visualization-with-grasshopper",
@@ -6473,8 +6528,8 @@
             "dir": "/modules/23-parametric-visualization-with-grasshopper",
             "path": "/modules/23-parametric-visualization-with-grasshopper/index",
             "extension": ".md",
-            "createdAt": "2024-03-23T18:50:30.031Z",
-            "updatedAt": "2024-03-23T18:50:30.034Z"
+            "createdAt": "2024-05-15T18:07:12.599Z",
+            "updatedAt": "2024-05-15T18:07:12.600Z"
           }
         },
         {
@@ -6513,8 +6568,8 @@
             "dir": "/modules/23-parametric-visualization-with-grasshopper",
             "path": "/modules/23-parametric-visualization-with-grasshopper/23-1_tabular-data",
             "extension": ".md",
-            "createdAt": "2024-03-23T18:50:29.409Z",
-            "updatedAt": "2024-03-23T18:50:29.410Z"
+            "createdAt": "2024-05-15T18:07:12.437Z",
+            "updatedAt": "2024-05-15T18:07:12.437Z"
           }
         },
         {
@@ -6563,8 +6618,1212 @@
             "dir": "/modules/23-parametric-visualization-with-grasshopper",
             "path": "/modules/23-parametric-visualization-with-grasshopper/23-3_media",
             "extension": ".md",
-            "createdAt": "2024-03-23T18:50:29.410Z",
-            "updatedAt": "2024-03-23T18:50:29.410Z"
+            "createdAt": "2024-05-15T18:07:12.437Z",
+            "updatedAt": "2024-05-15T18:07:12.437Z"
+          }
+        }
+      ]
+    },
+    {
+      "contentdata": {
+        "slug": "index",
+        "moduleid": 300,
+        "title": "Introduction to Modern Artificial Intelligence",
+        "authors": [
+          "William Martin"
+        ],
+        "published": true,
+        "toc": [
+          {
+            "id": "sequences-and-modules",
+            "depth": 2,
+            "text": "Sequences and Modules"
+          },
+          {
+            "id": "introduction-to-modern-ai",
+            "depth": 3,
+            "text": "Introduction to Modern AI"
+          },
+          {
+            "id": "ai-for-language-and-text",
+            "depth": 3,
+            "text": "AI for Language and Text"
+          },
+          {
+            "id": "ai-for-vision-and-imagery",
+            "depth": 3,
+            "text": "AI for Vision and Imagery"
+          }
+        ],
+        "dir": "/modules/30-ai-intro",
+        "path": "/modules/30-ai-intro/index",
+        "extension": ".md",
+        "createdAt": "2024-06-30T21:46:23.611Z",
+        "updatedAt": "2024-06-30T21:46:23.611Z"
+      },
+      "ordinal": 30,
+      "path": "30-ai-intro",
+      "slug": "ai-intro",
+      "modules": [
+        {
+          "file": "index.md",
+          "ordinal": 0,
+          "contentdata": {
+            "slug": "index",
+            "moduleid": 300,
+            "title": "Introduction to Modern Artificial Intelligence",
+            "authors": [
+              "William Martin"
+            ],
+            "published": true,
+            "toc": [
+              {
+                "id": "sequences-and-modules",
+                "depth": 2,
+                "text": "Sequences and Modules"
+              },
+              {
+                "id": "introduction-to-modern-ai",
+                "depth": 3,
+                "text": "Introduction to Modern AI"
+              },
+              {
+                "id": "ai-for-language-and-text",
+                "depth": 3,
+                "text": "AI for Language and Text"
+              },
+              {
+                "id": "ai-for-vision-and-imagery",
+                "depth": 3,
+                "text": "AI for Vision and Imagery"
+              }
+            ],
+            "dir": "/modules/30-ai-intro",
+            "path": "/modules/30-ai-intro/index",
+            "extension": ".md",
+            "createdAt": "2024-06-30T21:46:23.611Z",
+            "updatedAt": "2024-06-30T21:46:23.611Z"
+          }
+        },
+        {
+          "file": "301-what-is-ai.md",
+          "ordinal": 301,
+          "contentdata": {
+            "slug": "301-what-is-ai",
+            "moduleid": 301,
+            "title": "What is artificial intelligence?",
+            "authors": [
+              "William Martin"
+            ],
+            "published": true,
+            "toc": [
+              {
+                "id": "oxford-english-dictionary",
+                "depth": 2,
+                "text": "Oxford English Dictionary"
+              },
+              {
+                "id": "artificial-vs-natural",
+                "depth": 2,
+                "text": "Artificial vs Natural"
+              },
+              {
+                "id": "defining-artificial-and-intelligence",
+                "depth": 2,
+                "text": "Defining \"Artificial\" and \"Intelligence\""
+              },
+              {
+                "id": "as-defined-in-ai-a-modern-approach",
+                "depth": 2,
+                "text": "As Defined in AI: A Modern Approach."
+              },
+              {
+                "id": "council-on-artificial-intelligence-eu-ai-act",
+                "depth": 2,
+                "text": "Council on Artificial Intelligence, EU AI Act"
+              },
+              {
+                "id": "ai-domains-as-summarized-by-ai-watch",
+                "depth": 3,
+                "text": "AI Domains as summarized by AI Watch"
+              },
+              {
+                "id": "ai-system-definition-from-oecd",
+                "depth": 3,
+                "text": "\"AI System\" Definition from OECD"
+              },
+              {
+                "id": "ai-tasks-and-models",
+                "depth": 2,
+                "text": "AI Tasks and Models"
+              },
+              {
+                "id": "generative-vs-non-generative-ai",
+                "depth": 2,
+                "text": "Generative vs Non-Generative AI"
+              },
+              {
+                "id": "popular-definitions",
+                "depth": 2,
+                "text": "Popular Definitions"
+              }
+            ],
+            "dir": "/modules/30-ai-intro",
+            "path": "/modules/30-ai-intro/301-what-is-ai",
+            "extension": ".md",
+            "createdAt": "2024-06-30T21:46:23.610Z",
+            "updatedAt": "2024-06-30T21:46:23.610Z"
+          }
+        },
+        {
+          "file": "302-how-ai-works.md",
+          "ordinal": 302,
+          "contentdata": {
+            "slug": "302-how-ai-works",
+            "moduleid": 302,
+            "title": "How does AI work?",
+            "authors": [
+              "William Martin"
+            ],
+            "published": true,
+            "toc": [
+              {
+                "id": "subfields-and-implementations-of-ai",
+                "depth": 2,
+                "text": "Subfields and Implementations of AI"
+              },
+              {
+                "id": "machine-learning",
+                "depth": 2,
+                "text": "Machine Learning"
+              },
+              {
+                "id": "more-explanations-of-ml",
+                "depth": 2,
+                "text": "More Explanations of ML"
+              },
+              {
+                "id": "types-of-machine-learning",
+                "depth": 2,
+                "text": "Types of Machine Learning"
+              },
+              {
+                "id": "ml-concepts",
+                "depth": 2,
+                "text": "ML Concepts"
+              },
+              {
+                "id": "data",
+                "depth": 2,
+                "text": "Data"
+              },
+              {
+                "id": "classification-and-regression",
+                "depth": 2,
+                "text": "Classification and Regression"
+              },
+              {
+                "id": "everything-in-ml-is-numbers",
+                "depth": 2,
+                "text": "Everything in ML is numbers."
+              },
+              {
+                "id": "models",
+                "depth": 2,
+                "text": "Models"
+              },
+              {
+                "id": "all-models-are-wrong",
+                "depth": 3,
+                "text": "All models are wrong…"
+              },
+              {
+                "id": "parameters",
+                "depth": 2,
+                "text": "Parameters"
+              },
+              {
+                "id": "training",
+                "depth": 2,
+                "text": "Training"
+              },
+              {
+                "id": "risk-of-overfitting",
+                "depth": 3,
+                "text": "Risk of \"Overfitting\""
+              },
+              {
+                "id": "its-a-tricky-business",
+                "depth": 3,
+                "text": "It's a tricky business."
+              },
+              {
+                "id": "example-handwriting-recognition-and-image-classification",
+                "depth": 2,
+                "text": "Example: Handwriting Recognition and Image Classification"
+              },
+              {
+                "id": "more-examples",
+                "depth": 2,
+                "text": "More Examples"
+              }
+            ],
+            "dir": "/modules/30-ai-intro",
+            "path": "/modules/30-ai-intro/302-how-ai-works",
+            "extension": ".md",
+            "createdAt": "2024-06-30T21:46:23.610Z",
+            "updatedAt": "2024-06-30T21:46:23.610Z"
+          }
+        },
+        {
+          "file": "303-teachable-machine.md",
+          "ordinal": 303,
+          "contentdata": {
+            "slug": "303-teachable-machine",
+            "moduleid": 303,
+            "title": "Machine Learning with Teachable Machine",
+            "authors": [
+              "William Martin"
+            ],
+            "published": true,
+            "toc": [
+              {
+                "id": "teachable-machine",
+                "depth": 2,
+                "text": "Teachable Machine"
+              },
+              {
+                "id": "exercise-1-image-project",
+                "depth": 2,
+                "text": "Exercise 1: Image Project"
+              },
+              {
+                "id": "getting-started",
+                "depth": 3,
+                "text": "Getting Started"
+              },
+              {
+                "id": "pick-two-or-more-classes",
+                "depth": 3,
+                "text": "Pick Two or More Classes"
+              },
+              {
+                "id": "add-images-for-each-class-via-webcam",
+                "depth": 3,
+                "text": "Add Images for Each Class via Webcam"
+              },
+              {
+                "id": "train-the-model",
+                "depth": 3,
+                "text": "Train the Model!"
+              },
+              {
+                "id": "test-the-model",
+                "depth": 3,
+                "text": "Test the Model"
+              },
+              {
+                "id": "screenshots",
+                "depth": 3,
+                "text": "Screenshots"
+              },
+              {
+                "id": "on-confidence-levels",
+                "depth": 3,
+                "text": "On Confidence Levels"
+              },
+              {
+                "id": "chihuahua-or-blueberry-muffin",
+                "depth": 3,
+                "text": "Chihuahua or Blueberry Muffin?"
+              },
+              {
+                "id": "exercise-2-pose-project",
+                "depth": 2,
+                "text": "Exercise 2: Pose Project"
+              },
+              {
+                "id": "pick-two-or-more-classes-1",
+                "depth": 3,
+                "text": "Pick Two or More Classes"
+              },
+              {
+                "id": "add-images-for-each-class-via-webcam-1",
+                "depth": 3,
+                "text": "Add Images for Each Class via Webcam"
+              },
+              {
+                "id": "train-and-test-the-model",
+                "depth": 3,
+                "text": "Train and Test the Model"
+              },
+              {
+                "id": "screenshots-1",
+                "depth": 3,
+                "text": "Screenshots"
+              }
+            ],
+            "dir": "/modules/30-ai-intro",
+            "path": "/modules/30-ai-intro/303-teachable-machine",
+            "extension": ".md",
+            "createdAt": "2024-06-30T21:46:23.610Z",
+            "updatedAt": "2024-06-30T21:46:23.610Z"
+          }
+        },
+        {
+          "file": "304-neural-networks.md",
+          "ordinal": 304,
+          "contentdata": {
+            "slug": "304-neural-networks",
+            "moduleid": 304,
+            "title": "Neural Networks",
+            "authors": [
+              "William Martin"
+            ],
+            "published": true,
+            "toc": [
+              {
+                "id": "neural-networks",
+                "depth": 2,
+                "text": "Neural Networks"
+              },
+              {
+                "id": "exercise-neural-network-playground",
+                "depth": 2,
+                "text": "Exercise: Neural Network Playground"
+              },
+              {
+                "id": "the-goal",
+                "depth": 3,
+                "text": "The Goal"
+              },
+              {
+                "id": "a-tour-of-the-interface",
+                "depth": 3,
+                "text": "A Tour of the Interface"
+              },
+              {
+                "id": "task-a-circle",
+                "depth": 3,
+                "text": "Task A: Circle"
+              },
+              {
+                "id": "task-b-spiral",
+                "depth": 3,
+                "text": "Task B: Spiral"
+              }
+            ],
+            "dir": "/modules/30-ai-intro",
+            "path": "/modules/30-ai-intro/304-neural-networks",
+            "extension": ".md",
+            "createdAt": "2024-06-30T21:46:23.610Z",
+            "updatedAt": "2024-06-30T21:46:23.610Z"
+          }
+        },
+        {
+          "file": "305-major-ai-platforms.md",
+          "ordinal": 305,
+          "contentdata": {
+            "slug": "305-major-ai-platforms",
+            "moduleid": 305,
+            "title": "Major AI Platforms and Tools",
+            "authors": [
+              "William Martin"
+            ],
+            "published": true,
+            "toc": [
+              {
+                "id": "hosted-platformopenai",
+                "depth": 2,
+                "text": "Hosted Platform: OpenAI"
+              },
+              {
+                "id": "chatgpt",
+                "depth": 3,
+                "text": "ChatGPT"
+              },
+              {
+                "id": "api",
+                "depth": 3,
+                "text": "API"
+              },
+              {
+                "id": "gpt-vs-chatgpt",
+                "depth": 3,
+                "text": "GPT vs ChatGPT"
+              },
+              {
+                "id": "task-sign-up-for-an-openai-platform-account",
+                "depth": 3,
+                "text": "Task: Sign up for an OpenAI Platform account"
+              },
+              {
+                "id": "task-set-up-billing-for-the-api",
+                "depth": 3,
+                "text": "Task: Set up billing for the API"
+              },
+              {
+                "id": "task-set-up-a-new-project-for-the-smorgasbord-tutorials",
+                "depth": 3,
+                "text": "Task: Set up a new Project for the Smorgasbord tutorials."
+              },
+              {
+                "id": "hosted-platform-google-vertex-ai-studio",
+                "depth": 2,
+                "text": "Hosted Platform: Google Vertex AI Studio"
+              },
+              {
+                "id": "hybrid-platform-hugging-face",
+                "depth": 2,
+                "text": "Hybrid Platform: Hugging Face"
+              },
+              {
+                "id": "tensorflow",
+                "depth": 2,
+                "text": "Tensorflow"
+              },
+              {
+                "id": "pytorch",
+                "depth": 2,
+                "text": "PyTorch"
+              }
+            ],
+            "dir": "/modules/30-ai-intro",
+            "path": "/modules/30-ai-intro/305-major-ai-platforms",
+            "extension": ".md",
+            "createdAt": "2024-06-30T21:46:23.610Z",
+            "updatedAt": "2024-06-30T21:46:23.610Z"
+          }
+        },
+        {
+          "file": "306-ai-history.md",
+          "ordinal": 306,
+          "contentdata": {
+            "slug": "306-ai-history",
+            "moduleid": 306,
+            "title": "History of AI",
+            "authors": [
+              "William Martin"
+            ],
+            "published": true,
+            "toc": [
+              {
+                "id": "articles-on-the-history-of-ai",
+                "depth": 2,
+                "text": "Articles on the History of AI"
+              },
+              {
+                "id": "the-imitation-game-aka-the-turing-test",
+                "depth": 2,
+                "text": "\"The Imitation Game\" aka \"The Turing Test\""
+              },
+              {
+                "id": "turing-machines",
+                "depth": 2,
+                "text": "Turing Machines"
+              },
+              {
+                "id": "more-soon",
+                "depth": 2,
+                "text": "More Soon!"
+              }
+            ],
+            "dir": "/modules/30-ai-intro",
+            "path": "/modules/30-ai-intro/306-ai-history",
+            "extension": ".md",
+            "createdAt": "2024-06-30T21:46:23.611Z",
+            "updatedAt": "2024-06-30T21:46:23.611Z"
+          }
+        },
+        {
+          "file": "307-notable-players.md",
+          "ordinal": 307,
+          "contentdata": {
+            "slug": "307-notable-players",
+            "moduleid": 307,
+            "title": "Notable Industry Players",
+            "authors": [
+              "William Martin"
+            ],
+            "published": true,
+            "toc": [
+              {
+                "id": "notable-companies",
+                "depth": 2,
+                "text": "Notable Companies"
+              },
+              {
+                "id": "notable-research-groups",
+                "depth": 2,
+                "text": "Notable Research Groups"
+              },
+              {
+                "id": "notable-people",
+                "depth": 2,
+                "text": "Notable People"
+              }
+            ],
+            "dir": "/modules/30-ai-intro",
+            "path": "/modules/30-ai-intro/307-notable-players",
+            "extension": ".md",
+            "createdAt": "2024-06-30T21:46:23.611Z",
+            "updatedAt": "2024-06-30T21:46:23.611Z"
+          }
+        },
+        {
+          "file": "308-ethics-and-governance.md",
+          "ordinal": 308,
+          "contentdata": {
+            "slug": "308-ethics-and-governance",
+            "moduleid": 308,
+            "title": "AI Ethics and Governance",
+            "authors": [
+              "William Martin"
+            ],
+            "published": true,
+            "toc": [
+              {
+                "id": "ai-governance",
+                "depth": 2,
+                "text": "AI Governance"
+              },
+              {
+                "id": "the-eu-ai-act",
+                "depth": 3,
+                "text": "The EU AI Act"
+              },
+              {
+                "id": "ethics-of-ai",
+                "depth": 2,
+                "text": "Ethics of AI"
+              }
+            ],
+            "dir": "/modules/30-ai-intro",
+            "path": "/modules/30-ai-intro/308-ethics-and-governance",
+            "extension": ".md",
+            "createdAt": "2024-06-30T21:46:23.611Z",
+            "updatedAt": "2024-06-30T21:46:23.611Z"
+          }
+        }
+      ]
+    },
+    {
+      "contentdata": {
+        "slug": "index",
+        "moduleid": 310,
+        "title": "AI Language and Text",
+        "authors": [
+          "William Martin"
+        ],
+        "published": true,
+        "toc": [
+          {
+            "id": "artificial-intelligence--language-and-text",
+            "depth": 2,
+            "text": "Artificial Intelligence – Language and Text"
+          },
+          {
+            "id": "contents",
+            "depth": 2,
+            "text": "Contents"
+          },
+          {
+            "id": "upcoming-modules",
+            "depth": 3,
+            "text": "Upcoming Modules"
+          }
+        ],
+        "dir": "/modules/31-ai-language",
+        "path": "/modules/31-ai-language/index",
+        "extension": ".md",
+        "createdAt": "2024-06-30T21:46:23.611Z",
+        "updatedAt": "2024-06-30T21:46:23.612Z"
+      },
+      "ordinal": 31,
+      "path": "31-ai-language",
+      "slug": "ai-language",
+      "modules": [
+        {
+          "file": "index.md",
+          "ordinal": 0,
+          "contentdata": {
+            "slug": "index",
+            "moduleid": 310,
+            "title": "AI Language and Text",
+            "authors": [
+              "William Martin"
+            ],
+            "published": true,
+            "toc": [
+              {
+                "id": "artificial-intelligence--language-and-text",
+                "depth": 2,
+                "text": "Artificial Intelligence – Language and Text"
+              },
+              {
+                "id": "contents",
+                "depth": 2,
+                "text": "Contents"
+              },
+              {
+                "id": "upcoming-modules",
+                "depth": 3,
+                "text": "Upcoming Modules"
+              }
+            ],
+            "dir": "/modules/31-ai-language",
+            "path": "/modules/31-ai-language/index",
+            "extension": ".md",
+            "createdAt": "2024-06-30T21:46:23.611Z",
+            "updatedAt": "2024-06-30T21:46:23.612Z"
+          }
+        },
+        {
+          "file": "311-text-generation.md",
+          "ordinal": 311,
+          "contentdata": {
+            "slug": "311-text-generation",
+            "moduleid": 311,
+            "title": "Text Generation with LLMs",
+            "authors": [
+              "William Martin"
+            ],
+            "published": true,
+            "toc": [
+              {
+                "id": "what-is-text-generation",
+                "depth": 2,
+                "text": "What is text generation?"
+              },
+              {
+                "id": "predictive-text-on-smartphones",
+                "depth": 2,
+                "text": "Predictive Text on Smartphones"
+              },
+              {
+                "id": "what-is-a-large-language-model-llm",
+                "depth": 2,
+                "text": "What is a large language model (LLM)?"
+              },
+              {
+                "id": "how-do-llms-work",
+                "depth": 2,
+                "text": "How do LLMs work?"
+              },
+              {
+                "id": "tokenization",
+                "depth": 3,
+                "text": "Tokenization"
+              },
+              {
+                "id": "embeddings",
+                "depth": 3,
+                "text": "Embeddings"
+              },
+              {
+                "id": "self-attention",
+                "depth": 3,
+                "text": "Self-Attention"
+              },
+              {
+                "id": "more-llm-concepts",
+                "depth": 2,
+                "text": "More LLM Concepts"
+              },
+              {
+                "id": "temperature",
+                "depth": 3,
+                "text": "Temperature"
+              },
+              {
+                "id": "context-window",
+                "depth": 3,
+                "text": "Context Window"
+              },
+              {
+                "id": "system-context--custom-instructions",
+                "depth": 3,
+                "text": "System Context / Custom Instructions"
+              },
+              {
+                "id": "foundation-model",
+                "depth": 3,
+                "text": "Foundation Model"
+              },
+              {
+                "id": "fine-tuning",
+                "depth": 3,
+                "text": "Fine-Tuning"
+              },
+              {
+                "id": "closed--open-source-aka-public-weights",
+                "depth": 3,
+                "text": "Closed / Open Source aka Public Weights"
+              },
+              {
+                "id": "challenges-concerns-and-risks",
+                "depth": 2,
+                "text": "Challenges, Concerns, and Risks"
+              },
+              {
+                "id": "major-llms-for-text-generation",
+                "depth": 2,
+                "text": "Major LLMs for Text Generation"
+              },
+              {
+                "id": "how-models-are-notated",
+                "depth": 3,
+                "text": "How models are notated"
+              },
+              {
+                "id": "closed-models",
+                "depth": 3,
+                "text": "Closed Models"
+              },
+              {
+                "id": "open-weights",
+                "depth": 3,
+                "text": "Open Weights"
+              }
+            ],
+            "dir": "/modules/31-ai-language",
+            "path": "/modules/31-ai-language/311-text-generation",
+            "extension": ".md",
+            "createdAt": "2024-06-30T21:46:23.611Z",
+            "updatedAt": "2024-06-30T21:46:23.611Z"
+          }
+        },
+        {
+          "file": "312-llm-chat.md",
+          "ordinal": 312,
+          "contentdata": {
+            "slug": "312-llm-chat",
+            "moduleid": 312,
+            "title": "LLM Chat",
+            "authors": [
+              "William Martin"
+            ],
+            "published": true,
+            "toc": [
+              {
+                "id": "llm-chat",
+                "depth": 2,
+                "text": "LLM Chat"
+              },
+              {
+                "id": "chatgpt",
+                "depth": 3,
+                "text": "ChatGPT"
+              },
+              {
+                "id": "perplexityai",
+                "depth": 3,
+                "text": "Perplexity.AI"
+              },
+              {
+                "id": "hugging-chat",
+                "depth": 3,
+                "text": "Hugging Chat"
+              },
+              {
+                "id": "meta-ai-chat",
+                "depth": 3,
+                "text": "Meta AI Chat"
+              },
+              {
+                "id": "google-gemini",
+                "depth": 3,
+                "text": "Google Gemini"
+              },
+              {
+                "id": "google-gemini-via-google-vertex-ai",
+                "depth": 3,
+                "text": "Google Gemini via Google Vertex AI"
+              },
+              {
+                "id": "anthropics-claude",
+                "depth": 3,
+                "text": "Anthropic's Claude"
+              },
+              {
+                "id": "how-llm-chats-work",
+                "depth": 2,
+                "text": "How LLM Chats Work"
+              }
+            ],
+            "dir": "/modules/31-ai-language",
+            "path": "/modules/31-ai-language/312-llm-chat",
+            "extension": ".md",
+            "createdAt": "2024-06-30T21:46:23.611Z",
+            "updatedAt": "2024-06-30T21:46:23.611Z"
+          }
+        },
+        {
+          "file": "313-code-generation.md",
+          "ordinal": 313,
+          "contentdata": {
+            "slug": "313-code-generation",
+            "moduleid": 313,
+            "title": "Code Generation with LLMs",
+            "authors": [
+              "William Martin"
+            ],
+            "published": true,
+            "toc": [
+              {
+                "id": "so-llms-can-write-code",
+                "depth": 2,
+                "text": "So, LLMs can write code?"
+              },
+              {
+                "id": "risks-of-code-generation",
+                "depth": 2,
+                "text": "Risks of Code Generation"
+              },
+              {
+                "id": "getting-started",
+                "depth": 2,
+                "text": "Getting Started"
+              },
+              {
+                "id": "exercise-1-basic-code-generation-for-p5js",
+                "depth": 2,
+                "text": "Exercise 1: Basic Code Generation for P5.js"
+              },
+              {
+                "id": "prompt-for-changes",
+                "depth": 3,
+                "text": "Prompt For Changes"
+              },
+              {
+                "id": "make-at-least-2-or-3-more-changes-on-your-own",
+                "depth": 3,
+                "text": "Make at least 2 or 3 more changes on your own."
+              },
+              {
+                "id": "exercise-2-prompt-for-high-level-implementation-p5js",
+                "depth": 2,
+                "text": "Exercise 2: Prompt for high level implementation (P5.js)"
+              },
+              {
+                "id": "exercise-3-prompt-for-low-level-algorithm-implementation-p5js",
+                "depth": 2,
+                "text": "Exercise 3: Prompt for low level algorithm implementation (P5.js)"
+              },
+              {
+                "id": "exercise-4-convert-javascript-to-python",
+                "depth": 2,
+                "text": "Exercise 4: Convert JavaScript to Python"
+              },
+              {
+                "id": "exercise-5-debug-this-code",
+                "depth": 2,
+                "text": "Exercise 5: Debug This Code"
+              },
+              {
+                "id": "exercise-6-write-a-snake-game",
+                "depth": 2,
+                "text": "Exercise 6: Write a Snake! Game."
+              }
+            ],
+            "dir": "/modules/31-ai-language",
+            "path": "/modules/31-ai-language/313-code-generation",
+            "extension": ".md",
+            "createdAt": "2024-06-30T21:46:23.611Z",
+            "updatedAt": "2024-06-30T21:46:23.611Z"
+          }
+        },
+        {
+          "file": "314-function-calling.md",
+          "ordinal": 314,
+          "contentdata": {
+            "slug": "314-function-calling",
+            "moduleid": 314,
+            "title": "Function Calling with LLMs",
+            "authors": [
+              "William Martin"
+            ],
+            "published": true,
+            "toc": [
+              {
+                "id": "what-is-function-calling",
+                "depth": 2,
+                "text": "What is “Function Calling?”"
+              },
+              {
+                "id": "llms-acting-outside-of-themselves-even-the-real-world",
+                "depth": 2,
+                "text": "LLMs acting outside of themselves, even the real world."
+              },
+              {
+                "id": "technical-details",
+                "depth": 2,
+                "text": "Technical Details"
+              },
+              {
+                "id": "how-does-function-calling-work",
+                "depth": 2,
+                "text": "How does function calling work?"
+              },
+              {
+                "id": "funkify",
+                "depth": 2,
+                "text": "Funkify"
+              },
+              {
+                "id": "openai-api-key-setup",
+                "depth": 3,
+                "text": "OpenAI API Key Setup"
+              },
+              {
+                "id": "managing-an-api-key",
+                "depth": 3,
+                "text": "Managing an API Key"
+              },
+              {
+                "id": "exercise-function-calling-with-funkify",
+                "depth": 2,
+                "text": "Exercise: Function Calling with Funkify"
+              },
+              {
+                "id": "exercise-function-calling-with-the-openai-api",
+                "depth": 2,
+                "text": "Exercise: Function Calling with the OpenAI API"
+              },
+              {
+                "id": "bonus-use-code-generation-to-write-function-schemas",
+                "depth": 2,
+                "text": "Bonus: Use code generation to write function schemas."
+              }
+            ],
+            "dir": "/modules/31-ai-language",
+            "path": "/modules/31-ai-language/314-function-calling",
+            "extension": ".md",
+            "createdAt": "2024-06-30T21:46:23.611Z",
+            "updatedAt": "2024-06-30T21:46:23.611Z"
+          }
+        }
+      ]
+    },
+    {
+      "contentdata": {
+        "slug": "index",
+        "moduleid": 320,
+        "title": "AI Vision and Imagery",
+        "authors": [
+          "William Martin"
+        ],
+        "published": true,
+        "toc": [
+          {
+            "id": "computer-vision",
+            "depth": 2,
+            "text": "Computer Vision"
+          },
+          {
+            "id": "image-analysis",
+            "depth": 2,
+            "text": "Image Analysis"
+          },
+          {
+            "id": "image-generation",
+            "depth": 2,
+            "text": "Image Generation"
+          },
+          {
+            "id": "contents",
+            "depth": 2,
+            "text": "Contents"
+          },
+          {
+            "id": "upcoming-modules",
+            "depth": 3,
+            "text": "Upcoming Modules"
+          }
+        ],
+        "dir": "/modules/32-ai-vision-imagery",
+        "path": "/modules/32-ai-vision-imagery/index",
+        "extension": ".md",
+        "createdAt": "2024-06-30T21:46:23.612Z",
+        "updatedAt": "2024-06-30T21:46:23.612Z"
+      },
+      "ordinal": 32,
+      "path": "32-ai-vision-imagery",
+      "slug": "ai-vision-imagery",
+      "modules": [
+        {
+          "file": "index.md",
+          "ordinal": 0,
+          "contentdata": {
+            "slug": "index",
+            "moduleid": 320,
+            "title": "AI Vision and Imagery",
+            "authors": [
+              "William Martin"
+            ],
+            "published": true,
+            "toc": [
+              {
+                "id": "computer-vision",
+                "depth": 2,
+                "text": "Computer Vision"
+              },
+              {
+                "id": "image-analysis",
+                "depth": 2,
+                "text": "Image Analysis"
+              },
+              {
+                "id": "image-generation",
+                "depth": 2,
+                "text": "Image Generation"
+              },
+              {
+                "id": "contents",
+                "depth": 2,
+                "text": "Contents"
+              },
+              {
+                "id": "upcoming-modules",
+                "depth": 3,
+                "text": "Upcoming Modules"
+              }
+            ],
+            "dir": "/modules/32-ai-vision-imagery",
+            "path": "/modules/32-ai-vision-imagery/index",
+            "extension": ".md",
+            "createdAt": "2024-06-30T21:46:23.612Z",
+            "updatedAt": "2024-06-30T21:46:23.612Z"
+          }
+        },
+        {
+          "file": "321-cv-mediapipe.md",
+          "ordinal": 321,
+          "contentdata": {
+            "slug": "321-cv-mediapipe",
+            "moduleid": 321,
+            "title": "Computer Vision with MediaPipe",
+            "authors": [
+              "William Martin"
+            ],
+            "published": true,
+            "toc": [
+              {
+                "id": "introduction-to-mediapipe-from-google",
+                "depth": 2,
+                "text": "Introduction to MediaPipe from Google"
+              },
+              {
+                "id": "mediapipe-studio",
+                "depth": 2,
+                "text": "MediaPipe Studio"
+              },
+              {
+                "id": "object-detection-demo",
+                "depth": 2,
+                "text": "Object Detection Demo"
+              },
+              {
+                "id": "use-cases",
+                "depth": 3,
+                "text": "Use Cases"
+              },
+              {
+                "id": "the-coco-dataset-and-others-like-it",
+                "depth": 3,
+                "text": "The COCO Dataset (and others like it)"
+              },
+              {
+                "id": "the-demo",
+                "depth": 3,
+                "text": "The Demo"
+              },
+              {
+                "id": "demo-configuration-and-ui",
+                "depth": 3,
+                "text": "Demo Configuration and UI"
+              },
+              {
+                "id": "exercise-3-mediapipe-object-detection-with-python",
+                "depth": 2,
+                "text": "Exercise 3: MediaPipe Object Detection with Python"
+              },
+              {
+                "id": "task-a-cat-and-dog-detection",
+                "depth": 3,
+                "text": "Task A: Cat and Dog Detection"
+              },
+              {
+                "id": "results",
+                "depth": 3,
+                "text": "Results"
+              },
+              {
+                "id": "task-b-more-images",
+                "depth": 3,
+                "text": "Task B: More Images!"
+              },
+              {
+                "id": "follow-up",
+                "depth": 2,
+                "text": "Follow Up"
+              }
+            ],
+            "dir": "/modules/32-ai-vision-imagery",
+            "path": "/modules/32-ai-vision-imagery/321-cv-mediapipe",
+            "extension": ".md",
+            "createdAt": "2024-06-30T21:46:23.612Z",
+            "updatedAt": "2024-06-30T21:46:23.612Z"
+          }
+        },
+        {
+          "file": "322-cv-hugging-face.md",
+          "ordinal": 322,
+          "contentdata": {
+            "slug": "322-cv-hugging-face",
+            "moduleid": 322,
+            "title": "Computer Vision with Hugging Face",
+            "authors": [
+              "William Martin"
+            ],
+            "published": true,
+            "toc": [
+              {
+                "id": "getting-started-with-hugging-face",
+                "depth": 2,
+                "text": "Getting Started with Hugging Face"
+              }
+            ],
+            "dir": "/modules/32-ai-vision-imagery",
+            "path": "/modules/32-ai-vision-imagery/322-cv-hugging-face",
+            "extension": ".md",
+            "createdAt": "2024-06-30T21:46:23.612Z",
+            "updatedAt": "2024-06-30T21:46:23.612Z"
+          }
+        },
+        {
+          "file": "323-image-generation.md",
+          "ordinal": 323,
+          "contentdata": {
+            "slug": "323-image-generation",
+            "moduleid": 322,
+            "title": "Image Generation",
+            "authors": [
+              "William Martin"
+            ],
+            "published": true,
+            "toc": [
+              {
+                "id": "image-generation",
+                "depth": 2,
+                "text": "Image Generation"
+              }
+            ],
+            "dir": "/modules/32-ai-vision-imagery",
+            "path": "/modules/32-ai-vision-imagery/323-image-generation",
+            "extension": ".md",
+            "createdAt": "2024-06-30T21:46:23.612Z",
+            "updatedAt": "2024-06-30T21:46:23.612Z"
           }
         }
       ]

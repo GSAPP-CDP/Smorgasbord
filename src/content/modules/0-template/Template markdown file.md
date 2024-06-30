@@ -1,7 +1,7 @@
 ---
 moduleid: 0
 title: Template as template
-published: True
+published: false
 slug: template-template-template
 ---
 # Sequence: Template as Template
