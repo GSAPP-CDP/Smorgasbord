@@ -10,15 +10,10 @@
     </div>
     <div class="postfooter">
     </div>
-
-    
-    
   </div>
-
 </template>
 
 <style scoped>
-
 .post {
   padding: 110px 30px 100px 30px;
   max-width: 800px;
@@ -26,7 +21,6 @@
   font-weight: regular;
   color: #444;
   word-wrap: break-word;
-  
 }
 
 * >>> p {
@@ -41,7 +35,6 @@ blockquote {
   font-size: 0.9em;
   line-height: 1.8em;
   color: #666;
-
 }
 
 .postheader {
@@ -57,8 +50,6 @@ blockquote {
   margin-bottom: 15px;
   word-break: break-word;
 }
- 
-
 
 .instruction {
   background-color: #CCC;
@@ -92,17 +83,9 @@ blockquote {
   clear: both;
 }
 
-* >>> h1, * >>> h2, * >>> h3, * >>> h4, * >>> h4  {
+* >>> h1, * >>> h2, * >>> h3, * >>> h4  {
   clear: both;
 }
-
-* >>> h3, * >>> h4, * >>> h4  {
-  padding-top: 2em;
-}
-
-* >>> p {
-}
-
 
 /* image caption */
 img + em, div.img + em {
@@ -115,7 +98,7 @@ img + em, div.img + em {
   font-weight: bold;
 }
 
-* >>>  code {
+* >>> code {
   background-color: #f4f4f4;
   padding: 3px 6px;
   border-radius: 5px;
@@ -128,6 +111,31 @@ img + em, div.img + em {
   color: #666;
 }
 
+/* Add some conveniences for laying out images.
+  Perhaps work on a more consistent way in the future?
+*/
+.postbody >>> .row {
+  display: flex;
+  flex-direction: row;
+}
+.postbody >>> .row>*,
+.postbody >>> .cols-1>* { width: 100%; }
+.postbody >>> .cols-2>* { width: 50%; }
+.postbody >>> .cols-3>* { width: 33%; }
+.postbody >>> .cols-4>* { width: 25%; }
+
+@media (max-width: 900px) {
+  /* Break the columns for mobile/tablet.
+    Placeholder for when mobile is fixed.
+    */
+  .postbody >>> .mobile-cols-1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .postbody >>> .mobile-cols-1>* {
+    width: 100%;
+  }
+}
 </style>
 
 <script>
@@ -177,5 +185,4 @@ export default {
     })
   }
 }
-
 </script>
