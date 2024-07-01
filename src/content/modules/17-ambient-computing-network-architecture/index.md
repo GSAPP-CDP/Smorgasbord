@@ -59,22 +59,6 @@ The following are example student projects from a course called Measuring the Gr
 [Synchronized Wallpaper — Daniel Chang, Yanan Zhou, Enrique Bejarano](https://vimeo.com/705148926)   
 
 <iframe src="https://player.vimeo.com/video/705149312?h=0aad7723dc" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
 [Projecting the Great Outdoors, by: Tianyu Yang, Alec Harris, Maria Berger](https://vimeo.com/705149312)
-
-
-## Modules
-[Intro to Processing](171-Intro-to-Processing-Lighting.md)   
-[Webhooks](172-Webhooks-Connecting-IFTTT-and-Processing.md)   
-[Sounds, Speech and Macros](173-sounds-speech-and-macros.md)   
-[Markers and Tracking](174-Markers-and-Tracking.md)   
-[Computer Vision](175-Computer-Vision.md)   
-
-
-
-
-
-
-
-
-
 
