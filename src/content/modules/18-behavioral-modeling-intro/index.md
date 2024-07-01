@@ -41,8 +41,3 @@ But long before the internet, encoded rules like zoning, to racial redlining of 
 ![processing-ex](images/bmi-10.png#img-full)   
 *Uber Simulation Model agent diagram, Guangwei Ren, Data Mining the City 2019*
 
-## Modules:
-[Agent Based Modeling](181-Unity-and-Agent-Based-Models.md)    
-[Intro to Unity](182-Intro-To-Unity.md)    
-[Agent Based Modeling and Behavior Bricks](183-Agent-Based-Populations-and-Behavior-Bricks.md)    
-[Mapbox SDK](184-Mapbox-SDK-and-Routing.md)    
