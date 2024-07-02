@@ -34,7 +34,7 @@ So why work with spatial data in Python when there are other tools like ArcGIS? 
 <br/>
 <br/>
 
-For this module we will be using the Pandas](https://pandas.pydata.org/), [GeoPandas](https://geopandas.org/en/stable/) and [OSMNX](https://osmnx.readthedocs.io/en/stable/) Python libraries. Ensure to `pip install` them on your machine, if you don't already have them, and import like so:
+For this module we will be using the [Pandas](https://pandas.pydata.org/), [GeoPandas](https://geopandas.org/en/stable/) and [OSMNX](https://osmnx.readthedocs.io/en/stable/) Python libraries. Ensure to `pip install` them on your machine, if you don't already have them, and import like so:
 
 ```python
 import pandas as pd
@@ -51,12 +51,18 @@ Similar to DataFrames in Pandas that we covered in previous modules, GeoDataFram
 
 To demonstrate the functionality of GeoDataFrames we will use the [New York City parks](https://data.cityofnewyork.us/Recreation/Open-Space-Parks-/g84h-jbjm) dataset from the open data portal and load this as a GeoDataFrame object in Python. Click on the `Export` button at the top right of the map and select `GeoJSON`. Once this is located in the convenient place on your laptop, you can load this into GeoPandas with the `.read_file()` method:
 
+*Summer 2024 note - The above dataset no longer has GeoJSON as an export option. Instead, export the dataset as a CSV and we will convert it to a GeoDataFrame object in Python.*
+
 ```python
-path = '/Users/cbailey/Downloads/Open Space (Parks).geojson'
-gdf = gpd.read_file(path)
+import shapely.wkt as wkt
+path = "~/Downloads/NYC_Planimetric_Database__Open_Space__Parks__20240702.csv" ## Replace with your file path
+df = pd.read_csv(path)
+df['geometry'] = df['the_geom'].apply(wkt.loads)
+del df['the_geom']
+gdf = gpd.GeoDataFrame(df, geometry='geometry', crs='EPSG:4326')
 ```
 
-The `read_file` method supports many different file formats, including: DXF, CSV, ESRIJSON, ESRI Shapefile, etc. To have a glance at what is contained in this dataset, we will select a subset of the columns and display the first five rows using the `head()` method:
+To have a glance at what is contained in this dataset, we will select a subset of the columns and display the first five rows using the `head()` method:
 
 ```python
 columns_of_interest = ['park_name', 'landuse', 'shape_area', 'geometry']
