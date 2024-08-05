@@ -42,7 +42,7 @@
       <SequenceLinks path="23-parametric-visualization-with-grasshopper" />
     </div> 
 
-    <div class="coursetitle">Re-Thinking BIM</div>
+      <div class="coursetitle">Re-Thinking BIM</div>
     <div class="course">
       <SequenceLinks path="YOUR-SEQUENCE-HERE" />
       <SequenceLinks path="YOUR-SEQUENCE-HERE" />

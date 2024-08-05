@@ -1,5 +1,5 @@
 ---
-moduleid: 241
+moduleid: 240
 title: Software Intro
 published: True
 slug: software-intro
@@ -11,7 +11,7 @@ authors:
 
 I'm excited that you are interested in learning more about Rethinking BIM! If you're interested in computation, BIM, and the merger of the two, this sequence is for you. We will also tackle real-world challenges related to building design and documentation while exploring new methodologies for project execution.
 
-INSERT DYNAMIC GIF
+INSERT DYNAMIC GIF FROM END OF TUTORIAL
 
 The purpose of this sequence is to think not only about how you can use Revit, or BIM, within a computational design workflow but also about how you can plan your workflow in a way that leverages computational thinking to augment building constructability. 
 
@@ -34,7 +34,7 @@ For the purposes of Rethinking BIM, we will focus on a few selected data-driven 
 
 The important thing to take away from this sequence is that if you merge data and geometry, you can unlock a world of possibilities. The ultimate goal is for you to be able to define what data is important for YOUR project, develop a clear strategy to leverage that data, and accurately execute that strategy to deliver a successful project. 
 
-This is not BIM 101 or Intro to Revit.
+**This is not BIM 101 or Intro to Revit.**
 
 Rethinking BIM encourages a project-wide methodology of analytical thinking and data-driven design, leveraging computation as a tool to link BIM into a seamless workflow.
 
@@ -63,12 +63,12 @@ Note: Rhino 8 has added [Object Attributes](https://www.rhino3d.com/features/gra
 
 However, depending on the focus of your project, you may need additional capabilities beyond vanilla Grasshopper or Rhino. Chances are you can find a plug-in or package for Grasshopper or Rhino that meets your needs. Also, the [legacy Grasshopper 3D forum](https://www.grasshopper3d.com/) and more recently established [McNeel Rhino forum](https://discourse.mcneel.com/) are both incredibly robust, and the community is helpful and responsive. After 14+ years of using Grasshopper, I still consult these forums almost daily.  
 
-To find additional content for Rhino and Grasshopper, you can run the “package manager” command in Rhino to install additional resources quickly. You can also check out Food 4 Rhino for a vast library of resources. 
+To find additional content for Rhino and Grasshopper, you can run the “package manager” command in Rhino to install additional resources quickly. You can also check out [Food4Rhino](https://www.food4rhino.com/en) for a vast library of resources. 
 
 
-Additional Resources:
+## Additional Resources:
 
-Archi-tech Network: One of the best resources for architectural modeling in Revit and Grasshopper. Unfortunately, it is not free, but it’s well worth the cost. 
+[Archi-tech Network](https://archi-tech.network/catalog): One of the best resources for architectural modeling in Revit and Grasshopper. Unfortunately, it is not free, but it’s well worth the cost. 
 
-Managing Complexity: I developed a set of tutorials that was the precursor to this sequence. If you are hungry to get ahead and build out your skillset, dive into these. This is free 🙂
+[Managing Complexity](https://youtube.com/playlist?list=PLIqhlKP0NUNduZt4544HDckzEoIXlemnB&si=VDEw2ptEF_QvYkIK): I developed a set of tutorials that was the precursor to this sequence. If you are hungry to get ahead and build out your skillset, dive into these. This is free 🙂
 
