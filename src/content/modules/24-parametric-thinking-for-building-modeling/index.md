@@ -1,13 +1,13 @@
 ---
 moduleid: 240
-title: Software Intro
+title: Parametric Thinking for Building Modeling
 published: True
-slug: software-intro
+slug: parametric-thinking-for-building-modeling
 authors:
  - "Joe Brennan"
 ---
 
-# Intro
+# Software Intro
 
 I'm excited that you are interested in learning more about Rethinking BIM! If you're interested in computation, BIM, and the merger of the two, this sequence is for you. We will also tackle real-world challenges related to building design and documentation while exploring new methodologies for project execution.
 
