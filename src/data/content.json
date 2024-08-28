@@ -1,6 +1,6 @@
 {
   "modules": {
-    "0-template/Template markdown file": {
+    "10-spatial-python/101-data-manipulation": {
       "double_links": []
     },
     "10-spatial-python/101-data-manipulation": {
@@ -9,7 +9,7 @@
     "10-spatial-python/105-spatial-analysis-clustering": {
       "double_links": []
     },
-    "10-spatial-python/104-spatial-analysis-correlation": {
+    "11-interactive-web/110-getting-started": {
       "double_links": []
     },
     "10-spatial-python/103-spatial-analysis-point-pattern": {
@@ -75,10 +75,10 @@
     "14-geospatial-concepts/143-coordinates-projections": {
       "double_links": []
     },
-    "14-geospatial-concepts/141-what-is-gis": {
+    "14-geospatial-concepts/143-coordinates-projections": {
       "double_links": []
     },
-    "14-geospatial-concepts/142-spatial-data": {
+    "14-geospatial-concepts/index": {
       "double_links": []
     },
     "15-intro-qgis/153-archives": {
@@ -105,7 +105,7 @@
     "14-geospatial-concepts/index": {
       "double_links": []
     },
-    "15-intro-qgis/158-atlas": {
+    "15-intro-qgis/152-print-layout": {
       "double_links": []
     },
     "15-intro-qgis/index": {
@@ -165,7 +165,7 @@
     "19-data_visualization/Module3Tourofthebasiccharts3Pie": {
       "double_links": []
     },
-    "19-data_visualization/Module2Introductiontod3anscombe": {
+    "19-data_visualization/Module3Tourofthebasiccharts2Line": {
       "double_links": []
     },
     "19-data_visualization/Module5Buildinginteractivity": {
@@ -174,7 +174,7 @@
     "21-integrated-computational-simulation/211-tensile-membrane": {
       "double_links": []
     },
-    "19-data_visualization/Module4Workingwithexternaldata": {
+    "18-behavioral-modeling-intro/184-Mapbox-SDK-and-Routing": {
       "double_links": []
     },
     "21-integrated-computational-simulation/213-acoustic": {
@@ -258,7 +258,7 @@
     "4-grasshopper-intro/410-Generating-Exploring-Spatial-Data": {
       "double_links": []
     },
-    "4-grasshopper-intro/42-exercise-hello-grasshopper": {
+    "24-parametric-thinking-for-building-modeling/242-how-to-approach-parametric-building-modeling": {
       "double_links": []
     },
     "4-grasshopper-intro/43-working-in-grasshopper": {
@@ -267,13 +267,13 @@
     "4-grasshopper-intro/44-exercise-parametric-tower-part-1": {
       "double_links": []
     },
-    "4-grasshopper-intro/47-documentation-best-practices": {
+    "4-grasshopper-intro/45-working-with-data": {
       "double_links": []
     },
     "4-grasshopper-intro/45-working-with-data": {
       "double_links": []
     },
-    "4-grasshopper-intro/49-Procedural-Rules": {
+    "4-grasshopper-intro/47-documentation-best-practices": {
       "double_links": []
     },
     "4-grasshopper-intro/index": {
@@ -327,7 +327,7 @@
     "7-fundamentals-of-python/73-functions-and-classes": {
       "double_links": []
     },
-    "7-fundamentals-of-python/74-python-libraries": {
+    "8-intro-to-python-in-rhino/81-accessing-the-rhino-apis-in-python": {
       "double_links": []
     },
     "7-fundamentals-of-python/index": {
@@ -7804,6 +7804,71 @@
             "extension": ".md",
             "createdAt": "2024-06-30T21:46:23.612Z",
             "updatedAt": "2024-06-30T21:46:23.612Z"
+          }
+        },
+        {
+          "file": "242-how-to-approach-parametric-building-modeling.md",
+          "ordinal": 242,
+          "contentdata": {
+            "slug": "how-to-approach-parametic-building-modeling",
+            "moduleid": 242,
+            "title": "How to Approach Parametric Building Modeling",
+            "published": true,
+            "authors": [
+              "Joe Brennan"
+            ],
+            "toc": [
+              {
+                "id": "understanding-definitions-as-a-series-of-functions",
+                "depth": 2,
+                "text": "Understanding Definitions as a Series of Functions"
+              },
+              {
+                "id": "use-case-1-repetition-and-automation",
+                "depth": 2,
+                "text": "Use Case 1: Repetition and Automation"
+              },
+              {
+                "id": "use-case-2-analysis-determine-deviation-from-planar",
+                "depth": 2,
+                "text": "Use Case 2: Analysis: Determine Deviation from Planar"
+              },
+              {
+                "id": "use-case-3-rationalization-seperate-out-panels-that-are-too-curved",
+                "depth": 2,
+                "text": "Use Case 3: Rationalization: Seperate Out Panels that Are Too Curved"
+              },
+              {
+                "id": "side-quest-1",
+                "depth": 3,
+                "text": "Side Quest 1:"
+              },
+              {
+                "id": "use-case-4-analysis-analyze-against-an-external-factor",
+                "depth": 2,
+                "text": "Use Case 4: Analysis: Analyze Against an External Factor"
+              },
+              {
+                "id": "use-case-5-mass-customization-creating-unique-panels-with-an-underlying-computational-logic",
+                "depth": 2,
+                "text": "Use Case 5: Mass Customization: Creating Unique Panels with an Underlying Computational Logic"
+              },
+              {
+                "id": "side-quest-2",
+                "depth": 3,
+                "text": "Side Quest 2"
+              },
+              {
+                "id": "conclusion",
+                "depth": 2,
+                "text": "Conclusion"
+              }
+            ],
+            "dir": "/modules/24-parametric-thinking-for-building-modeling",
+            "path": "/modules/24-parametric-thinking-for-building-modeling/242-how-to-approach-parametric-building-modeling",
+            "extension": ".md",
+            "createdAt": "2024-08-26T14:57:41.702Z",
+            "updatedAt": "2024-08-26T14:57:41.702Z"
           }
         }
       ]
