@@ -45,6 +45,7 @@
     <div class="coursetitle">Re-Thinking BIM</div>
     <div class="course">
       <SequenceLinks path="24-parametric-thinking-for-building-modeling" />
+      <SequenceLinks path="25-establishing-and-achieving-building-targets" />
     </div> 
 
     <div class="coursetitle">Artificial Intelligence</div>
