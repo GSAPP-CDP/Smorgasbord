@@ -173,8 +173,7 @@ Now we have the ability to sort panels based on a threshold. There's a few adjus
 ><img src="images/relays.jpg" width="500">
 
 
-### Side Quest 1:
-I'm going to offer these relatively difficult (but optional) challenges throughout the course and not provide a solution - I want to see if you can take knowledge from the previous lessons and repurpose them. So, see if you can create a Data Visualization where all of the panels that are too curved based on our new threshold are FULLY red - they should not be a gradient. And any panel that is below the threshold SHOULD have a gradient to show how close they are to exceeding the threshold. If you're able to figure this out, screenshot it and drop it into our class Slack channel. 
+**Side Challenge 2:** *See if you can create a Data Visualization where all of the panels that are too curved based on our new threshold are FULLY red - they should not be a gradient. And any panel that is below the threshold SHOULD have a gradient to show how close they are to exceeding the threshold. If you're able to figure this out, screenshot it and drop it into our class Slack channel.* 
 
 **Let's continue on with our rationalization** - we now have two different lists of panels. The first is set of curved panels that are ready for triangulation - we'll keep working on these. The second set are panels that are flat and below our threshold - we're done with these for now. 
 - I'm going to teach yet another foundational technique for computational building design, which is the ability to break geometry down into it's vertices and use these to construct new geometry. If you look at the sketch below, you'll see I can take a rectangle and define the vertices as A, B, C, and D. After that, it's as simple as playing connect the dots to create subgeometries. This method is good for a few reasons. First, it keeps future Grasshopper operations lights since I am working with points and lines, not intersections or solids. Second, I can use the points to host future operations and create more complex build ups on top of it, like hosting a more detailed triangular panel within our newly created one. Third, by being rigorous and organized, you can simplify the creating of subgeometries and faciliated future translation to Revit. 
@@ -274,12 +273,11 @@ list rather then in seperate branches. To do this, drop a `Flatten Tree (Flatten
 - Place a `Offset Curve (Offset)` component. Take the entwined, simplified surfaces and plug them into the C of the `Offset Curve (Offset)` component. Remeber how `Evaluate Surface (EvalSrf)` converted our curves to surfaces? Well, `Offset Curve (Offset)` will convert our surfaces to curves. 
 - Next take the F from the new `Evaluate Surface (EvalSrf)` and plug it in to the P on the `Offset Curve (Offset)`. Finally, take the R output from the `Remap Numbers (ReMap)` component and plug it into a `Negative (Neg)` component. This is because we want our offsets to go inwards, not outwards. Plug the output of this `Negative (Neg)` into the D on the `Offset Curve (Offset)`. You should now have the curves offsetting inside your panels! Hide the visibility of other objects if it's hard to track.
 - To finish this off, let's loft the curves to create a frame. Simplify the output of the `Offset Curve (Offset)` component and plug this into the first input of a newly created `Merge` component. Then, plug the output of the simplified `Entwine` component containing your panels into the second input of the `Merge` component. Plug the output of the `Merge` component into the C input of a newly created `Loft` component.
->**Joe's Tip #78**
+>**Joe's Tip #8**
 >
 > Also try to avoid plugging multiple output wires into a single input wire - it is hard to reconfigure, add, and remove later. Use a `Merge` component to do this instead.
 
-### Side Quest 2
-There's an opportunity to merge the data trees earlier and simplify the definition - can you see it? Hint: we may not need to to the evaluate surface/angle measurement function in three paths. Can you figure out how to merge them? If so, take a screenshot and post it in the class Slack. This approach is cleaner, but harder to manage from a data tree perspective. 
+**Side Challenge 3:** *There's an opportunity to merge the data trees earlier and simplify the definition - can you see it? Hint: we may not need to to the evaluate surface/angle measurement function in three paths. Can you figure out how to merge them? If so, take a screenshot and post it in the class Slack. This approach is cleaner, but harder to manage from a data tree perspective.* 
 
 Your completed mass customization function should look like this. The final definition is at the bottom of the page if you need it:
 

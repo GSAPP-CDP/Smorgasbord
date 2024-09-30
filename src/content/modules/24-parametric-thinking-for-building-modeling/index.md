@@ -11,7 +11,7 @@ authors:
 
 I'm excited that you are interested in learning more about Rethinking BIM! If you're interested in computation, BIM, and the merger of the two, this sequence is for you. We will also tackle real-world challenges related to building design and documentation while exploring new methodologies for project execution.
 
-INSERT DYNAMIC GIF FROM END OF TUTORIAL
+<img src="images/final_demo.gif" width="1000">
 
 The purpose of this sequence is to think not only about how you can use Revit, or BIM, within a computational design workflow but also about how you can plan your workflow in a way that leverages computational thinking to augment building constructability. 
 
