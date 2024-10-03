@@ -1,66 +1,78 @@
 {
   "modules": {
-    "10-spatial-python/103-spatial-analysis-point-pattern": {
-      "double_links": []
-    },
     "10-spatial-python/101-data-manipulation": {
       "double_links": []
     },
-    "10-spatial-python/104-spatial-analysis-correlation": {
+    "10-spatial-python/103-spatial-analysis-point-pattern": {
       "double_links": []
     },
     "10-spatial-python/102-geospatial-data": {
       "double_links": []
     },
-    "10-spatial-python/index": {
-      "double_links": []
-    },
-    "11-interactive-web/110-getting-started": {
+    "10-spatial-python/104-spatial-analysis-correlation": {
       "double_links": []
     },
     "10-spatial-python/105-spatial-analysis-clustering": {
       "double_links": []
     },
+    "11-interactive-web/110-getting-started": {
+      "double_links": []
+    },
+    "10-spatial-python/index": {
+      "double_links": []
+    },
     "0-template/Template markdown file": {
-      "double_links": []
-    },
-    "11-interactive-web/113-data-and-apis": {
-      "double_links": []
-    },
-    "11-interactive-web/111-git-and-github": {
-      "double_links": []
-    },
-    "11-interactive-web/112-html-and-css": {
-      "double_links": []
-    },
-    "11-interactive-web/115-dom-manipulation": {
-      "double_links": []
-    },
-    "12-rhino-intro/12-1_rhino-interface": {
-      "double_links": []
-    },
-    "11-interactive-web/index": {
       "double_links": []
     },
     "11-interactive-web/114-events-and-uis": {
       "double_links": []
     },
-    "12-rhino-intro/12-3_rhino-3d": {
+    "11-interactive-web/112-html-and-css": {
+      "double_links": []
+    },
+    "12-rhino-intro/12-1_rhino-interface": {
       "double_links": []
     },
     "12-rhino-intro/12-2_rhino-2d": {
       "double_links": []
     },
-    "12-rhino-intro/12-4_rhino-nurbs": {
+    "11-interactive-web/index": {
+      "double_links": []
+    },
+    "11-interactive-web/115-dom-manipulation": {
       "double_links": []
     },
     "12-rhino-intro/index": {
       "double_links": []
     },
+    "12-rhino-intro/12-3_rhino-3d": {
+      "double_links": []
+    },
+    "11-interactive-web/111-git-and-github": {
+      "double_links": []
+    },
+    "12-rhino-intro/12-4_rhino-nurbs": {
+      "double_links": []
+    },
+    "13-arch-drawing/13-1_orthographic-drawing": {
+      "double_links": []
+    },
     "13-arch-drawing/13-2_projection": {
       "double_links": []
     },
+    "11-interactive-web/113-data-and-apis": {
+      "double_links": []
+    },
+    "13-arch-drawing/13-3_rendering": {
+      "double_links": []
+    },
     "13-arch-drawing/index": {
+      "double_links": []
+    },
+    "14-geospatial-concepts/index": {
+      "double_links": []
+    },
+    "15-intro-qgis/151-mapping-where": {
       "double_links": []
     },
     "14-geospatial-concepts/141-what-is-gis": {
@@ -69,28 +81,16 @@
     "14-geospatial-concepts/142-spatial-data": {
       "double_links": []
     },
-    "14-geospatial-concepts/index": {
-      "double_links": []
-    },
-    "13-arch-drawing/13-1_orthographic-drawing": {
-      "double_links": []
-    },
-    "13-arch-drawing/13-4_compositing": {
-      "double_links": []
-    },
-    "14-geospatial-concepts/143-coordinates-projections": {
-      "double_links": []
-    },
-    "15-intro-qgis/154-observations": {
+    "15-intro-qgis/152-print-layout": {
       "double_links": []
     },
     "15-intro-qgis/153-archives": {
       "double_links": []
     },
-    "15-intro-qgis/156-aerial-imagery": {
+    "15-intro-qgis/157-street-view": {
       "double_links": []
     },
-    "15-intro-qgis/152-print-layout": {
+    "15-intro-qgis/154-observations": {
       "double_links": []
     },
     "15-intro-qgis/158-atlas": {
@@ -99,31 +99,25 @@
     "15-intro-qgis/155-satellites": {
       "double_links": []
     },
-    "15-intro-qgis/index": {
-      "double_links": []
-    },
-    "15-intro-qgis/157-street-view": {
-      "double_links": []
-    },
-    "13-arch-drawing/13-3_rendering": {
-      "double_links": []
-    },
-    "16-intro-webmapping/163-storytelling": {
-      "double_links": []
-    },
     "16-intro-webmapping/index": {
       "double_links": []
     },
-    "17-ambient-computing-network-architecture/171-Intro-to-P5": {
+    "15-intro-qgis/index": {
+      "double_links": []
+    },
+    "16-intro-webmapping/161-webmap-part1": {
       "double_links": []
     },
     "16-intro-webmapping/162-webmap-part2": {
       "double_links": []
     },
-    "15-intro-qgis/151-mapping-where": {
+    "17-ambient-computing-network-architecture/171-Intro-to-P5": {
       "double_links": []
     },
-    "16-intro-webmapping/161-webmap-part1": {
+    "16-intro-webmapping/163-storytelling": {
+      "double_links": []
+    },
+    "14-geospatial-concepts/143-coordinates-projections": {
       "double_links": []
     },
     "17-ambient-computing-network-architecture/173-sounds-speech-and-macros": {
@@ -132,49 +126,43 @@
     "17-ambient-computing-network-architecture/172-Webhooks-Connecting-IFTTT-and-P5": {
       "double_links": []
     },
-    "17-ambient-computing-network-architecture/175-ML5-&-Computer-Vision": {
-      "double_links": []
-    },
-    "18-behavioral-modeling-intro/183-Agent-Based-Populations-and-Behavior-Bricks": {
+    "17-ambient-computing-network-architecture/index": {
       "double_links": []
     },
     "18-behavioral-modeling-intro/182-Intro-To-Unity": {
       "double_links": []
     },
-    "18-behavioral-modeling-intro/184-Mapbox-SDK-and-Routing": {
+    "18-behavioral-modeling-intro/183-Agent-Based-Populations-and-Behavior-Bricks": {
       "double_links": []
     },
-    "18-behavioral-modeling-intro/index": {
+    "15-intro-qgis/156-aerial-imagery": {
       "double_links": []
     },
-    "19-data_visualization/index": {
+    "17-ambient-computing-network-architecture/175-ML5-&-Computer-Vision": {
       "double_links": []
     },
     "18-behavioral-modeling-intro/181-Unity-and-Agent-Based-Models": {
       "double_links": []
     },
-    "17-ambient-computing-network-architecture/index": {
-      "double_links": []
-    },
-    "19-data_visualization/Module2Introductiontod3anscombe": {
-      "double_links": []
-    },
     "19-data_visualization/Module1WorkflowsPartASetupCodeEnvironment": {
       "double_links": []
     },
-    "19-data_visualization/Module3Tourofthebasiccharts2Line": {
+    "19-data_visualization/index": {
+      "double_links": []
+    },
+    "18-behavioral-modeling-intro/index": {
+      "double_links": []
+    },
+    "19-data_visualization/Module3Tourofthebasiccharts1Bar": {
       "double_links": []
     },
     "19-data_visualization/Module3Tourofthebasiccharts3Pie": {
       "double_links": []
     },
-    "19-data_visualization/Module4Workingwithexternaldata": {
+    "18-behavioral-modeling-intro/184-Mapbox-SDK-and-Routing": {
       "double_links": []
     },
     "19-data_visualization/Module5Buildinginteractivity": {
-      "double_links": []
-    },
-    "19-data_visualization/Module3Tourofthebasiccharts1Bar": {
       "double_links": []
     },
     "21-integrated-computational-simulation/213-acoustic": {
@@ -183,127 +171,118 @@
     "21-integrated-computational-simulation/211-tensile-membrane": {
       "double_links": []
     },
-    "21-integrated-computational-simulation/212-inflatable-structure": {
-      "double_links": []
-    },
     "23-parametric-visualization-with-grasshopper/23-1_tabular-data": {
       "double_links": []
     },
     "23-parametric-visualization-with-grasshopper/23-3_media": {
       "double_links": []
     },
+    "19-data_visualization/Module2Introductiontod3anscombe": {
+      "double_links": []
+    },
+    "13-arch-drawing/13-4_compositing": {
+      "double_links": []
+    },
     "23-parametric-visualization-with-grasshopper/index": {
       "double_links": []
     },
-    "24-parametric-thinking-for-building-modeling/index": {
-      "double_links": []
-    },
-    "25-rendering-with-blender/251-importing-from-rhino": {
-      "double_links": []
-    },
-    "24-parametric-thinking-for-building-modeling/241-construction-geometry": {
-      "double_links": []
-    },
-    "24-parametric-thinking-for-building-modeling/242-how-to-approach-parametric-building-modeling": {
-      "double_links": []
-    },
-    "25-rendering-with-blender/253-lighting": {
-      "double_links": []
-    },
-    "25-rendering-with-blender/254-materials": {
-      "double_links": []
-    },
-    "25-rendering-with-blender/252-technical-camera": {
-      "double_links": []
-    },
-    "25-rendering-with-blender/255-environment-abundance": {
-      "double_links": []
-    },
-    "25-rendering-with-blender/index": {
+    "19-data_visualization/Module4Workingwithexternaldata": {
       "double_links": []
     },
     "30-ai-intro/301-what-is-ai": {
       "double_links": []
     },
-    "30-ai-intro/302-how-ai-works": {
+    "24-parametric-thinking-for-building-modeling/index": {
       "double_links": []
     },
-    "30-ai-intro/303-teachable-machine": {
+    "19-data_visualization/Module3Tourofthebasiccharts2Line": {
       "double_links": []
     },
-    "25-rendering-with-blender/256-rendering": {
-      "double_links": []
-    },
-    "30-ai-intro/307-notable-players": {
+    "24-parametric-thinking-for-building-modeling/242-how-to-approach-parametric-building-modeling": {
       "double_links": []
     },
     "30-ai-intro/304-neural-networks": {
       "double_links": []
     },
-    "30-ai-intro/306-ai-history": {
-      "double_links": []
-    },
-    "30-ai-intro/308-ethics-and-governance": {
-      "double_links": []
-    },
-    "21-integrated-computational-simulation/index": {
+    "30-ai-intro/303-teachable-machine": {
       "double_links": []
     },
     "30-ai-intro/305-major-ai-platforms": {
       "double_links": []
     },
-    "31-ai-language/index": {
+    "30-ai-intro/306-ai-history": {
       "double_links": []
     },
-    "31-ai-language/312-llm-chat": {
+    "24-parametric-thinking-for-building-modeling/241-construction-geometry": {
       "double_links": []
     },
-    "31-ai-language/311-text-generation": {
+    "30-ai-intro/307-notable-players": {
+      "double_links": []
+    },
+    "21-integrated-computational-simulation/212-inflatable-structure": {
+      "double_links": []
+    },
+    "21-integrated-computational-simulation/index": {
       "double_links": []
     },
     "30-ai-intro/index": {
       "double_links": []
     },
-    "32-ai-vision-imagery/323-image-generation": {
+    "31-ai-language/312-llm-chat": {
+      "double_links": []
+    },
+    "30-ai-intro/302-how-ai-works": {
       "double_links": []
     },
     "31-ai-language/313-code-generation": {
       "double_links": []
     },
-    "32-ai-vision-imagery/index": {
+    "31-ai-language/314-function-calling": {
       "double_links": []
     },
-    "32-ai-vision-imagery/321-cv-mediapipe": {
+    "31-ai-language/index": {
       "double_links": []
     },
-    "4-grasshopper-intro/410-Generating-Exploring-Spatial-Data": {
+    "30-ai-intro/308-ethics-and-governance": {
       "double_links": []
     },
     "32-ai-vision-imagery/322-cv-hugging-face": {
       "double_links": []
     },
-    "31-ai-language/314-function-calling": {
+    "32-ai-vision-imagery/321-cv-mediapipe": {
       "double_links": []
     },
-    "4-grasshopper-intro/42-exercise-hello-grasshopper": {
+    "32-ai-vision-imagery/323-image-generation": {
+      "double_links": []
+    },
+    "32-ai-vision-imagery/index": {
+      "double_links": []
+    },
+    "31-ai-language/311-text-generation": {
       "double_links": []
     },
     "4-grasshopper-intro/41-getting-started-with-grasshopper": {
       "double_links": []
     },
-    "4-grasshopper-intro/44-exercise-parametric-tower-part-1": {
-      "double_links": []
-    },
-    "4-grasshopper-intro/45-working-with-data": {
+    "4-grasshopper-intro/42-exercise-hello-grasshopper": {
       "double_links": []
     },
     "4-grasshopper-intro/43-working-in-grasshopper": {
       "double_links": []
     },
+    "4-grasshopper-intro/45-working-with-data": {
+      "double_links": []
+    },
     "4-grasshopper-intro/46-exercise-parametric-tower-part-2": {
       "double_links": []
     },
+    "4-grasshopper-intro/410-Generating-Exploring-Spatial-Data": {
+      "double_links": []
+    },
     "4-grasshopper-intro/47-documentation-best-practices": {
+      "double_links": []
+    },
+    "4-grasshopper-intro/48-Deriving-Spatial-Data": {
       "double_links": []
     },
     "4-grasshopper-intro/49-Procedural-Rules": {
@@ -312,13 +291,28 @@
     "4-grasshopper-intro/index": {
       "double_links": []
     },
-    "5-computational-design-modeling-in-grasshopper/5-1-Comp-Design-Modeling": {
+    "40-rendering-with-blender/252-technical-camera": {
       "double_links": []
     },
-    "4-grasshopper-intro/48-Deriving-Spatial-Data": {
+    "40-rendering-with-blender/251-importing-from-rhino": {
+      "double_links": []
+    },
+    "4-grasshopper-intro/44-exercise-parametric-tower-part-1": {
+      "double_links": []
+    },
+    "40-rendering-with-blender/255-environment-abundance": {
       "double_links": []
     },
     "5-computational-design-modeling-in-grasshopper/5-2-Subdivide-Geometry": {
+      "double_links": []
+    },
+    "40-rendering-with-blender/253-lighting": {
+      "double_links": []
+    },
+    "40-rendering-with-blender/256-rendering": {
+      "double_links": []
+    },
+    "40-rendering-with-blender/index": {
       "double_links": []
     },
     "5-computational-design-modeling-in-grasshopper/5-3-Analysis-Tools": {
@@ -327,22 +321,28 @@
     "5-computational-design-modeling-in-grasshopper/5-4-Street-Grid": {
       "double_links": []
     },
+    "40-rendering-with-blender/254-materials": {
+      "double_links": []
+    },
+    "5-computational-design-modeling-in-grasshopper/5-1-Comp-Design-Modeling": {
+      "double_links": []
+    },
     "5-computational-design-modeling-in-grasshopper/5-5_Buildings-Density": {
       "double_links": []
     },
     "5-computational-design-modeling-in-grasshopper/5-7_Design-Space": {
       "double_links": []
     },
-    "5-computational-design-modeling-in-grasshopper/index": {
+    "6-intro-to-python/61-getting-started-with-Python": {
       "double_links": []
     },
     "5-computational-design-modeling-in-grasshopper/5-6_Troubleshooting": {
       "double_links": []
     },
-    "6-intro-to-python/61-getting-started-with-Python": {
+    "6-intro-to-python/index": {
       "double_links": []
     },
-    "6-intro-to-python/index": {
+    "7-fundamentals-of-python/71-variables-lists-and-dictionaries": {
       "double_links": []
     },
     "6-intro-to-python/62-using-python-in-grasshopper": {
@@ -351,19 +351,19 @@
     "7-fundamentals-of-python/72-conditionals-and-loops": {
       "double_links": []
     },
-    "7-fundamentals-of-python/71-variables-lists-and-dictionaries": {
-      "double_links": []
-    },
     "7-fundamentals-of-python/74-python-libraries": {
       "double_links": []
     },
     "7-fundamentals-of-python/73-functions-and-classes": {
       "double_links": []
     },
-    "8-intro-to-python-in-rhino/81-accessing-the-rhino-apis-in-python": {
+    "7-fundamentals-of-python/index": {
       "double_links": []
     },
-    "7-fundamentals-of-python/index": {
+    "5-computational-design-modeling-in-grasshopper/index": {
+      "double_links": []
+    },
+    "8-intro-to-python-in-rhino/81-accessing-the-rhino-apis-in-python": {
       "double_links": []
     },
     "8-intro-to-python-in-rhino/82-working-with-geometry-in-python": {
@@ -6814,678 +6814,6 @@
     },
     {
       "contentdata": {
-        "slug": "rendering-with-blender",
-        "moduleid": 250,
-        "title": "Rendering with Blender",
-        "published": true,
-        "authors": [
-          "Seth Thompson"
-        ],
-        "toc": [
-          {
-            "id": "sequence-summary",
-            "depth": 2,
-            "text": "Sequence Summary"
-          },
-          {
-            "id": "beyond-photorealistic-rendering",
-            "depth": 2,
-            "text": "Beyond Photorealistic Rendering"
-          },
-          {
-            "id": "why-blender",
-            "depth": 2,
-            "text": "Why Blender?"
-          },
-          {
-            "id": "blender-basics",
-            "depth": 2,
-            "text": "Blender Basics"
-          },
-          {
-            "id": "getting-started",
-            "depth": 3,
-            "text": "Getting Started"
-          },
-          {
-            "id": "the-interface",
-            "depth": 3,
-            "text": "The Interface"
-          },
-          {
-            "id": "basic-navigation",
-            "depth": 3,
-            "text": "Basic Navigation"
-          },
-          {
-            "id": "basic-operations",
-            "depth": 3,
-            "text": "Basic Operations"
-          },
-          {
-            "id": "camera-view",
-            "depth": 3,
-            "text": "Camera View"
-          },
-          {
-            "id": "rendering",
-            "depth": 3,
-            "text": "Rendering"
-          },
-          {
-            "id": "additional-panels",
-            "depth": 3,
-            "text": "Additional Panels"
-          },
-          {
-            "id": "changing-units",
-            "depth": 3,
-            "text": "Changing Units"
-          }
-        ],
-        "dir": "/modules/25-rendering-with-blender",
-        "path": "/modules/25-rendering-with-blender/index",
-        "extension": ".md",
-        "createdAt": "2024-09-30T00:40:55.074Z",
-        "updatedAt": "2024-10-02T04:33:41.549Z"
-      },
-      "ordinal": 25,
-      "path": "25-rendering-with-blender",
-      "slug": "rendering-with-blender",
-      "modules": [
-        {
-          "file": "index.md",
-          "ordinal": 0,
-          "contentdata": {
-            "slug": "rendering-with-blender",
-            "moduleid": 250,
-            "title": "Rendering with Blender",
-            "published": true,
-            "authors": [
-              "Seth Thompson"
-            ],
-            "toc": [
-              {
-                "id": "sequence-summary",
-                "depth": 2,
-                "text": "Sequence Summary"
-              },
-              {
-                "id": "beyond-photorealistic-rendering",
-                "depth": 2,
-                "text": "Beyond Photorealistic Rendering"
-              },
-              {
-                "id": "why-blender",
-                "depth": 2,
-                "text": "Why Blender?"
-              },
-              {
-                "id": "blender-basics",
-                "depth": 2,
-                "text": "Blender Basics"
-              },
-              {
-                "id": "getting-started",
-                "depth": 3,
-                "text": "Getting Started"
-              },
-              {
-                "id": "the-interface",
-                "depth": 3,
-                "text": "The Interface"
-              },
-              {
-                "id": "basic-navigation",
-                "depth": 3,
-                "text": "Basic Navigation"
-              },
-              {
-                "id": "basic-operations",
-                "depth": 3,
-                "text": "Basic Operations"
-              },
-              {
-                "id": "camera-view",
-                "depth": 3,
-                "text": "Camera View"
-              },
-              {
-                "id": "rendering",
-                "depth": 3,
-                "text": "Rendering"
-              },
-              {
-                "id": "additional-panels",
-                "depth": 3,
-                "text": "Additional Panels"
-              },
-              {
-                "id": "changing-units",
-                "depth": 3,
-                "text": "Changing Units"
-              }
-            ],
-            "dir": "/modules/25-rendering-with-blender",
-            "path": "/modules/25-rendering-with-blender/index",
-            "extension": ".md",
-            "createdAt": "2024-09-30T00:40:55.074Z",
-            "updatedAt": "2024-10-02T04:33:41.549Z"
-          }
-        },
-        {
-          "file": "251-importing-from-rhino.md",
-          "ordinal": 251,
-          "contentdata": {
-            "slug": "importing-from-rhino",
-            "moduleid": 251,
-            "title": "Importing from Rhino",
-            "published": true,
-            "authors": [
-              "Seth Thompson"
-            ],
-            "toc": [
-              {
-                "id": "introduction",
-                "depth": 2,
-                "text": "Introduction"
-              },
-              {
-                "id": "importing-from-rhino",
-                "depth": 2,
-                "text": "Importing from Rhino"
-              },
-              {
-                "id": "preparing-your-rhino-model",
-                "depth": 3,
-                "text": "Preparing Your Rhino Model"
-              },
-              {
-                "id": "installing-the-rhino-to-blender-add-on",
-                "depth": 3,
-                "text": "Installing the Rhino to Blender Add-on"
-              },
-              {
-                "id": "importing-your-rhino-model",
-                "depth": 3,
-                "text": "Importing Your Rhino Model"
-              },
-              {
-                "id": "importing-from-other-cad-software",
-                "depth": 2,
-                "text": "Importing from other CAD software"
-              },
-              {
-                "id": "adjusting-units-in-blender",
-                "depth": 2,
-                "text": "Adjusting Units in Blender"
-              },
-              {
-                "id": "examining-the-imported-geometry",
-                "depth": 2,
-                "text": "Examining the Imported Geometry"
-              },
-              {
-                "id": "checking-face-orientations",
-                "depth": 2,
-                "text": "Checking Face Orientations"
-              },
-              {
-                "id": "fixing-face-orientations",
-                "depth": 3,
-                "text": "Fixing Face Orientations"
-              }
-            ],
-            "dir": "/modules/25-rendering-with-blender",
-            "path": "/modules/25-rendering-with-blender/251-importing-from-rhino",
-            "extension": ".md",
-            "createdAt": "2024-09-30T01:01:20.243Z",
-            "updatedAt": "2024-10-02T12:35:02.335Z"
-          }
-        },
-        {
-          "file": "252-technical-camera.md",
-          "ordinal": 252,
-          "contentdata": {
-            "slug": "technical-camera",
-            "moduleid": 252,
-            "title": "Technical Camera",
-            "published": true,
-            "authors": [
-              "Seth Thompson"
-            ],
-            "toc": [
-              {
-                "id": "basic-camera-operations",
-                "depth": 2,
-                "text": "Basic Camera Operations"
-              },
-              {
-                "id": "adding-a-camera",
-                "depth": 3,
-                "text": "Adding a Camera"
-              },
-              {
-                "id": "viewing-through-the-camera",
-                "depth": 3,
-                "text": "Viewing Through the Camera"
-              },
-              {
-                "id": "switching-between-cameras",
-                "depth": 3,
-                "text": "Switching Between Cameras"
-              },
-              {
-                "id": "moving-the-camera",
-                "depth": 3,
-                "text": "Moving the Camera"
-              },
-              {
-                "id": "camera-properties",
-                "depth": 2,
-                "text": "Camera Properties"
-              },
-              {
-                "id": "focal-length",
-                "depth": 3,
-                "text": "Focal Length"
-              },
-              {
-                "id": "shift",
-                "depth": 3,
-                "text": "Shift"
-              },
-              {
-                "id": "perspective--orthographic",
-                "depth": 3,
-                "text": "Perspective / Orthographic"
-              },
-              {
-                "id": "aspect-ratio--resolution",
-                "depth": 2,
-                "text": "Aspect Ratio / Resolution"
-              },
-              {
-                "id": "usability-tips",
-                "depth": 2,
-                "text": "Usability Tips"
-              },
-              {
-                "id": "aligning-camera-to-view",
-                "depth": 3,
-                "text": "Aligning Camera to View"
-              },
-              {
-                "id": "lock-camera-to-view",
-                "depth": 3,
-                "text": "Lock Camera to View"
-              },
-              {
-                "id": "precise-camera-positioning",
-                "depth": 3,
-                "text": "Precise Camera Positioning"
-              },
-              {
-                "id": "recreating-specific-views",
-                "depth": 3,
-                "text": "Recreating Specific Views"
-              },
-              {
-                "id": "changing-the-cameras-clipping-distance",
-                "depth": 3,
-                "text": "Changing the Camera's Clipping Distance"
-              }
-            ],
-            "dir": "/modules/25-rendering-with-blender",
-            "path": "/modules/25-rendering-with-blender/252-technical-camera",
-            "extension": ".md",
-            "createdAt": "2024-09-30T01:01:28.115Z",
-            "updatedAt": "2024-10-02T16:04:40.308Z"
-          }
-        },
-        {
-          "file": "253-lighting.md",
-          "ordinal": 253,
-          "contentdata": {
-            "slug": "lighting",
-            "moduleid": 253,
-            "title": "Lighting",
-            "published": true,
-            "authors": [
-              "Seth Thompson"
-            ],
-            "toc": [
-              {
-                "id": "light--shadow",
-                "depth": 2,
-                "text": "Light & Shadow"
-              },
-              {
-                "id": "light",
-                "depth": 3,
-                "text": "Light"
-              },
-              {
-                "id": "shadows",
-                "depth": 3,
-                "text": "Shadows"
-              },
-              {
-                "id": "indirect-light",
-                "depth": 3,
-                "text": "Indirect Light"
-              },
-              {
-                "id": "diffuse-light",
-                "depth": 3,
-                "text": "Diffuse Light"
-              },
-              {
-                "id": "adding-lights-in-blender",
-                "depth": 2,
-                "text": "Adding Lights in Blender"
-              },
-              {
-                "id": "viewport-setup",
-                "depth": 3,
-                "text": "Viewport Setup"
-              },
-              {
-                "id": "lights",
-                "depth": 2,
-                "text": "Lights"
-              },
-              {
-                "id": "point-light",
-                "depth": 3,
-                "text": "Point Light"
-              },
-              {
-                "id": "spot-light",
-                "depth": 3,
-                "text": "Spot Light"
-              },
-              {
-                "id": "area-light",
-                "depth": 3,
-                "text": "Area Light"
-              },
-              {
-                "id": "sun-light",
-                "depth": 3,
-                "text": "Sun Light"
-              },
-              {
-                "id": "environment-lighting",
-                "depth": 2,
-                "text": "Environment Lighting"
-              },
-              {
-                "id": "introduction-to-nodes-shader-editor",
-                "depth": 3,
-                "text": "Introduction to Nodes (Shader Editor)"
-              },
-              {
-                "id": "nishita-sky-built-in-sky-texture",
-                "depth": 3,
-                "text": "Nishita Sky (Built-in Sky Texture)"
-              },
-              {
-                "id": "hdri-lighting",
-                "depth": 3,
-                "text": "HDRi Lighting"
-              },
-              {
-                "id": "rotating-hdri-environment-maps",
-                "depth": 3,
-                "text": "Rotating HDRi Environment Maps"
-              },
-              {
-                "id": "adjusting-light-intensity-and-exposure",
-                "depth": 2,
-                "text": "Adjusting Light Intensity and Exposure"
-              },
-              {
-                "id": "adding-lights-to-your-scene",
-                "depth": 2,
-                "text": "Adding Lights to Your Scene"
-              }
-            ],
-            "dir": "/modules/25-rendering-with-blender",
-            "path": "/modules/25-rendering-with-blender/253-lighting",
-            "extension": ".md",
-            "createdAt": "2024-09-30T01:01:39.476Z",
-            "updatedAt": "2024-10-02T16:43:34.117Z"
-          }
-        },
-        {
-          "file": "254-materials.md",
-          "ordinal": 254,
-          "contentdata": {
-            "slug": "materials",
-            "moduleid": 254,
-            "title": "Materials",
-            "published": true,
-            "authors": [
-              "Seth Thompson"
-            ],
-            "toc": [
-              {
-                "id": "editing-materials",
-                "depth": 2,
-                "text": "Editing Materials"
-              },
-              {
-                "id": "understanding-nodes-shader-editor",
-                "depth": 3,
-                "text": "Understanding Nodes (Shader Editor)"
-              },
-              {
-                "id": "physically-based-materials",
-                "depth": 2,
-                "text": "Physically Based Materials"
-              },
-              {
-                "id": "plaster-material",
-                "depth": 3,
-                "text": "Plaster Material"
-              },
-              {
-                "id": "concrete-material",
-                "depth": 3,
-                "text": "Concrete Material"
-              },
-              {
-                "id": "brass-material",
-                "depth": 3,
-                "text": "Brass Material"
-              },
-              {
-                "id": "glass-material",
-                "depth": 3,
-                "text": "Glass Material"
-              },
-              {
-                "id": "image-textures",
-                "depth": 2,
-                "text": "Image Textures"
-              },
-              {
-                "id": "image-textures-as-material-properties",
-                "depth": 3,
-                "text": "Image Textures as Material Properties"
-              },
-              {
-                "id": "texture-coordinates",
-                "depth": 3,
-                "text": "Texture Coordinates"
-              },
-              {
-                "id": "corrugated-metal-material-image-texture",
-                "depth": 3,
-                "text": "Corrugated Metal Material (Image Texture)"
-              },
-              {
-                "id": "procedural-materials",
-                "depth": 2,
-                "text": "Procedural Materials"
-              },
-              {
-                "id": "marble-material",
-                "depth": 3,
-                "text": "Marble Material"
-              },
-              {
-                "id": "wood-material",
-                "depth": 3,
-                "text": "Wood Material"
-              },
-              {
-                "id": "final-product",
-                "depth": 2,
-                "text": "Final Product"
-              },
-              {
-                "id": "non-photorealistic-materials",
-                "depth": 2,
-                "text": "Non-Photorealistic Materials"
-              },
-              {
-                "id": "edge-glow-material",
-                "depth": 3,
-                "text": "Edge Glow Material"
-              },
-              {
-                "id": "images-as-planes",
-                "depth": 2,
-                "text": "Images as Planes"
-              },
-              {
-                "id": "light-as-material",
-                "depth": 2,
-                "text": "Light as Material"
-              },
-              {
-                "id": "working-with-materials",
-                "depth": 2,
-                "text": "Working with Materials"
-              },
-              {
-                "id": "applying-materials-to-multiple-objects",
-                "depth": 3,
-                "text": "Applying Materials to Multiple Objects"
-              },
-              {
-                "id": "saving-materials",
-                "depth": 3,
-                "text": "Saving Materials"
-              },
-              {
-                "id": "adding-materials-to-the-model",
-                "depth": 2,
-                "text": "Adding Materials to the Model"
-              }
-            ],
-            "dir": "/modules/25-rendering-with-blender",
-            "path": "/modules/25-rendering-with-blender/254-materials",
-            "extension": ".md",
-            "createdAt": "2024-09-30T01:01:47.435Z",
-            "updatedAt": "2024-10-03T15:22:03.937Z"
-          }
-        },
-        {
-          "file": "255-environment-abundance.md",
-          "ordinal": 255,
-          "contentdata": {
-            "slug": "environment-abundance",
-            "moduleid": 255,
-            "title": "Environment & Abundance",
-            "published": true,
-            "authors": [
-              "Seth Thompson"
-            ],
-            "toc": [
-              {
-                "id": "vegetation",
-                "depth": 2,
-                "text": "Vegetation"
-              },
-              {
-                "id": "importing-trees",
-                "depth": 3,
-                "text": "Importing Trees"
-              },
-              {
-                "id": "importing-cutouts",
-                "depth": 3,
-                "text": "Importing Cutouts"
-              },
-              {
-                "id": "creating-instances-linked-duplicates",
-                "depth": 3,
-                "text": "Creating Instances (Linked Duplicates)"
-              },
-              {
-                "id": "manual-placement",
-                "depth": 3,
-                "text": "Manual Placement"
-              },
-              {
-                "id": "procedural-scattering",
-                "depth": 2,
-                "text": "Procedural Scattering"
-              },
-              {
-                "id": "biome-reader",
-                "depth": 3,
-                "text": "Biome Reader"
-              },
-              {
-                "id": "creating-an-emitter",
-                "depth": 3,
-                "text": "Creating an Emitter"
-              },
-              {
-                "id": "scattering-objects",
-                "depth": 3,
-                "text": "Scattering Objects"
-              },
-              {
-                "id": "adding-abundance-with-an-hdri",
-                "depth": 2,
-                "text": "Adding Abundance with an HDRi"
-              }
-            ],
-            "dir": "/modules/25-rendering-with-blender",
-            "path": "/modules/25-rendering-with-blender/255-environment-abundance",
-            "extension": ".md",
-            "createdAt": "2024-09-30T01:01:58.504Z",
-            "updatedAt": "2024-10-03T17:10:13.516Z"
-          }
-        },
-        {
-          "file": "256-rendering.md",
-          "ordinal": 256,
-          "contentdata": {
-            "slug": "rendering",
-            "moduleid": 256,
-            "title": "Rendering",
-            "published": true,
-            "authors": [
-              "Seth Thompson"
-            ],
-            "toc": [],
-            "dir": "/modules/25-rendering-with-blender",
-            "path": "/modules/25-rendering-with-blender/256-rendering",
-            "extension": ".md",
-            "createdAt": "2024-09-30T01:02:06.350Z",
-            "updatedAt": "2024-10-02T12:39:42.207Z"
-          }
-        }
-      ]
-    },
-    {
-      "contentdata": {
         "slug": "index",
         "moduleid": 300,
         "title": "Introduction to Modern Artificial Intelligence",
@@ -8684,6 +8012,699 @@
             "extension": ".md",
             "createdAt": "2024-09-30T00:41:18.997Z",
             "updatedAt": "2024-09-30T00:41:18.997Z"
+          }
+        }
+      ]
+    },
+    {
+      "contentdata": {
+        "slug": "rendering-with-blender",
+        "moduleid": 250,
+        "title": "Rendering with Blender",
+        "published": true,
+        "authors": [
+          "Seth Thompson"
+        ],
+        "toc": [
+          {
+            "id": "sequence-summary",
+            "depth": 2,
+            "text": "Sequence Summary"
+          },
+          {
+            "id": "beyond-photorealistic-rendering",
+            "depth": 2,
+            "text": "Beyond Photorealistic Rendering"
+          },
+          {
+            "id": "why-blender",
+            "depth": 2,
+            "text": "Why Blender?"
+          },
+          {
+            "id": "blender-basics",
+            "depth": 2,
+            "text": "Blender Basics"
+          },
+          {
+            "id": "getting-started",
+            "depth": 3,
+            "text": "Getting Started"
+          },
+          {
+            "id": "the-interface",
+            "depth": 3,
+            "text": "The Interface"
+          },
+          {
+            "id": "basic-navigation",
+            "depth": 3,
+            "text": "Basic Navigation"
+          },
+          {
+            "id": "basic-operations",
+            "depth": 3,
+            "text": "Basic Operations"
+          },
+          {
+            "id": "camera-view",
+            "depth": 3,
+            "text": "Camera View"
+          },
+          {
+            "id": "rendering",
+            "depth": 3,
+            "text": "Rendering"
+          },
+          {
+            "id": "additional-panels",
+            "depth": 3,
+            "text": "Additional Panels"
+          },
+          {
+            "id": "changing-units",
+            "depth": 3,
+            "text": "Changing Units"
+          }
+        ],
+        "dir": "/modules/40-rendering-with-blender",
+        "path": "/modules/40-rendering-with-blender/index",
+        "extension": ".md",
+        "createdAt": "2024-09-30T00:40:55.074Z",
+        "updatedAt": "2024-10-03T17:16:03.622Z"
+      },
+      "ordinal": 40,
+      "path": "40-rendering-with-blender",
+      "slug": "rendering-with-blender",
+      "modules": [
+        {
+          "file": "index.md",
+          "ordinal": 0,
+          "contentdata": {
+            "slug": "rendering-with-blender",
+            "moduleid": 250,
+            "title": "Rendering with Blender",
+            "published": true,
+            "authors": [
+              "Seth Thompson"
+            ],
+            "toc": [
+              {
+                "id": "sequence-summary",
+                "depth": 2,
+                "text": "Sequence Summary"
+              },
+              {
+                "id": "beyond-photorealistic-rendering",
+                "depth": 2,
+                "text": "Beyond Photorealistic Rendering"
+              },
+              {
+                "id": "why-blender",
+                "depth": 2,
+                "text": "Why Blender?"
+              },
+              {
+                "id": "blender-basics",
+                "depth": 2,
+                "text": "Blender Basics"
+              },
+              {
+                "id": "getting-started",
+                "depth": 3,
+                "text": "Getting Started"
+              },
+              {
+                "id": "the-interface",
+                "depth": 3,
+                "text": "The Interface"
+              },
+              {
+                "id": "basic-navigation",
+                "depth": 3,
+                "text": "Basic Navigation"
+              },
+              {
+                "id": "basic-operations",
+                "depth": 3,
+                "text": "Basic Operations"
+              },
+              {
+                "id": "camera-view",
+                "depth": 3,
+                "text": "Camera View"
+              },
+              {
+                "id": "rendering",
+                "depth": 3,
+                "text": "Rendering"
+              },
+              {
+                "id": "additional-panels",
+                "depth": 3,
+                "text": "Additional Panels"
+              },
+              {
+                "id": "changing-units",
+                "depth": 3,
+                "text": "Changing Units"
+              }
+            ],
+            "dir": "/modules/40-rendering-with-blender",
+            "path": "/modules/40-rendering-with-blender/index",
+            "extension": ".md",
+            "createdAt": "2024-09-30T00:40:55.074Z",
+            "updatedAt": "2024-10-03T17:16:03.622Z"
+          }
+        },
+        {
+          "file": "251-importing-from-rhino.md",
+          "ordinal": 251,
+          "contentdata": {
+            "slug": "importing-from-rhino",
+            "moduleid": 251,
+            "title": "Importing from Rhino",
+            "published": true,
+            "authors": [
+              "Seth Thompson"
+            ],
+            "toc": [
+              {
+                "id": "introduction",
+                "depth": 2,
+                "text": "Introduction"
+              },
+              {
+                "id": "importing-from-rhino",
+                "depth": 2,
+                "text": "Importing from Rhino"
+              },
+              {
+                "id": "preparing-your-rhino-model",
+                "depth": 3,
+                "text": "Preparing Your Rhino Model"
+              },
+              {
+                "id": "installing-the-rhino-to-blender-add-on",
+                "depth": 3,
+                "text": "Installing the Rhino to Blender Add-on"
+              },
+              {
+                "id": "importing-your-rhino-model",
+                "depth": 3,
+                "text": "Importing Your Rhino Model"
+              },
+              {
+                "id": "importing-from-other-cad-software",
+                "depth": 2,
+                "text": "Importing from other CAD software"
+              },
+              {
+                "id": "adjusting-units-in-blender",
+                "depth": 2,
+                "text": "Adjusting Units in Blender"
+              },
+              {
+                "id": "examining-the-imported-geometry",
+                "depth": 2,
+                "text": "Examining the Imported Geometry"
+              },
+              {
+                "id": "checking-face-orientations",
+                "depth": 2,
+                "text": "Checking Face Orientations"
+              },
+              {
+                "id": "fixing-face-orientations",
+                "depth": 3,
+                "text": "Fixing Face Orientations"
+              }
+            ],
+            "dir": "/modules/40-rendering-with-blender",
+            "path": "/modules/40-rendering-with-blender/251-importing-from-rhino",
+            "extension": ".md",
+            "createdAt": "2024-09-30T01:01:20.243Z",
+            "updatedAt": "2024-10-03T17:16:32.865Z"
+          }
+        },
+        {
+          "file": "252-technical-camera.md",
+          "ordinal": 252,
+          "contentdata": {
+            "slug": "technical-camera",
+            "moduleid": 252,
+            "title": "Technical Camera",
+            "published": true,
+            "authors": [
+              "Seth Thompson"
+            ],
+            "toc": [
+              {
+                "id": "basic-camera-operations",
+                "depth": 2,
+                "text": "Basic Camera Operations"
+              },
+              {
+                "id": "adding-a-camera",
+                "depth": 3,
+                "text": "Adding a Camera"
+              },
+              {
+                "id": "viewing-through-the-camera",
+                "depth": 3,
+                "text": "Viewing Through the Camera"
+              },
+              {
+                "id": "switching-between-cameras",
+                "depth": 3,
+                "text": "Switching Between Cameras"
+              },
+              {
+                "id": "moving-the-camera",
+                "depth": 3,
+                "text": "Moving the Camera"
+              },
+              {
+                "id": "camera-properties",
+                "depth": 2,
+                "text": "Camera Properties"
+              },
+              {
+                "id": "focal-length",
+                "depth": 3,
+                "text": "Focal Length"
+              },
+              {
+                "id": "shift",
+                "depth": 3,
+                "text": "Shift"
+              },
+              {
+                "id": "perspective--orthographic",
+                "depth": 3,
+                "text": "Perspective / Orthographic"
+              },
+              {
+                "id": "aspect-ratio--resolution",
+                "depth": 2,
+                "text": "Aspect Ratio / Resolution"
+              },
+              {
+                "id": "usability-tips",
+                "depth": 2,
+                "text": "Usability Tips"
+              },
+              {
+                "id": "aligning-camera-to-view",
+                "depth": 3,
+                "text": "Aligning Camera to View"
+              },
+              {
+                "id": "lock-camera-to-view",
+                "depth": 3,
+                "text": "Lock Camera to View"
+              },
+              {
+                "id": "precise-camera-positioning",
+                "depth": 3,
+                "text": "Precise Camera Positioning"
+              },
+              {
+                "id": "recreating-specific-views",
+                "depth": 3,
+                "text": "Recreating Specific Views"
+              },
+              {
+                "id": "changing-the-cameras-clipping-distance",
+                "depth": 3,
+                "text": "Changing the Camera's Clipping Distance"
+              }
+            ],
+            "dir": "/modules/40-rendering-with-blender",
+            "path": "/modules/40-rendering-with-blender/252-technical-camera",
+            "extension": ".md",
+            "createdAt": "2024-09-30T01:01:28.115Z",
+            "updatedAt": "2024-10-03T17:16:27.784Z"
+          }
+        },
+        {
+          "file": "253-lighting.md",
+          "ordinal": 253,
+          "contentdata": {
+            "slug": "lighting",
+            "moduleid": 253,
+            "title": "Lighting",
+            "published": true,
+            "authors": [
+              "Seth Thompson"
+            ],
+            "toc": [
+              {
+                "id": "light--shadow",
+                "depth": 2,
+                "text": "Light & Shadow"
+              },
+              {
+                "id": "light",
+                "depth": 3,
+                "text": "Light"
+              },
+              {
+                "id": "shadows",
+                "depth": 3,
+                "text": "Shadows"
+              },
+              {
+                "id": "indirect-light",
+                "depth": 3,
+                "text": "Indirect Light"
+              },
+              {
+                "id": "diffuse-light",
+                "depth": 3,
+                "text": "Diffuse Light"
+              },
+              {
+                "id": "adding-lights-in-blender",
+                "depth": 2,
+                "text": "Adding Lights in Blender"
+              },
+              {
+                "id": "viewport-setup",
+                "depth": 3,
+                "text": "Viewport Setup"
+              },
+              {
+                "id": "lights",
+                "depth": 2,
+                "text": "Lights"
+              },
+              {
+                "id": "point-light",
+                "depth": 3,
+                "text": "Point Light"
+              },
+              {
+                "id": "spot-light",
+                "depth": 3,
+                "text": "Spot Light"
+              },
+              {
+                "id": "area-light",
+                "depth": 3,
+                "text": "Area Light"
+              },
+              {
+                "id": "sun-light",
+                "depth": 3,
+                "text": "Sun Light"
+              },
+              {
+                "id": "environment-lighting",
+                "depth": 2,
+                "text": "Environment Lighting"
+              },
+              {
+                "id": "introduction-to-nodes-shader-editor",
+                "depth": 3,
+                "text": "Introduction to Nodes (Shader Editor)"
+              },
+              {
+                "id": "nishita-sky-built-in-sky-texture",
+                "depth": 3,
+                "text": "Nishita Sky (Built-in Sky Texture)"
+              },
+              {
+                "id": "hdri-lighting",
+                "depth": 3,
+                "text": "HDRi Lighting"
+              },
+              {
+                "id": "rotating-hdri-environment-maps",
+                "depth": 3,
+                "text": "Rotating HDRi Environment Maps"
+              },
+              {
+                "id": "adjusting-light-intensity-and-exposure",
+                "depth": 2,
+                "text": "Adjusting Light Intensity and Exposure"
+              },
+              {
+                "id": "adding-lights-to-your-scene",
+                "depth": 2,
+                "text": "Adding Lights to Your Scene"
+              }
+            ],
+            "dir": "/modules/40-rendering-with-blender",
+            "path": "/modules/40-rendering-with-blender/253-lighting",
+            "extension": ".md",
+            "createdAt": "2024-09-30T01:01:39.476Z",
+            "updatedAt": "2024-10-03T17:16:23.879Z"
+          }
+        },
+        {
+          "file": "254-materials.md",
+          "ordinal": 254,
+          "contentdata": {
+            "slug": "materials",
+            "moduleid": 254,
+            "title": "Materials",
+            "published": true,
+            "authors": [
+              "Seth Thompson"
+            ],
+            "toc": [
+              {
+                "id": "editing-materials",
+                "depth": 2,
+                "text": "Editing Materials"
+              },
+              {
+                "id": "understanding-nodes-shader-editor",
+                "depth": 3,
+                "text": "Understanding Nodes (Shader Editor)"
+              },
+              {
+                "id": "physically-based-materials",
+                "depth": 2,
+                "text": "Physically Based Materials"
+              },
+              {
+                "id": "plaster-material",
+                "depth": 3,
+                "text": "Plaster Material"
+              },
+              {
+                "id": "concrete-material",
+                "depth": 3,
+                "text": "Concrete Material"
+              },
+              {
+                "id": "brass-material",
+                "depth": 3,
+                "text": "Brass Material"
+              },
+              {
+                "id": "glass-material",
+                "depth": 3,
+                "text": "Glass Material"
+              },
+              {
+                "id": "image-textures",
+                "depth": 2,
+                "text": "Image Textures"
+              },
+              {
+                "id": "image-textures-as-material-properties",
+                "depth": 3,
+                "text": "Image Textures as Material Properties"
+              },
+              {
+                "id": "texture-coordinates",
+                "depth": 3,
+                "text": "Texture Coordinates"
+              },
+              {
+                "id": "corrugated-metal-material-image-texture",
+                "depth": 3,
+                "text": "Corrugated Metal Material (Image Texture)"
+              },
+              {
+                "id": "procedural-materials",
+                "depth": 2,
+                "text": "Procedural Materials"
+              },
+              {
+                "id": "marble-material",
+                "depth": 3,
+                "text": "Marble Material"
+              },
+              {
+                "id": "wood-material",
+                "depth": 3,
+                "text": "Wood Material"
+              },
+              {
+                "id": "final-product",
+                "depth": 2,
+                "text": "Final Product"
+              },
+              {
+                "id": "non-photorealistic-materials",
+                "depth": 2,
+                "text": "Non-Photorealistic Materials"
+              },
+              {
+                "id": "edge-glow-material",
+                "depth": 3,
+                "text": "Edge Glow Material"
+              },
+              {
+                "id": "images-as-planes",
+                "depth": 2,
+                "text": "Images as Planes"
+              },
+              {
+                "id": "light-as-material",
+                "depth": 2,
+                "text": "Light as Material"
+              },
+              {
+                "id": "working-with-materials",
+                "depth": 2,
+                "text": "Working with Materials"
+              },
+              {
+                "id": "applying-materials-to-multiple-objects",
+                "depth": 3,
+                "text": "Applying Materials to Multiple Objects"
+              },
+              {
+                "id": "saving-materials",
+                "depth": 3,
+                "text": "Saving Materials"
+              },
+              {
+                "id": "adding-materials-to-the-model",
+                "depth": 2,
+                "text": "Adding Materials to the Model"
+              }
+            ],
+            "dir": "/modules/40-rendering-with-blender",
+            "path": "/modules/40-rendering-with-blender/254-materials",
+            "extension": ".md",
+            "createdAt": "2024-09-30T01:01:47.435Z",
+            "updatedAt": "2024-10-03T17:16:16.295Z"
+          }
+        },
+        {
+          "file": "255-environment-abundance.md",
+          "ordinal": 255,
+          "contentdata": {
+            "slug": "environment-abundance",
+            "moduleid": 255,
+            "title": "Environment & Abundance",
+            "published": true,
+            "authors": [
+              "Seth Thompson"
+            ],
+            "toc": [
+              {
+                "id": "vegetation",
+                "depth": 2,
+                "text": "Vegetation"
+              },
+              {
+                "id": "importing-trees",
+                "depth": 3,
+                "text": "Importing Trees"
+              },
+              {
+                "id": "importing-cutouts",
+                "depth": 3,
+                "text": "Importing Cutouts"
+              },
+              {
+                "id": "creating-instances-linked-duplicates",
+                "depth": 3,
+                "text": "Creating Instances (Linked Duplicates)"
+              },
+              {
+                "id": "manual-placement",
+                "depth": 3,
+                "text": "Manual Placement"
+              },
+              {
+                "id": "procedural-scattering",
+                "depth": 2,
+                "text": "Procedural Scattering"
+              },
+              {
+                "id": "biome-reader",
+                "depth": 3,
+                "text": "Biome Reader"
+              },
+              {
+                "id": "creating-an-emitter",
+                "depth": 3,
+                "text": "Creating an Emitter"
+              },
+              {
+                "id": "scattering-objects",
+                "depth": 3,
+                "text": "Scattering Objects"
+              },
+              {
+                "id": "adding-abundance-with-an-hdri",
+                "depth": 2,
+                "text": "Adding Abundance with an HDRi"
+              }
+            ],
+            "dir": "/modules/40-rendering-with-blender",
+            "path": "/modules/40-rendering-with-blender/255-environment-abundance",
+            "extension": ".md",
+            "createdAt": "2024-09-30T01:01:58.504Z",
+            "updatedAt": "2024-10-03T17:16:10.699Z"
+          }
+        },
+        {
+          "file": "256-rendering.md",
+          "ordinal": 256,
+          "contentdata": {
+            "slug": "rendering",
+            "moduleid": 256,
+            "title": "Rendering",
+            "published": true,
+            "authors": [
+              "Seth Thompson"
+            ],
+            "toc": [
+              {
+                "id": "color-management",
+                "depth": 2,
+                "text": "Color Management"
+              },
+              {
+                "id": "rendering-settings",
+                "depth": 2,
+                "text": "Rendering Settings"
+              },
+              {
+                "id": "file-output",
+                "depth": 2,
+                "text": "File Output"
+              },
+              {
+                "id": "render",
+                "depth": 2,
+                "text": "Render"
+              }
+            ],
+            "dir": "/modules/40-rendering-with-blender",
+            "path": "/modules/40-rendering-with-blender/256-rendering",
+            "extension": ".md",
+            "createdAt": "2024-09-30T01:02:06.350Z",
+            "updatedAt": "2024-10-03T17:39:35.672Z"
           }
         }
       ]
