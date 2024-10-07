@@ -41,6 +41,11 @@
       <SequenceLinks path="21-integrated-computational-simulation" />
       <SequenceLinks path="23-parametric-visualization-with-grasshopper" />
     </div> 
+
+    <div class="coursetitle">Rendering Systems</div>
+    <div class="course">
+      <SequenceLinks path="40-rendering-with-blender" />
+    </div> 
     
     <div class="coursetitle">Re-Thinking BIM</div>
     <div class="course">
