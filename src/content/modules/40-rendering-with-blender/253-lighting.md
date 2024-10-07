@@ -46,6 +46,8 @@ On an architectural scale, semi-transparent surfaces such as frosted glass or co
 
 ## Adding Lights in Blender
 
+You can use [Wassily Chair (Lighting).blend (4 MB ↓)](https://drive.google.com/file/d/1bN3sarlmBi0KN3z2p5vWU8CGW2RJyAKO/view?usp=sharing) to follow along with this tutorial.
+
 ### Viewport Setup
 
 ![Viewport setup](images/3-lighting/00-rendering-alt.png)
@@ -141,6 +143,8 @@ The sun light can be used to simulate the light of the sun or a distant light so
 ## Environment Lighting
 
 In addition to supporting distinct light sources, Blender allows us to simulate light from the surrounding environment as a simulated 360° dome around the scene. This technique is called Environment Lighting and it is akin to adding a material to the surrounding world itself.
+
+You can use [Pilotis In A Forest (Lighting).blend (53.9 MB ↓)](https://drive.google.com/file/d/1-fkBxoCfUl5lI3C61xaYkW8_0jx-agDC/view?usp=sharing) to follow along with this tutorial.
 
 ![World Shader](images/3-lighting/50-world-shader.png)
 *Switch to the Shading workspace and change the Shader Editor from Object to World mode in the top-left corner*

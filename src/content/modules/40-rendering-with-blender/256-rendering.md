@@ -9,6 +9,9 @@ authors:
 
 After composing your scene in the 3D Viewport, the final step is to render your image at a higher resolution and quality.
 
+You can use [Pilotis In A Forest (Rendering).blend (402.3 MB ↓)](https://drive.google.com/file/d/16AFj6BMU-4oOydYxO4n0nnxMmXAepTef/view?usp=sharing) to follow along with this tutorial.
+
+
 ## Color Management
 
 ![Color & Exposure](images/6-rendering/00-color-exposure.png)

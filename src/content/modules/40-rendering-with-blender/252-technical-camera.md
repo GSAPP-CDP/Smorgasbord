@@ -14,6 +14,8 @@ Rendering builds on the long histories of projective representation of architect
 
 Blender represents each view of a scene as a separate camera. You can have multiple cameras in a scene, and switch between each of them to render different views.
 
+You can use [Pilotis In A Forest (Camera).blend (32.8 MB ↓)](https://drive.google.com/file/d/1AL-YVixtq6sEAIy0lkow90FkKft6gahC/view?usp=sharing) to follow along with this tutorial.
+
 ### Adding a Camera
 
 ![Add camera](images/2-camera/00-add.png)

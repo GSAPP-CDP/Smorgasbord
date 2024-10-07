@@ -26,6 +26,8 @@ Fortunately, there is a free add-on available that allows us to do just this, ca
 
 This tutorial assumes that you have already modeled a scene in Rhino.
 
+You can use [Pilotis In A Forest.3dm (22.9 MB ↓)](https://drive.google.com/file/d/1rQb6Gvc1iKombb0UUcCJfI6OpDZWfh5E/view?usp=sharing) to follow along with this tutorial.
+
 If you haven't done so yet, it's a good idea to separate different components of your model into different layers, either by function or by materials. For example, for a simple building, you might have a layer for the walls, a layer for the roof, and a layer for the interior fittings. For transparent objects like windows, you can either separate them on their own layer (and later apply a glass material in Blender to every object in the layer) or add a placeholder glass material to certain objects ahead of time in Rhino.
 
 The import process will preserve these layers, as well as any materials that you have assigned in Rhino (although we will replace the Rhino materials with Blender versions later in the tutorial).

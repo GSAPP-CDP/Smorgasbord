@@ -1,9 +1,9 @@
 {
   "modules": {
-    "10-spatial-python/101-data-manipulation": {
+    "0-template/Template markdown file": {
       "double_links": []
     },
-    "10-spatial-python/103-spatial-analysis-point-pattern": {
+    "10-spatial-python/101-data-manipulation": {
       "double_links": []
     },
     "10-spatial-python/102-geospatial-data": {
@@ -12,22 +12,34 @@
     "10-spatial-python/104-spatial-analysis-correlation": {
       "double_links": []
     },
-    "10-spatial-python/105-spatial-analysis-clustering": {
+    "10-spatial-python/103-spatial-analysis-point-pattern": {
       "double_links": []
     },
-    "11-interactive-web/110-getting-started": {
+    "10-spatial-python/105-spatial-analysis-clustering": {
       "double_links": []
     },
     "10-spatial-python/index": {
       "double_links": []
     },
-    "0-template/Template markdown file": {
+    "11-interactive-web/110-getting-started": {
+      "double_links": []
+    },
+    "11-interactive-web/112-html-and-css": {
       "double_links": []
     },
     "11-interactive-web/114-events-and-uis": {
       "double_links": []
     },
-    "11-interactive-web/112-html-and-css": {
+    "11-interactive-web/113-data-and-apis": {
+      "double_links": []
+    },
+    "11-interactive-web/115-dom-manipulation": {
+      "double_links": []
+    },
+    "11-interactive-web/111-git-and-github": {
+      "double_links": []
+    },
+    "11-interactive-web/index": {
       "double_links": []
     },
     "12-rhino-intro/12-1_rhino-interface": {
@@ -36,19 +48,10 @@
     "12-rhino-intro/12-2_rhino-2d": {
       "double_links": []
     },
-    "11-interactive-web/index": {
-      "double_links": []
-    },
-    "11-interactive-web/115-dom-manipulation": {
-      "double_links": []
-    },
-    "12-rhino-intro/index": {
-      "double_links": []
-    },
     "12-rhino-intro/12-3_rhino-3d": {
       "double_links": []
     },
-    "11-interactive-web/111-git-and-github": {
+    "12-rhino-intro/index": {
       "double_links": []
     },
     "12-rhino-intro/12-4_rhino-nurbs": {
@@ -60,67 +63,70 @@
     "13-arch-drawing/13-2_projection": {
       "double_links": []
     },
-    "11-interactive-web/113-data-and-apis": {
-      "double_links": []
-    },
     "13-arch-drawing/13-3_rendering": {
       "double_links": []
     },
     "13-arch-drawing/index": {
       "double_links": []
     },
-    "14-geospatial-concepts/index": {
-      "double_links": []
-    },
-    "15-intro-qgis/151-mapping-where": {
+    "13-arch-drawing/13-4_compositing": {
       "double_links": []
     },
     "14-geospatial-concepts/141-what-is-gis": {
       "double_links": []
     },
-    "14-geospatial-concepts/142-spatial-data": {
+    "14-geospatial-concepts/143-coordinates-projections": {
+      "double_links": []
+    },
+    "14-geospatial-concepts/index": {
       "double_links": []
     },
     "15-intro-qgis/152-print-layout": {
       "double_links": []
     },
-    "15-intro-qgis/153-archives": {
-      "double_links": []
-    },
-    "15-intro-qgis/157-street-view": {
+    "15-intro-qgis/151-mapping-where": {
       "double_links": []
     },
     "15-intro-qgis/154-observations": {
       "double_links": []
     },
-    "15-intro-qgis/158-atlas": {
-      "double_links": []
-    },
     "15-intro-qgis/155-satellites": {
       "double_links": []
     },
-    "16-intro-webmapping/index": {
+    "15-intro-qgis/157-street-view": {
       "double_links": []
     },
-    "15-intro-qgis/index": {
+    "15-intro-qgis/156-aerial-imagery": {
       "double_links": []
     },
     "16-intro-webmapping/161-webmap-part1": {
       "double_links": []
     },
-    "16-intro-webmapping/162-webmap-part2": {
+    "15-intro-qgis/index": {
       "double_links": []
     },
-    "17-ambient-computing-network-architecture/171-Intro-to-P5": {
+    "15-intro-qgis/158-atlas": {
+      "double_links": []
+    },
+    "15-intro-qgis/153-archives": {
+      "double_links": []
+    },
+    "16-intro-webmapping/162-webmap-part2": {
       "double_links": []
     },
     "16-intro-webmapping/163-storytelling": {
       "double_links": []
     },
-    "14-geospatial-concepts/143-coordinates-projections": {
+    "16-intro-webmapping/index": {
+      "double_links": []
+    },
+    "17-ambient-computing-network-architecture/171-Intro-to-P5": {
       "double_links": []
     },
     "17-ambient-computing-network-architecture/173-sounds-speech-and-macros": {
+      "double_links": []
+    },
+    "17-ambient-computing-network-architecture/175-ML5-&-Computer-Vision": {
       "double_links": []
     },
     "17-ambient-computing-network-architecture/172-Webhooks-Connecting-IFTTT-and-P5": {
@@ -135,19 +141,16 @@
     "18-behavioral-modeling-intro/183-Agent-Based-Populations-and-Behavior-Bricks": {
       "double_links": []
     },
-    "15-intro-qgis/156-aerial-imagery": {
-      "double_links": []
-    },
-    "17-ambient-computing-network-architecture/175-ML5-&-Computer-Vision": {
-      "double_links": []
-    },
     "18-behavioral-modeling-intro/181-Unity-and-Agent-Based-Models": {
       "double_links": []
     },
-    "19-data_visualization/Module1WorkflowsPartASetupCodeEnvironment": {
+    "18-behavioral-modeling-intro/184-Mapbox-SDK-and-Routing": {
       "double_links": []
     },
     "19-data_visualization/index": {
+      "double_links": []
+    },
+    "19-data_visualization/Module2Introductiontod3anscombe": {
       "double_links": []
     },
     "18-behavioral-modeling-intro/index": {
@@ -156,52 +159,64 @@
     "19-data_visualization/Module3Tourofthebasiccharts1Bar": {
       "double_links": []
     },
+    "19-data_visualization/Module3Tourofthebasiccharts2Line": {
+      "double_links": []
+    },
     "19-data_visualization/Module3Tourofthebasiccharts3Pie": {
-      "double_links": []
-    },
-    "18-behavioral-modeling-intro/184-Mapbox-SDK-and-Routing": {
-      "double_links": []
-    },
-    "19-data_visualization/Module5Buildinginteractivity": {
-      "double_links": []
-    },
-    "21-integrated-computational-simulation/213-acoustic": {
-      "double_links": []
-    },
-    "21-integrated-computational-simulation/211-tensile-membrane": {
-      "double_links": []
-    },
-    "23-parametric-visualization-with-grasshopper/23-1_tabular-data": {
-      "double_links": []
-    },
-    "23-parametric-visualization-with-grasshopper/23-3_media": {
-      "double_links": []
-    },
-    "19-data_visualization/Module2Introductiontod3anscombe": {
-      "double_links": []
-    },
-    "13-arch-drawing/13-4_compositing": {
-      "double_links": []
-    },
-    "23-parametric-visualization-with-grasshopper/index": {
       "double_links": []
     },
     "19-data_visualization/Module4Workingwithexternaldata": {
       "double_links": []
     },
-    "30-ai-intro/301-what-is-ai": {
+    "19-data_visualization/Module5Buildinginteractivity": {
+      "double_links": []
+    },
+    "14-geospatial-concepts/142-spatial-data": {
+      "double_links": []
+    },
+    "21-integrated-computational-simulation/211-tensile-membrane": {
+      "double_links": []
+    },
+    "21-integrated-computational-simulation/212-inflatable-structure": {
+      "double_links": []
+    },
+    "21-integrated-computational-simulation/213-acoustic": {
+      "double_links": []
+    },
+    "23-parametric-visualization-with-grasshopper/23-1_tabular-data": {
+      "double_links": []
+    },
+    "21-integrated-computational-simulation/index": {
+      "double_links": []
+    },
+    "23-parametric-visualization-with-grasshopper/index": {
+      "double_links": []
+    },
+    "23-parametric-visualization-with-grasshopper/23-3_media": {
       "double_links": []
     },
     "24-parametric-thinking-for-building-modeling/index": {
       "double_links": []
     },
-    "19-data_visualization/Module3Tourofthebasiccharts2Line": {
-      "double_links": []
-    },
     "24-parametric-thinking-for-building-modeling/242-how-to-approach-parametric-building-modeling": {
       "double_links": []
     },
-    "30-ai-intro/304-neural-networks": {
+    "25-establishing-and-achieving-building-targets/251-model-setup": {
+      "double_links": []
+    },
+    "25-establishing-and-achieving-building-targets/252-establishing-key-building-targets-and-constraints": {
+      "double_links": []
+    },
+    "25-establishing-and-achieving-building-targets/index": {
+      "double_links": []
+    },
+    "30-ai-intro/301-what-is-ai": {
+      "double_links": []
+    },
+    "24-parametric-thinking-for-building-modeling/241-construction-geometry": {
+      "double_links": []
+    },
+    "30-ai-intro/302-how-ai-works": {
       "double_links": []
     },
     "30-ai-intro/303-teachable-machine": {
@@ -210,19 +225,16 @@
     "30-ai-intro/305-major-ai-platforms": {
       "double_links": []
     },
-    "30-ai-intro/306-ai-history": {
+    "30-ai-intro/304-neural-networks": {
       "double_links": []
     },
-    "24-parametric-thinking-for-building-modeling/241-construction-geometry": {
+    "30-ai-intro/306-ai-history": {
       "double_links": []
     },
     "30-ai-intro/307-notable-players": {
       "double_links": []
     },
-    "21-integrated-computational-simulation/212-inflatable-structure": {
-      "double_links": []
-    },
-    "21-integrated-computational-simulation/index": {
+    "30-ai-intro/308-ethics-and-governance": {
       "double_links": []
     },
     "30-ai-intro/index": {
@@ -231,76 +243,82 @@
     "31-ai-language/312-llm-chat": {
       "double_links": []
     },
-    "30-ai-intro/302-how-ai-works": {
+    "31-ai-language/311-text-generation": {
       "double_links": []
     },
     "31-ai-language/313-code-generation": {
       "double_links": []
     },
-    "31-ai-language/314-function-calling": {
-      "double_links": []
-    },
     "31-ai-language/index": {
-      "double_links": []
-    },
-    "30-ai-intro/308-ethics-and-governance": {
-      "double_links": []
-    },
-    "32-ai-vision-imagery/322-cv-hugging-face": {
       "double_links": []
     },
     "32-ai-vision-imagery/321-cv-mediapipe": {
       "double_links": []
     },
+    "31-ai-language/314-function-calling": {
+      "double_links": []
+    },
     "32-ai-vision-imagery/323-image-generation": {
       "double_links": []
     },
-    "32-ai-vision-imagery/index": {
+    "32-ai-vision-imagery/322-cv-hugging-face": {
       "double_links": []
     },
-    "31-ai-language/311-text-generation": {
+    "19-data_visualization/Module1WorkflowsPartASetupCodeEnvironment": {
       "double_links": []
     },
     "4-grasshopper-intro/41-getting-started-with-grasshopper": {
       "double_links": []
     },
-    "4-grasshopper-intro/42-exercise-hello-grasshopper": {
-      "double_links": []
-    },
-    "4-grasshopper-intro/43-working-in-grasshopper": {
-      "double_links": []
-    },
-    "4-grasshopper-intro/45-working-with-data": {
-      "double_links": []
-    },
-    "4-grasshopper-intro/46-exercise-parametric-tower-part-2": {
-      "double_links": []
-    },
-    "4-grasshopper-intro/410-Generating-Exploring-Spatial-Data": {
-      "double_links": []
-    },
-    "4-grasshopper-intro/47-documentation-best-practices": {
-      "double_links": []
-    },
-    "4-grasshopper-intro/48-Deriving-Spatial-Data": {
-      "double_links": []
-    },
-    "4-grasshopper-intro/49-Procedural-Rules": {
-      "double_links": []
-    },
-    "4-grasshopper-intro/index": {
-      "double_links": []
-    },
-    "40-rendering-with-blender/252-technical-camera": {
-      "double_links": []
-    },
-    "40-rendering-with-blender/251-importing-from-rhino": {
+    "32-ai-vision-imagery/index": {
       "double_links": []
     },
     "4-grasshopper-intro/44-exercise-parametric-tower-part-1": {
       "double_links": []
     },
+    "4-grasshopper-intro/410-Generating-Exploring-Spatial-Data": {
+      "double_links": []
+    },
+    "4-grasshopper-intro/45-working-with-data": {
+      "double_links": []
+    },
+    "4-grasshopper-intro/42-exercise-hello-grasshopper": {
+      "double_links": []
+    },
+    "4-grasshopper-intro/47-documentation-best-practices": {
+      "double_links": []
+    },
+    "4-grasshopper-intro/49-Procedural-Rules": {
+      "double_links": []
+    },
+    "4-grasshopper-intro/46-exercise-parametric-tower-part-2": {
+      "double_links": []
+    },
+    "40-rendering-with-blender/251-importing-from-rhino": {
+      "double_links": []
+    },
+    "4-grasshopper-intro/48-Deriving-Spatial-Data": {
+      "double_links": []
+    },
+    "40-rendering-with-blender/252-technical-camera": {
+      "double_links": []
+    },
+    "4-grasshopper-intro/index": {
+      "double_links": []
+    },
     "40-rendering-with-blender/255-environment-abundance": {
+      "double_links": []
+    },
+    "40-rendering-with-blender/256-rendering": {
+      "double_links": []
+    },
+    "40-rendering-with-blender/254-materials": {
+      "double_links": []
+    },
+    "40-rendering-with-blender/index": {
+      "double_links": []
+    },
+    "5-computational-design-modeling-in-grasshopper/5-1-Comp-Design-Modeling": {
       "double_links": []
     },
     "5-computational-design-modeling-in-grasshopper/5-2-Subdivide-Geometry": {
@@ -309,34 +327,31 @@
     "40-rendering-with-blender/253-lighting": {
       "double_links": []
     },
-    "40-rendering-with-blender/256-rendering": {
-      "double_links": []
-    },
-    "40-rendering-with-blender/index": {
-      "double_links": []
-    },
     "5-computational-design-modeling-in-grasshopper/5-3-Analysis-Tools": {
       "double_links": []
     },
     "5-computational-design-modeling-in-grasshopper/5-4-Street-Grid": {
       "double_links": []
     },
-    "40-rendering-with-blender/254-materials": {
+    "4-grasshopper-intro/43-working-in-grasshopper": {
       "double_links": []
     },
-    "5-computational-design-modeling-in-grasshopper/5-1-Comp-Design-Modeling": {
-      "double_links": []
-    },
-    "5-computational-design-modeling-in-grasshopper/5-5_Buildings-Density": {
+    "5-computational-design-modeling-in-grasshopper/5-6_Troubleshooting": {
       "double_links": []
     },
     "5-computational-design-modeling-in-grasshopper/5-7_Design-Space": {
       "double_links": []
     },
+    "5-computational-design-modeling-in-grasshopper/5-5_Buildings-Density": {
+      "double_links": []
+    },
+    "5-computational-design-modeling-in-grasshopper/index": {
+      "double_links": []
+    },
     "6-intro-to-python/61-getting-started-with-Python": {
       "double_links": []
     },
-    "5-computational-design-modeling-in-grasshopper/5-6_Troubleshooting": {
+    "6-intro-to-python/62-using-python-in-grasshopper": {
       "double_links": []
     },
     "6-intro-to-python/index": {
@@ -345,22 +360,16 @@
     "7-fundamentals-of-python/71-variables-lists-and-dictionaries": {
       "double_links": []
     },
-    "6-intro-to-python/62-using-python-in-grasshopper": {
-      "double_links": []
-    },
     "7-fundamentals-of-python/72-conditionals-and-loops": {
-      "double_links": []
-    },
-    "7-fundamentals-of-python/74-python-libraries": {
       "double_links": []
     },
     "7-fundamentals-of-python/73-functions-and-classes": {
       "double_links": []
     },
-    "7-fundamentals-of-python/index": {
+    "7-fundamentals-of-python/74-python-libraries": {
       "double_links": []
     },
-    "5-computational-design-modeling-in-grasshopper/index": {
+    "7-fundamentals-of-python/index": {
       "double_links": []
     },
     "8-intro-to-python-in-rhino/81-accessing-the-rhino-apis-in-python": {
@@ -6668,8 +6677,8 @@
         "dir": "/modules/24-parametric-thinking-for-building-modeling",
         "path": "/modules/24-parametric-thinking-for-building-modeling/index",
         "extension": ".md",
-        "createdAt": "2024-09-30T00:41:18.992Z",
-        "updatedAt": "2024-09-30T00:41:18.992Z"
+        "createdAt": "2024-10-07T06:59:51.473Z",
+        "updatedAt": "2024-10-07T06:59:51.473Z"
       },
       "ordinal": 24,
       "path": "24-parametric-thinking-for-building-modeling",
@@ -6711,8 +6720,8 @@
             "dir": "/modules/24-parametric-thinking-for-building-modeling",
             "path": "/modules/24-parametric-thinking-for-building-modeling/index",
             "extension": ".md",
-            "createdAt": "2024-09-30T00:41:18.992Z",
-            "updatedAt": "2024-09-30T00:41:18.992Z"
+            "createdAt": "2024-10-07T06:59:51.473Z",
+            "updatedAt": "2024-10-07T06:59:51.473Z"
           }
         },
         {
@@ -6741,8 +6750,8 @@
             "dir": "/modules/24-parametric-thinking-for-building-modeling",
             "path": "/modules/24-parametric-thinking-for-building-modeling/241-construction-geometry",
             "extension": ".md",
-            "createdAt": "2024-09-30T00:41:18.859Z",
-            "updatedAt": "2024-09-30T00:41:18.861Z"
+            "createdAt": "2024-10-07T06:59:51.472Z",
+            "updatedAt": "2024-10-07T06:59:51.472Z"
           }
         },
         {
@@ -6778,11 +6787,6 @@
                 "text": "Use Case 3: Rationalization: Seperate Out Panels that Are Too Curved"
               },
               {
-                "id": "side-quest-1",
-                "depth": 3,
-                "text": "Side Quest 1:"
-              },
-              {
                 "id": "use-case-4-analysis-analyze-against-an-external-factor",
                 "depth": 2,
                 "text": "Use Case 4: Analysis: Analyze Against an External Factor"
@@ -6793,11 +6797,6 @@
                 "text": "Use Case 5: Mass Customization: Creating Unique Panels with an Underlying Computational Logic"
               },
               {
-                "id": "side-quest-2",
-                "depth": 3,
-                "text": "Side Quest 2"
-              },
-              {
                 "id": "conclusion",
                 "depth": 2,
                 "text": "Conclusion"
@@ -6806,8 +6805,121 @@
             "dir": "/modules/24-parametric-thinking-for-building-modeling",
             "path": "/modules/24-parametric-thinking-for-building-modeling/242-how-to-approach-parametric-building-modeling",
             "extension": ".md",
-            "createdAt": "2024-09-30T00:41:18.861Z",
-            "updatedAt": "2024-09-30T00:41:18.864Z"
+            "createdAt": "2024-10-07T06:59:51.472Z",
+            "updatedAt": "2024-10-07T06:59:51.473Z"
+          }
+        }
+      ]
+    },
+    {
+      "contentdata": {
+        "slug": "establishing-and-achieving-building-targets",
+        "moduleid": 250,
+        "title": "Establishing and Achieving Building Targets",
+        "published": true,
+        "authors": [
+          "Joe Brennan"
+        ],
+        "toc": [
+          {
+            "id": "additional-resources",
+            "depth": 2,
+            "text": "Additional Resources:"
+          }
+        ],
+        "dir": "/modules/25-establishing-and-achieving-building-targets",
+        "path": "/modules/25-establishing-and-achieving-building-targets/index",
+        "extension": ".md",
+        "createdAt": "2024-10-07T06:59:51.837Z",
+        "updatedAt": "2024-10-07T06:59:51.837Z"
+      },
+      "ordinal": 25,
+      "path": "25-establishing-and-achieving-building-targets",
+      "slug": "establishing-and-achieving-building-targets",
+      "modules": [
+        {
+          "file": "index.md",
+          "ordinal": 0,
+          "contentdata": {
+            "slug": "establishing-and-achieving-building-targets",
+            "moduleid": 250,
+            "title": "Establishing and Achieving Building Targets",
+            "published": true,
+            "authors": [
+              "Joe Brennan"
+            ],
+            "toc": [
+              {
+                "id": "additional-resources",
+                "depth": 2,
+                "text": "Additional Resources:"
+              }
+            ],
+            "dir": "/modules/25-establishing-and-achieving-building-targets",
+            "path": "/modules/25-establishing-and-achieving-building-targets/index",
+            "extension": ".md",
+            "createdAt": "2024-10-07T06:59:51.837Z",
+            "updatedAt": "2024-10-07T06:59:51.837Z"
+          }
+        },
+        {
+          "file": "251-model-setup.md",
+          "ordinal": 251,
+          "contentdata": {
+            "slug": "model-setup",
+            "moduleid": 251,
+            "title": "Model Set-Up",
+            "published": true,
+            "authors": [
+              "Joe Brennan"
+            ],
+            "toc": [
+              {
+                "id": "layer-organization",
+                "depth": 2,
+                "text": "Layer Organization"
+              },
+              {
+                "id": "site-model-organization",
+                "depth": 2,
+                "text": "Site Model Organization"
+              }
+            ],
+            "dir": "/modules/25-establishing-and-achieving-building-targets",
+            "path": "/modules/25-establishing-and-achieving-building-targets/251-model-setup",
+            "extension": ".md",
+            "createdAt": "2024-10-07T06:59:51.473Z",
+            "updatedAt": "2024-10-07T06:59:51.473Z"
+          }
+        },
+        {
+          "file": "252-establishing-key-building-targets-and-constraints.md",
+          "ordinal": 252,
+          "contentdata": {
+            "slug": "establishing-key-building-targets-and-constraints",
+            "moduleid": 252,
+            "title": "Establishing Key Building Targets and Constraints",
+            "published": true,
+            "authors": [
+              "Joe Brennan"
+            ],
+            "toc": [
+              {
+                "id": "defining-zoning-constraints",
+                "depth": 2,
+                "text": "Defining Zoning Constraints"
+              },
+              {
+                "id": "defining-numerical-constraints",
+                "depth": 2,
+                "text": "Defining Numerical Constraints"
+              }
+            ],
+            "dir": "/modules/25-establishing-and-achieving-building-targets",
+            "path": "/modules/25-establishing-and-achieving-building-targets/252-establishing-key-building-targets-and-constraints",
+            "extension": ".md",
+            "createdAt": "2024-10-07T06:59:51.473Z",
+            "updatedAt": "2024-10-07T06:59:51.473Z"
           }
         }
       ]
@@ -8090,8 +8202,8 @@
         "dir": "/modules/40-rendering-with-blender",
         "path": "/modules/40-rendering-with-blender/index",
         "extension": ".md",
-        "createdAt": "2024-09-30T00:40:55.074Z",
-        "updatedAt": "2024-10-03T17:16:03.622Z"
+        "createdAt": "2024-10-07T06:59:48.076Z",
+        "updatedAt": "2024-10-07T06:59:48.076Z"
       },
       "ordinal": 40,
       "path": "40-rendering-with-blender",
@@ -8173,8 +8285,8 @@
             "dir": "/modules/40-rendering-with-blender",
             "path": "/modules/40-rendering-with-blender/index",
             "extension": ".md",
-            "createdAt": "2024-09-30T00:40:55.074Z",
-            "updatedAt": "2024-10-03T17:16:03.622Z"
+            "createdAt": "2024-10-07T06:59:48.076Z",
+            "updatedAt": "2024-10-07T06:59:48.076Z"
           }
         },
         {
@@ -8243,8 +8355,8 @@
             "dir": "/modules/40-rendering-with-blender",
             "path": "/modules/40-rendering-with-blender/251-importing-from-rhino",
             "extension": ".md",
-            "createdAt": "2024-09-30T01:01:20.243Z",
-            "updatedAt": "2024-10-03T17:16:32.865Z"
+            "createdAt": "2024-10-07T06:59:47.462Z",
+            "updatedAt": "2024-10-07T07:16:33.003Z"
           }
         },
         {
@@ -8343,8 +8455,8 @@
             "dir": "/modules/40-rendering-with-blender",
             "path": "/modules/40-rendering-with-blender/252-technical-camera",
             "extension": ".md",
-            "createdAt": "2024-09-30T01:01:28.115Z",
-            "updatedAt": "2024-10-03T17:16:27.784Z"
+            "createdAt": "2024-10-07T06:59:47.462Z",
+            "updatedAt": "2024-10-07T07:17:35.368Z"
           }
         },
         {
@@ -8458,8 +8570,8 @@
             "dir": "/modules/40-rendering-with-blender",
             "path": "/modules/40-rendering-with-blender/253-lighting",
             "extension": ".md",
-            "createdAt": "2024-09-30T01:01:39.476Z",
-            "updatedAt": "2024-10-03T17:16:23.879Z"
+            "createdAt": "2024-10-07T06:59:47.462Z",
+            "updatedAt": "2024-10-07T07:20:11.678Z"
           }
         },
         {
@@ -8593,8 +8705,8 @@
             "dir": "/modules/40-rendering-with-blender",
             "path": "/modules/40-rendering-with-blender/254-materials",
             "extension": ".md",
-            "createdAt": "2024-09-30T01:01:47.435Z",
-            "updatedAt": "2024-10-03T17:16:16.295Z"
+            "createdAt": "2024-10-07T06:59:47.463Z",
+            "updatedAt": "2024-10-07T07:22:27.788Z"
           }
         },
         {
@@ -8663,8 +8775,8 @@
             "dir": "/modules/40-rendering-with-blender",
             "path": "/modules/40-rendering-with-blender/255-environment-abundance",
             "extension": ".md",
-            "createdAt": "2024-09-30T01:01:58.504Z",
-            "updatedAt": "2024-10-03T17:16:10.699Z"
+            "createdAt": "2024-10-07T06:59:47.464Z",
+            "updatedAt": "2024-10-07T07:24:59.942Z"
           }
         },
         {
@@ -8703,8 +8815,8 @@
             "dir": "/modules/40-rendering-with-blender",
             "path": "/modules/40-rendering-with-blender/256-rendering",
             "extension": ".md",
-            "createdAt": "2024-09-30T01:02:06.350Z",
-            "updatedAt": "2024-10-03T17:39:35.672Z"
+            "createdAt": "2024-10-07T06:59:47.464Z",
+            "updatedAt": "2024-10-07T07:25:52.740Z"
           }
         }
       ]

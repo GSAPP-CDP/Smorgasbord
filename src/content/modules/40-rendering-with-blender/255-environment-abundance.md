@@ -12,6 +12,8 @@ This task is made particularly challenging by the fact that systems of 3D repres
 
 Fortunately, we can leverage procedural authoring tools to help create the illusion of complexity, entropy, and organic growth.
 
+You can use [Pilotis In A Forest (Environment).blend (155.1 MB ↓)](https://drive.google.com/file/d/1aOMBpknu-mUQKgjpcu4n46PONC8VfRW6/view?usp=sharing) to follow along with this tutorial.
+
 ## Vegetation
 
 Modeling vegetation from scratch is a difficult task. For this tutorial, we will rely on the availability of a pre-made tree asset. You can also find a range of species of plants, including grasses, bushes, deciduous and evergreen trees, and plants available to download online.
@@ -27,6 +29,8 @@ You can always hide elements of vegetation in your scene if they slow down your 
 ### Importing Trees
 
 ![Importing Trees](images/5-environment/01-import.png)
+
+For this tutorial, we will use tree assets that you can access by downloading the following file, [Japanese Cedars.blend (167.2 MB ↓)](https://drive.google.com/file/d/1XKRvCt8catWvgcKXcanziq5yZT0a3F6K/view?usp=sharing).
 
 Once you have downloaded a tree asset, you can import it into your scene in one of two ways:
 

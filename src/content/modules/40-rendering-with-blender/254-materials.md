@@ -12,6 +12,8 @@ Rendering engines allow us to depict these complex surfaces by assigning a shade
 
 This method of describing material qualities is called Physically Based Rendering or PBR. Any rendering engine that supports PBR materials will have some degree of interoperability with other PBR rendering engines.
 
+You can use [Materials (Before).blend (36.4 MB ↓)](https://drive.google.com/file/d/1AScH2ZeBv1mKTx-9Xf1nFRWDN-Clb_60/view?usp=sharing) to follow along with this tutorial.
+
 ## Editing Materials
 
 ![Editing materials in the Shader Editor](images/4-materials/00-baseline.png)
@@ -165,6 +167,8 @@ This mathematical approach provides uniform scaling across objects, ensuring tha
 
 Blender doesn't support this kind of mapping natively, so we will import a special Node Group that contains the relevant nodes conveniently bundled together.
 
+Download the [Box Projection.blend (942 KB ↓)](https://drive.google.com/file/d/1JQH2r8TAAHnK_i2ukAjmby64kZDCyxOv/view?usp=sharing) file.
+
 1. Go to `File > Append` to add a Blender resource from another Blend file into the current one
 1. Navigate to `Box Projection.blend` and open it (Blender will show the resources inside as folders)
 1. Open the `NodeTree` folder to access Node Groups
@@ -239,6 +243,8 @@ Follow the node setup in the image above to create a wood-like material. Adjust 
 ![Final product](images/4-materials/16-scene.png)
 
 With just a few materials, we can already create an array of different objects with a variety of surface characteristics.
+
+To access the final version of these materials, you can use [Materials (After).blend (63.1 MB ↓)](https://drive.google.com/file/d/1EhsrElE5Mnm3_oXdE0M_LWlGsn4ul6GD/view?usp=sharing).
 
 ## Non-Photorealistic Materials
 
