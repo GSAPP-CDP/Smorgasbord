@@ -38,7 +38,7 @@ A few notes about this - first, I am defining the coordinates of the point in Gr
 
 Finally, the dimensions are definied in a yellow `panel` with the value "1." Unless you are using some type of conversion within Grasshopper, values will always refer to the file units. So if you take this file and change the units to mm, you will have a 1x1x1 mm box. If you change it to feet, you will have a 1x1x1 ft box. It is important to think about values and dimensions when building your definitions.
 
-**Side Challenge 1:** *I'm going to offer these relatively difficult (but optional) challenges throughout the course and not provide a solution - I want to see if you can take knowledge from the previous lessons and repurpose them. So, can you recreate this definition, but make the box adjustable? [You can download the definition above here,](/definitions/simple_box.gh) although you should try to build it from scratch first.*
+**Side Challenge 1:** *I'm going to offer these relatively difficult (but optional) challenges throughout the course and not provide a solution - I want to see if you can take knowledge from the previous lessons and repurpose them. So, can you recreate this definition, but make the box adjustable? [You can download the definition above here,](https://drive.google.com/file/d/1QCvKcyu3l1mQGv04Uq_9LQljK8jJW1la/view?usp=sharing) although you should try to build it from scratch first.*
 
 *Hint:* use a [`Number Slider`](https://grasshopperdocs.com/components/grasshopperparams/numberSlider.html) component for this
 

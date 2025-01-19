@@ -76,7 +76,7 @@ Now that our layers are set up, let's get the site model organized.
 
     <img src="images/site_relocatin_demo.gif" width="1000">
 
-You can download my **[site model](workingfiles/SITE_MODEL.3dm)** or my **[working model](workingfiles/RB_PROJECT_MODEL.3dm)** if needed.
+You can download my **[site model](https://drive.google.com/file/d/1QVLBb-cntTkW1DRB5icm4Vb9ufRdasAY/view?usp=sharing)** or my **[working model](https://drive.google.com/file/d/1QPt2KeYxpsg0NuzqeSxBdsrHijSoJSaT/view?usp=sharing)** if needed.
 
 Ok, now that we've set up our site constraints, we're ready to start querying geometric and numerical data in Grasshopper!
 
