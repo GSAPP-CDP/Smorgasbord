@@ -24,6 +24,5 @@ That being said, none of those other tools does *all* of these things with quite
 
 ## Modules:
 - Importing and Graphing Tabular Data
-- Mapping and Animating Numerical Spatial Data
 - Interpreting Images, Video, and Audio
-- Creating and Rendering 3D Spatial Data
+- Visualization with 3D Scans

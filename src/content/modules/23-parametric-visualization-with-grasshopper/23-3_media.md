@@ -2,7 +2,7 @@
 moduleid: 233
 title: Analyzing Media
 published: True
-slug: analyzing-meedia
+slug: analyzing-media
 authors:
  - "Zachary White"
 ---
@@ -13,15 +13,9 @@ In this tutorial we'll move away from tabular data to look at another source of 
 - The number of raw data points tends to be much larger. A single HD image contains 1920x1080 pixels, each with red, green, and blue color values, for a total of 6.2 million values.
 - The semantic content is much harder to extract from the raw data.
 
-While Grasshopper can 
+Grasshopper can help get you started with media analysis and illustrate some of its basic methods, but, because of these added difficulties, anything beyond that would be better explored using other software such as Python/OpenCV, Processing, MediaPipe, etc.
 
-Recs for other tools:
-OpenCV
-MediaPipe
-Speech to text ??
-
-
-This tutorial will use a few new plugins.
+This tutorial will use a couple new plugins:
 - Firefly
 - Mosquito
 
