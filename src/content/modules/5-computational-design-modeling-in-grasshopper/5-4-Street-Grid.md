@@ -65,6 +65,8 @@ This tutorial has three sections:
 
 Before we get started, install the [Decoding Spaces](https://toolbox.decodingspaces.net/download-decodingspaces-toolbox/) grasshopper plugin.
 
+[Decoding spaces does not work on Macs so as an alternative use this parcelization component.](https://drive.google.com/file/d/1GOAfvjmtNj0XGe4-Jd7ejLISEphPRhxI/view?usp=sharing) 
+
 ### 1. Inputs
 
 Our question establishes our inputs: Street Grid and Density Distribution. There are two approaches to creating inputs. The first is to create them parametrically, for example having a slider that dynamically changes block size or another that rotates the street grid. The second is to manually model the geometry in Rhino and use a slider + list item to select between the options. Most often a mix, some inputs parametrically generated and some manually modeled, is best. Deciding which approach to use takes your judgement as a designer to understand the amount of variability necessary to produce a design space suited to answering your question.
@@ -158,6 +160,11 @@ Finally, we are going to use the `Parcels` component from `Decoding Spaces` to g
 
 
 ![description](images/5-4-3_Parcel_Rebuild.PNG)
+
+![description](images/5-4-1_Parcelization-Alternative_2.jpeg)
+>*Alternate parcelization component*
+
+If you are using the alternate component for parcelization follow the same steps below as if using the decoding spaces component. Make sure to graft the polygons and plotWidthThreshold inputs.
 
 The `Parcel` component needs polylines as an input so we need to rebuild our blocks to ensure that any geometry input is a  polyline:
 1. `Explode` the blocks.
