@@ -51,6 +51,8 @@
     <div class="course">
       <SequenceLinks path="24-parametric-thinking-for-building-modeling" />
       <SequenceLinks path="25-establishing-and-achieving-building-targets" />
+      <SequenceLinks path="26-establishing-underlying-organizational-structure" />
+      <SequenceLinks path="27-analyzing-and-constructing-complex-facade-systems" />
     </div> 
 
     <div class="coursetitle">Artificial Intelligence</div>
