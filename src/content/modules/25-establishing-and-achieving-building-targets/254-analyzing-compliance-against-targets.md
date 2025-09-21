@@ -80,4 +80,86 @@ If you got lost, you can [download my definition here](https://drive.google.com/
 **Side Challenge 6:** *After you've set up the geometric collision operation above, can you set up a second option that DOES NOT indicate where the building crosses the zoning envelope, but rather just returns a True/False value? This might be helpful for an operation where you do not need to see exactly where a building intersects, but rather quickly run an analysis on a bunch of volumes to see if they intersect*
  
 
+## Applying Efficiency Ratios and Checking Compliance
 
+Now that we’ve set up our allowable ZFA, calculated bonuses, and tested our building geometry against zoning envelopes, there’s one last step — **applying program-specific efficiency ratios to understand net floor areas, and comparing against targets.**
+
+We already have a clean `Panel ()` providing **gross floor area by program**. All we need to do is multiply these gross areas by efficiency ratios for each program to get net areas.
+
+### Step 1: Establish Efficiency Ratios
+
+- We already know the program order of our gross areas is:
+  - Retail
+  - Office
+  - Hotel
+
+- Create three `Number Slider ()` components ranging from `0` to `1`. Set them to the following default efficiency ratios:
+  - Retail: `0.90` (90%)
+  - Office: `0.85` (85%)
+  - Hotel: `0.75` (75%)
+
+Rename each slider to clearly indicate its purpose:
+- `Num:RETAIL EFFICIENCY RATIO`
+- `Num:OFFICE EFFICIENCY RATIO`
+- `Num:HOTEL EFFICIENCY RATIO`
+
+**Joe’s Tip #11**
+> Keep your sliders clearly labeled and grouped with their corresponding outputs. This makes it much easier to adjust and audit your assumptions later on.
+
+### Step 2: Multiply Gross Areas by Efficiency Ratios
+
+- Use an `Entwine` component to combine the three efficiency ratios into a single tree.
+- Multiply this tree by your gross areas tree using a `Multiplication (A×B)` component.  
+  > *Your data structure should already match up if you’ve kept everything clean — but always double-check that your branches align!*
+
+The result is your **net floor area by program.**
+
+<img src="images/analyzing_compliance_7.jpg" width="1000">
+
+### Step 3: Bring in Program Targets
+
+Remember the Excel file we connected earlier? We already extracted target square footages for each program from that file.  
+- Use another `Entwine` to collect these three targets into a single list.
+- Place a `Panel ()` and label it `TARGET SQUARE FOOTAGES`.
+
+Now you should have three parallel outputs:
+- Gross area by program
+- Net area by program
+- Target area by program
+
+Organize these visually on your canvas so they’re easy to read and compare.
+
+<img src="images/analyzing_compliance_8.jpg" width="1000">
+
+### Step 4: Review and Adjust
+
+At this point, you can adjust your massing, test new configurations, or modify your program assumptions as needed to bring your net areas in line with your targets.  
+You now also have all of the following metrics at your fingertips:
+- Allowable ZFA
+- Current ZFA
+- Gross Floor Area (by program)
+- Net Floor Area (by program)
+- Target Floor Area (by program)
+
+This is the power of computational tracking — everything stays live and dynamic.
+
+If you need the full final definition, [download it here](https://drive.google.com/open?id=1cBr0d-jyto8nNFQYvFZe8S3y7C2fYd4S&usp=drive_fs) before moving on to the next module.
+
+**Side Challenge 7:** *Can you set up a simple visual indicator to show whether or not your current design meets its targets? Think about the `Larger Than (Larger)` and `Stream Gate (Gate)` techniques you used earlier for zoning compliance — can you adapt these to create a dynamic feedback system in the viewport? Maybe your model changes color when it’s over or under its targets, or you simply output `True/False` for each program. Post your solution in Slack when you crack it!*
+
+---
+
+## Module 2: Summary
+
+In this module, we developed a robust system for **establishing and achieving building targets**. We:
+- Set up a clean, organized site and model
+- Defined key zoning envelopes and program constraints
+- Extracted critical data from our model geometry
+- Calculated bonuses and allowable ZFA
+- Compared our design against zoning compliance using dynamic checks
+- Applied program efficiency ratios to understand net areas
+- Compared gross, net, and target areas dynamically
+
+By the end of this module, you should now have a fully functional definition that allows you to test your design against regulatory and programmatic constraints — all while keeping your model live and flexible.
+
+On to the next module!
