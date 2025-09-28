@@ -87,7 +87,7 @@ In Grasshopper:
 - Name it `Crv:WALL BASELINE`
 
 ### Step 3: Create the wall
-From `Revit > Architecture`, drop an `Add Wall` component. Connect:
+From `Revit > Architecture`, drop an `Add Wall (Curve) (C-Wall)` component. Connect:
 - `Crv:WALL BASELINE` → `Curve`
 - Optional: use a `Panel` or `Slider` to set `Height` (e.g., 12’)
 - Optional: use the `Type` component to select a specific wall type (e.g., `Generic 10”`)
@@ -95,7 +95,7 @@ From `Revit > Architecture`, drop an `Add Wall` component. Connect:
 
 When successful, the `Add Wall` component turns black. Check Revit—you’ll see a native wall there.
 
-<img src="images/est_org_gif_1.gif" width="750">
+<img src="images/est_org_gif_2.gif" width="750">
 
 > **Joe’s Tip #13**
 >
@@ -108,12 +108,14 @@ When successful, the `Add Wall` component turns black. Check Revit—you’ll se
 ## Floors: Even Easier
 
 Unlike walls, floors *can* accept closed polycurves. Try this:
-- Draw a closed rectangle in Rhino
+- Draw a closed, planar curve in Rhino - floors are much more flexible then walls and do not need to be arcs or lines, but must be closed.
 - Reference it in Grasshopper
 - Use `Revit > Architecture > Add Floor`
 - Set floor type and level if desired
 
 This will generate a native Revit floor based on your polycurve.
+
+<img src="images/est_org_gif_3.gif" width="750">
 
 ---
 

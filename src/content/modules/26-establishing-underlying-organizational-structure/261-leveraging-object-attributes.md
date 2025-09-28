@@ -85,15 +85,11 @@ At this point, you should have three sets of curves, one for each program.
 
 ## Adding Program Attributes
 
-1. Drop an `Elefront Attributes` component onto the canvas.  
-(It looks overwhelming, but don’t worry—we only need a few inputs.)
+1. Drop an `Elefront Attributes` component onto the canvas. (It looks overwhelming, but don’t worry—we only need a few inputs.)
 2. For the **Key (K)** input, create a `Panel` with the text `Program`:  
 3. For the **Value (V)** input, create another `Panel` with the three program types listed on separate lines:  
-`Retail`
-`Office`
-`Hotel`
-> Right-click the panel and check **Multiline Data** so Grasshopper reads them as separate items.
-4. Use a `Longest List` component to match up the keys and values so Elefront doesn’t throw an error.
+`Retail`,`Office`,`Hotel`. Right-click the panel and check **Multiline Data** so Grasshopper reads them as separate items.
+4. Use a `Longest List (Long)` component to match up the keys and values so Elefront doesn’t throw an error.
 
 Now every floor plate curve knows its **program**.
 
