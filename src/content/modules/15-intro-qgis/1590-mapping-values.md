@@ -9,28 +9,6 @@ authors:
 ---
 
 
-[Tutorial01View]: 1590/00_tutorial01.png
-[BlockGroupsAdd]: 1590/01_nyc_blockgroups.png
-[JoinInitiate]: 1590/03_joins.png
-[JoinOptions]: 1590/04_join_options.png
-[JoinResult]: 1590/05_joined_attributes.png
-[SaveAs]: 1590/06_save_as.png
-[Jenks]: 1590/07_jenks.png
-[HistoGram]: 1590/09_histogram_view.png
-[JenksView]: 1590/08_classified_view.png
-[NormalizedOptions]: 1590/09_normalized.png
-[NormalizedSymbology]: 1590/10_normalized_symbologyoptions.png
-[NormalizedView]: 1590/11_normalized_view.png
-[ProcessingToolbox]: 1590/12_points_toolbox.png
-[PointsPoly]: 1590/12_points_in_poly.png
-[PointsPolyExpression]: 1590/13_expression_pointspoly.png
-[PointsPolyResult]: 1590/14_results_points_poly.png
-[PointsSave]: 1590/15_save_points.png
-[ViewPoints]: 1590/16_view_points.png
-
-
-
-
 This tutorial builds on the introductory tutorial to extend skills in methods of working with and symbolizing vector data within QGIS. After completing this tutorial you will learn how to perform a spatial join and how to manipulate layer symbology based on attribute information. 
 
 ## Deliverables
@@ -207,3 +185,22 @@ Your new vector dataset of points representing the number of housing units in ea
 Now experiment with any of the above symbology methods to create a map of your choice expressing something about housing in NYC. Create a print layout with a legend and key map elements and export a PDF of your map. 
 
 Upload one map to canvas that uses quantitative symbology to convey information about housing in NYC composed as a 8.5x11 page (landscape or portrait orientation) exported as a PDF. Your map must include standard map elements outlined in the layout portion of tutorial 01.
+
+[Tutorial01View]: images/1590/00_tutorial01.png
+[BlockGroupsAdd]: images/1590/01_nyc_blockgroups.png
+[JoinInitiate]: images/1590/03_joins.png
+[JoinOptions]: images/1590/04_join_options.png
+[JoinResult]: images/1590/05_joined_attributes.png
+[SaveAs]: images/1590/06_save_as.png
+[Jenks]: images/1590/07_jenks.png
+[HistoGram]: images/1590/09_histogram_view.png
+[JenksView]: images/1590/08_classified_view.png
+[NormalizedOptions]: images/1590/09_normalized.png
+[NormalizedSymbology]: images/1590/10_normalized_symbologyoptions.png
+[NormalizedView]: images/1590/11_normalized_view.png
+[ProcessingToolbox]: images/1590/12_points_toolbox.png
+[PointsPoly]: images/1590/12_points_in_poly.png
+[PointsPolyExpression]: images/1590/13_expression_pointspoly.png
+[PointsPolyResult]: images/1590/14_results_points_poly.png
+[PointsSave]: images/1590/15_save_points.png
+[ViewPoints]: images/1590/16_view_points.png
