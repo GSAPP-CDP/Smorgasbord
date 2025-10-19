@@ -45,9 +45,14 @@ Maps and geographic analysis are key tools for interpreting the built and social
 - **Making Data from Aerial Imagery**  
     This is an introduction to batch downloading true color satellite imagery/aerial photography using the Google Static Maps API.  
 - **Making Data from Street View** 
-    THis is an introduction to batch downloading ground photographs from the Google Street View API.
-- **Final Project: Urban Atlas**  
-    Instructions and precedent projects to develop an atlas of your mapping assignments thus far.
+    This is an introduction to batch downloading ground photographs from the Google Street View API.
+- **Making Data from Text/Addresses** 
+    This is an introduction to generating spatial data from addresses or references to location using a geocoder. 
+- **Mapping Change with Raster** 
+    This is an introduction to using raster math operations to understand change over time between raster datasets.
+- **Mapping Quantities and Values** 
+    This tutorial builds on the introductory tutorial to extend skills in methods of working with and symbolizing vector data within QGIS. After completing this tutorial you will learn how to perform a spatial join and how to manipulate layer symbology based on attribute information.
+
 
 ![satellite images](images/151/00-preview.png)
 *Examples from this sequence: false color composite using the Landsat satellite. A grid of extraction sites obtained through Google's static maps API.*  
