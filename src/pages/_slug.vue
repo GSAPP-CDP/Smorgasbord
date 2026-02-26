@@ -33,7 +33,6 @@ export default {
   font-weight: regular;
   color: #444;
   word-wrap: break-word;
-  
 }
 
 p {
@@ -48,33 +47,25 @@ p {
 
 .title {
   font-weight: bold;
-  font-size: 3em;
+  font-size: 2em;
   color: #4CBF8F;
   margin-bottom: 15px;
   word-break: break-word;
 }
- 
-
 
 .body {
   font-size: 0.9em;
-} 
-
-.title {
-  font-weight: bold;
-  font-size: 2em;
 }
 
-.
 ul {
   margin: 0px;
 }
 
 * >>> img {
   width: 100%;
-  height: auto; 
+  height: auto;
 }
-* >>> img[src$='#img-left'] { 
+* >>> img[src$='#img-left'] {
   max-width: 50%;
   max-height: 400px;
   padding: 10px 15px 10px 0px;
@@ -82,7 +73,7 @@ ul {
   clear: both;
 }
 
-* >>> img[src$='#img-right'] { 
+* >>> img[src$='#img-right'] {
   float: right;
   max-width: 50%;
   max-height: 400px;
@@ -90,6 +81,21 @@ ul {
   clear: both;
 }
 
+@media (max-width: 768px) {
+  .post {
+    padding: 30px 20px 50px 20px;
+  }
+
+  .title {
+    font-size: 1.5em;
+  }
+
+  * >>> img[src$='#img-left'],
+  * >>> img[src$='#img-right'] {
+    float: none;
+    max-width: 100%;
+    padding: 10px 0;
+  }
+}
 
 </style>
-
