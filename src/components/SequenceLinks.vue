@@ -96,6 +96,22 @@ li {
   padding-left: 0px;
 }
 
+@media (max-width: 768px) {
+  .indexview .sequence {
+    flex-direction: column;
+  }
+
+  .indexview .sequencetitle {
+    width: 100%;
+    padding-right: 0;
+    margin-bottom: 5px;
+  }
+
+  .indexview .sequencemodules {
+    width: 100%;
+  }
+}
+
 </style>
 
 <script>

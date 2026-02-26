@@ -11,38 +11,6 @@
 
 
 <style >
-#default {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
-  background-color: #F2EDE7;
-  font-family: "IBM Plex Sans", Helvetica, sans-serif;
-}
-a, a:visited {
-  color: #555;
-}
-#default > * {
-}
-#nav-column {
-  padding: 20px 30px;
-  overflow-y: auto;
-  flex-grow: 0;
-  flex-shrink: 0;
-  width: 90vw;
-  max-width: 900px; 
-} 
-.moduleindex {
-}
-  
-.introblurb {
-  margin-bottom: 20px;
-  max-width: 600px;
-}
-#graph-column {
-  display: none;
-}
-
 #layout-module {
   display: flex;
   width: 100%;
@@ -55,8 +23,9 @@ a, a:visited {
   color: #555;
 }
 
-
-#default > * {
+.introblurb {
+  margin-bottom: 20px;
+  max-width: 600px;
 }
 
 #nav-column {
@@ -79,6 +48,31 @@ a, a:visited {
 #graph-column {
   display: none;
 }
+
+@media (max-width: 768px) {
+  #layout-module {
+    flex-direction: column;
+    height: auto;
+    min-height: 100vh;
+  }
+
+  #nav-column {
+    flex-basis: auto;
+    width: 100%;
+    max-height: 40vh;
+    padding: 15px 20px;
+    border-bottom: 2px solid #ccc;
+  }
+
+  #logo {
+    height: 70px;
+  }
+
+  #content-column {
+    overflow-y: visible;
+    width: 100%;
+  }
+}
 </style>
 
 <script>
@@ -87,5 +81,4 @@ export default {
 }
 
 </script>
-
 
