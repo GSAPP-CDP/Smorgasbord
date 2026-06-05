@@ -19,7 +19,7 @@ One map using quantitative symbology to convey information about housing in NYC 
 - 2018-2022 American Community Survey, 5 year estimates for housing and tenure variables at the census block level
 - 2022 Census blocks for New York City
 
-Please download both datasets from Canvas [here](https://courseworks2.columbia.edu/courses/223297/files/folder/Data) in the tutorial 02 folder.
+Please download both datasets from Canvas [here](https://drive.google.com/open?id=180jf8jaDb2-uajVybM0OMa9nyh9omoaU&usp=drive_fs) in the tutorial 02 folder.
 
 Save them in the data folder that you have created for working on tutorials in this course. 
 
